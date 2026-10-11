@@ -198,7 +198,13 @@ def is_uzbek_cyrillic(text: str) -> bool:
 
 SHIFR_RE = re.compile(r"(\d{2}\.\d{2}\.\d{2})\s*[–—-]?\s*(.+?)(?:\s*\(|\.?\s*$)")
 NAME_RE = re.compile(r"^(.+?)ning\s+(?:falsafa|fan)\s+doktori", re.IGNORECASE)
-FIELD_LAT_RE = re.compile(r"\(([\w‘’' ]+?)\s+fanlari\)", re.IGNORECASE)
+FIELD_LAT_RE = re.compile(r"\(([\w‘’'ʻ` -]+?)\s+fanlari\)", re.IGNORECASE)
+
+
+def field_tag(field: str) -> str:
+    """'qishloq xo‘jaligi' -> 'qishloq_xojaligi', 'fizika-matematika' -> 'fizika_matematika'"""
+    t = re.sub(r"[‘’'ʻ`]", "", field.lower())
+    return re.sub(r"[\s-]+", "_", t).strip("_")
 RANKS = ("professor", "dotsent", "katta ilmiy xodim", "akademik")
 
 
@@ -283,7 +289,7 @@ def build_message(item: dict, section: str, pdf_link: str | None = None) -> str:
     if info["degree"]:
         tags.append("#" + info["degree"])
     if info["field"]:
-        tags.append("#" + re.sub(r"[‘’'\s]+", "_", info["field"].lower()).strip("_"))
+        tags.append("#" + field_tag(info["field"]))
     if section != SOURCES["/page/8"]:
         tags.append("#mustaqil_kengash")
 
