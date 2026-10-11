@@ -570,6 +570,8 @@ def _to_markup(el) -> str:
             continue
         elif node.name in ("b", "strong"):
             out.append("<b>" + _to_markup(node) + "</b>")
+        elif node.name in ("i", "em"):
+            out.append("<i>" + _to_markup(node) + "</i>")
         elif node.name == "br":
             out.append("<br/>")
         elif node.name in _BLOCK_TAGS:
@@ -621,24 +623,35 @@ def make_pdf(item: dict) -> bytes | None:
     from reportlab.platypus import HRFlowable, Paragraph, SimpleDocTemplate, Spacer
     from reportlab.lib.fonts import addMapping
 
-    reg = next((p for p in ["fonts/DejaVuSans.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"]
-                if Path(p).exists()), None)
-    bold = next((p for p in ["fonts/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"]
-                 if Path(p).exists()), None)
-    if not reg or not bold:
-        log.warning("PDF uchun DejaVu shrifti topilmadi")
+    # Times New Roman ko'rinishi: Liberation Serif (TNR bilan bir xil o'lchamli bepul shrift),
+    # topilmasa — DejaVu Sans
+    def pick(*names):
+        for n in names:
+            for d in ("fonts", "/usr/share/fonts/truetype/liberation", "/usr/share/fonts/truetype/dejavu"):
+                if Path(d, n).exists():
+                    return str(Path(d, n))
         return None
-    if "DV" not in pdfmetrics.getRegisteredFontNames():
-        pdfmetrics.registerFont(TTFont("DV", reg))
-        pdfmetrics.registerFont(TTFont("DV-B", bold))
-        addMapping("DV", 0, 0, "DV"); addMapping("DV", 1, 0, "DV-B")
-        addMapping("DV", 0, 1, "DV"); addMapping("DV", 1, 1, "DV-B")
 
-    body = ParagraphStyle("body", fontName="DV", fontSize=10.5, leading=15.5, alignment=TA_JUSTIFY,
+    faces = {
+        "TNR": pick("LiberationSerif-Regular.ttf", "DejaVuSans.ttf"),
+        "TNR-B": pick("LiberationSerif-Bold.ttf", "DejaVuSans-Bold.ttf"),
+        "TNR-I": pick("LiberationSerif-Italic.ttf", "LiberationSerif-Regular.ttf", "DejaVuSans.ttf"),
+        "TNR-BI": pick("LiberationSerif-BoldItalic.ttf", "LiberationSerif-Bold.ttf", "DejaVuSans-Bold.ttf"),
+    }
+    if not all(faces.values()):
+        log.warning("PDF uchun shrift topilmadi")
+        return None
+    if "TNR" not in pdfmetrics.getRegisteredFontNames():
+        for name, path in faces.items():
+            pdfmetrics.registerFont(TTFont(name, path))
+        addMapping("TNR", 0, 0, "TNR"); addMapping("TNR", 1, 0, "TNR-B")
+        addMapping("TNR", 0, 1, "TNR-I"); addMapping("TNR", 1, 1, "TNR-BI")
+
+    body = ParagraphStyle("body", fontName="TNR", fontSize=12, leading=16.5, alignment=TA_JUSTIFY,
                           spaceAfter=5)
-    title_st = ParagraphStyle("title", fontName="DV-B", fontSize=13, leading=18, alignment=TA_CENTER,
-                              spaceAfter=10)
-    meta = ParagraphStyle("meta", fontName="DV", fontSize=8.5, leading=12, textColor=colors.HexColor("#5b6b80"))
+    title_st = ParagraphStyle("title", fontName="TNR-B", fontSize=14, leading=19, alignment=TA_CENTER,
+                              spaceAfter=12)
+    meta = ParagraphStyle("meta", fontName="TNR", fontSize=10, leading=13, textColor=colors.HexColor("#5b6b80"))
 
     # Matn: to'liq sahifadan, topilmasa — e'lonlar ro'yxatidagi qisqa matndan
     paragraphs = []
@@ -685,7 +698,7 @@ def make_pdf(item: dict) -> bytes | None:
 
     def on_page(canvas, doc):
         canvas.saveState()
-        canvas.setFont("DV", 8)
+        canvas.setFont("TNR", 9.5)
         canvas.setFillColor(colors.HexColor("#7a8799"))
         canvas.drawString(20 * mm, 10 * mm, footer)
         canvas.drawRightString(A4[0] - 20 * mm, 10 * mm, f"{doc.page}-bet")
