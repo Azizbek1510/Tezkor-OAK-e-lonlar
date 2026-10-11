@@ -74,7 +74,19 @@ def _ensure_locale() -> None:
         log.warning("Sayt tilini o'zgartirib bo'lmadi: %s", e)
 
 
+_page_cache: dict = {}
+
+
 def fetch(url: str, tries: int = 3) -> str:
+    if url in _page_cache:
+        return _page_cache[url]
+    html_text = _fetch(url, tries)
+    if "/pages/" in url:                 # e'lon sahifasi: matn va PDF uchun bir marta yuklaymiz
+        _page_cache[url] = html_text
+    return html_text
+
+
+def _fetch(url: str, tries: int = 3) -> str:
     _ensure_locale()
     for i in range(tries):
         try:
@@ -234,7 +246,7 @@ def short_person(value: str) -> str:
 
 def extract(item: dict) -> dict:
     title = to_latin(item["title"])
-    summary = to_latin(item["summary"])
+    summary = to_latin(item.get("full") or item["summary"])
     info = {"title": title, "degree": "", "field": "", "name": "", "topic": "",
             "shifr": "", "supervisor": "", "institution": "", "council": "",
             "date": item.get("date", "")}
@@ -251,12 +263,16 @@ def extract(item: dict) -> dict:
     if fm:
         info["field"] = fm.group(1).strip()
 
-    for line in summary.split("\n"):
+    lines = summary.split("\n")
+    for n, line in enumerate(lines):
         if ":" not in line:
             continue
         label, value = line.split(":", 1)
         lab, value = label.lower(), value.strip()
         if "mavzu" in lab and "shifr" in lab and not info["topic"]:
+            # Shifr ba'zan keyingi qatorda turadi: 05.05.07-“...”
+            if not SHIFR_RE.search(value) and n + 1 < len(lines) and re.match(r"\s*\d{2}\.\d{2}\.\d{2}", lines[n + 1]):
+                value = value.rstrip(" ,") + ", " + lines[n + 1].strip()
             sm = SHIFR_RE.search(value)
             if sm:
                 spec = re.sub(r"\s+ixtisosligi$", "", sm.group(2).strip(" “”\"«»„"), flags=re.IGNORECASE)
@@ -265,7 +281,8 @@ def extract(item: dict) -> dict:
             info["topic"] = value.strip(" ,.;").strip("“”\"«»„ ")
         elif ("rahbar" in lab or "maslahatchi" in lab) and not info["supervisor"]:
             info["supervisor"] = short_person(value)
-        elif re.search(r"\bik\b", lab) and not info["council"]:
+        elif (re.search(r"\bik\b", lab) or ("ilmiy kengash" in lab and ("faoliyat" in lab or "raqam" in lab))) \
+                and not info["council"]:
             name = re.split(r",?\s*(?:DSc|PhD|DSC|PHD)\s*[.\d]", value)[0]
             info["council"] = name.strip(" ,.;")
         elif "bajarilgan" in lab or "bajarilayotgan" in lab:
@@ -273,9 +290,12 @@ def extract(item: dict) -> dict:
     return info
 
 
-def build_message(item: dict, section: str, pdf_link: str | None = None) -> str:
+def build_message(item: dict, section: str, pdf_link: str | None = None,
+                  topic_limit: int | None = None) -> str:
     e = html.escape
     info = extract(item)
+    if topic_limit is not None and len(info["topic"]) > topic_limit:
+        info["topic"] = (info["topic"][:topic_limit].rsplit(" ", 1)[0] + "…") if topic_limit > 0 else ""
 
     parts = [f"🎓 <b>{e(info['title'])}</b>"]
 
@@ -783,7 +803,29 @@ def upload_pdf(pdf: bytes, filename: str, month: str = "") -> str | None:
     return r.json()["browser_download_url"]
 
 
+def enrich(item: dict) -> None:
+    """Ma'lumotlarni ro'yxatdagi qisqa matndan emas, e'lonning to'liq sahifasidan olamiz."""
+    if item.get("full"):
+        return
+    try:
+        el = fetch_detail(item)
+        if el is not None:
+            item["full"] = clean_text(copy.copy(el))
+    except Exception as ex:  # noqa: BLE001
+        log.warning("To'liq sahifa o'qilmadi (%s) — ro'yxatdagi matndan foydalanamiz", ex)
+
+
+def fit_caption(item: dict, section: str, pdf_link: str | None) -> tuple[str, bool]:
+    """Izoh 1024 belgiga sig'masa, mavzuni qisqartiramiz — post baribir rasm bilan chiqsin."""
+    for lim in (None, 500, 320, 200, 120, 0):
+        t = build_message(item, section, pdf_link, topic_limit=lim)
+        if _visible_len(t) <= CAPTION_LIMIT:
+            return t, True
+    return build_message(item, section, pdf_link), False
+
+
 def publish(item: dict, section: str, silent: bool = False) -> None:
+    enrich(item)
     # 1) Ma'lumotnoma: PDF yasab yuklaymiz (xato bo'lsa — post havolasiz chiqadi)
     pdf_link = None
     try:
@@ -798,8 +840,8 @@ def publish(item: dict, section: str, silent: bool = False) -> None:
         log.error("Ma'lumotnoma tayyorlanmadi: %s", ex)
 
     # 2) Post
-    text = build_message(item, section, pdf_link=pdf_link)
-    if _visible_len(text) <= CAPTION_LIMIT:
+    text, fits = fit_caption(item, section, pdf_link)
+    if fits:
         try:
             card = make_card(extract(item))
             if card:
@@ -869,7 +911,7 @@ def collect(seen: set[int], deep: bool) -> list[tuple[dict, str]]:
     kech joylangan, eski sanali e'lonlarni ham topish uchun."""
     start = parse_date(START_DATE) or date(2000, 1, 1)
     bound = max(start, today_uz() - timedelta(days=DEEP_DAYS)) if deep else start
-    limit = DEEP_MAX_PAGES if deep else MAX_PAGES
+    limit = DEEP_MAX_PAGES
     found = {}
     for path, section in SOURCES.items():
         for page in range(1, limit + 1):
@@ -883,14 +925,24 @@ def collect(seen: set[int], deep: bool) -> list[tuple[dict, str]]:
                 if page == 1:
                     log.warning("%s sahifasida e'lon topilmadi — sayt tuzilishi o'zgargan bo'lishi mumkin", url)
                 break
+            known = 0
             for i in items:
                 d = parse_date(i["date"])
-                if i["id"] in seen or (d is not None and d < start) or (d is None and page > 1):
+                if i["id"] in seen:
+                    known += 1
+                    continue
+                if (d is not None and d < start) or (d is None and page > 1):
                     continue
                 found.setdefault(i["id"], (i, section))
             dates = [parse_date(i["date"]) for i in items if parse_date(i["date"])]
             if dates and min(dates) < bound:      # chegaradan o'tdik
                 break
+            # Oddiy tekshiruvda 3-sahifadan keyin ham davom etamiz, agar sahifadagi e'lonlarning
+            # birortasi ham tanish bo'lmasa — demak qisqa vaqtda juda ko'p e'lon joylangan
+            if not deep and page >= MAX_PAGES and known > 0:
+                break
+            if not deep and page >= MAX_PAGES:
+                log.info("%s: %d-sahifada ham hammasi yangi — keyingi sahifani tekshiramiz", path, page)
             if deep:
                 time.sleep(0.4)                   # saytga ortiqcha yuk bermaslik uchun
     # Eskidan yangiga: avval sana, keyin raqam bo'yicha
