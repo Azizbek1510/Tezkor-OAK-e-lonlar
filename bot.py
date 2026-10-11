@@ -244,6 +244,20 @@ def short_person(value: str) -> str:
     return f"{name}, {rank}" if rank else name
 
 
+COUNCIL_CODE_RE = re.compile(r"\b(?:DSc|PhD)\s*\.?\s*\d[\w./-]*", re.IGNORECASE)
+
+
+def council_name(value: str) -> str:
+    """'TDIU, DSc.03/2025.27.12.I.16.01' -> 'TDIU';
+    'DSc.03/... raqamli ilmiy kengash qoshidagi ... (TDIU)' -> nomi saqlanadi, raqam olib tashlanadi"""
+    before = COUNCIL_CODE_RE.split(value, 1)[0].strip(" ,.;:")
+    if len(before) >= 5:
+        return before
+    cleaned = COUNCIL_CODE_RE.sub("", value)
+    cleaned = re.sub(r"\braqamli\b", "", cleaned, flags=re.IGNORECASE)
+    return re.sub(r"\s{2,}", " ", cleaned).strip(" ,.;:")
+
+
 def extract(item: dict) -> dict:
     title = to_latin(item["title"])
     summary = to_latin(item.get("full") or item["summary"])
@@ -281,10 +295,10 @@ def extract(item: dict) -> dict:
             info["topic"] = value.strip(" ,.;").strip("“”\"«»„ ")
         elif ("rahbar" in lab or "maslahatchi" in lab) and not info["supervisor"]:
             info["supervisor"] = short_person(value)
-        elif (re.search(r"\bik\b", lab) or ("ilmiy kengash" in lab and ("faoliyat" in lab or "raqam" in lab))) \
-                and not info["council"]:
-            name = re.split(r",?\s*(?:DSc|PhD|DSC|PHD)\s*[.\d]", value)[0]
-            info["council"] = name.strip(" ,.;")
+        elif (re.search(r"\bik\b", lab) or "kengash" in lab) and "opponent" not in lab and not info["council"]:
+            if not value and n + 1 < len(lines):          # nomi keyingi qatorda yozilgan
+                value = lines[n + 1].strip()
+            info["council"] = council_name(value)
         elif "bajarilgan" in lab or "bajarilayotgan" in lab:
             info["institution"] = info["institution"] or value.strip(" .")
     return info
@@ -308,7 +322,7 @@ def build_message(item: dict, section: str, pdf_link: str | None = None,
         body.append(f"👨‍🏫 Ilmiy rahbar: {e(info['supervisor'])}")
     if info["institution"]:
         body.append(f"🏛 {e(info['institution'])}")
-    if info["council"] and info["council"] != info["institution"]:
+    if info["council"]:
         body.append(f"🏢 Ilmiy kengash: {e(info['council'])}")
     parts.append("\n".join(body))
 
