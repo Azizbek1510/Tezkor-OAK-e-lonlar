@@ -244,6 +244,26 @@ def short_person(value: str) -> str:
     return f"{name}, {rank}" if rank else name
 
 
+# Ixtisoslik shifri: 10.00.06 (sana 28.09.2026 va kengash raqami 30.12.2019 bilan adashtirmaslik uchun)
+CODE_RE = re.compile(r"(?<![\d./])(\d{2}\.\d{2}\.\d{2})(?![\d])(?!\.\d)")
+
+
+def parse_shifr(text: str) -> tuple[str, int] | None:
+    """Matndan 'shifr – ixtisoslik nomi' ni topadi. (natija, shifr boshlangan joy) qaytaradi."""
+    m = CODE_RE.search(text)
+    if not m:
+        return None
+    rest = text[m.end():]
+    rest = re.sub(r"^\s*[–—-]?\s*", "", rest)
+    spec = re.split(r"\s*\(|\)|;|\n", rest, 1)[0]
+    spec = re.sub(r"\.\s*$", "", spec).strip(" ,.:“”\"«»„")
+    spec = re.sub(r"\s+ixtisosligi(\s+bo‘yicha|\s+bo'yicha)?$", "", spec, flags=re.IGNORECASE)
+    spec = spec.strip(" ,.:“”\"«»„")
+    if len(spec) > 160:                 # nom o'rniga boshqa matn ilashib qolgan
+        spec = spec[:160].rsplit(" ", 1)[0] + "…"
+    return (f"{m.group(1)} – {spec}" if spec else m.group(1)), m.start()
+
+
 COUNCIL_CODE_RE = re.compile(r"\b(?:DSc|PhD)\s*\.?\s*\d[\w./-]*", re.IGNORECASE)
 
 
@@ -283,16 +303,20 @@ def extract(item: dict) -> dict:
             continue
         label, value = line.split(":", 1)
         lab, value = label.lower(), value.strip()
-        if "mavzu" in lab and "shifr" in lab and not info["topic"]:
+        if "mavzu" in lab and not info["topic"] and not re.search(r"ro‘yxat|ro'yxat|raqam", lab):
             # Shifr ba'zan keyingi qatorda turadi: 05.05.07-“...”
-            if not SHIFR_RE.search(value) and n + 1 < len(lines) and re.match(r"\s*\d{2}\.\d{2}\.\d{2}", lines[n + 1]):
+            if not CODE_RE.search(value) and n + 1 < len(lines) and CODE_RE.match(lines[n + 1].strip()):
                 value = value.rstrip(" ,") + ", " + lines[n + 1].strip()
-            sm = SHIFR_RE.search(value)
-            if sm:
-                spec = re.sub(r"\s+ixtisosligi$", "", sm.group(2).strip(" “”\"«»„"), flags=re.IGNORECASE)
-                info["shifr"] = f"{sm.group(1)} – {spec}"
-                value = value[:sm.start()]
-            info["topic"] = value.strip(" ,.;").strip("“”\"«»„ ")
+            got = parse_shifr(value)
+            if got:
+                info["shifr"] = info["shifr"] or got[0]
+                value = value[:got[1]]
+            info["topic"] = value.strip(" ,.;(–—-").strip("“”\"«»„ ")
+        elif ("ixtisoslik" in lab or "shifr" in lab) and not info["shifr"]:
+            src = value or (lines[n + 1] if n + 1 < len(lines) else "")
+            got = parse_shifr(src)
+            if got:
+                info["shifr"] = got[0]
         elif ("rahbar" in lab or "maslahatchi" in lab) and not info["supervisor"]:
             info["supervisor"] = short_person(value)
         elif (re.search(r"\bik\b", lab) or "kengash" in lab) and "opponent" not in lab and not info["council"]:
@@ -301,6 +325,14 @@ def extract(item: dict) -> dict:
             info["council"] = council_name(value)
         elif "bajarilgan" in lab or "bajarilayotgan" in lab:
             info["institution"] = info["institution"] or value.strip(" .")
+    if not info["shifr"]:                      # yorliqsiz yozilgan bo'lsa — butun matndan qidiramiz
+        for line in lines:
+            if re.search(r"opponent|raqam|kengash", line, re.IGNORECASE):
+                continue
+            got = parse_shifr(line)
+            if got:
+                info["shifr"] = got[0]
+                break
     return info
 
 
