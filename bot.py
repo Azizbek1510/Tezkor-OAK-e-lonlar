@@ -288,29 +288,44 @@ from io import BytesIO
 from PIL import Image, ImageDraw, ImageFont
 
 CAPTION_LIMIT = 1024
-W, H = 1280, 720
-PAD = 72
-THEMES = {   # (yuqori rang, pastki rang, aksent)
-    "PhD": ((12, 36, 66), (24, 78, 138), (242, 184, 75)),
-    "DSc": ((48, 16, 66), (112, 40, 120), (255, 205, 110)),
-    "": ((20, 44, 52), (28, 104, 110), (242, 184, 75)),
+CARD_TITLE = "TEZKOR OAK HIMOYA E’LONLARI"
+BW, BH = 1920, 1080      # yakuniy o'lcham
+S = 2                    # silliqlik uchun 2 baravar katta chizib, keyin kichraytiramiz
+THEMES = {
+    #        fon (yuqori)    fon (past)       nur            aksent
+    "PhD": ((7, 22, 52), (18, 70, 140), (70, 150, 255), (255, 196, 87)),
+    "DSc": ((30, 8, 48), (98, 30, 118), (205, 95, 255), (255, 206, 120)),
+    "": ((8, 36, 44), (20, 100, 108), (60, 210, 200), (255, 196, 87)),
 }
-_FONT_DIRS = [Path("fonts"), Path("/usr/share/fonts/truetype/dejavu")]
+DEGREE_NAMES = {"PhD": "Falsafa doktori", "DSc": "Fan doktori"}
+_FONTS = {
+    "bold": ["fonts/Poppins-Bold.ttf", "fonts/DejaVuSans-Bold.ttf",
+             "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
+    "medium": ["fonts/Poppins-Medium.ttf", "fonts/DejaVuSans-Bold.ttf",
+               "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
+    "regular": ["fonts/Poppins-Regular.ttf", "fonts/DejaVuSans.ttf",
+                "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
+}
+_font_cache: dict = {}
 
 
-def _font(size: int, bold: bool = False):
-    name = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
-    for d in _FONT_DIRS:
-        if (d / name).exists():
-            return ImageFont.truetype(str(d / name), size)
-    return ImageFont.load_default(size)
+def _font(size: int, weight: str = "regular"):
+    key = (size, weight)
+    if key not in _font_cache:
+        for p in _FONTS[weight]:
+            if Path(p).exists():
+                _font_cache[key] = ImageFont.truetype(p, size * S)
+                break
+        else:
+            _font_cache[key] = ImageFont.load_default(size * S)
+    return _font_cache[key]
 
 
 def _wrap(draw, text, font, width):
     lines, cur = [], ""
     for word in text.split():
         test = f"{cur} {word}".strip()
-        if draw.textlength(test, font=font) <= width:
+        if draw.textlength(test, font=font) <= width * S:
             cur = test
         else:
             if cur:
@@ -321,93 +336,168 @@ def _wrap(draw, text, font, width):
     return lines
 
 
-def _fit(draw, text, width, max_lines, sizes, bold):
-    """Matnni berilgan kenglik va qatorlar soniga sig'adigan eng katta shrift bilan joylaydi."""
+def _fit(draw, text, width, max_lines, sizes, weight):
     for size in sizes:
-        font = _font(size, bold)
+        font = _font(size, weight)
         lines = _wrap(draw, text, font, width)
         if len(lines) <= max_lines:
-            return font, lines
-    font = _font(sizes[-1], bold)
+            return font, size, lines
+    size = sizes[-1]
+    font = _font(size, weight)
     lines = _wrap(draw, text, font, width)[:max_lines]
     lines[-1] = lines[-1].rstrip(" ,.") + "…"
-    return font, lines
+    return font, size, lines
+
+
+def _spaced(draw, xy, text, font, fill, tracking):
+    """Harflar orasi kengaytirilgan matn."""
+    x, y = xy
+    for ch in text:
+        draw.text((x * S, y * S), ch, font=font, fill=fill)
+        x += draw.textlength(ch, font=font) / S + tracking
+    return x
+
+
+def _spaced_len(draw, text, font, tracking):
+    return sum(draw.textlength(ch, font=font) / S + tracking for ch in text) - tracking
+
+
+def _cap_icon(draw, x, y, size, bg, fg):
+    """Bitiruvchi qalpoqchasi belgisi."""
+    k = size / 72
+    P = lambda px, py: ((x + px * k) * S, (y + py * k) * S)  # noqa: E731
+    draw.rounded_rectangle((x * S, y * S, (x + size) * S, (y + size) * S), radius=int(20 * k * S), fill=bg)
+    draw.polygon([P(20, 38), P(52, 38), P(52, 50), P(36, 56), P(20, 50)], fill=fg)
+    draw.polygon([P(36, 16), P(62, 30), P(36, 44), P(10, 30)], fill=fg)
+    draw.line([P(58, 32), P(58, 50)], fill=fg, width=int(4 * k * S))
+    draw.ellipse([P(54, 48), P(62, 56)], fill=fg)
 
 
 def make_card(info: dict) -> bytes | None:
+    from PIL import ImageFilter
+
     shifr = info.get("shifr", "")
     council = info.get("council") or info.get("institution", "")
     if not shifr and not council:
         return None
     code, _, spec = shifr.partition(" – ")
-    top, bottom, accent = THEMES.get(info.get("degree", ""), THEMES[""])
+    degree = info.get("degree", "")
+    top, bottom, glow, accent = THEMES.get(degree, THEMES[""])
+    W, H = BW * S, BH * S
+    white = (255, 255, 255)
+    soft = (214, 226, 244)
 
-    # Gradient fon
-    img = Image.new("RGB", (W, H))
-    px = ImageDraw.Draw(img)
-    for y in range(H):
-        t = y / H
-        px.line([(0, y), (W, y)], fill=tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3)))
+    # 1) Diagonal gradient fon
+    vert = Image.linear_gradient("L").resize((W, H))
+    horiz = Image.linear_gradient("L").transpose(Image.Transpose.ROTATE_90).transpose(
+        Image.Transpose.FLIP_LEFT_RIGHT).resize((W, H))
+    grad = Image.blend(vert, horiz, 0.45)
+    img = Image.composite(Image.new("RGB", (W, H), bottom), Image.new("RGB", (W, H), top), grad).convert("RGBA")
 
-    # Bezak doiralari
+    # 2) Yumshoq nur va bezaklar
+    fx = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    fd = ImageDraw.Draw(fx)
+    fd.ellipse((W - 900 * S, -500 * S, W + 300 * S, 650 * S), fill=glow + (110,))
+    fd.ellipse((-400 * S, H - 300 * S, 500 * S, H + 500 * S), fill=glow + (55,))
+    fx = fx.filter(ImageFilter.GaussianBlur(160 * S))
+    img = Image.alpha_composite(img, fx)
+
     deco = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     dd = ImageDraw.Draw(deco)
-    dd.ellipse((W - 360, -220, W + 260, 400), outline=(255, 255, 255, 28), width=40)
-    dd.ellipse((W - 250, -110, W + 150, 290), outline=(255, 255, 255, 18), width=18)
-    img = Image.alpha_composite(img.convert("RGBA"), deco)
+    cx, cy = W - 170 * S, 120 * S
+    for r, a, w in ((520, 26, 3), (400, 34, 3), (280, 44, 2)):
+        dd.ellipse((cx - r * S, cy - r * S, cx + r * S, cy + r * S), outline=(255, 255, 255, a), width=w * S)
+    for gx in range(12):                       # nuqtali to'r
+        for gy in range(5):
+            px_, py_ = (1450 + gx * 34) * S, (880 + gy * 34) * S
+            dd.ellipse((px_ - 3 * S, py_ - 3 * S, px_ + 3 * S, py_ + 3 * S), fill=(255, 255, 255, 30))
+    img = Image.alpha_composite(img, deco)
+
     d = ImageDraw.Draw(img)
-    white, soft = (255, 255, 255), (205, 218, 235)
+    PAD = 110
 
-    # Yuqori qator: kanal nomi va daraja belgisi
-    d.rectangle((0, 0, 12, H), fill=accent)
-    d.text((PAD, 56), "TEZKOR OAK E’LONLAR", font=_font(26, True), fill=soft)
-    if info.get("degree"):
-        bf = _font(34, True)
-        bw = d.textlength(info["degree"], font=bf) + 48
-        x0 = W - PAD - bw
-        d.rounded_rectangle((x0, 44, W - PAD, 100), radius=28, fill=accent)
-        d.text((x0 + 24, 53), info["degree"], font=bf, fill=top)
+    # 3) Sarlavha qismi
+    _cap_icon(d, PAD, 74, 80, accent, top)
+    _spaced(d, (PAD + 108, 76), CARD_TITLE, _font(34, "bold"), white, 3)
+    d.text(((PAD + 108) * S, 124 * S), "Dissertatsiya himoyasi haqida e’lon", font=_font(24, "regular"), fill=soft)
 
-    text_w = W - 2 * PAD
-    y = 150
-    # Ixtisoslik
+    if degree:
+        bf, sf = _font(40, "bold"), _font(20, "medium")
+        sub = DEGREE_NAMES.get(degree, "")
+        bw = max(d.textlength(degree, font=bf), d.textlength(sub, font=sf)) / S + 64
+        x0 = BW - PAD - bw
+        d.rounded_rectangle((x0 * S, 70 * S, (BW - PAD) * S, 162 * S), radius=26 * S, fill=accent)
+        d.text(((x0 + bw / 2) * S, 104 * S), degree, font=bf, fill=top, anchor="mm")
+        d.text(((x0 + bw / 2) * S, 140 * S), sub, font=sf, fill=top, anchor="mm")
+
+    # 4) Asosiy panel — avval o'lchaymiz, keyin chizamiz
+    inner = BW - 2 * PAD - 2 * 72
+    ops, h = [], 0
     if shifr:
-        d.text((PAD, y), "IXTISOSLIK", font=_font(24, True), fill=accent)
-        y += 40
+        ops.append(("label", "IXTISOSLIK", h)); h += 46
         if code and spec:
-            d.text((PAD, y), code, font=_font(64, True), fill=white)
-            y += 84
+            ops.append(("code", code, h)); h += 118
             text = spec
         else:
             text = shifr
-        font, lines = _fit(d, text, text_w, 3, [46, 42, 38, 34, 30], True)
-        for line in lines:
-            d.text((PAD, y), line, font=font, fill=white)
-            y += int(font.size * 1.25)
-        y += 26
-        d.line((PAD, y, PAD + 140, y), fill=accent, width=5)
-        y += 34
-
-    # Ilmiy kengash
+        font, size, lines = _fit(d, text, inner, 3, [64, 58, 52, 46, 42], "bold")
+        for ln in lines:
+            ops.append(("spec", (ln, font), h)); h += int(size * 1.22)
+        h += 34
+        ops.append(("divider", None, h)); h += 42
     if council:
-        d.text((PAD, y), "ILMIY KENGASH", font=_font(24, True), fill=accent)
-        y += 40
-        room = max(1, min(3, (H - 110 - y) // 44))
-        font, lines = _fit(d, council, text_w, room, [36, 32, 29, 26], False)
-        for line in lines:
-            d.text((PAD, y), line, font=font, fill=soft)
-            y += int(font.size * 1.3)
+        ops.append(("label", "ILMIY KENGASH", h)); h += 50
+        room = 2 if shifr else 4
+        font, size, lines = _fit(d, council, inner, room, [46, 42, 38, 34], "regular")
+        for ln in lines:
+            ops.append(("council", (ln, font), h)); h += int(size * 1.35)
 
-    # Pastki qator
-    foot = _font(24, False)
+    panel_h = h + 2 * 60
+    area_top, area_bottom = 210, 930
+    py0 = area_top + max(0, (area_bottom - area_top - panel_h) // 2)
+    glass = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    gd = ImageDraw.Draw(glass)
+    gd.rounded_rectangle((PAD * S, py0 * S, (BW - PAD) * S, (py0 + panel_h) * S),
+                         radius=36 * S, fill=(255, 255, 255, 20), outline=(255, 255, 255, 46), width=2 * S)
+    gd.rounded_rectangle((PAD * S, (py0 + 40) * S, (PAD + 8) * S, (py0 + panel_h - 40) * S),
+                         radius=4 * S, fill=accent + (255,))
+    img = Image.alpha_composite(img, glass)
+    d = ImageDraw.Draw(img)
+
+    x = PAD + 72
+    y0 = py0 + 60
+    for kind, val, off in ops:
+        y = y0 + off
+        if kind == "label":
+            _spaced(d, (x, y), val, _font(24, "medium"), accent, 4)
+        elif kind == "code":
+            d.text((x * S, (y - 14) * S), val, font=_font(100, "bold"), fill=white)
+        elif kind == "spec":
+            d.text((x * S, y * S), val[0], font=val[1], fill=white)
+        elif kind == "divider":
+            d.rounded_rectangle((x * S, y * S, (x + 150) * S, (y + 6) * S), radius=3 * S, fill=accent)
+        elif kind == "council":
+            d.text((x * S, y * S), val[0], font=val[1], fill=soft)
+
+    # 5) Pastki qator
+    fy = 990
+    ff = _font(28, "medium")
     if CHANNEL_SIGNATURE:
-        d.text((PAD, H - 64), CHANNEL_SIGNATURE, font=foot, fill=soft)
+        d.text((PAD * S, fy * S), CHANNEL_SIGNATURE, font=ff, fill=white, anchor="lm")
+    else:
+        d.text((PAD * S, fy * S), "oak.uz", font=ff, fill=white, anchor="lm")
     if info.get("field"):
         label = info["field"][:1].upper() + info["field"][1:] + " fanlari"
-        d.text((W - PAD - d.textlength(label, font=foot), H - 64), label, font=foot, fill=soft)
+        lf = _font(26, "medium")
+        lw = d.textlength(label, font=lf) / S + 56
+        x1 = BW - PAD
+        d.rounded_rectangle(((x1 - lw) * S, (fy - 30) * S, x1 * S, (fy + 30) * S),
+                            radius=30 * S, outline=(255, 255, 255, 140), width=2 * S)
+        d.text(((x1 - lw / 2) * S, fy * S), label, font=lf, fill=white, anchor="mm")
 
+    final = img.convert("RGB").resize((BW, BH), Image.LANCZOS)
     buf = BytesIO()
-    img.convert("RGB").save(buf, "JPEG", quality=92)
+    final.save(buf, "JPEG", quality=95, subsampling=0, optimize=True)
     return buf.getvalue()
 
 
