@@ -190,7 +190,8 @@ def extract(item: dict) -> dict:
     title = to_latin(item["title"])
     summary = to_latin(item["summary"])
     info = {"title": title, "degree": "", "field": "", "name": "", "topic": "",
-            "shifr": "", "supervisor": "", "institution": "", "council": ""}
+            "shifr": "", "supervisor": "", "institution": "", "council": "",
+            "date": item.get("date", "")}
 
     if "DSc" in title:
         info["degree"] = "DSc"
@@ -254,6 +255,8 @@ def build_message(item: dict, section: str) -> str:
         tags.append("#mustaqil_kengash")
 
     link = f'🔗 <a href="{item["url"]}">To‘liq e’lon — oak.uz</a>'
+    if info["date"]:
+        link = f"📅 E’lon sanasi: <b>{e(info['date'])}</b>\n" + link
     parts.append(link + ("\n" + " ".join(tags) if tags else ""))
     if CHANNEL_SIGNATURE:
         parts.append(f"📢 {e(CHANNEL_SIGNATURE)}")
@@ -419,7 +422,13 @@ def make_card(info: dict) -> bytes | None:
     # 3) Sarlavha qismi
     _cap_icon(d, PAD, 74, 80, accent, top)
     _spaced(d, (PAD + 108, 76), CARD_TITLE, _font(34, "bold"), white, 3)
-    d.text(((PAD + 108) * S, 124 * S), "Dissertatsiya himoyasi haqida e’lon", font=_font(24, "regular"), fill=soft)
+    sub_f = _font(24, "regular")
+    sub_t = "Dissertatsiya himoyasi haqida e’lon"
+    d.text(((PAD + 108) * S, 124 * S), sub_t, font=sub_f, fill=soft)
+    if info.get("date"):
+        sx = PAD + 108 + d.textlength(sub_t, font=sub_f) / S
+        d.text(((sx + 14) * S, 124 * S), "•", font=sub_f, fill=soft)
+        d.text(((sx + 40) * S, 124 * S), info["date"], font=_font(24, "bold"), fill=accent)
 
     if degree:
         bf, sf = _font(40, "bold"), _font(20, "medium")
