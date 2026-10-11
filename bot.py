@@ -163,7 +163,7 @@ def to_latin(text: str) -> str:
 
 # ---------- E'lon matnidan maydonlarni ajratib olish ----------
 
-SHIFR_RE = re.compile(r"(\d{2}\.\d{2}\.\d{2})\s*[–—-]\s*(.+?)(?:\s*\(|\.?\s*$)")
+SHIFR_RE = re.compile(r"(\d{2}\.\d{2}\.\d{2})\s*[–—-]?\s*(.+?)(?:\s*\(|\.?\s*$)")
 NAME_RE = re.compile(r"^(.+?)ning\s+(?:falsafa|fan)\s+doktori", re.IGNORECASE)
 FIELD_LAT_RE = re.compile(r"\(([\w‘’' ]+?)\s+fanlari\)", re.IGNORECASE)
 RANKS = ("professor", "dotsent", "katta ilmiy xodim", "akademik")
@@ -213,7 +213,7 @@ def extract(item: dict) -> dict:
         if "mavzu" in lab and "shifr" in lab and not info["topic"]:
             sm = SHIFR_RE.search(value)
             if sm:
-                spec = re.sub(r"\s+ixtisosligi$", "", sm.group(2).strip(), flags=re.IGNORECASE)
+                spec = re.sub(r"\s+ixtisosligi$", "", sm.group(2).strip(" “”\"«»„"), flags=re.IGNORECASE)
                 info["shifr"] = f"{sm.group(1)} – {spec}"
                 value = value[:sm.start()]
             info["topic"] = value.strip(" ,.;").strip("“”\"«»„ ")
@@ -227,7 +227,7 @@ def extract(item: dict) -> dict:
     return info
 
 
-def build_message(item: dict, section: str) -> str:
+def build_message(item: dict, section: str, pdf_link: str | None = None) -> str:
     e = html.escape
     info = extract(item)
 
@@ -255,6 +255,8 @@ def build_message(item: dict, section: str) -> str:
         tags.append("#mustaqil_kengash")
 
     link = f'🔗 <a href="{item["url"]}">To‘liq e’lon — oak.uz</a>'
+    if pdf_link:
+        link = f'📄 <a href="{pdf_link}">E’lon to‘g‘risida ma’lumotnoma (PDF)</a>\n' + link
     if info["date"]:
         link = f"📅 E’lon sanasi: <b>{e(info['date'])}</b>\n" + link
     parts.append(link + ("\n" + " ".join(tags) if tags else ""))
@@ -263,25 +265,26 @@ def build_message(item: dict, section: str) -> str:
     return "\n\n".join(parts)
 
 
-def send_message(text: str) -> None:
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
-    payload = {
-        "chat_id": CHANNEL_ID,
-        "text": text,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True,
-    }
+def _tg(method: str, data: dict, files: dict | None = None) -> dict:
+    """Telegram Bot API so'rovi (limitga tushsa kutib, qayta urinadi)."""
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/{method}"
     for _ in range(5):
-        r = requests.post(url, data=payload, timeout=30)
+        r = requests.post(url, data=data, files=files, timeout=60)
         if r.status_code == 429:
             wait = r.json().get("parameters", {}).get("retry_after", 10)
             log.info("Telegram limit, %s soniya kutamiz", wait)
             time.sleep(wait + 1)
             continue
         if not r.ok:
-            raise RuntimeError(f"Telegram xatosi: {r.status_code} {r.text}")
-        return
-    raise RuntimeError("Telegram'ga yuborib bo'lmadi")
+            raise RuntimeError(f"Telegram xatosi ({method}): {r.status_code} {r.text}")
+        return r.json().get("result", {})
+    raise RuntimeError(f"Telegram'ga yuborib bo'lmadi ({method})")
+
+
+def send_message(text: str) -> int:
+    res = _tg("sendMessage", {"chat_id": CHANNEL_ID, "text": text, "parse_mode": "HTML",
+                              "disable_web_page_preview": True})
+    return res.get("message_id", 0)
 
 
 # ---------------- Post rasmi (avtomatik chiziladi) ----------------
@@ -510,36 +513,214 @@ def make_card(info: dict) -> bytes | None:
     return buf.getvalue()
 
 
+# ---------------- E'lon ma'lumotnomasi (PDF) ----------------
+
+_BLOCK_TAGS = {"p", "div", "h1", "h2", "h3", "h4", "h5", "h6", "li", "ul", "ol", "table", "tr",
+               "section", "article", "blockquote", "center"}
+_SKIP_TAGS = {"script", "style", "img", "button", "form", "iframe", "svg", "noscript", "input"}
+
+
+def _compact(t: str) -> str:
+    return re.sub(r"\s+", "", t)
+
+
+def _to_markup(el) -> str:
+    """HTML elementni reportlab tushunadigan oddiy belgilashga o'giradi (qalin, qator, paragraf)."""
+    from bs4 import NavigableString
+    out = []
+    for node in el.children:
+        if isinstance(node, NavigableString):
+            out.append(html.escape(str(node), quote=False))
+        elif node.name in _SKIP_TAGS:
+            continue
+        elif node.name in ("b", "strong"):
+            out.append("<b>" + _to_markup(node) + "</b>")
+        elif node.name == "br":
+            out.append("<br/>")
+        elif node.name in _BLOCK_TAGS:
+            out.append("\n\n" + _to_markup(node) + "\n\n")
+        else:
+            out.append(_to_markup(node))
+    return "".join(out)
+
+
+_NAV_MARKERS = ("boshmenyu", "бошменю", "asosiysahifa", "асосийсаҳифа", "ishonchtelefoni",
+                "ишончтелефони", "saytxaritasi", "сайтхаритаси", "главнаястраница")
+
+
+def fetch_detail(item: dict):
+    """E'lonning to'liq sahifasidan asosiy matn blokini topadi."""
+    soup = BeautifulSoup(fetch(item["url"]), "html.parser")
+    for tag in soup.find_all(["script", "style", "nav", "header", "footer"]):
+        tag.decompose()
+    key = _compact(item["summary"])[:30]
+    if not key:
+        return None
+    best = None
+    for el in soup.find_all(["div", "article", "section", "td", "main"]):
+        txt = _compact(el.get_text())
+        if key in txt and (best is None or len(txt) < best[0]):
+            best = (len(txt), el)
+    if not best:
+        return None
+    # Bo'limlar alohida bloklarda bo'lsa ham hammasini olish uchun yuqoriga kengayamiz,
+    # menyu / yon panel / "Asosiy sahifa" yo'li qo'shilib qoladigan joyda to'xtaymiz
+    el = best[1]
+    while el.parent is not None and el.parent.name not in ("body", "html", "[document]"):
+        ptxt = _compact(el.parent.get_text()).lower()
+        if any(m in ptxt for m in _NAV_MARKERS):
+            break
+        el = el.parent
+    return el
+
+
+def make_pdf(item: dict) -> bytes | None:
+    from reportlab.lib import colors
+    from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY
+    from reportlab.lib.pagesizes import A4
+    from reportlab.lib.styles import ParagraphStyle
+    from reportlab.lib.units import mm
+    from reportlab.pdfbase import pdfmetrics
+    from reportlab.pdfbase.ttfonts import TTFont
+    from reportlab.platypus import HRFlowable, Paragraph, SimpleDocTemplate, Spacer
+    from reportlab.lib.fonts import addMapping
+
+    reg = next((p for p in ["fonts/DejaVuSans.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"]
+                if Path(p).exists()), None)
+    bold = next((p for p in ["fonts/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"]
+                 if Path(p).exists()), None)
+    if not reg or not bold:
+        log.warning("PDF uchun DejaVu shrifti topilmadi")
+        return None
+    if "DV" not in pdfmetrics.getRegisteredFontNames():
+        pdfmetrics.registerFont(TTFont("DV", reg))
+        pdfmetrics.registerFont(TTFont("DV-B", bold))
+        addMapping("DV", 0, 0, "DV"); addMapping("DV", 1, 0, "DV-B")
+        addMapping("DV", 0, 1, "DV"); addMapping("DV", 1, 1, "DV-B")
+
+    body = ParagraphStyle("body", fontName="DV", fontSize=10.5, leading=15.5, alignment=TA_JUSTIFY,
+                          spaceAfter=5)
+    title_st = ParagraphStyle("title", fontName="DV-B", fontSize=13, leading=18, alignment=TA_CENTER,
+                              spaceAfter=10)
+    meta = ParagraphStyle("meta", fontName="DV", fontSize=8.5, leading=12, textColor=colors.HexColor("#5b6b80"))
+
+    # Matn: to'liq sahifadan, topilmasa — e'lonlar ro'yxatidagi qisqa matndan
+    paragraphs = []
+    container = None
+    try:
+        container = fetch_detail(item)
+    except Exception as ex:  # noqa: BLE001
+        log.warning("To'liq e'lon sahifasi olinmadi: %s", ex)
+    if container is not None:
+        for chunk in _to_markup(container).split("\n\n"):
+            chunk = re.sub(r"[ \t\r\n\xa0]+", " ", chunk).strip()
+            chunk = re.sub(r"^(<br/>\s*)+|(\s*<br/>)+$", "", chunk).strip()
+            if chunk and re.sub(r"<[^>]+>", "", chunk).strip():
+                paragraphs.append(chunk)
+    if not paragraphs:
+        paragraphs = [html.escape(line, quote=False) for line in item["summary"].split("\n") if line.strip()]
+
+    story = [
+        Paragraph(f"Manba: oak.uz — Oliy attestatsiya komissiyasi rasmiy veb-sayti"
+                  + (f" &nbsp;•&nbsp; E’lon sanasi: {item['date']}" if item.get("date") else ""), meta),
+        Paragraph(f'Havola: <link href="{item["url"]}" color="#1d4e89">{item["url"]}</link>', meta),
+        Spacer(1, 3 * mm),
+        HRFlowable(width="100%", thickness=0.8, color=colors.HexColor("#c9d3e0")),
+        Spacer(1, 5 * mm),
+    ]
+    plain = lambda t: _compact(re.sub(r"<[^>]+>", "", html.unescape(t)))  # noqa: E731
+    head = plain(item["title"])[:25]
+    if not any(head in plain(p) for p in paragraphs[:3]):
+        story.append(Paragraph(html.escape(item["title"], quote=False), title_st))
+    for n, p in enumerate(paragraphs):
+        style = title_st if n < 3 and head in plain(p) else body
+        try:
+            story.append(Paragraph(p, style))
+        except Exception:  # noqa: BLE001 — buzilgan belgilash bo'lsa, oddiy matn
+            story.append(Paragraph(html.escape(re.sub(r"<[^>]+>", " ", p), quote=False), body))
+
+    footer = "Tezkor OAK himoya e’lonlari" + (f"  •  {CHANNEL_SIGNATURE}" if CHANNEL_SIGNATURE else "")
+
+    def on_page(canvas, doc):
+        canvas.saveState()
+        canvas.setFont("DV", 8)
+        canvas.setFillColor(colors.HexColor("#7a8799"))
+        canvas.drawString(20 * mm, 10 * mm, footer)
+        canvas.drawRightString(A4[0] - 20 * mm, 10 * mm, f"{doc.page}-bet")
+        canvas.restoreState()
+
+    buf = BytesIO()
+    doc = SimpleDocTemplate(buf, pagesize=A4, leftMargin=20 * mm, rightMargin=20 * mm,
+                            topMargin=18 * mm, bottomMargin=18 * mm,
+                            title=item["title"], author="oak.uz", subject="Dissertatsiya himoyasi haqida e’lon")
+    doc.build(story, onFirstPage=on_page, onLaterPages=on_page)
+    return buf.getvalue()
+
+
 def _visible_len(html_text: str) -> int:
     return len(html.unescape(re.sub(r"<[^>]+>", "", html_text)))
 
 
-def send_photo(photo: bytes, caption: str) -> None:
-    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
-    data = {"chat_id": CHANNEL_ID, "caption": caption, "parse_mode": "HTML"}
-    for _ in range(5):
-        r = requests.post(url, data=data, files={"photo": ("post.jpg", photo, "image/jpeg")}, timeout=60)
-        if r.status_code == 429:
-            wait = r.json().get("parameters", {}).get("retry_after", 10)
-            time.sleep(wait + 1)
-            continue
-        if not r.ok:
-            raise RuntimeError(f"Telegram xatosi (rasm): {r.status_code} {r.text}")
-        return
-    raise RuntimeError("Rasmni yuborib bo'lmadi")
+def send_photo(photo: bytes, caption: str) -> int:
+    res = _tg("sendPhoto", {"chat_id": CHANNEL_ID, "caption": caption, "parse_mode": "HTML"},
+              files={"photo": ("post.jpg", photo, "image/jpeg")})
+    return res.get("message_id", 0)
+
+
+def send_document(doc: bytes, filename: str, caption: str, reply_to: int) -> int:
+    data = {"chat_id": CHANNEL_ID, "caption": caption, "parse_mode": "HTML",
+            "reply_to_message_id": reply_to, "disable_notification": True}
+    res = _tg("sendDocument", data, files={"document": (filename, doc, "application/pdf")})
+    return res.get("message_id", 0)
+
+
+def message_link(msg_id: int) -> str | None:
+    """Kanal ichidagi xabarga havola: t.me/kanal/123 yoki t.me/c/ID/123."""
+    ch = CHANNEL_ID.strip()
+    if ch.startswith("@"):
+        return f"https://t.me/{ch[1:]}/{msg_id}"
+    if ch.startswith("-100"):
+        return f"https://t.me/c/{ch[4:]}/{msg_id}"
+    return None
 
 
 def publish(item: dict, section: str) -> None:
     text = build_message(item, section)
+    as_photo = False
+    msg_id = 0
     if _visible_len(text) <= CAPTION_LIMIT:
         try:
             card = make_card(extract(item))
             if card:
-                send_photo(card, text)
-                return
-        except Exception as ex:  # noqa: BLE001 — rasm chiqmasa ham post yo'qolmasin
+                msg_id = send_photo(card, text)
+                as_photo = True
+        except Exception as ex:  # noqa: BLE001
             log.error("Rasm bilan yuborilmadi (%s) — matn ko'rinishida yuboramiz", ex)
-    send_message(text)
+    if not as_photo:
+        msg_id = send_message(text)
+
+    # Ma'lumotnoma (PDF) — xato bo'lsa ham asosiy post saqlanib qoladi
+    try:
+        pdf = make_pdf(item)
+        if not pdf or not msg_id:
+            return
+        info = extract(item)
+        surname = re.sub(r"[^A-Za-z0-9]+", "", (info["name"].split() or ["elon"])[0]) or "elon"
+        fname = f"OAK_elon_{item['id']}_{surname}.pdf"
+        cap = f"📄 <b>E’lon to‘g‘risida ma’lumotnoma</b>\n{html.escape(info['name'] or info['title'])}"
+        pdf_id = send_document(pdf, fname, cap, reply_to=msg_id)
+        link = message_link(pdf_id)
+        if not link:
+            return
+        new_text = build_message(item, section, pdf_link=link)
+        if as_photo and _visible_len(new_text) <= CAPTION_LIMIT:
+            _tg("editMessageCaption", {"chat_id": CHANNEL_ID, "message_id": msg_id,
+                                       "caption": new_text, "parse_mode": "HTML"})
+        elif not as_photo:
+            _tg("editMessageText", {"chat_id": CHANNEL_ID, "message_id": msg_id, "text": new_text,
+                                    "parse_mode": "HTML", "disable_web_page_preview": True})
+    except Exception as ex:  # noqa: BLE001
+        log.error("PDF ma'lumotnoma yuborilmadi: %s", ex)
 
 
 # ---------------- Holat (state) ----------------
