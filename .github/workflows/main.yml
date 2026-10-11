@@ -27,6 +27,7 @@ jobs:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
           CHANNEL_SIGNATURE: ${{ vars.CHANNEL_SIGNATURE }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Holatni saqlash
         if: always()
         run: |
