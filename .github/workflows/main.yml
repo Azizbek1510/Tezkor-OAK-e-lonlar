@@ -20,7 +20,7 @@ concurrency:
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -37,6 +37,7 @@ jobs:
           CHANNEL_SIGNATURE: ${{ vars.CHANNEL_SIGNATURE }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_IDS: ${{ github.event.inputs.ids }}
+          MAX_POSTS_PER_RUN: "100"
       - name: Holatni saqlash
         if: always()
         run: |
