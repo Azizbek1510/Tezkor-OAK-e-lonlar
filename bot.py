@@ -48,10 +48,30 @@ log = logging.getLogger("oak")
 
 # ---------------- Sayt bilan ishlash ----------------
 
+SITE_LOCALE = os.environ.get("SITE_LOCALE", "uz")   # uz = O'zbekcha (lotin), uzc = kirill, ru, en
+_session = requests.Session()
+_session.headers.update(HEADERS)
+_locale_ready = False
+
+
+def _ensure_locale() -> None:
+    """Saytni O'zb (lotin) tiliga o'tkazadi — xuddi yuqoridagi "Til → O'zb" tugmasi kabi."""
+    global _locale_ready
+    if _locale_ready:
+        return
+    _locale_ready = True
+    try:
+        _session.get(f"{BASE}/setlocale/{SITE_LOCALE}", timeout=40)
+        log.info("Sayt tili: %s", SITE_LOCALE)
+    except requests.RequestException as e:
+        log.warning("Sayt tilini o'zgartirib bo'lmadi: %s", e)
+
+
 def fetch(url: str, tries: int = 3) -> str:
+    _ensure_locale()
     for i in range(tries):
         try:
-            r = requests.get(url, headers=HEADERS, timeout=40)
+            r = _session.get(url, timeout=40)
             r.raise_for_status()
             r.encoding = "utf-8"
             return r.text
@@ -74,8 +94,16 @@ def clean_text(el) -> str:
     return text.strip()
 
 
+def _drop_comments(soup) -> None:
+    """Sayt kodidagi yashirin izohlarni (masalan "Post Item Start") olib tashlaydi."""
+    from bs4 import Comment, Declaration, Doctype, ProcessingInstruction
+    for c in soup.find_all(string=lambda t: isinstance(t, (Comment, Declaration, Doctype, ProcessingInstruction))):
+        c.extract()
+
+
 def parse_list(page_html: str) -> list[dict]:
     soup = BeautifulSoup(page_html, "html.parser")
+    _drop_comments(soup)
     items, seen = [], set()
 
     for h in soup.find_all(["h2", "h3", "h4"]):
@@ -159,6 +187,11 @@ def to_latin(text: str) -> str:
             lat = lat.upper() if (nxt.isupper() and len(lat) > 1) else lat[0].upper() + lat[1:]
         out.append(lat)
     return "".join(out)
+
+
+def is_uzbek_cyrillic(text: str) -> bool:
+    """O'zbek kirilliga xos harflar (ў қ ғ ҳ) bo'lsa — o'zbekcha; ruscha matnda ular bo'lmaydi."""
+    return any(ch in "ўқғҳЎҚҒҲ" for ch in text)
 
 
 # ---------- E'lon matnidan maydonlarni ajratib olish ----------
@@ -526,9 +559,11 @@ def _compact(t: str) -> str:
 
 def _to_markup(el) -> str:
     """HTML elementni reportlab tushunadigan oddiy belgilashga o'giradi (qalin, qator, paragraf)."""
-    from bs4 import NavigableString
+    from bs4 import Comment, NavigableString
     out = []
     for node in el.children:
+        if isinstance(node, Comment):
+            continue
         if isinstance(node, NavigableString):
             out.append(html.escape(str(node), quote=False))
         elif node.name in _SKIP_TAGS:
@@ -551,6 +586,7 @@ _NAV_MARKERS = ("boshmenyu", "бошменю", "asosiysahifa", "асосийса
 def fetch_detail(item: dict):
     """E'lonning to'liq sahifasidan asosiy matn blokini topadi."""
     soup = BeautifulSoup(fetch(item["url"]), "html.parser")
+    _drop_comments(soup)
     for tag in soup.find_all(["script", "style", "nav", "header", "footer"]):
         tag.decompose()
     key = _compact(item["summary"])[:30]
@@ -620,6 +656,12 @@ def make_pdf(item: dict) -> bytes | None:
     if not paragraphs:
         paragraphs = [html.escape(line, quote=False) for line in item["summary"].split("\n") if line.strip()]
 
+    # O'zbekcha kirill matn bo'lsa — lotinga o'giramiz (ruscha va boshqa tillar o'zgarmaydi)
+    pdf_title = item["title"]
+    if is_uzbek_cyrillic(" ".join(paragraphs) + pdf_title):
+        paragraphs = [to_latin(p) for p in paragraphs]
+        pdf_title = to_latin(pdf_title)
+
     story = [
         Paragraph(f"Manba: oak.uz — Oliy attestatsiya komissiyasi rasmiy veb-sayti"
                   + (f" &nbsp;•&nbsp; E’lon sanasi: {item['date']}" if item.get("date") else ""), meta),
@@ -629,9 +671,9 @@ def make_pdf(item: dict) -> bytes | None:
         Spacer(1, 5 * mm),
     ]
     plain = lambda t: _compact(re.sub(r"<[^>]+>", "", html.unescape(t)))  # noqa: E731
-    head = plain(item["title"])[:25]
+    head = plain(pdf_title)[:25]
     if not any(head in plain(p) for p in paragraphs[:3]):
-        story.append(Paragraph(html.escape(item["title"], quote=False), title_st))
+        story.append(Paragraph(html.escape(pdf_title, quote=False), title_st))
     for n, p in enumerate(paragraphs):
         style = title_st if n < 3 and head in plain(p) else body
         try:
@@ -652,7 +694,7 @@ def make_pdf(item: dict) -> bytes | None:
     buf = BytesIO()
     doc = SimpleDocTemplate(buf, pagesize=A4, leftMargin=20 * mm, rightMargin=20 * mm,
                             topMargin=18 * mm, bottomMargin=18 * mm,
-                            title=item["title"], author="oak.uz", subject="Dissertatsiya himoyasi haqida e’lon")
+                            title=pdf_title, author="oak.uz", subject="Dissertatsiya himoyasi haqida e’lon")
     doc.build(story, onFirstPage=on_page, onLaterPages=on_page)
     return buf.getvalue()
 
