@@ -256,7 +256,7 @@ def build_message(item: dict, section: str, pdf_link: str | None = None) -> str:
 
     link = f'🔗 <a href="{item["url"]}">To‘liq e’lon — oak.uz</a>'
     if pdf_link:
-        link = f'📄 <a href="{pdf_link}">E’lon to‘g‘risida ma’lumotnoma (PDF)</a>\n' + link
+        link = f'📄 <a href="{pdf_link}">E’lon to‘g‘risida ma’lumotnoma olish (PDF)</a>\n' + link
     if info["date"]:
         link = f"📅 E’lon sanasi: <b>{e(info['date'])}</b>\n" + link
     parts.append(link + ("\n" + " ".join(tags) if tags else ""))
@@ -667,60 +667,78 @@ def send_photo(photo: bytes, caption: str) -> int:
     return res.get("message_id", 0)
 
 
-def send_document(doc: bytes, filename: str, caption: str, reply_to: int) -> int:
-    data = {"chat_id": CHANNEL_ID, "caption": caption, "parse_mode": "HTML",
-            "reply_to_message_id": reply_to, "disable_notification": True}
-    res = _tg("sendDocument", data, files={"document": (filename, doc, "application/pdf")})
-    return res.get("message_id", 0)
+# ---------------- Ma'lumotnomani GitHub Releases'ga joylash ----------------
+
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "")   # Actions o'zi beradi: "user/repo"
+_release_ids: dict = {}
 
 
-def message_link(msg_id: int) -> str | None:
-    """Kanal ichidagi xabarga havola: t.me/kanal/123 yoki t.me/c/ID/123."""
-    ch = CHANNEL_ID.strip()
-    if ch.startswith("@"):
-        return f"https://t.me/{ch[1:]}/{msg_id}"
-    if ch.startswith("-100"):
-        return f"https://t.me/c/{ch[4:]}/{msg_id}"
+def _gh(method: str, url: str, **kw):
+    headers = {"Authorization": f"Bearer {GITHUB_TOKEN}", "Accept": "application/vnd.github+json",
+               "X-GitHub-Api-Version": "2022-11-28"}
+    headers.update(kw.pop("headers", {}))
+    return requests.request(method, url, headers=headers, timeout=60, **kw)
+
+
+def _release_id(tag: str) -> int:
+    """Har oy uchun bitta release (masalan pdf-2026-10) — ma'lumotnomalar shu yerda saqlanadi."""
+    if tag in _release_ids:
+        return _release_ids[tag]
+    api = f"https://api.github.com/repos/{GITHUB_REPO}/releases"
+    r = _gh("GET", f"{api}/tags/{tag}")
+    if r.status_code == 404:
+        r = _gh("POST", api, json={
+            "tag_name": tag,
+            "name": f"E’lon ma’lumotnomalari — {tag[4:]}",
+            "body": "Tezkor OAK himoya e’lonlari: oak.uz e’lonlarining PDF ma’lumotnomalari.",
+            "make_latest": "false",
+        })
+    r.raise_for_status()
+    _release_ids[tag] = r.json()["id"]
+    return _release_ids[tag]
+
+
+def upload_pdf(pdf: bytes, filename: str) -> str | None:
+    """PDF ni yuklaydi va to'g'ridan-to'g'ri yuklab olish havolasini qaytaradi."""
+    if not GITHUB_TOKEN or not GITHUB_REPO:
+        log.warning("GITHUB_TOKEN yoki GITHUB_REPOSITORY yo'q — ma'lumotnoma havolasi qo'shilmaydi")
+        return None
+    rid = _release_id("pdf-" + time.strftime("%Y-%m"))
+    url = f"https://uploads.github.com/repos/{GITHUB_REPO}/releases/{rid}/assets"
+    for attempt in range(2):
+        name = filename if attempt == 0 else filename.replace(".pdf", f"_{int(time.time())}.pdf")
+        r = _gh("POST", url, params={"name": name}, data=pdf, headers={"Content-Type": "application/pdf"})
+        if r.status_code == 422:      # shu nomli fayl allaqachon bor
+            continue
+        r.raise_for_status()
+        return r.json()["browser_download_url"]
     return None
 
 
 def publish(item: dict, section: str) -> None:
-    text = build_message(item, section)
-    as_photo = False
-    msg_id = 0
+    # 1) Ma'lumotnoma: PDF yasab yuklaymiz (xato bo'lsa — post havolasiz chiqadi)
+    pdf_link = None
+    try:
+        pdf = make_pdf(item)
+        if pdf:
+            info = extract(item)
+            surname = re.sub(r"[^A-Za-z0-9]+", "", (info["name"].split() or ["elon"])[0]) or "elon"
+            pdf_link = upload_pdf(pdf, f"OAK_elon_{item['id']}_{surname}.pdf")
+    except Exception as ex:  # noqa: BLE001
+        log.error("Ma'lumotnoma tayyorlanmadi: %s", ex)
+
+    # 2) Post
+    text = build_message(item, section, pdf_link=pdf_link)
     if _visible_len(text) <= CAPTION_LIMIT:
         try:
             card = make_card(extract(item))
             if card:
-                msg_id = send_photo(card, text)
-                as_photo = True
+                send_photo(card, text)
+                return
         except Exception as ex:  # noqa: BLE001
             log.error("Rasm bilan yuborilmadi (%s) — matn ko'rinishida yuboramiz", ex)
-    if not as_photo:
-        msg_id = send_message(text)
-
-    # Ma'lumotnoma (PDF) — xato bo'lsa ham asosiy post saqlanib qoladi
-    try:
-        pdf = make_pdf(item)
-        if not pdf or not msg_id:
-            return
-        info = extract(item)
-        surname = re.sub(r"[^A-Za-z0-9]+", "", (info["name"].split() or ["elon"])[0]) or "elon"
-        fname = f"OAK_elon_{item['id']}_{surname}.pdf"
-        cap = f"📄 <b>E’lon to‘g‘risida ma’lumotnoma</b>\n{html.escape(info['name'] or info['title'])}"
-        pdf_id = send_document(pdf, fname, cap, reply_to=msg_id)
-        link = message_link(pdf_id)
-        if not link:
-            return
-        new_text = build_message(item, section, pdf_link=link)
-        if as_photo and _visible_len(new_text) <= CAPTION_LIMIT:
-            _tg("editMessageCaption", {"chat_id": CHANNEL_ID, "message_id": msg_id,
-                                       "caption": new_text, "parse_mode": "HTML"})
-        elif not as_photo:
-            _tg("editMessageText", {"chat_id": CHANNEL_ID, "message_id": msg_id, "text": new_text,
-                                    "parse_mode": "HTML", "disable_web_page_preview": True})
-    except Exception as ex:  # noqa: BLE001
-        log.error("PDF ma'lumotnoma yuborilmadi: %s", ex)
+    send_message(text)
 
 
 # ---------------- Holat (state) ----------------
