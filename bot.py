@@ -37,12 +37,10 @@ SOURCES = {
 }
 MAX_PAGES = 3          # har bir bo'limdan nechta sahifagacha orqaga qarash
 MAX_SEEN = 3000        # state faylda saqlanadigan ID lar soni
-MAX_SUMMARY = 3200     # Telegram limiti 4096 belgi
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; TezkorOAKBot/1.0)"}
 DATE_RE = re.compile(r"\b(\d{2}\.\d{2}\.\d{4})\b")
 ID_RE = re.compile(r"/pages/(\d+)")
-FIELD_RE = re.compile(r"\((\w+)\s+(?:фанлари|fanlari)\)", re.IGNORECASE)
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
 log = logging.getLogger("oak")
@@ -131,43 +129,128 @@ def parse_list(page_html: str) -> list[dict]:
 
 # ---------------- Telegram ----------------
 
-def build_message(item: dict, section: str) -> str:
-    title = item["title"]
-    lines = []
-    for line in item["summary"].split("\n"):
-        if ":" in line and line.index(":") < 90:
-            label, rest = line.split(":", 1)
-            lines.append(f"▪️ <b>{html.escape(label.strip())}:</b>{html.escape(rest)}")
+# ---------- Kirill -> lotin (o'zbek alifbosi) ----------
+
+_CYR = {
+    "а": "a", "б": "b", "в": "v", "г": "g", "д": "d", "ё": "yo", "ж": "j",
+    "з": "z", "и": "i", "й": "y", "к": "k", "л": "l", "м": "m", "н": "n",
+    "о": "o", "п": "p", "р": "r", "с": "s", "т": "t", "у": "u", "ф": "f",
+    "х": "x", "ц": "ts", "ч": "ch", "ш": "sh", "щ": "sh", "ъ": "’", "ь": "",
+    "ы": "i", "э": "e", "ю": "yu", "я": "ya", "ў": "o‘", "қ": "q", "ғ": "g‘",
+    "ҳ": "h",
+}
+_VOWELS = set("аеёиоуэюяўaeiou")
+
+
+def to_latin(text: str) -> str:
+    out = []
+    for i, ch in enumerate(text):
+        low = ch.lower()
+        prev = text[i - 1].lower() if i > 0 else " "
+        if low == "е":
+            lat = "ye" if (not prev.isalpha() or prev in _VOWELS or prev in "ъь") else "e"
+        elif low in _CYR:
+            lat = _CYR[low]
         else:
-            lines.append(html.escape(line))
-    body = "\n".join(lines)
-    if len(body) > MAX_SUMMARY:
-        body = body[:MAX_SUMMARY].rsplit("\n", 1)[0] + "\n…"
+            out.append(ch)
+            continue
+        if ch.isupper() and lat:
+            nxt = text[i + 1] if i + 1 < len(text) else ""
+            lat = lat.upper() if (nxt.isupper() and len(lat) > 1) else lat[0].upper() + lat[1:]
+        out.append(lat)
+    return "".join(out)
+
+
+# ---------- E'lon matnidan maydonlarni ajratib olish ----------
+
+SHIFR_RE = re.compile(r"(\d{2}\.\d{2}\.\d{2})\s*[–—-]\s*(.+?)(?:\s*\(|\.?\s*$)")
+NAME_RE = re.compile(r"^(.+?)ning\s+(?:falsafa|fan)\s+doktori", re.IGNORECASE)
+FIELD_LAT_RE = re.compile(r"\(([\w‘’' ]+?)\s+fanlari\)", re.IGNORECASE)
+RANKS = ("professor", "dotsent", "katta ilmiy xodim", "akademik")
+
+
+def short_person(value: str) -> str:
+    """'Mullaxo‘jayeva Karomat Toshxo‘jayevna, ..., dotsent' -> 'Mullaxo‘jayeva K.T., dotsent'"""
+    parts = [p.strip(" .") for p in value.split(",") if p.strip(" .")]
+    if not parts:
+        return value
+    words = parts[0].split()
+    name = parts[0]
+    if len(words) >= 2:
+        initials = ""
+        for w in words[1:3]:
+            m = re.match(r"(Sh|Ch|O‘|G‘|O'|G'|Yo|Yu|Ya)", w)
+            initials += (m.group(1) if m else w[0]) + "."
+        name = f"{words[0]} {initials}"
+    rank = parts[-1] if len(parts) > 1 and parts[-1].lower() in RANKS else ""
+    return f"{name}, {rank}" if rank else name
+
+
+def extract(item: dict) -> dict:
+    title = to_latin(item["title"])
+    summary = to_latin(item["summary"])
+    info = {"title": title, "degree": "", "field": "", "name": "", "topic": "",
+            "shifr": "", "supervisor": "", "institution": ""}
+
+    if "DSc" in title:
+        info["degree"] = "DSc"
+    elif "PhD" in title:
+        info["degree"] = "PhD"
+
+    m = NAME_RE.search(title)
+    info["name"] = m.group(1).strip() if m else ""
+
+    fm = FIELD_LAT_RE.search(summary)
+    if fm:
+        info["field"] = fm.group(1).strip()
+
+    for line in summary.split("\n"):
+        if ":" not in line:
+            continue
+        label, value = line.split(":", 1)
+        lab, value = label.lower(), value.strip()
+        if "mavzu" in lab and "shifr" in lab and not info["topic"]:
+            sm = SHIFR_RE.search(value)
+            if sm:
+                info["shifr"] = f"{sm.group(1)} – {sm.group(2).strip()}"
+                value = value[:sm.start()]
+            info["topic"] = value.strip(" ,.;").strip("“”\"«»„ ")
+        elif ("rahbar" in lab or "maslahatchi" in lab) and not info["supervisor"]:
+            info["supervisor"] = short_person(value)
+        elif "bajarilgan" in lab or "bajarilayotgan" in lab:
+            info["institution"] = info["institution"] or value.strip(" .")
+    return info
+
+
+def build_message(item: dict, section: str) -> str:
+    e = html.escape
+    info = extract(item)
+
+    parts = [f"🎓 <b>{e(info['title'])}</b>"]
+
+    body = []
+    if info["topic"]:
+        body.append(f"📖 «{e(info['topic'])}»")
+    if info["shifr"]:
+        body.append(f"🔢 {e(info['shifr'])}")
+    if info["supervisor"]:
+        body.append(f"👨‍🏫 Ilmiy rahbar: {e(info['supervisor'])}")
+    if info["institution"]:
+        body.append(f"🏛 {e(info['institution'])}")
+    parts.append("\n".join(body))
 
     tags = []
-    if "DSc" in title:
-        tags.append("#DSc")
-    if "PhD" in title:
-        tags.append("#PhD")
-    fm = FIELD_RE.search(item["summary"])
-    if fm:
-        tags.append("#" + fm.group(1).lower())
+    if info["degree"]:
+        tags.append("#" + info["degree"])
+    if info["field"]:
+        tags.append("#" + re.sub(r"[‘’'\s]+", "_", info["field"].lower()).strip("_"))
     if section != SOURCES["/page/8"]:
         tags.append("#mustaqil_kengash")
 
-    parts = [f"🎓 <b>{html.escape(title)}</b>"]
-    if body:
-        parts.append(body)
-    meta = []
-    if item["date"]:
-        meta.append(f"📅 E’lon sanasi: {item['date']}")
-    meta.append(f'🔗 <a href="{item["url"]}">To‘liq e’lon — oak.uz</a>')
-    parts.append("\n".join(meta))
-    footer = " ".join(tags)
+    link = f'🔗 <a href="{item["url"]}">To‘liq e’lon — oak.uz</a>'
+    parts.append(link + ("\n" + " ".join(tags) if tags else ""))
     if CHANNEL_SIGNATURE:
-        footer = (footer + "\n\n" if footer else "") + f"📢 {html.escape(CHANNEL_SIGNATURE)}"
-    if footer:
-        parts.append(footer)
+        parts.append(f"📢 {e(CHANNEL_SIGNATURE)}")
     return "\n\n".join(parts)
 
 
