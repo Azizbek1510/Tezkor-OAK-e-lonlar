@@ -190,7 +190,7 @@ def extract(item: dict) -> dict:
     title = to_latin(item["title"])
     summary = to_latin(item["summary"])
     info = {"title": title, "degree": "", "field": "", "name": "", "topic": "",
-            "shifr": "", "supervisor": "", "institution": ""}
+            "shifr": "", "supervisor": "", "institution": "", "council": ""}
 
     if "DSc" in title:
         info["degree"] = "DSc"
@@ -212,11 +212,15 @@ def extract(item: dict) -> dict:
         if "mavzu" in lab and "shifr" in lab and not info["topic"]:
             sm = SHIFR_RE.search(value)
             if sm:
-                info["shifr"] = f"{sm.group(1)} – {sm.group(2).strip()}"
+                spec = re.sub(r"\s+ixtisosligi$", "", sm.group(2).strip(), flags=re.IGNORECASE)
+                info["shifr"] = f"{sm.group(1)} – {spec}"
                 value = value[:sm.start()]
             info["topic"] = value.strip(" ,.;").strip("“”\"«»„ ")
         elif ("rahbar" in lab or "maslahatchi" in lab) and not info["supervisor"]:
             info["supervisor"] = short_person(value)
+        elif re.search(r"\bik\b", lab) and not info["council"]:
+            name = re.split(r",?\s*(?:DSc|PhD|DSC|PHD)\s*[.\d]", value)[0]
+            info["council"] = name.strip(" ,.;")
         elif "bajarilgan" in lab or "bajarilayotgan" in lab:
             info["institution"] = info["institution"] or value.strip(" .")
     return info
@@ -237,6 +241,8 @@ def build_message(item: dict, section: str) -> str:
         body.append(f"👨‍🏫 Ilmiy rahbar: {e(info['supervisor'])}")
     if info["institution"]:
         body.append(f"🏛 {e(info['institution'])}")
+    if info["council"] and info["council"] != info["institution"]:
+        body.append(f"🏢 Ilmiy kengash: {e(info['council'])}")
     parts.append("\n".join(body))
 
     tags = []
@@ -273,6 +279,168 @@ def send_message(text: str) -> None:
             raise RuntimeError(f"Telegram xatosi: {r.status_code} {r.text}")
         return
     raise RuntimeError("Telegram'ga yuborib bo'lmadi")
+
+
+# ---------------- Post rasmi (avtomatik chiziladi) ----------------
+
+from io import BytesIO
+
+from PIL import Image, ImageDraw, ImageFont
+
+CAPTION_LIMIT = 1024
+W, H = 1280, 720
+PAD = 72
+THEMES = {   # (yuqori rang, pastki rang, aksent)
+    "PhD": ((12, 36, 66), (24, 78, 138), (242, 184, 75)),
+    "DSc": ((48, 16, 66), (112, 40, 120), (255, 205, 110)),
+    "": ((20, 44, 52), (28, 104, 110), (242, 184, 75)),
+}
+_FONT_DIRS = [Path("fonts"), Path("/usr/share/fonts/truetype/dejavu")]
+
+
+def _font(size: int, bold: bool = False):
+    name = "DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
+    for d in _FONT_DIRS:
+        if (d / name).exists():
+            return ImageFont.truetype(str(d / name), size)
+    return ImageFont.load_default(size)
+
+
+def _wrap(draw, text, font, width):
+    lines, cur = [], ""
+    for word in text.split():
+        test = f"{cur} {word}".strip()
+        if draw.textlength(test, font=font) <= width:
+            cur = test
+        else:
+            if cur:
+                lines.append(cur)
+            cur = word
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def _fit(draw, text, width, max_lines, sizes, bold):
+    """Matnni berilgan kenglik va qatorlar soniga sig'adigan eng katta shrift bilan joylaydi."""
+    for size in sizes:
+        font = _font(size, bold)
+        lines = _wrap(draw, text, font, width)
+        if len(lines) <= max_lines:
+            return font, lines
+    font = _font(sizes[-1], bold)
+    lines = _wrap(draw, text, font, width)[:max_lines]
+    lines[-1] = lines[-1].rstrip(" ,.") + "…"
+    return font, lines
+
+
+def make_card(info: dict) -> bytes | None:
+    shifr = info.get("shifr", "")
+    council = info.get("council") or info.get("institution", "")
+    if not shifr and not council:
+        return None
+    code, _, spec = shifr.partition(" – ")
+    top, bottom, accent = THEMES.get(info.get("degree", ""), THEMES[""])
+
+    # Gradient fon
+    img = Image.new("RGB", (W, H))
+    px = ImageDraw.Draw(img)
+    for y in range(H):
+        t = y / H
+        px.line([(0, y), (W, y)], fill=tuple(int(top[i] + (bottom[i] - top[i]) * t) for i in range(3)))
+
+    # Bezak doiralari
+    deco = Image.new("RGBA", (W, H), (0, 0, 0, 0))
+    dd = ImageDraw.Draw(deco)
+    dd.ellipse((W - 360, -220, W + 260, 400), outline=(255, 255, 255, 28), width=40)
+    dd.ellipse((W - 250, -110, W + 150, 290), outline=(255, 255, 255, 18), width=18)
+    img = Image.alpha_composite(img.convert("RGBA"), deco)
+    d = ImageDraw.Draw(img)
+    white, soft = (255, 255, 255), (205, 218, 235)
+
+    # Yuqori qator: kanal nomi va daraja belgisi
+    d.rectangle((0, 0, 12, H), fill=accent)
+    d.text((PAD, 56), "TEZKOR OAK E’LONLAR", font=_font(26, True), fill=soft)
+    if info.get("degree"):
+        bf = _font(34, True)
+        bw = d.textlength(info["degree"], font=bf) + 48
+        x0 = W - PAD - bw
+        d.rounded_rectangle((x0, 44, W - PAD, 100), radius=28, fill=accent)
+        d.text((x0 + 24, 53), info["degree"], font=bf, fill=top)
+
+    text_w = W - 2 * PAD
+    y = 150
+    # Ixtisoslik
+    if shifr:
+        d.text((PAD, y), "IXTISOSLIK", font=_font(24, True), fill=accent)
+        y += 40
+        if code and spec:
+            d.text((PAD, y), code, font=_font(64, True), fill=white)
+            y += 84
+            text = spec
+        else:
+            text = shifr
+        font, lines = _fit(d, text, text_w, 3, [46, 42, 38, 34, 30], True)
+        for line in lines:
+            d.text((PAD, y), line, font=font, fill=white)
+            y += int(font.size * 1.25)
+        y += 26
+        d.line((PAD, y, PAD + 140, y), fill=accent, width=5)
+        y += 34
+
+    # Ilmiy kengash
+    if council:
+        d.text((PAD, y), "ILMIY KENGASH", font=_font(24, True), fill=accent)
+        y += 40
+        room = max(1, min(3, (H - 110 - y) // 44))
+        font, lines = _fit(d, council, text_w, room, [36, 32, 29, 26], False)
+        for line in lines:
+            d.text((PAD, y), line, font=font, fill=soft)
+            y += int(font.size * 1.3)
+
+    # Pastki qator
+    foot = _font(24, False)
+    if CHANNEL_SIGNATURE:
+        d.text((PAD, H - 64), CHANNEL_SIGNATURE, font=foot, fill=soft)
+    if info.get("field"):
+        label = info["field"][:1].upper() + info["field"][1:] + " fanlari"
+        d.text((W - PAD - d.textlength(label, font=foot), H - 64), label, font=foot, fill=soft)
+
+    buf = BytesIO()
+    img.convert("RGB").save(buf, "JPEG", quality=92)
+    return buf.getvalue()
+
+
+def _visible_len(html_text: str) -> int:
+    return len(html.unescape(re.sub(r"<[^>]+>", "", html_text)))
+
+
+def send_photo(photo: bytes, caption: str) -> None:
+    url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendPhoto"
+    data = {"chat_id": CHANNEL_ID, "caption": caption, "parse_mode": "HTML"}
+    for _ in range(5):
+        r = requests.post(url, data=data, files={"photo": ("post.jpg", photo, "image/jpeg")}, timeout=60)
+        if r.status_code == 429:
+            wait = r.json().get("parameters", {}).get("retry_after", 10)
+            time.sleep(wait + 1)
+            continue
+        if not r.ok:
+            raise RuntimeError(f"Telegram xatosi (rasm): {r.status_code} {r.text}")
+        return
+    raise RuntimeError("Rasmni yuborib bo'lmadi")
+
+
+def publish(item: dict, section: str) -> None:
+    text = build_message(item, section)
+    if _visible_len(text) <= CAPTION_LIMIT:
+        try:
+            card = make_card(extract(item))
+            if card:
+                send_photo(card, text)
+                return
+        except Exception as ex:  # noqa: BLE001 — rasm chiqmasa ham post yo'qolmasin
+            log.error("Rasm bilan yuborilmadi (%s) — matn ko'rinishida yuboramiz", ex)
+    send_message(text)
 
 
 # ---------------- Holat (state) ----------------
@@ -330,7 +498,7 @@ def run_once() -> None:
 
     for item, section in new_items:
         try:
-            send_message(build_message(item, section))
+            publish(item, section)
             log.info("Yuborildi: %s", item["url"])
         except RuntimeError as e:
             log.error(e)
