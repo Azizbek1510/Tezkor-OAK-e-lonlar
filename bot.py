@@ -100,6 +100,20 @@ def _fetch(url: str, tries: int = 3) -> str:
     raise RuntimeError(f"Sahifa ochilmadi: {url}")
 
 
+# Sayt kodidan matnga ilashib qolgan texnik yozuvlar ("Post Item Start" va h.k.)
+JUNK_RE = re.compile(
+    r"(?:<|&lt;)!--.*?--(?:>|&gt;)"                      # matn sifatida yozilgan izoh: <!-- ... -->
+    r"|\b(?:post|page|news|content|article)[\s_-]*item[\s_-]*(?:start|end|begin)\b"
+    r"|\b(?:start|end)[\s_-]*(?:of[\s_-]*)?post[\s_-]*item\b",
+    re.IGNORECASE | re.DOTALL)
+
+
+def scrub(text: str) -> str:
+    text = JUNK_RE.sub("", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    return re.sub(r"\n\s*\n+", "\n", text).strip()
+
+
 def clean_text(el) -> str:
     """HTML elementdan qatorlari saqlangan toza matn oladi."""
     for br in el.find_all("br"):
@@ -110,7 +124,7 @@ def clean_text(el) -> str:
     text = re.sub(r"[ \t\xa0]+", " ", text)
     text = re.sub(r" *\n *", "\n", text)
     text = re.sub(r"\n{2,}", "\n", text)
-    return text.strip()
+    return scrub(text)
 
 
 def _drop_comments(soup) -> None:
@@ -118,6 +132,11 @@ def _drop_comments(soup) -> None:
     from bs4 import Comment, Declaration, Doctype, ProcessingInstruction
     for c in soup.find_all(string=lambda t: isinstance(t, (Comment, Declaration, Doctype, ProcessingInstruction))):
         c.extract()
+    # Ko'rinmaydigan (yashirin) elementlar
+    for el in soup.find_all(style=re.compile(r"display\s*:\s*none|visibility\s*:\s*hidden", re.I)):
+        el.decompose()
+    for el in soup.find_all(class_=re.compile(r"^(hidden|d-none|sr-only|visually-hidden)$")):
+        el.decompose()
 
 
 def parse_list(page_html: str) -> list[dict]:
@@ -133,7 +152,7 @@ def parse_list(page_html: str) -> list[dict]:
         if pid in seen:
             continue
         seen.add(pid)
-        title = a.get_text(" ", strip=True)
+        title = scrub(a.get_text(" ", strip=True))
 
         # E'lon blokini topish: sarlavhadan yuqoriga, matni yetarli bo'lgan ota-element
         container = h.parent
@@ -209,14 +228,19 @@ def to_latin(text: str) -> str:
 
 
 def is_uzbek_cyrillic(text: str) -> bool:
-    """O'zbek kirilliga xos harflar (ў қ ғ ҳ) bo'lsa — o'zbekcha; ruscha matnda ular bo'lmaydi."""
-    return any(ch in "ўқғҳЎҚҒҲ" for ch in text)
+    """O'zbekcha kirill matnmi? O'zbekchaga xos harflar (ў қ ғ ҳ) bo'lsa — ha.
+    Ular bo'lmasa ham, kirill harflar ko'p bo'lib, ruschaga xos 'ы' / 'щ' uchramasa — o'zbekcha."""
+    if any(ch in "ўқғҳЎҚҒҲ" for ch in text):
+        return True
+    cyr = sum(1 for ch in text if "а" <= ch.lower() <= "я" or ch.lower() == "ё")
+    russian = sum(1 for ch in text if ch.lower() in "ыщ")
+    return cyr >= 20 and russian == 0
 
 
 # ---------- E'lon matnidan maydonlarni ajratib olish ----------
 
 SHIFR_RE = re.compile(r"(\d{2}\.\d{2}\.\d{2})\s*[–—-]?\s*(.+?)(?:\s*\(|\.?\s*$)")
-NAME_RE = re.compile(r"^(.+?)ning\s+(?:falsafa|fan)\s+doktori", re.IGNORECASE)
+NAME_RE = re.compile(r"^(.+?)(?:ning)?\s+(?:falsafa|fan)\s+doktori", re.IGNORECASE)
 FIELD_LAT_RE = re.compile(r"\(([\w‘’'ʻ` -]+?)\s+fanlari\)", re.IGNORECASE)
 
 
@@ -741,7 +765,7 @@ def make_pdf(item: dict) -> bytes | None:
         log.warning("To'liq e'lon sahifasi olinmadi: %s", ex)
     if container is not None:
         for chunk in _to_markup(container).split("\n\n"):
-            chunk = re.sub(r"[ \t\r\n\xa0]+", " ", chunk).strip()
+            chunk = scrub(re.sub(r"[ \t\r\n\xa0]+", " ", chunk))
             chunk = re.sub(r"^(<br/>\s*)+|(\s*<br/>)+$", "", chunk).strip()
             if chunk and re.sub(r"<[^>]+>", "", chunk).strip():
                 paragraphs.append(chunk)
@@ -805,6 +829,8 @@ def send_photo(photo: bytes, caption: str, silent: bool = False) -> int:
 # ---------------- Ma'lumotnomani GitHub Releases'ga joylash ----------------
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
+# PDF ko'rinishi o'zgarganda shu raqam oshiriladi — shunda eski kod yasagan PDF'lar qayta ishlatilmaydi
+PDF_VERSION = "v4"
 GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "")   # Actions o'zi beradi: "user/repo"
 _release_ids: dict = {}
 
@@ -881,7 +907,7 @@ def publish(item: dict, section: str, silent: bool = False) -> None:
             surname = re.sub(r"[^A-Za-z0-9]+", "", (info["name"].split() or ["elon"])[0]) or "elon"
             d = parse_date(item.get("date", ""))
             month = f"{d.year}-{d.month:02d}" if d else ""
-            pdf_link = upload_pdf(pdf, f"OAK_elon_{item['id']}_{surname}.pdf", month)
+            pdf_link = upload_pdf(pdf, f"OAK_elon_{item['id']}_{surname}_{PDF_VERSION}.pdf", month)
     except Exception as ex:  # noqa: BLE001
         log.error("Ma'lumotnoma tayyorlanmadi: %s", ex)
 
@@ -1031,7 +1057,7 @@ def item_from_page(pid: int) -> tuple[dict, str] | None:
     summary = "\n".join(lines[start:start + 12])
     if not title:
         title = " ".join(lines[:start]).strip() or f"E’lon №{pid}"
-    title = re.sub(r"\s+", " ", title)
+    title = re.sub(r"\s+", " ", scrub(title))
     return {"id": pid, "title": title, "date": date_s, "summary": summary, "url": url}, section
 
 
