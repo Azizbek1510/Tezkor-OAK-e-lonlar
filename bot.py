@@ -42,6 +42,7 @@ START_DATE = os.environ.get("START_DATE", "01.09.2026")   # OAK: shu sanadan bos
 UZA_START_DATE = os.environ.get("UZA_START_DATE", "01.10.2026")   # UzA: shu sanadan boshlab
 DEEP_DAYS = int(os.environ.get("DEEP_DAYS", "60"))        # chuqur tekshiruv necha kun orqaga qaraydi
 DEEP_MAX_PAGES = 200                                       # chuqur tekshiruvda sahifalar chegarasi
+FULL_MAX_PAGES = 600                                       # to'liq tekshiruvda (/tekshir) sahifalar chegarasi
 MAX_POSTS_PER_RUN = int(os.environ.get("MAX_POSTS_PER_RUN", "40"))
 SILENT_AFTER_DAYS = 3  # shundan eski e'lonlar ovozsiz (bildirishnomasiz) yuboriladi
 MAX_SEEN = 3000        # state faylda saqlanadigan ID lar soni
@@ -632,12 +633,12 @@ def build_uza_keys(seen_uza: set[int]) -> None:
     log.info("Avval chiqqan %d ta UzA posti eslab qolindi — ularning nusxalari qayta chiqmaydi", found)
 
 
-def collect_uza(seen_uza: set[int], deep: bool) -> list[tuple[dict, str]]:
+def collect_uza(seen_uza: set[int], deep: bool, full: bool = False) -> list[tuple[dict, str]]:
     start = parse_date(UZA_START_DATE) or date(2000, 1, 1)
-    bound = max(start, today_uz() - timedelta(days=DEEP_DAYS)) if deep else start
+    bound = start if full or not deep else max(start, today_uz() - timedelta(days=DEEP_DAYS))
     found = {}
     for lang in UZA_LANGS:
-      for page in range(1, DEEP_MAX_PAGES + 1):
+      for page in range(1, (FULL_MAX_PAGES if full else DEEP_MAX_PAGES) + 1):
           try:
               rows = fetch_uza_page(page, lang)
           except RuntimeError as e:
@@ -1376,14 +1377,15 @@ def migrate_skipped(seen: set[int]) -> None:
         log.warning("Git tarixidan o'qib bo'lmadi (%s) — eski o'tkazib yuborilganlar qo'lda yuboriladi", e)
 
 
-def collect(seen: set[int], deep: bool) -> list[tuple[dict, str]]:
+def collect(seen: set[int], deep: bool, full: bool = False) -> list[tuple[dict, str]]:
     """Kanalda hali chiqmagan, START_DATE dan keyingi e'lonlarni yig'adi.
     Oddiy tekshiruv: har bo'limning 1-3 sahifasi.
     Chuqur tekshiruv: START_DATE gacha (ko'pi bilan DEEP_DAYS kun) barcha sahifalar —
     kech joylangan, eski sanali e'lonlarni ham topish uchun."""
     start = parse_date(START_DATE) or date(2000, 1, 1)
-    bound = max(start, today_uz() - timedelta(days=DEEP_DAYS)) if deep else start
-    limit = DEEP_MAX_PAGES
+    # To'liq tekshiruv — boshlanish sanasigacha; chuqur — ko'pi bilan DEEP_DAYS kun orqaga
+    bound = start if full or not deep else max(start, today_uz() - timedelta(days=DEEP_DAYS))
+    limit = FULL_MAX_PAGES if full else DEEP_MAX_PAGES
     found = {}
     for path, section in SOURCES.items():
         for page in range(1, limit + 1):
@@ -1470,19 +1472,155 @@ def is_silent(item: dict) -> bool:
     return bool(d and (today_uz() - d).days > SILENT_AFTER_DAYS)
 
 
+# ======================= Admin buyruqlari (Telegram) =======================
+# Bot har ishga tushganda o'ziga yozilgan xabarlarni o'qiydi va admin buyruqlarini bajaradi:
+#   /yubor 32715,u920572 — e'lonni raqami bo'yicha yuborish   /holat — holat
+#   /tekshir — tekshiruv natijasi                              /start, /yordam — yordam
+
+ADMIN_IDS = {x.strip() for x in os.environ.get("ADMIN_IDS", "").split(",") if x.strip()}
+ADMIN_HELP = (
+    "🤖 <b>Tezkor OAK — admin buyruqlari</b>\n\n"
+    "/yubor 32715 — OAK e’lonini kanalga yuborish\n"
+    "/yubor u920572 — UzA e’lonini yuborish\n"
+    "/yubor 32715,u920572 — bir nechtasini birga\n"
+    "/tekshir (🔄 Tekshir) — ikkala saytni to‘liq tekshirib, kanalda chiqmagan barcha e’lonlarni chiqarish\n"
+    "/holat — bot holati va oxirgi postlar\n\n"
+    "⏱ Buyruqlar botning navbatdagi ishga tushishida bajariladi (odatda 15 daqiqa ichida). "
+    "Shoshilinch bo‘lsa — GitHub’da <b>Run workflow</b> ni bosing."
+)
+
+
+ADMIN_KEYBOARD = json.dumps({"keyboard": [[{"text": "🔄 Tekshir"}, {"text": "📊 Holat"}]],
+                             "resize_keyboard": True, "is_persistent": True})
+BUTTONS = {"🔄 tekshir": "/tekshir", "📊 holat": "/holat"}
+
+
+def tg_reply(chat_id, text: str) -> None:
+    try:
+        _tg("sendMessage", {"chat_id": chat_id, "text": text, "parse_mode": "HTML",
+                            "disable_web_page_preview": True, "reply_markup": ADMIN_KEYBOARD})
+    except RuntimeError as e:
+        log.warning("Adminga javob yuborilmadi: %s", e)
+
+
+def read_admin_commands() -> list[dict]:
+    """Botga yozilgan yangi xabarlarni o'qiydi. Natija: [{"chat": id, "cmd": "/yubor", "arg": "..."}]."""
+    if not BOT_TOKEN:
+        return []
+    try:
+        updates = _tg("getUpdates", {"offset": STATE.get("tg_offset", 0), "timeout": 0,
+                                     "allowed_updates": json.dumps(["message"])})
+    except RuntimeError as e:
+        if "409" in str(e):                       # webhook o'rnatilgan bo'lsa — o'chiramiz
+            _tg("deleteWebhook", {})
+            log.info("Telegram webhook o'chirildi, buyruqlar keyingi safar o'qiladi")
+        else:
+            log.warning("Buyruqlarni o'qib bo'lmadi: %s", e)
+        return []
+    cmds, told = [], set()
+    for upd in updates or []:
+        STATE["tg_offset"] = upd["update_id"] + 1
+        msg = upd.get("message") or {}
+        text = (msg.get("text") or "").strip()
+        chat = msg.get("chat") or {}
+        if chat.get("type") != "private":
+            continue
+        text = BUTTONS.get(text.lower(), text)          # tugma bosilgan bo'lsa — buyruqqa aylantiramiz
+        if not text.startswith("/"):
+            continue
+        uid = str((msg.get("from") or {}).get("id", ""))
+        if uid not in ADMIN_IDS:
+            if uid not in told:
+                tg_reply(chat["id"], "⛔️ Bu bot faqat kanal admini uchun.\n\nSizning Telegram ID: <code>"
+                         + uid + "</code>\nAdmin bo‘lsangiz, shu raqamni GitHub’dagi <b>ADMIN_IDS</b> "
+                         "o‘zgaruvchisiga yozing.")
+                told.add(uid)
+            continue
+        parts = text.split(maxsplit=1)
+        cmds.append({"chat": chat["id"], "cmd": parts[0].lower().split("@")[0],
+                     "arg": parts[1] if len(parts) > 1 else ""})
+    if updates:                                   # o'qilganini Telegram'ga tasdiqlaymiz
+        try:
+            _tg("getUpdates", {"offset": STATE["tg_offset"], "timeout": 0, "limit": 1})
+        except RuntimeError:
+            pass
+    return cmds
+
+
+def admin_status() -> str:
+    def fmt(iso):
+        try:
+            d = datetime.fromisoformat(iso) + timedelta(hours=5)
+            return d.strftime("%d.%m %H:%M")
+        except (ValueError, TypeError):
+            return "—"
+    c = STATE.get("counts", {})
+    found, f_oak = c.get("found", 0), c.get("found_oak", 0)
+    left, l_oak = c.get("left", 0), c.get("left_oak", 0)
+    lines = ["📊 <b>Bot holati</b>", "",
+             f"🕒 Oxirgi tekshiruv: {fmt(STATE.get('last_run', ''))}",
+             "",
+             "📭 <b>Kanalda chiqmagan e’lonlar</b>" + (" (to‘liq tekshiruv)" if c.get("full") else "") + ":",
+             f"   🔎 Topildi: <b>{found}</b> ta  (OAK: {f_oak}, UzA: {found - f_oak})",
+             f"   📤 Hozir yuborildi: <b>{c.get('posted', 0)}</b> ta"]
+    if c.get("dups"):
+        lines.append(f"   ♻️ Takror (UzA’dagi boshqa yozuvdagi nusxasi): <b>{c['dups']}</b> ta — chiqarilmadi")
+    if left:
+        lines.append(f"   📬 Qoldi: <b>{left}</b> ta  (OAK: {l_oak}, UzA: {left - l_oak}) — keyingi tekshiruvlarda chiqadi")
+    else:
+        lines.append("   ✅ Qoldi: <b>0</b> — barcha e’lonlar kanalda")
+    lines += ["",
+              f"🗂 Jami chiqarilgan: OAK {len(STATE.get('seen', []))} ta, UzA {len(STATE.get('seen_uza', []))} ta",
+              f"📅 Kuzatuv: OAK — {START_DATE} dan, UzA — {UZA_START_DATE} dan"]
+    recent = STATE.get("recent", [])
+    if recent:
+        lines += ["", "🆕 <b>Oxirgi postlar:</b>"]
+        for r in recent[-5:][::-1]:
+            lines.append(f"• {fmt(r['t'])} — <a href=\"{r['url']}\">{html.escape(r['title'][:60])}</a>")
+    return "\n".join(lines)
+
+
+def note_post(item: dict) -> None:
+    """Oxirgi postlar ro'yxati (/holat uchun)."""
+    rec = STATE.setdefault("recent", [])
+    rec.append({"t": datetime.now(timezone.utc).isoformat(), "url": item["url"],
+                "title": to_latin(item.get("title", ""))})
+    del rec[:-10]
+
+
 def run_once() -> None:
     existed = load_state()
     seen = set(STATE.get("seen", []))
     if existed:
         migrate_skipped(seen)
 
-    # 1) Qo'lda ko'rsatilgan e'lonlar (Actions → Run workflow → "ids" maydoni)
-    for raw in re.findall(r"[uU]?\d+", FORCE_IDS):
+    # 0) Admin buyruqlari (Telegram)
+    cmds = read_admin_commands()
+    cmd_ids = []
+    for c in cmds:
+        if c["cmd"] in ("/start", "/yordam", "/help"):
+            tg_reply(c["chat"], ADMIN_HELP)
+        elif c["cmd"] == "/yubor":
+            found_ids = re.findall(r"[uU]?\d{3,}", c["arg"])
+            if found_ids:
+                cmd_ids += found_ids
+                tg_reply(c["chat"], "📨 Qabul qilindi: <code>" + ", ".join(found_ids) + "</code> — hozir yuboriladi.")
+            else:
+                tg_reply(c["chat"], "Raqamni yozing, masalan:\n<code>/yubor 32715</code>\n<code>/yubor u920572</code>")
+        elif c["cmd"] not in ("/tekshir", "/holat", "/status", "/run"):
+            tg_reply(c["chat"], "Buyruq tushunilmadi.\n\n" + ADMIN_HELP)
+    results = {}
+
+    # 1) Qo'lda ko'rsatilgan e'lonlar (Actions → Run workflow → "ids" maydoni yoki /yubor)
+    for raw in re.findall(r"[uU]?\d+", FORCE_IDS) + cmd_ids:
+        results.setdefault(raw, "❌ topilmadi yoki yuborilmadi")
         if raw[0] in "uU":                                  # UzA e'loni: u920315
             try:
                 it = find_uza(int(raw[1:]))
                 if it:
                     publish(it, "UzA", silent=is_silent(it))
+                    results[raw] = "✅ yuborildi"
+                    note_post(it)
                     STATE.setdefault("seen_uza", []).append(it["id"])
                     save_state(seen)
                     log.info("Qo'lda yuborildi (UzA): %s", it["url"])
@@ -1497,6 +1635,8 @@ def run_once() -> None:
             got = item_from_page(pid)
             if got:
                 res = publish(*got, silent=is_silent(got[0]))
+                results[raw] = "✅ yuborildi"
+                note_post(got[0])
                 key = person_key(get_info(got[0]))
                 if key:
                     STATE.setdefault("people", {})[key] = {**res, "src": "oak", "d": today_uz().isoformat()}
@@ -1508,12 +1648,31 @@ def run_once() -> None:
             log.error("%s raqamli e'lonni yuborib bo'lmadi: %s", pid, e)
 
     # 2) Chuqur tekshiruv: navbat qolgan bo'lsa, qo'lda ishga tushirilganda yoki har soatda bir marta
-    deep = STATE.get("backlog", False) or MANUAL_RUN or not existed or time.gmtime().tm_min < 15
+    # Chuqur tekshiruv soatiga bir marta (yoki navbat qolganda). Tashqi taymer (cron-job.org) har 15 daqiqada
+    # ishga tushirsa ham saytlarga ortiqcha yuk tushmaydi. Majburiy chuqur tekshiruv: DEEP_SCAN=1
+    last = STATE.get("last_deep", "")
+    hour_passed = last < (datetime.now(timezone.utc) - timedelta(minutes=55)).isoformat()
+    # To'liq tekshiruv: /tekshir buyrug'i (yoki FULL_SCAN=1). Navbat tugamaguncha keyingi ishga
+    # tushirishlarda ham to'liq tekshiruv davom etadi — shunda eski e'lonlar ham qolib ketmaydi.
+    full = (any(c["cmd"] in ("/tekshir", "/run", "/holat", "/status") for c in cmds)
+            or os.environ.get("FULL_SCAN", "") == "1" or STATE.get("full_pending", False))
+    for c in cmds:
+        if c["cmd"] in ("/holat", "/status"):
+            tg_reply(c["chat"], "📊 Saytlar to‘liq tekshirilmoqda — chiqmagan e’lonlar sonini bir necha daqiqada yozaman.")
+    if any(c["cmd"] in ("/tekshir", "/run") for c in cmds):
+        for c in cmds:
+            if c["cmd"] in ("/tekshir", "/run"):
+                tg_reply(c["chat"], f"🔄 To‘liq tekshiruv boshlandi: OAK — {START_DATE} dan, UzA — {UZA_START_DATE} dan.\n"
+                                    "Kanalda chiqmagan barcha e’lonlar topiladi. Natijani shu yerga yozaman.")
+    deep = (full or STATE.get("backlog", False) or not existed or hour_passed
+            or os.environ.get("DEEP_SCAN", "") == "1")
+    if deep:
+        STATE["last_deep"] = datetime.now(timezone.utc).isoformat()
     seen_uza = set(STATE.get("seen_uza", []))
-    items = collect(seen, deep)
+    items = collect(seen, deep, full)
     if UZA_ENABLED:
         build_uza_keys(seen_uza)
-        items += collect_uza(seen_uza, deep)
+        items += collect_uza(seen_uza, deep, full)
     # Ikkala saytdagi e'lonlar birgalikda, eskidan yangiga
     items.sort(key=lambda x: (parse_date(x[0]["date"]) or date.max, x[0].get("source", "oak"), x[0]["id"]))
     batch = items[:MAX_POSTS_PER_RUN]
@@ -1522,6 +1681,8 @@ def run_once() -> None:
              sum(1 for i, _ in items if i.get("source") == "uza"), len(batch))
 
     done = 0
+    posted = 0
+    dups = 0
     for item, section in batch:
         is_uza = item.get("source") == "uza"
         try:
@@ -1529,6 +1690,7 @@ def run_once() -> None:
             ukey = person_key(get_info(item)) if is_uza else ""
             if ukey and ukey in STATE.setdefault("uza_keys", {}):
                 log.info("UzA: shu e'lonning boshqa yozuvdagi nusxasi allaqachon chiqqan — %s", item["url"])
+                dups += 1
                 STATE["seen_uza"].append(item["id"])
                 done += 1
                 save_state(seen)
@@ -1539,10 +1701,14 @@ def run_once() -> None:
             if rec and rec.get("src") != ("uza" if is_uza else "oak"):
                 # Shu odam boshqa saytdan allaqachon chiqqan — yangi post emas, mavjudini to'ldiramiz
                 merge_into_post(rec, item)
+                dups += 1
             elif rec:
                 log.info("Shu saytda takror e'lon — o'tkazib yuborildi: %s", item["url"])
+                dups += 1
             else:
                 res = publish(item, section, silent=is_silent(item))
+                note_post(item)
+                posted += 1
                 if ukey:
                     STATE.setdefault("uza_keys", {})[ukey] = today_uz().isoformat()
                 if key:
@@ -1557,7 +1723,30 @@ def run_once() -> None:
         save_state(seen)   # har e'londan keyin saqlaymiz — takror bo'lmasligi uchun
 
     STATE["backlog"] = len(items) > done
+    STATE["queue"] = len(items) - done
+    STATE["full_pending"] = full and STATE["queue"] > 0
+    found_oak = sum(1 for i, _ in items if i.get("source") != "uza")
+    left = items[done:]
+    left_oak = sum(1 for i, _ in left if i.get("source") != "uza")
+    STATE["counts"] = {"found": len(items), "found_oak": found_oak, "posted": posted, "dups": dups,
+                       "left": len(left), "left_oak": left_oak, "full": full}
+    STATE["last_run"] = datetime.now(timezone.utc).isoformat()
     save_state(seen)
+
+    # Adminlarga natija
+    for c in cmds:
+        if c["cmd"] == "/yubor" and results:
+            ids_here = re.findall(r"[uU]?\d{3,}", c["arg"])
+            tg_reply(c["chat"], "📨 <b>Natija:</b>\n" + "\n".join(f"{x} — {results.get(x, '—')}" for x in ids_here))
+        elif c["cmd"] in ("/tekshir", "/run"):
+            n_oak = sum(1 for i, _ in items if i.get("source") != "uza")
+            tg_reply(c["chat"], f"✅ To‘liq tekshiruv tugadi.\n\n"
+                     f"🔎 Topildi: {len(items)} ta chiqmagan e’lon (OAK: {n_oak}, UzA: {len(items) - n_oak})\n"
+                     f"📤 Kanalga yuborildi: {posted} ta"
+                     + (f"\n📬 Navbatda: {STATE['queue']} ta — keyingi tekshiruvlarda avtomatik chiqadi."
+                        if STATE["queue"] else "\n🎉 Kanalda chiqmagan e’lon qolmadi."))
+        elif c["cmd"] in ("/holat", "/status"):
+            tg_reply(c["chat"], admin_status())
     if STATE["backlog"]:
         log.info("Navbatda yana %d ta e'lon bor — keyingi tekshiruvda davom etadi", len(items) - done)
 
