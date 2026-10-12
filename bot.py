@@ -228,14 +228,30 @@ def to_latin(text: str) -> str:
     return "".join(out)
 
 
+_RU_WORDS = re.compile(r"(?<![а-яё])(и|в|на|по|для|от|при|или|что|не|к|с|из|о)(?![а-яё])")
+_RU_ENDINGS = re.compile(r"[а-я](ого|ому|ыми|ией|ость|ости|ский|ская|ских|ный|ная|ных)(?![а-яё])")
+
+
+def is_ruso(text: str) -> int:
+    t = text.lower()
+    return (sum(1 for ch in t if ch in "ыщ") + len(_RU_WORDS.findall(t)) + len(_RU_ENDINGS.findall(t)))
+
+
+def is_russian(text: str) -> bool:
+    """Ruscha matnmi? Ruschaga xos harflar (ы, щ), qo'shimchalar (-ого, -ость, -ский)
+    va kichik so'zlar (и, в, на, для) bo'yicha aniqlanadi. O'zbekcha harflar (ў қ ғ ҳ) bo'lsa — ruscha emas."""
+    if any(ch in "ўқғҳЎҚҒҲ" for ch in text):
+        return False
+    return is_ruso(text) >= 2
+
+
 def is_uzbek_cyrillic(text: str) -> bool:
-    """O'zbekcha kirill matnmi? O'zbekchaga xos harflar (ў қ ғ ҳ) bo'lsa — ha.
-    Ular bo'lmasa ham, kirill harflar ko'p bo'lib, ruschaga xos 'ы' / 'щ' uchramasa — o'zbekcha."""
+    """Lotinga o'girish kerakmi? Matnda kirill harfi bo'lsa (hatto lotincha matn ichida bir-ikki so'z
+    bo'lsa ham) va matn ruscha bo'lmasa — ha. Lotincha qismlar o'girishda o'zgarmaydi."""
     if any(ch in "ўқғҳЎҚҒҲ" for ch in text):
         return True
-    cyr = sum(1 for ch in text if "а" <= ch.lower() <= "я" or ch.lower() == "ё")
-    russian = sum(1 for ch in text if ch.lower() in "ыщ")
-    return cyr >= 20 and russian == 0
+    has_cyr = any("а" <= ch.lower() <= "я" or ch.lower() == "ё" for ch in text)
+    return has_cyr and not is_russian(text)
 
 
 # ---------- E'lon matnidan maydonlarni ajratib olish ----------
@@ -1165,7 +1181,7 @@ def send_photo(photo: bytes, caption: str, silent: bool = False) -> int:
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 # PDF ko'rinishi o'zgarganda shu raqam oshiriladi — shunda eski kod yasagan PDF'lar qayta ishlatilmaydi
-PDF_VERSION = "v4"
+PDF_VERSION = "v5"
 GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "")   # Actions o'zi beradi: "user/repo"
 _release_ids: dict = {}
 
