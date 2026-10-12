@@ -910,7 +910,7 @@
   32990
  ],
  "migrated_v2": true,
- "backlog": false,
+ "backlog": true,
  "people": {},
  "seen_uza": [
   916069,
@@ -1909,16 +1909,16 @@
    "title": "Saxibov Turman Kuyliyevichning geologiya-mineralogiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
- "queue": 0,
+ "queue": 2,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
+  "found": 2,
+  "found_oak": 2,
   "posted": 0,
   "dups": 0,
-  "left": 0,
-  "left_oak": 0,
+  "left": 2,
+  "left_oak": 2,
   "full": false
  },
- "last_run": "2026-10-12T14:50:45.314952+00:00"
+ "last_run": "2026-10-12T15:03:01.427094+00:00"
 }
