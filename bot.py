@@ -273,20 +273,45 @@ def short_person(value: str) -> str:
 CODE_RE = re.compile(r"(?<![\d./])(\d{2}\.\d{2}\.\d{2})(?![\d])(?!\.\d)")
 
 
+def _clean_spec(spec: str) -> str:
+    spec = re.sub(r"\.\s*$", "", spec).strip(" ,.:“”\"«»„–—-")
+    spec = re.sub(r"\s*ixtisosli\w*(\s+bo‘yicha|\s+bo'yicha)?$", "", spec, flags=re.IGNORECASE)
+    spec = spec.strip(" ,.:“”\"«»„–—-")
+    if len(spec) > 160:                 # nom o'rniga boshqa matn ilashib qolgan
+        spec = spec[:160].rsplit(" ", 1)[0] + "…"
+    return spec
+
+
 def parse_shifr(text: str) -> tuple[str, int] | None:
-    """Matndan 'shifr – ixtisoslik nomi' ni topadi. (natija, shifr boshlangan joy) qaytaradi."""
+    """Matndan 'shifr – ixtisoslik nomi' ni topadi. (natija, shifr boshlangan joy) qaytaradi.
+    Quyidagi shakllarni taniydi:
+      10.00.06 – Qiyosiy adabiyotshunoslik (filologiya fanlari)
+      05.05.07-“Qishloq xo‘jaligida ...”
+      13.00.02 – Ta’lim ... metodikasiixtisosligi   (bo'sh joysiz)
+      08.00.08 ixtisosligi “Buxgalteriya hisobi ...”
+      Ta’lim va tarbiya nazariyasi (13.00.02) ixtisosligi"""
     m = CODE_RE.search(text)
     if not m:
         return None
+    code = m.group(1)
     rest = text[m.end():]
-    rest = re.sub(r"^\s*[–—-]?\s*", "", rest).lstrip("“”\"«»„ ")
-    spec = re.split(r"\s*\(|\)|;|\n|[“”\"«»„]|\s+ixtisosli\w*", rest, 1)[0]
-    spec = re.sub(r"\.\s*$", "", spec).strip(" ,.:“”\"«»„")
-    spec = re.sub(r"\s+ixtisosligi(\s+bo‘yicha|\s+bo'yicha)?$", "", spec, flags=re.IGNORECASE)
-    spec = spec.strip(" ,.:“”\"«»„")
-    if len(spec) > 160:                 # nom o'rniga boshqa matn ilashib qolgan
-        spec = spec[:160].rsplit(" ", 1)[0] + "…"
-    return (f"{m.group(1)} – {spec}" if spec else m.group(1)), m.start()
+    rest = re.sub(r"^\s*[–—‒−‑-]?\s*", "", rest).lstrip("“”\"«»„( ")
+    # 1) Nom shifrdan keyin
+    spec = re.split(r"\s*\(|\)|;|\n|[“”\"«»„]|\s*ixtisosli\w*", rest, 1)[0]
+    spec = _clean_spec(spec)
+    # 2) "08.00.08 ixtisosligi “Nom”" — nom "ixtisosligi" so'zidan keyin qo'shtirnoqda
+    if len(spec) < 3:
+        q = re.match(r"\s*ixtisosli\w*\s*(?:bo‘yicha|bo'yicha)?\s*[“«\"„]([^”»\"]{3,160})[”»\"]", rest, re.IGNORECASE)
+        if q:
+            spec = _clean_spec(q.group(1))
+    # 3) "Nom (13.00.02) ixtisosligi" — nom shifrdan oldin
+    if len(spec) < 3:
+        before = text[max(0, m.start() - 200):m.start()]
+        before = re.sub(r"[\s(–—-]+$", "", before)
+        before = re.split(r"[“”«»\"„;:]|ning\s|\bbo‘yicha\s|\bbo'yicha\s", before)[-1]
+        if re.search(r"[a-zA-Z]{3}", before) and not re.search(r"\d", before):
+            spec = _clean_spec(before)
+    return (f"{code} – {spec}" if len(spec) >= 3 else code), m.start()
 
 
 COUNCIL_CODE_RE = re.compile(r"\b(?:DSc|PhD)\s*\.?\s*\d[\w./-]*", re.IGNORECASE)
