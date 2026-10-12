@@ -38,7 +38,8 @@ SOURCES = {
     "/page/31": "Mustaqil ilmiy kengash",
 }
 MAX_PAGES = 3          # oddiy tekshiruvda har bir bo'limdan nechta sahifa ko'riladi
-START_DATE = os.environ.get("START_DATE", "01.09.2026")   # shu sanadan boshlab barcha e'lonlar chiqadi
+START_DATE = os.environ.get("START_DATE", "01.09.2026")   # OAK: shu sanadan boshlab barcha e'lonlar chiqadi
+UZA_START_DATE = os.environ.get("UZA_START_DATE", "01.10.2026")   # UzA: shu sanadan boshlab
 DEEP_DAYS = int(os.environ.get("DEEP_DAYS", "60"))        # chuqur tekshiruv necha kun orqaga qaraydi
 DEEP_MAX_PAGES = 200                                       # chuqur tekshiruvda sahifalar chegarasi
 MAX_POSTS_PER_RUN = int(os.environ.get("MAX_POSTS_PER_RUN", "40"))
@@ -502,7 +503,7 @@ def fetch_uza_page(page: int) -> list[dict]:
 
 
 def collect_uza(seen_uza: set[int], deep: bool) -> list[tuple[dict, str]]:
-    start = parse_date(START_DATE) or date(2000, 1, 1)
+    start = parse_date(UZA_START_DATE) or date(2000, 1, 1)
     bound = max(start, today_uz() - timedelta(days=DEEP_DAYS)) if deep else start
     found = {}
     for page in range(1, DEEP_MAX_PAGES + 1):
@@ -673,11 +674,11 @@ THEMES = {
 }
 DEGREE_NAMES = {"PhD": "Falsafa doktori", "DSc": "Fan doktori"}
 _FONTS = {
-    "bold": ["fonts/Poppins-Bold.ttf", "fonts/DejaVuSans-Bold.ttf",
+    "bold": ["fonts/Poppins-Bold.ttf", "Poppins-Bold.ttf", "fonts/DejaVuSans-Bold.ttf", "DejaVuSans-Bold.ttf",
              "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
-    "medium": ["fonts/Poppins-Medium.ttf", "fonts/DejaVuSans-Bold.ttf",
+    "medium": ["fonts/Poppins-Medium.ttf", "Poppins-Medium.ttf", "fonts/DejaVuSans-Bold.ttf", "DejaVuSans-Bold.ttf",
                "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"],
-    "regular": ["fonts/Poppins-Regular.ttf", "fonts/DejaVuSans.ttf",
+    "regular": ["fonts/Poppins-Regular.ttf", "Poppins-Regular.ttf", "fonts/DejaVuSans.ttf", "DejaVuSans.ttf",
                 "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"],
 }
 _font_cache: dict = {}
@@ -966,7 +967,7 @@ def make_pdf(item: dict) -> bytes | None:
     # topilmasa — DejaVu Sans
     def pick(*names):
         for n in names:
-            for d in ("fonts", "/usr/share/fonts/truetype/liberation", "/usr/share/fonts/truetype/dejavu"):
+            for d in ("fonts", ".", "/usr/share/fonts/truetype/liberation", "/usr/share/fonts/truetype/dejavu"):
                 if Path(d, n).exists():
                     return str(Path(d, n))
         return None
