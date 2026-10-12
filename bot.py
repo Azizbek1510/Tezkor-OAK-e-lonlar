@@ -591,6 +591,47 @@ def find_uza(uid: int) -> dict | None:
     return None
 
 
+def build_uza_keys(seen_uza: set[int]) -> None:
+    """Bir martalik: avval chiqqan UzA postlarining ismlarini eslab qolamiz, shunda ularning
+    boshqa yozuvdagi (lotin/kirill) nusxalari qayta chiqmaydi."""
+    if STATE.get("uza_keys_built"):
+        return
+    keys = STATE.setdefault("uza_keys", {})
+    start = parse_date(UZA_START_DATE) or date(2000, 1, 1)
+    found = 0
+    for lang in UZA_LANGS:
+        for page in range(1, DEEP_MAX_PAGES + 1):
+            try:
+                rows = fetch_uza_page(page, lang)
+            except RuntimeError as e:
+                log.error(e)
+                return                                   # keyingi safar qayta urinamiz
+            if not rows:
+                break
+            dates = []
+            for raw in rows:
+                if int(raw.get("id", 0)) in seen_uza:
+                    try:
+                        it = uza_item(raw)
+                    except Exception:  # noqa: BLE001
+                        continue
+                    if it:
+                        k = person_key(it["_info"])
+                        if k:
+                            keys.setdefault(k, today_uz().isoformat())
+                            found += 1
+                pt = (raw.get("publish_time") or "")[:10]
+                try:
+                    dates.append(datetime.strptime(pt, "%Y-%m-%d").date())
+                except ValueError:
+                    pass
+            if dates and min(dates) < start:
+                break
+            time.sleep(0.3)
+    STATE["uza_keys_built"] = True
+    log.info("Avval chiqqan %d ta UzA posti eslab qolindi — ularning nusxalari qayta chiqmaydi", found)
+
+
 def collect_uza(seen_uza: set[int], deep: bool) -> list[tuple[dict, str]]:
     start = parse_date(UZA_START_DATE) or date(2000, 1, 1)
     bound = max(start, today_uz() - timedelta(days=DEEP_DAYS)) if deep else start
@@ -1471,6 +1512,7 @@ def run_once() -> None:
     seen_uza = set(STATE.get("seen_uza", []))
     items = collect(seen, deep)
     if UZA_ENABLED:
+        build_uza_keys(seen_uza)
         items += collect_uza(seen_uza, deep)
     # Ikkala saytdagi e'lonlar birgalikda, eskidan yangiga
     items.sort(key=lambda x: (parse_date(x[0]["date"]) or date.max, x[0].get("source", "oak"), x[0]["id"]))
