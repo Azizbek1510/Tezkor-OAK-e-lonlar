@@ -2,7 +2,7 @@ name: Tezkor OAK e'lonlar
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # har 15 daqiqada
+    - cron: "7,22,37,52 * * * *"   # har 15 daqiqada (GitHub band bo'lmagan daqiqalarda)
   workflow_dispatch:          # qo'lda ishga tushirish tugmasi
     inputs:
       ids:
@@ -38,6 +38,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_IDS: ${{ github.event.inputs.ids }}
           MAX_POSTS_PER_RUN: "100"
+          ADMIN_IDS: ${{ vars.ADMIN_IDS }}
       - name: Holatni saqlash
         if: always()
         run: |
