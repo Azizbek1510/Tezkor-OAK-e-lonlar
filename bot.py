@@ -439,33 +439,62 @@ def extract_uza(item: dict) -> dict:
     return info
 
 
-def uza_image_url(raw: dict) -> str:
-    """UzA'da e'longa yuklangan rasm: asl fayl, bo'lmasa 'normal' o'lchamdagisi."""
+def uza_image_urls(raw: dict) -> list[str]:
+    """UzA'dagi rasmning barcha nusxalari: asl fayl, so'ng turli o'lchamdagilari."""
     f = raw.get("files") or {}
+    urls = []
     if f.get("domain") and f.get("folder") and f.get("file"):
-        return f["domain"] + f["folder"] + f["file"]
-    return ((f.get("thumbnails") or {}).get("normal") or {}).get("src", "")
+        urls.append(f["domain"] + f["folder"] + f["file"])
+    th = f.get("thumbnails") or {}
+    for size in ("normal", "front", "mobile", "low"):
+        src = (th.get(size) or {}).get("src")
+        if src:
+            urls.append(src)
+    if f.get("source_url"):
+        urls.append(f["source_url"])
+    return list(dict.fromkeys(u.replace("\\/", "/") for u in urls))
 
 
+BROWSER_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+              "(KHTML, like Gecko) Chrome/124.0 Safari/537.36")
 _image_cache: dict = {}
 
 
 def uza_image(item: dict) -> bytes | None:
-    """UzA rasmini yuklab oladi (Telegram'ga va PDF'ga qo'yish uchun)."""
-    url = item.get("image_url")
-    if not url:
-        return None
-    if url not in _image_cache:
+    """UzA rasmini yuklab, Telegram qabul qiladigan JPEG ko'rinishiga keltiradi.
+    Bir nusxa ochilmasa, keyingisini sinaydi."""
+    key = item.get("id")
+    if key in _image_cache:
+        return _image_cache[key]
+    result = None
+    for url in item.get("image_urls") or []:
         try:
-            r = _session.get(url, timeout=40)
+            r = requests.get(url, headers={"User-Agent": BROWSER_UA, "Referer": "https://uza.uz/"}, timeout=40)
             r.raise_for_status()
-            if not r.headers.get("Content-Type", "image").startswith("image") or len(r.content) < 1000:
-                raise ValueError("rasm emas")
-            _image_cache[url] = r.content
-        except (requests.RequestException, ValueError) as e:
-            log.warning("UzA rasmi yuklanmadi (%s): %s", url, e)
-            _image_cache[url] = None
-    return _image_cache[url]
+            im = Image.open(BytesIO(r.content))
+            im.load()
+            if min(im.size) < 120:
+                raise ValueError(f"rasm juda kichik {im.size}")
+            if im.mode in ("RGBA", "LA", "P"):                # shaffof fonni oq qilamiz
+                im = im.convert("RGBA")
+                bg = Image.new("RGB", im.size, (255, 255, 255))
+                bg.paste(im, mask=im.split()[-1])
+                im = bg
+            im = im.convert("RGB")
+            if max(im.size) > 2560:
+                im.thumbnail((2560, 2560))
+            if max(im.size) / min(im.size) > 19:              # Telegram cheklovi
+                raise ValueError("rasm nisbati juda cho'zinchoq")
+            buf = BytesIO()
+            im.save(buf, "JPEG", quality=92)
+            result = buf.getvalue()
+            break
+        except Exception as e:  # noqa: BLE001
+            log.warning("UzA rasmi (%s) ochilmadi: %s — keyingi nusxani sinaymiz", url, e)
+    if result is None:
+        log.warning("UzA e'loni %s uchun rasm topilmadi — bot chizgan rasm qo'yiladi", key)
+    _image_cache[key] = result
+    return result
 
 
 def uza_item(raw: dict) -> dict | None:
@@ -482,7 +511,7 @@ def uza_item(raw: dict) -> dict | None:
             "date": d, "summary": "", "description": raw.get("description") or "",
             "content_html": raw.get("content") or "",
             "published": f"{d}, {pt[11:16]}" if d and len(pt) >= 16 else d,   # UzA'ga joylangan vaqt
-            "image_url": uza_image_url(raw),
+            "image_urls": uza_image_urls(raw),
             "url": f"https://uza.uz/oz/posts/{raw.get('slug', '')}"}
     item["_info"] = extract_uza(item)
     item["title"] = item["_info"]["title"]
@@ -500,6 +529,21 @@ def fetch_uza_page(page: int) -> list[dict]:
             log.warning("UzA API (%s/3): %s", i + 1, e)
             time.sleep(5 * (i + 1))
     raise RuntimeError("UzA API ochilmadi")
+
+
+def find_uza(uid: int) -> dict | None:
+    """UzA e'lonini raqami bo'yicha topadi (ro'yxat sahifalarini ko'rib chiqib)."""
+    for page in range(1, DEEP_MAX_PAGES + 1):
+        rows = fetch_uza_page(page)
+        if not rows:
+            return None
+        for raw in rows:
+            if int(raw.get("id", 0)) == uid:
+                return uza_item(raw)
+        if min(int(r.get("id", 0)) for r in rows) < uid:   # undan eskilariga o'tib ketdik
+            return None
+        time.sleep(0.3)
+    return None
 
 
 def collect_uza(seen_uza: set[int], deep: bool) -> list[tuple[dict, str]]:
@@ -1345,7 +1389,21 @@ def run_once() -> None:
         migrate_skipped(seen)
 
     # 1) Qo'lda ko'rsatilgan e'lonlar (Actions → Run workflow → "ids" maydoni)
-    for raw in re.findall(r"\d+", FORCE_IDS):
+    for raw in re.findall(r"[uU]?\d+", FORCE_IDS):
+        if raw[0] in "uU":                                  # UzA e'loni: u920315
+            try:
+                it = find_uza(int(raw[1:]))
+                if it:
+                    publish(it, "UzA", silent=is_silent(it))
+                    STATE.setdefault("seen_uza", []).append(it["id"])
+                    save_state(seen)
+                    log.info("Qo'lda yuborildi (UzA): %s", it["url"])
+                    time.sleep(3)
+                else:
+                    log.error("UzA'da %s raqamli e'lon topilmadi", raw)
+            except Exception as e:  # noqa: BLE001
+                log.error("UzA %s e'lonini yuborib bo'lmadi: %s", raw, e)
+            continue
         pid = int(raw)
         try:
             got = item_from_page(pid)
