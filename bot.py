@@ -278,8 +278,8 @@ def parse_shifr(text: str) -> tuple[str, int] | None:
     if not m:
         return None
     rest = text[m.end():]
-    rest = re.sub(r"^\s*[–—-]?\s*", "", rest)
-    spec = re.split(r"\s*\(|\)|;|\n", rest, 1)[0]
+    rest = re.sub(r"^\s*[–—-]?\s*", "", rest).lstrip("“”\"«»„ ")
+    spec = re.split(r"\s*\(|\)|;|\n|[“”\"«»„]|\s+ixtisosli\w*", rest, 1)[0]
     spec = re.sub(r"\.\s*$", "", spec).strip(" ,.:“”\"«»„")
     spec = re.sub(r"\s+ixtisosligi(\s+bo‘yicha|\s+bo'yicha)?$", "", spec, flags=re.IGNORECASE)
     spec = spec.strip(" ,.:“”\"«»„")
@@ -360,16 +360,241 @@ def extract(item: dict) -> dict:
     return info
 
 
+def get_info(item: dict) -> dict:
+    """E'lon ma'lumotlari: UzA uchun oldindan ajratilgan, OAK uchun sahifa matnidan."""
+    return item["_info"] if item.get("_info") else extract(item)
+
+
+# ======================= UzA (uza.uz) =======================
+
+UZA_API = "https://api.uza.uz/api/v1/posts/category/announcement"
+UZA_PER_PAGE = 20
+INVISIBLE_RE = re.compile("[\u2060\u200b\u200c\u200d\ufeff\u00ad]")
+MONTHS = {"yanvar": 1, "fevral": 2, "mart": 3, "aprel": 4, "may": 5, "iyun": 6, "iyul": 7,
+          "avgust": 8, "sentyabr": 9, "sentabr": 9, "oktyabr": 10, "oktabr": 10,
+          "noyabr": 11, "dekabr": 12}
+KNOWN_FIELDS = ["fizika-matematika", "geologiya-mineralogiya", "qishloq xo‘jaligi", "kimyo", "biologiya",
+                "texnika", "tarix", "iqtisodiyot", "falsafa", "filologiya", "geografiya", "yuridik",
+                "pedagogika", "tibbiyot", "farmatsevtika", "veterinariya", "san’atshunoslik",
+                "arxitektura", "psixologiya", "harbiy", "sotsiologiya", "siyosiy"]
+
+
+def _plain(html_text: str) -> str:
+    soup = BeautifulSoup(html_text or "", "html.parser")
+    _drop_comments(soup)
+    return scrub(INVISIBLE_RE.sub("", clean_text(soup)).replace("\xa0", " "))
+
+
+def extract_uza(item: dict) -> dict:
+    """UzA e'loni (bitta yaxlit gap) dan maydonlarni ajratadi."""
+    title = to_latin(INVISIBLE_RE.sub("", item["title"]))
+    text = to_latin(_plain(item["content_html"]))
+    flat = re.sub(r"\s+", " ", text)
+    info = {"title": title, "degree": "", "field": "", "name": "", "topic": "", "shifr": "",
+            "supervisor": "", "institution": "", "council": "", "date": item.get("date", ""),
+            "defense": "", "address": ""}
+    info["degree"] = "DSc" if "DSc" in title else ("PhD" if "PhD" in title else "")
+    # Ism: matn boshidagi qalin yozuv yoki sarlavha boshidan "...ning" gacha
+    strong = BeautifulSoup(item["content_html"], "html.parser").find(["strong", "b"])
+    raw_name = to_latin(INVISIBLE_RE.sub("", strong.get_text(" ", strip=True))) if strong else ""
+    m = re.match(r"^(.+?)(?:ning)?\s*$", raw_name) if raw_name else NAME_RE.search(title)
+    if not raw_name:
+        m2 = re.match(r"^(.+?)ning\s", title)
+        info["name"] = m2.group(1).strip() if m2 else ""
+    else:
+        info["name"] = re.sub(r"n?ing$", "", raw_name.strip(" :,")).strip()
+    # Fan tarmog'i — sarlavhadan
+    low = re.sub(r"[’'ʼ]", "", title.lower())
+    for f in KNOWN_FIELDS:                     # "<soha> fanlari" — "falsafa doktori" bilan adashmaslik uchun
+        if re.search(re.escape(f.replace("’", "")) + r"\s+fanlari", low):
+            info["field"] = f
+            break
+    # Mavzu — "description" maydonidan: “...” mavzusida
+    desc = to_latin(INVISIBLE_RE.sub("", item.get("description", "")))
+    desc = re.sub(r"\s*mavzusida\s*$", "", desc.strip(), flags=re.IGNORECASE)
+    topic = desc.strip(" .").strip("“”\"«»„ ")
+    if topic.count("“") != topic.count("”") or topic.count("«") != topic.count("»"):
+        topic = re.sub(r"[“”«»]", "", topic)          # saytdagi juftsiz qo'shtirnoqlar
+    info["topic"] = re.sub(r"\s{2,}", " ", topic)
+    # Ixtisoslik
+    got = parse_shifr(flat)
+    if got:
+        info["shifr"] = got[0]
+    # Ilmiy kengash: "himoyasi <muassasa> huzuridagi/qoshidagi ... raqamli"
+    cm = re.search(r"himoyasi\s+(.+?)\s+(?:huzuridagi|qoshidagi|ilmiy daraja|ilmiy darajalar|DSc|PhD|Dsc)",
+                   flat, re.IGNORECASE)
+    if cm:
+        info["council"] = cm.group(1).strip(" ,.")
+    # Himoya sanasi va vaqti
+    dm = re.search(r"(\d{4})\s*-?\s*yil\s*(\d{1,2})\s*-?\s*([A-Za-z‘’']+)\s*kuni\s*soat\s*(\d{1,2})[:.](\d{2})",
+                   flat, re.IGNORECASE)
+    if dm:
+        mon = MONTHS.get(re.sub(r"[‘’']", "", dm.group(3).lower()))
+        if mon:
+            info["defense"] = f"{int(dm.group(2)):02d}.{mon:02d}.{dm.group(1)}, soat {int(dm.group(4)):02d}:{dm.group(5)}"
+    am = re.search(r"Manzil\s*:\s*(.+?)(?:\n|$)", text, re.IGNORECASE)
+    if am:
+        info["address"] = am.group(1).strip(" .")
+    return info
+
+
+def uza_image_url(raw: dict) -> str:
+    """UzA'da e'longa yuklangan rasm: asl fayl, bo'lmasa 'normal' o'lchamdagisi."""
+    f = raw.get("files") or {}
+    if f.get("domain") and f.get("folder") and f.get("file"):
+        return f["domain"] + f["folder"] + f["file"]
+    return ((f.get("thumbnails") or {}).get("normal") or {}).get("src", "")
+
+
+_image_cache: dict = {}
+
+
+def uza_image(item: dict) -> bytes | None:
+    """UzA rasmini yuklab oladi (Telegram'ga va PDF'ga qo'yish uchun)."""
+    url = item.get("image_url")
+    if not url:
+        return None
+    if url not in _image_cache:
+        try:
+            r = _session.get(url, timeout=40)
+            r.raise_for_status()
+            if not r.headers.get("Content-Type", "image").startswith("image") or len(r.content) < 1000:
+                raise ValueError("rasm emas")
+            _image_cache[url] = r.content
+        except (requests.RequestException, ValueError) as e:
+            log.warning("UzA rasmi yuklanmadi (%s): %s", url, e)
+            _image_cache[url] = None
+    return _image_cache[url]
+
+
+def uza_item(raw: dict) -> dict | None:
+    """API javobidagi bitta e'lonni bot tushunadigan ko'rinishga keltiradi."""
+    title = raw.get("title") or ""
+    if not re.search(r"диссертац|dissertats|ҳимоя|himoya", title, re.IGNORECASE):
+        return None                                   # himoyaga oid bo'lmagan e'lon
+    pt = raw.get("publish_time") or ""
+    try:
+        d = datetime.strptime(pt[:10], "%Y-%m-%d").strftime("%d.%m.%Y")
+    except ValueError:
+        d = ""
+    item = {"id": int(raw["id"]), "source": "uza", "site": "uza.uz", "title": title,
+            "date": d, "summary": "", "description": raw.get("description") or "",
+            "content_html": raw.get("content") or "",
+            "published": f"{d}, {pt[11:16]}" if d and len(pt) >= 16 else d,   # UzA'ga joylangan vaqt
+            "image_url": uza_image_url(raw),
+            "url": f"https://uza.uz/oz/posts/{raw.get('slug', '')}"}
+    item["_info"] = extract_uza(item)
+    item["title"] = item["_info"]["title"]
+    return item
+
+
+def fetch_uza_page(page: int) -> list[dict]:
+    for i in range(3):
+        try:
+            r = _session.get(UZA_API, params={"per_page": UZA_PER_PAGE, "page": page, "_f": "json", "_l": "oz"},
+                             timeout=40)
+            r.raise_for_status()
+            return r.json().get("data") or []
+        except (requests.RequestException, ValueError) as e:
+            log.warning("UzA API (%s/3): %s", i + 1, e)
+            time.sleep(5 * (i + 1))
+    raise RuntimeError("UzA API ochilmadi")
+
+
+def collect_uza(seen_uza: set[int], deep: bool) -> list[tuple[dict, str]]:
+    start = parse_date(START_DATE) or date(2000, 1, 1)
+    bound = max(start, today_uz() - timedelta(days=DEEP_DAYS)) if deep else start
+    found = {}
+    for page in range(1, DEEP_MAX_PAGES + 1):
+        try:
+            rows = fetch_uza_page(page)
+        except RuntimeError as e:
+            log.error(e)
+            break
+        if not rows:
+            break
+        known, dates = 0, []
+        for raw in rows:
+            try:
+                it = uza_item(raw)
+            except Exception as ex:  # noqa: BLE001
+                log.warning("UzA e'loni o'qilmadi (%s): %s", raw.get("id"), ex)
+                continue
+            if not it:
+                continue
+            d = parse_date(it["date"])
+            if d:
+                dates.append(d)
+            if it["id"] in seen_uza:
+                known += 1
+                continue
+            if d and d < start:
+                continue
+            found.setdefault(it["id"], (it, "UzA"))
+        if dates and min(dates) < bound:
+            break
+        if not deep and page >= MAX_PAGES and known > 0:
+            break
+        time.sleep(0.4)
+    return list(found.values())
+
+
+# ======================= Takrorlarni aniqlash =======================
+
+def person_key(info: dict) -> str:
+    """Bir odamni ikkala saytda tanish uchun kalit: familiya + ism + daraja (yozilish farqlarisiz)."""
+    name = to_latin(info.get("name", "")).lower()
+    name = re.sub(r"[‘’'ʻ`]", "", name)
+    name = re.sub(r"\b(qizi|qizining|ogli|oglining|ning)\b", " ", name)
+    name = name.replace("x", "h").replace("ye", "e").replace("ts", "s")
+    tokens = re.findall(r"[a-z]+", name)
+    if len(tokens) < 2:
+        return ""
+    return f"{tokens[0]} {tokens[1]}|{info.get('degree', '')}"
+
+
+def merge_into_post(rec: dict, item: dict) -> None:
+    """Shu odam haqidagi post allaqachon bor — yangi saytdagi qo'shimcha ma'lumotni unga qo'shamiz."""
+    info = get_info(item)
+    cap = rec.get("caption", "")
+    if not cap or not rec.get("msg"):
+        return
+    if item["url"] in cap:
+        return
+    new_cap = cap
+    # Himoya sanasi — post boshiga (sarlavhadan keyin)
+    if info.get("defense") and "🗓 Himoya:" not in new_cap:
+        line = f"🗓 Himoya: <b>{html.escape(info['defense'])}</b>\n"
+        p = new_cap.find("\n\n")
+        new_cap = new_cap[:p + 2] + line + new_cap[p + 2:] if p >= 0 else new_cap + "\n" + line
+    # Ikkinchi saytdagi e'lon havolasi — havolalar qatoriga
+    link = f'🔗 <a href="{item["url"]}">E’lon — {item.get("site", "oak.uz")}</a>\n'
+    p = new_cap.find("🔗")
+    new_cap = new_cap[:p] + link + new_cap[p:] if p >= 0 else new_cap + "\n" + link
+    if rec.get("photo") and _visible_len(new_cap) > CAPTION_LIMIT:
+        log.info("Izoh sig'madi — post o'zgartirilmadi")
+        return
+    data = {"chat_id": CHANNEL_ID, "message_id": rec["msg"], "parse_mode": "HTML"}
+    if rec.get("photo"):
+        _tg("editMessageCaption", {**data, "caption": new_cap})
+    else:
+        _tg("editMessageText", {**data, "text": new_cap, "disable_web_page_preview": True})
+    rec["caption"] = new_cap
+    log.info("Takror e'lon: mavjud post to'ldirildi (%s)", item["url"])
+
+
 def build_message(item: dict, section: str, pdf_link: str | None = None,
                   topic_limit: int | None = None) -> str:
     e = html.escape
-    info = extract(item)
+    info = dict(get_info(item))
     if topic_limit is not None and len(info["topic"]) > topic_limit:
         info["topic"] = (info["topic"][:topic_limit].rsplit(" ", 1)[0] + "…") if topic_limit > 0 else ""
 
     parts = [f"🎓 <b>{e(info['title'])}</b>"]
 
     body = []
+    if info.get("defense"):
+        body.append(f"🗓 Himoya: <b>{e(info['defense'])}</b>")
     if info["topic"]:
         body.append(f"📖 «{e(info['topic'])}»")
     if info["shifr"]:
@@ -380,6 +605,8 @@ def build_message(item: dict, section: str, pdf_link: str | None = None,
         body.append(f"🏛 {e(info['institution'])}")
     if info["council"]:
         body.append(f"🏢 Ilmiy kengash: {e(info['council'])}")
+    if info.get("address"):
+        body.append(f"📍 {e(info['address'])}")
     parts.append("\n".join(body))
 
     tags = []
@@ -387,14 +614,19 @@ def build_message(item: dict, section: str, pdf_link: str | None = None,
         tags.append("#" + info["degree"])
     if info["field"]:
         tags.append("#" + field_tag(info["field"]))
-    if section != SOURCES["/page/8"]:
+    if section == SOURCES["/page/31"]:
         tags.append("#mustaqil_kengash")
+    if item.get("source") == "uza":
+        tags.append("#uza")
 
-    link = f'🔗 <a href="{item["url"]}">To‘liq e’lon — oak.uz</a>'
+    link = f'🔗 <a href="{item["url"]}">To‘liq e’lon — {item.get("site", "oak.uz")}</a>'
     if pdf_link:
         link = f'📄 <a href="{pdf_link}">E’lon to‘g‘risida ma’lumotnoma olish (PDF)</a>\n' + link
     if info["date"]:
-        link = f"📅 E’lon sanasi: <b>{e(info['date'])}</b>\n" + link
+        if item.get("source") == "uza":
+            link = f"📅 UzA’ga joylangan: <b>{e(item.get('published') or info['date'])}</b>\n" + link
+        else:
+            link = f"📅 E’lon sanasi: <b>{e(info['date'])}</b>\n" + link
     parts.append(link + ("\n" + " ".join(tags) if tags else ""))
     if CHANNEL_SIGNATURE:
         parts.append(f"📢 {e(CHANNEL_SIGNATURE)}")
@@ -562,9 +794,13 @@ def make_card(info: dict) -> bytes | None:
     _cap_icon(d, PAD, 74, 80, accent, top)
     _spaced(d, (PAD + 108, 76), CARD_TITLE, _font(34, "bold"), white, 3)
     sub_f = _font(24, "regular")
-    sub_t = "Dissertatsiya himoyasi haqida e’lon"
+    sub_t = "Himoya sanasi" if info.get("defense") else "Dissertatsiya himoyasi haqida e’lon"
     d.text(((PAD + 108) * S, 124 * S), sub_t, font=sub_f, fill=soft)
-    if info.get("date"):
+    if info.get("defense"):
+        sx = PAD + 108 + d.textlength(sub_t, font=sub_f) / S
+        d.text(((sx + 14) * S, 124 * S), "•", font=sub_f, fill=soft)
+        d.text(((sx + 40) * S, 124 * S), info["defense"], font=_font(24, "bold"), fill=accent)
+    elif info.get("date"):
         sx = PAD + 108 + d.textlength(sub_t, font=sub_f) / S
         d.text(((sx + 14) * S, 124 * S), "•", font=sub_f, fill=soft)
         d.text(((sx + 40) * S, 124 * S), info["date"], font=_font(24, "bold"), fill=accent)
@@ -760,7 +996,11 @@ def make_pdf(item: dict) -> bytes | None:
     paragraphs = []
     container = None
     try:
-        container = fetch_detail(item)
+        if item.get("content_html"):              # UzA: matn API'dan keladi
+            container = BeautifulSoup(INVISIBLE_RE.sub("", item["content_html"]), "html.parser")
+            _drop_comments(container)
+        else:
+            container = fetch_detail(item)
     except Exception as ex:  # noqa: BLE001
         log.warning("To'liq e'lon sahifasi olinmadi: %s", ex)
     if container is not None:
@@ -778,20 +1018,40 @@ def make_pdf(item: dict) -> bytes | None:
         paragraphs = [to_latin(p) for p in paragraphs]
         pdf_title = to_latin(pdf_title)
 
+    is_uza = item.get("source") == "uza"
     story = [
-        Paragraph(f"Manba: oak.uz — Oliy attestatsiya komissiyasi rasmiy veb-sayti"
-                  + (f" &nbsp;•&nbsp; E’lon sanasi: {item['date']}" if item.get("date") else ""), meta),
+        Paragraph(("Manba: uza.uz — O‘zbekiston Milliy axborot agentligi (UzA)" if is_uza
+                   else "Manba: oak.uz — Oliy attestatsiya komissiyasi rasmiy veb-sayti")
+                  + ((f" &nbsp;•&nbsp; UzA’ga joylangan: {item.get('published') or item['date']}" if is_uza
+                      else f" &nbsp;•&nbsp; E’lon sanasi: {item['date']}") if item.get("date") else ""), meta),
         Paragraph(f'Havola: <link href="{item["url"]}" color="#1d4e89">{item["url"]}</link>', meta),
         Spacer(1, 3 * mm),
         HRFlowable(width="100%", thickness=0.8, color=colors.HexColor("#c9d3e0")),
         Spacer(1, 5 * mm),
     ]
+    # UzA: e'longa yuklangan rasm ma'lumotnomaning boshida
+    if is_uza:
+        img_bytes = uza_image(item)
+        if img_bytes:
+            try:
+                from reportlab.platypus import Image as RLImage
+                from PIL import Image as PILImage
+                im = PILImage.open(BytesIO(img_bytes))
+                w = A4[0] - 40 * mm
+                h = min(w * im.height / im.width, 95 * mm)
+                w = h * im.width / im.height
+                buf_img = BytesIO()
+                im.convert("RGB").save(buf_img, "JPEG", quality=90)
+                buf_img.seek(0)
+                story += [RLImage(buf_img, width=w, height=h), Spacer(1, 5 * mm)]
+            except Exception as ex:  # noqa: BLE001
+                log.warning("Rasm PDF'ga qo'yilmadi: %s", ex)
     plain = lambda t: _compact(re.sub(r"<[^>]+>", "", html.unescape(t)))  # noqa: E731
     head = plain(pdf_title)[:25]
-    if not any(head in plain(p) for p in paragraphs[:3]):
+    if is_uza or not any(head in plain(p) for p in paragraphs[:3]):
         story.append(Paragraph(html.escape(pdf_title, quote=False), title_st))
     for n, p in enumerate(paragraphs):
-        style = title_st if n < 3 and head in plain(p) else body
+        style = title_st if (not is_uza and n < 3 and head in plain(p)) else body
         try:
             story.append(Paragraph(p, style))
         except Exception:  # noqa: BLE001 — buzilgan belgilash bo'lsa, oddiy matn
@@ -877,7 +1137,7 @@ def upload_pdf(pdf: bytes, filename: str, month: str = "") -> str | None:
 
 def enrich(item: dict) -> None:
     """Ma'lumotlarni ro'yxatdagi qisqa matndan emas, e'lonning to'liq sahifasidan olamiz."""
-    if item.get("full"):
+    if item.get("full") or item.get("source") == "uza":
         return
     try:
         el = fetch_detail(item)
@@ -896,18 +1156,20 @@ def fit_caption(item: dict, section: str, pdf_link: str | None) -> tuple[str, bo
     return build_message(item, section, pdf_link), False
 
 
-def publish(item: dict, section: str, silent: bool = False) -> None:
+def publish(item: dict, section: str, silent: bool = False) -> dict:
+    """E'lonni kanalga yuboradi. Natija: {"msg": id, "photo": bool, "caption": matn}."""
     enrich(item)
     # 1) Ma'lumotnoma: PDF yasab yuklaymiz (xato bo'lsa — post havolasiz chiqadi)
     pdf_link = None
     try:
         pdf = make_pdf(item)
         if pdf:
-            info = extract(item)
+            info = get_info(item)
             surname = re.sub(r"[^A-Za-z0-9]+", "", (info["name"].split() or ["elon"])[0]) or "elon"
             d = parse_date(item.get("date", ""))
             month = f"{d.year}-{d.month:02d}" if d else ""
-            pdf_link = upload_pdf(pdf, f"OAK_elon_{item['id']}_{surname}_{PDF_VERSION}.pdf", month)
+            prefix = "UZA" if item.get("source") == "uza" else "OAK"
+            pdf_link = upload_pdf(pdf, f"{prefix}_elon_{item['id']}_{surname}_{PDF_VERSION}.pdf", month)
     except Exception as ex:  # noqa: BLE001
         log.error("Ma'lumotnoma tayyorlanmadi: %s", ex)
 
@@ -915,13 +1177,12 @@ def publish(item: dict, section: str, silent: bool = False) -> None:
     text, fits = fit_caption(item, section, pdf_link)
     if fits:
         try:
-            card = make_card(extract(item))
+            card = (uza_image(item) if item.get("source") == "uza" else None) or make_card(get_info(item))
             if card:
-                send_photo(card, text, silent)
-                return
+                return {"msg": send_photo(card, text, silent), "photo": True, "caption": text}
         except Exception as ex:  # noqa: BLE001
             log.error("Rasm bilan yuborilmadi (%s) — matn ko'rinishida yuboramiz", ex)
-    send_message(text, silent)
+    return {"msg": send_message(text, silent), "photo": False, "caption": text}
 
 
 # ---------------- Holat (state) ----------------
@@ -950,8 +1211,14 @@ def load_state() -> bool:
     return False
 
 
+PEOPLE_KEEP_DAYS = 120   # takrorni aniqlash uchun odamlar ro'yxati shuncha kun saqlanadi
+
+
 def save_state(seen) -> None:
     STATE["seen"] = sorted(set(seen))[-MAX_SEEN:]
+    STATE["seen_uza"] = sorted(set(STATE.get("seen_uza", [])))[-MAX_SEEN:]
+    limit = (today_uz() - timedelta(days=PEOPLE_KEEP_DAYS)).isoformat()
+    STATE["people"] = {k: v for k, v in STATE.get("people", {}).items() if v.get("d", "9999") >= limit}
     STATE_FILE.write_text(json.dumps(STATE, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
@@ -1023,6 +1290,10 @@ def collect(seen: set[int], deep: bool) -> list[tuple[dict, str]]:
 
 
 FORCE_IDS = os.environ.get("FORCE_IDS", "")
+UZA_ENABLED = os.environ.get("UZA_ENABLED", "1") != "0"
+# OAK va UzA postlari mustaqil: bir odam ikkala saytda bo'lsa ham, har biri o'z posti bilan chiqadi
+# va OAK postiga hech narsa qo'shilmaydi. "1" qilinsa — takrorlar bitta postga birlashtiriladi.
+MERGE_SOURCES = os.environ.get("MERGE_SOURCES", "0") == "1"
 MANUAL_RUN = os.environ.get("GITHUB_EVENT_NAME", "") == "workflow_dispatch"
 
 
@@ -1078,7 +1349,10 @@ def run_once() -> None:
         try:
             got = item_from_page(pid)
             if got:
-                publish(*got, silent=is_silent(got[0]))
+                res = publish(*got, silent=is_silent(got[0]))
+                key = person_key(get_info(got[0]))
+                if key:
+                    STATE.setdefault("people", {})[key] = {**res, "src": "oak", "d": today_uz().isoformat()}
                 log.info("Qo'lda yuborildi: %s", got[0]["url"])
                 seen.add(pid)
                 save_state(seen)
@@ -1088,28 +1362,46 @@ def run_once() -> None:
 
     # 2) Chuqur tekshiruv: navbat qolgan bo'lsa, qo'lda ishga tushirilganda yoki har soatda bir marta
     deep = STATE.get("backlog", False) or MANUAL_RUN or not existed or time.gmtime().tm_min < 15
+    seen_uza = set(STATE.get("seen_uza", []))
     items = collect(seen, deep)
+    if UZA_ENABLED:
+        items += collect_uza(seen_uza, deep)
+    # Ikkala saytdagi e'lonlar birgalikda, eskidan yangiga
+    items.sort(key=lambda x: (parse_date(x[0]["date"]) or date.max, x[0].get("source", "oak"), x[0]["id"]))
     batch = items[:MAX_POSTS_PER_RUN]
-    log.info("%s tekshiruv: %d ta yangi e'lon, shundan hozir %d tasi yuboriladi",
-             "Chuqur" if deep else "Oddiy", len(items), len(batch))
+    log.info("%s tekshiruv: %d ta yangi e'lon (UzA: %d), shundan hozir %d tasi ko'riladi",
+             "Chuqur" if deep else "Oddiy", len(items),
+             sum(1 for i, _ in items if i.get("source") == "uza"), len(batch))
 
-    sent = 0
+    done = 0
     for item, section in batch:
+        is_uza = item.get("source") == "uza"
         try:
-            publish(item, section, silent=is_silent(item))
-            log.info("Yuborildi: %s (%s)", item["url"], item["date"])
+            key = person_key(get_info(item)) if MERGE_SOURCES else ""
+            people = STATE.setdefault("people", {})      # save_state uni yangilaydi — har safar qayta olamiz
+            rec = people.get(key) if key else None
+            if rec and rec.get("src") != ("uza" if is_uza else "oak"):
+                # Shu odam boshqa saytdan allaqachon chiqqan — yangi post emas, mavjudini to'ldiramiz
+                merge_into_post(rec, item)
+            elif rec:
+                log.info("Shu saytda takror e'lon — o'tkazib yuborildi: %s", item["url"])
+            else:
+                res = publish(item, section, silent=is_silent(item))
+                if key:
+                    people[key] = {**res, "src": "uza" if is_uza else "oak", "d": today_uz().isoformat()}
+                log.info("Yuborildi: %s (%s)", item["url"], item["date"])
+                time.sleep(3)
         except RuntimeError as e:
             log.error(e)
             break
-        seen.add(item["id"])
-        sent += 1
-        save_state(seen)   # har yuborishdan keyin saqlaymiz — takror bo'lmasligi uchun
-        time.sleep(3)
+        (STATE.setdefault("seen_uza", []).append(item["id"]) if is_uza else seen.add(item["id"]))
+        done += 1
+        save_state(seen)   # har e'londan keyin saqlaymiz — takror bo'lmasligi uchun
 
-    STATE["backlog"] = len(items) > sent
+    STATE["backlog"] = len(items) > done
     save_state(seen)
     if STATE["backlog"]:
-        log.info("Navbatda yana %d ta e'lon bor — keyingi tekshiruvda davom etadi", len(items) - sent)
+        log.info("Navbatda yana %d ta e'lon bor — keyingi tekshiruvda davom etadi", len(items) - done)
 
 
 def main() -> None:
