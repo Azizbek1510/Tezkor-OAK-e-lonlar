@@ -543,10 +543,13 @@ def uza_item(raw: dict) -> dict | None:
     return item
 
 
-def fetch_uza_page(page: int) -> list[dict]:
+UZA_LANGS = ("oz", "uz")      # oz — lotin yozuvidagi, uz — kirill yozuvidagi e'lonlar
+
+
+def fetch_uza_page(page: int, lang: str = "oz") -> list[dict]:
     for i in range(3):
         try:
-            r = _session.get(UZA_API, params={"per_page": UZA_PER_PAGE, "page": page, "_f": "json", "_l": "oz"},
+            r = _session.get(UZA_API, params={"per_page": UZA_PER_PAGE, "page": page, "_f": "json", "_l": lang},
                              timeout=40)
             r.raise_for_status()
             return r.json().get("data") or []
@@ -558,16 +561,17 @@ def fetch_uza_page(page: int) -> list[dict]:
 
 def find_uza(uid: int) -> dict | None:
     """UzA e'lonini raqami bo'yicha topadi (ro'yxat sahifalarini ko'rib chiqib)."""
-    for page in range(1, DEEP_MAX_PAGES + 1):
-        rows = fetch_uza_page(page)
-        if not rows:
-            return None
-        for raw in rows:
-            if int(raw.get("id", 0)) == uid:
-                return uza_item(raw)
-        if min(int(r.get("id", 0)) for r in rows) < uid:   # undan eskilariga o'tib ketdik
-            return None
-        time.sleep(0.3)
+    for lang in UZA_LANGS:
+        for page in range(1, DEEP_MAX_PAGES + 1):
+            rows = fetch_uza_page(page, lang)
+            if not rows:
+                break
+            for raw in rows:
+                if int(raw.get("id", 0)) == uid:
+                    return uza_item(raw)
+            if min(int(r.get("id", 0)) for r in rows) < uid:   # undan eskilariga o'tib ketdik
+                break
+            time.sleep(0.3)
     return None
 
 
@@ -575,37 +579,38 @@ def collect_uza(seen_uza: set[int], deep: bool) -> list[tuple[dict, str]]:
     start = parse_date(UZA_START_DATE) or date(2000, 1, 1)
     bound = max(start, today_uz() - timedelta(days=DEEP_DAYS)) if deep else start
     found = {}
-    for page in range(1, DEEP_MAX_PAGES + 1):
-        try:
-            rows = fetch_uza_page(page)
-        except RuntimeError as e:
-            log.error(e)
-            break
-        if not rows:
-            break
-        known, dates = 0, []
-        for raw in rows:
-            try:
-                it = uza_item(raw)
-            except Exception as ex:  # noqa: BLE001
-                log.warning("UzA e'loni o'qilmadi (%s): %s", raw.get("id"), ex)
-                continue
-            if not it:
-                continue
-            d = parse_date(it["date"])
-            if d:
-                dates.append(d)
-            if it["id"] in seen_uza:
-                known += 1
-                continue
-            if d and d < start:
-                continue
-            found.setdefault(it["id"], (it, "UzA"))
-        if dates and min(dates) < bound:
-            break
-        if not deep and page >= MAX_PAGES and known > 0:
-            break
-        time.sleep(0.4)
+    for lang in UZA_LANGS:
+      for page in range(1, DEEP_MAX_PAGES + 1):
+          try:
+              rows = fetch_uza_page(page, lang)
+          except RuntimeError as e:
+              log.error(e)
+              break
+          if not rows:
+              break
+          known, dates = 0, []
+          for raw in rows:
+              try:
+                  it = uza_item(raw)
+              except Exception as ex:  # noqa: BLE001
+                  log.warning("UzA e'loni o'qilmadi (%s): %s", raw.get("id"), ex)
+                  continue
+              if not it:
+                  continue
+              d = parse_date(it["date"])
+              if d:
+                  dates.append(d)
+              if it["id"] in seen_uza:
+                  known += 1
+                  continue
+              if d and d < start:
+                  continue
+              found.setdefault(it["id"], (it, "UzA"))
+          if dates and min(dates) < bound:
+              break
+          if not deep and page >= MAX_PAGES and known > 0:
+              break
+          time.sleep(0.4)
     return list(found.values())
 
 
@@ -1289,6 +1294,7 @@ def save_state(seen) -> None:
     STATE["seen_uza"] = sorted(set(STATE.get("seen_uza", [])))[-MAX_SEEN:]
     limit = (today_uz() - timedelta(days=PEOPLE_KEEP_DAYS)).isoformat()
     STATE["people"] = {k: v for k, v in STATE.get("people", {}).items() if v.get("d", "9999") >= limit}
+    STATE["uza_keys"] = {k: d for k, d in STATE.get("uza_keys", {}).items() if d >= limit}
     STATE_FILE.write_text(json.dumps(STATE, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
@@ -1461,6 +1467,14 @@ def run_once() -> None:
     for item, section in batch:
         is_uza = item.get("source") == "uza"
         try:
+            # UzA'da bitta e'lon lotin va kirill yozuvida ikki marta joylanishi mumkin — bittasini chiqaramiz
+            ukey = person_key(get_info(item)) if is_uza else ""
+            if ukey and ukey in STATE.setdefault("uza_keys", {}):
+                log.info("UzA: shu e'lonning boshqa yozuvdagi nusxasi allaqachon chiqqan — %s", item["url"])
+                STATE["seen_uza"].append(item["id"])
+                done += 1
+                save_state(seen)
+                continue
             key = person_key(get_info(item)) if MERGE_SOURCES else ""
             people = STATE.setdefault("people", {})      # save_state uni yangilaydi — har safar qayta olamiz
             rec = people.get(key) if key else None
@@ -1471,6 +1485,8 @@ def run_once() -> None:
                 log.info("Shu saytda takror e'lon — o'tkazib yuborildi: %s", item["url"])
             else:
                 res = publish(item, section, silent=is_silent(item))
+                if ukey:
+                    STATE.setdefault("uza_keys", {})[ukey] = today_uz().isoformat()
                 if key:
                     people[key] = {**res, "src": "uza" if is_uza else "oak", "d": today_uz().isoformat()}
                 log.info("Yuborildi: %s (%s)", item["url"], item["date"])
