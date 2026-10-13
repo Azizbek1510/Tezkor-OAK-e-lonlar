@@ -907,10 +907,22 @@
   32987,
   32988,
   32989,
-  32990
+  32990,
+  32991,
+  32992,
+  32993,
+  32994,
+  32995,
+  32996,
+  32997,
+  32998,
+  32999,
+  33000,
+  33001,
+  33002
  ],
  "migrated_v2": true,
- "backlog": true,
+ "backlog": false,
  "people": {},
  "seen_uza": [
   916069,
@@ -1539,7 +1551,39 @@
   921179,
   921180,
   921181,
-  921182
+  921182,
+  921280,
+  921281,
+  921284,
+  921285,
+  921286,
+  921287,
+  921290,
+  921291,
+  921292,
+  921293,
+  921294,
+  921295,
+  921298,
+  921299,
+  921307,
+  921308,
+  921309,
+  921310,
+  921311,
+  921312,
+  921313,
+  921314,
+  921317,
+  921318,
+  921319,
+  921320,
+  921335,
+  921336,
+  921337,
+  921338,
+  921345,
+  921346
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -1852,74 +1896,89 @@
   "babakulova dilobar|PhD": "2026-10-12",
   "ubaydullaev bobur|PhD": "2026-10-12",
   "bakaeva nilufar|PhD": "2026-10-12",
-  "sahibov turman|PhD": "2026-10-12"
+  "sahibov turman|PhD": "2026-10-12",
+  "teshaev ulugbek|DSc": "2026-10-13",
+  "hujanov erkin|DSc": "2026-10-13",
+  "halilov sanjar|PhD": "2026-10-13",
+  "qoziev ozodbek|PhD": "2026-10-13",
+  "hasanov shokirhon|PhD": "2026-10-13",
+  "shermetova sayyara|PhD": "2026-10-13",
+  "qodirova saodat|PhD": "2026-10-13",
+  "rahmanov bekzod|PhD": "2026-10-13",
+  "qurbonov azizjon|PhD": "2026-10-13",
+  "sayfutdinova zuhra|DSc": "2026-10-13",
+  "pak svetlana|PhD": "2026-10-13",
+  "turgunova oqibathon|PhD": "2026-10-13",
+  "rahmonov ulfat|PhD": "2026-10-13",
+  "rahmonova dilshoda|PhD": "2026-10-13",
+  "tajibaev gayratjon|DSc": "2026-10-13"
  },
  "uza_keys_built": true,
  "tg_offset": 362609529,
- "last_deep": "2026-10-13T05:52:21.429703+00:00",
+ "last_deep": "2026-10-13T05:58:11.712319+00:00",
  "recent": [
   {
-   "t": "2026-10-12T10:43:20.936194+00:00",
-   "url": "https://uza.uz/oz/posts/hozhanazarova-motabar-qoshoqovnaning-qishloq-xozhaligi-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_920946",
-   "title": "Xo‘janazarova Mo‘’tabar Qo‘shoqovnaning qishloq xo‘jaligi fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:02:59.026321+00:00",
+   "url": "https://uza.uz/oz/posts/mahmudova-dilafruz-baltabayevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertasiya-ishi-himoyasi-togrisida_921299",
+   "title": "Mahmudova Dilafruz Baltabayevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertasiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T10:43:26.421478+00:00",
-   "url": "https://uza.uz/oz/posts/yumatov-bogdan-olegovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_920952",
-   "title": "Yumatov Bogdan Olegovichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:05.709734+00:00",
+   "url": "https://uza.uz/oz/posts/qodirova-saodat-saidmurodovnaning-biologiya-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921307",
+   "title": "Qodirova Saodat Saidmurodovnaning biologiya fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T10:43:32.541333+00:00",
-   "url": "https://uza.uz/oz/posts/mexmonov-ismat-toshpolatovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_920957",
-   "title": "Mexmonov Ismat Toshpo‘latovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:11.836629+00:00",
+   "url": "https://uza.uz/oz/posts/raxmanov-bekzod-ibragimovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921309",
+   "title": "Raxmanov Bekzod Ibragimovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T10:43:38.275225+00:00",
-   "url": "https://uza.uz/oz/posts/toraev-shohrux-halimovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_920963",
-   "title": "To‘rayev Shohrux Halimovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:18.279416+00:00",
+   "url": "https://uza.uz/oz/posts/qurbonov-azizzhon-rustamovichning-texnika-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921311",
+   "title": "Qurbonov Azizjon Rustamovichning texnika fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T10:43:43.710307+00:00",
-   "url": "https://uza.uz/oz/posts/adilova-iqbol-gafuritdinovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_920966",
-   "title": "Adilova Iqbol G‘afuritdinovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:25.337675+00:00",
+   "url": "https://uza.uz/oz/posts/sayfutdinova-zuxra-abdurashidovnaning-tibbiyot-fanlari-boyicha-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_921313",
+   "title": "Sayfutdinova Zuxra Abdurashidovnaning tibbiyot fanlari bo‘yicha tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T13:43:16.156933+00:00",
-   "url": "https://uza.uz/oz/posts/ganieva-adiba-tursinboy-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921168",
-   "title": "G‘aniyeva Adiba Tursinboy qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:30.942552+00:00",
+   "url": "https://uza.uz/oz/posts/pak-svetlana-viktorovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921317",
+   "title": "Pak Svetlana Viktorovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T13:43:24.254319+00:00",
-   "url": "https://uza.uz/oz/posts/babakulova-dilobar-mustafaevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921175",
-   "title": "Babakulova Dilobar Mustafayevnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:37.858415+00:00",
+   "url": "https://uza.uz/oz/posts/turgunova-oqibatxon-bektashovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921319",
+   "title": "Turg‘unova Oqibatxon Bektashovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T13:43:31.117354+00:00",
-   "url": "https://uza.uz/oz/posts/ubaydullayev-bobur-sabirovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921177",
-   "title": "Ubaydullayev Bobur Sabirovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:43.792644+00:00",
+   "url": "https://uza.uz/oz/posts/rahmonov-ulfat-ubaydullaevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921335",
+   "title": "Rahmonov Ulfat Ubaydullayevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T13:43:37.237915+00:00",
-   "url": "https://uza.uz/oz/posts/bakaeva-nilufar-abdulloevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921179",
-   "title": "Bakayeva Nilufar Abdulloyevnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:49.967978+00:00",
+   "url": "https://uza.uz/oz/posts/raxmonova-dilshoda-nusratovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921337",
+   "title": "Raxmonova Dilshoda Nusratovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-10-12T13:43:42.718244+00:00",
-   "url": "https://uza.uz/oz/posts/saxibov-turman-kuylievichning-geologiya-mineralogiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921181",
-   "title": "Saxibov Turman Kuyliyevichning geologiya-mineralogiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-13T06:03:56.351534+00:00",
+   "url": "https://uza.uz/oz/posts/tazhibaev-gayratzhon-shovdorovichning-pedagogika-fanlari-doktori-dsc-dissertaciya-himoyasi-togrisida_921345",
+   "title": "Tajibayev Gayratjon Shovdorovichning pedagogika fanlari doktori (DSc) dissertatsiya himoyasi to‘g‘risida"
   }
  ],
- "queue": 43,
+ "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 43,
-  "found_oak": 11,
-  "posted": 0,
-  "dups": 0,
-  "left": 43,
-  "left_oak": 11,
+  "found": 44,
+  "found_oak": 12,
+  "posted": 29,
+  "dups": 15,
+  "left": 0,
+  "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-13T05:55:19.563499+00:00",
- "last_error": "Telegram xatosi (sendMessage): 400 {\"ok\":false,\"error_code\":400,\"description\":\"Bad Request: chat not found\"}"
+ "last_run": "2026-10-13T06:03:59.354774+00:00",
+ "last_error": ""
 }
