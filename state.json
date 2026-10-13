@@ -930,7 +930,10 @@
   33010,
   33011,
   33012,
-  33013
+  33013,
+  33014,
+  33015,
+  33016
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -1929,21 +1932,6 @@
  "last_deep": "2026-10-13T07:00:46.748868+00:00",
  "recent": [
   {
-   "t": "2026-10-13T06:11:32.741358+00:00",
-   "url": "https://oak.uz/pages/33004",
-   "title": "Akbarov Farruh Saydalievichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-13T06:11:38.784855+00:00",
-   "url": "https://oak.uz/pages/33005",
-   "title": "Ataxonov Murod Matyaqubovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-13T06:11:44.792739+00:00",
-   "url": "https://oak.uz/pages/33006",
-   "title": "Miralimova Malika Muxammadovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-13T06:11:50.915338+00:00",
    "url": "https://oak.uz/pages/33007",
    "title": "Juraeva Dilsora Nuriddinovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
@@ -1977,19 +1965,34 @@
    "t": "2026-10-13T07:30:59.273384+00:00",
    "url": "https://oak.uz/pages/33013",
    "title": "Xudoyberganov Doniyorbek Yangiboy o‘g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-10-13T07:40:48.680802+00:00",
+   "url": "https://oak.uz/pages/33014",
+   "title": "Musurmonova Mahbuba Omonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-13T07:40:55.056631+00:00",
+   "url": "https://oak.uz/pages/33015",
+   "title": "Axmatov Abutolibxon Ochilxon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-13T07:41:00.889294+00:00",
+   "url": "https://oak.uz/pages/33016",
+   "title": "Norov Murodjon Maxmudovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 3,
+  "found_oak": 3,
+  "posted": 3,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-13T07:31:02.274695+00:00",
+ "last_run": "2026-10-13T07:41:03.891209+00:00",
  "last_error": ""
 }
