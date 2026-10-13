@@ -965,7 +965,11 @@
   33046,
   33047,
   33048,
-  33049
+  33049,
+  33050,
+  33051,
+  33052,
+  33053
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -1964,26 +1968,6 @@
  "last_deep": "2026-10-13T09:40:38.591556+00:00",
  "recent": [
   {
-   "t": "2026-10-13T09:43:48.332527+00:00",
-   "url": "https://oak.uz/pages/33040",
-   "title": "Bazarbaeva Nilufar Anorbaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-13T09:50:54.427880+00:00",
-   "url": "https://oak.uz/pages/33041",
-   "title": "Rahmatullaeva Nargiza Abdurahmonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-13T09:51:00.484182+00:00",
-   "url": "https://oak.uz/pages/33042",
-   "title": "Maxmadaminova Xurshida Zaynitdinovnaning falsafa doktori (PhD) Dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-13T10:01:08.489858+00:00",
-   "url": "https://oak.uz/pages/33043",
-   "title": "Shagilov Pulatbek Koptleuovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-13T10:01:14.414610+00:00",
    "url": "https://oak.uz/pages/33044",
    "title": "Baltabaeva Dilbarxan Qosibaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -2012,19 +1996,39 @@
    "t": "2026-10-13T10:21:09.780348+00:00",
    "url": "https://oak.uz/pages/33049",
    "title": "Komilov Abdullajon Odiljon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-13T10:30:57.037497+00:00",
+   "url": "https://oak.uz/pages/33050",
+   "title": "Karimberdiev Ulug‘bek Rasuljon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-13T10:31:02.891578+00:00",
+   "url": "https://oak.uz/pages/33051",
+   "title": "Yunusov Nurzodning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-13T10:31:08.717399+00:00",
+   "url": "https://oak.uz/pages/33052",
+   "title": "Normuratov Bahrom Ravshanovichning falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-13T10:31:14.625842+00:00",
+   "url": "https://oak.uz/pages/33053",
+   "title": "Najimova Aysulu Mahmudovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
-  "found_oak": 3,
-  "posted": 3,
+  "found": 4,
+  "found_oak": 4,
+  "posted": 4,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-13T10:21:12.782315+00:00",
+ "last_run": "2026-10-13T10:31:17.627210+00:00",
  "last_error": ""
 }
