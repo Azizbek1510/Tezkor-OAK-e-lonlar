@@ -1557,8 +1557,10 @@ def admin_status() -> str:
     c = STATE.get("counts", {})
     found, f_oak = c.get("found", 0), c.get("found_oak", 0)
     left, l_oak = c.get("left", 0), c.get("left_oak", 0)
-    lines = ["📊 <b>Bot holati</b>", "",
-             f"🕒 Oxirgi tekshiruv: {fmt(STATE.get('last_run', ''))}",
+    lines = ["📊 <b>Bot holati</b>", ""]
+    if STATE.get("last_error"):
+        lines += ["❌ <b>Muammo:</b> " + explain_error(STATE["last_error"]), ""]
+    lines += [f"🕒 Oxirgi tekshiruv: {fmt(STATE.get('last_run', ''))}",
              "",
              "📭 <b>Kanalda chiqmagan e’lonlar</b>" + (" (to‘liq tekshiruv)" if c.get("full") else "") + ":",
              f"   🔎 Topildi: <b>{found}</b> ta  (OAK: {f_oak}, UzA: {found - f_oak})",
@@ -1588,9 +1590,43 @@ def note_post(item: dict) -> None:
     del rec[:-10]
 
 
+FATAL_MARKERS = ("401", "Unauthorized", "chat not found", "not a member", "was kicked",
+                 "not enough rights", "need administrator rights", "CHAT_WRITE_FORBIDDEN",
+                 "have no rights", "bot was blocked")
+
+
+def is_fatal(err: str) -> bool:
+    """Butun kanalga ta'sir qiladigan xato (token, bot kanalda emas, ruxsat yo'q) — bitta e'longa emas."""
+    return any(m.lower() in err.lower() for m in FATAL_MARKERS)
+
+
+def alert_admins(text: str) -> None:
+    for aid in ADMIN_IDS:
+        tg_reply(aid, text)
+
+
+def explain_error(err: str) -> str:
+    low = err.lower()
+    if "401" in err or "unauthorized" in low:
+        return ("🔑 <b>BOT_TOKEN ishlamayapti.</b> BotFather’dan joriy tokenni oling va GitHub’dagi "
+                "<b>Settings → Secrets → BOT_TOKEN</b> ni yangilang.")
+    if "chat not found" in low:
+        return "📛 <b>CHANNEL_ID noto‘g‘ri.</b> GitHub’dagi CHANNEL_ID secret’ida kanal manzilini tekshiring (@tezkor_oak_elonlar)."
+    if "not a member" in low or "kicked" in low or "rights" in low or "forbidden" in low:
+        return "👮 <b>Bot kanalda admin emas yoki post yozish ruxsati yo‘q.</b> Kanal → Administrators’da botga «Post messages» ruxsatini bering."
+    return "Xato matni: <code>" + html.escape(err[:300]) + "</code>"
+
+
 def run_once() -> None:
     existed = load_state()
     seen = set(STATE.get("seen", []))
+    # 0) Token tekshiruvi — ishlamasa, ishga tushirish QIZIL bo'lib tugaydi (yashirin qolmaydi)
+    try:
+        me = _tg("getMe", {})
+        log.info("Bot: @%s", me.get("username", "?"))
+    except RuntimeError as e:
+        log.error("❌ BOT_TOKEN ishlamayapti: %s", e)
+        raise SystemExit("BOT_TOKEN noto'g'ri yoki bekor qilingan — GitHub Secrets'da yangilang")
     if existed:
         migrate_skipped(seen)
 
@@ -1683,6 +1719,7 @@ def run_once() -> None:
     done = 0
     posted = 0
     dups = 0
+    fatal_error = ""
     for item, section in batch:
         is_uza = item.get("source") == "uza"
         try:
@@ -1716,12 +1753,28 @@ def run_once() -> None:
                 log.info("Yuborildi: %s (%s)", item["url"], item["date"])
                 time.sleep(3)
         except RuntimeError as e:
-            log.error(e)
-            break
+            err = str(e)
+            if is_fatal(err):
+                log.error("❌ Kanalga yuborib bo'lmadi (umumiy xato): %s", err)
+                fatal_error = err
+                break
+            # Faqat shu e'londagi xato — navbatni to'xtatmaymiz; 3 marta urinilgach o'tkazib yuboramiz
+            fk = f"{'u' if is_uza else ''}{item['id']}"
+            fails = STATE.setdefault("fails", {})
+            fails[fk] = fails.get(fk, 0) + 1
+            log.error("E'lon yuborilmadi (%s-urinish) %s: %s", fails[fk], item["url"], err)
+            if fails[fk] < 3:
+                continue
+            log.error("3 marta yuborilmadi — o'tkazib yuborildi: %s", item["url"])
+            STATE.setdefault("skipped", []).append({"url": item["url"], "err": err[:200]})
+            del STATE["skipped"][:-20]
+            alert_admins("⚠️ E’lon 3 marta yuborilmadi va o‘tkazib yuborildi:\n" + item["url"]
+                         + "\n\n" + explain_error(err))
         (STATE.setdefault("seen_uza", []).append(item["id"]) if is_uza else seen.add(item["id"]))
         done += 1
         save_state(seen)   # har e'londan keyin saqlaymiz — takror bo'lmasligi uchun
 
+    STATE["last_error"] = fatal_error
     STATE["backlog"] = len(items) > done
     STATE["queue"] = len(items) - done
     STATE["full_pending"] = full and STATE["queue"] > 0
@@ -1749,6 +1802,10 @@ def run_once() -> None:
             tg_reply(c["chat"], admin_status())
     if STATE["backlog"]:
         log.info("Navbatda yana %d ta e'lon bor — keyingi tekshiruvda davom etadi", len(items) - done)
+    if fatal_error:
+        alert_admins("❌ <b>Kanalga post yuborilmayapti!</b>\n\n" + explain_error(fatal_error)
+                     + f"\n\n📬 Navbatda {STATE['queue']} ta e’lon kutmoqda.")
+        raise SystemExit("Kanalga yuborib bo'lmadi: " + fatal_error[:200])
 
 
 def main() -> None:
