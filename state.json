@@ -1670,7 +1670,15 @@
   921651,
   921652,
   921655,
-  921656
+  921656,
+  921659,
+  921660,
+  921667,
+  921668,
+  921669,
+  921670,
+  921673,
+  921674
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2008,32 +2016,16 @@
   "mardonov ruslanjon|PhD": "2026-10-13",
   "safarova zarina|PhD": "2026-10-13",
   "achilova sohiba|PhD": "2026-10-13",
-  "yuldashov sodiq|DSc": "2026-10-13"
+  "yuldashov sodiq|DSc": "2026-10-13",
+  "rustamov alisher|PhD": "2026-10-13",
+  "yalgosheva mohichehra|PhD": "2026-10-13",
+  "abdurahmonov umidjon|PhD": "2026-10-13",
+  "holbekov ulugbek|PhD": "2026-10-13"
  },
  "uza_keys_built": true,
  "tg_offset": 362609531,
  "last_deep": "2026-10-13T11:40:28.806729+00:00",
  "recent": [
-  {
-   "t": "2026-10-13T11:31:21.692250+00:00",
-   "url": "https://uza.uz/oz/posts/mirzaeva-surayyo-mahmasharif-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921628",
-   "title": "Mirzayeva Surayyo Mahmasharif qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-13T11:31:29.115363+00:00",
-   "url": "https://uza.uz/oz/posts/ismanova-gulchexraxon-dilmurot-qizining-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921630",
-   "title": "Ismanova Gulchexraxon Dilmurot qizining qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-13T11:31:36.536005+00:00",
-   "url": "https://uza.uz/oz/posts/haydarova-bibizhamol-qoldashevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921634",
-   "title": "Haydarova Bibijamol Qo‘ldashevnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-13T11:31:45.415965+00:00",
-   "url": "https://uza.uz/oz/posts/melikulov-asliddin-hamrokulovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921636",
-   "title": "Melikulov Asliddin Xamrokulovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-13T11:31:51.422105+00:00",
    "url": "https://uza.uz/oz/posts/raxmatullaeva-nargiza-baxtiyor-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921638",
@@ -2063,19 +2055,39 @@
    "t": "2026-10-13T11:32:53.210380+00:00",
    "url": "https://uza.uz/oz/posts/yuldashov-sodiq-oqbaevichning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_921655",
    "title": "Yuldashov Sodiq Oqbayevichning yuridik fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-13T11:50:50.180200+00:00",
+   "url": "https://uza.uz/oz/posts/rustamov-alisher-abduhakimovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921659",
+   "title": "Rustamov Alisher Abduhakimovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-13T11:50:57.883792+00:00",
+   "url": "https://uza.uz/oz/posts/yalgosheva-mohichehra-olimovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921667",
+   "title": "Yalg‘osheva Mohichehra Olimovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-13T11:51:04.932048+00:00",
+   "url": "https://uza.uz/oz/posts/abduraxmonov-umidzhon-shoqosim-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921669",
+   "title": "Abduraxmonov Umidjon Shoqosim o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-13T11:51:11.131050+00:00",
+   "url": "https://uza.uz/oz/posts/holbekov-ulugbek-toshpulat-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921673",
+   "title": "Xolbekov Ulug‘bek Toshpulat o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 8,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 4,
+  "dups": 4,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-13T11:43:25.388209+00:00",
+ "last_run": "2026-10-13T11:51:14.133244+00:00",
  "last_error": ""
 }
