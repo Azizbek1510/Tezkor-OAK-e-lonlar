@@ -30,7 +30,9 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "")
 STATE_FILE = Path(os.environ.get("STATE_FILE", "state.json"))
 FIRST_RUN_POST = int(os.environ.get("FIRST_RUN_POST", "3"))
 LOOP_INTERVAL = int(os.environ.get("LOOP_INTERVAL", "0"))
-CHANNEL_SIGNATURE = os.environ.get("CHANNEL_SIGNATURE", "")  # masalan: @tezkoroakelonlar
+# Imzo (post oxiri, rasm, PDF): kanal manzilidan olinadi — kanal nomi o'zgarsa, imzo ham o'zi o'zgaradi
+CHANNEL_SIGNATURE = CHANNEL_ID.strip() if CHANNEL_ID.strip().startswith("@") \
+    else os.environ.get("CHANNEL_SIGNATURE", "")
 
 BASE = "https://oak.uz"
 SOURCES = {
@@ -1223,7 +1225,7 @@ def send_photo(photo: bytes, caption: str, silent: bool = False) -> int:
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 # PDF ko'rinishi o'zgarganda shu raqam oshiriladi — shunda eski kod yasagan PDF'lar qayta ishlatilmaydi
-PDF_VERSION = "v5"
+PDF_VERSION = "v6"
 GITHUB_REPO = os.environ.get("GITHUB_REPOSITORY", "")   # Actions o'zi beradi: "user/repo"
 _release_ids: dict = {}
 
