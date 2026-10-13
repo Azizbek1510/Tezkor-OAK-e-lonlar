@@ -4,7 +4,7 @@ avtomatik ravishda Telegram kanalga joylovchi bot.
 
 Muhit o'zgaruvchilari (environment variables):
   BOT_TOKEN       — @BotFather bergan token (majburiy)
-  CHANNEL_ID      — kanal: "@tezkor_oak_elonlar" yoki "-100..." (majburiy)
+  CHANNEL_ID      — kanal: "@tezkoroakelonlar" yoki "-100..." (majburiy)
   STATE_FILE      — yuborilgan e'lonlar ro'yxati saqlanadigan fayl (default: state.json)
   FIRST_RUN_POST  — birinchi ishga tushganda nechta oxirgi e'lonni yuborish (default: 3)
   LOOP_INTERVAL   — 0 bo'lsa bir marta ishlaydi (GitHub Actions uchun),
@@ -30,7 +30,7 @@ CHANNEL_ID = os.environ.get("CHANNEL_ID", "")
 STATE_FILE = Path(os.environ.get("STATE_FILE", "state.json"))
 FIRST_RUN_POST = int(os.environ.get("FIRST_RUN_POST", "3"))
 LOOP_INTERVAL = int(os.environ.get("LOOP_INTERVAL", "0"))
-CHANNEL_SIGNATURE = os.environ.get("CHANNEL_SIGNATURE", "")  # masalan: @tezkor_oak_elonlar
+CHANNEL_SIGNATURE = os.environ.get("CHANNEL_SIGNATURE", "")  # masalan: @tezkoroakelonlar
 
 BASE = "https://oak.uz"
 SOURCES = {
@@ -1611,7 +1611,7 @@ def explain_error(err: str) -> str:
         return ("🔑 <b>BOT_TOKEN ishlamayapti.</b> BotFather’dan joriy tokenni oling va GitHub’dagi "
                 "<b>Settings → Secrets → BOT_TOKEN</b> ni yangilang.")
     if "chat not found" in low:
-        return "📛 <b>CHANNEL_ID noto‘g‘ri.</b> GitHub’dagi CHANNEL_ID secret’ida kanal manzilini tekshiring (@tezkor_oak_elonlar)."
+        return "📛 <b>CHANNEL_ID noto‘g‘ri.</b> GitHub’dagi CHANNEL_ID secret’ida kanal manzilini tekshiring (@tezkoroakelonlar)."
     if "not a member" in low or "kicked" in low or "rights" in low or "forbidden" in low:
         return "👮 <b>Bot kanalda admin emas yoki post yozish ruxsati yo‘q.</b> Kanal → Administrators’da botga «Post messages» ruxsatini bering."
     return "Xato matni: <code>" + html.escape(err[:300]) + "</code>"
