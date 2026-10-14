@@ -1003,7 +1003,9 @@
   33084,
   33085,
   33086,
-  33087
+  33087,
+  33088,
+  33089
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -1775,7 +1777,9 @@
   921977,
   921978,
   922029,
-  922030
+  922030,
+  922079,
+  922080
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2157,27 +2161,13 @@
   "ismatullaeva iroda|PhD": "2026-10-14",
   "bahranova nafosat|PhD": "2026-10-14",
   "gaybullaeva zilola|PhD": "2026-10-14",
-  "najimova aysulu|DSc": "2026-10-14"
+  "najimova aysulu|DSc": "2026-10-14",
+  "parpiev oybek|PhD": "2026-10-14"
  },
  "uza_keys_built": true,
  "tg_offset": 362609532,
  "last_deep": "2026-10-14T06:40:30.138767+00:00",
  "recent": [
-  {
-   "t": "2026-10-14T06:44:10.422496+00:00",
-   "url": "https://oak.uz/pages/33078",
-   "title": "Madaminov Dilshodbek Quranboevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-14T06:44:16.673707+00:00",
-   "url": "https://oak.uz/pages/33079",
-   "title": "Baymuratov Sharapatdin Jetkerbaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-14T06:45:55.390618+00:00",
-   "url": "https://oak.uz/pages/33080",
-   "title": "Sultonov O‘tkir Abdug‘anievichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-14T07:05:51.080279+00:00",
    "url": "https://oak.uz/pages/33081",
@@ -2212,19 +2202,34 @@
    "t": "2026-10-14T07:20:57.931070+00:00",
    "url": "https://oak.uz/pages/33087",
    "title": "Narzullaev Nuriddin Homit o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-14T07:25:42.219357+00:00",
+   "url": "https://oak.uz/pages/33088",
+   "title": "Olimova Maxfuza Bobir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-14T07:25:47.979670+00:00",
+   "url": "https://oak.uz/pages/33089",
+   "title": "Raximov G‘ulomjon Davronbekovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-10-14T07:25:53.725779+00:00",
+   "url": "https://uza.uz/oz/posts/parpiev-oybek-baxtiyorzhon-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922079",
+   "title": "Parpiyev Oybek Baxtiyorjon o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
-  "dups": 0,
+  "found": 4,
+  "found_oak": 2,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T07:21:00.933096+00:00",
+ "last_run": "2026-10-14T07:25:56.729502+00:00",
  "last_error": ""
 }
