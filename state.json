@@ -2393,14 +2393,14 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 0,
+  "found_oak": 0,
+  "posted": 0,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T14:45:57.664473+00:00",
+ "last_run": "2026-10-14T14:50:46.814900+00:00",
  "last_error": ""
 }
