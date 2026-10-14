@@ -1026,7 +1026,9 @@
   33107,
   33108,
   33109,
-  33110
+  33110,
+  33111,
+  33112
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2190,16 +2192,6 @@
  "last_deep": "2026-10-14T08:40:34.118332+00:00",
  "recent": [
   {
-   "t": "2026-10-14T08:15:46.968816+00:00",
-   "url": "https://oak.uz/pages/33101",
-   "title": "Xolisova Gavharoy Mannobjon qizining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-14T08:15:53.656450+00:00",
-   "url": "https://oak.uz/pages/33102",
-   "title": "Xolmizaev Baxtiyor Mirzamaxmudovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-14T08:20:46.288366+00:00",
    "url": "https://oak.uz/pages/33103",
    "title": "Boboeva Mohinur Muzaffarjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -2238,19 +2230,29 @@
    "t": "2026-10-14T09:20:54.669028+00:00",
    "url": "https://oak.uz/pages/33110",
    "title": "Yuldashev Ulugbek Kadirjanovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-14T09:25:41.739452+00:00",
+   "url": "https://oak.uz/pages/33111",
+   "title": "Abduraxmanova Malika Abdujaparovnaning falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon matni"
+  },
+  {
+   "t": "2026-10-14T09:25:47.780798+00:00",
+   "url": "https://oak.uz/pages/33112",
+   "title": "Baxranov Sherzad Tashtursunovichning tarix fanlari doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T09:20:57.670828+00:00",
+ "last_run": "2026-10-14T09:25:50.782731+00:00",
  "last_error": ""
 }
