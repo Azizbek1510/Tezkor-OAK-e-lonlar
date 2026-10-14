@@ -1936,7 +1936,11 @@
   922373,
   922374,
   922375,
-  922376
+  922376,
+  922377,
+  922378,
+  922380,
+  922381
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2354,22 +2358,14 @@
   "safarov jasur|PhD": "2026-10-14",
   "bekmurodov navruz|PhD": "2026-10-14",
   "maratova hurliman|PhD": "2026-10-14",
-  "akindikov nurmahambet|PhD": "2026-10-14"
+  "akindikov nurmahambet|PhD": "2026-10-14",
+  "hodjieva zumrad|PhD": "2026-10-14",
+  "anvarov abdulrashid|PhD": "2026-10-14"
  },
  "uza_keys_built": true,
  "tg_offset": 362609532,
  "last_deep": "2026-10-14T14:40:32.560149+00:00",
  "recent": [
-  {
-   "t": "2026-10-14T14:44:06.478132+00:00",
-   "url": "https://oak.uz/pages/33175",
-   "title": "Anarbaev Orzubek Raxmanovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-14T14:44:13.135087+00:00",
-   "url": "https://oak.uz/pages/33176",
-   "title": "Kaxarova Mohigul Yusufovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-14T14:45:54.663172+00:00",
    "url": "https://oak.uz/pages/33177",
@@ -2409,19 +2405,29 @@
    "t": "2026-10-14T14:56:29.978225+00:00",
    "url": "https://uza.uz/oz/posts/akindikov-nurmaxambet-borantaevichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922375",
    "title": "Akindikov Nurmaxambet Borantayevichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-14T14:59:31.383324+00:00",
+   "url": "https://uza.uz/oz/posts/hodzhieva-zumrad-maxmudzhonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922377",
+   "title": "Xodjiyeva Zumrad Maxmudjonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-14T14:59:36.907763+00:00",
+   "url": "https://uza.uz/oz/posts/anvarov-abdulrashid-abdilboriy-oglining-siyosiy-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922380",
+   "title": "Anvarov Abdulrashid Abdilboriy o‘g‘lining siyosiy fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 14,
+  "found": 4,
   "found_oak": 0,
-  "posted": 7,
-  "dups": 7,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T14:56:32.981916+00:00",
+ "last_run": "2026-10-14T14:59:39.913032+00:00",
  "last_error": ""
 }
