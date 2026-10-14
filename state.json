@@ -993,7 +993,9 @@
   33074,
   33075,
   33076,
-  33077
+  33077,
+  33078,
+  33079
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2151,18 +2153,8 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609532,
- "last_deep": "2026-10-14T05:40:30.345179+00:00",
+ "last_deep": "2026-10-14T06:40:30.138767+00:00",
  "recent": [
-  {
-   "t": "2026-10-14T05:26:07.666362+00:00",
-   "url": "https://uza.uz/oz/posts/jaumitbaeva-mexriban-karamatdin-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921964",
-   "title": "Jaumitbayeva Mexriban Karamatdin qizining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-14T05:31:00.780356+00:00",
-   "url": "https://uza.uz/oz/posts/ortiqova-mavluda-nurmahammadovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_921966",
-   "title": "Ortiqova Mavluda Nurmahammadovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-14T05:31:08.351311+00:00",
    "url": "https://uza.uz/oz/posts/tursunov-murod-amonovichning-kimyo-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_921969",
@@ -2202,19 +2194,29 @@
    "t": "2026-10-14T06:35:53.985571+00:00",
    "url": "https://uza.uz/oz/posts/nazhimova-aysulu-maxmudovnaning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_922029",
    "title": "Najimova Aysulu Maxmudovnaning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-14T06:44:10.422496+00:00",
+   "url": "https://oak.uz/pages/33078",
+   "title": "Madaminov Dilshodbek Quranboevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-14T06:44:16.673707+00:00",
+   "url": "https://oak.uz/pages/33079",
+   "title": "Baymuratov Sharapatdin Jetkerbaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 2,
   "found_oak": 2,
-  "posted": 3,
-  "dups": 1,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T06:35:56.988842+00:00",
+ "last_run": "2026-10-14T06:44:19.675229+00:00",
  "last_error": ""
 }
