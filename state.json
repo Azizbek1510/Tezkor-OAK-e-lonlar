@@ -1031,7 +1031,8 @@
   33112,
   33113,
   33114,
-  33115
+  33115,
+  33116
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2195,11 +2196,6 @@
  "last_deep": "2026-10-14T09:40:29.640995+00:00",
  "recent": [
   {
-   "t": "2026-10-14T08:30:56.765903+00:00",
-   "url": "https://oak.uz/pages/33106",
-   "title": "Nurullaeva Nodira Kadamovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
-  {
    "t": "2026-10-14T08:35:49.161847+00:00",
    "url": "https://oak.uz/pages/33107",
    "title": "Xolmatov Aziz Maratovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -2243,6 +2239,11 @@
    "t": "2026-10-14T10:10:55.431083+00:00",
    "url": "https://oak.uz/pages/33115",
    "title": "Primova Nigora Ikrom qizining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-14T10:15:48.730270+00:00",
+   "url": "https://oak.uz/pages/33116",
+   "title": "Jabbarov Majidbek Erzodovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -2256,6 +2257,6 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T10:10:58.433048+00:00",
+ "last_run": "2026-10-14T10:15:51.732133+00:00",
  "last_error": ""
 }
