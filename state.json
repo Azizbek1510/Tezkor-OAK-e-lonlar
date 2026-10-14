@@ -1011,7 +1011,9 @@
   33092,
   33093,
   33094,
-  33095
+  33095,
+  33096,
+  33097
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2175,16 +2177,6 @@
  "last_deep": "2026-10-14T07:40:31.886162+00:00",
  "recent": [
   {
-   "t": "2026-10-14T07:20:57.931070+00:00",
-   "url": "https://oak.uz/pages/33087",
-   "title": "Narzullaev Nuriddin Homit o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-14T07:25:42.219357+00:00",
-   "url": "https://oak.uz/pages/33088",
-   "title": "Olimova Maxfuza Bobir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-14T07:25:47.979670+00:00",
    "url": "https://oak.uz/pages/33089",
    "title": "Raximov G‘ulomjon Davronbekovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
@@ -2223,19 +2215,29 @@
    "t": "2026-10-14T07:50:54.456474+00:00",
    "url": "https://oak.uz/pages/33095",
    "title": "Qodirova Mohinur Saydullo qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-14T07:55:45.253036+00:00",
+   "url": "https://oak.uz/pages/33096",
+   "title": "Saydullaeva Barchinoy Abduxalil qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-14T07:55:51.023888+00:00",
+   "url": "https://oak.uz/pages/33097",
+   "title": "Mamajonova Mashhura Murodullaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T07:50:57.458238+00:00",
+ "last_run": "2026-10-14T07:55:54.104791+00:00",
  "last_error": ""
 }
