@@ -1002,7 +1002,8 @@
   33083,
   33084,
   33085,
-  33086
+  33086,
+  33087
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2163,11 +2164,6 @@
  "last_deep": "2026-10-14T06:40:30.138767+00:00",
  "recent": [
   {
-   "t": "2026-10-14T06:35:53.985571+00:00",
-   "url": "https://uza.uz/oz/posts/nazhimova-aysulu-maxmudovnaning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_922029",
-   "title": "Najimova Aysulu Maxmudovnaning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-14T06:44:10.422496+00:00",
    "url": "https://oak.uz/pages/33078",
    "title": "Madaminov Dilshodbek Quranboevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -2211,19 +2207,24 @@
    "t": "2026-10-14T07:15:56.384756+00:00",
    "url": "https://oak.uz/pages/33086",
    "title": "Isroilova Saida Erkinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-10-14T07:20:57.931070+00:00",
+   "url": "https://oak.uz/pages/33087",
+   "title": "Narzullaev Nuriddin Homit o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
-  "found_oak": 2,
-  "posted": 2,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T07:15:59.386551+00:00",
+ "last_run": "2026-10-14T07:21:00.933096+00:00",
  "last_error": ""
 }
