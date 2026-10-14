@@ -2301,14 +2301,14 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 9,
-  "found_oak": 2,
-  "posted": 5,
-  "dups": 4,
+  "found": 0,
+  "found_oak": 0,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-14T10:51:21.739701+00:00",
+ "last_run": "2026-10-14T10:55:37.319119+00:00",
  "last_error": ""
 }
