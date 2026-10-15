@@ -2449,7 +2449,7 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609532,
- "last_deep": "2026-10-15T05:40:38.013190+00:00",
+ "last_deep": "2026-10-15T06:40:32.776574+00:00",
  "recent": [
   {
    "t": "2026-10-15T05:21:19.692529+00:00",
@@ -2505,14 +2505,14 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 0,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-15T06:36:00.114899+00:00",
+ "last_run": "2026-10-15T06:44:09.967997+00:00",
  "last_error": ""
 }
