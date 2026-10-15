@@ -1104,7 +1104,8 @@
   33186,
   33187,
   33188,
-  33189
+  33189,
+  33190
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2464,11 +2465,6 @@
  "last_deep": "2026-10-15T07:40:29.686815+00:00",
  "recent": [
   {
-   "t": "2026-10-15T07:20:59.622697+00:00",
-   "url": "https://oak.uz/pages/33180",
-   "title": "Nematullaev Azamat Ulug‘bek o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-15T07:25:48.854268+00:00",
    "url": "https://oak.uz/pages/33181",
    "title": "Xajieva Dilfuza Adambaevna fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
@@ -2512,6 +2508,11 @@
    "t": "2026-10-15T08:30:58.969431+00:00",
    "url": "https://oak.uz/pages/33189",
    "title": "Xodjibolaeva Nozimaxon Ma’murovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-15T08:35:43.094116+00:00",
+   "url": "https://oak.uz/pages/33190",
+   "title": "Muratova Gulbaxar Chorievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -2525,6 +2526,6 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-15T08:31:01.970671+00:00",
+ "last_run": "2026-10-15T08:35:46.096278+00:00",
  "last_error": ""
 }
