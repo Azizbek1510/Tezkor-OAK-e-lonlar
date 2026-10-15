@@ -1126,7 +1126,8 @@
   33208,
   33209,
   33210,
-  33211
+  33211,
+  33212
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2486,11 +2487,6 @@
  "last_deep": "2026-10-15T09:40:33.332109+00:00",
  "recent": [
   {
-   "t": "2026-10-15T09:31:04.950504+00:00",
-   "url": "https://oak.uz/pages/33202",
-   "title": "Gadaev Abror Niyazovichning fan doktori (DSc) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
-  {
    "t": "2026-10-15T09:35:43.012005+00:00",
    "url": "https://oak.uz/pages/33203",
    "title": "Nurmamatov Mexriddin Qahramonovichning fan doktori (DSc) dissertatsiya himoyasi haqida e’lon"
@@ -2534,19 +2530,24 @@
    "t": "2026-10-15T10:10:55.338836+00:00",
    "url": "https://oak.uz/pages/33211",
    "title": "Axmatov Abdulla Akbar o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-15T10:15:56.391175+00:00",
+   "url": "https://oak.uz/pages/33212",
+   "title": "Xayriddinov Shuxrat Batirovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
-  "found_oak": 2,
-  "posted": 2,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-15T10:10:58.341137+00:00",
+ "last_run": "2026-10-15T10:15:59.393324+00:00",
  "last_error": ""
 }
