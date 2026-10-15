@@ -2522,14 +2522,14 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 0,
+  "found_oak": 0,
+  "posted": 0,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-15T08:50:58.063850+00:00",
+ "last_run": "2026-10-15T08:55:39.828490+00:00",
  "last_error": ""
 }
