@@ -1991,7 +1991,13 @@
   922537,
   922538,
   922541,
-  922542
+  922542,
+  922555,
+  922556,
+  922561,
+  922562,
+  922586,
+  922587
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2436,27 +2442,15 @@
   "bahiev hudiyar|PhD": "2026-10-15",
   "amirqulova nigora|PhD": "2026-10-15",
   "nasrullaeva umida|PhD": "2026-10-15",
-  "temirova shahlo|PhD": "2026-10-15"
+  "temirova shahlo|PhD": "2026-10-15",
+  "fattoeva zarina|PhD": "2026-10-15",
+  "tohtasinova zarina|PhD": "2026-10-15",
+  "namozova kamola|PhD": "2026-10-15"
  },
  "uza_keys_built": true,
  "tg_offset": 362609532,
  "last_deep": "2026-10-15T05:40:38.013190+00:00",
  "recent": [
-  {
-   "t": "2026-10-15T05:21:02.014762+00:00",
-   "url": "https://uza.uz/oz/posts/abdiraxmonov-axad-iskandarovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922497",
-   "title": "Abdiraxmonov Axad Iskandarovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-15T05:21:07.754196+00:00",
-   "url": "https://uza.uz/oz/posts/iskenderov-polat-konisbaevichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922500",
-   "title": "Iskenderov Polat Konisbayevichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-15T05:21:13.551074+00:00",
-   "url": "https://uza.uz/oz/posts/halimova-holida-hakimbaevnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922505",
-   "title": "Xalimova Xolida Xakimbayevnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-15T05:21:19.692529+00:00",
    "url": "https://uza.uz/oz/posts/salaeva-muborak-saidobdullaevnaning-ichki-kasalliklar-boyicha-fan-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_922509",
@@ -2491,19 +2485,34 @@
    "t": "2026-10-15T05:44:36.656897+00:00",
    "url": "https://uza.uz/oz/posts/temirova-shaxlo-raxmonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922541",
    "title": "Temirova Shaxlo Raxmonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-15T06:35:44.639389+00:00",
+   "url": "https://uza.uz/oz/posts/fattoeva-zarina-rahmatovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922555",
+   "title": "Fattoyeva Zarina Rahmatovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-15T06:35:51.074352+00:00",
+   "url": "https://uza.uz/oz/posts/toxtasinova-zarina-zokirzhon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922561",
+   "title": "To‘xtasinova Zarina Zokirjon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-15T06:35:57.111097+00:00",
+   "url": "https://uza.uz/oz/posts/namozova-kamola-bobir-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_922586",
+   "title": "Namozova Kamola Bobir qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 6,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-15T06:31:00.334244+00:00",
+ "last_run": "2026-10-15T06:36:00.114899+00:00",
  "last_error": ""
 }
