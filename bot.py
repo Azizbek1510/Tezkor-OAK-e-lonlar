@@ -31,8 +31,8 @@ STATE_FILE = Path(os.environ.get("STATE_FILE", "state.json"))
 FIRST_RUN_POST = int(os.environ.get("FIRST_RUN_POST", "3"))
 LOOP_INTERVAL = int(os.environ.get("LOOP_INTERVAL", "0"))
 # Imzo (post oxiri, rasm, PDF): kanal manzilidan olinadi — kanal nomi o'zgarsa, imzo ham o'zi o'zgaradi
-CHANNEL_SIGNATURE = CHANNEL_ID.strip() if CHANNEL_ID.strip().startswith("@") \
-    else os.environ.get("CHANNEL_SIGNATURE", "")
+_sig = re.search(r"@\w+", os.environ.get("CHANNEL_SIGNATURE", ""))
+CHANNEL_SIGNATURE = CHANNEL_ID.strip() if CHANNEL_ID.strip().startswith("@") else (_sig.group(0) if _sig else "")
 
 BASE = "https://oak.uz"
 SOURCES = {
@@ -264,6 +264,19 @@ NAME_RE = re.compile(r"^(.+?)(?:ning)?\s+(?:falsafa|fan)\s+doktori", re.IGNORECA
 FIELD_LAT_RE = re.compile(r"\(([\w‘’'ʻ` -]+?)\s+fanlari\)", re.IGNORECASE)
 
 
+# Ixtisoslik shifrining birinchi ikki raqami — fan tarmog'i (OAK klassifikatori)
+CODE_FIELDS = {"01": "fizika-matematika", "02": "kimyo", "03": "biologiya", "04": "geologiya-mineralogiya",
+               "05": "texnika", "06": "qishloq xo‘jaligi", "07": "tarix", "08": "iqtisodiyot", "09": "falsafa",
+               "10": "filologiya", "11": "geografiya", "12": "yuridik", "13": "pedagogika", "14": "tibbiyot",
+               "15": "farmatsevtika", "16": "veterinariya", "17": "san’atshunoslik", "18": "arxitektura",
+               "19": "psixologiya", "20": "harbiy", "22": "sotsiologiya", "23": "siyosiy"}
+
+
+def field_from_code(shifr: str) -> str:
+    m = re.match(r"\s*(\d{2})\.\d{2}\.\d{2}", shifr or "")
+    return CODE_FIELDS.get(m.group(1), "") if m else ""
+
+
 def field_tag(field: str) -> str:
     """'qishloq xo‘jaligi' -> 'qishloq_xojaligi', 'fizika-matematika' -> 'fizika_matematika'"""
     t = re.sub(r"[‘’'ʻ`]", "", field.lower())
@@ -402,6 +415,8 @@ def extract(item: dict) -> dict:
             if got:
                 info["shifr"] = got[0]
                 break
+    if not info["field"]:                      # soha yozilmagan bo'lsa — shifrdan aniqlaymiz
+        info["field"] = field_from_code(info["shifr"])
     return info
 
 
@@ -412,7 +427,9 @@ def get_info(item: dict) -> dict:
 
 # ======================= UzA (uza.uz) =======================
 
-UZA_API = "https://api.uza.uz/api/v1/posts/category/announcement"
+UZA_API_BASE = "https://api.uza.uz/api/v1/posts/category/"
+# UzA himoya e'lonlarini ikki bo'limga joylaydi: "E'lonlar" (announcement) va "Ilm-fan" (science)
+UZA_CATEGORIES = ("announcement", "science")
 UZA_PER_PAGE = 20
 INVISIBLE_RE = re.compile("[\u2060\u200b\u200c\u200d\ufeff\u00ad]")
 MONTHS = {"yanvar": 1, "fevral": 2, "mart": 3, "aprel": 4, "may": 5, "iyun": 6, "iyul": 7,
@@ -471,12 +488,16 @@ def extract_uza(item: dict) -> dict:
     if cm:
         info["council"] = cm.group(1).strip(" ,.")
     # Himoya sanasi va vaqti
-    dm = re.search(r"(\d{4})\s*-?\s*yil\s*(\d{1,2})\s*-?\s*([A-Za-z‘’']+)\s*kuni\s*soat\s*(\d{1,2})[:.](\d{2})",
-                   flat, re.IGNORECASE)
+    # "2026 yil 24 oktyabr kuni soat 12:00", "2026 yilning 30 – oktyabr, soat 11 00", "16 oktyabrm, soat 14:00"
+    dm = re.search(r"(\d{4})\s*-?\s*yil\w*\s*(\d{1,2})\s*[-–—]?\s*([A-Za-z‘’']+)\s*,?\s*(?:kuni)?\s*,?\s*soat\s*"
+                   r"(\d{1,2})\s*[:.]?\s*(\d{2})", flat, re.IGNORECASE)
     if dm:
-        mon = MONTHS.get(re.sub(r"[‘’']", "", dm.group(3).lower()))
+        word = re.sub(r"[‘’']", "", dm.group(3).lower())
+        mon = MONTHS.get(word) or next((v for k, v in MONTHS.items() if word.startswith(k[:3])), None)
         if mon:
             info["defense"] = f"{int(dm.group(2)):02d}.{mon:02d}.{dm.group(1)}, soat {int(dm.group(4)):02d}:{dm.group(5)}"
+    if not info["field"]:
+        info["field"] = field_from_code(info["shifr"])
     am = re.search(r"Manzil\s*:\s*(.+?)(?:\n|$)", text, re.IGNORECASE)
     if am:
         info["address"] = am.group(1).strip(" .")
@@ -544,8 +565,9 @@ def uza_image(item: dict) -> bytes | None:
 def uza_item(raw: dict) -> dict | None:
     """API javobidagi bitta e'lonni bot tushunadigan ko'rinishga keltiradi."""
     title = raw.get("title") or ""
-    if not re.search(r"диссертац|dissertats|ҳимоя|himoya", title, re.IGNORECASE):
-        return None                                   # himoyaga oid bo'lmagan e'lon
+    if not (re.search(r"диссертац|dissertats", title, re.IGNORECASE)
+            and re.search(r"ҳимоя|himoya|ximoya|химоя", title, re.IGNORECASE)):
+        return None                                   # dissertatsiya himoyasiga oid bo'lmagan xabar
     pt = raw.get("publish_time") or ""
     try:
         d = datetime.strptime(pt[:10], "%Y-%m-%d").strftime("%d.%m.%Y")
@@ -565,11 +587,14 @@ def uza_item(raw: dict) -> dict | None:
 UZA_LANGS = ("oz", "uz")      # oz — lotin yozuvidagi, uz — kirill yozuvidagi e'lonlar
 
 
-def fetch_uza_page(page: int, lang: str = "oz") -> list[dict]:
+def fetch_uza_page(page: int, lang: str = "oz", category: str = "announcement") -> list[dict]:
     for i in range(3):
         try:
-            r = _session.get(UZA_API, params={"per_page": UZA_PER_PAGE, "page": page, "_f": "json", "_l": lang},
-                             timeout=40)
+            r = _session.get(UZA_API_BASE + category,
+                             params={"per_page": UZA_PER_PAGE, "page": page, "_f": "json", "_l": lang}, timeout=40)
+            if r.status_code == 404:
+                log.warning("UzA bo'limi topilmadi: %s", category)
+                return []
             r.raise_for_status()
             return r.json().get("data") or []
         except (requests.RequestException, ValueError) as e:
@@ -580,9 +605,10 @@ def fetch_uza_page(page: int, lang: str = "oz") -> list[dict]:
 
 def find_uza(uid: int) -> dict | None:
     """UzA e'lonini raqami bo'yicha topadi (ro'yxat sahifalarini ko'rib chiqib)."""
-    for lang in UZA_LANGS:
+    for category in UZA_CATEGORIES:
+      for lang in UZA_LANGS:
         for page in range(1, DEEP_MAX_PAGES + 1):
-            rows = fetch_uza_page(page, lang)
+            rows = fetch_uza_page(page, lang, category)
             if not rows:
                 break
             for raw in rows:
@@ -639,38 +665,44 @@ def collect_uza(seen_uza: set[int], deep: bool, full: bool = False) -> list[tupl
     start = parse_date(UZA_START_DATE) or date(2000, 1, 1)
     bound = start if full or not deep else max(start, today_uz() - timedelta(days=DEEP_DAYS))
     found = {}
-    for lang in UZA_LANGS:
-      for page in range(1, (FULL_MAX_PAGES if full else DEEP_MAX_PAGES) + 1):
-          try:
-              rows = fetch_uza_page(page, lang)
-          except RuntimeError as e:
-              log.error(e)
-              break
-          if not rows:
-              break
-          known, dates = 0, []
-          for raw in rows:
-              try:
-                  it = uza_item(raw)
-              except Exception as ex:  # noqa: BLE001
-                  log.warning("UzA e'loni o'qilmadi (%s): %s", raw.get("id"), ex)
-                  continue
-              if not it:
-                  continue
-              d = parse_date(it["date"])
-              if d:
-                  dates.append(d)
-              if it["id"] in seen_uza:
-                  known += 1
-                  continue
-              if d and d < start:
-                  continue
-              found.setdefault(it["id"], (it, "UzA"))
-          if dates and min(dates) < bound:
-              break
-          if not deep and page >= MAX_PAGES and known > 0:
-              break
-          time.sleep(0.4)
+    for category in UZA_CATEGORIES:
+        for lang in UZA_LANGS:
+            for page in range(1, (FULL_MAX_PAGES if full else DEEP_MAX_PAGES) + 1):
+                try:
+                    rows = fetch_uza_page(page, lang, category)
+                except RuntimeError as e:
+                    log.error(e)
+                    break
+                if not rows:
+                    break
+                known, relevant, dates = 0, 0, []
+                for raw in rows:
+                    pt = (raw.get("publish_time") or "")[:10]
+                    try:
+                        dates.append(datetime.strptime(pt, "%Y-%m-%d").date())
+                    except ValueError:
+                        pass
+                    try:
+                        it = uza_item(raw)
+                    except Exception as ex:  # noqa: BLE001
+                        log.warning("UzA e'loni o'qilmadi (%s): %s", raw.get("id"), ex)
+                        continue
+                    if not it:
+                        continue                      # himoya e'loni emas (masalan, oddiy ilmiy yangilik)
+                    relevant += 1
+                    d = parse_date(it["date"])
+                    if it["id"] in seen_uza:
+                        known += 1
+                        continue
+                    if d and d < start:
+                        continue
+                    found.setdefault(it["id"], (it, "UzA"))
+                if dates and min(dates) < bound:
+                    break
+                # Oddiy tekshiruv: 3 sahifadan keyin faqat sahifadagi hamma himoya e'loni yangi bo'lsa davom etamiz
+                if not deep and page >= MAX_PAGES and (known > 0 or relevant == 0):
+                    break
+                time.sleep(0.4)
     return list(found.values())
 
 
@@ -1629,6 +1661,15 @@ def run_once() -> None:
     except RuntimeError as e:
         log.error("❌ BOT_TOKEN ishlamayapti: %s", e)
         raise SystemExit("BOT_TOKEN noto'g'ri yoki bekor qilingan — GitHub Secrets'da yangilang")
+    # Imzo — kanalning haqiqiy joriy manzili (kanal nomi o'zgarsa, imzo ham o'zi o'zgaradi)
+    global CHANNEL_SIGNATURE
+    try:
+        chat = _tg("getChat", {"chat_id": CHANNEL_ID})
+        if chat.get("username"):
+            CHANNEL_SIGNATURE = "@" + chat["username"]
+        log.info("Kanal: %s (%s)", chat.get("title", "?"), CHANNEL_SIGNATURE or "manzilsiz")
+    except RuntimeError as e:
+        log.warning("Kanal ma'lumoti olinmadi: %s", e)
     if existed:
         migrate_skipped(seen)
 
