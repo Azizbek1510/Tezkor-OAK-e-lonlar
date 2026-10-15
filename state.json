@@ -1112,7 +1112,9 @@
   33194,
   33195,
   33196,
-  33197
+  33197,
+  33198,
+  33199
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2472,16 +2474,6 @@
  "last_deep": "2026-10-15T08:40:34.496795+00:00",
  "recent": [
   {
-   "t": "2026-10-15T08:25:43.987376+00:00",
-   "url": "https://oak.uz/pages/33188",
-   "title": "Bafoev Farruh Sadriddinovich fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-15T08:30:58.969431+00:00",
-   "url": "https://oak.uz/pages/33189",
-   "title": "Xodjibolaeva Nozimaxon Ma’murovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-15T08:35:43.094116+00:00",
    "url": "https://oak.uz/pages/33190",
    "title": "Muratova Gulbaxar Chorievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -2520,19 +2512,29 @@
    "t": "2026-10-15T09:10:54.601366+00:00",
    "url": "https://oak.uz/pages/33197",
    "title": "Rasulova Kamola Patxilaevnaning falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-15T09:20:59.137224+00:00",
+   "url": "https://oak.uz/pages/33198",
+   "title": "Bobonazarova Sevara Odil qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-15T09:21:05.889469+00:00",
+   "url": "https://oak.uz/pages/33199",
+   "title": "Nasirova Naira Ravilevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-15T09:15:49.543307+00:00",
+ "last_run": "2026-10-15T09:21:08.891601+00:00",
  "last_error": ""
 }
