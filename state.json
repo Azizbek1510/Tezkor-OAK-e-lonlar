@@ -1269,7 +1269,10 @@
   33352,
   33353,
   33354,
-  33355
+  33355,
+  33356,
+  33357,
+  33358
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2832,21 +2835,6 @@
  "last_deep": "2026-10-16T14:30:45.629945+00:00",
  "recent": [
   {
-   "t": "2026-10-16T14:21:07.262574+00:00",
-   "url": "https://oak.uz/pages/33346",
-   "title": "Ortiqov Bobomurod Baymamatovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-16T14:21:13.607366+00:00",
-   "url": "https://oak.uz/pages/33347",
-   "title": "Imamova Aqida Obidjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-16T14:21:19.543804+00:00",
-   "url": "https://oak.uz/pages/33348",
-   "title": "Aminjanova Malika Baxtiyorovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
-  {
    "t": "2026-10-16T14:21:25.779162+00:00",
    "url": "https://oak.uz/pages/33349",
    "title": "Amirjanova Dildora Zarifboy qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -2880,6 +2868,21 @@
    "t": "2026-10-16T14:41:10.910154+00:00",
    "url": "https://oak.uz/pages/33355",
    "title": "Nazarova Gulnora Tadjidinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-16T14:45:54.612440+00:00",
+   "url": "https://oak.uz/pages/33356",
+   "title": "Muxtorov Jahongir Inomjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-16T14:46:01.089588+00:00",
+   "url": "https://oak.uz/pages/33357",
+   "title": "Maxmudova Zulfiya Primkulovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-16T14:46:07.507535+00:00",
+   "url": "https://oak.uz/pages/33358",
+   "title": "Xusanova Dilnoza Abduxamid qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -2893,6 +2896,6 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-16T14:41:13.912900+00:00",
+ "last_run": "2026-10-16T14:46:10.509642+00:00",
  "last_error": ""
 }
