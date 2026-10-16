@@ -2201,7 +2201,13 @@
   923478,
   923479,
   923485,
-  923486
+  923486,
+  923495,
+  923496,
+  923497,
+  923498,
+  923499,
+  923500
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2698,27 +2704,15 @@
   "pazilova dilnoza|PhD": "2026-10-16",
   "obidov farruh|PhD": "2026-10-16",
   "muslimova yulduz|DSc": "2026-10-16",
-  "hazratova iroda|PhD": "2026-10-16"
+  "hazratova iroda|PhD": "2026-10-16",
+  "mirzalieva dilafroz|PhD": "2026-10-16",
+  "ergasheva rayhon|PhD": "2026-10-16",
+  "tangirov roziboy|PhD": "2026-10-16"
  },
  "uza_keys_built": true,
  "tg_offset": 362609534,
  "last_deep": "2026-10-16T10:30:39.919734+00:00",
  "recent": [
-  {
-   "t": "2026-10-16T11:01:21.559576+00:00",
-   "url": "https://oak.uz/pages/33276",
-   "title": "Sadikova Muslima Alisher qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-16T11:01:28.328614+00:00",
-   "url": "https://oak.uz/pages/33277",
-   "title": "Erkinov Ilxomjon Elmurodjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-16T11:05:51.610410+00:00",
-   "url": "https://oak.uz/pages/33278",
-   "title": "Ashurova Shaxnoza Almasovnaning fan doktori (PhD) Dissertatsiya himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-16T11:10:59.717171+00:00",
    "url": "https://oak.uz/pages/33279",
@@ -2753,19 +2747,34 @@
    "t": "2026-10-16T11:21:12.117440+00:00",
    "url": "https://uza.uz/oz/posts/hazratova-iroda-furqat-qizining-filologiya-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923485",
    "title": "Xazratova Iroda Furqat qizining filologiya fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-16T11:25:47.393979+00:00",
+   "url": "https://uza.uz/oz/posts/mirzalieva-dilafroz-muxammadzhonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923495",
+   "title": "Mirzaliyeva Dilafro‘z Muxammadjonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-16T11:25:53.192795+00:00",
+   "url": "https://uza.uz/oz/posts/ergasheva-rayxon-otkir-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923497",
+   "title": "Ergasheva Rayxon O‘tkir qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-16T11:25:58.843279+00:00",
+   "url": "https://uza.uz/oz/posts/tangirov-roziboy-hudayshukurovichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923499",
+   "title": "Tangirov Ro‘ziboy Xudayshukurovichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
-  "found_oak": 1,
-  "posted": 2,
-  "dups": 1,
+  "found": 6,
+  "found_oak": 0,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-16T11:21:15.120157+00:00",
+ "last_run": "2026-10-16T11:26:01.847551+00:00",
  "last_error": ""
 }
