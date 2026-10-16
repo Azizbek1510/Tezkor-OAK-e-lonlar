@@ -1208,7 +1208,8 @@
   33291,
   33292,
   33293,
-  33294
+  33294,
+  33295
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2247,7 +2248,9 @@
   923541,
   923542,
   923543,
-  923544
+  923544,
+  923547,
+  923548
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2761,22 +2764,13 @@
   "tursinbekova inabat|PhD": "2026-10-16",
   "sultanova zulhumor|PhD": "2026-10-16",
   "ishankulova diyora|PhD": "2026-10-16",
-  "maksudova aziza|PhD": "2026-10-16"
+  "maksudova aziza|PhD": "2026-10-16",
+  "nematova iroda|PhD": "2026-10-16"
  },
  "uza_keys_built": true,
  "tg_offset": 362609534,
  "last_deep": "2026-10-16T11:30:42.218003+00:00",
  "recent": [
-  {
-   "t": "2026-10-16T11:51:27.972810+00:00",
-   "url": "https://uza.uz/oz/posts/jumanazarov-akmal-ruzikulovichning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_923529",
-   "title": "Jumanazarov Akmal Ruzikulovichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-16T11:51:35.222419+00:00",
-   "url": "https://uza.uz/oz/posts/kutlimuratov-allayar-abdusharipovichning-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923531",
-   "title": "Kutlimuratov Allayar Abdusharipovichning geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-16T11:55:47.324505+00:00",
    "url": "https://oak.uz/pages/33292",
@@ -2816,19 +2810,29 @@
    "t": "2026-10-16T12:01:36.028158+00:00",
    "url": "https://uza.uz/oz/posts/maksudova-aziza-abudkaxarovnaning-kimyo-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923543",
    "title": "Maksudova Aziza Abudkaxarovnaning kimyo fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-16T12:05:49.371528+00:00",
+   "url": "https://oak.uz/pages/33295",
+   "title": "Ergashev Laziz Bekmurodovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-16T12:05:56.217598+00:00",
+   "url": "https://uza.uz/oz/posts/nematova-iroda-ilhom-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923547",
+   "title": "Ne’matova Iroda Ilhom qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
-  "found_oak": 2,
-  "posted": 4,
-  "dups": 2,
+  "found": 3,
+  "found_oak": 1,
+  "posted": 2,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-16T12:01:39.032473+00:00",
+ "last_run": "2026-10-16T12:05:59.220220+00:00",
  "last_error": ""
 }
