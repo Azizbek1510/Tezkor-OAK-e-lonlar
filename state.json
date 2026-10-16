@@ -1182,7 +1182,8 @@
   33265,
   33266,
   33267,
-  33268
+  33268,
+  33269
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2682,11 +2683,6 @@
  "last_deep": "2026-10-16T09:30:39.573606+00:00",
  "recent": [
   {
-   "t": "2026-10-16T06:50:56.498006+00:00",
-   "url": "https://uza.uz/oz/posts/umirova-nurzhamal-jarkurganovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923208",
-   "title": "Umirova Nurjamal Jarkurganovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-16T06:51:03.508122+00:00",
    "url": "https://uza.uz/oz/posts/usmanova-ziyodaxon-ilxomzhon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923210",
    "title": "Usmanova Ziyodaxon Ilxomjon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -2730,6 +2726,11 @@
    "t": "2026-10-16T10:10:56.462181+00:00",
    "url": "https://oak.uz/pages/33268",
    "title": "Ravshanov Xurshid Akramovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-16T10:15:54.463276+00:00",
+   "url": "https://oak.uz/pages/33269",
+   "title": "Farxodova Ziyoda Farxod qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -2743,6 +2744,6 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-16T10:10:59.466936+00:00",
+ "last_run": "2026-10-16T10:15:57.464745+00:00",
  "last_error": ""
 }
