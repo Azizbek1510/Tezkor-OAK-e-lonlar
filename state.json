@@ -2138,7 +2138,11 @@
   922913,
   922914,
   922916,
-  922917
+  922917,
+  922999,
+  923000,
+  923001,
+  923002
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2615,22 +2619,14 @@
   "ataev farruh|PhD": "2026-10-16",
   "tursunova dilnoza|PhD": "2026-10-16",
   "rahimova fazilathon|PhD": "2026-10-16",
-  "narzullaeva dilfuza|PhD": "2026-10-16"
+  "narzullaeva dilfuza|PhD": "2026-10-16",
+  "ikromova gulhida|DSc": "2026-10-16",
+  "yusupova kamola|DSc": "2026-10-16"
  },
  "uza_keys_built": true,
  "tg_offset": 362609534,
- "last_deep": "2026-10-16T03:40:35.743519+00:00",
+ "last_deep": "2026-10-16T04:40:31.230081+00:00",
  "recent": [
-  {
-   "t": "2026-10-15T23:58:42.672726+00:00",
-   "url": "https://uza.uz/oz/posts/suyunova-gulchexra-holmamatovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922884",
-   "title": "Suyunova Gulchexra Xolmamatovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-15T23:58:48.268207+00:00",
-   "url": "https://uza.uz/oz/posts/dzhumaniyazova-motabarxon-ravshanbekovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922890",
-   "title": "Djumaniyazova Mo‘’tabarxon Ravshanbekovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-15T23:58:54.128292+00:00",
    "url": "https://uza.uz/oz/posts/salomova-gavhar-abdinazarovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_922892",
@@ -2670,19 +2666,29 @@
    "t": "2026-10-15T23:59:37.405647+00:00",
    "url": "https://uza.uz/oz/posts/narzullaeva-dilfuza-bafoevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_922916",
    "title": "Narzullayeva Dilfuza Bafoyevnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-16T04:44:13.096741+00:00",
+   "url": "https://uza.uz/oz/posts/ikromova-gulhida-axmadillo-qizining-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_922999",
+   "title": "Ikromova Gulhida Axmadillo qizining filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-16T04:44:18.856584+00:00",
+   "url": "https://uza.uz/oz/posts/yusupova-kamola-qobilzhon-qizining-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-haqida-togrisida_923001",
+   "title": "Yusupova Kamola Qobiljon qizining filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi haqida to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-16T04:35:51.010997+00:00",
+ "last_run": "2026-10-16T04:44:21.860604+00:00",
  "last_error": ""
 }
