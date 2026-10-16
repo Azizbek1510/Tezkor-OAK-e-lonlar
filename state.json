@@ -1176,7 +1176,8 @@
   33259,
   33260,
   33261,
-  33262
+  33262,
+  33263
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2173,7 +2174,9 @@
   923208,
   923209,
   923210,
-  923211
+  923211,
+  923368,
+  923369
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2666,22 +2669,13 @@
   "ubaydullaeva holida|PhD": "2026-10-16",
   "dagaeva dilfuza|PhD": "2026-10-16",
   "umirova nurjamal|PhD": "2026-10-16",
-  "usmanova ziyodahon|PhD": "2026-10-16"
+  "usmanova ziyodahon|PhD": "2026-10-16",
+  "pazilova dilnoza|PhD": "2026-10-16"
  },
  "uza_keys_built": true,
  "tg_offset": 362609534,
  "last_deep": "2026-10-16T09:30:39.573606+00:00",
  "recent": [
-  {
-   "t": "2026-10-16T05:46:06.409312+00:00",
-   "url": "https://uza.uz/oz/posts/umarova-irodaxon-nuralievnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923091",
-   "title": "Umarova Irodaxon Nuraliyevnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-16T05:50:58.324014+00:00",
-   "url": "https://uza.uz/oz/posts/sadullaev-ziyoddin-yovqochovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923095",
-   "title": "Sadullayev Ziyoddin Yovqochovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-16T05:51:04.240454+00:00",
    "url": "https://uza.uz/oz/posts/jalilova-madina-murotovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923105",
@@ -2721,19 +2715,29 @@
    "t": "2026-10-16T09:16:00.065141+00:00",
    "url": "https://oak.uz/pages/33262",
    "title": "Zaynabidinov Xojiakbar Muxammadjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-16T09:45:59.506590+00:00",
+   "url": "https://oak.uz/pages/33263",
+   "title": "Yunusov Maxmudxon Asatullaevichning fan doktori (DSc) dissertatsiyasi himoyasi e’loni"
+  },
+  {
+   "t": "2026-10-16T09:46:06.217035+00:00",
+   "url": "https://uza.uz/oz/posts/pazilova-dilnoza-haydaralievnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923368",
+   "title": "Pazilova Dilnoza Xaydaraliyevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "found": 3,
+  "found_oak": 1,
+  "posted": 2,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-16T09:41:01.664618+00:00",
+ "last_run": "2026-10-16T09:46:09.221990+00:00",
  "last_error": ""
 }
