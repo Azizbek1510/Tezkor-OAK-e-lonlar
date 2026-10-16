@@ -2675,14 +2675,14 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 60,
+  "found": 0,
   "found_oak": 0,
-  "posted": 29,
-  "dups": 31,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-15T23:59:40.601363+00:00",
+ "last_run": "2026-10-16T00:01:14.155621+00:00",
  "last_error": ""
 }
