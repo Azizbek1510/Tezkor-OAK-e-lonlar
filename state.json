@@ -1264,7 +1264,9 @@
   33347,
   33348,
   33349,
-  33350
+  33350,
+  33351,
+  33352
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2824,18 +2826,8 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609534,
- "last_deep": "2026-10-16T13:30:41.873984+00:00",
+ "last_deep": "2026-10-16T14:30:45.629945+00:00",
  "recent": [
-  {
-   "t": "2026-10-16T14:15:53.617888+00:00",
-   "url": "https://oak.uz/pages/33341",
-   "title": "Dalimova Kamola Mamurovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-16T14:16:04.433783+00:00",
-   "url": "https://oak.uz/pages/33342",
-   "title": "Taylyakova Feruzaxon Sultanovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-16T14:16:10.894647+00:00",
    "url": "https://oak.uz/pages/33343",
@@ -2875,19 +2867,29 @@
    "t": "2026-10-16T14:25:57.161376+00:00",
    "url": "https://oak.uz/pages/33350",
    "title": "Hamidullaev Shohjahon Shuhratovich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-16T14:35:04.561662+00:00",
+   "url": "https://oak.uz/pages/33351",
+   "title": "Isadikov Aydos Nurlanovichning fanl doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-16T14:35:11.170732+00:00",
+   "url": "https://oak.uz/pages/33352",
+   "title": "Omonov Ismoil Xolboevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-16T14:26:00.163892+00:00",
+ "last_run": "2026-10-16T14:35:14.174965+00:00",
  "last_error": ""
 }
