@@ -2398,7 +2398,11 @@
   923989,
   923990,
   923991,
-  923992
+  923992,
+  923998,
+  923999,
+  924000,
+  924001
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2954,22 +2958,14 @@
   "muzaffarova nazokat|DSc": "2026-10-17",
   "hudayberganov nurmamat|DSc": "2026-10-17",
   "ibodova mahfuza|DSc": "2026-10-17",
-  "esanov rashid|PhD": "2026-10-17"
+  "esanov rashid|PhD": "2026-10-17",
+  "toshmuqumov behzod|PhD": "2026-10-17",
+  "akramov shohzod|PhD": "2026-10-17"
  },
  "uza_keys_built": true,
  "tg_offset": 362609534,
  "last_deep": "2026-10-17T18:20:32.491562+00:00",
  "recent": [
-  {
-   "t": "2026-10-17T18:01:19.803273+00:00",
-   "url": "https://uza.uz/oz/posts/narzullaev-nuriddin-homit-oglining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923967",
-   "title": "Narzullayev Nuriddin Homit o‘g‘lining psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-17T18:10:55.202637+00:00",
-   "url": "https://uza.uz/oz/posts/haydarova-shoxsanam-tolibzhonovnaning-kimyo-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923969",
-   "title": "Xaydarova Shoxsanam Tolibjonovnaning Kimyo fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-17T18:15:51.261009+00:00",
    "url": "https://uza.uz/oz/posts/gaybullaev-murodilla-nematxonovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923972",
@@ -3009,19 +3005,29 @@
    "t": "2026-10-17T18:31:08.295409+00:00",
    "url": "https://uza.uz/oz/posts/esanov-rashid-raxmadovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923991",
    "title": "Esanov Rashid Raxmadovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-17T18:55:53.578935+00:00",
+   "url": "https://uza.uz/oz/posts/toshmuqumov-behzod-jumanazar-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923998",
+   "title": "Toshmuqumov Behzod Jumanazar o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-17T18:55:59.913875+00:00",
+   "url": "https://uza.uz/oz/posts/akramov-shohzod-baxromovichning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924000",
+   "title": "Akramov Shohzod Baxromovichning fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-17T18:50:49.769945+00:00",
+ "last_run": "2026-10-17T18:56:02.917136+00:00",
  "last_error": ""
 }
