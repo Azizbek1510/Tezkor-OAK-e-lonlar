@@ -2350,7 +2350,11 @@
   923785,
   923786,
   923787,
-  923788
+  923788,
+  923789,
+  923790,
+  923791,
+  923792
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2882,22 +2886,14 @@
   "matchanov bekpolat|PhD": "2026-10-17",
   "sindarov kahramon|PhD": "2026-10-17",
   "otegenova shirinbike|PhD": "2026-10-17",
-  "bozorov zokir|PhD": "2026-10-17"
+  "bozorov zokir|PhD": "2026-10-17",
+  "nurmamatov mehriddin|DSc": "2026-10-17",
+  "nabieva iroda|PhD": "2026-10-17"
  },
  "uza_keys_built": true,
  "tg_offset": 362609534,
  "last_deep": "2026-10-17T06:30:39.573586+00:00",
  "recent": [
-  {
-   "t": "2026-10-17T06:01:13.507949+00:00",
-   "url": "https://uza.uz/oz/posts/sabirova-muxlisa-kadamovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-haqida-togrisida_923769",
-   "title": "Sabirova Muxlisa Kadamovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi haqida to‘g‘risida"
-  },
-  {
-   "t": "2026-10-17T06:05:48.324081+00:00",
-   "url": "https://uza.uz/oz/posts/halilova-kamolaxon-oybek-qizining-biologiya-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923771",
-   "title": "Xalilova Kamolaxon Oybek qizining biologiya fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-17T06:20:58.345484+00:00",
    "url": "https://uza.uz/oz/posts/shomirzaev-nodir-toirovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923773",
@@ -2937,19 +2933,29 @@
    "t": "2026-10-17T06:45:55.829463+00:00",
    "url": "https://uza.uz/oz/posts/bozorov-zokir-yuldosh-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923787",
    "title": "Bozorov Zokir Yuldosh o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-17T06:50:54.069210+00:00",
+   "url": "https://uza.uz/oz/posts/nurmamatov-mexriddin-qaxramonovichning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_923789",
+   "title": "Nurmamatov Mexriddin Qaxramonovichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-17T06:51:00.214929+00:00",
+   "url": "https://uza.uz/oz/posts/nabieva-iroda-sultonovnaning-texnika-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923791",
+   "title": "Nabiyeva Iroda Sultonovnaning texnika fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 4,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-17T06:45:58.833603+00:00",
+ "last_run": "2026-10-17T06:51:03.222000+00:00",
  "last_error": ""
 }
