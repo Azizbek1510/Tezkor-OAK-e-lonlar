@@ -2370,7 +2370,10 @@
   923952,
   923953,
   923956,
-  923957
+  923957,
+  923959,
+  923960,
+  923961
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -2912,22 +2915,14 @@
   "hujaeva nigora|PhD": "2026-10-17",
   "yuldashev otabek|PhD": "2026-10-17",
   "nazarova navbahorning|PhD": "2026-10-17",
-  "mamaraimov dilshod|PhD": "2026-10-17"
+  "mamaraimov dilshod|PhD": "2026-10-17",
+  "ibodullaeva shirina|PhD": "2026-10-17",
+  "nurmuradova dilovar|PhD": "2026-10-17"
  },
  "uza_keys_built": true,
  "tg_offset": 362609534,
  "last_deep": "2026-10-17T17:25:23.124865+00:00",
  "recent": [
-  {
-   "t": "2026-10-17T06:50:54.069210+00:00",
-   "url": "https://uza.uz/oz/posts/nurmamatov-mexriddin-qaxramonovichning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_923789",
-   "title": "Nurmamatov Mexriddin Qaxramonovichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-17T06:51:00.214929+00:00",
-   "url": "https://uza.uz/oz/posts/nabieva-iroda-sultonovnaning-texnika-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923791",
-   "title": "Nabiyeva Iroda Sultonovnaning texnika fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-17T15:01:11.898698+00:00",
    "url": "https://uza.uz/oz/posts/shernafasova-husniyo-ravshanbekovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923911",
@@ -2967,19 +2962,29 @@
    "t": "2026-10-17T17:41:05.621860+00:00",
    "url": "https://uza.uz/oz/posts/mamaraimov-dilshod-jabborovichning-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923956",
    "title": "Mamaraimov Dilshod Jabborovichning biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-17T17:52:10.908180+00:00",
+   "url": "https://uza.uz/oz/posts/ibodullaeva-shirina-mirzhaxon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923959",
+   "title": "Ibodullayeva Shirina Mirjaxon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-17T17:52:16.420712+00:00",
+   "url": "https://uza.uz/oz/posts/nurmuradova-dilovar-boxadirovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_923961",
+   "title": "Nurmuradova Dilovar Boxadirovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 3,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-17T17:45:48.263791+00:00",
+ "last_run": "2026-10-17T17:52:19.423329+00:00",
  "last_error": ""
 }
