@@ -794,7 +794,7 @@ def build_message(item: dict, section: str, pdf_link: str | None = None,
 
     link = f'🔗 <a href="{item["url"]}">To‘liq e’lon — {item.get("site", "oak.uz")}</a>'
     if pdf_link:
-        link = f'📄 <a href="{pdf_link}">E’lon to‘g‘risida ma’lumotnoma olish (PDF)</a>\n' + link
+        link = f'📄 <a href="{pdf_link}">E’lon to‘g‘risida ma’lumotnoma (PDF) ⬇️</a>\n' + link
     if info["date"]:
         if item.get("source") == "uza":
             link = f"📅 UzA’ga joylangan: <b>{e(item.get('published') or info['date'])}</b>\n" + link
@@ -1307,6 +1307,41 @@ def pdf_tag(item: dict) -> str:
     return f"pdf-{d.isoformat()}"
 
 
+# ======================= Ma'lumotnomalar arxiv kanali (Telegram) =======================
+# PDF'lar alohida ochiq Telegram kanaliga fayl sifatida yuklanadi, postga esa t.me/<kanal>/<raqam> havolasi qo'yiladi.
+# Cheklov yo'q, GitHub'ga bog'liq emas. Sozlash: GitHub → Variables → PDF_CHANNEL = @kanal_manzili
+PDF_CHANNEL = os.environ.get("PDF_CHANNEL", "").strip()
+_pdf_channel_user = ""
+
+
+def pdf_channel_username() -> str:
+    global _pdf_channel_user
+    if not _pdf_channel_user and PDF_CHANNEL:
+        try:
+            chat = _tg("getChat", {"chat_id": PDF_CHANNEL})
+            _pdf_channel_user = chat.get("username", "")
+            if not _pdf_channel_user:
+                log.error("PDF arxiv kanali ochiq (public) emas — havola hamma uchun ishlamaydi")
+        except RuntimeError as e:
+            log.error("PDF arxiv kanali topilmadi (%s): %s", PDF_CHANNEL, e)
+    return _pdf_channel_user
+
+
+def upload_pdf_telegram(pdf: bytes, filename: str, item: dict) -> str | None:
+    user = pdf_channel_username()
+    if not user:
+        return None
+    info = get_info(item)
+    cap = (f"📄 <b>{html.escape(info.get('title', '')[:600])}</b>\n\n"
+           f"🔗 <a href=\"{item['url']}\">Asl e’lon — {item.get('site', 'oak.uz')}</a>"
+           + (f"\n📢 {html.escape(CHANNEL_SIGNATURE)}" if CHANNEL_SIGNATURE else ""))
+    res = _tg("sendDocument", {"chat_id": PDF_CHANNEL, "caption": cap, "parse_mode": "HTML",
+                               "disable_notification": True},
+              files={"document": (filename, pdf, "application/pdf")})
+    mid = res.get("message_id")
+    return f"https://t.me/{user}/{mid}" if mid else None
+
+
 def upload_pdf(pdf: bytes, filename: str, tag: str) -> str | None:
     """PDF ni yuklaydi va yuklab olish havolasini qaytaradi. Yuklanmasa — None (buzuq havola qo'yilmaydi)."""
     if not GITHUB_TOKEN or not GITHUB_REPO:
@@ -1347,7 +1382,7 @@ def repair_pdfs(max_uploads: int = 150) -> None:
     1) bir e'lonning eski versiyalarini (v4, v5) o'chirib joy bo'shatadi;
     2) kanalda chiqqan, lekin PDF'i umuman yo'q e'lonlar uchun PDF'ni postdagi nom bilan qayta yuklaydi.
     Shunda kanaldagi postlarni o'zgartirmasdan, ulardagi havolalar ishlay boshlaydi."""
-    if STATE.get("pdf_repair_done") or not GITHUB_TOKEN or not GITHUB_REPO:
+    if True:            # ma'lumotnomalar endi kanalning o'zida — GitHub'dagi tiklash kerak emas
         return
     STATE["pdf_repair_runs"] = STATE.get("pdf_repair_runs", 0) + 1
     if STATE["pdf_repair_runs"] > 3:                 # 3 urinishdan keyin to'xtaymiz — har safar sekinlashtirmasin
@@ -1425,28 +1460,94 @@ def fit_caption(item: dict, section: str, pdf_link: str | None) -> tuple[str, bo
     return build_message(item, section, pdf_link), False
 
 
+def channel_msg_link(msg_id: int) -> str | None:
+    """Kanaldagi xabarga havola: t.me/kanal/123 (ochiq kanal) yoki t.me/c/ID/123."""
+    if not msg_id:
+        return None
+    if CHANNEL_SIGNATURE.startswith("@"):
+        return f"https://t.me/{CHANNEL_SIGNATURE[1:]}/{msg_id}"
+    ch = CHANNEL_ID.strip()
+    if ch.startswith("@"):
+        return f"https://t.me/{ch[1:]}/{msg_id}"
+    if ch.startswith("-100"):
+        return f"https://t.me/c/{ch[4:]}/{msg_id}"
+    return None
+
+
+def doc_filename(item: dict) -> str:
+    """Ma'lumotnoma fayli nomi: R.Rasulova_UzA_17.10.2026.pdf
+    (ismning bosh harfi . familiya _ manba _ rasmiy saytda chop etilgan sana)."""
+    def ascii_word(w: str) -> str:
+        return re.sub(r"[^A-Za-z-]", "", to_latin(w).replace("‘", "").replace("’", "").replace("'", ""))
+    tokens = [t for t in re.split(r"\s+", get_info(item).get("name", "").strip()) if t]
+    surname = ascii_word(tokens[0]) if tokens else ""
+    first = ascii_word(tokens[1]) if len(tokens) > 1 else ""
+    m = re.match(r"(Sh|Ch|Yo|Yu|Ya)", first)
+    initial = (m.group(1) if m else first[:1]).upper() if first else ""
+    initial = initial[:1] + initial[1:].lower()
+    person = f"{initial}.{surname}" if initial and surname else (surname or "Elon")
+    source = "UzA" if item.get("source") == "uza" else "OAK"
+    day = item.get("date") or today_uz().strftime("%d.%m.%Y")
+    return f"{person}_{source}_{day}.pdf"
+
+
+def send_pdf_below(pdf: bytes, item: dict, reply_to: int) -> int:
+    """Ma'lumotnomani e'lon ostiga (unga javob sifatida) ovozsiz joylaydi."""
+    info = get_info(item)
+    name = info.get("name") or ""
+    cap = "📄 <b>E’lon to‘g‘risida ma’lumotnoma</b>" + (f"\n{html.escape(name)}" if name else "")
+    res = _tg("sendDocument", {"chat_id": CHANNEL_ID, "caption": cap, "parse_mode": "HTML",
+                               "reply_to_message_id": reply_to, "disable_notification": True},
+              files={"document": (doc_filename(item), pdf, "application/pdf")})
+    return res.get("message_id", 0)
+
+
 def publish(item: dict, section: str, silent: bool = False) -> dict:
-    """E'lonni kanalga yuboradi. Natija: {"msg": id, "photo": bool, "caption": matn}."""
+    """E'lonni kanalga joylaydi, ostiga esa PDF ma'lumotnomani qo'yadi.
+    Natija: {"msg": post raqami, "photo": bool, "caption": matn, "pdf": fayl xabari raqami}."""
     enrich(item)
-    # 1) Ma'lumotnoma: PDF yasab yuklaymiz (xato bo'lsa — post havolasiz chiqadi)
-    pdf_link = None
+    # 1) Ma'lumotnomani tayyorlaymiz (xato bo'lsa — e'lon baribir chiqadi)
+    pdf = None
     try:
         pdf = make_pdf(item)
-        if pdf:
-            pdf_link = upload_pdf(pdf, pdf_name(item), pdf_tag(item))
     except Exception as ex:  # noqa: BLE001
         log.error("Ma'lumotnoma tayyorlanmadi: %s", ex)
 
-    # 2) Post
-    text, fits = fit_caption(item, section, pdf_link)
+    # 2) E'lon
+    text, fits = fit_caption(item, section, None)
+    res = None
     if fits:
         try:
             card = (uza_image(item) if item.get("source") == "uza" else None) or make_card(get_info(item))
             if card:
-                return {"msg": send_photo(card, text, silent), "photo": True, "caption": text}
+                res = {"msg": send_photo(card, text, silent), "photo": True, "caption": text}
         except Exception as ex:  # noqa: BLE001
+            if is_fatal(str(ex)):
+                raise
             log.error("Rasm bilan yuborilmadi (%s) — matn ko'rinishida yuboramiz", ex)
-    return {"msg": send_message(text, silent), "photo": False, "caption": text}
+    if res is None:
+        res = {"msg": send_message(text, silent), "photo": False, "caption": text}
+
+    # 3) Ma'lumotnoma — e'lon ostiga, so'ng e'londagi "Ma'lumotnoma" qatori unga havola qiladi
+    res["pdf"] = 0
+    if pdf and res["msg"]:
+        try:
+            res["pdf"] = send_pdf_below(pdf, item, res["msg"])
+            link = channel_msg_link(res["pdf"])
+            if link:
+                new_text, ok = fit_caption(item, section, link)
+                data = {"chat_id": CHANNEL_ID, "message_id": res["msg"], "parse_mode": "HTML"}
+                if res["photo"] and ok:
+                    _tg("editMessageCaption", {**data, "caption": new_text})
+                    res["caption"] = new_text
+                elif not res["photo"]:
+                    _tg("editMessageText", {**data, "text": new_text, "disable_web_page_preview": True})
+                    res["caption"] = new_text
+        except RuntimeError as ex:
+            if is_fatal(str(ex)):
+                raise
+            log.error("Ma'lumotnoma joylanmadi: %s", ex)
+    return res
 
 
 # ---------------- Holat (state) ----------------
@@ -1713,6 +1814,17 @@ def admin_status() -> str:
     return "\n".join(lines)
 
 
+def remember_post(item: dict, res: dict) -> None:
+    """Kanaldagi post raqamini eslab qolamiz — kelajakda postni tahrirlash kerak bo'lsa ishlatiladi."""
+    key = f"{'u' if item.get('source') == 'uza' else ''}{item['id']}"
+    posts = STATE.setdefault("posts", {})
+    posts[key] = {"m": res.get("msg"), "p": int(bool(res.get("photo"))), "f": res.get("pdf", 0),
+                  "d": today_uz().isoformat()}
+    if len(posts) > 3000:
+        for k in sorted(posts, key=lambda k: posts[k]["d"])[:len(posts) - 3000]:
+            del posts[k]
+
+
 def note_post(item: dict) -> None:
     """Oxirgi postlar ro'yxati (/holat uchun)."""
     rec = STATE.setdefault("recent", [])
@@ -1888,13 +2000,14 @@ def run_once() -> None:
             else:
                 res = publish(item, section, silent=is_silent(item))
                 note_post(item)
+                remember_post(item, res)
                 posted += 1
                 if ukey:
                     STATE.setdefault("uza_keys", {})[ukey] = today_uz().isoformat()
                 if key:
                     people[key] = {**res, "src": "uza" if is_uza else "oak", "d": today_uz().isoformat()}
                 log.info("Yuborildi: %s (%s)", item["url"], item["date"])
-                time.sleep(3)
+                time.sleep(4)
         except RuntimeError as e:
             err = str(e)
             if is_fatal(err):
