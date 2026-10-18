@@ -1279,6 +1279,7 @@ def _release_id(tag: str) -> int:
         r = _gh("POST", api, json={
             "tag_name": tag,
             "name": f"E’lon ma’lumotnomalari — {tag[4:]}",
+            "draft": False,
             "body": "Tezkor OAK himoya e’lonlari: oak.uz e’lonlarining PDF ma’lumotnomalari.",
             "make_latest": "false",
         })
@@ -1287,19 +1288,110 @@ def _release_id(tag: str) -> int:
     return _release_ids[tag]
 
 
-def upload_pdf(pdf: bytes, filename: str, month: str = "") -> str | None:
-    """PDF ni yuklaydi va to'g'ridan-to'g'ri yuklab olish havolasini qaytaradi."""
+def pdf_name(item: dict) -> str:
+    info = get_info(item)
+    surname = re.sub(r"[^A-Za-z0-9]+", "", (info["name"].split() or ["elon"])[0]) or "elon"
+    prefix = "UZA" if item.get("source") == "uza" else "OAK"
+    return f"{prefix}_elon_{item['id']}_{surname}_{PDF_VERSION}.pdf"
+
+
+def pdf_tag(item: dict) -> str:
+    """Yangi PDF'lar kunlik to'plamga: pdf-2026-10-17 (GitHub bitta to'plamga 1000 tadan ko'p fayl olmaydi)."""
+    d = parse_date(item.get("date", "")) or today_uz()
+    return f"pdf-{d.isoformat()}"
+
+
+def upload_pdf(pdf: bytes, filename: str, tag: str) -> str | None:
+    """PDF ni yuklaydi va yuklab olish havolasini qaytaradi. Yuklanmasa — None (buzuq havola qo'yilmaydi)."""
     if not GITHUB_TOKEN or not GITHUB_REPO:
         log.warning("GITHUB_TOKEN yoki GITHUB_REPOSITORY yo'q — ma'lumotnoma havolasi qo'shilmaydi")
         return None
-    tag = "pdf-" + (month or time.strftime("%Y-%m"))
     rid = _release_id(tag)
     url = f"https://uploads.github.com/repos/{GITHUB_REPO}/releases/{rid}/assets"
     r = _gh("POST", url, params={"name": filename}, data=pdf, headers={"Content-Type": "application/pdf"})
-    if r.status_code == 422:      # bu e'lonning ma'lumotnomasi allaqachon yuklangan — o'shandan foydalanamiz
-        return f"https://github.com/{GITHUB_REPO}/releases/download/{tag}/{filename}"
+    if r.status_code == 422:
+        if "already_exists" in r.text:           # aynan shu fayl allaqachon bor — o'shandan foydalanamiz
+            return f"https://github.com/{GITHUB_REPO}/releases/download/{tag}/{filename}"
+        log.error("PDF yuklanmadi (%s): %s", filename, r.text[:300])
+        return None
     r.raise_for_status()
     return r.json()["browser_download_url"]
+
+
+# ---------- Buzilgan ma'lumotnoma havolalarini tiklash (bir martalik) ----------
+
+ASSET_RE = re.compile(r"^(OAK|UZA)_elon_(\d+)_.*_v(\d+)\.pdf$")
+
+
+def list_assets(rid: int) -> list[dict]:
+    out, page = [], 1
+    while True:
+        r = _gh("GET", f"https://api.github.com/repos/{GITHUB_REPO}/releases/{rid}/assets",
+                params={"per_page": 100, "page": page})
+        r.raise_for_status()
+        batch = r.json()
+        out += batch
+        if len(batch) < 100:
+            return out
+        page += 1
+
+
+def repair_pdfs(max_uploads: int = 150) -> None:
+    """Oylik to'plam (pdf-YYYY-MM) to'lib qolgani sabab yuklanmay qolgan PDF'larni tiklaydi:
+    1) bir e'lonning eski versiyalarini (v4, v5) o'chirib joy bo'shatadi;
+    2) kanalda chiqqan, lekin PDF'i umuman yo'q e'lonlar uchun PDF'ni postdagi nom bilan qayta yuklaydi.
+    Shunda kanaldagi postlarni o'zgartirmasdan, ulardagi havolalar ishlay boshlaydi."""
+    if STATE.get("pdf_repair_done") or not GITHUB_TOKEN or not GITHUB_REPO:
+        return
+    log.info("Ma'lumotnoma havolalari tekshirilmoqda...")
+    seen_oak, seen_uza = set(STATE.get("seen", [])), set(STATE.get("seen_uza", []))
+    items = collect(set(), deep=True) + (collect_uza(set(), deep=True) if UZA_ENABLED else [])
+    posted = [it for it, _ in items if it["id"] in (seen_uza if it.get("source") == "uza" else seen_oak)]
+    by_month: dict = {}
+    for it in posted:
+        d = parse_date(it.get("date", ""))
+        if d:
+            by_month.setdefault(f"pdf-{d.year}-{d.month:02d}", []).append(it)
+    uploaded, deleted, left = 0, 0, 0
+    for tag, its in sorted(by_month.items()):
+        r = _gh("GET", f"https://api.github.com/repos/{GITHUB_REPO}/releases/tags/{tag}")
+        if r.status_code != 200:
+            continue                                 # bu oyda oylik to'plam bo'lmagan — havolalar boshqa joyda
+        rid = r.json()["id"]
+        assets = list_assets(rid)
+        groups: dict = {}
+        for a in assets:
+            m = ASSET_RE.match(a["name"])
+            if m:
+                groups.setdefault((m.group(1), m.group(2)), []).append((int(m.group(3)), a))
+        # 1) Eski versiyalarni o'chirish (postlarda eng yangi versiya turibdi)
+        for key, vers in groups.items():
+            vers.sort(key=lambda x: x[0])
+            for _, a in vers[:-1]:
+                if _gh("DELETE", f"https://api.github.com/repos/{GITHUB_REPO}/releases/assets/{a['id']}").ok:
+                    deleted += 1
+            groups[key] = vers[-1:]
+        # 2) PDF'i umuman yo'q e'lonlarni qayta yuklash
+        for it in its:
+            prefix = "UZA" if it.get("source") == "uza" else "OAK"
+            if (prefix, str(it["id"])) in groups:
+                continue
+            if uploaded >= max_uploads:
+                left += 1
+                continue
+            try:
+                enrich(it)
+                pdf = make_pdf(it)
+                if pdf and upload_pdf(pdf, pdf_name(it), tag):
+                    uploaded += 1
+            except Exception as ex:  # noqa: BLE001
+                log.warning("PDF tiklanmadi (%s): %s", it.get("url"), ex)
+    STATE["pdf_repair_done"] = left == 0
+    log.info("Ma'lumotnomalar: %d ta eski versiya o'chirildi, %d ta yetishmagan PDF tiklandi%s",
+             deleted, uploaded, f", yana {left} ta keyingi safar" if left else "")
+    if uploaded or deleted:
+        alert_admins(f"🛠 Ma’lumotnoma havolalari tiklandi: {uploaded} ta PDF qayta yuklandi, "
+                     f"{deleted} ta eski nusxa o‘chirildi." + (f" Yana {left} ta keyingi tekshiruvda." if left else ""))
 
 
 def enrich(item: dict) -> None:
@@ -1331,12 +1423,7 @@ def publish(item: dict, section: str, silent: bool = False) -> dict:
     try:
         pdf = make_pdf(item)
         if pdf:
-            info = get_info(item)
-            surname = re.sub(r"[^A-Za-z0-9]+", "", (info["name"].split() or ["elon"])[0]) or "elon"
-            d = parse_date(item.get("date", ""))
-            month = f"{d.year}-{d.month:02d}" if d else ""
-            prefix = "UZA" if item.get("source") == "uza" else "OAK"
-            pdf_link = upload_pdf(pdf, f"{prefix}_elon_{item['id']}_{surname}_{PDF_VERSION}.pdf", month)
+            pdf_link = upload_pdf(pdf, pdf_name(item), pdf_tag(item))
     except Exception as ex:  # noqa: BLE001
         log.error("Ma'lumotnoma tayyorlanmadi: %s", ex)
 
@@ -1818,6 +1905,11 @@ def run_once() -> None:
         save_state(seen)   # har e'londan keyin saqlaymiz — takror bo'lmasligi uchun
 
     STATE["last_error"] = fatal_error
+    if not fatal_error:
+        try:
+            repair_pdfs()
+        except Exception as ex:  # noqa: BLE001
+            log.warning("Havolalarni tiklashda xato: %s", ex)
     STATE["backlog"] = len(items) > done
     STATE["queue"] = len(items) - done
     STATE["full_pending"] = full and STATE["queue"] > 0
