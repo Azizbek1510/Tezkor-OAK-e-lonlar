@@ -42,7 +42,7 @@ SOURCES = {
 MAX_PAGES = 3          # oddiy tekshiruvda har bir bo'limdan nechta sahifa ko'riladi
 START_DATE = os.environ.get("START_DATE", "01.09.2026")   # OAK: shu sanadan boshlab barcha e'lonlar chiqadi
 UZA_START_DATE = os.environ.get("UZA_START_DATE", "01.10.2026")   # UzA: shu sanadan boshlab
-DEEP_DAYS = int(os.environ.get("DEEP_DAYS", "60"))        # chuqur tekshiruv necha kun orqaga qaraydi
+DEEP_DAYS = int(os.environ.get("DEEP_DAYS", "14"))        # soatlik chuqur tekshiruv necha kun orqaga qaraydi
 DEEP_MAX_PAGES = 200                                       # chuqur tekshiruvda sahifalar chegarasi
 FULL_MAX_PAGES = 600                                       # to'liq tekshiruvda (/tekshir) sahifalar chegarasi
 MAX_POSTS_PER_RUN = int(os.environ.get("MAX_POSTS_PER_RUN", "40"))
@@ -430,7 +430,7 @@ def get_info(item: dict) -> dict:
 UZA_API_BASE = "https://api.uza.uz/api/v1/posts/category/"
 # UzA himoya e'lonlarini ikki bo'limga joylaydi: "E'lonlar" (announcement) va "Ilm-fan" (science)
 UZA_CATEGORIES = ("announcement", "science")
-UZA_PER_PAGE = 20
+UZA_PER_PAGE = 50          # bir so'rovda ko'proq e'lon — so'rovlar soni kamayadi
 INVISIBLE_RE = re.compile("[\u2060\u200b\u200c\u200d\ufeff\u00ad]")
 MONTHS = {"yanvar": 1, "fevral": 2, "mart": 3, "aprel": 4, "may": 5, "iyun": 6, "iyul": 7,
           "avgust": 8, "sentyabr": 9, "sentabr": 9, "oktyabr": 10, "oktabr": 10,
@@ -699,6 +699,12 @@ def collect_uza(seen_uza: set[int], deep: bool, full: bool = False) -> list[tupl
                     found.setdefault(it["id"], (it, "UzA"))
                 if dates and min(dates) < bound:
                     break
+                # "Ilm-fan" — asosan oddiy yangiliklar: oddiy tekshiruvda 1 sahifa, chuqurda 3 kun yetarli
+                if category == "science" and not full:
+                    if not deep:
+                        break
+                    if dates and min(dates) < today_uz() - timedelta(days=3):
+                        break
                 # Oddiy tekshiruv: 3 sahifadan keyin faqat sahifadagi hamma himoya e'loni yangi bo'lsa davom etamiz
                 if not deep and page >= MAX_PAGES and (known > 0 or relevant == 0):
                     break
@@ -1343,6 +1349,10 @@ def repair_pdfs(max_uploads: int = 150) -> None:
     Shunda kanaldagi postlarni o'zgartirmasdan, ulardagi havolalar ishlay boshlaydi."""
     if STATE.get("pdf_repair_done") or not GITHUB_TOKEN or not GITHUB_REPO:
         return
+    STATE["pdf_repair_runs"] = STATE.get("pdf_repair_runs", 0) + 1
+    if STATE["pdf_repair_runs"] > 3:                 # 3 urinishdan keyin to'xtaymiz — har safar sekinlashtirmasin
+        STATE["pdf_repair_done"] = True
+        return
     log.info("Ma'lumotnoma havolalari tekshirilmoqda...")
     seen_oak, seen_uza = set(STATE.get("seen", [])), set(STATE.get("seen_uza", []))
     items = collect(set(), deep=True) + (collect_uza(set(), deep=True) if UZA_ENABLED else [])
@@ -1835,10 +1845,13 @@ def run_once() -> None:
     if deep:
         STATE["last_deep"] = datetime.now(timezone.utc).isoformat()
     seen_uza = set(STATE.get("seen_uza", []))
+    t0 = time.time()
     items = collect(seen, deep, full)
+    t1 = time.time()
     if UZA_ENABLED:
         build_uza_keys(seen_uza)
         items += collect_uza(seen_uza, deep, full)
+    log.info("⏱ OAK tekshiruvi: %.0f s, UzA tekshiruvi: %.0f s", t1 - t0, time.time() - t1)
     # Ikkala saytdagi e'lonlar birgalikda, eskidan yangiga
     items.sort(key=lambda x: (parse_date(x[0]["date"]) or date.max, x[0].get("source", "oak"), x[0]["id"]))
     batch = items[:MAX_POSTS_PER_RUN]
@@ -1905,9 +1918,13 @@ def run_once() -> None:
         save_state(seen)   # har e'londan keyin saqlaymiz — takror bo'lmasligi uchun
 
     STATE["last_error"] = fatal_error
+    log.info("⏱ Postlar yuborildi: %d ta", posted)
     if not fatal_error:
         try:
+            t2 = time.time()
             repair_pdfs()
+            if time.time() - t2 > 5:
+                log.info("⏱ Havolalarni tiklash: %.0f s", time.time() - t2)
         except Exception as ex:  # noqa: BLE001
             log.warning("Havolalarni tiklashda xato: %s", ex)
     STATE["backlog"] = len(items) > done
