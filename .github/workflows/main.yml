@@ -2,11 +2,11 @@ name: Tezkor OAK e'lonlar
 
 on:
   schedule:
-    - cron: "7,22,37,52 * * * *"
-  workflow_dispatch:
+    - cron: "7,22,37,52 * * * *"   # har 15 daqiqada (GitHub band bo'lmagan daqiqalarda)
+  workflow_dispatch:          # qo'lda ishga tushirish tugmasi
     inputs:
       ids:
-        description: "Qo'lda yuborish: e'lon raqamlari (masalan 32715 yoki u920572). Bo'sh qoldirsangiz — barcha yangi e'lonlar tekshiriladi."
+        description: "Qo'lda yuborish: e'lon raqamlari (masalan 32715 yoki 32715,32716). Bo'sh qoldirsangiz — barcha yangi e'lonlar tekshiriladi."
         required: false
         default: ""
 
@@ -24,18 +24,17 @@ jobs:
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depth: 1                # faqat oxirgi holat — tezroq
+          fetch-depth: 1
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-          cache: "pip"                  # kutubxonalar keshdan olinadi
+          cache: "pip"
       - run: pip install -r requirements.txt
       - name: Yangi e'lonlarni yuborish
         run: python bot.py
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHANNEL_ID: ${{ secrets.CHANNEL_ID }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FORCE_IDS: ${{ github.event.inputs.ids }}
           MAX_POSTS_PER_RUN: "100"
           ADMIN_IDS: ${{ vars.ADMIN_IDS }}
