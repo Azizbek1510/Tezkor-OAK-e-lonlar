@@ -2996,14 +2996,9 @@
   "gafforova hurriyat|PhD": "2026-10-18"
  },
  "uza_keys_built": true,
- "tg_offset": 362609535,
+ "tg_offset": 362609537,
  "last_deep": "2026-10-18T17:30:38.539371+00:00",
  "recent": [
-  {
-   "t": "2026-10-17T19:02:06.732822+00:00",
-   "url": "https://uza.uz/oz/posts/quldashev-murodzhon-ganievichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924004",
-   "title": "Quldashev Murodjon G‘aniyevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-17T19:05:53.312095+00:00",
    "url": "https://uza.uz/oz/posts/berdieva-dilnavoz-orif-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924006",
@@ -3048,6 +3043,11 @@
    "t": "2026-10-17T19:35:56.751426+00:00",
    "url": "https://uza.uz/oz/posts/gafforova-hurriyat-yangiboevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924030",
    "title": "G‘afforova Xurriyat Yangiboyevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-18T17:40:08.905557+00:00",
+   "url": "https://uza.uz/oz/posts/rasulova-ranoxon-ibrohimzhonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924012",
+   "title": "Rasulova Ra’noxon Ibrohimjonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -3061,7 +3061,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-18T17:36:48.830114+00:00",
+ "last_run": "2026-10-18T17:40:32.150945+00:00",
  "last_error": "",
  "pdf_repair_done": true
 }
