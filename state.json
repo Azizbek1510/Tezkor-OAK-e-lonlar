@@ -3246,15 +3246,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 7,
-  "found_oak": 2,
-  "posted": 4,
-  "dups": 3,
+  "found": 0,
+  "found_oak": 0,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T14:21:23.542062+00:00",
+ "last_run": "2026-10-19T14:25:45.904658+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
