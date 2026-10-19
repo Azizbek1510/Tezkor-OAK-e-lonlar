@@ -1303,7 +1303,8 @@
   33387,
   33388,
   33389,
-  33390
+  33390,
+  33391
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2525,7 +2526,11 @@
   924677,
   924678,
   924684,
-  924685
+  924685,
+  924689,
+  924690,
+  924692,
+  924693
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3126,27 +3131,14 @@
   "suyarova shahnoza|PhD": "2026-10-19",
   "tangriev valisher|PhD": "2026-10-19",
   "abdikarimova fotima|PhD": "2026-10-19",
-  "sultanhodjaeva gulnoza|PhD": "2026-10-19"
+  "sultanhodjaeva gulnoza|PhD": "2026-10-19",
+  "ergasheva habiba|PhD": "2026-10-19",
+  "abdulazizova shahzoda|PhD": "2026-10-19"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-19T12:30:41.938816+00:00",
  "recent": [
-  {
-   "t": "2026-10-19T12:51:03.216444+00:00",
-   "url": "https://oak.uz/pages/33387",
-   "title": "Baymuratova Sarbinaz Maxsetovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-19T12:51:11.364856+00:00",
-   "url": "https://uza.uz/oz/posts/normuminova-mohichehra-bahodir-qizining-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924662",
-   "title": "Normuminova Mohichehra Bahodir qizining qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-19T12:51:19.495148+00:00",
-   "url": "https://uza.uz/oz/posts/kozokov-javlon-berdi-uglining-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924666",
-   "title": "Kozokov Javlon Berdi uglining qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-19T12:55:51.772978+00:00",
    "url": "https://oak.uz/pages/33388",
@@ -3181,20 +3173,35 @@
    "t": "2026-10-19T13:01:34.188801+00:00",
    "url": "https://uza.uz/oz/posts/sultanxodzhaeva-gulnoza-shuxratovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924684",
    "title": "Sultanxodjayeva Gulnoza Shuxratovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T13:11:01.193764+00:00",
+   "url": "https://oak.uz/pages/33391",
+   "title": "Reipnazarova Sarbinaz Ajiniyazovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T13:11:10.188620+00:00",
+   "url": "https://uza.uz/oz/posts/ergasheva-habiba-oral-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924689",
+   "title": "Ergasheva Habiba O‘ral qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T13:11:18.900220+00:00",
+   "url": "https://uza.uz/oz/posts/abdulazizova-shaxzoda-akram-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924692",
+   "title": "Abdulazizova Shaxzoda Akram qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "found": 5,
+  "found_oak": 1,
+  "posted": 3,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T13:05:50.191091+00:00",
+ "last_run": "2026-10-19T13:11:22.904742+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3556,6 +3563,24 @@
    "m": 2240,
    "p": 1,
    "f": 2241,
+   "d": "2026-10-19"
+  },
+  "33391": {
+   "m": 2242,
+   "p": 1,
+   "f": 2243,
+   "d": "2026-10-19"
+  },
+  "u924689": {
+   "m": 2244,
+   "p": 1,
+   "f": 2245,
+   "d": "2026-10-19"
+  },
+  "u924692": {
+   "m": 2246,
+   "p": 1,
+   "f": 2247,
    "d": "2026-10-19"
   }
  }
