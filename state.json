@@ -1290,7 +1290,8 @@
   33373,
   33374,
   33375,
-  33376
+  33376,
+  33378
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3072,11 +3073,6 @@
  "last_deep": "2026-10-19T11:30:41.217269+00:00",
  "recent": [
   {
-   "t": "2026-10-19T11:16:05.361851+00:00",
-   "url": "https://oak.uz/pages/33367",
-   "title": "Latipova Dilnoza Ilhomovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-19T11:16:13.284632+00:00",
    "url": "https://oak.uz/pages/33368",
    "title": "Xudoyqulov Shahzod Shavkatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -3120,20 +3116,25 @@
    "t": "2026-10-19T11:51:12.144840+00:00",
    "url": "https://oak.uz/pages/33376",
    "title": "Qurbonov Shuxrat Bekmetovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T11:55:53.201924+00:00",
+   "url": "https://oak.uz/pages/33378",
+   "title": "Abdimuratova Nazira Kaniyazovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
-  "found_oak": 2,
-  "posted": 2,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T11:51:16.147128+00:00",
+ "last_run": "2026-10-19T11:55:57.204832+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3321,6 +3322,12 @@
    "m": 2182,
    "p": 1,
    "f": 2183,
+   "d": "2026-10-19"
+  },
+  "33378": {
+   "m": 2184,
+   "p": 1,
+   "f": 2185,
    "d": "2026-10-19"
   }
  }
