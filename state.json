@@ -1292,7 +1292,8 @@
   33375,
   33376,
   33378,
-  33379
+  33379,
+  33380
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2484,7 +2485,9 @@
   924257,
   924258,
   924567,
-  924568
+  924568,
+  924571,
+  924572
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3070,22 +3073,13 @@
   "hodjiev azamat|PhD": "2026-10-19",
   "mitanova shahlo|PhD": "2026-10-19",
   "mustafoqulova zarifa|PhD": "2026-10-19",
-  "bazarbaeva nilufar|PhD": "2026-10-19"
+  "bazarbaeva nilufar|PhD": "2026-10-19",
+  "alibekova mahzuna|PhD": "2026-10-19"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-19T11:30:41.217269+00:00",
  "recent": [
-  {
-   "t": "2026-10-19T11:25:49.563405+00:00",
-   "url": "https://oak.uz/pages/33370",
-   "title": "Aytmuratova Gulayxan Uays qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-19T11:33:09.720193+00:00",
-   "url": "https://oak.uz/pages/33371",
-   "title": "Qilichova Nazokat Axmedovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-19T11:33:17.143430+00:00",
    "url": "https://oak.uz/pages/33372",
@@ -3125,6 +3119,16 @@
    "t": "2026-10-19T12:01:17.673957+00:00",
    "url": "https://uza.uz/oz/posts/bazarbaeva-nilufar-anorbaevnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924567",
    "title": "Bazarbayeva Nilufar Anorbayevnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T12:05:54.853717+00:00",
+   "url": "https://oak.uz/pages/33380",
+   "title": "Mamanova Sayyora Faxriddinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T12:06:02.695674+00:00",
+   "url": "https://uza.uz/oz/posts/alibekova-mahzuna-alisher-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924571",
+   "title": "Alibekova Mahzuna Alisher qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -3138,7 +3142,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T12:01:21.678950+00:00",
+ "last_run": "2026-10-19T12:06:06.700576+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3344,6 +3348,18 @@
    "m": 2188,
    "p": 1,
    "f": 2189,
+   "d": "2026-10-19"
+  },
+  "33380": {
+   "m": 2190,
+   "p": 1,
+   "f": 2191,
+   "d": "2026-10-19"
+  },
+  "u924571": {
+   "m": 2192,
+   "p": 1,
+   "f": 2193,
    "d": "2026-10-19"
   }
  }
