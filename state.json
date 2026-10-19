@@ -1319,7 +1319,8 @@
   33403,
   33404,
   33405,
-  33406
+  33406,
+  33407
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2559,7 +2560,9 @@
   924734,
   924735,
   924736,
-  924737
+  924737,
+  924738,
+  924739
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3169,22 +3172,13 @@
   "tulepova gulbahar|PhD": "2026-10-19",
   "hajieva dilfuza|DSc": "2026-10-19",
   "hudoyberganov doniyorbek|DSc": "2026-10-19",
-  "isroilova saida|PhD": "2026-10-19"
+  "isroilova saida|PhD": "2026-10-19",
+  "buranova dildora|PhD": "2026-10-19"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-19T13:30:46.333961+00:00",
  "recent": [
-  {
-   "t": "2026-10-19T13:46:17.538101+00:00",
-   "url": "https://uza.uz/oz/posts/mingaliev-ravshan-olim-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-himoyasi-togrisida_924713",
-   "title": "Mingaliyev Ravshan Olim o‘g‘lining geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-19T13:50:56.472887+00:00",
-   "url": "https://oak.uz/pages/33404",
-   "title": "Jo‘raeva Nodiraxon Qurbonovnaning fanlari doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-19T13:51:04.428827+00:00",
    "url": "https://uza.uz/oz/posts/hursanov-sadriddin-momin-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-himoyasi-togrisida_924715",
@@ -3224,20 +3218,30 @@
    "t": "2026-10-19T14:01:31.379192+00:00",
    "url": "https://uza.uz/oz/posts/isroilova-saida-erkinovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924736",
    "title": "Isroilova Saida Erkinovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T14:05:49.217517+00:00",
+   "url": "https://oak.uz/pages/33407",
+   "title": "G‘ofurova Shaxribonu Komol qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T14:05:56.718785+00:00",
+   "url": "https://uza.uz/oz/posts/buranova-dildora-himmatovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924738",
+   "title": "Buranova Dildora Ximmatovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 7,
+  "found": 3,
   "found_oak": 1,
-  "posted": 4,
-  "dups": 3,
+  "posted": 2,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T14:01:35.384302+00:00",
+ "last_run": "2026-10-19T14:06:00.724553+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3749,6 +3753,18 @@
    "m": 2290,
    "p": 1,
    "f": 2291,
+   "d": "2026-10-19"
+  },
+  "33407": {
+   "m": 2300,
+   "p": 1,
+   "f": 2301,
+   "d": "2026-10-19"
+  },
+  "u924738": {
+   "m": 2302,
+   "p": 1,
+   "f": 2303,
    "d": "2026-10-19"
   }
  }
