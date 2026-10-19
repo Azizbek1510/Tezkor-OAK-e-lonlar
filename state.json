@@ -1318,7 +1318,8 @@
   33402,
   33403,
   33404,
-  33405
+  33405,
+  33406
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2552,7 +2553,13 @@
   924724,
   924725,
   924728,
-  924729
+  924729,
+  924730,
+  924731,
+  924734,
+  924735,
+  924736,
+  924737
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3159,32 +3166,15 @@
   "mingaliev ravshan|PhD": "2026-10-19",
   "hursanov sadriddin|PhD": "2026-10-19",
   "yuldashov sardorbek|PhD": "2026-10-19",
-  "tulepova gulbahar|PhD": "2026-10-19"
+  "tulepova gulbahar|PhD": "2026-10-19",
+  "hajieva dilfuza|DSc": "2026-10-19",
+  "hudoyberganov doniyorbek|DSc": "2026-10-19",
+  "isroilova saida|PhD": "2026-10-19"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-19T13:30:46.333961+00:00",
  "recent": [
-  {
-   "t": "2026-10-19T13:35:49.340398+00:00",
-   "url": "https://oak.uz/pages/33400",
-   "title": "Tashov Mizrob Maxmudovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-19T13:45:55.562421+00:00",
-   "url": "https://oak.uz/pages/33401",
-   "title": "Xudoykulov Ixtiyor Baxtiyorovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-19T13:46:03.248398+00:00",
-   "url": "https://oak.uz/pages/33402",
-   "title": "Umorova Dilnoza Odilbekovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-19T13:46:10.648436+00:00",
-   "url": "https://oak.uz/pages/33403",
-   "title": "Malikova Ug‘iloy Abdurasul qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-19T13:46:17.538101+00:00",
    "url": "https://uza.uz/oz/posts/mingaliev-ravshan-olim-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-himoyasi-togrisida_924713",
@@ -3214,20 +3204,40 @@
    "t": "2026-10-19T13:56:02.892020+00:00",
    "url": "https://uza.uz/oz/posts/tulepova-gulbaxar-askarovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924728",
    "title": "Tulepova Gulbaxar Askarovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T14:01:05.469124+00:00",
+   "url": "https://oak.uz/pages/33406",
+   "title": "Ametova Nurjamal Kudaybergenovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T14:01:13.882110+00:00",
+   "url": "https://uza.uz/oz/posts/hazhieva-dilfuza-adambaevna-filologiya-fanlari-doktori-dsc-dissertaciyasi-ishi-himoyasi-togrisida_924730",
+   "title": "Xajiyeva Dilfuza Adambayevna filologiya fanlari doktori (DSc) dissertatsiyasi ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T14:01:23.759358+00:00",
+   "url": "https://uza.uz/oz/posts/hudoyberganov-doniyorbek-yangiboy-oglining-psixologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_924734",
+   "title": "Xudoyberganov Doniyorbek Yangiboy o‘g‘lining psixologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T14:01:31.379192+00:00",
+   "url": "https://uza.uz/oz/posts/isroilova-saida-erkinovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924736",
+   "title": "Isroilova Saida Erkinovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
+  "found": 7,
   "found_oak": 1,
-  "posted": 3,
-  "dups": 2,
+  "posted": 4,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T13:56:06.897295+00:00",
+ "last_run": "2026-10-19T14:01:35.384302+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3715,6 +3725,30 @@
    "m": 2282,
    "p": 1,
    "f": 2283,
+   "d": "2026-10-19"
+  },
+  "33406": {
+   "m": 2284,
+   "p": 1,
+   "f": 2285,
+   "d": "2026-10-19"
+  },
+  "u924730": {
+   "m": 2286,
+   "p": 1,
+   "f": 2287,
+   "d": "2026-10-19"
+  },
+  "u924734": {
+   "m": 2288,
+   "p": 1,
+   "f": 2289,
+   "d": "2026-10-19"
+  },
+  "u924736": {
+   "m": 2290,
+   "p": 1,
+   "f": 2291,
    "d": "2026-10-19"
   }
  }
