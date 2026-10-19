@@ -1308,7 +1308,9 @@
   33392,
   33393,
   33394,
-  33395
+  33395,
+  33396,
+  33397
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3144,16 +3146,6 @@
  "last_deep": "2026-10-19T12:30:41.938816+00:00",
  "recent": [
   {
-   "t": "2026-10-19T13:01:15.238288+00:00",
-   "url": "https://oak.uz/pages/33390",
-   "title": "Ishniyazov Zoxid Normamatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-19T13:01:25.591360+00:00",
-   "url": "https://uza.uz/oz/posts/abdikarimova-fotima-baxromovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924677",
-   "title": "Abdikarimova Fotima Baxromovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-19T13:01:34.188801+00:00",
    "url": "https://uza.uz/oz/posts/sultanxodzhaeva-gulnoza-shuxratovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924684",
    "title": "Sultanxodjayeva Gulnoza Shuxratovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -3192,6 +3184,16 @@
    "t": "2026-10-19T13:21:06.864465+00:00",
    "url": "https://oak.uz/pages/33395",
    "title": "Ravshanova Umida Baxriddinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T13:25:53.399849+00:00",
+   "url": "https://oak.uz/pages/33396",
+   "title": "Berdaliev Javohir Jahongir o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T13:26:01.824160+00:00",
+   "url": "https://oak.uz/pages/33397",
+   "title": "Eshquvatov Azizjon Zoxid o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -3205,7 +3207,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T13:21:10.866946+00:00",
+ "last_run": "2026-10-19T13:26:05.827775+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3609,6 +3611,18 @@
    "m": 2254,
    "p": 1,
    "f": 2255,
+   "d": "2026-10-19"
+  },
+  "33396": {
+   "m": 2256,
+   "p": 1,
+   "f": 2257,
+   "d": "2026-10-19"
+  },
+  "33397": {
+   "m": 2258,
+   "p": 1,
+   "f": 2259,
    "d": "2026-10-19"
   }
  }
