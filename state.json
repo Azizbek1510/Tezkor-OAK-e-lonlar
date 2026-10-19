@@ -1276,7 +1276,8 @@
   33359,
   33360,
   33361,
-  33362
+  33362,
+  33363
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3058,11 +3059,6 @@
  "last_deep": "2026-10-19T10:30:43.477134+00:00",
  "recent": [
   {
-   "t": "2026-10-19T05:01:23.168794+00:00",
-   "url": "https://uza.uz/oz/posts/erdonova-muxlisa-hoshim-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924229",
-   "title": "Erdonova Muxlisa Xoshim qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-19T05:05:53.886888+00:00",
    "url": "https://uza.uz/oz/posts/yuldasheva-matluba-munavarovnaning-falsafa-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_924231",
    "title": "Yuldasheva Matluba Munavarovnaning falsafa fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -3106,6 +3102,11 @@
    "t": "2026-10-19T10:55:51.545240+00:00",
    "url": "https://oak.uz/pages/33362",
    "title": "Sharafatdinova Raushan Amangeldi qizining dissertatsiya himoyasisiz ixtiro patenti asosida falsafa doktori (PhD) ilmiy darajasini berish bo‘yicha e’lon matni"
+  },
+  {
+   "t": "2026-10-19T11:01:13.581319+00:00",
+   "url": "https://oak.uz/pages/33363",
+   "title": "Xudayqulov Toxir Rashitovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -3119,7 +3120,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T10:55:55.549951+00:00",
+ "last_run": "2026-10-19T11:01:17.583511+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3223,6 +3224,12 @@
    "m": 2154,
    "p": 1,
    "f": 2155,
+   "d": "2026-10-19"
+  },
+  "33363": {
+   "m": 2156,
+   "p": 1,
+   "f": 2157,
    "d": "2026-10-19"
   }
  }
