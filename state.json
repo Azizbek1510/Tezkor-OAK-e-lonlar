@@ -2457,7 +2457,11 @@
   924238,
   924239,
   924240,
-  924241
+  924241,
+  924244,
+  924245,
+  924246,
+  924247
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3038,22 +3042,14 @@
   "yuldasheva matluba|DSc": "2026-10-19",
   "madieva charos|PhD": "2026-10-19",
   "joraev sherali|PhD": "2026-10-19",
-  "buronova holida|PhD": "2026-10-19"
+  "buronova holida|PhD": "2026-10-19",
+  "mehriddinov muhriddin|PhD": "2026-10-19",
+  "hodjiev azamat|PhD": "2026-10-19"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-19T04:30:41.780955+00:00",
  "recent": [
-  {
-   "t": "2026-10-19T04:50:56.290526+00:00",
-   "url": "https://uza.uz/oz/posts/jovliev-sarvar-mustafo-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasisiz-ixtiro-patenti-asosida-taqdimnoma-himoyasi-togrisida_924209",
-   "title": "Jovliyev Sarvar Mustafo o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasisiz ixtiro patenti asosida taqdimnoma himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-19T04:51:04.083189+00:00",
-   "url": "https://uza.uz/oz/posts/adilova-fanuza-shodiyor-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924211",
-   "title": "Adilova Fanuza Shodiyor qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-19T04:51:11.975852+00:00",
    "url": "https://uza.uz/oz/posts/ibroximxonova-gulnozaxon-ibroximxon-qizining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924215",
@@ -3093,6 +3089,16 @@
    "t": "2026-10-19T05:11:11.383824+00:00",
    "url": "https://uza.uz/oz/posts/buronova-holida-toshtemirovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924240",
    "title": "Buronova Xolida Toshtemirovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T05:15:53.379125+00:00",
+   "url": "https://uza.uz/oz/posts/mexriddinov-muxriddin-qahramon-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924244",
+   "title": "Mexriddinov Muxriddin Qahramon o‘g‘lining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-19T05:16:00.454768+00:00",
+   "url": "https://uza.uz/oz/posts/hodzhiev-azamat-baxodirovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924246",
+   "title": "Xodjiyev Azamat Baxodirovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -3106,7 +3112,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T05:11:15.388317+00:00",
+ "last_run": "2026-10-19T05:16:04.459298+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3180,6 +3186,18 @@
    "m": 2144,
    "p": 1,
    "f": 2145,
+   "d": "2026-10-19"
+  },
+  "u924244": {
+   "m": 2146,
+   "p": 1,
+   "f": 2147,
+   "d": "2026-10-19"
+  },
+  "u924246": {
+   "m": 2148,
+   "p": 1,
+   "f": 2149,
    "d": "2026-10-19"
   }
  }
