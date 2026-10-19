@@ -1291,7 +1291,8 @@
   33374,
   33375,
   33376,
-  33378
+  33378,
+  33379
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2481,7 +2482,9 @@
   924248,
   924249,
   924257,
-  924258
+  924258,
+  924567,
+  924568
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3066,22 +3069,13 @@
   "mehriddinov muhriddin|PhD": "2026-10-19",
   "hodjiev azamat|PhD": "2026-10-19",
   "mitanova shahlo|PhD": "2026-10-19",
-  "mustafoqulova zarifa|PhD": "2026-10-19"
+  "mustafoqulova zarifa|PhD": "2026-10-19",
+  "bazarbaeva nilufar|PhD": "2026-10-19"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-19T11:30:41.217269+00:00",
  "recent": [
-  {
-   "t": "2026-10-19T11:16:13.284632+00:00",
-   "url": "https://oak.uz/pages/33368",
-   "title": "Xudoyqulov Shahzod Shavkatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-19T11:21:00.259515+00:00",
-   "url": "https://oak.uz/pages/33369",
-   "title": "Yuldashev Umedjon Kaxramonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-19T11:25:49.563405+00:00",
    "url": "https://oak.uz/pages/33370",
@@ -3121,20 +3115,30 @@
    "t": "2026-10-19T11:55:53.201924+00:00",
    "url": "https://oak.uz/pages/33378",
    "title": "Abdimuratova Nazira Kaniyazovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T12:01:10.540542+00:00",
+   "url": "https://oak.uz/pages/33379",
+   "title": "Mamadjanova Nozima Adxamovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-19T12:01:17.673957+00:00",
+   "url": "https://uza.uz/oz/posts/bazarbaeva-nilufar-anorbaevnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924567",
+   "title": "Bazarbayeva Nilufar Anorbayevnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
+  "found": 3,
   "found_oak": 1,
-  "posted": 1,
-  "dups": 0,
+  "posted": 2,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-19T11:55:57.204832+00:00",
+ "last_run": "2026-10-19T12:01:21.678950+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3328,6 +3332,18 @@
    "m": 2184,
    "p": 1,
    "f": 2185,
+   "d": "2026-10-19"
+  },
+  "33379": {
+   "m": 2186,
+   "p": 1,
+   "f": 2187,
+   "d": "2026-10-19"
+  },
+  "u924567": {
+   "m": 2188,
+   "p": 1,
+   "f": 2189,
    "d": "2026-10-19"
   }
  }
