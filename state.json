@@ -1358,7 +1358,8 @@
   33442,
   33443,
   33444,
-  33445
+  33445,
+  33446
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2700,7 +2701,10 @@
   925260,
   925263,
   925264,
-  925266
+  925266,
+  925267,
+  925270,
+  925271
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3362,22 +3366,13 @@
   "radjabov ramz|PhD": "2026-10-20",
   "safarova feruza|DSc": "2026-10-20",
   "uzoqova feruza|PhD": "2026-10-20",
-  "sadikova nigora|DSc": "2026-10-20"
+  "sadikova nigora|DSc": "2026-10-20",
+  "rahimov jura|DSc": "2026-10-20"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-20T12:30:41.189446+00:00",
  "recent": [
-  {
-   "t": "2026-10-20T12:26:07.494238+00:00",
-   "url": "https://oak.uz/pages/33442",
-   "title": "Dedaboev Jobir Ismoil o‘g‘li falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-20T12:26:15.606263+00:00",
-   "url": "https://uza.uz/oz/posts/gadayev-abror-niyazovichning-texnika-fanlari-doktori-dsc-dissertatsiyasi-ishi-himoyasi-togrisida_925252",
-   "title": "Gadayev Abror Niyazovichning texnika fanlari doktori (DSc) dissertatsiyasi ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-20T12:26:23.686371+00:00",
    "url": "https://uza.uz/oz/posts/halilova-zilola-abdurauf-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925254",
@@ -3417,20 +3412,30 @@
    "t": "2026-10-20T12:34:13.470765+00:00",
    "url": "https://uza.uz/oz/posts/sadikova-nigora-gayratovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_925266",
    "title": "Sadikova Nigora Gayratovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T12:35:56.523378+00:00",
+   "url": "https://oak.uz/pages/33446",
+   "title": "Axmadova Maftuna Amin qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-20T12:36:05.248119+00:00",
+   "url": "https://uza.uz/oz/posts/raximov-jura-suyunovichning-qishloq-xozhaligi-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_925270",
+   "title": "Raximov Jura Suyunovichning qishloq xo‘jaligi fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 10,
-  "found_oak": 3,
-  "posted": 7,
-  "dups": 3,
+  "found": 4,
+  "found_oak": 1,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T12:34:17.474248+00:00",
+ "last_run": "2026-10-20T12:36:09.254165+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4488,6 +4493,18 @@
    "m": 2484,
    "p": 1,
    "f": 2485,
+   "d": "2026-10-20"
+  },
+  "33446": {
+   "m": 2486,
+   "p": 1,
+   "f": 2487,
+   "d": "2026-10-20"
+  },
+  "u925270": {
+   "m": 2488,
+   "p": 1,
+   "f": 2489,
    "d": "2026-10-20"
   }
  }
