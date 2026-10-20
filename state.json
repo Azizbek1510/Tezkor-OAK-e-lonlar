@@ -2612,7 +2612,15 @@
   924916,
   924917,
   924919,
-  924920
+  924920,
+  924921,
+  924922,
+  924923,
+  924924,
+  924925,
+  924926,
+  924928,
+  924929
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3245,32 +3253,16 @@
   "tursunova muzayyam|PhD": "2026-10-20",
   "fayzullaeva iqboloy|PhD": "2026-10-20",
   "salomova zarina|PhD": "2026-10-20",
-  "rozieva mohichehra|DSc": "2026-10-20"
+  "rozieva mohichehra|DSc": "2026-10-20",
+  "hasanova shahnozahon|PhD": "2026-10-20",
+  "yusupova dildora|PhD": "2026-10-20",
+  "baymuratov sharapatdin|PhD": "2026-10-20",
+  "ibodova dilsora|PhD": "2026-10-20"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-20T04:30:40.317913+00:00",
  "recent": [
-  {
-   "t": "2026-10-20T04:56:02.357517+00:00",
-   "url": "https://uza.uz/oz/posts/maratov-nursultan-kayrat-ulining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924900",
-   "title": "Maratov Nursultan Kayrat ulining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T04:56:10.581801+00:00",
-   "url": "https://uza.uz/oz/posts/akramov-adahamzhon-abarzhon-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924902",
-   "title": "Akramov Adahamjon Abarjon o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T05:01:13.717085+00:00",
-   "url": "https://uza.uz/oz/posts/amirzhanova-dildora-zarifboy-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924904",
-   "title": "Amirjanova Dildora Zarifboy qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T05:01:21.198587+00:00",
-   "url": "https://uza.uz/oz/posts/kurbanov-gayrat-imamalievichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924906",
-   "title": "Kurbanov G‘ayrat Imamaliyevichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-20T05:05:47.298500+00:00",
    "url": "https://uza.uz/oz/posts/ramazanova-zarina-faritovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924908",
@@ -3300,20 +3292,40 @@
    "t": "2026-10-20T05:11:10.630715+00:00",
    "url": "https://uza.uz/oz/posts/rozieva-mohichehra-yoqubovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_924919",
    "title": "Ro‘ziyeva Mohichehra Yoqubovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:15:51.397497+00:00",
+   "url": "https://uza.uz/oz/posts/hasanova-shahnozaxon-boxodirzhon-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924921",
+   "title": "Xasanova Shahnozaxon Boxodirjon qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:15:57.895417+00:00",
+   "url": "https://uza.uz/oz/posts/yusupova-dildora-uktamovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924923",
+   "title": "Yusupova Dildora Uktamovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:16:04.643112+00:00",
+   "url": "https://uza.uz/oz/posts/baymuratov-sharapatdin-jetkerbaevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924925",
+   "title": "Baymuratov Sharapatdin Jetkerbayevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:16:12.091228+00:00",
+   "url": "https://uza.uz/oz/posts/ibodova-dilsora-ibodovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924928",
+   "title": "Ibodova Dilsora Ibodovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 8,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 4,
+  "dups": 4,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T05:11:14.638814+00:00",
+ "last_run": "2026-10-20T05:16:16.097024+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4005,6 +4017,30 @@
    "m": 2358,
    "p": 1,
    "f": 2359,
+   "d": "2026-10-20"
+  },
+  "u924921": {
+   "m": 2360,
+   "p": 1,
+   "f": 2361,
+   "d": "2026-10-20"
+  },
+  "u924923": {
+   "m": 2362,
+   "p": 1,
+   "f": 2363,
+   "d": "2026-10-20"
+  },
+  "u924925": {
+   "m": 2364,
+   "p": 1,
+   "f": 2365,
+   "d": "2026-10-20"
+  },
+  "u924928": {
+   "m": 2366,
+   "p": 1,
+   "f": 2367,
    "d": "2026-10-20"
   }
  }
