@@ -1353,7 +1353,9 @@
   33437,
   33438,
   33439,
-  33440
+  33440,
+  33441,
+  33442
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2685,7 +2687,10 @@
   925241,
   925242,
   925246,
-  925247
+  925247,
+  925252,
+  925254,
+  925255
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3341,32 +3346,14 @@
   "madumarov farruhbek|PhD": "2026-10-20",
   "toshnazarov ibrohim|PhD": "2026-10-20",
   "mahammadjanov golibjon|DSc": "2026-10-20",
-  "abulkasimova yulduzhon|PhD": "2026-10-20"
+  "abulkasimova yulduzhon|PhD": "2026-10-20",
+  "gadaev abror|DSc": "2026-10-20",
+  "halilova zilola|PhD": "2026-10-20"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-20T11:30:43.529034+00:00",
  "recent": [
-  {
-   "t": "2026-10-20T12:01:13.706580+00:00",
-   "url": "https://oak.uz/pages/33434",
-   "title": "Ismatillaev Navro‘zbek Abdujabbor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-20T12:05:52.936016+00:00",
-   "url": "https://oak.uz/pages/33435",
-   "title": "Saidov Jahongir Egamberdievichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-20T12:10:52.328313+00:00",
-   "url": "https://oak.uz/pages/33436",
-   "title": "Shadmanova Barno Zayliddinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-20T12:11:00.106138+00:00",
-   "url": "https://oak.uz/pages/33437",
-   "title": "Zokirova Nigoraxon Rustamovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-20T12:11:07.191991+00:00",
    "url": "https://uza.uz/oz/posts/toshnazarov-ibrohim-ergash-oglining-siyosiy-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925239",
@@ -3396,20 +3383,40 @@
    "t": "2026-10-20T12:21:09.171623+00:00",
    "url": "https://uza.uz/oz/posts/abulkasimova-yulduzxon-sunnatillaevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925246",
    "title": "Abulkasimova Yulduzxon Sunnatillayevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T12:25:59.131155+00:00",
+   "url": "https://oak.uz/pages/33441",
+   "title": "Kalonova Muxabbatxon Oqilxon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-20T12:26:07.494238+00:00",
+   "url": "https://oak.uz/pages/33442",
+   "title": "Dedaboev Jobir Ismoil o‘g‘li falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-20T12:26:15.606263+00:00",
+   "url": "https://uza.uz/oz/posts/gadayev-abror-niyazovichning-texnika-fanlari-doktori-dsc-dissertatsiyasi-ishi-himoyasi-togrisida_925252",
+   "title": "Gadayev Abror Niyazovichning texnika fanlari doktori (DSc) dissertatsiyasi ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T12:26:23.686371+00:00",
+   "url": "https://uza.uz/oz/posts/halilova-zilola-abdurauf-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925254",
+   "title": "Xalilova Zilola Abdurauf qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
-  "found_oak": 1,
-  "posted": 2,
+  "found": 5,
+  "found_oak": 2,
+  "posted": 4,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T12:21:13.179194+00:00",
+ "last_run": "2026-10-20T12:26:27.692457+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4401,6 +4408,30 @@
    "m": 2462,
    "p": 1,
    "f": 2463,
+   "d": "2026-10-20"
+  },
+  "33441": {
+   "m": 2464,
+   "p": 1,
+   "f": 2465,
+   "d": "2026-10-20"
+  },
+  "33442": {
+   "m": 2466,
+   "p": 1,
+   "f": 2467,
+   "d": "2026-10-20"
+  },
+  "u925252": {
+   "m": 2468,
+   "p": 1,
+   "f": 2469,
+   "d": "2026-10-20"
+  },
+  "u925254": {
+   "m": 2470,
+   "p": 1,
+   "f": 2471,
    "d": "2026-10-20"
   }
  }
