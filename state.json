@@ -2620,7 +2620,16 @@
   924925,
   924926,
   924928,
-  924929
+  924929,
+  924933,
+  924934,
+  924935,
+  924936,
+  924937,
+  924938,
+  924939,
+  924940,
+  924943
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3257,37 +3266,17 @@
   "hasanova shahnozahon|PhD": "2026-10-20",
   "yusupova dildora|PhD": "2026-10-20",
   "baymuratov sharapatdin|PhD": "2026-10-20",
-  "ibodova dilsora|PhD": "2026-10-20"
+  "ibodova dilsora|PhD": "2026-10-20",
+  "ahmatov abutolibhon|PhD": "2026-10-20",
+  "ergashev olim|PhD": "2026-10-20",
+  "bozorov samar|PhD": "2026-10-20",
+  "toraeva nargiza|PhD": "2026-10-20",
+  "egamov umidjon|PhD": "2026-10-20"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-10-20T04:30:40.317913+00:00",
+ "last_deep": "2026-10-20T05:30:44.929893+00:00",
  "recent": [
-  {
-   "t": "2026-10-20T05:05:47.298500+00:00",
-   "url": "https://uza.uz/oz/posts/ramazanova-zarina-faritovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924908",
-   "title": "Ramazanova Zarina Faritovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T05:05:54.571105+00:00",
-   "url": "https://uza.uz/oz/posts/qaraxonova-sarvinoz-alisherovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_924910",
-   "title": "Qaraxonova Sarvinoz Alisherovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T05:06:01.396324+00:00",
-   "url": "https://uza.uz/oz/posts/tursunova-muzayyam-olimovna-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924912",
-   "title": "Tursunova Muzayyam Olimovna tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T05:10:54.380876+00:00",
-   "url": "https://uza.uz/oz/posts/fayzullaeva-iqboloy-gayrat-qizining-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924914",
-   "title": "Fayzullayeva Iqboloy G‘ayrat qizining falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T05:11:01.931435+00:00",
-   "url": "https://uza.uz/oz/posts/salomova-zarina-murodovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924916",
-   "title": "Salomova Zarina Murodovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-20T05:11:10.630715+00:00",
    "url": "https://uza.uz/oz/posts/rozieva-mohichehra-yoqubovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_924919",
@@ -3312,20 +3301,45 @@
    "t": "2026-10-20T05:16:12.091228+00:00",
    "url": "https://uza.uz/oz/posts/ibodova-dilsora-ibodovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924928",
    "title": "Ibodova Dilsora Ibodovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:33:26.023977+00:00",
+   "url": "https://uza.uz/oz/posts/axmatov-abutolibxon-ochilxon-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924933",
+   "title": "Axmatov Abutolibxon Ochilxon o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:33:35.041176+00:00",
+   "url": "https://uza.uz/oz/posts/ergashev-olim-raxmatullaevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924935",
+   "title": "Ergashev Olim Raxmatullayevichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:33:43.856175+00:00",
+   "url": "https://uza.uz/oz/posts/bozorov-samar-safarovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924937",
+   "title": "Bozorov Samar Safarovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:33:51.713998+00:00",
+   "url": "https://uza.uz/oz/posts/toraeva-nargiza-rustamovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924939",
+   "title": "To‘rayeva Nargiza Rustamovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:34:00.369630+00:00",
+   "url": "https://uza.uz/oz/posts/egamov-umidzhon-shavkatovichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924943",
+   "title": "Egamov Umidjon Shavkatovichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 9,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 5,
+  "dups": 4,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T05:25:44.077806+00:00",
+ "last_run": "2026-10-20T05:34:04.372892+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4041,6 +4055,36 @@
    "m": 2366,
    "p": 1,
    "f": 2367,
+   "d": "2026-10-20"
+  },
+  "u924933": {
+   "m": 2368,
+   "p": 1,
+   "f": 2369,
+   "d": "2026-10-20"
+  },
+  "u924935": {
+   "m": 2370,
+   "p": 1,
+   "f": 2371,
+   "d": "2026-10-20"
+  },
+  "u924937": {
+   "m": 2372,
+   "p": 1,
+   "f": 2373,
+   "d": "2026-10-20"
+  },
+  "u924939": {
+   "m": 2374,
+   "p": 1,
+   "f": 2375,
+   "d": "2026-10-20"
+  },
+  "u924943": {
+   "m": 2376,
+   "p": 1,
+   "f": 2377,
    "d": "2026-10-20"
   }
  }
