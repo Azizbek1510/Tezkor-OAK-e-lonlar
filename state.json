@@ -1386,7 +1386,9 @@
   33470,
   33471,
   33472,
-  33473
+  33473,
+  33474,
+  33475
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3419,16 +3421,6 @@
  "last_deep": "2026-10-20T13:30:45.564326+00:00",
  "recent": [
   {
-   "t": "2026-10-20T13:35:49.257438+00:00",
-   "url": "https://oak.uz/pages/33464",
-   "title": "Yusufjonov Ravshanbek Rustamjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-20T13:35:57.084426+00:00",
-   "url": "https://oak.uz/pages/33465",
-   "title": "Xalikulova Shirin Utkir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-20T13:40:53.091060+00:00",
    "url": "https://oak.uz/pages/33466",
    "title": "Shokirov Murod Rustamovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
@@ -3467,20 +3459,30 @@
    "t": "2026-10-20T13:51:11.599107+00:00",
    "url": "https://oak.uz/pages/33473",
    "title": "Rasulov Faxriddin Faxmuddinovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-20T13:55:46.688384+00:00",
+   "url": "https://oak.uz/pages/33474",
+   "title": "Daminova Durdona Djambulovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-20T13:55:53.981019+00:00",
+   "url": "https://oak.uz/pages/33475",
+   "title": "Shamsiev Anvar Akbarovichning dissertatsiya himoyasisiz seleksiya yutug‘i (ixtiro patenti) asosida fan doktori (DSc) ilmiy darajasini berish bo‘yicha e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
-  "found_oak": 3,
-  "posted": 3,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T13:51:15.602597+00:00",
+ "last_run": "2026-10-20T13:55:57.983592+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4748,6 +4750,18 @@
    "m": 2554,
    "p": 1,
    "f": 2555,
+   "d": "2026-10-20"
+  },
+  "33474": {
+   "m": 2556,
+   "p": 1,
+   "f": 2557,
+   "d": "2026-10-20"
+  },
+  "33475": {
+   "m": 2558,
+   "p": 1,
+   "f": 2559,
    "d": "2026-10-20"
   }
  }
