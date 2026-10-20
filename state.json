@@ -2600,7 +2600,13 @@
   924904,
   924905,
   924906,
-  924907
+  924907,
+  924908,
+  924909,
+  924910,
+  924911,
+  924912,
+  924913
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3227,27 +3233,15 @@
   "maratov nursultan|PhD": "2026-10-20",
   "akramov adahamjon|PhD": "2026-10-20",
   "amirjanova dildora|PhD": "2026-10-20",
-  "kurbanov gayrat|PhD": "2026-10-20"
+  "kurbanov gayrat|PhD": "2026-10-20",
+  "ramazanova zarina|PhD": "2026-10-20",
+  "qarahonova sarvinoz|DSc": "2026-10-20",
+  "tursunova muzayyam|PhD": "2026-10-20"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-20T04:30:40.317913+00:00",
  "recent": [
-  {
-   "t": "2026-10-20T04:33:14.885537+00:00",
-   "url": "https://uza.uz/oz/posts/reimkulova-hurzada-hapuzatdinovnaning-yuridik-fanlar-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924875",
-   "title": "Reimkulova Xurzada Xapuzatdinovnaning yuridik fanlar falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T04:40:52.572717+00:00",
-   "url": "https://uza.uz/oz/posts/kidirbaeva-altinay-maxsetbaevnaning-yuridik-fanlar-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924881",
-   "title": "Ki’di’rbayeva Alti’nay Maxsetbayevnaning yuridik fanlar falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T04:40:59.680382+00:00",
-   "url": "https://uza.uz/oz/posts/musurmonova-mahbuba-omonovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924887",
-   "title": "Musurmonova Mahbuba Omonovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-20T04:45:53.522688+00:00",
    "url": "https://uza.uz/oz/posts/utaganov-samad-bobomurod-oglining-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924890",
@@ -3282,20 +3276,35 @@
    "t": "2026-10-20T05:01:21.198587+00:00",
    "url": "https://uza.uz/oz/posts/kurbanov-gayrat-imamalievichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924906",
    "title": "Kurbanov G‘ayrat Imamaliyevichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:05:47.298500+00:00",
+   "url": "https://uza.uz/oz/posts/ramazanova-zarina-faritovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924908",
+   "title": "Ramazanova Zarina Faritovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:05:54.571105+00:00",
+   "url": "https://uza.uz/oz/posts/qaraxonova-sarvinoz-alisherovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_924910",
+   "title": "Qaraxonova Sarvinoz Alisherovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T05:06:01.396324+00:00",
+   "url": "https://uza.uz/oz/posts/tursunova-muzayyam-olimovna-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_924912",
+   "title": "Tursunova Muzayyam Olimovna tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T05:01:25.203673+00:00",
+ "last_run": "2026-10-20T05:06:05.402105+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -3951,6 +3960,24 @@
    "m": 2346,
    "p": 1,
    "f": 2347,
+   "d": "2026-10-20"
+  },
+  "u924908": {
+   "m": 2348,
+   "p": 1,
+   "f": 2349,
+   "d": "2026-10-20"
+  },
+  "u924910": {
+   "m": 2350,
+   "p": 1,
+   "f": 2351,
+   "d": "2026-10-20"
+  },
+  "u924912": {
+   "m": 2352,
+   "p": 1,
+   "f": 2353,
    "d": "2026-10-20"
   }
  }
