@@ -1362,7 +1362,8 @@
   33446,
   33447,
   33448,
-  33449
+  33449,
+  33450
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2711,7 +2712,11 @@
   925273,
   925274,
   925282,
-  925283
+  925283,
+  925284,
+  925285,
+  925286,
+  925287
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3376,27 +3381,14 @@
   "sadikova nigora|DSc": "2026-10-20",
   "rahimov jura|DSc": "2026-10-20",
   "salomov narzulla|PhD": "2026-10-20",
-  "avezova aziza|PhD": "2026-10-20"
+  "avezova aziza|PhD": "2026-10-20",
+  "hujaev otabek|DSc": "2026-10-20",
+  "gayratova rano|PhD": "2026-10-20"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-20T12:30:41.189446+00:00",
  "recent": [
-  {
-   "t": "2026-10-20T12:33:42.917501+00:00",
-   "url": "https://uza.uz/oz/posts/safarova-feruza-ergashevnaning-biologiya-fanlari-doktori-dsc-dissertaciyasi-ishi-himoyasi-togrisida_925259",
-   "title": "Safarova Feruza Ergashevnaning biologiya fanlari doktori (DSc) dissertatsiyasi ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T12:33:50.540201+00:00",
-   "url": "https://uza.uz/oz/posts/uzoqova-feruza-baraka-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925263",
-   "title": "Uzoqova Feruza Baraka qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-20T12:34:13.470765+00:00",
-   "url": "https://uza.uz/oz/posts/sadikova-nigora-gayratovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_925266",
-   "title": "Sadikova Nigora Gayratovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-20T12:35:56.523378+00:00",
    "url": "https://oak.uz/pages/33446",
@@ -3431,20 +3423,35 @@
    "t": "2026-10-20T12:46:00.153128+00:00",
    "url": "https://uza.uz/oz/posts/avezova-aziza-mavlonzhonovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925282",
    "title": "Avezova Aziza Mavlonjonovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T12:50:59.621760+00:00",
+   "url": "https://oak.uz/pages/33450",
+   "title": "Xayitova Feruza Baxrom qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-20T12:51:09.672349+00:00",
+   "url": "https://uza.uz/oz/posts/huzhaev-otabek-temirovichning-qishloq-xozhaligi-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_925284",
+   "title": "Xujayev Otabek Temirovichning qishloq xo‘jaligi fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T12:51:17.236449+00:00",
+   "url": "https://uza.uz/oz/posts/gayratova-rano-gayrat-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_925286",
+   "title": "G‘ayratova Ra’no G‘ayrat qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
+  "found": 5,
   "found_oak": 1,
-  "posted": 2,
-  "dups": 1,
+  "posted": 3,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T12:46:04.157304+00:00",
+ "last_run": "2026-10-20T12:51:21.243482+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4544,6 +4551,24 @@
    "m": 2498,
    "p": 1,
    "f": 2499,
+   "d": "2026-10-20"
+  },
+  "33450": {
+   "m": 2500,
+   "p": 1,
+   "f": 2501,
+   "d": "2026-10-20"
+  },
+  "u925284": {
+   "m": 2502,
+   "p": 1,
+   "f": 2503,
+   "d": "2026-10-20"
+  },
+  "u925286": {
+   "m": 2504,
+   "p": 1,
+   "f": 2505,
    "d": "2026-10-20"
   }
  }
