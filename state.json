@@ -2644,7 +2644,13 @@
   924947,
   924948,
   925147,
-  925148
+  925148,
+  925153,
+  925154,
+  925157,
+  925158,
+  925159,
+  925160
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3288,27 +3294,15 @@
   "toraeva nargiza|PhD": "2026-10-20",
   "egamov umidjon|PhD": "2026-10-20",
   "asrankulova saida|PhD": "2026-10-20",
-  "abdirasulov muslimbek|PhD": "2026-10-20"
+  "abdirasulov muslimbek|PhD": "2026-10-20",
+  "kurbonov jalolhon|PhD": "2026-10-20",
+  "abduqodirova ziroathon|PhD": "2026-10-20",
+  "halimov ravshan|DSc": "2026-10-20"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-10-20T09:30:42.969120+00:00",
+ "last_deep": "2026-10-20T10:30:43.850004+00:00",
  "recent": [
-  {
-   "t": "2026-10-20T09:45:53.987532+00:00",
-   "url": "https://oak.uz/pages/33415",
-   "title": "Karjavova Xurshida Abdumalikovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-20T09:51:01.913434+00:00",
-   "url": "https://oak.uz/pages/33416",
-   "title": "Faramarzi Fayzulloning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-20T09:51:10.612083+00:00",
-   "url": "https://oak.uz/pages/33417",
-   "title": "Axmatov Abutolibxon Ochilxon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-20T09:55:50.067037+00:00",
    "url": "https://oak.uz/pages/33418",
@@ -3343,20 +3337,35 @@
    "t": "2026-10-20T10:25:47.622532+00:00",
    "url": "https://uza.uz/oz/posts/abdirasulov-muslimbek-husnidinovichning-siyosiy-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925147",
    "title": "Abdirasulov Muslimbek Husnidinovichning siyosiy fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T10:33:22.102698+00:00",
+   "url": "https://uza.uz/oz/posts/kurbonov-jalolxon-baxromovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_925153",
+   "title": "Kurbonov Jalolxon Baxromovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T10:33:30.424548+00:00",
+   "url": "https://uza.uz/oz/posts/abduqodirova-ziroatxon-solidzhonovnaning-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925157",
+   "title": "Abduqodirova Ziroatxon Solidjonovnaning biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-20T10:33:38.867550+00:00",
+   "url": "https://uza.uz/oz/posts/halimov-ravshan-dzhurabaevichning-tibbiyot-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_925159",
+   "title": "Xalimov Ravshan Djurabayevichning tibbiyot fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 6,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T10:25:51.625939+00:00",
+ "last_run": "2026-10-20T10:33:42.871312+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4174,6 +4183,24 @@
    "m": 2400,
    "p": 1,
    "f": 2401,
+   "d": "2026-10-20"
+  },
+  "u925153": {
+   "m": 2402,
+   "p": 1,
+   "f": 2403,
+   "d": "2026-10-20"
+  },
+  "u925157": {
+   "m": 2404,
+   "p": 1,
+   "f": 2405,
+   "d": "2026-10-20"
+  },
+  "u925159": {
+   "m": 2406,
+   "p": 1,
+   "f": 2407,
    "d": "2026-10-20"
   }
  }
