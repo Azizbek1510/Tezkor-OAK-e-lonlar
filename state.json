@@ -1347,7 +1347,8 @@
   33431,
   33432,
   33433,
-  33434
+  33434,
+  33435
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3333,11 +3334,6 @@
  "last_deep": "2026-10-20T11:30:43.529034+00:00",
  "recent": [
   {
-   "t": "2026-10-20T11:20:52.535075+00:00",
-   "url": "https://oak.uz/pages/33425",
-   "title": "Shomurodov Akmal Yangiboy o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-20T11:35:52.337035+00:00",
    "url": "https://oak.uz/pages/33426",
    "title": "Cho‘liev Tohirjon Abdulloevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -3381,6 +3377,11 @@
    "t": "2026-10-20T12:01:13.706580+00:00",
    "url": "https://oak.uz/pages/33434",
    "title": "Ismatillaev Navro‘zbek Abdujabbor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-20T12:05:52.936016+00:00",
+   "url": "https://oak.uz/pages/33435",
+   "title": "Saidov Jahongir Egamberdievichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -3394,7 +3395,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-20T12:01:17.709460+00:00",
+ "last_run": "2026-10-20T12:05:56.938611+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4332,6 +4333,12 @@
    "m": 2440,
    "p": 1,
    "f": 2441,
+   "d": "2026-10-20"
+  },
+  "33435": {
+   "m": 2442,
+   "p": 1,
+   "f": 2443,
    "d": "2026-10-20"
   }
  }
