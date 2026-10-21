@@ -1430,7 +1430,9 @@
   33514,
   33515,
   33516,
-  33517
+  33517,
+  33518,
+  33519
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3544,16 +3546,6 @@
  "last_deep": "2026-10-21T09:05:32.367541+00:00",
  "recent": [
   {
-   "t": "2026-10-21T08:40:54.313956+00:00",
-   "url": "https://oak.uz/pages/33508",
-   "title": "Nasirov Bunyod Uralovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-21T08:45:53.780709+00:00",
-   "url": "https://oak.uz/pages/33509",
-   "title": "Nurimova Nilufar Jo‘raevna falsafa doktori (PhD) Dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-21T08:51:01.282093+00:00",
    "url": "https://oak.uz/pages/33510",
    "title": "Erkaboev Jaloliddin Erkaboy o‘g‘li falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -3592,6 +3584,16 @@
    "t": "2026-10-21T09:25:54.517304+00:00",
    "url": "https://oak.uz/pages/33517",
    "title": "Mardonov Ixtiyorjon Bahodir o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-21T09:31:09.148744+00:00",
+   "url": "https://oak.uz/pages/33518",
+   "title": "Raxmonov Azizbek Asqarali o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-21T09:31:17.224403+00:00",
+   "url": "https://oak.uz/pages/33519",
+   "title": "Shamaev Yigitali Jumaevich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -3605,7 +3607,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T09:25:58.521586+00:00",
+ "last_run": "2026-10-21T09:31:21.227634+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5299,6 +5301,18 @@
    "m": 2696,
    "p": 1,
    "f": 2697,
+   "d": "2026-10-21"
+  },
+  "33518": {
+   "m": 2698,
+   "p": 1,
+   "f": 2699,
+   "d": "2026-10-21"
+  },
+  "33519": {
+   "m": 2700,
+   "p": 1,
+   "f": 2701,
    "d": "2026-10-21"
   }
  }
