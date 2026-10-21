@@ -2920,7 +2920,8 @@
   925989,
   925990,
   925991,
-  925994
+  925994,
+  925995
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3696,15 +3697,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
+  "found": 1,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 2,
+  "posted": 0,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T13:04:08.528913+00:00",
+ "last_run": "2026-10-21T13:05:49.442880+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
