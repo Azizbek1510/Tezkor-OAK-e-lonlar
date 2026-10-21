@@ -2945,7 +2945,9 @@
   926030,
   926031,
   926032,
-  926033
+  926033,
+  926037,
+  926038
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3669,17 +3671,13 @@
   "karimova dilafroz|DSc": "2026-10-21",
   "holmirzaev bahtiyor|DSc": "2026-10-21",
   "yahshiev sherali|PhD": "2026-10-21",
-  "mavlanova nasiba|PhD": "2026-10-21"
+  "mavlanova nasiba|PhD": "2026-10-21",
+  "jabbarova iqbol|DSc": "2026-10-21"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-21T14:00:50.636366+00:00",
  "recent": [
-  {
-   "t": "2026-10-21T13:21:10.971768+00:00",
-   "url": "https://oak.uz/pages/33560",
-   "title": "Xakimov Ismatulla Sa’dulla o‘g‘lining falsafa doktori (PhD) Dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-21T13:21:18.464453+00:00",
    "url": "https://uza.uz/oz/posts/obilov-muzaffar-odilzhon-oglining-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926004",
@@ -3724,20 +3722,25 @@
    "t": "2026-10-21T14:03:54.418252+00:00",
    "url": "https://uza.uz/oz/posts/mavlanova-nasiba-axmedovnaning-pedagogika-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926032",
    "title": "Mavlanova Nasiba Axmedovnaning pedagogika pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T14:05:53.804727+00:00",
+   "url": "https://uza.uz/oz/posts/jabbarova-iqbol-hozhamuratovnaning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926037",
+   "title": "Jabbarova Iqbol Xo‘jamuratovnaning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 2,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T14:03:58.426116+00:00",
+ "last_run": "2026-10-21T14:05:57.812618+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5875,6 +5878,12 @@
    "m": 2844,
    "p": 1,
    "f": 2845,
+   "d": "2026-10-21"
+  },
+  "u926037": {
+   "m": 2846,
+   "p": 1,
+   "f": 2847,
    "d": "2026-10-21"
   }
  }
