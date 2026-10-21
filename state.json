@@ -1403,7 +1403,9 @@
   33487,
   33488,
   33489,
-  33490
+  33490,
+  33491,
+  33492
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3517,16 +3519,6 @@
  "last_deep": "2026-10-21T07:10:35.154226+00:00",
  "recent": [
   {
-   "t": "2026-10-21T05:25:56.328820+00:00",
-   "url": "https://uza.uz/oz/posts/ayakulov-ulugbek-abdugaffor-oglining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925479",
-   "title": "Ayakulov Ulug‘bek Abdug‘affor o‘g‘lining psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-21T05:31:05.157878+00:00",
-   "url": "https://uza.uz/oz/posts/raximov-gulomzhon-davronbekovichning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925481",
-   "title": "Raximov G‘ulomjon Davronbekovichning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-21T07:01:13.057042+00:00",
    "url": "https://oak.uz/pages/33486",
    "title": "Rasulova Iroda Abduxoliqovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -3565,6 +3557,16 @@
    "t": "2026-10-21T07:31:12.871653+00:00",
    "url": "https://oak.uz/pages/33490",
    "title": "Xujakulova Maryam Xakimjonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-21T07:35:55.316243+00:00",
+   "url": "https://oak.uz/pages/33491",
+   "title": "Shirinova Muborak Maxmudovnaning falsafa doktori (PhD) dissertatsiyasining himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-21T07:36:03.938118+00:00",
+   "url": "https://oak.uz/pages/33492",
+   "title": "Xamidova Dilorom Olimjonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -3578,7 +3580,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T07:31:16.874199+00:00",
+ "last_run": "2026-10-21T07:36:07.942012+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5110,6 +5112,18 @@
    "m": 2642,
    "p": 1,
    "f": 2643,
+   "d": "2026-10-21"
+  },
+  "33491": {
+   "m": 2644,
+   "p": 1,
+   "f": 2645,
+   "d": "2026-10-21"
+  },
+  "33492": {
+   "m": 2646,
+   "p": 1,
+   "f": 2647,
    "d": "2026-10-21"
   }
  }
