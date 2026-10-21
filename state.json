@@ -1411,7 +1411,8 @@
   33495,
   33496,
   33497,
-  33498
+  33498,
+  33499
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3525,11 +3526,6 @@
  "last_deep": "2026-10-21T07:10:35.154226+00:00",
  "recent": [
   {
-   "t": "2026-10-21T07:31:05.447145+00:00",
-   "url": "https://oak.uz/pages/33489",
-   "title": "Fazilov Djamoliddin Kamolitdinovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-21T07:31:12.871653+00:00",
    "url": "https://oak.uz/pages/33490",
    "title": "Xujakulova Maryam Xakimjonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -3573,6 +3569,11 @@
    "t": "2026-10-21T08:01:11.914772+00:00",
    "url": "https://oak.uz/pages/33498",
    "title": "Alimdjanov Baxtiyor Abdixakimovichning tarix fanlari doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-21T08:05:47.845043+00:00",
+   "url": "https://oak.uz/pages/33499",
+   "title": "Kudiyarova Venera Kadirbaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -3586,7 +3587,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T08:01:15.918712+00:00",
+ "last_run": "2026-10-21T08:05:51.848893+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5166,6 +5167,12 @@
    "m": 2658,
    "p": 1,
    "f": 2659,
+   "d": "2026-10-21"
+  },
+  "33499": {
+   "m": 2660,
+   "p": 1,
+   "f": 2661,
    "d": "2026-10-21"
   }
  }
