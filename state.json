@@ -1435,7 +1435,9 @@
   33519,
   33520,
   33521,
-  33522
+  33522,
+  33523,
+  33524
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3552,16 +3554,6 @@
  "last_deep": "2026-10-21T09:05:32.367541+00:00",
  "recent": [
   {
-   "t": "2026-10-21T09:15:55.724311+00:00",
-   "url": "https://oak.uz/pages/33514",
-   "title": "Mirzaev Bekmurodjon Dilmurod o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-21T09:20:53.455182+00:00",
-   "url": "https://oak.uz/pages/33515",
-   "title": "Suxanov Viktor Alekseevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-21T09:25:47.303337+00:00",
    "url": "https://oak.uz/pages/33516",
    "title": "Butayarov Abduqodir Tuxtaevichning fan doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -3600,20 +3592,30 @@
    "t": "2026-10-21T09:45:56.047153+00:00",
    "url": "https://uza.uz/oz/posts/norov-murodzhon-maxmudovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925786",
    "title": "Norov Murodjon Maxmudovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T09:50:55.326090+00:00",
+   "url": "https://oak.uz/pages/33523",
+   "title": "Karimova Mastura Ablaxat qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-21T09:51:02.586979+00:00",
+   "url": "https://oak.uz/pages/33524",
+   "title": "Nuritdinov Abrorjon Ahrorjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
   "found": 2,
-  "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "found_oak": 2,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T09:46:00.051623+00:00",
+ "last_run": "2026-10-21T09:51:06.590791+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5343,6 +5345,18 @@
    "m": 2708,
    "p": 1,
    "f": 2709,
+   "d": "2026-10-21"
+  },
+  "33523": {
+   "m": 2710,
+   "p": 1,
+   "f": 2711,
+   "d": "2026-10-21"
+  },
+  "33524": {
+   "m": 2712,
+   "p": 1,
+   "f": 2713,
    "d": "2026-10-21"
   }
  }
