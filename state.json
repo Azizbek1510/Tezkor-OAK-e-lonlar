@@ -2899,7 +2899,11 @@
   925946,
   925947,
   925949,
-  925950
+  925950,
+  925951,
+  925952,
+  925953,
+  925954
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3604,22 +3608,14 @@
   "holisova gavharoy|PhD": "2026-10-21",
   "odilova gozalhon|PhD": "2026-10-21",
   "ishmuradov shuhrat|DSc": "2026-10-21",
-  "muhamedov tolqinjon|PhD": "2026-10-21"
+  "muhamedov tolqinjon|PhD": "2026-10-21",
+  "ahmatov abdulla|PhD": "2026-10-21",
+  "azimova dildora|PhD": "2026-10-21"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-21T12:00:52.922304+00:00",
  "recent": [
-  {
-   "t": "2026-10-21T12:03:38.310937+00:00",
-   "url": "https://oak.uz/pages/33555",
-   "title": "Bobokulov Nurillo Asatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-21T12:03:45.670181+00:00",
-   "url": "https://oak.uz/pages/33556",
-   "title": "Allaberdiev Nemat Abdushukurovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-21T12:15:52.283868+00:00",
    "url": "https://uza.uz/oz/posts/kesimov-davron-bobomurodovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925922",
@@ -3659,20 +3655,30 @@
    "t": "2026-10-21T12:26:13.363138+00:00",
    "url": "https://uza.uz/oz/posts/muxamedov-tolqinzhon-dzhuraevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925946",
    "title": "Muxamedov To‘lqinjon Djurayevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T12:31:10.654252+00:00",
+   "url": "https://uza.uz/oz/posts/axmatov-abdulla-akbar-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925951",
+   "title": "Axmatov Abdulla Akbar o‘g‘lining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T12:31:17.963719+00:00",
+   "url": "https://uza.uz/oz/posts/azimova-dildora-abbos-qizining-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925953",
+   "title": "Azimova Dildora Abbos qizining qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 4,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 5,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T12:26:17.377834+00:00",
+ "last_run": "2026-10-21T12:31:21.971447+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5648,6 +5654,18 @@
    "m": 2790,
    "p": 1,
    "f": 2791,
+   "d": "2026-10-21"
+  },
+  "u925951": {
+   "m": 2792,
+   "p": 1,
+   "f": 2793,
+   "d": "2026-10-21"
+  },
+  "u925953": {
+   "m": 2794,
+   "p": 1,
+   "f": 2795,
    "d": "2026-10-21"
   }
  }
