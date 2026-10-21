@@ -2775,7 +2775,13 @@
   925417,
   925418,
   925419,
-  925420
+  925420,
+  925422,
+  925423,
+  925425,
+  925426,
+  925427,
+  925428
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3454,27 +3460,15 @@
   "boymurotova nazokat|PhD": "2026-10-21",
   "farhodova ziyoda|PhD": "2026-10-21",
   "matupaeva shohsanam|DSc": "2026-10-21",
-  "durdiev nurali|PhD": "2026-10-21"
+  "durdiev nurali|PhD": "2026-10-21",
+  "ergasheva hurshida|PhD": "2026-10-21",
+  "jumaeva aziza|PhD": "2026-10-21",
+  "sodiqov lazizjon|PhD": "2026-10-21"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-21T04:15:30.063982+00:00",
  "recent": [
-  {
-   "t": "2026-10-21T04:31:03.563795+00:00",
-   "url": "https://uza.uz/oz/posts/murodov-tohir-faxriddin-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925391",
-   "title": "Murodov Tohir Faxriddin o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-21T04:31:10.265755+00:00",
-   "url": "https://uza.uz/oz/posts/saidova-gulzhamol-komilovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925395",
-   "title": "Saidova Guljamol Komilovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-21T04:35:50.159474+00:00",
-   "url": "https://uza.uz/oz/posts/matanov-muhammad-charshamievichning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925397",
-   "title": "Matanov Muhammad Charshamiyevichning fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-21T04:35:58.714548+00:00",
    "url": "https://uza.uz/oz/posts/abdiraimova-shaxnoza-abdugappar-qizining-sociologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925400",
@@ -3509,20 +3503,35 @@
    "t": "2026-10-21T04:50:54.000972+00:00",
    "url": "https://uza.uz/oz/posts/durdiev-nurali-yarashovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925419",
    "title": "Durdiyev Nurali Yarashovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T04:55:52.723058+00:00",
+   "url": "https://uza.uz/oz/posts/ergasheva-hurshida-erkinzhon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925422",
+   "title": "Ergasheva Xurshida Erkinjon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T04:56:00.266880+00:00",
+   "url": "https://uza.uz/oz/posts/jumaeva-aziza-numonzhon-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925425",
+   "title": "Jumayeva Aziza Nu’monjon qizining biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T04:56:08.062126+00:00",
+   "url": "https://uza.uz/oz/posts/sodiqov-lazizzhon-musa-oglining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925427",
+   "title": "Sodiqov Lazizjon Musa o‘g‘lining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 6,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T04:50:58.005004+00:00",
+ "last_run": "2026-10-21T04:56:12.068921+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -4922,6 +4931,24 @@
    "m": 2598,
    "p": 1,
    "f": 2599,
+   "d": "2026-10-21"
+  },
+  "u925422": {
+   "m": 2600,
+   "p": 1,
+   "f": 2601,
+   "d": "2026-10-21"
+  },
+  "u925425": {
+   "m": 2602,
+   "p": 1,
+   "f": 2603,
+   "d": "2026-10-21"
+  },
+  "u925427": {
+   "m": 2604,
+   "p": 1,
+   "f": 2605,
    "d": "2026-10-21"
   }
  }
