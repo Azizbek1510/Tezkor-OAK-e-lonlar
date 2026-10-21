@@ -2887,7 +2887,11 @@
   925924,
   925925,
   925926,
-  925927
+  925927,
+  925928,
+  925929,
+  925935,
+  925936
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3587,22 +3591,14 @@
   "norov murodjon|PhD": "2026-10-21",
   "kesimov davron|PhD": "2026-10-21",
   "alimardonov asror|PhD": "2026-10-21",
-  "oramov jahongir|PhD": "2026-10-21"
+  "oramov jahongir|PhD": "2026-10-21",
+  "umurova marifat|PhD": "2026-10-21",
+  "holisova gavharoy|PhD": "2026-10-21"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-21T12:00:52.922304+00:00",
  "recent": [
-  {
-   "t": "2026-10-21T11:35:49.686585+00:00",
-   "url": "https://oak.uz/pages/33550",
-   "title": "Abdirashidov Xumoyiddin Abdumuhammad o‘g‘li falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-21T11:41:00.404779+00:00",
-   "url": "https://oak.uz/pages/33551",
-   "title": "Yuldasheva Go‘zal Abdinabievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-21T11:41:09.055579+00:00",
    "url": "https://oak.uz/pages/33552",
@@ -3642,20 +3638,30 @@
    "t": "2026-10-21T12:16:07.963597+00:00",
    "url": "https://uza.uz/oz/posts/oramov-jahongir-joraevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925926",
    "title": "Oramov Jahongir Jo‘rayevichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T12:21:00.394822+00:00",
+   "url": "https://uza.uz/oz/posts/umurova-marifat-yoshievnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925928",
+   "title": "Umurova Ma’rifat Yoshiyevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T12:21:08.979250+00:00",
+   "url": "https://uza.uz/oz/posts/abduraxmonov-ravshan-shukurovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925935",
+   "title": "Abduraxmonov Ravshan Shukurovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T12:16:11.968285+00:00",
+ "last_run": "2026-10-21T12:21:12.986647+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5601,6 +5607,18 @@
    "m": 2780,
    "p": 1,
    "f": 2781,
+   "d": "2026-10-21"
+  },
+  "u925928": {
+   "m": 2782,
+   "p": 1,
+   "f": 2783,
+   "d": "2026-10-21"
+  },
+  "u925935": {
+   "m": 2784,
+   "p": 1,
+   "f": 2785,
    "d": "2026-10-21"
   }
  }
