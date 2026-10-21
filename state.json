@@ -1417,7 +1417,9 @@
   33501,
   33502,
   33503,
-  33504
+  33504,
+  33505,
+  33506
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3531,16 +3533,6 @@
  "last_deep": "2026-10-21T08:10:31.351909+00:00",
  "recent": [
   {
-   "t": "2026-10-21T07:45:59.165460+00:00",
-   "url": "https://oak.uz/pages/33495",
-   "title": "Orazalieva Gulxaya Temirgaliy qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-21T07:55:49.612969+00:00",
-   "url": "https://oak.uz/pages/33496",
-   "title": "Abdalieva Periuza Isaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-21T07:55:57.190074+00:00",
    "url": "https://oak.uz/pages/33497",
    "title": "Askarov Ollabergan Ikrom o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -3579,20 +3571,30 @@
    "t": "2026-10-21T08:25:46.527871+00:00",
    "url": "https://oak.uz/pages/33504",
    "title": "Kandaxarov Mirjalol Abdimurot o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-21T08:31:04.063455+00:00",
+   "url": "https://oak.uz/pages/33505",
+   "title": "Najmiddinov Murat Kamolovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-21T08:31:11.713425+00:00",
+   "url": "https://oak.uz/pages/33506",
+   "title": "Pulatova Muattar Kurakboevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T08:25:50.530910+00:00",
+ "last_run": "2026-10-21T08:31:15.717365+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5208,6 +5210,18 @@
    "m": 2670,
    "p": 1,
    "f": 2671,
+   "d": "2026-10-21"
+  },
+  "33505": {
+   "m": 2672,
+   "p": 1,
+   "f": 2673,
+   "d": "2026-10-21"
+  },
+  "33506": {
+   "m": 2674,
+   "p": 1,
+   "f": 2675,
    "d": "2026-10-21"
   }
  }
