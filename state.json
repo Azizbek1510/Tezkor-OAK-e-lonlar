@@ -2907,7 +2907,11 @@
   925958,
   925959,
   925960,
-  925961
+  925961,
+  925972,
+  925973,
+  925976,
+  925977
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3616,22 +3620,14 @@
   "ahmatov abdulla|PhD": "2026-10-21",
   "azimova dildora|PhD": "2026-10-21",
   "pirimmatov muhammad|PhD": "2026-10-21",
-  "gofurova shahribonu|PhD": "2026-10-21"
+  "gofurova shahribonu|PhD": "2026-10-21",
+  "rustamova mukaddas|PhD": "2026-10-21",
+  "igilikov jaksilik|PhD": "2026-10-21"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-21T12:00:52.922304+00:00",
  "recent": [
-  {
-   "t": "2026-10-21T12:16:07.963597+00:00",
-   "url": "https://uza.uz/oz/posts/oramov-jahongir-joraevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925926",
-   "title": "Oramov Jahongir Jo‘rayevichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-21T12:21:00.394822+00:00",
-   "url": "https://uza.uz/oz/posts/umurova-marifat-yoshievnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925928",
-   "title": "Umurova Ma’rifat Yoshiyevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-21T12:21:08.979250+00:00",
    "url": "https://uza.uz/oz/posts/abduraxmonov-ravshan-shukurovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925935",
@@ -3671,20 +3667,30 @@
    "t": "2026-10-21T12:41:04.441307+00:00",
    "url": "https://uza.uz/oz/posts/gofurova-shaxribonu-komol-qizining-yuridik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925960",
    "title": "G‘ofurova Shaxribonu Komol qizining yuridik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T12:50:57.649145+00:00",
+   "url": "https://uza.uz/oz/posts/rustamova-mukaddas-sherxanovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925972",
+   "title": "Rustamova Mukaddas Sherxanovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-21T12:51:05.516452+00:00",
+   "url": "https://uza.uz/oz/posts/igilikov-jaksilik-dzholdasbaevichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_925976",
+   "title": "Igilikov Jaksilik Djoldasbayevichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-21T12:45:51.951689+00:00",
+ "last_run": "2026-10-21T12:51:09.523953+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -5684,6 +5690,18 @@
    "m": 2798,
    "p": 1,
    "f": 2799,
+   "d": "2026-10-21"
+  },
+  "u925972": {
+   "m": 2800,
+   "p": 1,
+   "f": 2801,
+   "d": "2026-10-21"
+  },
+  "u925976": {
+   "m": 2802,
+   "p": 1,
+   "f": 2803,
    "d": "2026-10-21"
   }
  }
