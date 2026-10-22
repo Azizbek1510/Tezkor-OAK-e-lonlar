@@ -1493,7 +1493,9 @@
   33580,
   33581,
   33582,
-  33583
+  33583,
+  33584,
+  33585
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3807,16 +3809,6 @@
  "last_deep": "2026-10-22T11:50:33.660242+00:00",
  "recent": [
   {
-   "t": "2026-10-22T12:06:04.011908+00:00",
-   "url": "https://uza.uz/oz/posts/hasanova-maxfuza-shuxratovnaning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926565",
-   "title": "Xasanova Maxfuza Shuxratovnaning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-22T12:10:56.063946+00:00",
-   "url": "https://oak.uz/pages/33577",
-   "title": "Tolibekov Islambek Maxsetovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-22T12:11:03.900624+00:00",
    "url": "https://uza.uz/oz/posts/raimov-salaxiddin-abdullaevichning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926567",
    "title": "Raimov Salaxiddin Abdullayevichning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -3855,20 +3847,30 @@
    "t": "2026-10-22T12:35:50.325074+00:00",
    "url": "https://oak.uz/pages/33583",
    "title": "Matchanova Sanobar Muxamedjonovnaning falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida e’lon matni"
+  },
+  {
+   "t": "2026-10-22T12:40:54.521982+00:00",
+   "url": "https://oak.uz/pages/33584",
+   "title": "Baxtiyorova Nigina Ulug‘bek qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-10-22T12:41:02.124934+00:00",
+   "url": "https://oak.uz/pages/33585",
+   "title": "Ochilova Oydinoy Raxmiddinovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-22T12:35:54.339661+00:00",
+ "last_run": "2026-10-22T12:41:06.129512+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -6336,6 +6338,18 @@
    "m": 2954,
    "p": 1,
    "f": 2955,
+   "d": "2026-10-22"
+  },
+  "33584": {
+   "m": 2956,
+   "p": 1,
+   "f": 2957,
+   "d": "2026-10-22"
+  },
+  "33585": {
+   "m": 2958,
+   "p": 1,
+   "f": 2959,
    "d": "2026-10-22"
   }
  }
