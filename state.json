@@ -2975,7 +2975,11 @@
   926222,
   926223,
   926230,
-  926231
+  926231,
+  926238,
+  926239,
+  926254,
+  926255
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3714,22 +3718,14 @@
   "umirov akramjon|PhD": "2026-10-22",
   "tajekeev ziynatdin|DSc": "2026-10-22",
   "jabbiev rasulbek|PhD": "2026-10-22",
-  "hudoyqulov shahzod|PhD": "2026-10-22"
+  "hudoyqulov shahzod|PhD": "2026-10-22",
+  "ahmedov munisbek|PhD": "2026-10-22",
+  "berdiyorova sevara|PhD": "2026-10-22"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-22T05:00:49.819809+00:00",
  "recent": [
-  {
-   "t": "2026-10-21T14:25:48.029423+00:00",
-   "url": "https://uza.uz/oz/posts/ergashev-toxir-nematovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926059",
-   "title": "Ergashev Toxir Nematovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-22T04:55:47.105305+00:00",
-   "url": "https://uza.uz/oz/posts/umurzakova-motabarxon-nodir-qizining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926170",
-   "title": "Umurzakova Mo‘’tabarxon Nodir qizining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-22T05:03:28.427647+00:00",
    "url": "https://uza.uz/oz/posts/davitova-shaxzoda-doniyor-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926180",
@@ -3769,6 +3765,16 @@
    "t": "2026-10-22T05:25:54.423878+00:00",
    "url": "https://uza.uz/oz/posts/hudoyqulov-shahzod-shavkatovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926230",
    "title": "Xudoyqulov Shahzod Shavkatovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-22T05:31:11.389781+00:00",
+   "url": "https://uza.uz/oz/posts/axmedov-munisbek-muxammad-oglining-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926238",
+   "title": "Axmedov Munisbek Muxammad o‘g‘lining fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-22T05:31:18.530860+00:00",
+   "url": "https://uza.uz/oz/posts/berdiyorova-sevara-hamid-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926254",
+   "title": "Berdiyorova Sevara Hamid qizining biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -3782,7 +3788,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-22T05:25:58.431802+00:00",
+ "last_run": "2026-10-22T05:31:22.539567+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -6010,6 +6016,18 @@
    "m": 2874,
    "p": 1,
    "f": 2875,
+   "d": "2026-10-22"
+  },
+  "u926238": {
+   "m": 2876,
+   "p": 1,
+   "f": 2877,
+   "d": "2026-10-22"
+  },
+  "u926254": {
+   "m": 2878,
+   "p": 1,
+   "f": 2879,
    "d": "2026-10-22"
   }
  }
