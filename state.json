@@ -1506,7 +1506,8 @@
   33593,
   33594,
   33595,
-  33596
+  33596,
+  33597
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3059,7 +3060,8 @@
   926624,
   926625,
   926626,
-  926627
+  926627,
+  926633
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3825,22 +3827,13 @@
   "ahmedov ilhom|PhD": "2026-10-22",
   "kalonova muhabbathon|PhD": "2026-10-22",
   "sharipov jahongir|PhD": "2026-10-22",
-  "bahranov sherzad|DSc": "2026-10-22"
+  "bahranov sherzad|DSc": "2026-10-22",
+  "kuzieva nilufar|PhD": "2026-10-22"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-22T12:50:31.298622+00:00",
  "recent": [
-  {
-   "t": "2026-10-22T13:01:14.914934+00:00",
-   "url": "https://oak.uz/pages/33590",
-   "title": "Quvvataliev Ubaydulla Begimqulovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-22T13:05:50.198153+00:00",
-   "url": "https://oak.uz/pages/33591",
-   "title": "Jalilov Doston Muhiddin o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-22T13:10:56.970102+00:00",
    "url": "https://oak.uz/pages/33592",
@@ -3880,20 +3873,30 @@
    "t": "2026-10-22T13:31:34.483839+00:00",
    "url": "https://uza.uz/oz/posts/baxranov-sherzad-tashtursunovichning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926626",
    "title": "Baxranov Sherzad Tashtursunovichning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-22T13:35:55.250083+00:00",
+   "url": "https://oak.uz/pages/33597",
+   "title": "Kudaibergenov Azamat Shamuratovichning doktorlik (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-22T13:36:02.755505+00:00",
+   "url": "https://uza.uz/oz/posts/kuzieva-nilufar-husanboy-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926633",
+   "title": "Kuziyeva Nilufar Xusanboy qizining biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
-  "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "found": 2,
+  "found_oak": 1,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-22T13:31:38.506059+00:00",
+ "last_run": "2026-10-22T13:36:06.759965+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -6463,6 +6466,18 @@
    "m": 2988,
    "p": 1,
    "f": 2989,
+   "d": "2026-10-22"
+  },
+  "33597": {
+   "m": 2990,
+   "p": 1,
+   "f": 2991,
+   "d": "2026-10-22"
+  },
+  "u926633": {
+   "m": 2992,
+   "p": 1,
+   "f": 2993,
    "d": "2026-10-22"
   }
  }
