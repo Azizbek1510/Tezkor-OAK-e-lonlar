@@ -1479,7 +1479,8 @@
   33564,
   33567,
   33568,
-  33569
+  33569,
+  33570
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3769,11 +3770,6 @@
  "last_deep": "2026-10-22T10:55:29.276720+00:00",
  "recent": [
   {
-   "t": "2026-10-22T05:45:59.978910+00:00",
-   "url": "https://uza.uz/oz/posts/boriev-jamshid-parda-oglining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926275",
-   "title": "Bo‘riyev Jamshid Parda o‘g‘lining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-22T05:46:08.638068+00:00",
    "url": "https://uza.uz/oz/posts/nazarov-sardor-shamurodovichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926281",
    "title": "Nazarov Sardor Shamurodovichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -3817,20 +3813,25 @@
    "t": "2026-10-22T11:26:01.807092+00:00",
    "url": "https://oak.uz/pages/33569",
    "title": "Abdullaev Asiljon Qaxramonovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-22T11:31:15.419001+00:00",
+   "url": "https://oak.uz/pages/33570",
+   "title": "Qayumova Kamola Islomovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
-  "found_oak": 2,
-  "posted": 2,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-22T11:26:05.811918+00:00",
+ "last_run": "2026-10-22T11:31:19.423659+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -6166,6 +6167,12 @@
    "m": 2910,
    "p": 1,
    "f": 2911,
+   "d": "2026-10-22"
+  },
+  "33570": {
+   "m": 2912,
+   "p": 1,
+   "f": 2913,
    "d": "2026-10-22"
   }
  }
