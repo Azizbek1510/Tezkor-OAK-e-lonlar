@@ -3053,7 +3053,13 @@
   926569,
   926570,
   926606,
-  926607
+  926607,
+  926622,
+  926623,
+  926624,
+  926625,
+  926626,
+  926627
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3816,27 +3822,15 @@
   "hasanova mahfuza|DSc": "2026-10-22",
   "raimov salahiddin|DSc": "2026-10-22",
   "rahmatullaev alimardon|PhD": "2026-10-22",
-  "ahmedov ilhom|PhD": "2026-10-22"
+  "ahmedov ilhom|PhD": "2026-10-22",
+  "kalonova muhabbathon|PhD": "2026-10-22",
+  "sharipov jahongir|PhD": "2026-10-22",
+  "bahranov sherzad|DSc": "2026-10-22"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-22T12:50:31.298622+00:00",
  "recent": [
-  {
-   "t": "2026-10-22T12:52:58.976355+00:00",
-   "url": "https://oak.uz/pages/33587",
-   "title": "Uralov Abror Abdulla o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-22T12:55:47.709259+00:00",
-   "url": "https://oak.uz/pages/33588",
-   "title": "Shamshetdinova Dilafruza Ismayilovnaning falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida e’lon matni"
-  },
-  {
-   "t": "2026-10-22T12:55:55.155260+00:00",
-   "url": "https://oak.uz/pages/33589",
-   "title": "Abatov Asqar Reymbaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
   {
    "t": "2026-10-22T13:01:14.914934+00:00",
    "url": "https://oak.uz/pages/33590",
@@ -3871,20 +3865,35 @@
    "t": "2026-10-22T13:25:55.021668+00:00",
    "url": "https://oak.uz/pages/33596",
    "title": "Dadenova Gulxan Kenesbaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-22T13:31:18.656249+00:00",
+   "url": "https://uza.uz/oz/posts/kalonova-muxabbatxon-oqilxon-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926622",
+   "title": "Kalonova Muxabbatxon Oqilxon qizining biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-22T13:31:27.058999+00:00",
+   "url": "https://uza.uz/oz/posts/sharipov-jaxongir-rozievichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926624",
+   "title": "Sharipov Jaxongir Ro‘ziyevichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-22T13:31:34.483839+00:00",
+   "url": "https://uza.uz/oz/posts/baxranov-sherzad-tashtursunovichning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926626",
+   "title": "Baxranov Sherzad Tashtursunovichning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
-  "dups": 0,
+  "found": 6,
+  "found_oak": 0,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-22T13:25:59.026846+00:00",
+ "last_run": "2026-10-22T13:31:38.506059+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -6436,6 +6445,24 @@
    "m": 2982,
    "p": 1,
    "f": 2983,
+   "d": "2026-10-22"
+  },
+  "u926622": {
+   "m": 2984,
+   "p": 1,
+   "f": 2985,
+   "d": "2026-10-22"
+  },
+  "u926624": {
+   "m": 2986,
+   "p": 1,
+   "f": 2987,
+   "d": "2026-10-22"
+  },
+  "u926626": {
+   "m": 2988,
+   "p": 1,
+   "f": 2989,
    "d": "2026-10-22"
   }
  }
