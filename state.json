@@ -1495,7 +1495,8 @@
   33582,
   33583,
   33584,
-  33585
+  33585,
+  33586
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3040,7 +3041,9 @@
   926567,
   926568,
   926569,
-  926570
+  926570,
+  926606,
+  926607
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -3802,22 +3805,13 @@
   "eshniyozova nargiza|PhD": "2026-10-22",
   "hasanova mahfuza|DSc": "2026-10-22",
   "raimov salahiddin|DSc": "2026-10-22",
-  "rahmatullaev alimardon|PhD": "2026-10-22"
+  "rahmatullaev alimardon|PhD": "2026-10-22",
+  "ahmedov ilhom|PhD": "2026-10-22"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-22T11:50:33.660242+00:00",
  "recent": [
-  {
-   "t": "2026-10-22T12:11:03.900624+00:00",
-   "url": "https://uza.uz/oz/posts/raimov-salaxiddin-abdullaevichning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_926567",
-   "title": "Raimov Salaxiddin Abdullayevichning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-22T12:11:13.269574+00:00",
-   "url": "https://uza.uz/oz/posts/raxmatullaev-alimardon-turamurodovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926569",
-   "title": "Raxmatullayev Alimardon Turamurodovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-22T12:15:55.890211+00:00",
    "url": "https://oak.uz/pages/33578",
@@ -3857,20 +3851,30 @@
    "t": "2026-10-22T12:41:02.124934+00:00",
    "url": "https://oak.uz/pages/33585",
    "title": "Ochilova Oydinoy Raxmiddinovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-22T12:45:52.257315+00:00",
+   "url": "https://oak.uz/pages/33586",
+   "title": "Qulboev Nishonboy Sobur o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-22T12:45:59.410058+00:00",
+   "url": "https://uza.uz/oz/posts/axmedov-ilhom-ibrohimovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_926606",
+   "title": "Axmedov Ilhom Ibrohimovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
-  "found_oak": 2,
+  "found": 3,
+  "found_oak": 1,
   "posted": 2,
-  "dups": 0,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-22T12:41:06.129512+00:00",
+ "last_run": "2026-10-22T12:46:03.416824+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -6350,6 +6354,18 @@
    "m": 2958,
    "p": 1,
    "f": 2959,
+   "d": "2026-10-22"
+  },
+  "33586": {
+   "m": 2960,
+   "p": 1,
+   "f": 2961,
+   "d": "2026-10-22"
+  },
+  "u926606": {
+   "m": 2962,
+   "p": 1,
+   "f": 2963,
    "d": "2026-10-22"
   }
  }
