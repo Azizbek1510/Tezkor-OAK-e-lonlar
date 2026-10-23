@@ -1562,7 +1562,9 @@
   33650,
   33651,
   33652,
-  33653
+  33653,
+  33654,
+  33655
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3966,16 +3968,6 @@
  "last_deep": "2026-10-23T11:35:31.098277+00:00",
  "recent": [
   {
-   "t": "2026-10-23T11:21:04.993436+00:00",
-   "url": "https://uza.uz/oz/posts/baratov-javlonbek-norzhigitovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927062",
-   "title": "Baratov Javlonbek Norjigitovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-23T11:21:13.960754+00:00",
-   "url": "https://uza.uz/oz/posts/yaxshiboeva-nodira-ergash-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927065",
-   "title": "Yaxshiboyeva Nodira Ergash qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-23T11:26:30.002020+00:00",
    "url": "https://oak.uz/pages/33648",
    "title": "Absamatov Davron Absamatovichning  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4014,6 +4006,16 @@
    "t": "2026-10-23T11:38:23.792449+00:00",
    "url": "https://oak.uz/pages/33653",
    "title": "Paluaniyazov Xalmuxammed Aitjanovichning  fan doktori (DSc) dissertatsiya himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T11:40:54.304776+00:00",
+   "url": "https://oak.uz/pages/33654",
+   "title": "Imomov Otamurod Normamatovich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T11:41:01.982014+00:00",
+   "url": "https://oak.uz/pages/33655",
+   "title": "Shayzakov Shodiyar Ibragimovichning  yuridik fanlar doktori (DSc) himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -4027,7 +4029,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-23T11:38:27.797549+00:00",
+ "last_run": "2026-10-23T11:41:05.986908+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -7089,6 +7091,18 @@
    "m": 3152,
    "p": 1,
    "f": 3153,
+   "d": "2026-10-23"
+  },
+  "33654": {
+   "m": 3154,
+   "p": 1,
+   "f": 3155,
+   "d": "2026-10-23"
+  },
+  "33655": {
+   "m": 3156,
+   "p": 1,
+   "f": 3157,
    "d": "2026-10-23"
   }
  }
