@@ -1586,7 +1586,9 @@
   33674,
   33675,
   33676,
-  33677
+  33677,
+  33678,
+  33679
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3987,18 +3989,8 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-10-23T11:35:31.098277+00:00",
+ "last_deep": "2026-10-23T12:30:43.105356+00:00",
  "recent": [
-  {
-   "t": "2026-10-23T12:11:03.459071+00:00",
-   "url": "https://oak.uz/pages/33668",
-   "title": "Egamberganova Matluba Jobborgonovnaning  fan doktori (DSc) dissertatsiya ishi himoyasi haqida e’lon matni"
-  },
-  {
-   "t": "2026-10-23T12:11:10.850140+00:00",
-   "url": "https://oak.uz/pages/33669",
-   "title": "Valijonov Shaxboz Odiljon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-23T12:15:50.861512+00:00",
    "url": "https://oak.uz/pages/33670",
@@ -4038,20 +4030,30 @@
    "t": "2026-10-23T12:26:24.695416+00:00",
    "url": "https://oak.uz/pages/33677",
    "title": "Xolmirzaeva Gulbahor Bahodirovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T12:33:22.652027+00:00",
+   "url": "https://oak.uz/pages/33678",
+   "title": "Kadirova Mashxura Mirzaakbarovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T12:33:29.991876+00:00",
+   "url": "https://oak.uz/pages/33679",
+   "title": "Saidova Kamola Halim qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
-  "found_oak": 4,
-  "posted": 4,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-23T12:26:28.700465+00:00",
+ "last_run": "2026-10-23T12:33:33.996197+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -7257,6 +7259,18 @@
    "m": 3200,
    "p": 1,
    "f": 3201,
+   "d": "2026-10-23"
+  },
+  "33678": {
+   "m": 3202,
+   "p": 1,
+   "f": 3203,
+   "d": "2026-10-23"
+  },
+  "33679": {
+   "m": 3204,
+   "p": 1,
+   "f": 3205,
    "d": "2026-10-23"
   }
  }
