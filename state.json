@@ -1557,7 +1557,10 @@
   33645,
   33646,
   33647,
-  33648
+  33648,
+  33649,
+  33650,
+  33651
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3961,21 +3964,6 @@
  "last_deep": "2026-10-23T10:40:30.826567+00:00",
  "recent": [
   {
-   "t": "2026-10-23T11:10:55.301535+00:00",
-   "url": "https://oak.uz/pages/33647",
-   "title": "Xudayberdieva Nilufar Mengqobilovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-23T11:11:03.497201+00:00",
-   "url": "https://uza.uz/oz/posts/dalimova-kamola-mamurovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927048",
-   "title": "Dalimova Kamola Mamurovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-23T11:11:11.793526+00:00",
-   "url": "https://uza.uz/oz/posts/muradimova-alfiya-rashidovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927052",
-   "title": "Muradimova Alfiya Rashidovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-23T11:16:50.531095+00:00",
    "url": "https://uza.uz/oz/posts/daminova-durdona-dzhambulovnaning-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_927056",
    "title": "Daminova Durdona Djambulovnaning qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi ishi himoyasi to‘g‘risida"
@@ -4009,20 +3997,35 @@
    "t": "2026-10-23T11:26:46.200405+00:00",
    "url": "https://uza.uz/oz/posts/kudratov-dilshod-sharipovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927069",
    "title": "Kudratov Dilshod Sharipovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-23T11:31:05.330152+00:00",
+   "url": "https://oak.uz/pages/33649",
+   "title": "Raxmatullayev Mirjalol Hatam o‘g‘lining  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T11:31:12.993044+00:00",
+   "url": "https://oak.uz/pages/33650",
+   "title": "Zokirova Dilnoza Fazliddin qizi ning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T11:31:20.558409+00:00",
+   "url": "https://oak.uz/pages/33651",
+   "title": "Tosheva Nigora Arzievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
-  "found_oak": 1,
+  "found": 3,
+  "found_oak": 3,
   "posted": 3,
-  "dups": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-23T11:26:50.205839+00:00",
+ "last_run": "2026-10-23T11:31:24.563584+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -7054,6 +7057,24 @@
    "m": 3142,
    "p": 1,
    "f": 3143,
+   "d": "2026-10-23"
+  },
+  "33649": {
+   "m": 3144,
+   "p": 1,
+   "f": 3145,
+   "d": "2026-10-23"
+  },
+  "33650": {
+   "m": 3146,
+   "p": 1,
+   "f": 3147,
+   "d": "2026-10-23"
+  },
+  "33651": {
+   "m": 3148,
+   "p": 1,
+   "f": 3149,
    "d": "2026-10-23"
   }
  }
