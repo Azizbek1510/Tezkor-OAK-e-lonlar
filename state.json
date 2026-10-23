@@ -1560,7 +1560,9 @@
   33648,
   33649,
   33650,
-  33651
+  33651,
+  33652,
+  33653
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3961,18 +3963,8 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-10-23T10:40:30.826567+00:00",
+ "last_deep": "2026-10-23T11:35:31.098277+00:00",
  "recent": [
-  {
-   "t": "2026-10-23T11:16:50.531095+00:00",
-   "url": "https://uza.uz/oz/posts/daminova-durdona-dzhambulovnaning-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_927056",
-   "title": "Daminova Durdona Djambulovnaning qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-23T11:16:59.107976+00:00",
-   "url": "https://uza.uz/oz/posts/dzhumaniyazova-zilola-navfal-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927059",
-   "title": "Djumaniyazova Zilola Navfal qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-23T11:21:04.993436+00:00",
    "url": "https://uza.uz/oz/posts/baratov-javlonbek-norzhigitovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927062",
@@ -4012,20 +4004,30 @@
    "t": "2026-10-23T11:31:20.558409+00:00",
    "url": "https://oak.uz/pages/33651",
    "title": "Tosheva Nigora Arzievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T11:38:14.300703+00:00",
+   "url": "https://oak.uz/pages/33652",
+   "title": "Ismoyilov Hayot Barotovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T11:38:23.792449+00:00",
+   "url": "https://oak.uz/pages/33653",
+   "title": "Paluaniyazov Xalmuxammed Aitjanovichning  fan doktori (DSc) dissertatsiya himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
-  "found_oak": 3,
-  "posted": 3,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-23T11:31:24.563584+00:00",
+ "last_run": "2026-10-23T11:38:27.797549+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -7075,6 +7077,18 @@
    "m": 3148,
    "p": 1,
    "f": 3149,
+   "d": "2026-10-23"
+  },
+  "33652": {
+   "m": 3150,
+   "p": 1,
+   "f": 3151,
+   "d": "2026-10-23"
+  },
+  "33653": {
+   "m": 3152,
+   "p": 1,
+   "f": 3153,
    "d": "2026-10-23"
   }
  }
