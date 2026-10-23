@@ -1568,7 +1568,9 @@
   33656,
   33657,
   33658,
-  33659
+  33659,
+  33660,
+  33661
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3972,16 +3974,6 @@
  "last_deep": "2026-10-23T11:35:31.098277+00:00",
  "recent": [
   {
-   "t": "2026-10-23T11:31:12.993044+00:00",
-   "url": "https://oak.uz/pages/33650",
-   "title": "Zokirova Dilnoza Fazliddin qizi ning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-23T11:31:20.558409+00:00",
-   "url": "https://oak.uz/pages/33651",
-   "title": "Tosheva Nigora Arzievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-23T11:38:14.300703+00:00",
    "url": "https://oak.uz/pages/33652",
    "title": "Ismoyilov Hayot Barotovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4020,20 +4012,30 @@
    "t": "2026-10-23T11:50:56.602899+00:00",
    "url": "https://oak.uz/pages/33659",
    "title": "Tagaev Odil Nurmuminovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T11:55:48.350659+00:00",
+   "url": "https://oak.uz/pages/33660",
+   "title": "Karimova Feruza Xamidullaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-23T11:55:55.554383+00:00",
+   "url": "https://oak.uz/pages/33661",
+   "title": "Zamonova Shahlo Safar qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-23T11:51:00.610469+00:00",
+ "last_run": "2026-10-23T11:55:59.559884+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -7131,6 +7133,18 @@
    "m": 3164,
    "p": 1,
    "f": 3165,
+   "d": "2026-10-23"
+  },
+  "33660": {
+   "m": 3166,
+   "p": 1,
+   "f": 3167,
+   "d": "2026-10-23"
+  },
+  "33661": {
+   "m": 3168,
+   "p": 1,
+   "f": 3169,
    "d": "2026-10-23"
   }
  }
