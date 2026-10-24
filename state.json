@@ -3285,7 +3285,13 @@
   927297,
   927298,
   927299,
-  927300
+  927300,
+  927301,
+  927302,
+  927303,
+  927304,
+  927305,
+  927306
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4097,27 +4103,15 @@
   "karimov yuldosh|PhD": "2026-10-24",
   "djumaeva safiya|DSc": "2026-10-24",
   "umurqulov kamoliddin|PhD": "2026-10-24",
-  "mirzaev bekmurodjon|PhD": "2026-10-24"
+  "mirzaev bekmurodjon|PhD": "2026-10-24",
+  "allayarova zebiniso|DSc": "2026-10-24",
+  "muhtorov jahongir|PhD": "2026-10-24",
+  "bekniyazova dinora|PhD": "2026-10-24"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-24T06:10:34.186746+00:00",
  "recent": [
-  {
-   "t": "2026-10-23T14:41:05.792716+00:00",
-   "url": "https://oak.uz/pages/33731",
-   "title": "Saidakbarova Feruza Tulkunovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-23T14:41:13.509095+00:00",
-   "url": "https://oak.uz/pages/33732",
-   "title": "Abulova Zilola Azimovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-23T14:45:55.345423+00:00",
-   "url": "https://oak.uz/pages/33733",
-   "title": "Maxmudova Sadoqat Xolmatovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-23T14:46:03.190390+00:00",
    "url": "https://oak.uz/pages/33734",
@@ -4152,20 +4146,35 @@
    "t": "2026-10-24T06:26:18.295376+00:00",
    "url": "https://uza.uz/oz/posts/mirzaev-bekmurodzhon-dilmurod-oglining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927299",
    "title": "Mirzayev Bekmurodjon Dilmurod o‘g‘lining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T06:31:05.473607+00:00",
+   "url": "https://uza.uz/oz/posts/allayarova-zebiniso-boymuratovnaning-falsafa-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927301",
+   "title": "Allayarova Zebiniso Boymuratovnaning falsafa fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T06:31:13.395852+00:00",
+   "url": "https://uza.uz/oz/posts/muxtorov-jaxongir-inomzhon-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927303",
+   "title": "Muxtorov Jaxongir Inomjon o‘g‘lining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T06:31:21.325504+00:00",
+   "url": "https://uza.uz/oz/posts/bekniyazova-dinora-bayniyazovnaning-yuridika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927305",
+   "title": "Bekniyazova Dinora Bayniyazovnaning yuridika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 6,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 4,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-24T06:26:22.305568+00:00",
+ "last_run": "2026-10-24T06:31:25.331999+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -7815,6 +7824,24 @@
    "m": 3348,
    "p": 1,
    "f": 3349,
+   "d": "2026-10-24"
+  },
+  "u927301": {
+   "m": 3350,
+   "p": 1,
+   "f": 3351,
+   "d": "2026-10-24"
+  },
+  "u927303": {
+   "m": 3352,
+   "p": 1,
+   "f": 3353,
+   "d": "2026-10-24"
+  },
+  "u927305": {
+   "m": 3354,
+   "p": 1,
+   "f": 3355,
    "d": "2026-10-24"
   }
  }
