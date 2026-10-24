@@ -3291,7 +3291,11 @@
   927303,
   927304,
   927305,
-  927306
+  927306,
+  927307,
+  927308,
+  927310,
+  927311
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4106,22 +4110,14 @@
   "mirzaev bekmurodjon|PhD": "2026-10-24",
   "allayarova zebiniso|DSc": "2026-10-24",
   "muhtorov jahongir|PhD": "2026-10-24",
-  "bekniyazova dinora|PhD": "2026-10-24"
+  "bekniyazova dinora|PhD": "2026-10-24",
+  "rasulov fahriddin|DSc": "2026-10-24",
+  "nasrullaev feruz|PhD": "2026-10-24"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-24T06:10:34.186746+00:00",
  "recent": [
-  {
-   "t": "2026-10-23T14:46:03.190390+00:00",
-   "url": "https://oak.uz/pages/33734",
-   "title": "Babaev Otabek Abdikarimovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-24T06:16:00.434509+00:00",
-   "url": "https://uza.uz/oz/posts/ravshanov-hurshid-akramovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927284",
-   "title": "Ravshanov Xurshid Akramovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-24T06:20:57.723042+00:00",
    "url": "https://uza.uz/oz/posts/farmonova-mohinur-faxritdinovning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927289",
@@ -4161,20 +4157,30 @@
    "t": "2026-10-24T06:31:21.325504+00:00",
    "url": "https://uza.uz/oz/posts/bekniyazova-dinora-bayniyazovnaning-yuridika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927305",
    "title": "Bekniyazova Dinora Bayniyazovnaning yuridika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T06:35:54.782640+00:00",
+   "url": "https://uza.uz/oz/posts/rasulov-faxriddin-faxmuddinovichning-qishloq-xozhaligi-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927307",
+   "title": "Rasulov Faxriddin Faxmuddinovichning qishloq xo‘jaligi fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T06:36:03.595466+00:00",
+   "url": "https://uza.uz/oz/posts/nasrullaev-feruz-furqatovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-haqida-elon_927310",
+   "title": "Nasrullayev Feruz Furqatovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-24T06:31:25.331999+00:00",
+ "last_run": "2026-10-24T06:36:07.605330+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -7842,6 +7848,18 @@
    "m": 3354,
    "p": 1,
    "f": 3355,
+   "d": "2026-10-24"
+  },
+  "u927307": {
+   "m": 3356,
+   "p": 1,
+   "f": 3357,
+   "d": "2026-10-24"
+  },
+  "u927310": {
+   "m": 3358,
+   "p": 1,
+   "f": 3359,
    "d": "2026-10-24"
   }
  }
