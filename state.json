@@ -3318,7 +3318,11 @@
   927339,
   927341,
   927342,
-  927343
+  927343,
+  927350,
+  927351,
+  927352,
+  927353
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4147,22 +4151,14 @@
   "sharofiddinov mahmudjon|PhD": "2026-10-24",
   "nazarova gulnora|PhD": "2026-10-24",
   "butayarov abduqodir|DSc": "2026-10-24",
-  "abdirashidov humoyiddin|PhD": "2026-10-24"
+  "abdirashidov humoyiddin|PhD": "2026-10-24",
+  "choriev fazliddin|PhD": "2026-10-24",
+  "shayzakov shodiyar|DSc": "2026-10-24"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-10-24T06:10:34.186746+00:00",
+ "last_deep": "2026-10-24T07:10:34.266809+00:00",
  "recent": [
-  {
-   "t": "2026-10-24T06:41:12.457616+00:00",
-   "url": "https://uza.uz/oz/posts/usmanova-shoxsanam-shavkatovnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927321",
-   "title": "Usmanova Shoxsanam Shavkatovnaning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-24T06:45:56.213137+00:00",
-   "url": "https://uza.uz/oz/posts/hudoynazarova-qunduz-dzhumanazarovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927324",
-   "title": "Xudoynazarova Qunduz Djumanazarovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-24T06:46:04.799580+00:00",
    "url": "https://uza.uz/oz/posts/baxtiyor-abdixakimovich-alimdzhanovning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927326",
@@ -4202,20 +4198,30 @@
    "t": "2026-10-24T07:01:18.052993+00:00",
    "url": "https://uza.uz/oz/posts/abdirashidov-humoyiddin-abdumuxammad-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927342",
    "title": "Abdirashidov Xumoyiddin Abdumuxammad o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T07:13:01.952217+00:00",
+   "url": "https://uza.uz/oz/posts/choriev-fazliddin-nasriddinovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927350",
+   "title": "Choriyev Fazliddin Nasriddinovichning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T07:13:09.988724+00:00",
+   "url": "https://uza.uz/oz/posts/shayzakov-shodiyar-ibragimovichning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927352",
+   "title": "Shayzakov Shodiyar Ibragimovichning yuridik fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-24T07:05:46.517279+00:00",
+ "last_run": "2026-10-24T07:13:14.000525+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -7967,6 +7973,18 @@
    "m": 3382,
    "p": 1,
    "f": 3383,
+   "d": "2026-10-24"
+  },
+  "u927350": {
+   "m": 3384,
+   "p": 1,
+   "f": 3385,
+   "d": "2026-10-24"
+  },
+  "u927352": {
+   "m": 3386,
+   "p": 1,
+   "f": 3387,
    "d": "2026-10-24"
   }
  }
