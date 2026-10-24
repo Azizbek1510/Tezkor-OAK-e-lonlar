@@ -3332,7 +3332,11 @@
   927360,
   927361,
   927362,
-  927363
+  927363,
+  927364,
+  927365,
+  927368,
+  927369
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4168,22 +4172,14 @@
   "oripov ilhom|PhD": "2026-10-24",
   "bahriddinova muazzam|PhD": "2026-10-24",
   "qodirova surayyohon|PhD": "2026-10-24",
-  "gaipov sanjar|PhD": "2026-10-24"
+  "gaipov sanjar|PhD": "2026-10-24",
+  "davlatova zebo|PhD": "2026-10-24",
+  "salomovaning mohibonu|PhD": "2026-10-24"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-24T07:10:34.266809+00:00",
  "recent": [
-  {
-   "t": "2026-10-24T06:56:09.153951+00:00",
-   "url": "https://uza.uz/oz/posts/nazarova-gulnora-tadzhidinovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927338",
-   "title": "Nazarova Gulnora Tadjidinovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-24T06:56:17.100848+00:00",
-   "url": "https://uza.uz/oz/posts/butayarov-abduqodir-tuxtayevichning-texnika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_927341",
-   "title": "Butayarov Abduqodir Tuxtayevichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-24T07:01:18.052993+00:00",
    "url": "https://uza.uz/oz/posts/abdirashidov-humoyiddin-abdumuxammad-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927342",
@@ -4223,20 +4219,30 @@
    "t": "2026-10-24T07:21:10.570346+00:00",
    "url": "https://uza.uz/oz/posts/gaipov-sanzhar-yusupbaevichning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927362",
    "title": "Gaipov Sanjar Yusupbayevichning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T07:25:47.823515+00:00",
+   "url": "https://uza.uz/oz/posts/davlatova-zebo-haydarovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927364",
+   "title": "Davlatova Zebo Haydarovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-24T07:25:55.885878+00:00",
+   "url": "https://uza.uz/oz/posts/salomovaning-moxibonu-otkir-kizining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927368",
+   "title": "Salomovaning Moxibonu O‘tkir kizining psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-24T07:21:14.576713+00:00",
+ "last_run": "2026-10-24T07:25:59.892466+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -8030,6 +8036,18 @@
    "m": 3396,
    "p": 1,
    "f": 3397,
+   "d": "2026-10-24"
+  },
+  "u927364": {
+   "m": 3398,
+   "p": 1,
+   "f": 3399,
+   "d": "2026-10-24"
+  },
+  "u927368": {
+   "m": 3400,
+   "p": 1,
+   "f": 3401,
    "d": "2026-10-24"
   }
  }
