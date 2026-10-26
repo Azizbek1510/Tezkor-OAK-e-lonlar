@@ -1640,7 +1640,8 @@
   33731,
   33732,
   33733,
-  33734
+  33734,
+  33737
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4259,11 +4260,6 @@
  "last_deep": "2026-10-26T10:00:52.439339+00:00",
  "recent": [
   {
-   "t": "2026-10-26T06:11:02.858827+00:00",
-   "url": "https://uza.uz/oz/posts/otazhonova-malikabonu-sadulla-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927682",
-   "title": "Otajonova Malikabonu Sadulla qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-26T06:15:58.022210+00:00",
    "url": "https://uza.uz/oz/posts/abdullaeva-dilfuza-saidazimovnaning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927684",
    "title": "Abdullayeva Dilfuza Saidazimovnaning yuridik fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -4307,20 +4303,25 @@
    "t": "2026-10-26T06:40:59.900754+00:00",
    "url": "https://uza.uz/oz/posts/usmanova-gulnoza-fatxullaevnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927764",
    "title": "Usmanova Gulnoza Fatxullayevnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-26T10:05:55.543020+00:00",
+   "url": "https://oak.uz/pages/33737",
+   "title": "Jaloldinov Axror Abdusattor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-26T10:03:26.329385+00:00",
+ "last_run": "2026-10-26T10:05:59.548902+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -8282,6 +8283,12 @@
    "m": 3452,
    "p": 1,
    "f": 3453,
+   "d": "2026-10-26"
+  },
+  "33737": {
+   "m": 3454,
+   "p": 1,
+   "f": 3455,
    "d": "2026-10-26"
   }
  }
