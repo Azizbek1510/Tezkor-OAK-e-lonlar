@@ -1712,7 +1712,12 @@
   33805,
   33806,
   33807,
-  33808
+  33808,
+  33809,
+  33810,
+  33811,
+  33812,
+  33813
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3532,7 +3537,8 @@
   928039,
   928040,
   928041,
-  928042
+  928042,
+  928043
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4439,31 +4445,6 @@
  "last_deep": "2026-10-26T13:00:51.801471+00:00",
  "recent": [
   {
-   "t": "2026-10-26T13:04:31.210021+00:00",
-   "url": "https://uza.uz/oz/posts/mirzhanova-nargiza-norkulovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928034",
-   "title": "Mirjanova Nargiza Norkulovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-26T13:04:39.594844+00:00",
-   "url": "https://uza.uz/oz/posts/toshmatov-alimardon-sotvoldievichning-pedagogika-fanlari-buyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_928038",
-   "title": "Toshmatov Alimardon Sotvoldiyevichning pedagogika fanlari buyicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-26T13:05:54.136221+00:00",
-   "url": "https://oak.uz/pages/33803",
-   "title": "Egamberdieva Kamola Ibroximovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-26T13:06:02.930966+00:00",
-   "url": "https://oak.uz/pages/33804",
-   "title": "Madumarov O‘tkirbek Sobirjonovichning  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-26T13:06:11.139575+00:00",
-   "url": "https://oak.uz/pages/33805",
-   "title": "Umarova Komila Samatovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-26T13:06:19.861271+00:00",
    "url": "https://oak.uz/pages/33806",
    "title": "Botirova Zebuniso Solijon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4487,20 +4468,45 @@
    "t": "2026-10-26T13:07:05.348773+00:00",
    "url": "https://uza.uz/oz/posts/tilavoldiev-otabek-husanboevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_928042",
    "title": "Tilavoldiyev Otabek Xusanboyevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-26T13:11:00.540055+00:00",
+   "url": "https://oak.uz/pages/33809",
+   "title": "Matyaqubov Kamaladin Kuronboevichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T13:11:07.922242+00:00",
+   "url": "https://oak.uz/pages/33810",
+   "title": "Toshpulatova Saida Kuzibaevnaning  falsafa doktori (PhD) dissertatsiya haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T13:11:15.328629+00:00",
+   "url": "https://oak.uz/pages/33811",
+   "title": "Safaev Javohir Omanbaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T13:11:22.805986+00:00",
+   "url": "https://oak.uz/pages/33812",
+   "title": "Norboeva Sarvinoz Mengalievnaning fanlari doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T13:11:30.304797+00:00",
+   "url": "https://oak.uz/pages/33813",
+   "title": "Toyirova Nazokat Moxirovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 9,
-  "found_oak": 6,
-  "posted": 8,
+  "found": 6,
+  "found_oak": 5,
+  "posted": 5,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-26T13:07:09.355173+00:00",
+ "last_run": "2026-10-26T13:11:34.314660+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9110,6 +9116,36 @@
    "m": 3668,
    "p": 1,
    "f": 3669,
+   "d": "2026-10-26"
+  },
+  "33809": {
+   "m": 3670,
+   "p": 1,
+   "f": 3671,
+   "d": "2026-10-26"
+  },
+  "33810": {
+   "m": 3672,
+   "p": 1,
+   "f": 3673,
+   "d": "2026-10-26"
+  },
+  "33811": {
+   "m": 3674,
+   "p": 1,
+   "f": 3675,
+   "d": "2026-10-26"
+  },
+  "33812": {
+   "m": 3676,
+   "p": 1,
+   "f": 3677,
+   "d": "2026-10-26"
+  },
+  "33813": {
+   "m": 3678,
+   "p": 1,
+   "f": 3679,
    "d": "2026-10-26"
   }
  }
