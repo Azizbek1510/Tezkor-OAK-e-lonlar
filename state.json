@@ -1648,7 +1648,9 @@
   33741,
   33742,
   33743,
-  33744
+  33744,
+  33745,
+  33746
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4267,16 +4269,6 @@
  "last_deep": "2026-10-26T10:00:52.439339+00:00",
  "recent": [
   {
-   "t": "2026-10-26T06:36:00.839515+00:00",
-   "url": "https://uza.uz/oz/posts/abdumalikov-abdulatif-abidzhanovichning-falsafa-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927730",
-   "title": "Abdumalikov Abdulatif Abidjanovichning falsafa fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-26T06:40:59.900754+00:00",
-   "url": "https://uza.uz/oz/posts/usmanova-gulnoza-fatxullaevnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927764",
-   "title": "Usmanova Gulnoza Fatxullayevnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-26T10:05:55.543020+00:00",
    "url": "https://oak.uz/pages/33737",
    "title": "Jaloldinov Axror Abdusattor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4315,20 +4307,30 @@
    "t": "2026-10-26T10:40:58.044717+00:00",
    "url": "https://oak.uz/pages/33744",
    "title": "Shavkatov Sherzod Shavkatovichning  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T10:45:56.659369+00:00",
+   "url": "https://oak.uz/pages/33745",
+   "title": "Xalimov Soloxiddin Samievichning  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T10:46:04.409351+00:00",
+   "url": "https://oak.uz/pages/33746",
+   "title": "Kamolova Sanobar Jabborovnaning  fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-26T10:41:02.050253+00:00",
+ "last_run": "2026-10-26T10:46:08.415127+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -8338,6 +8340,18 @@
    "m": 3468,
    "p": 1,
    "f": 3469,
+   "d": "2026-10-26"
+  },
+  "33745": {
+   "m": 3470,
+   "p": 1,
+   "f": 3471,
+   "d": "2026-10-26"
+  },
+  "33746": {
+   "m": 3472,
+   "p": 1,
+   "f": 3473,
    "d": "2026-10-26"
   }
  }
