@@ -1735,7 +1735,10 @@
   33828,
   33829,
   33830,
-  33831
+  33831,
+  33832,
+  33833,
+  33834
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4463,21 +4466,6 @@
  "last_deep": "2026-10-26T13:00:51.801471+00:00",
  "recent": [
   {
-   "t": "2026-10-26T13:17:23.826778+00:00",
-   "url": "https://oak.uz/pages/33822",
-   "title": "Nurmetov Ismoil Alimbaevichning fan doktori (DSc) dissertatsiya ishi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-26T13:17:31.819345+00:00",
-   "url": "https://oak.uz/pages/33823",
-   "title": "Nizomxonov Elbekxon Erkinxon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-26T13:17:39.503759+00:00",
-   "url": "https://oak.uz/pages/33824",
-   "title": "Fayzieva Dilsuz Bahodirovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-26T13:21:18.460426+00:00",
    "url": "https://oak.uz/pages/33825",
    "title": "Suyundikova Dilafruz Mamarajabovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4511,20 +4499,35 @@
    "t": "2026-10-26T13:26:13.080046+00:00",
    "url": "https://oak.uz/pages/33831",
    "title": "Usmonov Maxsud Tulqin o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T13:35:49.135995+00:00",
+   "url": "https://oak.uz/pages/33832",
+   "title": "Dusmuratov Qahromon Mamadievichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T13:35:56.751590+00:00",
+   "url": "https://oak.uz/pages/33833",
+   "title": "Abduraxmonov Sanjar Begmuratovich  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
+  },
+  {
+   "t": "2026-10-26T13:36:04.218954+00:00",
+   "url": "https://oak.uz/pages/33834",
+   "title": "Botirova Fero‘za Salohiddin qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 3,
+  "found_oak": 3,
+  "posted": 3,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-26T13:31:03.155484+00:00",
+ "last_run": "2026-10-26T13:36:08.225154+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9272,6 +9275,24 @@
    "m": 3714,
    "p": 1,
    "f": 3715,
+   "d": "2026-10-26"
+  },
+  "33832": {
+   "m": 3716,
+   "p": 1,
+   "f": 3717,
+   "d": "2026-10-26"
+  },
+  "33833": {
+   "m": 3718,
+   "p": 1,
+   "f": 3719,
+   "d": "2026-10-26"
+  },
+  "33834": {
+   "m": 3720,
+   "p": 1,
+   "f": 3721,
    "d": "2026-10-26"
   }
  }
