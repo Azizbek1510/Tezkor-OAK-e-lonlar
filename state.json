@@ -3372,7 +3372,11 @@
   927682,
   927683,
   927684,
-  927685
+  927685,
+  927687,
+  927688,
+  927689,
+  927690
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4228,22 +4232,14 @@
   "suyunov shahzod|PhD": "2026-10-24",
   "qayumova muborak|PhD": "2026-10-24",
   "otajonova malikabonu|PhD": "2026-10-26",
-  "abdullaeva dilfuza|DSc": "2026-10-26"
+  "abdullaeva dilfuza|DSc": "2026-10-26",
+  "rozimurodov siroj|DSc": "2026-10-26",
+  "gaybullaeva laylo|DSc": "2026-10-26"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-26T06:00:56.270485+00:00",
  "recent": [
-  {
-   "t": "2026-10-24T09:13:07.489772+00:00",
-   "url": "https://uza.uz/oz/posts/rixsiboev-nozimbek-abdurasul-oglining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927397",
-   "title": "Rixsiboyev Nozimbek Abdurasul o‘g‘lining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-24T09:13:14.827595+00:00",
-   "url": "https://uza.uz/oz/posts/ortiqboev-jahongir-ortiqboy-oglining-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927399",
-   "title": "Ortiqboyev Jahongir Ortiqboy o‘g‘lining tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-24T09:15:59.731495+00:00",
    "url": "https://uza.uz/oz/posts/masharipov-farrux-otkirovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_927401",
@@ -4283,20 +4279,30 @@
    "t": "2026-10-26T06:15:58.022210+00:00",
    "url": "https://uza.uz/oz/posts/abdullaeva-dilfuza-saidazimovnaning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927684",
    "title": "Abdullayeva Dilfuza Saidazimovnaning yuridik fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-26T06:20:54.963707+00:00",
+   "url": "https://uza.uz/oz/posts/rozimurodov-sirozh-madatovichning-falsafa-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927687",
+   "title": "Ro‘zimurodov Siroj Madatovichning falsafa fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-26T06:21:01.427307+00:00",
+   "url": "https://uza.uz/oz/posts/gaybullaeva-laylo-safarboevnaning-falsafa-fanlari-boyicha-falsafa-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_927689",
+   "title": "G‘aybullayeva Laylo Safarboyevnaning falsafa fanlari bo‘yicha falsafa doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 4,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-26T06:16:02.029199+00:00",
+ "last_run": "2026-10-26T06:21:05.437418+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -8210,6 +8216,18 @@
    "m": 3436,
    "p": 1,
    "f": 3437,
+   "d": "2026-10-26"
+  },
+  "u927687": {
+   "m": 3438,
+   "p": 1,
+   "f": 3439,
+   "d": "2026-10-26"
+  },
+  "u927689": {
+   "m": 3440,
+   "p": 1,
+   "f": 3441,
    "d": "2026-10-26"
   }
  }
