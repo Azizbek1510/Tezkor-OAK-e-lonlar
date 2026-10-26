@@ -1654,7 +1654,8 @@
   33747,
   33748,
   33749,
-  33750
+  33750,
+  33751
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4273,11 +4274,6 @@
  "last_deep": "2026-10-26T11:00:50.099346+00:00",
  "recent": [
   {
-   "t": "2026-10-26T10:31:05.580484+00:00",
-   "url": "https://oak.uz/pages/33741",
-   "title": "Botirov Hamid Xakimovichning pedagogika fanlari doktori (DSc) dissertatsiya himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-26T10:35:49.635141+00:00",
    "url": "https://oak.uz/pages/33742",
    "title": "Abduvaxavova Maxina Azatovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
@@ -4321,6 +4317,11 @@
    "t": "2026-10-26T11:15:53.799726+00:00",
    "url": "https://oak.uz/pages/33750",
    "title": "Ro‘ziboboev Azizbek Azamat o‘g‘lining  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-26T11:20:58.555895+00:00",
+   "url": "https://oak.uz/pages/33751",
+   "title": "Aminov Bahrom Burxonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
   }
  ],
  "queue": 0,
@@ -4334,7 +4335,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-26T11:15:57.805684+00:00",
+ "last_run": "2026-10-26T11:21:02.560807+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -8380,6 +8381,12 @@
    "m": 3480,
    "p": 1,
    "f": 3481,
+   "d": "2026-10-26"
+  },
+  "33751": {
+   "m": 3482,
+   "p": 1,
+   "f": 3483,
    "d": "2026-10-26"
   }
  }
