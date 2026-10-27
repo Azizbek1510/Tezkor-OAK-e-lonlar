@@ -1878,7 +1878,9 @@
   33972,
   33973,
   33974,
-  33975
+  33975,
+  33976,
+  33977
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4819,16 +4821,6 @@
  "last_deep": "2026-10-27T14:01:07.214128+00:00",
  "recent": [
   {
-   "t": "2026-10-27T14:06:20.227360+00:00",
-   "url": "https://oak.uz/pages/33966",
-   "title": "Gozieva Matluba Turg‘unovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T14:06:28.442284+00:00",
-   "url": "https://oak.uz/pages/33967",
-   "title": "Isaqov Burxon Shuhratjon o‘g‘lining dissertatsiya himoyasiz ixtiro patenti asosida asosida falsafa doktori (PhD) ilmiy darajasini berish bo‘yicha e’lon"
-  },
-  {
    "t": "2026-10-27T14:10:56.182654+00:00",
    "url": "https://oak.uz/pages/33968",
    "title": "Isroilova Shoiraxon Jamshidovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4867,20 +4859,30 @@
    "t": "2026-10-27T14:31:19.024252+00:00",
    "url": "https://oak.uz/pages/33975",
    "title": "Raximova Feruzaxon Toxirjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T14:40:56.942504+00:00",
+   "url": "https://oak.uz/pages/33976",
+   "title": "Sharipova Moxidil Shavkatjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T14:41:04.434772+00:00",
+   "url": "https://oak.uz/pages/33977",
+   "title": "Ziyaev Mirjalol Olimovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T14:35:46.468196+00:00",
+ "last_run": "2026-10-27T14:41:08.442464+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10912,6 +10914,18 @@
    "m": 4164,
    "p": 1,
    "f": 4165,
+   "d": "2026-10-27"
+  },
+  "33976": {
+   "m": 4166,
+   "p": 1,
+   "f": 4167,
+   "d": "2026-10-27"
+  },
+  "33977": {
+   "m": 4168,
+   "p": 1,
+   "f": 4169,
    "d": "2026-10-27"
   }
  }
