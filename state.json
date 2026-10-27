@@ -1856,7 +1856,9 @@
   33950,
   33951,
   33952,
-  33953
+  33953,
+  33954,
+  33955
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3803,7 +3805,9 @@
   928612,
   928613,
   928682,
-  928683
+  928683,
+  928722,
+  928723
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4766,27 +4770,13 @@
   "tursunqulov golibjon|PhD": "2026-10-27",
   "muhammadiev suhrob|PhD": "2026-10-27",
   "tolipova bahtigul|DSc": "2026-10-27",
-  "yusupov lutfillo|PhD": "2026-10-27"
+  "yusupov lutfillo|PhD": "2026-10-27",
+  "kabulova umida|DSc": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T13:00:51.480106+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T13:12:13.201991+00:00",
-   "url": "https://oak.uz/pages/33944",
-   "title": "Mustafaev Bilolbek Eshmurod o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T13:12:20.607675+00:00",
-   "url": "https://oak.uz/pages/33945",
-   "title": "Sharipov Shahriyor Shamsiddin o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T13:12:28.418214+00:00",
-   "url": "https://oak.uz/pages/33946",
-   "title": "Turdiev Sardor O’tkir o’g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-27T13:15:51.699600+00:00",
    "url": "https://oak.uz/pages/33947",
@@ -4821,20 +4811,35 @@
    "t": "2026-10-27T13:35:52.781575+00:00",
    "url": "https://oak.uz/pages/33953",
    "title": "Azizova Maxbuba Hilol qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:41:00.694584+00:00",
+   "url": "https://oak.uz/pages/33954",
+   "title": "Kasimova (Negmatova) Malika Nosir qizining fan doktori (DSc) dissertatsiyasi himoyasi haqida e`lon"
+  },
+  {
+   "t": "2026-10-27T13:41:08.544169+00:00",
+   "url": "https://oak.uz/pages/33955",
+   "title": "Negmatov Jaxongir Nosir o‘g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqida e`lon"
+  },
+  {
+   "t": "2026-10-27T13:41:16.490374+00:00",
+   "url": "https://uza.uz/oz/posts/kabulova-umida-sayidmaxamadovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928722",
+   "title": "Kabulova Umida Sayidmaxamadovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
-  "dups": 0,
+  "found": 4,
+  "found_oak": 2,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T13:35:56.786312+00:00",
+ "last_run": "2026-10-27T13:41:20.503900+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10686,6 +10691,24 @@
    "m": 4104,
    "p": 1,
    "f": 4105,
+   "d": "2026-10-27"
+  },
+  "33954": {
+   "m": 4106,
+   "p": 1,
+   "f": 4107,
+   "d": "2026-10-27"
+  },
+  "33955": {
+   "m": 4108,
+   "p": 1,
+   "f": 4109,
+   "d": "2026-10-27"
+  },
+  "u928722": {
+   "m": 4110,
+   "p": 1,
+   "f": 4111,
    "d": "2026-10-27"
   }
  }
