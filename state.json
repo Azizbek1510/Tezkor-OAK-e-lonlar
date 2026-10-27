@@ -3678,7 +3678,11 @@
   928392,
   928393,
   928396,
-  928397
+  928397,
+  928500,
+  928501,
+  928504,
+  928505
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4618,22 +4622,14 @@
   "berdiyorova nilufar|PhD": "2026-10-27",
   "nuriddinov kamoliddin|PhD": "2026-10-27",
   "ahmedova vazirahon|PhD": "2026-10-27",
-  "primova nigora|DSc": "2026-10-27"
+  "primova nigora|DSc": "2026-10-27",
+  "idiev akbar|PhD": "2026-10-27",
+  "kamoliddinov farruh|PhD": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T10:00:51.732640+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T07:36:01.335178+00:00",
-   "url": "https://uza.uz/oz/posts/primova-nigora-ikrom-qizining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928396",
-   "title": "Primova Nigora Ikrom qizining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T08:50:59.915006+00:00",
-   "url": "https://oak.uz/pages/33866",
-   "title": "Otaxonova Sevaraxon To‘lkinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-27T08:51:08.404565+00:00",
    "url": "https://oak.uz/pages/33867",
@@ -4673,20 +4669,30 @@
    "t": "2026-10-27T08:56:15.032474+00:00",
    "url": "https://oak.uz/pages/33874",
    "title": "Xasanova Nozimaxon Abdugafur qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T10:35:57.346259+00:00",
+   "url": "https://uza.uz/oz/posts/idiev-akbar-avaz-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928500",
+   "title": "Idiyev Akbar Avaz o‘g‘lining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T10:36:08.270866+00:00",
+   "url": "https://uza.uz/oz/posts/kamoliddinov-farrux-burxoniddin-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928504",
+   "title": "Kamoliddinov Farrux Burxoniddin o‘g‘lining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T10:31:01.033793+00:00",
+ "last_run": "2026-10-27T10:36:12.284121+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9926,6 +9932,18 @@
    "m": 3900,
    "p": 1,
    "f": 3901,
+   "d": "2026-10-27"
+  },
+  "u928500": {
+   "m": 3902,
+   "p": 1,
+   "f": 3903,
+   "d": "2026-10-27"
+  },
+  "u928504": {
+   "m": 3904,
+   "p": 1,
+   "f": 3905,
    "d": "2026-10-27"
   }
  }
