@@ -1849,7 +1849,9 @@
   33943,
   33944,
   33945,
-  33946
+  33946,
+  33947,
+  33948
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4766,16 +4768,6 @@
  "last_deep": "2026-10-27T13:00:51.480106+00:00",
  "recent": [
   {
-   "t": "2026-10-27T13:11:05.151119+00:00",
-   "url": "https://oak.uz/pages/33937",
-   "title": "Karimjanov Ikboljon Abdulazizovichning fan doktori (DSc) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
-  {
-   "t": "2026-10-27T13:11:12.613257+00:00",
-   "url": "https://oak.uz/pages/33938",
-   "title": "Kalandarov Ruzimuratning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-27T13:11:20.137573+00:00",
    "url": "https://oak.uz/pages/33939",
    "title": "Sattarov Iskandar Abu-Alievichning fan doktori (DSc) dissertatsiyasi himoyasi haqidagi e’lon"
@@ -4814,20 +4806,30 @@
    "t": "2026-10-27T13:12:28.418214+00:00",
    "url": "https://oak.uz/pages/33946",
    "title": "Turdiev Sardor O’tkir o’g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:15:51.699600+00:00",
+   "url": "https://oak.uz/pages/33947",
+   "title": "Norjigitov Firdavs Nodirjonovichning falsafa doktori (PhD) dissertasiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:15:58.822897+00:00",
+   "url": "https://oak.uz/pages/33948",
+   "title": "Murodova Aziza Xudoyberdievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 11,
-  "found_oak": 11,
-  "posted": 11,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T13:12:32.427714+00:00",
+ "last_run": "2026-10-27T13:16:02.828517+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10637,6 +10639,18 @@
    "m": 4090,
    "p": 1,
    "f": 4091,
+   "d": "2026-10-27"
+  },
+  "33947": {
+   "m": 4092,
+   "p": 1,
+   "f": 4093,
+   "d": "2026-10-27"
+  },
+  "33948": {
+   "m": 4094,
+   "p": 1,
+   "f": 4095,
    "d": "2026-10-27"
   }
  }
