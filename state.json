@@ -1800,7 +1800,15 @@
   33894,
   33895,
   33896,
-  33897
+  33897,
+  33898,
+  33899,
+  33900,
+  33901,
+  33902,
+  33903,
+  33904,
+  33905
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4714,46 +4722,6 @@
  "last_deep": "2026-10-27T11:00:53.714430+00:00",
  "recent": [
   {
-   "t": "2026-10-27T11:36:05.900732+00:00",
-   "url": "https://uza.uz/oz/posts/muxammadiev-suxrob-baxtiyor-oglining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishining-himoyasi-togrisida_928610",
-   "title": "Muxammadiyev Suxrob Baxtiyor o‘g‘lining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishining himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T11:36:14.731608+00:00",
-   "url": "https://uza.uz/oz/posts/tolipova-baxtigul-farxodovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928612",
-   "title": "Tolipova Baxtigul Farxodovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T11:51:01.014160+00:00",
-   "url": "https://oak.uz/pages/33890",
-   "title": "Kurbonova Zarina Odiljonovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T11:51:08.268031+00:00",
-   "url": "https://oak.uz/pages/33891",
-   "title": "Nasirova Moxigul Furkatovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T11:51:15.870665+00:00",
-   "url": "https://oak.uz/pages/33892",
-   "title": "Ballasov Abdulxamid Ruzimaxammat o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T11:51:23.172893+00:00",
-   "url": "https://oak.uz/pages/33893",
-   "title": "Islamov Anvar Javlievichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T11:51:30.555502+00:00",
-   "url": "https://oak.uz/pages/33894",
-   "title": "Saydaliev Begijon Shavkatbek o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T11:51:37.805497+00:00",
-   "url": "https://oak.uz/pages/33895",
-   "title": "Nurmuxamedova Dilafruz Shamilovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-27T11:52:00.686967+00:00",
    "url": "https://oak.uz/pages/33896",
    "title": "To‘xtashev Farruxjon Esonali o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4762,6 +4730,46 @@
    "t": "2026-10-27T11:52:07.925658+00:00",
    "url": "https://oak.uz/pages/33897",
    "title": "Meylieva Hilola Shuxratovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T11:55:56.311059+00:00",
+   "url": "https://oak.uz/pages/33898",
+   "title": "Ochildiev Jahongir Mengdobilovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T11:56:04.496960+00:00",
+   "url": "https://oak.uz/pages/33899",
+   "title": "Sayidova Lola Abdurayimovnaning dissertatsiya himoyasisiz seleksiya yutug‘i (ixtiro patenti) asosida falsafa doktori (PhD) ilmiy darajasini berish bo‘yicha e’lon"
+  },
+  {
+   "t": "2026-10-27T11:56:12.725096+00:00",
+   "url": "https://oak.uz/pages/33900",
+   "title": "Ortiqboev Nurmuhammad Ulug‘bek o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T11:56:20.984443+00:00",
+   "url": "https://oak.uz/pages/33901",
+   "title": "Hoshimov Sirojiddin Quroqboevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T11:56:29.137662+00:00",
+   "url": "https://oak.uz/pages/33902",
+   "title": "Mo‘minjonov Sanjarbek Ravshanjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T11:56:37.433134+00:00",
+   "url": "https://oak.uz/pages/33903",
+   "title": "Maxamadaminov Sharofiddin Jalalovichning dissertatsiya himoyasisiz seleksiya yutug‘i (ixtiro patenti) asosida falsafa doktori (PhD) ilmiy darajasini berish bo‘yicha e’lon"
+  },
+  {
+   "t": "2026-10-27T11:56:56.020671+00:00",
+   "url": "https://oak.uz/pages/33904",
+   "title": "To‘ychiev Shuxrat Shavkatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T11:57:04.511330+00:00",
+   "url": "https://oak.uz/pages/33905",
+   "title": "Dustkulov Ulugbek Erkaboevichning dissertatsiya himoyasisiz seleksiya yutug‘i (ixtiro patenti) asosida falsafa doktori (PhD) ilmiy darajasini berish bo‘yicha e’lon"
   }
  ],
  "queue": 0,
@@ -4775,7 +4783,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T11:52:11.930156+00:00",
+ "last_run": "2026-10-27T11:57:08.518705+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10285,6 +10293,54 @@
    "m": 3990,
    "p": 1,
    "f": 3991,
+   "d": "2026-10-27"
+  },
+  "33898": {
+   "m": 3992,
+   "p": 1,
+   "f": 3993,
+   "d": "2026-10-27"
+  },
+  "33899": {
+   "m": 3994,
+   "p": 1,
+   "f": 3995,
+   "d": "2026-10-27"
+  },
+  "33900": {
+   "m": 3996,
+   "p": 1,
+   "f": 3997,
+   "d": "2026-10-27"
+  },
+  "33901": {
+   "m": 3998,
+   "p": 1,
+   "f": 3999,
+   "d": "2026-10-27"
+  },
+  "33902": {
+   "m": 4000,
+   "p": 1,
+   "f": 4001,
+   "d": "2026-10-27"
+  },
+  "33903": {
+   "m": 4002,
+   "p": 1,
+   "f": 4003,
+   "d": "2026-10-27"
+  },
+  "33904": {
+   "m": 4004,
+   "p": 1,
+   "f": 4005,
+   "d": "2026-10-27"
+  },
+  "33905": {
+   "m": 4006,
+   "p": 1,
+   "f": 4007,
    "d": "2026-10-27"
   }
  }
