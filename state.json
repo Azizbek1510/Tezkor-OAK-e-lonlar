@@ -3655,7 +3655,13 @@
   928350,
   928351,
   928355,
-  928356
+  928356,
+  928369,
+  928370,
+  928373,
+  928374,
+  928377,
+  928378
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4588,27 +4594,15 @@
   "mengnorova muhayyo|PhD": "2026-10-27",
   "hudoyqulova feruza|PhD": "2026-10-27",
   "kamolov bahtiyor|PhD": "2026-10-27",
-  "ernazarov dilmurod|DSc": "2026-10-27"
+  "ernazarov dilmurod|DSc": "2026-10-27",
+  "boboeva mohinur|PhD": "2026-10-27",
+  "abduvahabva mahina|DSc": "2026-10-27",
+  "mardanova barno|PhD": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T07:00:50.625435+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T07:04:16.783675+00:00",
-   "url": "https://uza.uz/oz/posts/holmirzaev-muhsin-shavqiddin-oglining-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928312",
-   "title": "Xolmirzayev Muhsin Shavqiddin o‘g‘lining yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T07:04:25.023337+00:00",
-   "url": "https://uza.uz/oz/posts/hodzhametova-gulchira-ilishevnaning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928315",
-   "title": "Xodjametova Gulchira Ilishevnaning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T07:05:56.747124+00:00",
-   "url": "https://uza.uz/oz/posts/bekimbetov-konisbay-mirzabaevichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928317",
-   "title": "Bekimbetov Konisbay Mirzabayevichning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-27T07:06:04.861327+00:00",
    "url": "https://uza.uz/oz/posts/adizova-dilnavoz-rizoqulovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928321",
@@ -4643,20 +4637,35 @@
    "t": "2026-10-27T07:16:04.630057+00:00",
    "url": "https://uza.uz/oz/posts/ernazarov-dilmurod-zuxriddinovichning-siyosiy-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928355",
    "title": "Ernazarov Dilmurod Zuxriddinovichning siyosiy fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:20:55.558073+00:00",
+   "url": "https://uza.uz/oz/posts/boboeva-moxinur-muzaffarzhon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928369",
+   "title": "Boboyeva Moxinur Muzaffarjon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:21:02.339623+00:00",
+   "url": "https://uza.uz/oz/posts/abduvaxabova-maxina-azatovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928373",
+   "title": "Abduvaxabova Maxina Azatovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:21:09.558610+00:00",
+   "url": "https://uza.uz/oz/posts/mardanova-barno-asatulloevnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928377",
+   "title": "Mardanova Barno Asatulloyevnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T07:16:08.639784+00:00",
+ "last_run": "2026-10-27T07:21:13.572120+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9800,6 +9809,24 @@
    "m": 3868,
    "p": 1,
    "f": 3869,
+   "d": "2026-10-27"
+  },
+  "u928369": {
+   "m": 3870,
+   "p": 1,
+   "f": 3871,
+   "d": "2026-10-27"
+  },
+  "u928373": {
+   "m": 3872,
+   "p": 1,
+   "f": 3873,
+   "d": "2026-10-27"
+  },
+  "u928377": {
+   "m": 3874,
+   "p": 1,
+   "f": 3875,
    "d": "2026-10-27"
   }
  }
