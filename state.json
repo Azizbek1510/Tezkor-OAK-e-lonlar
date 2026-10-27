@@ -3599,7 +3599,13 @@
   928242,
   928243,
   928245,
-  928246
+  928246,
+  928249,
+  928250,
+  928251,
+  928252,
+  928253,
+  928254
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4504,27 +4510,15 @@
   "rahmonalieva nilufarhon|PhD": "2026-10-27",
   "zaripova maftuna|PhD": "2026-10-27",
   "mavlonova bahtigul|PhD": "2026-10-27",
-  "mamayoqubova shahlo|PhD": "2026-10-27"
+  "mamayoqubova shahlo|PhD": "2026-10-27",
+  "abdullaev madiyar|PhD": "2026-10-27",
+  "ergashev firuz|PhD": "2026-10-27",
+  "ali ahunov|PhD": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T06:00:49.098505+00:00",
  "recent": [
-  {
-   "t": "2026-10-26T14:11:20.325752+00:00",
-   "url": "https://oak.uz/pages/33861",
-   "title": "Abduraximov Sadulla Nabievichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-26T14:21:01.698902+00:00",
-   "url": "https://oak.uz/pages/33862",
-   "title": "Umarova Marjona Furqatovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-26T14:21:12.225856+00:00",
-   "url": "https://oak.uz/pages/33863",
-   "title": "Alisherova Zuhra Tolib qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-26T14:21:21.765656+00:00",
    "url": "https://oak.uz/pages/33864",
@@ -4559,6 +4553,21 @@
    "t": "2026-10-27T06:26:06.201740+00:00",
    "url": "https://uza.uz/oz/posts/mamayoqubova-shahlo-obloqulovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928245",
    "title": "Mamayoqubova Shahlo Obloqulovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T06:31:02.739647+00:00",
+   "url": "https://uza.uz/oz/posts/abdullaev-madiyar-daniyar-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928249",
+   "title": "Abdullayev Madiyar Daniyar o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T06:31:09.449295+00:00",
+   "url": "https://uza.uz/oz/posts/ergashev-firuz-faxritdinovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928251",
+   "title": "Ergashev Firuz Faxritdinovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T06:31:16.613793+00:00",
+   "url": "https://uza.uz/oz/posts/ali-axunov-amirzhon-aminzhonovichning-kimyo-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928253",
+   "title": "Ali-Axunov Amirjon Aminjonovichning kimyo fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -4572,7 +4581,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T06:26:10.211766+00:00",
+ "last_run": "2026-10-27T06:31:20.625921+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9548,6 +9557,24 @@
    "m": 3812,
    "p": 1,
    "f": 3813,
+   "d": "2026-10-27"
+  },
+  "u928249": {
+   "m": 3814,
+   "p": 1,
+   "f": 3815,
+   "d": "2026-10-27"
+  },
+  "u928251": {
+   "m": 3816,
+   "p": 1,
+   "f": 3817,
+   "d": "2026-10-27"
+  },
+  "u928253": {
+   "m": 3818,
+   "p": 1,
+   "f": 3819,
    "d": "2026-10-27"
   }
  }
