@@ -3667,7 +3667,9 @@
   928386,
   928387,
   928392,
-  928393
+  928393,
+  928396,
+  928397
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4606,17 +4608,13 @@
   "mardanova barno|PhD": "2026-10-27",
   "berdiyorova nilufar|PhD": "2026-10-27",
   "nuriddinov kamoliddin|PhD": "2026-10-27",
-  "ahmedova vazirahon|PhD": "2026-10-27"
+  "ahmedova vazirahon|PhD": "2026-10-27",
+  "primova nigora|DSc": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T07:00:50.625435+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T07:11:14.478353+00:00",
-   "url": "https://uza.uz/oz/posts/mengnorova-muhayyo-abdurahmanovnaning-qishloq-xozhaligi-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928339",
-   "title": "Mengnorova Muhayyo Abdurahmanovnaning qishloq xo‘jaligi fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-27T07:11:21.932152+00:00",
    "url": "https://uza.uz/oz/posts/hudoyqulova-feruza-samadovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928344",
@@ -4661,6 +4659,11 @@
    "t": "2026-10-27T07:31:09.307071+00:00",
    "url": "https://uza.uz/oz/posts/axmedova-vaziraxon-tursunboevnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928392",
    "title": "Axmedova Vaziraxon Tursunboyevnaning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:36:01.335178+00:00",
+   "url": "https://uza.uz/oz/posts/primova-nigora-ikrom-qizining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928396",
+   "title": "Primova Nigora Ikrom qizining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -4674,7 +4677,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T07:31:13.320413+00:00",
+ "last_run": "2026-10-27T07:36:05.348055+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9854,6 +9857,12 @@
    "m": 3880,
    "p": 1,
    "f": 3881,
+   "d": "2026-10-27"
+  },
+  "u928396": {
+   "m": 3882,
+   "p": 1,
+   "f": 3883,
    "d": "2026-10-27"
   }
  }
