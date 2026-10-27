@@ -3639,7 +3639,11 @@
   928312,
   928313,
   928315,
-  928316
+  928316,
+  928317,
+  928318,
+  928321,
+  928322
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4564,22 +4568,14 @@
   "egamov nazirbek|PhD": "2026-10-27",
   "halilov shohruh|PhD": "2026-10-27",
   "holmirzaev muhsin|PhD": "2026-10-27",
-  "hodjametova gulchira|DSc": "2026-10-27"
+  "hodjametova gulchira|DSc": "2026-10-27",
+  "bekimbetov konisbay|PhD": "2026-10-27",
+  "adizova dilnavoz|DSc": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T07:00:50.625435+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T06:51:09.618871+00:00",
-   "url": "https://uza.uz/oz/posts/yakubova-nazokatxon-halilovnaning-kimyo-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928282",
-   "title": "Yakubova Nazokatxon Xalilovnaning kimyo fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T06:51:17.872126+00:00",
-   "url": "https://uza.uz/oz/posts/ishimov-uchqun-jomurodivichning-kimyo-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928284",
-   "title": "Ishimov Uchqun Jomurodivichning kimyo fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-27T06:55:53.580996+00:00",
    "url": "https://uza.uz/oz/posts/usmanov-zayniddin-holiqovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928288",
@@ -4619,20 +4615,30 @@
    "t": "2026-10-27T07:04:25.023337+00:00",
    "url": "https://uza.uz/oz/posts/hodzhametova-gulchira-ilishevnaning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928315",
    "title": "Xodjametova Gulchira Ilishevnaning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:05:56.747124+00:00",
+   "url": "https://uza.uz/oz/posts/bekimbetov-konisbay-mirzabaevichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928317",
+   "title": "Bekimbetov Konisbay Mirzabayevichning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:06:04.861327+00:00",
+   "url": "https://uza.uz/oz/posts/adizova-dilnavoz-rizoqulovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928321",
+   "title": "Adizova Dilnavoz Rizoqulovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 12,
+  "found": 4,
   "found_oak": 0,
-  "posted": 6,
-  "dups": 6,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T07:04:29.035587+00:00",
+ "last_run": "2026-10-27T07:06:08.873814+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9728,6 +9734,18 @@
    "m": 3852,
    "p": 1,
    "f": 3853,
+   "d": "2026-10-27"
+  },
+  "u928317": {
+   "m": 3854,
+   "p": 1,
+   "f": 3855,
+   "d": "2026-10-27"
+  },
+  "u928321": {
+   "m": 3856,
+   "p": 1,
+   "f": 3857,
    "d": "2026-10-27"
   }
  }
