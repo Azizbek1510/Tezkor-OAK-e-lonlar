@@ -1831,7 +1831,8 @@
   33925,
   33926,
   33927,
-  33928
+  33928,
+  33929
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4748,11 +4749,6 @@
  "last_deep": "2026-10-27T12:00:49.817406+00:00",
  "recent": [
   {
-   "t": "2026-10-27T12:42:17.035155+00:00",
-   "url": "https://oak.uz/pages/33920",
-   "title": "Yuldashev Jamol Juraboevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-27T12:42:25.434621+00:00",
    "url": "https://oak.uz/pages/33921",
    "title": "Abdusattorov Sodiqjon Hakimjon o‘g‘li falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4796,6 +4792,11 @@
    "t": "2026-10-27T12:51:03.115601+00:00",
    "url": "https://oak.uz/pages/33928",
    "title": "Umarov Alixan Axmadovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T12:55:52.349670+00:00",
+   "url": "https://oak.uz/pages/33929",
+   "title": "Mirzaeva Aziza Zokir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -4809,7 +4810,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T12:51:07.121553+00:00",
+ "last_run": "2026-10-27T12:55:56.357154+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10511,6 +10512,12 @@
    "m": 4054,
    "p": 1,
    "f": 4055,
+   "d": "2026-10-27"
+  },
+  "33929": {
+   "m": 4056,
+   "p": 1,
+   "f": 4057,
    "d": "2026-10-27"
   }
  }
