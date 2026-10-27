@@ -1832,7 +1832,13 @@
   33926,
   33927,
   33928,
-  33929
+  33929,
+  33930,
+  33931,
+  33932,
+  33933,
+  33934,
+  33935
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4749,36 +4755,6 @@
  "last_deep": "2026-10-27T13:00:51.480106+00:00",
  "recent": [
   {
-   "t": "2026-10-27T12:42:25.434621+00:00",
-   "url": "https://oak.uz/pages/33921",
-   "title": "Abdusattorov Sodiqjon Hakimjon o‘g‘li falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T12:42:33.742555+00:00",
-   "url": "https://oak.uz/pages/33922",
-   "title": "Murodova Sadoqat Qo‘ziboevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T12:45:53.474382+00:00",
-   "url": "https://oak.uz/pages/33923",
-   "title": "Rustamov Voxidjon Arashovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T12:46:01.102213+00:00",
-   "url": "https://oak.uz/pages/33924",
-   "title": "Koraeva Zamiraxon Abdulxamidovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T12:46:08.535640+00:00",
-   "url": "https://oak.uz/pages/33925",
-   "title": "Bekmirzaev Islomjon Ibrohim o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T12:46:16.121220+00:00",
-   "url": "https://oak.uz/pages/33926",
-   "title": "Abdullaev Muzaffar Atajanovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-27T12:46:23.483071+00:00",
    "url": "https://oak.uz/pages/33927",
    "title": "Sultonova Dilnoza Dilshodovnaning Falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -4797,20 +4773,50 @@
    "t": "2026-10-27T12:55:52.349670+00:00",
    "url": "https://oak.uz/pages/33929",
    "title": "Mirzaeva Aziza Zokir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:05:50.945935+00:00",
+   "url": "https://oak.uz/pages/33930",
+   "title": "Fazilova Gulbaxar Xasanovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:05:58.403349+00:00",
+   "url": "https://oak.uz/pages/33931",
+   "title": "Shoev Mardonjon Ahmadjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:06:06.085887+00:00",
+   "url": "https://oak.uz/pages/33932",
+   "title": "Shanazarov Farrux Shodiyorovich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:06:13.852311+00:00",
+   "url": "https://oak.uz/pages/33933",
+   "title": "Mirzaeva Maftuna Murodillo qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:06:21.564514+00:00",
+   "url": "https://oak.uz/pages/33934",
+   "title": "Asmanova Chimnaz Arzikulovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T13:06:29.091742+00:00",
+   "url": "https://oak.uz/pages/33935",
+   "title": "Hasanov Ibrohim Ixtiyorovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 6,
+  "found_oak": 6,
+  "posted": 6,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T13:03:50.941245+00:00",
+ "last_run": "2026-10-27T13:06:33.099391+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10518,6 +10524,42 @@
    "m": 4056,
    "p": 1,
    "f": 4057,
+   "d": "2026-10-27"
+  },
+  "33930": {
+   "m": 4058,
+   "p": 1,
+   "f": 4059,
+   "d": "2026-10-27"
+  },
+  "33931": {
+   "m": 4060,
+   "p": 1,
+   "f": 4061,
+   "d": "2026-10-27"
+  },
+  "33932": {
+   "m": 4062,
+   "p": 1,
+   "f": 4063,
+   "d": "2026-10-27"
+  },
+  "33933": {
+   "m": 4064,
+   "p": 1,
+   "f": 4065,
+   "d": "2026-10-27"
+  },
+  "33934": {
+   "m": 4066,
+   "p": 1,
+   "f": 4067,
+   "d": "2026-10-27"
+  },
+  "33935": {
+   "m": 4068,
+   "p": 1,
+   "f": 4069,
    "d": "2026-10-27"
   }
  }
