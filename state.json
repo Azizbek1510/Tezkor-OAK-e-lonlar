@@ -1773,7 +1773,11 @@
   33867,
   33868,
   33869,
-  33870
+  33870,
+  33871,
+  33872,
+  33873,
+  33874
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4621,26 +4625,6 @@
  "last_deep": "2026-10-27T08:00:50.828891+00:00",
  "recent": [
   {
-   "t": "2026-10-27T07:21:09.558610+00:00",
-   "url": "https://uza.uz/oz/posts/mardanova-barno-asatulloevnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928377",
-   "title": "Mardanova Barno Asatulloyevnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T07:25:49.134385+00:00",
-   "url": "https://uza.uz/oz/posts/berdiyorova-nilufar-berdiyor-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928381",
-   "title": "Berdiyorova Nilufar Berdiyor qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T07:25:56.682644+00:00",
-   "url": "https://uza.uz/oz/posts/nuriddinov-kamoliddin-faxriddin-oglining-iqtosodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928386",
-   "title": "Nuriddinov Kamoliddin Faxriddin o‘g‘lining iqtosodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T07:31:09.307071+00:00",
-   "url": "https://uza.uz/oz/posts/axmedova-vaziraxon-tursunboevnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928392",
-   "title": "Axmedova Vaziraxon Tursunboyevnaning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-27T07:36:01.335178+00:00",
    "url": "https://uza.uz/oz/posts/primova-nigora-ikrom-qizining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928396",
    "title": "Primova Nigora Ikrom qizining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -4669,20 +4653,40 @@
    "t": "2026-10-27T08:51:33.819029+00:00",
    "url": "https://oak.uz/pages/33870",
    "title": "Jumaeva Sitora Tashpulatovnaning \\ falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T08:55:52.407763+00:00",
+   "url": "https://oak.uz/pages/33871",
+   "title": "Muxammedaminova Diyora Timurovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T08:56:00.374245+00:00",
+   "url": "https://oak.uz/pages/33872",
+   "title": "Orinbaev Jumabay Tileubaevichning falsafa doktori (PhD) dissertatsiyasini himoya qilish to‘g‘risida e’lon"
+  },
+  {
+   "t": "2026-10-27T08:56:07.209010+00:00",
+   "url": "https://oak.uz/pages/33873",
+   "title": "Turakulov Uygun Sagdullaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
+  },
+  {
+   "t": "2026-10-27T08:56:15.032474+00:00",
+   "url": "https://oak.uz/pages/33874",
+   "title": "Xasanova Nozimaxon Abdugafur qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
-  "found_oak": 5,
-  "posted": 5,
+  "found": 4,
+  "found_oak": 4,
+  "posted": 4,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T08:51:37.824631+00:00",
+ "last_run": "2026-10-27T08:56:19.038126+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9898,6 +9902,30 @@
    "m": 3892,
    "p": 1,
    "f": 3893,
+   "d": "2026-10-27"
+  },
+  "33871": {
+   "m": 3894,
+   "p": 1,
+   "f": 3895,
+   "d": "2026-10-27"
+  },
+  "33872": {
+   "m": 3896,
+   "p": 1,
+   "f": 3897,
+   "d": "2026-10-27"
+  },
+  "33873": {
+   "m": 3898,
+   "p": 0,
+   "f": 3899,
+   "d": "2026-10-27"
+  },
+  "33874": {
+   "m": 3900,
+   "p": 1,
+   "f": 3901,
    "d": "2026-10-27"
   }
  }
