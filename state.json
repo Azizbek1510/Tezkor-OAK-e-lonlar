@@ -3643,7 +3643,15 @@
   928317,
   928318,
   928321,
-  928322
+  928322,
+  928325,
+  928326,
+  928329,
+  928330,
+  928339,
+  928340,
+  928344,
+  928345
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4570,32 +4578,16 @@
   "holmirzaev muhsin|PhD": "2026-10-27",
   "hodjametova gulchira|DSc": "2026-10-27",
   "bekimbetov konisbay|PhD": "2026-10-27",
-  "adizova dilnavoz|DSc": "2026-10-27"
+  "adizova dilnavoz|DSc": "2026-10-27",
+  "hayriddinov shuhrat|PhD": "2026-10-27",
+  "muydinov erkin|DSc": "2026-10-27",
+  "mengnorova muhayyo|PhD": "2026-10-27",
+  "hudoyqulova feruza|PhD": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T07:00:50.625435+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T06:55:53.580996+00:00",
-   "url": "https://uza.uz/oz/posts/usmanov-zayniddin-holiqovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928288",
-   "title": "Usmanov Zayniddin Xoliqovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T06:56:03.067933+00:00",
-   "url": "https://uza.uz/oz/posts/erkinov-ilxomzhon-elmurodzhon-oglining-siyosiy-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928292",
-   "title": "Erkinov Ilxomjon Elmurodjon o‘g‘lining siyosiy fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T07:03:44.417541+00:00",
-   "url": "https://uza.uz/oz/posts/palvanova-nargiza-abdumuratovnaning-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928299",
-   "title": "Palvanova Nargiza Abdumuratovnaning falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T07:03:51.744055+00:00",
-   "url": "https://uza.uz/oz/posts/maxmudova-sadoqat-holmatovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928303",
-   "title": "Maxmudova Sadoqat Xolmatovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-27T07:04:00.296557+00:00",
    "url": "https://uza.uz/oz/posts/egamov-nazirbek-nurullaevichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928307",
@@ -4625,20 +4617,40 @@
    "t": "2026-10-27T07:06:04.861327+00:00",
    "url": "https://uza.uz/oz/posts/adizova-dilnavoz-rizoqulovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928321",
    "title": "Adizova Dilnavoz Rizoqulovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:10:59.135275+00:00",
+   "url": "https://uza.uz/oz/posts/hayriddinov-shuxrat-batirovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928325",
+   "title": "Xayriddinov Shuxrat Batirovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:11:06.650233+00:00",
+   "url": "https://uza.uz/oz/posts/muydinov-erkin-dzhamaldinovuchning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928329",
+   "title": "Muydinov Erkin Djamaldinovuchning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:11:14.478353+00:00",
+   "url": "https://uza.uz/oz/posts/mengnorova-muhayyo-abdurahmanovnaning-qishloq-xozhaligi-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928339",
+   "title": "Mengnorova Muhayyo Abdurahmanovnaning qishloq xo‘jaligi fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T07:11:21.932152+00:00",
+   "url": "https://uza.uz/oz/posts/hudoyqulova-feruza-samadovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928344",
+   "title": "Xudoyqulova Feruza Samadovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 8,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 4,
+  "dups": 4,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T07:06:08.873814+00:00",
+ "last_run": "2026-10-27T07:11:25.945000+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9746,6 +9758,30 @@
    "m": 3856,
    "p": 1,
    "f": 3857,
+   "d": "2026-10-27"
+  },
+  "u928325": {
+   "m": 3858,
+   "p": 1,
+   "f": 3859,
+   "d": "2026-10-27"
+  },
+  "u928329": {
+   "m": 3860,
+   "p": 1,
+   "f": 3861,
+   "d": "2026-10-27"
+  },
+  "u928339": {
+   "m": 3862,
+   "p": 1,
+   "f": 3863,
+   "d": "2026-10-27"
+  },
+  "u928344": {
+   "m": 3864,
+   "p": 1,
+   "f": 3865,
    "d": "2026-10-27"
   }
  }
