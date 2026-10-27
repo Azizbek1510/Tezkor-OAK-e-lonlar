@@ -3589,7 +3589,11 @@
   928040,
   928041,
   928042,
-  928043
+  928043,
+  928235,
+  928236,
+  928237,
+  928238
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4489,22 +4493,14 @@
   "mirjanova nargiza|PhD": "2026-10-26",
   "toshmatov alimardon|PhD": "2026-10-26",
   "suvanov husniddin|PhD": "2026-10-26",
-  "tilavoldiev otabek|PhD": "2026-10-26"
+  "tilavoldiev otabek|PhD": "2026-10-26",
+  "ishniyazov zohid|PhD": "2026-10-27",
+  "rahmonalieva nilufarhon|PhD": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T06:00:49.098505+00:00",
  "recent": [
-  {
-   "t": "2026-10-26T14:05:20.878881+00:00",
-   "url": "https://oak.uz/pages/33856",
-   "title": "Muxammadiev Suxrob Baxtiyor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-26T14:05:29.435081+00:00",
-   "url": "https://oak.uz/pages/33857",
-   "title": "Bovanova Umida Abduvahobovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-26T14:05:40.394733+00:00",
    "url": "https://oak.uz/pages/33858",
@@ -4544,20 +4540,30 @@
    "t": "2026-10-26T14:26:01.411004+00:00",
    "url": "https://oak.uz/pages/33865",
    "title": "Dadadjanova Feruza Muxammadyusupovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-27T06:20:54.051091+00:00",
+   "url": "https://uza.uz/oz/posts/ishniyazov-zoxid-normamatovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928235",
+   "title": "Ishniyazov Zoxid Normamatovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T06:21:00.970583+00:00",
+   "url": "https://uza.uz/oz/posts/rahmonalieva-nilufarxon-nodirzhon-qizining-kimyo-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928237",
+   "title": "Rahmonaliyeva Nilufarxon Nodirjon qizining kimyo fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T06:15:50.907307+00:00",
+ "last_run": "2026-10-27T06:21:04.983299+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -9504,6 +9510,18 @@
    "p": 1,
    "f": 3795,
    "d": "2026-10-26"
+  },
+  "u928235": {
+   "m": 3804,
+   "p": 1,
+   "f": 3805,
+   "d": "2026-10-27"
+  },
+  "u928237": {
+   "m": 3806,
+   "p": 1,
+   "f": 3807,
+   "d": "2026-10-27"
   }
  }
 }
