@@ -3731,7 +3731,13 @@
   928595,
   928596,
   928601,
-  928602
+  928602,
+  928605,
+  928606,
+  928610,
+  928611,
+  928612,
+  928613
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4690,27 +4696,15 @@
   "muhammadieva dilnavoz|PhD": "2026-10-27",
   "azizova nilufar|PhD": "2026-10-27",
   "abraeva mahliyo|PhD": "2026-10-27",
-  "saidov jahongir|DSc": "2026-10-27"
+  "saidov jahongir|DSc": "2026-10-27",
+  "tursunqulov golibjon|PhD": "2026-10-27",
+  "muhammadiev suhrob|PhD": "2026-10-27",
+  "tolipova bahtigul|DSc": "2026-10-27"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-27T11:00:53.714430+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T11:06:00.925680+00:00",
-   "url": "https://uza.uz/oz/posts/ismailov-husanboy-mahammadqosim-oglining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928560",
-   "title": "Ismailov Xusanboy Mahammadqosim o‘g‘lining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-27T11:11:02.174542+00:00",
-   "url": "https://uza.uz/oz/posts/ishanov-almat-adilxanovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-haqida_928566",
-   "title": "Ishanov Almat Adilxanovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida"
-  },
-  {
-   "t": "2026-10-27T11:11:16.413529+00:00",
-   "url": "https://uza.uz/oz/posts/saidova-kamola-halim-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928568",
-   "title": "Saidova Kamola Halim qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-27T11:16:02.310220+00:00",
    "url": "https://uza.uz/oz/posts/nasirova-naira-ravilevnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_928572",
@@ -4745,20 +4739,35 @@
    "t": "2026-10-27T11:31:10.093840+00:00",
    "url": "https://uza.uz/oz/posts/saidov-jahongir-egamberdievichning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928601",
    "title": "Saidov Jahongir Egamberdiyevichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T11:35:57.332684+00:00",
+   "url": "https://uza.uz/oz/posts/tursunqulov-golibzhon-shavkat-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928605",
+   "title": "Tursunqulov G‘olibjon Shavkat o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T11:36:05.900732+00:00",
+   "url": "https://uza.uz/oz/posts/muxammadiev-suxrob-baxtiyor-oglining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishining-himoyasi-togrisida_928610",
+   "title": "Muxammadiyev Suxrob Baxtiyor o‘g‘lining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishining himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-27T11:36:14.731608+00:00",
+   "url": "https://uza.uz/oz/posts/tolipova-baxtigul-farxodovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928612",
+   "title": "Tolipova Baxtigul Farxodovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 6,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-27T11:31:14.104160+00:00",
+ "last_run": "2026-10-27T11:36:18.744629+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10202,6 +10211,24 @@
    "m": 3968,
    "p": 1,
    "f": 3969,
+   "d": "2026-10-27"
+  },
+  "u928605": {
+   "m": 3970,
+   "p": 1,
+   "f": 3971,
+   "d": "2026-10-27"
+  },
+  "u928610": {
+   "m": 3972,
+   "p": 1,
+   "f": 3973,
+   "d": "2026-10-27"
+  },
+  "u928612": {
+   "m": 3974,
+   "p": 1,
+   "f": 3975,
    "d": "2026-10-27"
   }
  }
