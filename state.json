@@ -1911,7 +1911,10 @@
   34005,
   34006,
   34007,
-  34008
+  34008,
+  34009,
+  34010,
+  34011
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5017,21 +5020,6 @@
  "last_deep": "2026-10-28T11:00:55.108089+00:00",
  "recent": [
   {
-   "t": "2026-10-28T11:36:13.617989+00:00",
-   "url": "https://oak.uz/pages/34001",
-   "title": "Tillabaeva Guljahon Ilhomjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-28T11:36:21.872811+00:00",
-   "url": "https://oak.uz/pages/34002",
-   "title": "Tojieva Gavxar Yakubovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-28T11:36:30.570198+00:00",
-   "url": "https://oak.uz/pages/34003",
-   "title": "Toshboeva Odinaxon Elbek qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-28T11:36:39.010016+00:00",
    "url": "https://oak.uz/pages/34004",
    "title": "Xamdamova Malika Ilxamovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
@@ -5065,20 +5053,35 @@
    "t": "2026-10-28T11:37:37.277859+00:00",
    "url": "https://uza.uz/oz/posts/nasirullaeva-dildoraxon-hayrullaevnaning-pedagogika-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929235",
    "title": "Nasirullayeva Dildoraxon Xayrullayevnaning pedagogika fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T11:40:55.850475+00:00",
+   "url": "https://oak.uz/pages/34009",
+   "title": "Kurbanova Munisa Akbaralievna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T11:41:03.286187+00:00",
+   "url": "https://oak.uz/pages/34010",
+   "title": "Nyutonova Xilola Lochinbekovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T11:41:10.885628+00:00",
+   "url": "https://oak.uz/pages/34011",
+   "title": "Usmonova Zamira Jaxongirovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 13,
-  "found_oak": 9,
-  "posted": 11,
-  "dups": 2,
+  "found": 3,
+  "found_oak": 3,
+  "posted": 3,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T11:37:41.293019+00:00",
+ "last_run": "2026-10-28T11:41:14.893780+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -11638,6 +11641,24 @@
    "m": 4340,
    "p": 1,
    "f": 4341,
+   "d": "2026-10-28"
+  },
+  "34009": {
+   "m": 4342,
+   "p": 1,
+   "f": 4343,
+   "d": "2026-10-28"
+  },
+  "34010": {
+   "m": 4344,
+   "p": 1,
+   "f": 4345,
+   "d": "2026-10-28"
+  },
+  "34011": {
+   "m": 4346,
+   "p": 1,
+   "f": 4347,
    "d": "2026-10-28"
   }
  }
