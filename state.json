@@ -3933,7 +3933,9 @@
   929091,
   929092,
   929095,
-  929096
+  929096,
+  929097,
+  929098
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4947,17 +4949,13 @@
   "hamidullaev shohjahon|PhD": "2026-10-28",
   "ahtamova bibisora|PhD": "2026-10-28",
   "hidirova ogiloy|PhD": "2026-10-28",
-  "shomirzaev shavkat|PhD": "2026-10-28"
+  "shomirzaev shavkat|PhD": "2026-10-28",
+  "usmanov hodjiakbar|PhD": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T08:00:49.206395+00:00",
  "recent": [
-  {
-   "t": "2026-10-28T07:40:56.760168+00:00",
-   "url": "https://uza.uz/oz/posts/turdieva-gulnoza-sayfullaevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929063",
-   "title": "Turdiyeva Gulnoza Sayfullayevnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-28T07:46:01.879220+00:00",
    "url": "https://uza.uz/oz/posts/aytmuratova-gulayxan-uays-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929067",
@@ -5002,6 +5000,11 @@
    "t": "2026-10-28T08:46:00.265837+00:00",
    "url": "https://uza.uz/oz/posts/shomirzaev-shavkat-tursunovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929095",
    "title": "Shomirzayev Shavkat Tursunovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T08:50:55.303261+00:00",
+   "url": "https://uza.uz/oz/posts/usmanov-hodzhiakbar-islamovichning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929097",
+   "title": "Usmanov Xodjiakbar Islamovichning fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -5015,7 +5018,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T08:46:04.280566+00:00",
+ "last_run": "2026-10-28T08:50:59.318071+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -11341,6 +11344,12 @@
    "m": 4262,
    "p": 1,
    "f": 4263,
+   "d": "2026-10-28"
+  },
+  "u929097": {
+   "m": 4264,
+   "p": 1,
+   "f": 4265,
    "d": "2026-10-28"
   }
  }
