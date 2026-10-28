@@ -3873,7 +3873,11 @@
   928941,
   928942,
   928943,
-  928944
+  928944,
+  928948,
+  928949,
+  928950,
+  928951
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4857,22 +4861,14 @@
   "djumanov abdumalik|DSc": "2026-10-28",
   "babaev otabek|PhD": "2026-10-28",
   "hujaqulov abdulaziz|PhD": "2026-10-28",
-  "ismoilova gulruh|PhD": "2026-10-28"
+  "ismoilova gulruh|PhD": "2026-10-28",
+  "elmurodova dilnoza|PhD": "2026-10-28",
+  "adhamova yakubova|PhD": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T06:00:49.532329+00:00",
  "recent": [
-  {
-   "t": "2026-10-28T06:03:35.549094+00:00",
-   "url": "https://uza.uz/oz/posts/muxammadieva-farida-ruzimurodovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928913",
-   "title": "Muxammadiyeva Farida Ruzimurodovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T06:03:42.736843+00:00",
-   "url": "https://uza.uz/oz/posts/sharapov-zafar-abdunaemovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928922",
-   "title": "Sharapov Zafar Abdunayemovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-28T06:05:52.009701+00:00",
    "url": "https://uza.uz/oz/posts/shodmanova-shaxnoza-kurdashevnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928924",
@@ -4912,20 +4908,30 @@
    "t": "2026-10-28T06:21:07.368092+00:00",
    "url": "https://uza.uz/oz/posts/ismoilova-gulrux-ulugbekovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928943",
    "title": "Ismoilova Gulrux Ulug‘bekovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T06:31:06.873328+00:00",
+   "url": "https://uza.uz/oz/posts/elmurodova-dilnoza-shuhrat-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_928948",
+   "title": "Elmurodova Dilnoza Shuhrat qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
+  },
+  {
+   "t": "2026-10-28T06:31:14.148681+00:00",
+   "url": "https://uza.uz/oz/posts/adhamova-yakubova-madina-faxriddin-qiziing-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_928950",
+   "title": "Adhamova (Yakubova) Madina Faxriddin qiziing pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T06:25:51.657781+00:00",
+ "last_run": "2026-10-28T06:31:18.156788+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -11071,6 +11077,18 @@
    "m": 4202,
    "p": 1,
    "f": 4203,
+   "d": "2026-10-28"
+  },
+  "u928948": {
+   "m": 4204,
+   "p": 1,
+   "f": 4205,
+   "d": "2026-10-28"
+  },
+  "u928950": {
+   "m": 4206,
+   "p": 1,
+   "f": 4207,
    "d": "2026-10-28"
   }
  }
