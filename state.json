@@ -1890,7 +1890,12 @@
   33984,
   33985,
   33986,
-  33987
+  33987,
+  33988,
+  33989,
+  33990,
+  33991,
+  33992
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3945,7 +3950,9 @@
   929101,
   929102,
   929210,
-  929211
+  929211,
+  929212,
+  929213
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4962,42 +4969,13 @@
   "shomirzaev shavkat|PhD": "2026-10-28",
   "usmanov hodjiakbar|PhD": "2026-10-28",
   "kamalova elvira|DSc": "2026-10-28",
-  "yunusov nurzod|PhD": "2026-10-28"
+  "yunusov nurzod|PhD": "2026-10-28",
+  "kosimov husanboy|DSc": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T11:00:55.108089+00:00",
  "recent": [
-  {
-   "t": "2026-10-28T08:46:00.265837+00:00",
-   "url": "https://uza.uz/oz/posts/shomirzaev-shavkat-tursunovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929095",
-   "title": "Shomirzayev Shavkat Tursunovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T08:50:55.303261+00:00",
-   "url": "https://uza.uz/oz/posts/usmanov-hodzhiakbar-islamovichning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929097",
-   "title": "Usmanov Xodjiakbar Islamovichning fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T08:55:51.949250+00:00",
-   "url": "https://uza.uz/oz/posts/kamalova-elvira-abdusattarovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929101",
-   "title": "Kamalova Elvira Abdusattarovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T11:11:02.908149+00:00",
-   "url": "https://oak.uz/pages/33982",
-   "title": "Naimova Durdona Soxibovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-28T11:11:12.632234+00:00",
-   "url": "https://oak.uz/pages/33983",
-   "title": "Urazbaeva Sabohat Ortiqboevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-28T11:11:21.243115+00:00",
-   "url": "https://oak.uz/pages/33984",
-   "title": "Axmatova Zilola Egamkulovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-28T11:11:29.769022+00:00",
    "url": "https://oak.uz/pages/33985",
@@ -5017,20 +4995,50 @@
    "t": "2026-10-28T11:12:01.673160+00:00",
    "url": "https://uza.uz/oz/posts/yunusov-nurzodning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929210",
    "title": "Yunusov Nurzodning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T11:15:57.786802+00:00",
+   "url": "https://oak.uz/pages/33988",
+   "title": "Qalandarov Umidbek Ravshanbekovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-10-28T11:16:05.415611+00:00",
+   "url": "https://oak.uz/pages/33989",
+   "title": "Saboxiddinova Shahnoza Xojiakbar qizining falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T11:16:13.193478+00:00",
+   "url": "https://oak.uz/pages/33990",
+   "title": "Urazbaeva Umida Abdullaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T11:16:20.951021+00:00",
+   "url": "https://oak.uz/pages/33991",
+   "title": "Vaydulla Madinabonu Muxtasam qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T11:16:28.653776+00:00",
+   "url": "https://oak.uz/pages/33992",
+   "title": "Yangiboeva Dilnoza Abdurasul qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T11:16:36.639724+00:00",
+   "url": "https://uza.uz/oz/posts/kosimov-husanboy-haydarovichning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929212",
+   "title": "Kosimov Xusanboy Xaydarovichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
-  "found_oak": 6,
-  "posted": 7,
+  "found": 7,
+  "found_oak": 5,
+  "posted": 6,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T11:12:05.687961+00:00",
+ "last_run": "2026-10-28T11:16:40.652037+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -11410,6 +11418,42 @@
    "m": 4280,
    "p": 1,
    "f": 4281,
+   "d": "2026-10-28"
+  },
+  "33988": {
+   "m": 4282,
+   "p": 1,
+   "f": 4283,
+   "d": "2026-10-28"
+  },
+  "33989": {
+   "m": 4284,
+   "p": 1,
+   "f": 4285,
+   "d": "2026-10-28"
+  },
+  "33990": {
+   "m": 4286,
+   "p": 1,
+   "f": 4287,
+   "d": "2026-10-28"
+  },
+  "33991": {
+   "m": 4288,
+   "p": 1,
+   "f": 4289,
+   "d": "2026-10-28"
+  },
+  "33992": {
+   "m": 4290,
+   "p": 1,
+   "f": 4291,
+   "d": "2026-10-28"
+  },
+  "u929212": {
+   "m": 4292,
+   "p": 1,
+   "f": 4293,
    "d": "2026-10-28"
   }
  }
