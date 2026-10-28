@@ -3987,7 +3987,11 @@
   929233,
   929234,
   929235,
-  929236
+  929236,
+  929245,
+  929246,
+  929247,
+  929248
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5013,22 +5017,14 @@
   "ismayilov jumanazar|DSc": "2026-10-28",
   "qilichova nazokat|PhD": "2026-10-28",
   "mamadjanova nozima|DSc": "2026-10-28",
-  "nasirullaeva dildorahon|PhD": "2026-10-28"
+  "nasirullaeva dildorahon|PhD": "2026-10-28",
+  "shadmanova barno|PhD": "2026-10-28",
+  "tillaev saidbek|PhD": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T11:00:55.108089+00:00",
  "recent": [
-  {
-   "t": "2026-10-28T11:36:39.010016+00:00",
-   "url": "https://oak.uz/pages/34004",
-   "title": "Xamdamova Malika Ilxamovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-28T11:36:47.390526+00:00",
-   "url": "https://oak.uz/pages/34005",
-   "title": "Sagatova Shaxnoza Baxtiyorovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-28T11:37:03.627828+00:00",
    "url": "https://oak.uz/pages/34006",
@@ -5068,20 +5064,30 @@
    "t": "2026-10-28T11:41:10.885628+00:00",
    "url": "https://oak.uz/pages/34011",
    "title": "Usmonova Zamira Jaxongirovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T11:46:00.624791+00:00",
+   "url": "https://uza.uz/oz/posts/shadmanova-barno-zayliddinovnaning-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929245",
+   "title": "Shadmanova Barno Zayliddinovnaning geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T11:46:08.912463+00:00",
+   "url": "https://uza.uz/oz/posts/tillaev-saidbek-sobir-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929247",
+   "title": "Tillayev Saidbek Sobir o‘g‘lining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
-  "found_oak": 3,
-  "posted": 3,
-  "dups": 0,
+  "found": 4,
+  "found_oak": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T11:41:14.893780+00:00",
+ "last_run": "2026-10-28T11:46:12.920870+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -11659,6 +11665,18 @@
    "m": 4346,
    "p": 1,
    "f": 4347,
+   "d": "2026-10-28"
+  },
+  "u929245": {
+   "m": 4348,
+   "p": 1,
+   "f": 4349,
+   "d": "2026-10-28"
+  },
+  "u929247": {
+   "m": 4350,
+   "p": 1,
+   "f": 4351,
    "d": "2026-10-28"
   }
  }
