@@ -1961,7 +1961,8 @@
   34056,
   34057,
   34058,
-  34059
+  34059,
+  34060
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4078,7 +4079,15 @@
   929400,
   929401,
   929402,
-  929403
+  929403,
+  929404,
+  929405,
+  929406,
+  929407,
+  929408,
+  929409,
+  929410,
+  929411
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5125,37 +5134,16 @@
   "shayusupova munisa|PhD": "2026-10-28",
   "rahmatova gulmira|PhD": "2026-10-28",
   "hasanov ibrohim|PhD": "2026-10-28",
-  "seyfullaev allanazar|PhD": "2026-10-28"
+  "seyfullaev allanazar|PhD": "2026-10-28",
+  "erjanova gulchehra|PhD": "2026-10-28",
+  "ganiev salamat|PhD": "2026-10-28",
+  "ochilova oydinoy|DSc": "2026-10-28",
+  "taylyakova feruzahon|PhD": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T14:00:56.833931+00:00",
  "recent": [
-  {
-   "t": "2026-10-28T14:04:31.059660+00:00",
-   "url": "https://uza.uz/oz/posts/axmedova-anora-halbaevnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929386",
-   "title": "Axmedova Anora Xalbayevnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T14:04:42.260864+00:00",
-   "url": "https://uza.uz/oz/posts/kozimova-nigora-abduqahorovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929388",
-   "title": "Kozimova Nigora Abduqahorovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T14:04:50.565041+00:00",
-   "url": "https://uza.uz/oz/posts/muxamedova-muhayyo-karimovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929392",
-   "title": "Muxamedova Muhayyo Karimovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T14:05:50.916637+00:00",
-   "url": "https://oak.uz/pages/34058",
-   "title": "Ikromova Madinaxon Baxtiyorjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-28T14:05:58.923039+00:00",
-   "url": "https://uza.uz/oz/posts/sattarov-iskandar-abu-alievichning-fizika-matematika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929394",
-   "title": "Sattarov Iskandar Abu-Aliyevichning fizika-matematika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-28T14:10:58.087866+00:00",
    "url": "https://oak.uz/pages/34059",
@@ -5180,6 +5168,31 @@
    "t": "2026-10-28T14:11:33.251469+00:00",
    "url": "https://uza.uz/oz/posts/seyfullaev-allanazar-skenderbekovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929402",
    "title": "Seyfullayev Allanazar Skenderbekovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T14:15:55.792159+00:00",
+   "url": "https://oak.uz/pages/34060",
+   "title": "Nomanova Ma’rifat Abdillaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T14:16:03.847874+00:00",
+   "url": "https://uza.uz/oz/posts/erzhanova-gulchexra-medetbaevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929404",
+   "title": "Erjanova Gulchexra Medetbayevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T14:16:10.606681+00:00",
+   "url": "https://uza.uz/oz/posts/ganiev-salamat-tursunbaevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929406",
+   "title": "Ganiyev Salamat Tursunbayevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T14:16:18.510893+00:00",
+   "url": "https://uza.uz/oz/posts/ochilova-oydinoy-raxmiddinovnaning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929408",
+   "title": "Ochilova Oydinoy Raxmiddinovnaning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T14:16:25.640408+00:00",
+   "url": "https://uza.uz/oz/posts/taylyakova-feruzaxon-sultanovnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929410",
+   "title": "Taylyakova Feruzaxon Sultanovnaning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -5193,7 +5206,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T14:11:37.266919+00:00",
+ "last_run": "2026-10-28T14:16:29.655834+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -12179,6 +12192,36 @@
    "m": 4482,
    "p": 1,
    "f": 4483,
+   "d": "2026-10-28"
+  },
+  "34060": {
+   "m": 4484,
+   "p": 1,
+   "f": 4485,
+   "d": "2026-10-28"
+  },
+  "u929404": {
+   "m": 4486,
+   "p": 1,
+   "f": 4487,
+   "d": "2026-10-28"
+  },
+  "u929406": {
+   "m": 4488,
+   "p": 1,
+   "f": 4489,
+   "d": "2026-10-28"
+  },
+  "u929408": {
+   "m": 4490,
+   "p": 1,
+   "f": 4491,
+   "d": "2026-10-28"
+  },
+  "u929410": {
+   "m": 4492,
+   "p": 1,
+   "f": 4493,
    "d": "2026-10-28"
   }
  }
