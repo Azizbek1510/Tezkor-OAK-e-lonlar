@@ -1962,7 +1962,9 @@
   34057,
   34058,
   34059,
-  34060
+  34060,
+  34061,
+  34062
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4087,7 +4089,11 @@
   929408,
   929409,
   929410,
-  929411
+  929411,
+  929412,
+  929413,
+  929416,
+  929417
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5138,32 +5144,14 @@
   "erjanova gulchehra|PhD": "2026-10-28",
   "ganiev salamat|PhD": "2026-10-28",
   "ochilova oydinoy|DSc": "2026-10-28",
-  "taylyakova feruzahon|PhD": "2026-10-28"
+  "taylyakova feruzahon|PhD": "2026-10-28",
+  "abdimuratova nazira|PhD": "2026-10-28",
+  "qurbonov shuhrat|DSc": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T14:00:56.833931+00:00",
  "recent": [
-  {
-   "t": "2026-10-28T14:10:58.087866+00:00",
-   "url": "https://oak.uz/pages/34059",
-   "title": "Isroilova Navbahor Nurillo qizining falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-28T14:11:07.706457+00:00",
-   "url": "https://uza.uz/oz/posts/shayusupova-munisa-shaniyazovnaning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929396",
-   "title": "Shayusupova Munisa Shaniyazovnaning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T14:11:15.812089+00:00",
-   "url": "https://uza.uz/oz/posts/rahmatova-gulmira-nasillo-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929398",
-   "title": "Rahmatova Gulmira Nasillo qizining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T14:11:25.065245+00:00",
-   "url": "https://uza.uz/oz/posts/hasanov-ibrohim-ixtiyorovichning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929400",
-   "title": "Hasanov Ibrohim Ixtiyorovichning fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-28T14:11:33.251469+00:00",
    "url": "https://uza.uz/oz/posts/seyfullaev-allanazar-skenderbekovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929402",
@@ -5193,20 +5181,40 @@
    "t": "2026-10-28T14:16:25.640408+00:00",
    "url": "https://uza.uz/oz/posts/taylyakova-feruzaxon-sultanovnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929410",
    "title": "Taylyakova Feruzaxon Sultanovnaning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T14:21:03.315494+00:00",
+   "url": "https://oak.uz/pages/34061",
+   "title": "Alieva Shaxnoza Abduaziz qizining  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T14:21:11.658987+00:00",
+   "url": "https://oak.uz/pages/34062",
+   "title": "Alijonova Sevara Ulug‘bek qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T14:21:22.816783+00:00",
+   "url": "https://uza.uz/oz/posts/abdimuratova-nazira-kaniyazovnaning-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929412",
+   "title": "Abdimuratova Nazira Kaniyazovnaning geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T14:21:30.693309+00:00",
+   "url": "https://uza.uz/oz/posts/qurbonov-shuxrat-bekmetovichning-geografiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929416",
+   "title": "Qurbonov Shuxrat Bekmetovichning geografiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 9,
-  "found_oak": 1,
-  "posted": 5,
-  "dups": 4,
+  "found": 6,
+  "found_oak": 2,
+  "posted": 4,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T14:16:29.655834+00:00",
+ "last_run": "2026-10-28T14:21:34.710296+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -12222,6 +12230,30 @@
    "m": 4492,
    "p": 1,
    "f": 4493,
+   "d": "2026-10-28"
+  },
+  "34061": {
+   "m": 4494,
+   "p": 1,
+   "f": 4495,
+   "d": "2026-10-28"
+  },
+  "34062": {
+   "m": 4496,
+   "p": 1,
+   "f": 4497,
+   "d": "2026-10-28"
+  },
+  "u929412": {
+   "m": 4498,
+   "p": 1,
+   "f": 4499,
+   "d": "2026-10-28"
+  },
+  "u929416": {
+   "m": 4500,
+   "p": 1,
+   "f": 4501,
    "d": "2026-10-28"
   }
  }
