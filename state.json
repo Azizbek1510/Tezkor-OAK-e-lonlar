@@ -3897,7 +3897,13 @@
   929007,
   929008,
   929009,
-  929010
+  929010,
+  929012,
+  929013,
+  929014,
+  929015,
+  929016,
+  929017
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4893,27 +4899,15 @@
   "ergasheva dilafruz|PhD": "2026-10-28",
   "karimova munisa|PhD": "2026-10-28",
   "ahunbabaeva shahnoza|PhD": "2026-10-28",
-  "pulatova nigorahon|PhD": "2026-10-28"
+  "pulatova nigorahon|PhD": "2026-10-28",
+  "polatova zubayda|PhD": "2026-10-28",
+  "turdiev jamoliddin|PhD": "2026-10-28",
+  "nazarov holmurzo|DSc": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T07:00:48.656711+00:00",
  "recent": [
-  {
-   "t": "2026-10-28T06:35:51.001941+00:00",
-   "url": "https://uza.uz/oz/posts/kamilova-durdona-kozimdzhanovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928957",
-   "title": "Kamilova Durdona Kozimdjanovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T06:40:56.823570+00:00",
-   "url": "https://uza.uz/oz/posts/turaeva-nargiza-nasrullaevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928963",
-   "title": "Turayeva Nargiza Nasrullayevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-28T06:41:04.120629+00:00",
-   "url": "https://uza.uz/oz/posts/isamutdinov-ravshan-raxmonovichning-siyosiy-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928967",
-   "title": "Isamutdinov Ravshan Raxmonovichning siyosiy fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-28T06:51:00.678838+00:00",
    "url": "https://uza.uz/oz/posts/abduvaliev-anvar-arslanbekovichning-biologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928981",
@@ -4948,20 +4942,35 @@
    "t": "2026-10-28T07:11:09.961977+00:00",
    "url": "https://uza.uz/oz/posts/pulatova-nigoraxon-sobirovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929009",
    "title": "Pulatova Nigoraxon Sobirovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T07:16:02.004534+00:00",
+   "url": "https://uza.uz/oz/posts/polatova-zubayda-abduravupovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929012",
+   "title": "Po‘latova Zubayda Abduravupovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T07:16:11.695973+00:00",
+   "url": "https://uza.uz/oz/posts/turdiev-jamoliddin-pardaboy-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929014",
+   "title": "Turdiyev Jamoliddin Pardaboy o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T07:16:21.225483+00:00",
+   "url": "https://uza.uz/oz/posts/nazarov-holmurzo-tirkashevichning-geografiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929016",
+   "title": "Nazarov Xolmurzo Tirkashevichning geografiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T07:11:13.974651+00:00",
+ "last_run": "2026-10-28T07:16:25.239753+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -11179,6 +11188,24 @@
    "m": 4226,
    "p": 1,
    "f": 4227,
+   "d": "2026-10-28"
+  },
+  "u929012": {
+   "m": 4228,
+   "p": 1,
+   "f": 4229,
+   "d": "2026-10-28"
+  },
+  "u929014": {
+   "m": 4230,
+   "p": 1,
+   "f": 4231,
+   "d": "2026-10-28"
+  },
+  "u929016": {
+   "m": 4232,
+   "p": 1,
+   "f": 4233,
    "d": "2026-10-28"
   }
  }
