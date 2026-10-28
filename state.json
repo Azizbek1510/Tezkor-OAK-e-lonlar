@@ -3859,7 +3859,11 @@
   928922,
   928923,
   928924,
-  928925
+  928925,
+  928927,
+  928928,
+  928929,
+  928930
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4836,22 +4840,14 @@
   "zaripov mizrobjon|PhD": "2026-10-28",
   "muhammadieva farida|PhD": "2026-10-28",
   "sharapov zafar|PhD": "2026-10-28",
-  "shodmanova shahnoza|DSc": "2026-10-28"
+  "shodmanova shahnoza|DSc": "2026-10-28",
+  "hidirov ganisher|PhD": "2026-10-28",
+  "qulmurotov sohibjon|PhD": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T06:00:49.532329+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T14:50:54.225468+00:00",
-   "url": "https://oak.uz/pages/33978",
-   "title": "Nadirxanova Nozima Alisherovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-27T14:55:50.233662+00:00",
-   "url": "https://oak.uz/pages/33979",
-   "title": "Xalilova Nasiba Djamolovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-27T14:55:57.304652+00:00",
    "url": "https://oak.uz/pages/33980",
@@ -4891,20 +4887,30 @@
    "t": "2026-10-28T06:05:52.009701+00:00",
    "url": "https://uza.uz/oz/posts/shodmanova-shaxnoza-kurdashevnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928924",
    "title": "Shodmanova Shaxnoza Kurdashevnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T06:10:55.399505+00:00",
+   "url": "https://uza.uz/oz/posts/hidirov-ganisher-tozhimurodovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928927",
+   "title": "Xidirov G‘anisher Tojimurodovichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T06:11:03.610552+00:00",
+   "url": "https://uza.uz/oz/posts/qulmurotov-sohibzhon-jumaniyozovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928929",
+   "title": "Qulmurotov Sohibjon Jumaniyozovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 4,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T06:05:56.021039+00:00",
+ "last_run": "2026-10-28T06:11:07.621612+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -11008,6 +11014,18 @@
    "m": 4188,
    "p": 1,
    "f": 4189,
+   "d": "2026-10-28"
+  },
+  "u928927": {
+   "m": 4190,
+   "p": 1,
+   "f": 4191,
+   "d": "2026-10-28"
+  },
+  "u928929": {
+   "m": 4192,
+   "p": 1,
+   "f": 4193,
    "d": "2026-10-28"
   }
  }
