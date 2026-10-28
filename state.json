@@ -3849,7 +3849,11 @@
   928743,
   928744,
   928900,
-  928901
+  928901,
+  928907,
+  928908,
+  928911,
+  928912
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4821,22 +4825,14 @@
   "karimova mukaddashon|PhD": "2026-10-27",
   "rahmonova gulchehra|PhD": "2026-10-27",
   "oktamova durdona|PhD": "2026-10-27",
-  "sidiqov qosim|DSc": "2026-10-28"
+  "sidiqov qosim|DSc": "2026-10-28",
+  "umrzaqov islomjon|DSc": "2026-10-28",
+  "zaripov mizrobjon|PhD": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T05:00:52.184865+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T14:25:54.694894+00:00",
-   "url": "https://oak.uz/pages/33973",
-   "title": "Polvonov Farrux Ismoilovichning falsafa doktori (PhD) dissertatsiya himoyasi haqidagi e’lon"
-  },
-  {
-   "t": "2026-10-27T14:31:11.412229+00:00",
-   "url": "https://oak.uz/pages/33974",
-   "title": "Nabieva Firuza Odil qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-27T14:31:19.024252+00:00",
    "url": "https://oak.uz/pages/33975",
@@ -4876,20 +4872,30 @@
    "t": "2026-10-28T05:50:59.913535+00:00",
    "url": "https://uza.uz/oz/posts/sidiqov-qosim-abilovichning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928900",
    "title": "Sidiqov Qosim Abilovichning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T05:55:52.694115+00:00",
+   "url": "https://uza.uz/oz/posts/umrzaqov-islomzhon-isroilovichning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928907",
+   "title": "Umrzaqov Islomjon Isroilovichning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T05:56:00.309968+00:00",
+   "url": "https://uza.uz/oz/posts/zaripov-mizrobzhon-halim-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928911",
+   "title": "Zaripov Mizrobjon Xalim o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 4,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T05:51:03.924452+00:00",
+ "last_run": "2026-10-28T05:56:04.317984+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10963,6 +10969,18 @@
    "m": 4178,
    "p": 1,
    "f": 4179,
+   "d": "2026-10-28"
+  },
+  "u928907": {
+   "m": 4180,
+   "p": 1,
+   "f": 4181,
+   "d": "2026-10-28"
+  },
+  "u928911": {
+   "m": 4182,
+   "p": 1,
+   "f": 4183,
    "d": "2026-10-28"
   }
  }
