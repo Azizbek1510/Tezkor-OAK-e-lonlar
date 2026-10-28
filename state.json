@@ -3857,7 +3857,9 @@
   928913,
   928914,
   928922,
-  928923
+  928923,
+  928924,
+  928925
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -4833,17 +4835,13 @@
   "umrzaqov islomjon|DSc": "2026-10-28",
   "zaripov mizrobjon|PhD": "2026-10-28",
   "muhammadieva farida|PhD": "2026-10-28",
-  "sharapov zafar|PhD": "2026-10-28"
+  "sharapov zafar|PhD": "2026-10-28",
+  "shodmanova shahnoza|DSc": "2026-10-28"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-28T06:00:49.532329+00:00",
  "recent": [
-  {
-   "t": "2026-10-27T14:41:04.434772+00:00",
-   "url": "https://oak.uz/pages/33977",
-   "title": "Ziyaev Mirjalol Olimovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-27T14:50:54.225468+00:00",
    "url": "https://oak.uz/pages/33978",
@@ -4888,20 +4886,25 @@
    "t": "2026-10-28T06:03:42.736843+00:00",
    "url": "https://uza.uz/oz/posts/sharapov-zafar-abdunaemovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_928922",
    "title": "Sharapov Zafar Abdunayemovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-28T06:05:52.009701+00:00",
+   "url": "https://uza.uz/oz/posts/shodmanova-shaxnoza-kurdashevnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_928924",
+   "title": "Shodmanova Shaxnoza Kurdashevnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 2,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T06:03:46.750939+00:00",
+ "last_run": "2026-10-28T06:05:56.021039+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -10999,6 +11002,12 @@
    "m": 4186,
    "p": 1,
    "f": 4187,
+   "d": "2026-10-28"
+  },
+  "u928924": {
+   "m": 4188,
+   "p": 1,
+   "f": 4189,
    "d": "2026-10-28"
   }
  }
