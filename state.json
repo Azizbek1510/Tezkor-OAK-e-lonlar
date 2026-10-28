@@ -1954,7 +1954,11 @@
   34049,
   34050,
   34051,
-  34052
+  34052,
+  34053,
+  34054,
+  34055,
+  34056
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5095,26 +5099,6 @@
  "last_deep": "2026-10-28T13:00:57.310329+00:00",
  "recent": [
   {
-   "t": "2026-10-28T13:11:41.427005+00:00",
-   "url": "https://oak.uz/pages/34045",
-   "title": "Turakulova Shaxnoza Daminovnaning falsafa doktori (PhD) dissertatsiyasi imoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-28T13:12:02.098159+00:00",
-   "url": "https://oak.uz/pages/34046",
-   "title": "Toshboev Jamshid Eshboevich"
-  },
-  {
-   "t": "2026-10-28T13:12:10.020158+00:00",
-   "url": "https://oak.uz/pages/34047",
-   "title": "Astanov Axunjon Raubovich"
-  },
-  {
-   "t": "2026-10-28T13:12:18.048025+00:00",
-   "url": "https://uza.uz/oz/posts/maksudova-lyudmila-alekseevnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929308",
-   "title": "Maksudova Lyudmila Alekseyevnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-28T13:12:27.759193+00:00",
    "url": "https://uza.uz/oz/posts/raxmatov-sanat-sultonovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929310",
    "title": "Raxmatov San’at Sultonovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -5143,20 +5127,40 @@
    "t": "2026-10-28T13:46:25.796929+00:00",
    "url": "https://oak.uz/pages/34052",
    "title": "Raximova Nodira Kamolovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T13:51:01.537300+00:00",
+   "url": "https://oak.uz/pages/34053",
+   "title": "Quranbaeva Gulianbar Umirbek qizining falsafa doktori (PhD) dissertatsiyasining himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T13:51:09.796863+00:00",
+   "url": "https://oak.uz/pages/34054",
+   "title": "Muxammedova Sumbul Ikrombek qizining Falsafa doktori (PhD) dissertatsiyasining himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T13:51:17.851990+00:00",
+   "url": "https://oak.uz/pages/34055",
+   "title": "Yuldashev Elyor Muxammedovichning falsafa doktori (PhD) dissertatsiyasining himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-28T13:51:26.932236+00:00",
+   "url": "https://oak.uz/pages/34056",
+   "title": "Ro‘zimova Guli Shuhratovnaning falsafa doktori (PhD) dissertatsiyasining himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
-  "found_oak": 5,
-  "posted": 5,
+  "found": 4,
+  "found_oak": 4,
+  "posted": 4,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-28T13:46:29.802970+00:00",
+ "last_run": "2026-10-28T13:51:30.940320+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -12040,6 +12044,30 @@
    "m": 4448,
    "p": 1,
    "f": 4449,
+   "d": "2026-10-28"
+  },
+  "34053": {
+   "m": 4450,
+   "p": 1,
+   "f": 4451,
+   "d": "2026-10-28"
+  },
+  "34054": {
+   "m": 4452,
+   "p": 1,
+   "f": 4453,
+   "d": "2026-10-28"
+  },
+  "34055": {
+   "m": 4454,
+   "p": 1,
+   "f": 4455,
+   "d": "2026-10-28"
+  },
+  "34056": {
+   "m": 4456,
+   "p": 1,
+   "f": 4457,
    "d": "2026-10-28"
   }
  }
