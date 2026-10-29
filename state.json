@@ -4157,7 +4157,11 @@
   929805,
   929806,
   929808,
-  929809
+  929809,
+  929810,
+  929811,
+  929813,
+  929814
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5225,22 +5229,14 @@
   "husanova nafisa|PhD": "2026-10-29",
   "farmonova dildora|PhD": "2026-10-29",
   "ismatova mohigul|PhD": "2026-10-29",
-  "tilloeva shahlo|DSc": "2026-10-29"
+  "tilloeva shahlo|DSc": "2026-10-29",
+  "nadirhnova nozima|PhD": "2026-10-29",
+  "yang jie|PhD": "2026-10-29"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-29T10:00:51.960928+00:00",
  "recent": [
-  {
-   "t": "2026-10-29T10:03:52.740787+00:00",
-   "url": "https://uza.uz/oz/posts/talipov-alisher-kuchkorovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929765",
-   "title": "Talipov Alisher Kuchkorovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-29T10:04:01.270744+00:00",
-   "url": "https://uza.uz/oz/posts/holmanov-iskandar-nimatovichning-fizika-matematika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929768",
-   "title": "Xolmanov Iskandar Ni’matovichning fizika-matematika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-29T10:04:10.284013+00:00",
    "url": "https://uza.uz/oz/posts/boboyorov-bexruz-ixtiyor-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929775",
@@ -5280,20 +5276,30 @@
    "t": "2026-10-29T10:31:08.290435+00:00",
    "url": "https://uza.uz/oz/posts/tilloeva-shahlo-shavkatovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929808",
    "title": "Tilloyeva Shahlo Shavkatovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:35:47.548817+00:00",
+   "url": "https://uza.uz/oz/posts/nadirxanova-nozima-alisherovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929810",
+   "title": "Nadirxanova Nozima Alisherovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:35:54.127096+00:00",
+   "url": "https://uza.uz/oz/posts/yang-jiening-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929813",
+   "title": "Yang Jiyening iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 4,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-29T10:31:12.302790+00:00",
+ "last_run": "2026-10-29T10:35:58.140104+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -12615,6 +12621,18 @@
    "m": 4594,
    "p": 1,
    "f": 4595,
+   "d": "2026-10-29"
+  },
+  "u929810": {
+   "m": 4596,
+   "p": 1,
+   "f": 4597,
+   "d": "2026-10-29"
+  },
+  "u929813": {
+   "m": 4598,
+   "p": 1,
+   "f": 4599,
    "d": "2026-10-29"
   }
  }
