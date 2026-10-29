@@ -4248,7 +4248,13 @@
   929976,
   929977,
   929978,
-  929979
+  929979,
+  929980,
+  929981,
+  929984,
+  929985,
+  929988,
+  929989
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5355,27 +5361,15 @@
   "shaniyazov ilham|PhD": "2026-10-29",
   "saibov maruf|PhD": "2026-10-29",
   "amirov lochinbek|DSc": "2026-10-29",
-  "badriddinova dilnoza|PhD": "2026-10-29"
+  "badriddinova dilnoza|PhD": "2026-10-29",
+  "sadaddinov sharafaddin|PhD": "2026-10-29",
+  "egamberganova matluba|DSc": "2026-10-29",
+  "hojanazarova nazira|PhD": "2026-10-29"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-29T13:00:55.967656+00:00",
  "recent": [
-  {
-   "t": "2026-10-29T12:55:52.581895+00:00",
-   "url": "https://uza.uz/oz/posts/elyor-shakirovich-hozhamberdievning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929945",
-   "title": "Elyor Shakirovich Xojamberdiyevning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-29T12:55:59.959478+00:00",
-   "url": "https://uza.uz/oz/posts/halilova-nasiba-dzhamolovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929950",
-   "title": "Xalilova Nasiba Djamolovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-29T13:04:11.197855+00:00",
-   "url": "https://uza.uz/oz/posts/imomov-otamurod-normamatovichning-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929952",
-   "title": "Imomov Otamurod Normamatovichning falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-29T13:04:19.134047+00:00",
    "url": "https://uza.uz/oz/posts/ismatillaev-navrozbek-abduzhabbor-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929955",
@@ -5410,20 +5404,35 @@
    "t": "2026-10-29T13:16:11.203523+00:00",
    "url": "https://uza.uz/oz/posts/badriddinova-dilnoza-nazhmiddinovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929978",
    "title": "Badriddinova Dilnoza Najmiddinovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T13:21:02.744697+00:00",
+   "url": "https://uza.uz/oz/posts/sadaddinov-sharafaddin-haytboy-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929980",
+   "title": "Sadaddinov Sharafaddin Xaytboy o‘g‘lining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T13:21:11.442193+00:00",
+   "url": "https://uza.uz/oz/posts/egamberganova-matluba-jobborgonovnaning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929984",
+   "title": "Egamberganova Matluba Jobborgonovnaning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T13:21:19.734558+00:00",
+   "url": "https://uza.uz/oz/posts/hozhanazarova-nazira-omonzhonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929988",
+   "title": "Xo‘janazarova Nazira Omonjonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-29T13:16:15.219017+00:00",
+ "last_run": "2026-10-29T13:21:23.749865+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13045,6 +13054,24 @@
    "m": 4694,
    "p": 1,
    "f": 4695,
+   "d": "2026-10-29"
+  },
+  "u929980": {
+   "m": 4696,
+   "p": 1,
+   "f": 4697,
+   "d": "2026-10-29"
+  },
+  "u929984": {
+   "m": 4698,
+   "p": 1,
+   "f": 4699,
+   "d": "2026-10-29"
+  },
+  "u929988": {
+   "m": 4700,
+   "p": 1,
+   "f": 4701,
    "d": "2026-10-29"
   }
  }
