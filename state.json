@@ -4196,7 +4196,13 @@
   929887,
   929888,
   929890,
-  929891
+  929891,
+  929893,
+  929894,
+  929895,
+  929896,
+  929900,
+  929901
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5278,27 +5284,15 @@
   "abdusamatova nargiza|DSc": "2026-10-29",
   "asranbaeva munojathon|DSc": "2026-10-29",
   "tagaev odil|PhD": "2026-10-29",
-  "muhammedaminova diyora|PhD": "2026-10-29"
+  "muhammedaminova diyora|PhD": "2026-10-29",
+  "nurnazarova gulhayo|PhD": "2026-10-29",
+  "hudayberganov azamat|PhD": "2026-10-29",
+  "juraeva dilsora|DSc": "2026-10-29"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-29T12:00:51.749976+00:00",
  "recent": [
-  {
-   "t": "2026-10-29T11:11:05.575595+00:00",
-   "url": "https://oak.uz/pages/34101",
-   "title": "Usmanova Nilufar Avaz qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-29T11:11:12.824482+00:00",
-   "url": "https://oak.uz/pages/34102",
-   "title": "Abdimo‘minov Tog‘oynazar Abdinaxat o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-29T11:11:20.168473+00:00",
-   "url": "https://oak.uz/pages/34103",
-   "title": "Yormamatov Shohboz Zafar o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-29T11:11:27.899178+00:00",
    "url": "https://oak.uz/pages/34104",
@@ -5333,20 +5327,35 @@
    "t": "2026-10-29T12:11:10.591484+00:00",
    "url": "https://uza.uz/oz/posts/muxammedaminova-diyora-timurovnaning-tibbiyot-fanlari-boyicha-tibbiyot-fanlari-nomzodi-phd-dissertaciya-ishi-himoyasi-togrisida_929890",
    "title": "Muxammedaminova Diyora Timurovnaning tibbiyot fanlari bo‘yicha tibbiyot fanlari nomzodi (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T12:16:02.858502+00:00",
+   "url": "https://uza.uz/oz/posts/nurnazarova-gulhayo-oktamovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_929893",
+   "title": "Nurnazarova Gulhayo O‘ktamovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
+  },
+  {
+   "t": "2026-10-29T12:16:11.888470+00:00",
+   "url": "https://uza.uz/oz/posts/hudayberganov-azamat-hamzaevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929895",
+   "title": "Xudayberganov Azamat Hamzayevichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T12:16:23.720501+00:00",
+   "url": "https://uza.uz/oz/posts/juraeva-dilsora-nuriddinovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929900",
+   "title": "Jurayeva Dilsora Nuriddinovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
+  "posted": 3,
   "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-29T12:11:14.601563+00:00",
+ "last_run": "2026-10-29T12:16:27.734031+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -12818,6 +12827,24 @@
    "m": 4644,
    "p": 1,
    "f": 4645,
+   "d": "2026-10-29"
+  },
+  "u929893": {
+   "m": 4646,
+   "p": 1,
+   "f": 4647,
+   "d": "2026-10-29"
+  },
+  "u929895": {
+   "m": 4648,
+   "p": 1,
+   "f": 4649,
+   "d": "2026-10-29"
+  },
+  "u929900": {
+   "m": 4650,
+   "p": 1,
+   "f": 4651,
    "d": "2026-10-29"
   }
  }
