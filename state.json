@@ -2007,7 +2007,8 @@
   34102,
   34103,
   34104,
-  34105
+  34105,
+  34106
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5377,11 +5378,6 @@
  "last_deep": "2026-10-29T13:00:55.967656+00:00",
  "recent": [
   {
-   "t": "2026-10-29T13:04:36.213696+00:00",
-   "url": "https://uza.uz/oz/posts/saydamatova-dilafroz-hamidullo-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929964",
-   "title": "Saydamatova Dilafro‘z Xamidullo qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-10-29T13:05:47.903659+00:00",
    "url": "https://uza.uz/oz/posts/shaniyazov-ilxam-rashidovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929967",
    "title": "Shaniyazov Ilxam Rashidovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -5425,20 +5421,25 @@
    "t": "2026-10-29T13:26:04.596261+00:00",
    "url": "https://uza.uz/oz/posts/shavkatov-sherzod-shavkatovichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929995",
    "title": "Shavkatov Sherzod Shavkatovichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T13:45:55.630893+00:00",
+   "url": "https://oak.uz/pages/34106",
+   "title": "Achilova Risolat A’zamovnaning fanlari doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-29T13:40:57.001134+00:00",
+ "last_run": "2026-10-29T13:45:59.639556+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13090,6 +13091,12 @@
    "m": 4704,
    "p": 1,
    "f": 4705,
+   "d": "2026-10-29"
+  },
+  "34106": {
+   "m": 4706,
+   "p": 1,
+   "f": 4707,
    "d": "2026-10-29"
   }
  }
