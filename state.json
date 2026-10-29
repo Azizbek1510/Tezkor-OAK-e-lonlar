@@ -4151,7 +4151,11 @@
   929798,
   929799,
   929801,
-  929802
+  929802,
+  929803,
+  929804,
+  929805,
+  929806
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5216,22 +5220,14 @@
   "abdullaeva lola|DSc": "2026-10-29",
   "bekberdieva gulbahor|PhD": "2026-10-29",
   "aytieva sevara|DSc": "2026-10-29",
-  "husanova nafisa|PhD": "2026-10-29"
+  "husanova nafisa|PhD": "2026-10-29",
+  "farmonova dildora|PhD": "2026-10-29",
+  "ismatova mohigul|PhD": "2026-10-29"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-29T10:00:51.960928+00:00",
  "recent": [
-  {
-   "t": "2026-10-29T09:55:50.591023+00:00",
-   "url": "https://uza.uz/oz/posts/saydaliev-oktam-toshboevichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929759",
-   "title": "Saydaliyev O‘ktam Toshboyevichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-29T09:55:58.219133+00:00",
-   "url": "https://uza.uz/oz/posts/sheralieva-nodiraxon-abduvoxid-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929761",
-   "title": "Sheraliyeva Nodiraxon Abduvoxid qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-29T09:56:05.376005+00:00",
    "url": "https://uza.uz/oz/posts/ubaydullaeva-madina-baxtiyorovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929763",
@@ -5271,20 +5267,30 @@
    "t": "2026-10-29T10:21:22.374797+00:00",
    "url": "https://uza.uz/oz/posts/husanova-nafisa-saydillaevnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929801",
    "title": "Xusanova Nafisa Saydillayevnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:25:55.507657+00:00",
+   "url": "https://uza.uz/oz/posts/farmonova-dildora-ashurovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929803",
+   "title": "Farmonova Dildora Ashurovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:26:04.595390+00:00",
+   "url": "https://uza.uz/oz/posts/ismatova-moxigul-tuyevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929805",
+   "title": "Ismatova Moxigul Tuyevnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-29T10:21:26.390522+00:00",
+ "last_run": "2026-10-29T10:26:08.612178+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -12588,6 +12594,18 @@
    "m": 4588,
    "p": 1,
    "f": 4589,
+   "d": "2026-10-29"
+  },
+  "u929803": {
+   "m": 4590,
+   "p": 1,
+   "f": 4591,
+   "d": "2026-10-29"
+  },
+  "u929805": {
+   "m": 4592,
+   "p": 1,
+   "f": 4593,
    "d": "2026-10-29"
   }
  }
