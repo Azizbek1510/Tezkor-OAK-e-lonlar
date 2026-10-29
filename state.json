@@ -4165,7 +4165,9 @@
   929822,
   929823,
   929833,
-  929834
+  929834,
+  929838,
+  929839
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5237,17 +5239,13 @@
   "nadirhnova nozima|PhD": "2026-10-29",
   "yang jie|PhD": "2026-10-29",
   "haydarov oybek|PhD": "2026-10-29",
-  "ziyaev sherali|PhD": "2026-10-29"
+  "ziyaev sherali|PhD": "2026-10-29",
+  "jabborov elbek|PhD": "2026-10-29"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-29T10:00:51.960928+00:00",
  "recent": [
-  {
-   "t": "2026-10-29T10:21:05.066891+00:00",
-   "url": "https://uza.uz/oz/posts/bekberdieva-gulbahor-ortiqalievnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929796",
-   "title": "Bekberdiyeva Gulbahor Ortiqaliyevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-29T10:21:14.112141+00:00",
    "url": "https://uza.uz/oz/posts/aytieva-sevara-allaberdievnaning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929798",
@@ -5292,6 +5290,11 @@
    "t": "2026-10-29T10:51:04.014079+00:00",
    "url": "https://uza.uz/oz/posts/ziyaev-sherali-abdulaziz-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929833",
    "title": "Ziyayev Sherali Abdulaziz o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:55:59.631869+00:00",
+   "url": "https://uza.uz/oz/posts/jabborov-elbek-erkin-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929838",
+   "title": "Jabborov Elbek Erkin o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -5305,7 +5308,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-29T10:51:08.030392+00:00",
+ "last_run": "2026-10-29T10:56:03.645100+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -12651,6 +12654,12 @@
    "m": 4602,
    "p": 1,
    "f": 4603,
+   "d": "2026-10-29"
+  },
+  "u929838": {
+   "m": 4604,
+   "p": 1,
+   "f": 4605,
    "d": "2026-10-29"
   }
  }
