@@ -4135,7 +4135,14 @@
   929761,
   929762,
   929763,
-  929764
+  929764,
+  929765,
+  929766,
+  929768,
+  929769,
+  929775,
+  929776,
+  929780
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5193,32 +5200,16 @@
   "esanov nuriddin|DSc": "2026-10-28",
   "saydaliev oktam|PhD": "2026-10-29",
   "sheralieva nodirahon|PhD": "2026-10-29",
-  "ubaydullaeva madina|PhD": "2026-10-29"
+  "ubaydullaeva madina|PhD": "2026-10-29",
+  "talipov alisher|PhD": "2026-10-29",
+  "holmanov iskandar|DSc": "2026-10-29",
+  "boboyorov behruz|PhD": "2026-10-29",
+  "abdullaeva lola|DSc": "2026-10-29"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-10-29T09:00:52.092225+00:00",
+ "last_deep": "2026-10-29T10:00:51.960928+00:00",
  "recent": [
-  {
-   "t": "2026-10-29T09:35:55.287987+00:00",
-   "url": "https://oak.uz/pages/34088",
-   "title": "Shamsieva Nasiba Fayzilloevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-29T09:36:02.913027+00:00",
-   "url": "https://oak.uz/pages/34089",
-   "title": "Atajonov Dilshod Ozodovichning Falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-29T09:36:10.217283+00:00",
-   "url": "https://oak.uz/pages/34090",
-   "title": "Nuriddinova Ziyoda Amriddin qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-29T09:36:17.480503+00:00",
-   "url": "https://oak.uz/pages/34091",
-   "title": "Abdullaeva Dilbar Olimjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-29T09:36:24.741434+00:00",
    "url": "https://oak.uz/pages/34092",
@@ -5248,20 +5239,40 @@
    "t": "2026-10-29T09:56:05.376005+00:00",
    "url": "https://uza.uz/oz/posts/ubaydullaeva-madina-baxtiyorovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929763",
    "title": "Ubaydullayeva Madina Baxtiyorovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:03:52.740787+00:00",
+   "url": "https://uza.uz/oz/posts/talipov-alisher-kuchkorovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929765",
+   "title": "Talipov Alisher Kuchkorovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:04:01.270744+00:00",
+   "url": "https://uza.uz/oz/posts/holmanov-iskandar-nimatovichning-fizika-matematika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929768",
+   "title": "Xolmanov Iskandar Ni’matovichning fizika-matematika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:04:10.284013+00:00",
+   "url": "https://uza.uz/oz/posts/boboyorov-bexruz-ixtiyor-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929775",
+   "title": "Boboyorov Bexruz Ixtiyor o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-29T10:04:17.635909+00:00",
+   "url": "https://uza.uz/oz/posts/abdullaeva-lola-sayfullaevnaning-tibbiyot-fanlari-boyicha-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_929780",
+   "title": "Abdullayeva Lola Sayfullayevnaning tibbiyot fanlari bo‘yicha tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 7,
   "found_oak": 0,
-  "posted": 3,
+  "posted": 4,
   "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-29T09:56:09.394113+00:00",
+ "last_run": "2026-10-29T10:04:21.644887+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -12523,6 +12534,30 @@
    "m": 4574,
    "p": 1,
    "f": 4575,
+   "d": "2026-10-29"
+  },
+  "u929765": {
+   "m": 4576,
+   "p": 1,
+   "f": 4577,
+   "d": "2026-10-29"
+  },
+  "u929768": {
+   "m": 4578,
+   "p": 1,
+   "f": 4579,
+   "d": "2026-10-29"
+  },
+  "u929775": {
+   "m": 4580,
+   "p": 1,
+   "f": 4581,
+   "d": "2026-10-29"
+  },
+  "u929780": {
+   "m": 4582,
+   "p": 1,
+   "f": 4583,
    "d": "2026-10-29"
   }
  }
