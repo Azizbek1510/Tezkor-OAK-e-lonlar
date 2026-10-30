@@ -5540,15 +5540,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 0,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T07:21:19.081890+00:00",
+ "last_run": "2026-10-30T07:25:52.088539+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
