@@ -2090,7 +2090,9 @@
   34188,
   34189,
   34190,
-  34191
+  34191,
+  34192,
+  34193
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4409,7 +4411,9 @@
   930625,
   930626,
   930627,
-  930628
+  930628,
+  930639,
+  930640
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5555,27 +5559,13 @@
   "qayumova kamola|PhD": "2026-10-30",
   "djuraev davron|PhD": "2026-10-30",
   "sirojova zarnigor|PhD": "2026-10-30",
-  "umbarov abduvohid|PhD": "2026-10-30"
+  "umbarov abduvohid|PhD": "2026-10-30",
+  "turaev bobur|PhD": "2026-10-30"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-30T12:40:34.623790+00:00",
  "recent": [
-  {
-   "t": "2026-10-30T12:21:25.532357+00:00",
-   "url": "https://oak.uz/pages/34185",
-   "title": "Muqumov Asqar Hamza o‘g‘li falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T12:21:33.317993+00:00",
-   "url": "https://oak.uz/pages/34186",
-   "title": "Salimjonov Xazrat Akramjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T12:21:56.056767+00:00",
-   "url": "https://oak.uz/pages/34187",
-   "title": "Xallieva Salima Mammatrasulovananing falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-30T12:22:03.521832+00:00",
    "url": "https://oak.uz/pages/34188",
@@ -5610,20 +5600,35 @@
    "t": "2026-10-30T12:31:20.022323+00:00",
    "url": "https://uza.uz/oz/posts/umbarov-abduvohid-uktam-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930627",
    "title": "Umbarov Abduvohid Uktam o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T12:55:50.813772+00:00",
+   "url": "https://oak.uz/pages/34192",
+   "title": "Mustanova Shaxnoza Rustamovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T12:55:57.909547+00:00",
+   "url": "https://oak.uz/pages/34193",
+   "title": "Kamalova Mahzuna Xusanovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T12:56:06.556200+00:00",
+   "url": "https://uza.uz/oz/posts/turaev-bobur-batir-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930639",
+   "title": "Turayev Bobur Batir o‘g‘lining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "found": 4,
+  "found_oak": 2,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T12:50:53.406886+00:00",
+ "last_run": "2026-10-30T12:56:10.569447+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13977,6 +13982,24 @@
    "m": 4938,
    "p": 1,
    "f": 4939,
+   "d": "2026-10-30"
+  },
+  "34192": {
+   "m": 4940,
+   "p": 1,
+   "f": 4941,
+   "d": "2026-10-30"
+  },
+  "34193": {
+   "m": 4942,
+   "p": 1,
+   "f": 4943,
+   "d": "2026-10-30"
+  },
+  "u930639": {
+   "m": 4944,
+   "p": 1,
+   "f": 4945,
    "d": "2026-10-30"
   }
  }
