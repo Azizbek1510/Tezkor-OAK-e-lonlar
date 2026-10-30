@@ -4279,7 +4279,11 @@
   930214,
   930215,
   930218,
-  930219
+  930219,
+  930220,
+  930221,
+  930224,
+  930225
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5399,22 +5403,14 @@
   "umarova zumradhon|PhD": "2026-10-30",
   "nabieva nodira|PhD": "2026-10-30",
   "hasanova sumanbar|DSc": "2026-10-30",
-  "holdorov sharof|PhD": "2026-10-30"
+  "holdorov sharof|PhD": "2026-10-30",
+  "ahmedov nasriddin|PhD": "2026-10-30",
+  "adizova gulnavoz|PhD": "2026-10-30"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-30T05:40:34.036290+00:00",
  "recent": [
-  {
-   "t": "2026-10-29T13:51:14.915824+00:00",
-   "url": "https://uza.uz/oz/posts/haydarova-nodirabegim-ahtamzhon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930018",
-   "title": "Haydarova Nodirabegim Ahtamjon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-29T13:55:52.931907+00:00",
-   "url": "https://oak.uz/pages/34109",
-   "title": "Kurbonova Surayyo Anvarovnaning  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-29T14:04:04.342344+00:00",
    "url": "https://oak.uz/pages/34110",
@@ -5454,20 +5450,30 @@
    "t": "2026-10-30T06:25:47.630609+00:00",
    "url": "https://uza.uz/oz/posts/holdorov-sharof-gulom-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930218",
    "title": "Xoldorov Sharof G‘ulom o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T06:31:09.393819+00:00",
+   "url": "https://uza.uz/oz/posts/axmedov-nasriddin-baxodirovichning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930220",
+   "title": "Axmedov Nasriddin Baxodirovichning fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T06:31:16.791884+00:00",
+   "url": "https://uza.uz/oz/posts/adizova-gulnavoz-farxodovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930224",
+   "title": "Adizova Gulnavoz Farxodovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 4,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T06:25:51.645082+00:00",
+ "last_run": "2026-10-30T06:31:20.808759+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13197,6 +13203,18 @@
    "m": 4730,
    "p": 1,
    "f": 4731,
+   "d": "2026-10-30"
+  },
+  "u930220": {
+   "m": 4732,
+   "p": 1,
+   "f": 4733,
+   "d": "2026-10-30"
+  },
+  "u930224": {
+   "m": 4734,
+   "p": 1,
+   "f": 4735,
    "d": "2026-10-30"
   }
  }
