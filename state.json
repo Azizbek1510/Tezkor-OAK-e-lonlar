@@ -4338,7 +4338,13 @@
   930329,
   930330,
   930333,
-  930334
+  930334,
+  930338,
+  930339,
+  930340,
+  930341,
+  930344,
+  930345
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5471,27 +5477,15 @@
   "qudratova sitora|PhD": "2026-10-30",
   "kaldibekov alibek|PhD": "2026-10-30",
   "ametova nurjamal|PhD": "2026-10-30",
-  "yuldashev temur|PhD": "2026-10-30"
+  "yuldashev temur|PhD": "2026-10-30",
+  "gapporov bahriddin|PhD": "2026-10-30",
+  "sohibova dilnoza|PhD": "2026-10-30",
+  "turniyozov azamat|PhD": "2026-10-30"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-30T06:40:36.076759+00:00",
  "recent": [
-  {
-   "t": "2026-10-30T07:12:26.107486+00:00",
-   "url": "https://uza.uz/oz/posts/kaldibekov-alibek-bolatbekovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930325",
-   "title": "Kaldibekov Alibek Bolatbekovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-30T07:15:58.618604+00:00",
-   "url": "https://oak.uz/pages/34138",
-   "title": "Klebleeva Guzal` Davlyatovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T07:16:06.180837+00:00",
-   "url": "https://oak.uz/pages/34139",
-   "title": "Qurbonboev Bunyodjon Ne’matillaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-30T07:16:14.154344+00:00",
    "url": "https://oak.uz/pages/34140",
@@ -5526,20 +5520,35 @@
    "t": "2026-10-30T07:17:13.167102+00:00",
    "url": "https://uza.uz/oz/posts/yuldashev-temur-malik-kaxramanovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930333",
    "title": "Yuldashev Temur-Malik Kaxramanovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T07:20:58.912757+00:00",
+   "url": "https://uza.uz/oz/posts/gapporov-baxriddin-baxtiyor-oglining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930338",
+   "title": "G‘apporov Baxriddin Baxtiyor o‘g‘lining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T07:21:07.477838+00:00",
+   "url": "https://uza.uz/oz/posts/soxibova-dilnoza-ergashevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930340",
+   "title": "Soxibova Dilnoza Ergashevnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T07:21:15.065021+00:00",
+   "url": "https://uza.uz/oz/posts/turniyozov-azamat-askarovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930344",
+   "title": "Turniyozov Azamat Askarovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 12,
-  "found_oak": 7,
-  "posted": 9,
+  "found": 6,
+  "found_oak": 0,
+  "posted": 3,
   "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T07:17:17.182811+00:00",
+ "last_run": "2026-10-30T07:21:19.081890+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13545,6 +13554,24 @@
    "m": 4822,
    "p": 1,
    "f": 4823,
+   "d": "2026-10-30"
+  },
+  "u930338": {
+   "m": 4824,
+   "p": 1,
+   "f": 4825,
+   "d": "2026-10-30"
+  },
+  "u930340": {
+   "m": 4826,
+   "p": 1,
+   "f": 4827,
+   "d": "2026-10-30"
+  },
+  "u930344": {
+   "m": 4828,
+   "p": 1,
+   "f": 4829,
    "d": "2026-10-30"
   }
  }
