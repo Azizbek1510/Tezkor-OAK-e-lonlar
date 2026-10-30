@@ -2012,7 +2012,12 @@
   34107,
   34108,
   34109,
-  34110
+  34110,
+  34112,
+  34113,
+  34114,
+  34115,
+  34116
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4291,7 +4296,9 @@
   930234,
   930235,
   930240,
-  930241
+  930241,
+  930244,
+  930245
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5417,42 +5424,13 @@
   "hamroeva dilfuza|PhD": "2026-10-30",
   "hikmatullaev ruhulla|DSc": "2026-10-30",
   "imamova aqida|PhD": "2026-10-30",
-  "matvapaeva nasiba|PhD": "2026-10-30"
+  "matvapaeva nasiba|PhD": "2026-10-30",
+  "matchanova sanobar|PhD": "2026-10-30"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-30T06:40:36.076759+00:00",
  "recent": [
-  {
-   "t": "2026-10-30T06:15:53.955832+00:00",
-   "url": "https://uza.uz/oz/posts/umarova-zumradxon-avazxon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930208",
-   "title": "Umarova Zumradxon Avazxon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-30T06:21:05.378524+00:00",
-   "url": "https://uza.uz/oz/posts/nabieva-nodira-saidovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930212",
-   "title": "Nabiyeva Nodira Saidovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-30T06:21:13.355794+00:00",
-   "url": "https://uza.uz/oz/posts/hasanova-sumanbar-hamroqulovnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_930214",
-   "title": "Hasanova Sumanbar Hamroqulovnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-30T06:25:47.630609+00:00",
-   "url": "https://uza.uz/oz/posts/holdorov-sharof-gulom-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930218",
-   "title": "Xoldorov Sharof G‘ulom o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-30T06:31:09.393819+00:00",
-   "url": "https://uza.uz/oz/posts/axmedov-nasriddin-baxodirovichning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930220",
-   "title": "Axmedov Nasriddin Baxodirovichning fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-30T06:31:16.791884+00:00",
-   "url": "https://uza.uz/oz/posts/adizova-gulnavoz-farxodovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930224",
-   "title": "Adizova Gulnavoz Farxodovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-30T06:43:19.274797+00:00",
    "url": "https://uza.uz/oz/posts/hamroeva-dilfuza-raxmatullaevnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930228",
@@ -5472,20 +5450,50 @@
    "t": "2026-10-30T06:43:39.357977+00:00",
    "url": "https://uza.uz/oz/posts/matvapaeva-nasiba-gayratovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930240",
    "title": "Matvapayeva Nasiba G‘ayratovnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T06:45:59.835992+00:00",
+   "url": "https://oak.uz/pages/34112",
+   "title": "Kamolova Umida Muzaffarovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-10-30T06:46:07.811429+00:00",
+   "url": "https://oak.uz/pages/34113",
+   "title": "Chuyanov Xurshid Uralovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T06:46:15.670676+00:00",
+   "url": "https://oak.uz/pages/34114",
+   "title": "Davletova Nilufar Ruzmetovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T06:46:23.415168+00:00",
+   "url": "https://oak.uz/pages/34115",
+   "title": "Jo‘raeva Surayyo Ibragimjonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T06:46:31.374832+00:00",
+   "url": "https://oak.uz/pages/34116",
+   "title": "Isroilova Dilbarxon Ikromdjonovnaning falsafa doktori (PhD dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T06:46:39.645772+00:00",
+   "url": "https://uza.uz/oz/posts/matchanova-sanobar-muxamedzhonovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930244",
+   "title": "Matchanova Sanobar Muxamedjonovnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
-  "found_oak": 0,
-  "posted": 4,
-  "dups": 4,
+  "found": 7,
+  "found_oak": 5,
+  "posted": 6,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T06:43:43.374251+00:00",
+ "last_run": "2026-10-30T06:46:43.661079+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13251,6 +13259,42 @@
    "m": 4742,
    "p": 1,
    "f": 4743,
+   "d": "2026-10-30"
+  },
+  "34112": {
+   "m": 4744,
+   "p": 1,
+   "f": 4745,
+   "d": "2026-10-30"
+  },
+  "34113": {
+   "m": 4746,
+   "p": 1,
+   "f": 4747,
+   "d": "2026-10-30"
+  },
+  "34114": {
+   "m": 4748,
+   "p": 1,
+   "f": 4749,
+   "d": "2026-10-30"
+  },
+  "34115": {
+   "m": 4750,
+   "p": 1,
+   "f": 4751,
+   "d": "2026-10-30"
+  },
+  "34116": {
+   "m": 4752,
+   "p": 1,
+   "f": 4753,
+   "d": "2026-10-30"
+  },
+  "u930244": {
+   "m": 4754,
+   "p": 1,
+   "f": 4755,
    "d": "2026-10-30"
   }
  }
