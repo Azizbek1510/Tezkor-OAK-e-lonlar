@@ -4271,7 +4271,9 @@
   930202,
   930203,
   930204,
-  930205
+  930205,
+  930208,
+  930209
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5387,17 +5389,13 @@
   "haydarova nodirabegim|PhD": "2026-10-29",
   "fazilova gulbahar|PhD": "2026-10-29",
   "rahmatova maftuna|PhD": "2026-10-30",
-  "ziyaeva hushnudabonu|PhD": "2026-10-30"
+  "ziyaeva hushnudabonu|PhD": "2026-10-30",
+  "umarova zumradhon|PhD": "2026-10-30"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-30T05:40:34.036290+00:00",
  "recent": [
-  {
-   "t": "2026-10-29T13:26:04.596261+00:00",
-   "url": "https://uza.uz/oz/posts/shavkatov-sherzod-shavkatovichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_929995",
-   "title": "Shavkatov Sherzod Shavkatovichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-10-29T13:45:55.630893+00:00",
    "url": "https://oak.uz/pages/34106",
@@ -5442,20 +5440,25 @@
    "t": "2026-10-30T06:11:01.759932+00:00",
    "url": "https://uza.uz/oz/posts/ziyaeva-hushnudabonu-ilxomzhon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930204",
    "title": "Ziyayeva Xushnudabonu Ilxomjon qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T06:15:53.955832+00:00",
+   "url": "https://uza.uz/oz/posts/umarova-zumradxon-avazxon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930208",
+   "title": "Umarova Zumradxon Avazxon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 2,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T06:11:05.776707+00:00",
+ "last_run": "2026-10-30T06:15:57.965521+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13161,6 +13164,12 @@
    "m": 4722,
    "p": 1,
    "f": 4723,
+   "d": "2026-10-30"
+  },
+  "u930208": {
+   "m": 4724,
+   "p": 1,
+   "f": 4725,
    "d": "2026-10-30"
   }
  }
