@@ -2045,7 +2045,8 @@
   34141,
   34142,
   34143,
-  34144
+  34144,
+  34146
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5496,11 +5497,6 @@
  "last_deep": "2026-10-30T10:40:34.934037+00:00",
  "recent": [
   {
-   "t": "2026-10-30T07:16:36.925597+00:00",
-   "url": "https://oak.uz/pages/34143",
-   "title": "Muhammadjonov Bahriddin Bahromjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-30T07:16:58.662287+00:00",
    "url": "https://oak.uz/pages/34144",
    "title": "Nurov Akobir Rizokulovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -5544,20 +5540,25 @@
    "t": "2026-10-30T07:35:56.872329+00:00",
    "url": "https://uza.uz/oz/posts/tolybekov-islambek-maxsetovichning-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930360",
    "title": "Tolibekov Islambek Maxsetovichning qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T11:01:16.033226+00:00",
+   "url": "https://oak.uz/pages/34146",
+   "title": "Xujakulov Axtam Pardaboevichning Fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T10:55:46.662152+00:00",
+ "last_run": "2026-10-30T11:01:20.040373+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13599,6 +13600,12 @@
    "m": 4834,
    "p": 1,
    "f": 4835,
+   "d": "2026-10-30"
+  },
+  "34146": {
+   "m": 4836,
+   "p": 1,
+   "f": 4837,
    "d": "2026-10-30"
   }
  }
