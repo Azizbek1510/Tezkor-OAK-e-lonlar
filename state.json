@@ -2117,7 +2117,14 @@
   34215,
   34216,
   34217,
-  34218
+  34218,
+  34219,
+  34220,
+  34221,
+  34222,
+  34223,
+  34224,
+  34225
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5610,41 +5617,6 @@
  "last_deep": "2026-10-30T12:40:34.623790+00:00",
  "recent": [
   {
-   "t": "2026-10-30T13:10:59.111205+00:00",
-   "url": "https://oak.uz/pages/34212",
-   "title": "Yakubxodjaeva Malika Razakovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T13:11:06.813839+00:00",
-   "url": "https://oak.uz/pages/34213",
-   "title": "Abdullaeva Barnoxon Umidullo qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T13:11:14.460102+00:00",
-   "url": "https://oak.uz/pages/34214",
-   "title": "Hotamova Dildora Komilovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T13:11:22.781203+00:00",
-   "url": "https://oak.uz/pages/34215",
-   "title": "Umurov Zarif Latifboevichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T13:11:30.287191+00:00",
-   "url": "https://oak.uz/pages/34216",
-   "title": "Oppoqxo‘jaev Xojixuja Azimjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T13:11:38.468076+00:00",
-   "url": "https://oak.uz/pages/34217",
-   "title": "Komolova Iqbol Adham qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T13:11:59.287434+00:00",
-   "url": "https://oak.uz/pages/34218",
-   "title": "Hazratqulova Ezoza Ismat qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-30T13:12:06.766863+00:00",
    "url": "https://uza.uz/oz/posts/salimova-malika-rashidbekovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930652",
    "title": "Salimova Malika Rashidbekovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -5658,6 +5630,41 @@
    "t": "2026-10-30T13:12:22.329100+00:00",
    "url": "https://uza.uz/oz/posts/saydalieva-mashhura-anvarzhon-qizi-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_930656",
    "title": "Saydaliyeva Mashhura Anvarjon qizi pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T13:15:59.455367+00:00",
+   "url": "https://oak.uz/pages/34219",
+   "title": "Ro‘zieva Dilyayra Nurmurodovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T13:16:07.894983+00:00",
+   "url": "https://oak.uz/pages/34220",
+   "title": "Valieva Muxayyo Salimovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T13:16:15.939095+00:00",
+   "url": "https://oak.uz/pages/34221",
+   "title": "Ruzieva Nigora Sapar qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T13:16:24.170505+00:00",
+   "url": "https://oak.uz/pages/34222",
+   "title": "Xasanova Mashxura Maxammadsidiqovnaning falsafa doktori (Phd) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T13:16:32.125515+00:00",
+   "url": "https://oak.uz/pages/34223",
+   "title": "Ruzieva Dilfuza Salimboevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T13:16:40.118774+00:00",
+   "url": "https://oak.uz/pages/34224",
+   "title": "Xabibullaeva Mahliyo Talab qizi falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T13:17:01.640790+00:00",
+   "url": "https://oak.uz/pages/34225",
+   "title": "Jumaeva Sadbarg Mirolimovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -14229,6 +14236,48 @@
    "m": 5006,
    "p": 1,
    "f": 5007,
+   "d": "2026-10-30"
+  },
+  "34219": {
+   "m": 5008,
+   "p": 1,
+   "f": 5009,
+   "d": "2026-10-30"
+  },
+  "34220": {
+   "m": 5010,
+   "p": 1,
+   "f": 5011,
+   "d": "2026-10-30"
+  },
+  "34221": {
+   "m": 5012,
+   "p": 1,
+   "f": 5013,
+   "d": "2026-10-30"
+  },
+  "34222": {
+   "m": 5014,
+   "p": 1,
+   "f": 5015,
+   "d": "2026-10-30"
+  },
+  "34223": {
+   "m": 5016,
+   "p": 1,
+   "f": 5017,
+   "d": "2026-10-30"
+  },
+  "34224": {
+   "m": 5018,
+   "p": 1,
+   "f": 5019,
+   "d": "2026-10-30"
+  },
+  "34225": {
+   "m": 5020,
+   "p": 1,
+   "f": 5021,
    "d": "2026-10-30"
   }
  }
