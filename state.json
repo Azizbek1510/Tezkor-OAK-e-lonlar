@@ -2030,7 +2030,15 @@
   34126,
   34127,
   34128,
-  34129
+  34129,
+  34130,
+  34131,
+  34132,
+  34133,
+  34134,
+  34135,
+  34136,
+  34137
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5448,46 +5456,6 @@
  "last_deep": "2026-10-30T06:40:36.076759+00:00",
  "recent": [
   {
-   "t": "2026-10-30T06:51:25.619084+00:00",
-   "url": "https://oak.uz/pages/34121",
-   "title": "Xolbutaeva Feruzabonu Bobirjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T06:51:33.119325+00:00",
-   "url": "https://oak.uz/pages/34122",
-   "title": "Begmatova Dilnoza Muxtarovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T06:51:56.110612+00:00",
-   "url": "https://oak.uz/pages/34123",
-   "title": "Zokirova Nargiza Akbarjonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T06:52:03.539392+00:00",
-   "url": "https://oak.uz/pages/34124",
-   "title": "Azamxonov Baxodir Sayitkamolxonovich falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T06:52:11.158138+00:00",
-   "url": "https://oak.uz/pages/34125",
-   "title": "Axtamova Laziza Azam qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T06:52:18.243279+00:00",
-   "url": "https://uza.uz/oz/posts/nurmetov-ismoil-alimbaevichning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_930252",
-   "title": "Nurmetov Ismoil Alimbayevichning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-10-30T06:55:55.338612+00:00",
-   "url": "https://oak.uz/pages/34126",
-   "title": "Xudoyberdieva Ra’no Arabboevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T07:01:11.519592+00:00",
-   "url": "https://oak.uz/pages/34127",
-   "title": "Musurmanov Ulug‘bek Amirqulovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-30T07:01:18.848564+00:00",
    "url": "https://oak.uz/pages/34128",
    "title": "Xudayberdiev Abdumadjid Abdujalilovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -5496,20 +5464,60 @@
    "t": "2026-10-30T07:01:26.346622+00:00",
    "url": "https://oak.uz/pages/34129",
    "title": "Kutlimuratova Aysuliw Baxit qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T07:05:50.298619+00:00",
+   "url": "https://oak.uz/pages/34130",
+   "title": "Berdimuratov Baxtiyar Tugelbay o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T07:05:57.774453+00:00",
+   "url": "https://oak.uz/pages/34131",
+   "title": "Orazimbetova Shaxsanem Amirbekovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T07:06:05.225852+00:00",
+   "url": "https://oak.uz/pages/34132",
+   "title": "Masharipova Umidaxon Xudayberganovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T07:06:12.705072+00:00",
+   "url": "https://oak.uz/pages/34133",
+   "title": "Fayzullaeva Zulfiya Saidovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
+  },
+  {
+   "t": "2026-10-30T07:06:20.126317+00:00",
+   "url": "https://oak.uz/pages/34134",
+   "title": "Mo‘minov Xolmatjon Maxammadsoli o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T07:06:27.498306+00:00",
+   "url": "https://oak.uz/pages/34135",
+   "title": "Nurmatov Akbar Normatovich fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T07:06:51.307633+00:00",
+   "url": "https://oak.uz/pages/34136",
+   "title": "Otamirzaev Otabek Murodulla o‘g‘lining falsafa doktori (Phd) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T07:06:58.636457+00:00",
+   "url": "https://oak.uz/pages/34137",
+   "title": "Boboxonov Sherzod Quchqor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
-  "found_oak": 3,
-  "posted": 3,
+  "found": 8,
+  "found_oak": 8,
+  "posted": 8,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T07:01:30.352269+00:00",
+ "last_run": "2026-10-30T07:07:02.641654+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13395,6 +13403,54 @@
    "m": 4782,
    "p": 1,
    "f": 4783,
+   "d": "2026-10-30"
+  },
+  "34130": {
+   "m": 4784,
+   "p": 1,
+   "f": 4785,
+   "d": "2026-10-30"
+  },
+  "34131": {
+   "m": 4786,
+   "p": 1,
+   "f": 4787,
+   "d": "2026-10-30"
+  },
+  "34132": {
+   "m": 4788,
+   "p": 1,
+   "f": 4789,
+   "d": "2026-10-30"
+  },
+  "34133": {
+   "m": 4790,
+   "p": 1,
+   "f": 4791,
+   "d": "2026-10-30"
+  },
+  "34134": {
+   "m": 4792,
+   "p": 1,
+   "f": 4793,
+   "d": "2026-10-30"
+  },
+  "34135": {
+   "m": 4794,
+   "p": 1,
+   "f": 4795,
+   "d": "2026-10-30"
+  },
+  "34136": {
+   "m": 4796,
+   "p": 1,
+   "f": 4797,
+   "d": "2026-10-30"
+  },
+  "34137": {
+   "m": 4798,
+   "p": 1,
+   "f": 4799,
    "d": "2026-10-30"
   }
  }
