@@ -2068,7 +2068,9 @@
   34166,
   34167,
   34168,
-  34169
+  34169,
+  34170,
+  34171
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4377,7 +4379,9 @@
   930592,
   930593,
   930597,
-  930598
+  930598,
+  930601,
+  930602
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5518,27 +5522,13 @@
   "rajabalieva muhabbat|PhD": "2026-10-30",
   "tolibekov islambek|PhD": "2026-10-30",
   "holikov alisher|DSc": "2026-10-30",
-  "haitov ohunjon|DSc": "2026-10-30"
+  "haitov ohunjon|DSc": "2026-10-30",
+  "shodmonova gulnoza|DSc": "2026-10-30"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-30T11:40:39.872089+00:00",
  "recent": [
-  {
-   "t": "2026-10-30T11:51:06.828853+00:00",
-   "url": "https://oak.uz/pages/34162",
-   "title": "Jo‘raeva Zarifa Bahodir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T11:51:15.043792+00:00",
-   "url": "https://oak.uz/pages/34163",
-   "title": "Evatov Bo‘rivoy Sobirjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T11:51:22.845080+00:00",
-   "url": "https://oak.uz/pages/34164",
-   "title": "Daminov Bahodir Ibrohimjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-10-30T11:51:30.610667+00:00",
    "url": "https://oak.uz/pages/34165",
@@ -5573,20 +5563,35 @@
    "t": "2026-10-30T12:06:03.224696+00:00",
    "url": "https://uza.uz/oz/posts/haitov-oxunzhon-nomoz-oglining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_930597",
    "title": "Xaitov Oxunjon Nomoz o‘g‘lining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T12:11:00.562202+00:00",
+   "url": "https://oak.uz/pages/34170",
+   "title": "Abdiev To‘ychi Gulboevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-10-30T12:11:08.681224+00:00",
+   "url": "https://oak.uz/pages/34171",
+   "title": "Uzokov Sherzod Xamidovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-10-30T12:11:17.257936+00:00",
+   "url": "https://uza.uz/oz/posts/shodmonova-gulnoza-erkinovnaning-qishloq-xozhaligi-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_930601",
+   "title": "Shodmonova Gulnoza Yerkinovnaning qishloq xo‘jaligi fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
   "found": 4,
-  "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "found_oak": 2,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T12:06:07.242101+00:00",
+ "last_run": "2026-10-30T12:11:21.283150+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13778,6 +13783,24 @@
    "m": 4884,
    "p": 1,
    "f": 4885,
+   "d": "2026-10-30"
+  },
+  "34170": {
+   "m": 4886,
+   "p": 1,
+   "f": 4887,
+   "d": "2026-10-30"
+  },
+  "34171": {
+   "m": 4888,
+   "p": 1,
+   "f": 4889,
+   "d": "2026-10-30"
+  },
+  "u930601": {
+   "m": 4890,
+   "p": 1,
+   "f": 4891,
    "d": "2026-10-30"
   }
  }
