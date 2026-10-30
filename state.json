@@ -2088,7 +2088,9 @@
   34186,
   34187,
   34188,
-  34189
+  34189,
+  34190,
+  34191
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5554,16 +5556,6 @@
  "last_deep": "2026-10-30T11:40:39.872089+00:00",
  "recent": [
   {
-   "t": "2026-10-30T12:20:56.092241+00:00",
-   "url": "https://oak.uz/pages/34181",
-   "title": "Shukurova Sevara Ilhomovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-10-30T12:21:03.670286+00:00",
-   "url": "https://oak.uz/pages/34182",
-   "title": "Babaxan Shoxrux Abdilkasimulining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-10-30T12:21:10.955754+00:00",
    "url": "https://oak.uz/pages/34183",
    "title": "Diniqulov Davlat Uskan o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -5602,20 +5594,30 @@
    "t": "2026-10-30T12:22:19.388029+00:00",
    "url": "https://uza.uz/oz/posts/dzhuraev-davron-doniyorovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930617",
    "title": "Djurayev Davron Doniyorovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-10-30T12:25:56.673654+00:00",
+   "url": "https://oak.uz/pages/34190",
+   "title": "Xushvaqov Shokir Shavkat og‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-10-30T12:26:05.473715+00:00",
+   "url": "https://oak.uz/pages/34191",
+   "title": "Xamidullaev Fatxulla Fayzullaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 11,
-  "found_oak": 9,
-  "posted": 10,
-  "dups": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T12:22:23.397585+00:00",
+ "last_run": "2026-10-30T12:26:09.482719+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13945,6 +13947,18 @@
    "m": 4930,
    "p": 1,
    "f": 4931,
+   "d": "2026-10-30"
+  },
+  "34190": {
+   "m": 4932,
+   "p": 1,
+   "f": 4933,
+   "d": "2026-10-30"
+  },
+  "34191": {
+   "m": 4934,
+   "p": 1,
+   "f": 4935,
    "d": "2026-10-30"
   }
  }
