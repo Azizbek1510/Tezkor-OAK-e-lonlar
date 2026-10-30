@@ -2079,7 +2079,16 @@
   34177,
   34178,
   34179,
-  34180
+  34180,
+  34181,
+  34182,
+  34183,
+  34184,
+  34185,
+  34186,
+  34187,
+  34188,
+  34189
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4392,7 +4401,9 @@
   930601,
   930602,
   930611,
-  930612
+  930612,
+  930617,
+  930618
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5535,61 +5546,62 @@
   "holikov alisher|DSc": "2026-10-30",
   "haitov ohunjon|DSc": "2026-10-30",
   "shodmonova gulnoza|DSc": "2026-10-30",
-  "qayumova kamola|PhD": "2026-10-30"
+  "qayumova kamola|PhD": "2026-10-30",
+  "djuraev davron|PhD": "2026-10-30"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-10-30T11:40:39.872089+00:00",
  "recent": [
   {
-   "t": "2026-10-30T12:15:57.883698+00:00",
-   "url": "https://oak.uz/pages/34172",
-   "title": "Bekmurodova Manzura Bahodir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-10-30T12:20:56.092241+00:00",
+   "url": "https://oak.uz/pages/34181",
+   "title": "Shukurova Sevara Ilhomovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:16:05.526601+00:00",
-   "url": "https://oak.uz/pages/34173",
-   "title": "Xakimova Xalima Rinatovnaning falsafa doktori (PhD) dissertatsiyasining himoyasi haqida e’lon"
+   "t": "2026-10-30T12:21:03.670286+00:00",
+   "url": "https://oak.uz/pages/34182",
+   "title": "Babaxan Shoxrux Abdilkasimulining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:16:13.386594+00:00",
-   "url": "https://oak.uz/pages/34174",
-   "title": "Mo‘minova Shohida Toshtemir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-10-30T12:21:10.955754+00:00",
+   "url": "https://oak.uz/pages/34183",
+   "title": "Diniqulov Davlat Uskan o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:16:21.095264+00:00",
-   "url": "https://oak.uz/pages/34175",
-   "title": "Jabborova Subhida Abdullaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-10-30T12:21:18.185670+00:00",
+   "url": "https://oak.uz/pages/34184",
+   "title": "Kibishov Adilxan Talgatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:16:28.642294+00:00",
-   "url": "https://oak.uz/pages/34176",
-   "title": "Normurodova Farog‘at Tojimurod qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-10-30T12:21:25.532357+00:00",
+   "url": "https://oak.uz/pages/34185",
+   "title": "Muqumov Asqar Hamza o‘g‘li falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:16:36.218103+00:00",
-   "url": "https://oak.uz/pages/34177",
-   "title": "A’zamov Anvar Muzaffarovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-10-30T12:21:33.317993+00:00",
+   "url": "https://oak.uz/pages/34186",
+   "title": "Salimjonov Xazrat Akramjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:16:58.219424+00:00",
-   "url": "https://oak.uz/pages/34178",
-   "title": "Raxmatova Nigina Islomovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi to‘g‘risida"
+   "t": "2026-10-30T12:21:56.056767+00:00",
+   "url": "https://oak.uz/pages/34187",
+   "title": "Xallieva Salima Mammatrasulovananing falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:17:05.752340+00:00",
-   "url": "https://oak.uz/pages/34179",
-   "title": "Abdinobiev Alisher Abdishukurovichning falsafa doktori (PhD) dissertatsiyasi himoyasi to‘g‘risida e’lon"
+   "t": "2026-10-30T12:22:03.521832+00:00",
+   "url": "https://oak.uz/pages/34188",
+   "title": "Toshpulatov Sirojiddin Furqat o‘g‘lining Falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:17:13.574896+00:00",
-   "url": "https://oak.uz/pages/34180",
-   "title": "G‘aniev Muhammadamin Avazbek o‘g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-10-30T12:22:11.255998+00:00",
+   "url": "https://oak.uz/pages/34189",
+   "title": "Muxamedov Nodir Abdug‘Anievichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-10-30T12:17:22.453928+00:00",
-   "url": "https://uza.uz/oz/posts/qayumova-kamola-islomovnaning-qishloq-xozhaligi-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930611",
-   "title": "Qayumova Kamola Islomovnaning qishloq xo‘jaligi fanlari falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-10-30T12:22:19.388029+00:00",
+   "url": "https://uza.uz/oz/posts/dzhuraev-davron-doniyorovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930617",
+   "title": "Djurayev Davron Doniyorovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -5603,7 +5615,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-10-30T12:17:26.467651+00:00",
+ "last_run": "2026-10-30T12:22:23.397585+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -13873,6 +13885,66 @@
    "m": 4910,
    "p": 1,
    "f": 4911,
+   "d": "2026-10-30"
+  },
+  "34181": {
+   "m": 4912,
+   "p": 1,
+   "f": 4913,
+   "d": "2026-10-30"
+  },
+  "34182": {
+   "m": 4914,
+   "p": 1,
+   "f": 4915,
+   "d": "2026-10-30"
+  },
+  "34183": {
+   "m": 4916,
+   "p": 1,
+   "f": 4917,
+   "d": "2026-10-30"
+  },
+  "34184": {
+   "m": 4918,
+   "p": 1,
+   "f": 4919,
+   "d": "2026-10-30"
+  },
+  "34185": {
+   "m": 4920,
+   "p": 1,
+   "f": 4921,
+   "d": "2026-10-30"
+  },
+  "34186": {
+   "m": 4922,
+   "p": 1,
+   "f": 4923,
+   "d": "2026-10-30"
+  },
+  "34187": {
+   "m": 4924,
+   "p": 1,
+   "f": 4925,
+   "d": "2026-10-30"
+  },
+  "34188": {
+   "m": 4926,
+   "p": 1,
+   "f": 4927,
+   "d": "2026-10-30"
+  },
+  "34189": {
+   "m": 4928,
+   "p": 1,
+   "f": 4929,
+   "d": "2026-10-30"
+  },
+  "u930617": {
+   "m": 4930,
+   "p": 1,
+   "f": 4931,
    "d": "2026-10-30"
   }
  }
