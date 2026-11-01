@@ -4540,7 +4540,13 @@
   930984,
   930985,
   930986,
-  930987
+  930987,
+  930988,
+  930989,
+  930990,
+  930991,
+  930992,
+  930993
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5728,27 +5734,15 @@
   "rahmatullaeva barno|PhD": "2026-11-01",
   "nosirov jasur|DSc": "2026-11-01",
   "giyasova nargiza|PhD": "2026-11-01",
-  "rasulov islam|PhD": "2026-11-01"
+  "rasulov islam|PhD": "2026-11-01",
+  "ikromov anvar|PhD": "2026-11-01",
+  "nazarov azizbek|PhD": "2026-11-01",
+  "tojieva gavhar|PhD": "2026-11-01"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-01T07:16:45.710829+00:00",
  "recent": [
-  {
-   "t": "2026-11-01T07:46:10.290633+00:00",
-   "url": "https://uza.uz/oz/posts/nazarov-gulom-akmal-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930967",
-   "title": "Nazarov G‘ulom Akmal o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-01T07:46:17.291582+00:00",
-   "url": "https://uza.uz/oz/posts/jumaev-muzaffar-mahmud-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930969",
-   "title": "Jumayev Muzaffar Mahmud o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-01T07:51:00.093243+00:00",
-   "url": "https://uza.uz/oz/posts/axmadova-maftuna-amin-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930971",
-   "title": "Axmadova Maftuna Amin qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-01T07:51:08.424002+00:00",
    "url": "https://uza.uz/oz/posts/kurbanova-nodira-baxtiyarovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_930973",
@@ -5783,20 +5777,35 @@
    "t": "2026-11-01T08:01:36.969801+00:00",
    "url": "https://uza.uz/oz/posts/rasulov-islam-baxodirovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930986",
    "title": "Rasulov Islam Baxodirovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-01T08:05:52.612800+00:00",
+   "url": "https://uza.uz/oz/posts/ikromov-anvar-ashurovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930988",
+   "title": "Ikromov Anvar Ashurovichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-01T08:06:02.002049+00:00",
+   "url": "https://uza.uz/oz/posts/nazarov-azizbek-avazovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930990",
+   "title": "Nazarov Azizbek Avazovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-01T08:06:09.732906+00:00",
+   "url": "https://uza.uz/oz/posts/tozhieva-gavxar-yakubovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930992",
+   "title": "Tojiyeva Gavxar Yakubovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 10,
+  "found": 6,
   "found_oak": 0,
-  "posted": 5,
-  "dups": 5,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-01T08:01:40.987968+00:00",
+ "last_run": "2026-11-01T08:06:13.750679+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -14684,6 +14693,24 @@
    "m": 5118,
    "p": 1,
    "f": 5119,
+   "d": "2026-11-01"
+  },
+  "u930988": {
+   "m": 5120,
+   "p": 1,
+   "f": 5121,
+   "d": "2026-11-01"
+  },
+  "u930990": {
+   "m": 5122,
+   "p": 1,
+   "f": 5123,
+   "d": "2026-11-01"
+  },
+  "u930992": {
+   "m": 5124,
+   "p": 1,
+   "f": 5125,
    "d": "2026-11-01"
   }
  }
