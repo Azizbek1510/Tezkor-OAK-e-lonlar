@@ -4564,7 +4564,15 @@
   931011,
   931012,
   931013,
-  931014
+  931014,
+  931015,
+  931016,
+  931017,
+  931018,
+  931019,
+  931020,
+  931021,
+  931022
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5764,32 +5772,16 @@
   "ashrapov ravil|PhD": "2026-11-01",
   "bahtiyoriy tohir|PhD": "2026-11-01",
   "holmuratov jahongir|PhD": "2026-11-01",
-  "yalgashev elmurod|PhD": "2026-11-01"
+  "yalgashev elmurod|PhD": "2026-11-01",
+  "vohidov sardorbek|PhD": "2026-11-01",
+  "holmirzaeva gulbahor|PhD": "2026-11-01",
+  "kushanova dilfuza|PhD": "2026-11-01",
+  "suyarova feruza|PhD": "2026-11-01"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-01T08:15:34.631185+00:00",
  "recent": [
-  {
-   "t": "2026-11-01T08:06:09.732906+00:00",
-   "url": "https://uza.uz/oz/posts/tozhieva-gavxar-yakubovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930992",
-   "title": "Tojiyeva Gavxar Yakubovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-01T08:11:03.001844+00:00",
-   "url": "https://uza.uz/oz/posts/nurmatov-akbar-normatovichning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_930994",
-   "title": "Nurmatov Akbar Normatovichning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-01T08:11:10.792623+00:00",
-   "url": "https://uza.uz/oz/posts/salaeva-latofat-ulugbek-qizining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930996",
-   "title": "Salayeva Latofat Ulug‘bek qizining psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-01T08:11:18.782453+00:00",
-   "url": "https://uza.uz/oz/posts/muxammedova-ozoda-axtamovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_930998",
-   "title": "Muxammedova Ozoda Axtamovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-01T08:21:00.535223+00:00",
    "url": "https://uza.uz/oz/posts/jurakulov-voxidzhon-nurdullaevichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931003",
@@ -5819,20 +5811,40 @@
    "t": "2026-11-01T08:45:57.409260+00:00",
    "url": "https://uza.uz/oz/posts/yalgashev-elmurod-yaxshiboy-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931013",
    "title": "Yalg‘ashev Elmurod Yaxshiboy o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-01T08:50:52.121727+00:00",
+   "url": "https://uza.uz/oz/posts/vohidov-sardorbek-bahodir-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931015",
+   "title": "Vohidov Sardorbek Bahodir o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-01T08:50:59.505572+00:00",
+   "url": "https://uza.uz/oz/posts/holmirzaeva-gulbaxor-baxodirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931017",
+   "title": "Xolmirzayeva Gulbaxor Baxodirovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-01T08:51:06.398418+00:00",
+   "url": "https://uza.uz/oz/posts/kushanova-dilfuza-ubaydullaevnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931019",
+   "title": "Kushanova Dilfuza Ubaydullayevnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-01T08:51:13.819923+00:00",
+   "url": "https://uza.uz/oz/posts/suyarova-feruza-sobir-qizining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931021",
+   "title": "Suyarova Feruza Sobir qizining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 8,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 4,
+  "dups": 4,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-01T08:46:01.428127+00:00",
+ "last_run": "2026-11-01T08:51:17.837438+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -14792,6 +14804,30 @@
    "m": 5142,
    "p": 1,
    "f": 5143,
+   "d": "2026-11-01"
+  },
+  "u931015": {
+   "m": 5144,
+   "p": 1,
+   "f": 5145,
+   "d": "2026-11-01"
+  },
+  "u931017": {
+   "m": 5146,
+   "p": 1,
+   "f": 5147,
+   "d": "2026-11-01"
+  },
+  "u931019": {
+   "m": 5148,
+   "p": 1,
+   "f": 5149,
+   "d": "2026-11-01"
+  },
+  "u931021": {
+   "m": 5150,
+   "p": 1,
+   "f": 5151,
    "d": "2026-11-01"
   }
  }
