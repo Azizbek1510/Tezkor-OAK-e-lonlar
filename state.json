@@ -4734,7 +4734,13 @@
   931518,
   931519,
   931520,
-  931521
+  931521,
+  931522,
+  931523,
+  931524,
+  931525,
+  931527,
+  931528
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6011,32 +6017,16 @@
   "jaloldinov ahror|PhD": "2026-11-02",
   "komilov abdullajon|PhD": "2026-11-02",
   "karimberdiev ulugbek|PhD": "2026-11-02",
-  "karimberdiev ulu|PhD": "2026-11-02"
+  "karimberdiev ulu|PhD": "2026-11-02",
+  "saipnazarova mohinur|PhD": "2026-11-02",
+  "aminov bahrom|PhD": "2026-11-02",
+  "abdiev toychi|PhD": "2026-11-02",
+  "abdiev t|PhD": "2026-11-02"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-02T14:00:54.974306+00:00",
  "recent": [
-  {
-   "t": "2026-11-02T13:56:01.861183+00:00",
-   "url": "https://uza.uz/oz/posts/turgunova-gulchexra-tulkinovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931509",
-   "title": "Turğunova Gulçexra Tulkinovnaning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-02T13:56:09.219026+00:00",
-   "url": "https://uza.uz/oz/posts/karimova-mastura-ablaxat-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931510",
-   "title": "Karimova Mastura Ablaxat qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T14:04:18.476821+00:00",
-   "url": "https://oak.uz/pages/34285",
-   "title": "Bekniyazova Dinora Bayniyazovnaning falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-02T14:04:27.324199+00:00",
-   "url": "https://oak.uz/pages/34286",
-   "title": "Paxratdinov Ajiniyaz Quralbaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
   {
    "t": "2026-11-02T14:04:35.308223+00:00",
    "url": "https://uza.uz/oz/posts/abdullaev-muzaffar-atazhanovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931512",
@@ -6066,20 +6056,40 @@
    "t": "2026-11-02T14:11:09.194164+00:00",
    "url": "https://uza.uz/oz/posts/karimberdiyev-ulugbek-rasuljon-oglining-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931521",
    "title": "Karimberdiyev Uluğbek Rasuljon öğlining fizika-matematika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-02T14:15:57.272542+00:00",
+   "url": "https://uza.uz/oz/posts/saipnazarova-mohinur-otkir-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931522",
+   "title": "Saipnazarova Mohinur O‘tkir qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:16:05.629476+00:00",
+   "url": "https://uza.uz/oz/posts/aminov-bahrom-burxonovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931524",
+   "title": "Aminov Bahrom Burxonovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:16:14.071996+00:00",
+   "url": "https://uza.uz/oz/posts/abdiev-toychi-gulboevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931527",
+   "title": "Abdiyev To‘ychi Gulboyevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:16:22.224666+00:00",
+   "url": "https://uza.uz/oz/posts/abdiyev-toychi-gulboyevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931528",
+   "title": "Abdiyev Töyçi Gulboyeviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 0,
+  "posted": 4,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T14:11:13.201761+00:00",
+ "last_run": "2026-11-02T14:16:26.232486+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -15777,6 +15787,30 @@
    "m": 5388,
    "p": 1,
    "f": 5389,
+   "d": "2026-11-02"
+  },
+  "u931522": {
+   "m": 5390,
+   "p": 1,
+   "f": 5391,
+   "d": "2026-11-02"
+  },
+  "u931524": {
+   "m": 5392,
+   "p": 1,
+   "f": 5393,
+   "d": "2026-11-02"
+  },
+  "u931527": {
+   "m": 5394,
+   "p": 1,
+   "f": 5395,
+   "d": "2026-11-02"
+  },
+  "u931528": {
+   "m": 5396,
+   "p": 1,
+   "f": 5397,
    "d": "2026-11-02"
   }
  }
