@@ -2144,7 +2144,12 @@
   34243,
   34244,
   34245,
-  34246
+  34246,
+  34247,
+  34248,
+  34249,
+  34250,
+  34251
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5896,31 +5901,6 @@
  "last_deep": "2026-11-02T09:01:02.865436+00:00",
  "recent": [
   {
-   "t": "2026-11-02T07:45:54.896625+00:00",
-   "url": "https://uza.uz/oz/posts/tursinbaev-azizbek-halmurzaevichning-yuridik-fanlar-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931252",
-   "title": "Tursinbayev Azizbek Xalmurzayevichning yuridik fanlar falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T07:46:01.943586+00:00",
-   "url": "https://uza.uz/oz/posts/jumaniyazov-sanzharbek-matrasulovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931255",
-   "title": "Jumaniyazov Sanjarbek Matrasulovichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T08:05:53.279678+00:00",
-   "url": "https://uza.uz/oz/posts/karimova-feruza-salimovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931269",
-   "title": "Karimova Feruza Salimovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T08:51:04.017560+00:00",
-   "url": "https://oak.uz/pages/34240",
-   "title": "Atamirzaeva Soxiba Turg‘unovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-02T08:51:11.119893+00:00",
-   "url": "https://oak.uz/pages/34241",
-   "title": "Jumakulova Noila Shokirovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-02T08:51:18.331360+00:00",
    "url": "https://oak.uz/pages/34242",
    "title": "Juraev Tulqinjon Ermaxamadovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -5944,20 +5924,45 @@
    "t": "2026-11-02T08:55:50.206042+00:00",
    "url": "https://oak.uz/pages/34246",
    "title": "Teshaeva Marjona Shomurod qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-02T09:25:55.324672+00:00",
+   "url": "https://oak.uz/pages/34247",
+   "title": "Bozorova Mahbuba Ishquvvatovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-02T09:26:04.563803+00:00",
+   "url": "https://oak.uz/pages/34248",
+   "title": "Nazarova Sarvinoz Botir qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-02T09:26:13.103142+00:00",
+   "url": "https://oak.uz/pages/34249",
+   "title": "Raximov Bekzod Baxtiyorovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-02T09:26:21.352456+00:00",
+   "url": "https://oak.uz/pages/34250",
+   "title": "Sidikov Abdulaziz Abdumanop o‘g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-02T09:26:29.500514+00:00",
+   "url": "https://oak.uz/pages/34251",
+   "title": "Usmonova Yulduz Isroil qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 5,
+  "found_oak": 5,
+  "posted": 5,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T09:21:03.233699+00:00",
+ "last_run": "2026-11-02T09:26:33.510585+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -15223,6 +15228,36 @@
    "m": 5244,
    "p": 1,
    "f": 5245,
+   "d": "2026-11-02"
+  },
+  "34247": {
+   "m": 5246,
+   "p": 1,
+   "f": 5247,
+   "d": "2026-11-02"
+  },
+  "34248": {
+   "m": 5248,
+   "p": 1,
+   "f": 5249,
+   "d": "2026-11-02"
+  },
+  "34249": {
+   "m": 5250,
+   "p": 1,
+   "f": 5251,
+   "d": "2026-11-02"
+  },
+  "34250": {
+   "m": 5252,
+   "p": 1,
+   "f": 5253,
+   "d": "2026-11-02"
+  },
+  "34251": {
+   "m": 5254,
+   "p": 1,
+   "f": 5255,
    "d": "2026-11-02"
   }
  }
