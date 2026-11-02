@@ -4718,7 +4718,11 @@
   931504,
   931505,
   931506,
-  931507
+  931507,
+  931508,
+  931509,
+  931510,
+  931511
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5986,27 +5990,15 @@
   "bozorov ali|DSc": "2026-11-02",
   "nasirova mohigul|PhD": "2026-11-02",
   "sultonova dilnoza|PhD": "2026-11-02",
-  "mamatkulov kudratjon|PhD": "2026-11-02"
+  "mamatkulov kudratjon|PhD": "2026-11-02",
+  "turgunova gulchehra|PhD": "2026-11-02",
+  "tur unova|PhD": "2026-11-02",
+  "karimova mastura|PhD": "2026-11-02"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-02T13:00:51.698863+00:00",
  "recent": [
-  {
-   "t": "2026-11-02T12:55:58.962920+00:00",
-   "url": "https://uza.uz/oz/posts/badalova-jamila-jamolovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931470",
-   "title": "Badalova Jamila Jamolovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T13:46:04.367613+00:00",
-   "url": "https://uza.uz/oz/posts/farfiev-yoqubzhon-atxamdzhonovichning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931492",
-   "title": "Farfiyev Yoqubjon Atxamdjonovichning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T13:46:13.250348+00:00",
-   "url": "https://uza.uz/oz/posts/rasulov-doniyor-dilmurod-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931495",
-   "title": "Rasulov Doniyor Dilmurod o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-02T13:46:22.088800+00:00",
    "url": "https://uza.uz/oz/posts/otaxonov-shaxzod-umidzhonovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931498",
@@ -6041,20 +6033,35 @@
    "t": "2026-11-02T13:51:31.686421+00:00",
    "url": "https://uza.uz/oz/posts/mamatkulov-kudratzhon-ergashevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931506",
    "title": "Mamatkulov Kudratjon Ergashevichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T13:55:49.307363+00:00",
+   "url": "https://uza.uz/oz/posts/turgunova-gulchexra-tulkinovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931508",
+   "title": "Turg‘unova Gulchexra Tulkinovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T13:56:01.861183+00:00",
+   "url": "https://uza.uz/oz/posts/turgunova-gulchexra-tulkinovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931509",
+   "title": "Turğunova Gulçexra Tulkinovnaning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-02T13:56:09.219026+00:00",
+   "url": "https://uza.uz/oz/posts/karimova-mastura-ablaxat-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931510",
+   "title": "Karimova Mastura Ablaxat qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 4,
   "found_oak": 0,
-  "posted": 5,
-  "dups": 3,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T13:51:35.697591+00:00",
+ "last_run": "2026-11-02T13:56:13.234298+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -15686,6 +15693,24 @@
    "m": 5366,
    "p": 1,
    "f": 5367,
+   "d": "2026-11-02"
+  },
+  "u931508": {
+   "m": 5368,
+   "p": 1,
+   "f": 5369,
+   "d": "2026-11-02"
+  },
+  "u931509": {
+   "m": 5370,
+   "p": 1,
+   "f": 5371,
+   "d": "2026-11-02"
+  },
+  "u931510": {
+   "m": 5372,
+   "p": 1,
+   "f": 5373,
    "d": "2026-11-02"
   }
  }
