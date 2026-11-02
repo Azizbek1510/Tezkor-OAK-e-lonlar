@@ -4632,7 +4632,9 @@
   931252,
   931253,
   931255,
-  931256
+  931256,
+  931257,
+  931258
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5935,15 +5937,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 2,
   "found_oak": 0,
-  "posted": 2,
+  "posted": 0,
   "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T07:46:05.962647+00:00",
+ "last_run": "2026-11-02T07:50:54.910351+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
