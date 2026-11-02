@@ -4700,7 +4700,11 @@
   931458,
   931459,
   931463,
-  931464
+  931464,
+  931467,
+  931468,
+  931470,
+  931471
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5957,22 +5961,14 @@
   "m minova|PhD": "2026-11-02",
   "majitov shuhrat|PhD": "2026-11-02",
   "majitov uhrat|PhD": "2026-11-02",
-  "alijonova sevara|PhD": "2026-11-02"
+  "alijonova sevara|PhD": "2026-11-02",
+  "azimova sevara|PhD": "2026-11-02",
+  "badalova jamila|PhD": "2026-11-02"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-02T12:00:53.054934+00:00",
  "recent": [
-  {
-   "t": "2026-11-02T12:46:29.896727+00:00",
-   "url": "https://oak.uz/pages/34279",
-   "title": "Yusupov Bekzod Ulug‘bekovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-02T12:46:37.275796+00:00",
-   "url": "https://oak.uz/pages/34280",
-   "title": "Baxodirov Baxrom Baxodir o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-02T12:46:59.969371+00:00",
    "url": "https://oak.uz/pages/34281",
@@ -6012,6 +6008,16 @@
    "t": "2026-11-02T12:51:18.654740+00:00",
    "url": "https://uza.uz/oz/posts/alizhonova-sevara-ulugbek-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_931463",
    "title": "Alijonova Sevara Ulug‘bek qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T12:55:47.845973+00:00",
+   "url": "https://uza.uz/oz/posts/azimova-sevara-abdulla-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-himoyasi-togrisida_931467",
+   "title": "Azimova Sevara Abdulla qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T12:55:58.962920+00:00",
+   "url": "https://uza.uz/oz/posts/badalova-jamila-jamolovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931470",
+   "title": "Badalova Jamila Jamolovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -6019,13 +6025,13 @@
  "counts": {
   "found": 4,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 1,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T12:51:22.673679+00:00",
+ "last_run": "2026-11-02T12:56:02.972729+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -15591,6 +15597,18 @@
    "m": 5344,
    "p": 1,
    "f": 5345,
+   "d": "2026-11-02"
+  },
+  "u931467": {
+   "m": 5346,
+   "p": 1,
+   "f": 5347,
+   "d": "2026-11-02"
+  },
+  "u931470": {
+   "m": 5348,
+   "p": 1,
+   "f": 5349,
    "d": "2026-11-02"
   }
  }
