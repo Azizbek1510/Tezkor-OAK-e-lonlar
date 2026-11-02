@@ -2159,7 +2159,8 @@
   34258,
   34259,
   34260,
-  34261
+  34261,
+  34262
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5908,13 +5909,8 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-02T11:00:52.418061+00:00",
+ "last_deep": "2026-11-02T12:00:53.054934+00:00",
  "recent": [
-  {
-   "t": "2026-11-02T09:31:17.855955+00:00",
-   "url": "https://oak.uz/pages/34252",
-   "title": "Ismadullaev Bobomurod Ismatulla o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-02T09:31:25.501878+00:00",
    "url": "https://oak.uz/pages/34253",
@@ -5959,20 +5955,25 @@
    "t": "2026-11-02T11:57:07.864853+00:00",
    "url": "https://oak.uz/pages/34261",
    "title": "Rajabov Umidjon Yarashevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-02T12:03:58.085353+00:00",
+   "url": "https://oak.uz/pages/34262",
+   "title": "Otabekov Farrux Ulug‘bek o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
-  "found_oak": 8,
-  "posted": 8,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T11:57:11.874785+00:00",
+ "last_run": "2026-11-02T12:04:02.095488+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -15328,6 +15329,12 @@
    "m": 5274,
    "p": 1,
    "f": 5275,
+   "d": "2026-11-02"
+  },
+  "34262": {
+   "m": 5276,
+   "p": 1,
+   "f": 5277,
    "d": "2026-11-02"
   }
  }
