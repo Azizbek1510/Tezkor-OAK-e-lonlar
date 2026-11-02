@@ -4732,7 +4732,9 @@
   931516,
   931517,
   931518,
-  931519
+  931519,
+  931520,
+  931521
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6007,22 +6009,14 @@
   "abdullaev muzaffar|PhD": "2026-11-02",
   "nyutonova hilola|PhD": "2026-11-02",
   "jaloldinov ahror|PhD": "2026-11-02",
-  "komilov abdullajon|PhD": "2026-11-02"
+  "komilov abdullajon|PhD": "2026-11-02",
+  "karimberdiev ulugbek|PhD": "2026-11-02",
+  "karimberdiev ulu|PhD": "2026-11-02"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-02T14:00:54.974306+00:00",
  "recent": [
-  {
-   "t": "2026-11-02T13:51:31.686421+00:00",
-   "url": "https://uza.uz/oz/posts/mamatkulov-kudratzhon-ergashevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931506",
-   "title": "Mamatkulov Kudratjon Ergashevichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T13:55:49.307363+00:00",
-   "url": "https://uza.uz/oz/posts/turgunova-gulchexra-tulkinovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931508",
-   "title": "Turg‘unova Gulchexra Tulkinovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-02T13:56:01.861183+00:00",
    "url": "https://uza.uz/oz/posts/turgunova-gulchexra-tulkinovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931509",
@@ -6062,20 +6056,30 @@
    "t": "2026-11-02T14:05:02.024048+00:00",
    "url": "https://uza.uz/oz/posts/komilov-abdullazhon-odilzhon-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931518",
    "title": "Komilov Abdullajon Odiljon o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:11:01.656799+00:00",
+   "url": "https://uza.uz/oz/posts/karimberdiev-ulugbek-rasulzhon-oglining-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931520",
+   "title": "Karimberdiyev Ulug‘bek Rasuljon o‘g‘lining fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:11:09.194164+00:00",
+   "url": "https://uza.uz/oz/posts/karimberdiyev-ulugbek-rasuljon-oglining-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931521",
+   "title": "Karimberdiyev Uluğbek Rasuljon öğlining fizika-matematika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 2,
   "found_oak": 0,
-  "posted": 0,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T14:05:46.775146+00:00",
+ "last_run": "2026-11-02T14:11:13.201761+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -15761,6 +15765,18 @@
    "m": 5384,
    "p": 1,
    "f": 5385,
+   "d": "2026-11-02"
+  },
+  "u931520": {
+   "m": 5386,
+   "p": 1,
+   "f": 5387,
+   "d": "2026-11-02"
+  },
+  "u931521": {
+   "m": 5388,
+   "p": 1,
+   "f": 5389,
    "d": "2026-11-02"
   }
  }
