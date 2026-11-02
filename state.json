@@ -2181,7 +2181,9 @@
   34280,
   34281,
   34282,
-  34283
+  34283,
+  34285,
+  34286
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -4722,7 +4724,15 @@
   931508,
   931509,
   931510,
-  931511
+  931511,
+  931512,
+  931513,
+  931514,
+  931515,
+  931516,
+  931517,
+  931518,
+  931519
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -5993,42 +6003,16 @@
   "mamatkulov kudratjon|PhD": "2026-11-02",
   "turgunova gulchehra|PhD": "2026-11-02",
   "tur unova|PhD": "2026-11-02",
-  "karimova mastura|PhD": "2026-11-02"
+  "karimova mastura|PhD": "2026-11-02",
+  "abdullaev muzaffar|PhD": "2026-11-02",
+  "nyutonova hilola|PhD": "2026-11-02",
+  "jaloldinov ahror|PhD": "2026-11-02",
+  "komilov abdullajon|PhD": "2026-11-02"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-02T13:00:51.698863+00:00",
+ "last_deep": "2026-11-02T14:00:54.974306+00:00",
  "recent": [
-  {
-   "t": "2026-11-02T13:46:22.088800+00:00",
-   "url": "https://uza.uz/oz/posts/otaxonov-shaxzod-umidzhonovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931498",
-   "title": "Otaxonov Shaxzod Umidjonovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T13:46:30.225898+00:00",
-   "url": "https://uza.uz/oz/posts/otaxonov-shaxzod-umidjonovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931499",
-   "title": "Otaxonov Şaxzod Umidjonoviçning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-02T13:51:01.345889+00:00",
-   "url": "https://uza.uz/oz/posts/bozorov-alisher-rozimurodovichning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_931500",
-   "title": "Bozorov Alisher Ro‘zimurodovichning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T13:51:08.918361+00:00",
-   "url": "https://uza.uz/oz/posts/bozorov-alisher-rozimurodovichning-iqtisodiyot-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_931501",
-   "title": "Bozorov Alişer Rözimurodoviçning iqtisodiyot fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-02T13:51:16.493900+00:00",
-   "url": "https://uza.uz/oz/posts/nasirova-moxigul-furkatovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931502",
-   "title": "Nasirova Moxigul Furkatovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T13:51:24.757171+00:00",
-   "url": "https://uza.uz/oz/posts/sultonova-dilnoza-dilshodovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931504",
-   "title": "Sultonova Dilnoza Dilshodovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-02T13:51:31.686421+00:00",
    "url": "https://uza.uz/oz/posts/mamatkulov-kudratzhon-ergashevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931506",
@@ -6048,20 +6032,50 @@
    "t": "2026-11-02T13:56:09.219026+00:00",
    "url": "https://uza.uz/oz/posts/karimova-mastura-ablaxat-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931510",
    "title": "Karimova Mastura Ablaxat qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:04:18.476821+00:00",
+   "url": "https://oak.uz/pages/34285",
+   "title": "Bekniyazova Dinora Bayniyazovnaning falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-02T14:04:27.324199+00:00",
+   "url": "https://oak.uz/pages/34286",
+   "title": "Paxratdinov Ajiniyaz Quralbaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-11-02T14:04:35.308223+00:00",
+   "url": "https://uza.uz/oz/posts/abdullaev-muzaffar-atazhanovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931512",
+   "title": "Abdullayev Muzaffar Atajanovichning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:04:43.879792+00:00",
+   "url": "https://uza.uz/oz/posts/nyutonova-hilola-lochinbekovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_931514",
+   "title": "Nyutonova Xilola Lochinbekovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:04:52.812020+00:00",
+   "url": "https://uza.uz/oz/posts/jaloldinov-axror-abdusattor-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931516",
+   "title": "Jaloldinov Axror Abdusattor o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-02T14:05:02.024048+00:00",
+   "url": "https://uza.uz/oz/posts/komilov-abdullazhon-odilzhon-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931518",
+   "title": "Komilov Abdullajon Odiljon o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
-  "found_oak": 0,
-  "posted": 3,
-  "dups": 1,
+  "found": 10,
+  "found_oak": 2,
+  "posted": 6,
+  "dups": 4,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T13:56:13.234298+00:00",
+ "last_run": "2026-11-02T14:05:06.042736+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -15711,6 +15725,42 @@
    "m": 5372,
    "p": 1,
    "f": 5373,
+   "d": "2026-11-02"
+  },
+  "34285": {
+   "m": 5374,
+   "p": 1,
+   "f": 5375,
+   "d": "2026-11-02"
+  },
+  "34286": {
+   "m": 5376,
+   "p": 1,
+   "f": 5377,
+   "d": "2026-11-02"
+  },
+  "u931512": {
+   "m": 5378,
+   "p": 1,
+   "f": 5379,
+   "d": "2026-11-02"
+  },
+  "u931514": {
+   "m": 5380,
+   "p": 1,
+   "f": 5381,
+   "d": "2026-11-02"
+  },
+  "u931516": {
+   "m": 5382,
+   "p": 1,
+   "f": 5383,
+   "d": "2026-11-02"
+  },
+  "u931518": {
+   "m": 5384,
+   "p": 1,
+   "f": 5385,
    "d": "2026-11-02"
   }
  }
