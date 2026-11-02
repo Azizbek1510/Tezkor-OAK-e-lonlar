@@ -5997,15 +5997,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 11,
-  "found_oak": 5,
-  "posted": 9,
-  "dups": 2,
+  "found": 0,
+  "found_oak": 0,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-02T12:37:20.027531+00:00",
+ "last_run": "2026-11-02T12:41:17.535997+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
