@@ -4865,7 +4865,12 @@
   931757,
   931812,
   931813,
-  931939
+  931939,
+  931940,
+  931943,
+  931944,
+  931946,
+  931947
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6206,22 +6211,14 @@
   "muradov bahrom|DSc": "2026-11-03",
   "toychieva dilnoza|PhD": "2026-11-03",
   "t y|PhD": "2026-11-03",
-  "asatillaeva lola|PhD": "2026-11-03"
+  "asatillaeva lola|PhD": "2026-11-03",
+  "yarbaev hasan|PhD": "2026-11-03",
+  "ikromova madinahon|PhD": "2026-11-03"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-03T11:45:33.198169+00:00",
  "recent": [
-  {
-   "t": "2026-11-03T10:36:04.396639+00:00",
-   "url": "https://oak.uz/pages/34314",
-   "title": "Qodirqulov Nodirbek Hamroqul o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-03T10:36:11.992929+00:00",
-   "url": "https://oak.uz/pages/34315",
-   "title": "Charieva Sarvinoz Tuyg‘unovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-03T10:36:19.565797+00:00",
    "url": "https://oak.uz/pages/34316",
@@ -6261,20 +6258,30 @@
    "t": "2026-11-03T11:48:29.099083+00:00",
    "url": "https://uza.uz/oz/posts/asatillaeva-lola-muratzhon-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931939",
    "title": "Asatillayeva Lola Muratjon qizining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T11:50:59.902345+00:00",
+   "url": "https://uza.uz/oz/posts/yarbaev-hasan-hazratkulovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931943",
+   "title": "Yarbayev Xasan Xazratkulovichning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T11:51:10.617373+00:00",
+   "url": "https://uza.uz/oz/posts/ikromova-madinaxon-baxtiyorzhon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931946",
+   "title": "Ikromova Madinaxon Baxtiyorjon qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
+  "found": 5,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 0,
+  "posted": 2,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-03T11:48:33.110089+00:00",
+ "last_run": "2026-11-03T11:51:14.633417+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -16584,6 +16591,18 @@
    "m": 5592,
    "p": 1,
    "f": 5593,
+   "d": "2026-11-03"
+  },
+  "u931943": {
+   "m": 5594,
+   "p": 1,
+   "f": 5595,
+   "d": "2026-11-03"
+  },
+  "u931946": {
+   "m": 5596,
+   "p": 1,
+   "f": 5597,
    "d": "2026-11-03"
   }
  }
