@@ -4744,7 +4744,11 @@
   931605,
   931606,
   931607,
-  931608
+  931608,
+  931610,
+  931611,
+  931615,
+  931616
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6027,27 +6031,15 @@
   "abdiev toychi|PhD": "2026-11-02",
   "abdiev t|PhD": "2026-11-02",
   "sultonov nodirbek|PhD": "2026-11-03",
-  "sohibjonov zohidjon|PhD": "2026-11-03"
+  "sohibjonov zohidjon|PhD": "2026-11-03",
+  "achilova risolat|DSc": "2026-11-03",
+  "a ilova|DSc": "2026-11-03",
+  "usmonova zamira|PhD": "2026-11-03"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-03T04:00:49.786612+00:00",
  "recent": [
-  {
-   "t": "2026-11-02T14:04:52.812020+00:00",
-   "url": "https://uza.uz/oz/posts/jaloldinov-axror-abdusattor-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931516",
-   "title": "Jaloldinov Axror Abdusattor o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T14:05:02.024048+00:00",
-   "url": "https://uza.uz/oz/posts/komilov-abdullazhon-odilzhon-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931518",
-   "title": "Komilov Abdullajon Odiljon o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-02T14:11:01.656799+00:00",
-   "url": "https://uza.uz/oz/posts/karimberdiev-ulugbek-rasulzhon-oglining-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931520",
-   "title": "Karimberdiyev Ulug‘bek Rasuljon o‘g‘lining fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-02T14:11:09.194164+00:00",
    "url": "https://uza.uz/oz/posts/karimberdiyev-ulugbek-rasuljon-oglining-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931521",
@@ -6082,6 +6074,21 @@
    "t": "2026-11-03T04:35:56.285137+00:00",
    "url": "https://uza.uz/oz/posts/soxibzhonov-zoxidzhon-soxibzhon-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931607",
    "title": "Soxibjonov Zoxidjon Soxibjon o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T04:40:54.458168+00:00",
+   "url": "https://uza.uz/oz/posts/achilova-risolat-azamovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_931610",
+   "title": "Achilova Risolat A’zamovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T04:41:02.080708+00:00",
+   "url": "https://uza.uz/oz/posts/achilova-risolat-azamovnaning-filologiya-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_931611",
+   "title": "Açilova Risolat Aʼzamovnaning filologiya fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-03T04:41:09.311625+00:00",
+   "url": "https://uza.uz/oz/posts/usmonova-zamira-jaxongirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_931615",
+   "title": "Usmonova Zamira Jaxongirovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -6089,13 +6096,13 @@
  "counts": {
   "found": 4,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-03T04:36:00.295795+00:00",
+ "last_run": "2026-11-03T04:41:13.321532+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -15829,6 +15836,24 @@
    "m": 5400,
    "p": 1,
    "f": 5401,
+   "d": "2026-11-03"
+  },
+  "u931610": {
+   "m": 5402,
+   "p": 1,
+   "f": 5403,
+   "d": "2026-11-03"
+  },
+  "u931611": {
+   "m": 5404,
+   "p": 1,
+   "f": 5405,
+   "d": "2026-11-03"
+  },
+  "u931615": {
+   "m": 5406,
+   "p": 1,
+   "f": 5407,
    "d": "2026-11-03"
   }
  }
