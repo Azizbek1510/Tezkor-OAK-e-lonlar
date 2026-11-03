@@ -4780,7 +4780,13 @@
   931648,
   931649,
   931651,
-  931652
+  931652,
+  931654,
+  931655,
+  931656,
+  931657,
+  931662,
+  931663
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6084,42 +6090,16 @@
   "to boev|PhD": "2026-11-03",
   "bozorov damir|PhD": "2026-11-03",
   "kasimov sherzod|PhD": "2026-11-03",
-  "kasimov erzod|PhD": "2026-11-03"
+  "kasimov erzod|PhD": "2026-11-03",
+  "giyosov ilhom|DSc": "2026-11-03",
+  "iyosov ilhom|DSc": "2026-11-03",
+  "qarshibaev sirojiddin|PhD": "2026-11-03",
+  "qar ibaev|PhD": "2026-11-03"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-03T05:00:47.524643+00:00",
  "recent": [
-  {
-   "t": "2026-11-03T05:04:12.671399+00:00",
-   "url": "https://oak.uz/pages/34292",
-   "title": "Eshmuratova Ro‘za Reymberdievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-03T05:05:53.507620+00:00",
-   "url": "https://uza.uz/oz/posts/hoshimov-sirozhiddin-quroqboevichning-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931637",
-   "title": "Hoshimov Sirojiddin Quroqboyevichning qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-03T05:06:02.138777+00:00",
-   "url": "https://uza.uz/oz/posts/hoshimov-sirojiddin-quroqboyevichning-qishloq-xojaligi-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931638",
-   "title": "Hoşimov Sirojiddin Quroqboyeviçning qişloq xöjaligi fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-03T05:06:10.157851+00:00",
-   "url": "https://uza.uz/oz/posts/bekmurodova-manzura-bahodir-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931640",
-   "title": "Bekmurodova Manzura Bahodir qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-03T05:10:53.721379+00:00",
-   "url": "https://uza.uz/oz/posts/kasimov-safozhon-samukdzhanovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931642",
-   "title": "Kasimov Safojon Samukdjanovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-03T05:11:00.631852+00:00",
-   "url": "https://uza.uz/oz/posts/toshboev-jamshid-eshboevichning-siyosiy-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931644",
-   "title": "Toshboyev Jamshid Eshboyevichning siyosiy fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-03T05:11:07.441422+00:00",
    "url": "https://uza.uz/oz/posts/toshboyev-jamshid-eshboyevichning-siyosiy-fanlar-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931645",
@@ -6139,20 +6119,50 @@
    "t": "2026-11-03T05:16:17.265213+00:00",
    "url": "https://uza.uz/oz/posts/kasimov-sherzod-baxodirovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-tog-risida_931652",
    "title": "Kasimov Şerzod Baxodiroviçning texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğ risida"
+  },
+  {
+   "t": "2026-11-03T05:20:56.797426+00:00",
+   "url": "https://uza.uz/oz/posts/giyosov-ilhom-karimovichning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_931654",
+   "title": "G‘iyosov Ilhom Karimovichning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T05:21:04.241352+00:00",
+   "url": "https://uza.uz/oz/posts/giyosov-ilhom-karimovichning-iqtisodiyot-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_931655",
+   "title": "Ğiyosov Ilhom Karimoviçning iqtisodiyot fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-03T05:21:12.301088+00:00",
+   "url": "https://uza.uz/oz/posts/qarshibaev-sirozhiddin-sharobiddinovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931656",
+   "title": "Qarshibayev Sirojiddin Sharobiddinovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T05:21:19.913818+00:00",
+   "url": "https://uza.uz/oz/posts/qarshibayev-sirojiddin-sharobiddinovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931657",
+   "title": "Qarşibayev Sirojiddin Şarobiddinoviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-03T05:21:28.365176+00:00",
+   "url": "https://uza.uz/oz/posts/kasimova-malika-nosir-qizining-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-tog-risida_931662",
+   "title": "Kasimova Malika Nosir qizining texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘ risida"
+  },
+  {
+   "t": "2026-11-03T05:21:36.142726+00:00",
+   "url": "https://uza.uz/oz/posts/kasimova-malika-nosir-qizining-texnika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-tog-risida_931663",
+   "title": "Kasimova Malika Nosir qizining texnika fanlari doktori (DSc) dissertatsiya işi himoyasi töğ risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 1,
+  "posted": 6,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-03T05:16:21.274863+00:00",
+ "last_run": "2026-11-03T05:21:40.151308+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -16048,6 +16058,42 @@
    "m": 5454,
    "p": 1,
    "f": 5455,
+   "d": "2026-11-03"
+  },
+  "u931654": {
+   "m": 5456,
+   "p": 1,
+   "f": 5457,
+   "d": "2026-11-03"
+  },
+  "u931655": {
+   "m": 5458,
+   "p": 1,
+   "f": 5459,
+   "d": "2026-11-03"
+  },
+  "u931656": {
+   "m": 5460,
+   "p": 1,
+   "f": 5461,
+   "d": "2026-11-03"
+  },
+  "u931657": {
+   "m": 5462,
+   "p": 1,
+   "f": 5463,
+   "d": "2026-11-03"
+  },
+  "u931662": {
+   "m": 5464,
+   "p": 1,
+   "f": 5465,
+   "d": "2026-11-03"
+  },
+  "u931663": {
+   "m": 5466,
+   "p": 1,
+   "f": 5467,
    "d": "2026-11-03"
   }
  }
