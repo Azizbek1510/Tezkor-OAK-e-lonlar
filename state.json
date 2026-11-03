@@ -4812,7 +4812,13 @@
   931704,
   931705,
   931708,
-  931709
+  931709,
+  931712,
+  931713,
+  931716,
+  931717,
+  931718,
+  931719
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6139,27 +6145,15 @@
   "ruzieva dilfuza|PhD": "2026-11-03",
   "jilonova asalhon|PhD": "2026-11-03",
   "yuldasheva husnidahon|PhD": "2026-11-03",
-  "yulda eva|PhD": "2026-11-03"
+  "yulda eva|PhD": "2026-11-03",
+  "hakimova halima|PhD": "2026-11-03",
+  "sulaymonov mahmudbek|PhD": "2026-11-03",
+  "abdulhaev azizbek|PhD": "2026-11-03"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-03T05:00:47.524643+00:00",
  "recent": [
-  {
-   "t": "2026-11-03T05:36:00.224358+00:00",
-   "url": "https://uza.uz/oz/posts/yuldashev-jasur-mansurovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931675",
-   "title": "Yuldaşev Jasur Mansuroviçning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-03T05:36:08.493611+00:00",
-   "url": "https://uza.uz/oz/posts/aslonov-hayrullo-shukrullo-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931678",
-   "title": "Aslonov Xayrullo Shukrullo o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-03T05:36:15.205022+00:00",
-   "url": "https://uza.uz/oz/posts/zamonova-shahlo-safar-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931683",
-   "title": "Zamonova Shahlo Safar qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-03T05:36:22.802463+00:00",
    "url": "https://uza.uz/oz/posts/zamonova-shahlo-safar-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931684",
@@ -6194,20 +6188,35 @@
    "t": "2026-11-03T05:46:10.550517+00:00",
    "url": "https://uza.uz/oz/posts/yuldasheva-xusnidaxon-jumanazar-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931705",
    "title": "Yuldaşeva Xusnidaxon Jumanazar qizining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-03T05:50:57.084444+00:00",
+   "url": "https://uza.uz/oz/posts/hakimova-halima-rinatovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931712",
+   "title": "Xakimova Xalima Rinatovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T05:51:04.370633+00:00",
+   "url": "https://uza.uz/oz/posts/sulaymonov-maxmudbek-shuxratbekovichning-yuridik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931716",
+   "title": "Sulaymonov Maxmudbek Shuxratbekovichning yuridik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T05:51:11.483980+00:00",
+   "url": "https://uza.uz/oz/posts/abdulhaev-azizbek-abdurashid-oglining-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931718",
+   "title": "Abdulhayev Azizbek Abdurashid o‘g‘lining falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-03T05:46:14.578988+00:00",
+ "last_run": "2026-11-03T05:51:15.503695+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -16253,6 +16262,24 @@
    "m": 5504,
    "p": 1,
    "f": 5505,
+   "d": "2026-11-03"
+  },
+  "u931712": {
+   "m": 5506,
+   "p": 1,
+   "f": 5507,
+   "d": "2026-11-03"
+  },
+  "u931716": {
+   "m": 5508,
+   "p": 1,
+   "f": 5509,
+   "d": "2026-11-03"
+  },
+  "u931718": {
+   "m": 5510,
+   "p": 1,
+   "f": 5511,
    "d": "2026-11-03"
   }
  }
