@@ -4808,7 +4808,11 @@
   931694,
   931695,
   931700,
-  931701
+  931701,
+  931704,
+  931705,
+  931708,
+  931709
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6133,22 +6137,14 @@
   "holmurodova ozoda|PhD": "2026-11-03",
   "iskandarov yusuf|PhD": "2026-11-03",
   "ruzieva dilfuza|PhD": "2026-11-03",
-  "jilonova asalhon|PhD": "2026-11-03"
+  "jilonova asalhon|PhD": "2026-11-03",
+  "yuldasheva husnidahon|PhD": "2026-11-03",
+  "yulda eva|PhD": "2026-11-03"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-03T05:00:47.524643+00:00",
  "recent": [
-  {
-   "t": "2026-11-03T05:31:17.291498+00:00",
-   "url": "https://uza.uz/oz/posts/dadayev-xurshid-xamidjanovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931673",
-   "title": "Dadayev Xurşid Xamidjanoviçning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-03T05:35:52.541058+00:00",
-   "url": "https://uza.uz/oz/posts/yuldashev-jasur-mansurovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931674",
-   "title": "Yuldashev Jasur Mansurovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-03T05:36:00.224358+00:00",
    "url": "https://uza.uz/oz/posts/yuldashev-jasur-mansurovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931675",
@@ -6188,20 +6184,30 @@
    "t": "2026-11-03T05:41:27.490029+00:00",
    "url": "https://uza.uz/oz/posts/jilonova-asalxon-nigmatillo-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931700",
    "title": "Jilonova Asalxon Nig‘matillo qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T05:46:02.325213+00:00",
+   "url": "https://uza.uz/oz/posts/yuldasheva-husnidaxon-jumanazar-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931704",
+   "title": "Yuldasheva Xusnidaxon Jumanazar qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T05:46:10.550517+00:00",
+   "url": "https://uza.uz/oz/posts/yuldasheva-xusnidaxon-jumanazar-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931705",
+   "title": "Yuldaşeva Xusnidaxon Jumanazar qizining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 4,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 4,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-03T05:41:31.510241+00:00",
+ "last_run": "2026-11-03T05:46:14.578988+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -16235,6 +16241,18 @@
    "m": 5500,
    "p": 1,
    "f": 5501,
+   "d": "2026-11-03"
+  },
+  "u931704": {
+   "m": 5502,
+   "p": 1,
+   "f": 5503,
+   "d": "2026-11-03"
+  },
+  "u931705": {
+   "m": 5504,
+   "p": 1,
+   "f": 5505,
    "d": "2026-11-03"
   }
  }
