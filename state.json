@@ -4824,7 +4824,11 @@
   931726,
   931727,
   931728,
-  931729
+  931729,
+  931732,
+  931733,
+  931734,
+  931735
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6158,27 +6162,15 @@
   "kamolova sanobar|DSc": "2026-11-03",
   "jumanov erdavlet|PhD": "2026-11-03",
   "abdurahimov sadulla|PhD": "2026-11-03",
-  "abdurahimov sa|PhD": "2026-11-03"
+  "abdurahimov sa|PhD": "2026-11-03",
+  "saidova zamira|PhD": "2026-11-03",
+  "ashurova shahnoza|DSc": "2026-11-03",
+  "a urova|DSc": "2026-11-03"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-03T05:00:47.524643+00:00",
+ "last_deep": "2026-11-03T06:00:48.636297+00:00",
  "recent": [
-  {
-   "t": "2026-11-03T05:41:27.490029+00:00",
-   "url": "https://uza.uz/oz/posts/jilonova-asalxon-nigmatillo-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931700",
-   "title": "Jilonova Asalxon Nig‘matillo qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-03T05:46:02.325213+00:00",
-   "url": "https://uza.uz/oz/posts/yuldasheva-husnidaxon-jumanazar-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931704",
-   "title": "Yuldasheva Xusnidaxon Jumanazar qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-03T05:46:10.550517+00:00",
-   "url": "https://uza.uz/oz/posts/yuldasheva-xusnidaxon-jumanazar-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931705",
-   "title": "Yuldaşeva Xusnidaxon Jumanazar qizining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-03T05:50:57.084444+00:00",
    "url": "https://uza.uz/oz/posts/hakimova-halima-rinatovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931712",
@@ -6213,20 +6205,35 @@
    "t": "2026-11-03T05:56:08.830059+00:00",
    "url": "https://uza.uz/oz/posts/abduraximov-sadulla-nabiyevichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_931729",
    "title": "Abduraximov Sadulla Nabiyeviçning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-03T06:03:58.365545+00:00",
+   "url": "https://uza.uz/oz/posts/saidova-zamira-aslonovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_931732",
+   "title": "Saidova Zamira Aslonovnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T06:04:07.581035+00:00",
+   "url": "https://uza.uz/oz/posts/ashurova-shaxnoza-almasovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_931734",
+   "title": "Ashurova Shaxnoza Almasovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-03T06:04:15.605340+00:00",
+   "url": "https://uza.uz/oz/posts/ashurova-shaxnoza-almasovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_931735",
+   "title": "Aşurova Şaxnoza Almasovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 2,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-03T05:56:12.840996+00:00",
+ "last_run": "2026-11-03T06:04:19.613541+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -16314,6 +16321,24 @@
    "m": 5518,
    "p": 1,
    "f": 5519,
+   "d": "2026-11-03"
+  },
+  "u931732": {
+   "m": 5520,
+   "p": 1,
+   "f": 5521,
+   "d": "2026-11-03"
+  },
+  "u931734": {
+   "m": 5522,
+   "p": 1,
+   "f": 5523,
+   "d": "2026-11-03"
+  },
+  "u931735": {
+   "m": 5524,
+   "p": 1,
+   "f": 5525,
    "d": "2026-11-03"
   }
  }
