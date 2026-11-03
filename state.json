@@ -2288,7 +2288,8 @@
   34388,
   34389,
   34390,
-  34391
+  34391,
+  34392
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -6357,11 +6358,6 @@
  "last_deep": "2026-11-03T12:40:36.865096+00:00",
  "recent": [
   {
-   "t": "2026-11-03T12:56:27.784003+00:00",
-   "url": "https://oak.uz/pages/34382",
-   "title": "Xasanova Feruza Rahmonalievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi e’loni"
-  },
-  {
    "t": "2026-11-03T12:56:35.847725+00:00",
    "url": "https://oak.uz/pages/34383",
    "title": "Sobirov Bobur Baxtishodovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
@@ -6405,20 +6401,25 @@
    "t": "2026-11-03T13:01:51.544726+00:00",
    "url": "https://oak.uz/pages/34391",
    "title": "Qo‘yliev Ulug‘bek Ravshanovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-03T13:31:07.066141+00:00",
+   "url": "https://oak.uz/pages/34392",
+   "title": "Mattiev Murod Shamsievichnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 1,
+  "found_oak": 1,
+  "posted": 1,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-03T13:25:45.256776+00:00",
+ "last_run": "2026-11-03T13:31:11.072961+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -17322,6 +17323,12 @@
    "m": 5792,
    "p": 1,
    "f": 5793,
+   "d": "2026-11-03"
+  },
+  "34392": {
+   "m": 5794,
+   "p": 1,
+   "f": 5795,
    "d": "2026-11-03"
   }
  }
