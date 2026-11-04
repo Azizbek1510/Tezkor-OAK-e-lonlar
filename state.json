@@ -6594,15 +6594,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
-  "found_oak": 3,
-  "posted": 5,
+  "found": 0,
+  "found_oak": 0,
+  "posted": 0,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T09:34:10.837766+00:00",
+ "last_run": "2026-11-04T09:40:55.030308+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
