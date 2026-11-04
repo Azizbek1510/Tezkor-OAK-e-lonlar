@@ -2375,7 +2375,13 @@
   34475,
   34476,
   34477,
-  34478
+  34478,
+  34479,
+  34480,
+  34481,
+  34482,
+  34483,
+  34484
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -6642,36 +6648,6 @@
  "last_deep": "2026-11-04T11:30:42.372855+00:00",
  "recent": [
   {
-   "t": "2026-11-04T11:51:34.615305+00:00",
-   "url": "https://uza.uz/oz/posts/hamdamov-ulugbek-hasan-oglining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932568",
-   "title": "Hamdamov Ulug‘bek Hasan o‘g‘lining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-04T11:51:42.607969+00:00",
-   "url": "https://uza.uz/oz/posts/hamdamov-ulugbek-hasan-oglining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932569",
-   "title": "Hamdamov Uluğbek Hasan öğlining filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-04T11:55:50.505688+00:00",
-   "url": "https://uza.uz/oz/posts/bekberganova-nazokat-oybek-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_932570",
-   "title": "Bekberganova Nazokat Oybek qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-04T11:55:57.305119+00:00",
-   "url": "https://uza.uz/oz/posts/toxtashev-farruxzhon-esonali-oglining-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932572",
-   "title": "To‘xtashev Farruxjon Esonali o‘g‘lining qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-04T11:56:04.059415+00:00",
-   "url": "https://uza.uz/oz/posts/toxtashev-farruxjon-esonali-oglining-qishloq-xojaligi-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932573",
-   "title": "Töxtaşev Farruxjon Esonali öğlining qişloq xöjaligi fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-04T12:01:19.462505+00:00",
-   "url": "https://uza.uz/oz/posts/mominzhonov-sanzharbek-ravshanzhon-oglining-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932574",
-   "title": "Mo‘minjonov Sanjarbek Ravshanjon o‘g‘lining qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-11-04T12:01:27.418783+00:00",
    "url": "https://uza.uz/oz/posts/mominjonov-sanjarbek-ravshanjon-oglining-qishloq-xojaligi-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932575",
    "title": "Möminjonov Sanjarbek Ravşanjon öğlining qişloq xöjaligi fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
@@ -6690,20 +6666,50 @@
    "t": "2026-11-04T12:01:51.300833+00:00",
    "url": "https://uza.uz/oz/posts/hamroeva-feruza-asrorovnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932584",
    "title": "Xamroyeva Feruza Asrorovnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T12:11:10.838663+00:00",
+   "url": "https://oak.uz/pages/34479",
+   "title": "Omonova Zarnigor To‘rajon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T12:11:19.068947+00:00",
+   "url": "https://oak.uz/pages/34480",
+   "title": "Yusupova Adiba Matlubovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T12:11:27.777430+00:00",
+   "url": "https://oak.uz/pages/34481",
+   "title": "Toshnazarova Dilnavoz Olimovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T12:11:37.713073+00:00",
+   "url": "https://oak.uz/pages/34482",
+   "title": "Turaxujaev Orif Sirojidinovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T12:11:46.533622+00:00",
+   "url": "https://oak.uz/pages/34483",
+   "title": "Ortiqova Zulfiya Nurmaxamatovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T12:11:54.884549+00:00",
+   "url": "https://oak.uz/pages/34484",
+   "title": "Mamonov Abduzoxid Monnatovichining falsafa doktori (PhD) dissertssiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
-  "found_oak": 0,
-  "posted": 5,
-  "dups": 3,
+  "found": 6,
+  "found_oak": 6,
+  "posted": 6,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T12:01:55.322445+00:00",
+ "last_run": "2026-11-04T12:11:58.896857+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -18609,6 +18615,42 @@
    "m": 6128,
    "p": 1,
    "f": 6129,
+   "d": "2026-11-04"
+  },
+  "34479": {
+   "m": 6130,
+   "p": 1,
+   "f": 6131,
+   "d": "2026-11-04"
+  },
+  "34480": {
+   "m": 6132,
+   "p": 1,
+   "f": 6133,
+   "d": "2026-11-04"
+  },
+  "34481": {
+   "m": 6134,
+   "p": 1,
+   "f": 6135,
+   "d": "2026-11-04"
+  },
+  "34482": {
+   "m": 6136,
+   "p": 1,
+   "f": 6137,
+   "d": "2026-11-04"
+  },
+  "34483": {
+   "m": 6138,
+   "p": 1,
+   "f": 6139,
+   "d": "2026-11-04"
+  },
+  "34484": {
+   "m": 6140,
+   "p": 1,
+   "f": 6141,
    "d": "2026-11-04"
   }
  }
