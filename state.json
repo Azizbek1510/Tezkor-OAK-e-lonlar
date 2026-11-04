@@ -4997,7 +4997,11 @@
   932010,
   932011,
   932012,
-  932013
+  932013,
+  932166,
+  932167,
+  932168,
+  932169
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6368,27 +6372,15 @@
   "kalandarov ruzimurat|DSc": "2026-11-03",
   "tojimamatova muqaddam|PhD": "2026-11-03",
   "tajimova gulistan|PhD": "2026-11-03",
-  "abatov asqar|PhD": "2026-11-03"
+  "abatov asqar|PhD": "2026-11-03",
+  "jabborov jamshid|DSc": "2026-11-04",
+  "jabborov jam|DSc": "2026-11-04",
+  "tajiboev botir|DSc": "2026-11-04"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-04T04:30:43.545243+00:00",
  "recent": [
-  {
-   "t": "2026-11-03T13:55:52.485506+00:00",
-   "url": "https://oak.uz/pages/34400",
-   "title": "Vasliddinova Kamola Qodirjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-03T13:56:00.522775+00:00",
-   "url": "https://oak.uz/pages/34401",
-   "title": "Toxirov Oybek Sobir o‘g‘lining falsafa doktori (Phd) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-03T13:56:08.761553+00:00",
-   "url": "https://oak.uz/pages/34402",
-   "title": "Ishanxodjaeva Dildora Aleksandrovnaning fan doktori (DSc) dissertatsiya himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-03T14:01:11.734235+00:00",
    "url": "https://oak.uz/pages/34403",
@@ -6423,20 +6415,35 @@
    "t": "2026-11-03T14:06:35.883966+00:00",
    "url": "https://oak.uz/pages/34409",
    "title": "Shakirov Sardor Abdusaminovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T04:36:16.589716+00:00",
+   "url": "https://uza.uz/oz/posts/jabborov-jamshid-azimovichning-psixologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932166",
+   "title": "Jabborov Jamshid Azimovichning psixologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T04:36:24.129015+00:00",
+   "url": "https://uza.uz/oz/posts/jabborov-jamshid-azimovichning-psixologiya-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_932167",
+   "title": "Jabborov Jamşid Azimoviçning psixologiya fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-04T04:36:31.580396+00:00",
+   "url": "https://uza.uz/oz/posts/tazhiboev-botir-raximzhonovichning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932168",
+   "title": "Tajiboyev Botir Raximjonovichning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T04:33:46.669415+00:00",
+ "last_run": "2026-11-04T04:36:35.602655+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -17449,6 +17456,24 @@
    "p": 1,
    "f": 5829,
    "d": "2026-11-03"
+  },
+  "u932166": {
+   "m": 5830,
+   "p": 1,
+   "f": 5831,
+   "d": "2026-11-04"
+  },
+  "u932167": {
+   "m": 5832,
+   "p": 1,
+   "f": 5833,
+   "d": "2026-11-04"
+  },
+  "u932168": {
+   "m": 5834,
+   "p": 1,
+   "f": 5835,
+   "d": "2026-11-04"
   }
  }
 }
