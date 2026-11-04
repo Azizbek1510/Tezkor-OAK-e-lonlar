@@ -5139,7 +5139,11 @@
   932339,
   932340,
   932427,
-  932428
+  932428,
+  932529,
+  932530,
+  932531,
+  932532
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6569,22 +6573,14 @@
   "kubaeva munira|PhD": "2026-11-04",
   "tuhtaeva oydinoy|PhD": "2026-11-04",
   "abdurahmonov ravshan|PhD": "2026-11-04",
-  "abdurahmonov rav|PhD": "2026-11-04"
+  "abdurahmonov rav|PhD": "2026-11-04",
+  "haydarov bahrom|PhD": "2026-11-04",
+  "turanova iroda|PhD": "2026-11-04"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-04T10:30:47.690120+00:00",
  "recent": [
-  {
-   "t": "2026-11-04T10:46:27.736792+00:00",
-   "url": "https://oak.uz/pages/34456",
-   "title": "Mamadov Baxodir Alisherovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-04T10:46:35.755548+00:00",
-   "url": "https://oak.uz/pages/34457",
-   "title": "Mardanova Yulduz O‘ktam qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-04T10:46:43.702690+00:00",
    "url": "https://oak.uz/pages/34458",
@@ -6624,20 +6620,30 @@
    "t": "2026-11-04T10:55:51.232621+00:00",
    "url": "https://oak.uz/pages/34465",
    "title": "Saparbaev Suroj Rustamovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T11:25:54.180350+00:00",
+   "url": "https://uza.uz/oz/posts/haydarov-baxrom-holmuradovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932529",
+   "title": "Xaydarov Baxrom Xolmuradovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T11:26:01.669589+00:00",
+   "url": "https://uza.uz/oz/posts/turanova-iroda-egamberdi-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932531",
+   "title": "Turanova Iroda Egamberdi qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T11:21:14.047594+00:00",
+ "last_run": "2026-11-04T11:26:05.691267+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -18339,6 +18345,18 @@
    "m": 6060,
    "p": 1,
    "f": 6061,
+   "d": "2026-11-04"
+  },
+  "u932529": {
+   "m": 6062,
+   "p": 1,
+   "f": 6063,
+   "d": "2026-11-04"
+  },
+  "u932531": {
+   "m": 6064,
+   "p": 1,
+   "f": 6065,
    "d": "2026-11-04"
   }
  }
