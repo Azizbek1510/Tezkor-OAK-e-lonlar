@@ -2385,7 +2385,12 @@
   34485,
   34486,
   34487,
-  34488
+  34488,
+  34490,
+  34491,
+  34492,
+  34493,
+  34494
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -6652,31 +6657,6 @@
  "last_deep": "2026-11-04T12:30:42.638162+00:00",
  "recent": [
   {
-   "t": "2026-11-04T12:11:10.838663+00:00",
-   "url": "https://oak.uz/pages/34479",
-   "title": "Omonova Zarnigor To‘rajon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-04T12:11:19.068947+00:00",
-   "url": "https://oak.uz/pages/34480",
-   "title": "Yusupova Adiba Matlubovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-04T12:11:27.777430+00:00",
-   "url": "https://oak.uz/pages/34481",
-   "title": "Toshnazarova Dilnavoz Olimovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-04T12:11:37.713073+00:00",
-   "url": "https://oak.uz/pages/34482",
-   "title": "Turaxujaev Orif Sirojidinovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-04T12:11:46.533622+00:00",
-   "url": "https://oak.uz/pages/34483",
-   "title": "Ortiqova Zulfiya Nurmaxamatovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-04T12:11:54.884549+00:00",
    "url": "https://oak.uz/pages/34484",
    "title": "Mamonov Abduzoxid Monnatovichining falsafa doktori (PhD) dissertssiyasi himoyasi haqida e’lon"
@@ -6700,20 +6680,45 @@
    "t": "2026-11-04T12:16:26.994787+00:00",
    "url": "https://oak.uz/pages/34488",
    "title": "Toirov Muhammadxon Toir o‘g‘lining falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T13:05:54.118837+00:00",
+   "url": "https://oak.uz/pages/34490",
+   "title": "Azatova Guliston Norimonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T13:06:02.169913+00:00",
+   "url": "https://oak.uz/pages/34491",
+   "title": "Chorieva Zebiniso Odilovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-11-04T13:06:10.289460+00:00",
+   "url": "https://oak.uz/pages/34492",
+   "title": "To‘ev Baxtiyor Zaripovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-11-04T13:06:18.338606+00:00",
+   "url": "https://oak.uz/pages/34493",
+   "title": "Mamasolieva Gulchexraxon Abduxalilovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-04T13:06:26.208018+00:00",
+   "url": "https://oak.uz/pages/34494",
+   "title": "Davirova Vazira Quvondiq qizi falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 5,
+  "found_oak": 5,
+  "posted": 5,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T13:01:12.076646+00:00",
+ "last_run": "2026-11-04T13:06:30.214826+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -18679,6 +18684,36 @@
    "m": 6148,
    "p": 1,
    "f": 6149,
+   "d": "2026-11-04"
+  },
+  "34490": {
+   "m": 6150,
+   "p": 1,
+   "f": 6151,
+   "d": "2026-11-04"
+  },
+  "34491": {
+   "m": 6152,
+   "p": 1,
+   "f": 6153,
+   "d": "2026-11-04"
+  },
+  "34492": {
+   "m": 6154,
+   "p": 1,
+   "f": 6155,
+   "d": "2026-11-04"
+  },
+  "34493": {
+   "m": 6156,
+   "p": 1,
+   "f": 6157,
+   "d": "2026-11-04"
+  },
+  "34494": {
+   "m": 6158,
+   "p": 1,
+   "f": 6159,
    "d": "2026-11-04"
   }
  }
