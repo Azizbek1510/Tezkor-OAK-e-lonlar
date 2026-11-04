@@ -5238,7 +5238,11 @@
   932671,
   932672,
   932673,
-  932674
+  932674,
+  932675,
+  932676,
+  932677,
+  932678
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6706,22 +6710,14 @@
   "rozieva dilyara|PhD": "2026-11-04",
   "r zieva|PhD": "2026-11-04",
   "turaev ogabek|PhD": "2026-11-04",
-  "turaev o|PhD": "2026-11-04"
+  "turaev o|PhD": "2026-11-04",
+  "saidova nilufar|PhD": "2026-11-04",
+  "mamatqulov sirojiddin|DSc": "2026-11-04"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-04T13:30:43.235206+00:00",
  "recent": [
-  {
-   "t": "2026-11-04T13:35:52.146816+00:00",
-   "url": "https://uza.uz/oz/posts/allamuratova-perida-maxsetbaevnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932659",
-   "title": "Allamuratova Perida Maxsetbayevnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-04T13:40:58.113524+00:00",
-   "url": "https://uza.uz/oz/posts/halilov-boxodir-shirinboevichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932663",
-   "title": "Xalilov Boxodir Shirinboyevichning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-04T13:45:59.604019+00:00",
    "url": "https://uza.uz/oz/posts/toreshov-dauranbek-baxitbaevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932667",
@@ -6761,20 +6757,30 @@
    "t": "2026-11-04T13:51:41.741306+00:00",
    "url": "https://uza.uz/oz/posts/turayev-ogabek-kaxramonovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932674",
    "title": "Turayev Oğabek Kaxramonoviçning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-04T13:55:49.531236+00:00",
+   "url": "https://uza.uz/oz/posts/saidova-nilufar-anvar-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932675",
+   "title": "Saidova Nilufar Anvar qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T13:55:56.693095+00:00",
+   "url": "https://uza.uz/oz/posts/mamatqulov-sirozhiddin-husan-oglining-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932677",
+   "title": "Mamatqulov Sirojiddin Xusan o‘g‘lining tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 6,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T13:51:45.754507+00:00",
+ "last_run": "2026-11-04T13:56:00.718807+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -18950,6 +18956,18 @@
    "m": 6218,
    "p": 1,
    "f": 6219,
+   "d": "2026-11-04"
+  },
+  "u932675": {
+   "m": 6220,
+   "p": 1,
+   "f": 6221,
+   "d": "2026-11-04"
+  },
+  "u932677": {
+   "m": 6222,
+   "p": 1,
+   "f": 6223,
    "d": "2026-11-04"
   }
  }
