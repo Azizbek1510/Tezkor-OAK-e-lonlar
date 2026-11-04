@@ -5069,7 +5069,11 @@
   932289,
   932290,
   932295,
-  932296
+  932296,
+  932307,
+  932308,
+  932311,
+  932312
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6488,27 +6492,15 @@
   "mihliboev farruh|PhD": "2026-11-04",
   "bozorboev javlon|PhD": "2026-11-04",
   "toshpulova nodira|PhD": "2026-11-04",
-  "to pulova|PhD": "2026-11-04"
+  "to pulova|PhD": "2026-11-04",
+  "turakulova shahnoza|PhD": "2026-11-04",
+  "turakulova ahnoza|PhD": "2026-11-04",
+  "abdikadirova tursinay|PhD": "2026-11-04"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-04T05:30:44.015820+00:00",
  "recent": [
-  {
-   "t": "2026-11-04T05:46:14.866864+00:00",
-   "url": "https://uza.uz/oz/posts/husanova-dilnoza-abduxamid-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932261",
-   "title": "Xusanova Dilnoza Abduxamid qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-04T05:46:22.610659+00:00",
-   "url": "https://uza.uz/oz/posts/nabieva-firuza-odil-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932268",
-   "title": "Nabiyeva Firuza Odil qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-04T05:55:48.606400+00:00",
-   "url": "https://uza.uz/oz/posts/aralova-iroda-meliqozi-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932272",
-   "title": "Aralova Iroda Meliqo‘zi qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-04T05:55:56.103216+00:00",
    "url": "https://uza.uz/oz/posts/fayzullaeva-zulfiya-saidovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932274",
@@ -6543,20 +6535,35 @@
    "t": "2026-11-04T06:05:54.962370+00:00",
    "url": "https://uza.uz/oz/posts/toshpulova-nodira-sultonmurod-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932296",
    "title": "Toşpulova Nodira Sultonmurod qizining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-04T06:10:56.271624+00:00",
+   "url": "https://uza.uz/oz/posts/turakulova-shaxnoza-daminovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932307",
+   "title": "Turakulova Shaxnoza Daminovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T06:11:03.573322+00:00",
+   "url": "https://uza.uz/oz/posts/turakulova-shaxnoza-daminovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932308",
+   "title": "Turakulova Şaxnoza Daminovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-04T06:11:10.068324+00:00",
+   "url": "https://uza.uz/oz/posts/abdikadirova-tursinay-shamshetovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932311",
+   "title": "Abdikadirova Tursinay Shamshetovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 4,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 0,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T06:05:58.968797+00:00",
+ "last_run": "2026-11-04T06:11:14.085362+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -17856,6 +17863,24 @@
    "m": 5924,
    "p": 1,
    "f": 5925,
+   "d": "2026-11-04"
+  },
+  "u932307": {
+   "m": 5926,
+   "p": 1,
+   "f": 5927,
+   "d": "2026-11-04"
+  },
+  "u932308": {
+   "m": 5928,
+   "p": 1,
+   "f": 5929,
+   "d": "2026-11-04"
+  },
+  "u932311": {
+   "m": 5930,
+   "p": 1,
+   "f": 5931,
    "d": "2026-11-04"
   }
  }
