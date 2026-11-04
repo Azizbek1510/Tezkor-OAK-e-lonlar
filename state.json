@@ -5055,7 +5055,13 @@
   932261,
   932262,
   932268,
-  932269
+  932269,
+  932272,
+  932273,
+  932274,
+  932275,
+  932278,
+  932279
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6466,27 +6472,15 @@
   "mahkamova nigora|PhD": "2026-11-04",
   "abdullaeva dilbar|PhD": "2026-11-04",
   "husanova dilnoza|PhD": "2026-11-04",
-  "nabieva firuza|PhD": "2026-11-04"
+  "nabieva firuza|PhD": "2026-11-04",
+  "aralova iroda|PhD": "2026-11-04",
+  "fayzullaeva zulfiya|PhD": "2026-11-04",
+  "saidqulov sodiqjon|PhD": "2026-11-04"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-04T05:30:44.015820+00:00",
  "recent": [
-  {
-   "t": "2026-11-04T05:33:52.411674+00:00",
-   "url": "https://uza.uz/oz/posts/yusufzhonov-ravshanbek-rustamzhon-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932245",
-   "title": "Yusufjonov Ravshanbek Rustamjon o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-04T05:35:55.692414+00:00",
-   "url": "https://uza.uz/oz/posts/yusufjonov-ravshanbek-rustamjon-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932246",
-   "title": "Yusufjonov Ravşanbek Rustamjon öğlining iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-04T05:36:03.339103+00:00",
-   "url": "https://uza.uz/oz/posts/absamatov-davron-absamatovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932249",
-   "title": "Absamatov Davron Absamatovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-04T05:36:11.115094+00:00",
    "url": "https://uza.uz/oz/posts/islamov-shuxratzhon-tuychibaevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932251",
@@ -6521,20 +6515,35 @@
    "t": "2026-11-04T05:46:22.610659+00:00",
    "url": "https://uza.uz/oz/posts/nabieva-firuza-odil-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932268",
    "title": "Nabiyeva Firuza Odil qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T05:55:48.606400+00:00",
+   "url": "https://uza.uz/oz/posts/aralova-iroda-meliqozi-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932272",
+   "title": "Aralova Iroda Meliqo‘zi qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T05:55:56.103216+00:00",
+   "url": "https://uza.uz/oz/posts/fayzullaeva-zulfiya-saidovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932274",
+   "title": "Fayzullayeva Zulfiya Saidovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T05:56:03.883993+00:00",
+   "url": "https://uza.uz/oz/posts/saidqulov-sodiqzhon-botirovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932278",
+   "title": "Saidqulov Sodiqjon Botirovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 6,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T05:50:53.181046+00:00",
+ "last_run": "2026-11-04T05:56:07.900773+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -17786,6 +17795,24 @@
    "m": 5908,
    "p": 1,
    "f": 5909,
+   "d": "2026-11-04"
+  },
+  "u932272": {
+   "m": 5910,
+   "p": 1,
+   "f": 5911,
+   "d": "2026-11-04"
+  },
+  "u932274": {
+   "m": 5912,
+   "p": 1,
+   "f": 5913,
+   "d": "2026-11-04"
+  },
+  "u932278": {
+   "m": 5914,
+   "p": 1,
+   "f": 5915,
    "d": "2026-11-04"
   }
  }
