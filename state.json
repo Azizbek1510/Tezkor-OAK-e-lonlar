@@ -5160,7 +5160,11 @@
   932538,
   932539,
   932548,
-  932549
+  932549,
+  932554,
+  932555,
+  932559,
+  932560
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6595,22 +6599,14 @@
   "turanova iroda|PhD": "2026-11-04",
   "suvonqulova aziza|PhD": "2026-11-04",
   "rozmatov sanjarbek|PhD": "2026-11-04",
-  "r zmatov|PhD": "2026-11-04"
+  "r zmatov|PhD": "2026-11-04",
+  "taylakova dilnoza|DSc": "2026-11-04",
+  "mansurov davron|PhD": "2026-11-04"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-04T11:30:42.372855+00:00",
  "recent": [
-  {
-   "t": "2026-11-04T11:36:13.127371+00:00",
-   "url": "https://oak.uz/pages/34471",
-   "title": "Kabulov Inamjan Sharipbaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-04T11:36:21.396191+00:00",
-   "url": "https://oak.uz/pages/34472",
-   "title": "Karamatdinova Nurjamal Rustem qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-04T11:36:29.225273+00:00",
    "url": "https://oak.uz/pages/34473",
@@ -6650,20 +6646,30 @@
    "t": "2026-11-04T11:41:30.037394+00:00",
    "url": "https://uza.uz/oz/posts/rozmatov-sanjarbek-maratovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932549",
    "title": "Rözmatov Sanjarbek Maratoviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-04T11:46:00.081522+00:00",
+   "url": "https://uza.uz/oz/posts/taylakova-dilnoza-norbekovnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932554",
+   "title": "Taylakova Dilnoza Norbekovnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T11:46:07.718334+00:00",
+   "url": "https://uza.uz/oz/posts/mansurov-davron-asilxodzhaevichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932559",
+   "title": "Mansurov Davron Asilxodjayevichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
-  "found_oak": 3,
-  "posted": 5,
-  "dups": 0,
+  "found": 4,
+  "found_oak": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T11:41:34.046380+00:00",
+ "last_run": "2026-11-04T11:46:11.735032+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -18473,6 +18479,18 @@
    "m": 6096,
    "p": 1,
    "f": 6097,
+   "d": "2026-11-04"
+  },
+  "u932554": {
+   "m": 6098,
+   "p": 1,
+   "f": 6099,
+   "d": "2026-11-04"
+  },
+  "u932559": {
+   "m": 6100,
+   "p": 1,
+   "f": 6101,
    "d": "2026-11-04"
   }
  }
