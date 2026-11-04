@@ -5033,7 +5033,9 @@
   932230,
   932231,
   932232,
-  932233
+  932233,
+  932235,
+  932236
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6430,22 +6432,14 @@
   "rayimjonov mirzavali|PhD": "2026-11-04",
   "hurramov azizbek|PhD": "2026-11-04",
   "astanov ahunjan|PhD": "2026-11-04",
-  "rahmatullaev mirjalol|PhD": "2026-11-04"
+  "rahmatullaev mirjalol|PhD": "2026-11-04",
+  "malikova ugiloy|PhD": "2026-11-04",
+  "malikova u|PhD": "2026-11-04"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-04T04:30:43.545243+00:00",
  "recent": [
-  {
-   "t": "2026-11-04T05:10:54.657672+00:00",
-   "url": "https://uza.uz/oz/posts/bekchanova-nilufar-axmedzhanovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932209",
-   "title": "Bekchanova Nilufar Axmedjanovnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-04T05:11:02.497124+00:00",
-   "url": "https://uza.uz/oz/posts/bekchanova-nilufar-axmedjanovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932210",
-   "title": "Bekçanova Nilufar Axmedjanovnaning tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-04T05:11:10.978268+00:00",
    "url": "https://uza.uz/oz/posts/holmatova-asila-menglimurod-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932214",
@@ -6485,20 +6479,30 @@
    "t": "2026-11-04T05:21:31.109397+00:00",
    "url": "https://uza.uz/oz/posts/raxmatullaev-mirzhalol-hatam-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932232",
    "title": "Raxmatullayev Mirjalol Hatam o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T05:25:57.323486+00:00",
+   "url": "https://uza.uz/oz/posts/malikova-ugiloy-abdurasul-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932235",
+   "title": "Malikova Ug‘iloy Abdurasul qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-04T05:26:05.409699+00:00",
+   "url": "https://uza.uz/oz/posts/malikova-ugiloy-abdurasul-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932236",
+   "title": "Malikova Uğiloy Abdurasul qizining iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 2,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 4,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-04T05:21:35.995306+00:00",
+ "last_run": "2026-11-04T05:26:09.420900+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -17666,6 +17670,18 @@
    "m": 5880,
    "p": 1,
    "f": 5881,
+   "d": "2026-11-04"
+  },
+  "u932235": {
+   "m": 5882,
+   "p": 1,
+   "f": 5883,
+   "d": "2026-11-04"
+  },
+  "u932236": {
+   "m": 5884,
+   "p": 1,
+   "f": 5885,
    "d": "2026-11-04"
   }
  }
