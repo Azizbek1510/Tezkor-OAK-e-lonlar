@@ -5404,7 +5404,9 @@
   933229,
   933230,
   933231,
-  933232
+  933232,
+  933235,
+  933236
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6959,22 +6961,14 @@
   "tohirov sheroz|PhD": "2026-11-05",
   "tohirov eroz|PhD": "2026-11-05",
   "choriev hayitmurod|PhD": "2026-11-05",
-  "oriev hayitmurod|PhD": "2026-11-05"
+  "oriev hayitmurod|PhD": "2026-11-05",
+  "yarashev jorabek|DSc": "2026-11-05",
+  "yara ev|DSc": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T13:00:45.345636+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T13:31:38.469538+00:00",
-   "url": "https://oak.uz/pages/34538",
-   "title": "Smetova Jumabike Hamidullaevna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-05T13:31:46.266757+00:00",
-   "url": "https://oak.uz/pages/34539",
-   "title": "Sayfiddinova Jamila Ziyodulla qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-05T13:32:05.714898+00:00",
    "url": "https://oak.uz/pages/34540",
@@ -7014,20 +7008,30 @@
    "t": "2026-11-05T13:33:06.777364+00:00",
    "url": "https://uza.uz/oz/posts/choriyev-hayitmurod-qultora-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933232",
    "title": "Çoriyev Hayitmurod Qultöra öğlining tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-05T13:35:54.043511+00:00",
+   "url": "https://uza.uz/oz/posts/yarashev-jorabek-toraevichning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933235",
+   "title": "Yarashev Jo‘rabek To‘rayevichning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T13:36:02.714054+00:00",
+   "url": "https://uza.uz/oz/posts/yarashev-jorabek-torayevichning-pedagogika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_933236",
+   "title": "Yaraşev Jörabek Törayeviçning pedagogika fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 15,
-  "found_oak": 9,
-  "posted": 14,
-  "dups": 1,
+  "found": 2,
+  "found_oak": 0,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T13:33:10.787574+00:00",
+ "last_run": "2026-11-05T13:36:06.728356+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19929,6 +19933,18 @@
    "m": 6460,
    "p": 1,
    "f": 6461,
+   "d": "2026-11-05"
+  },
+  "u933235": {
+   "m": 6462,
+   "p": 1,
+   "f": 6463,
+   "d": "2026-11-05"
+  },
+  "u933236": {
+   "m": 6464,
+   "p": 1,
+   "f": 6465,
    "d": "2026-11-05"
   }
  }
