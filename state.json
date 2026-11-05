@@ -5242,7 +5242,9 @@
   932675,
   932676,
   932677,
-  932678
+  932678,
+  932750,
+  932751
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6712,17 +6714,13 @@
   "turaev ogabek|PhD": "2026-11-04",
   "turaev o|PhD": "2026-11-04",
   "saidova nilufar|PhD": "2026-11-04",
-  "mamatqulov sirojiddin|DSc": "2026-11-04"
+  "mamatqulov sirojiddin|DSc": "2026-11-04",
+  "imomov elyorjon|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T04:00:46.458327+00:00",
  "recent": [
-  {
-   "t": "2026-11-04T13:45:59.604019+00:00",
-   "url": "https://uza.uz/oz/posts/toreshov-dauranbek-baxitbaevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932667",
-   "title": "Toreshov Dauranbek Baxitbayevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-04T13:46:07.179148+00:00",
    "url": "https://uza.uz/oz/posts/toreshov-dauranbek-baxitbayevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932668",
@@ -6767,20 +6765,25 @@
    "t": "2026-11-04T13:55:56.693095+00:00",
    "url": "https://uza.uz/oz/posts/mamatqulov-sirozhiddin-husan-oglining-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932677",
    "title": "Mamatqulov Sirojiddin Xusan o‘g‘lining tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T04:20:55.055275+00:00",
+   "url": "https://uza.uz/oz/posts/imomov-elyorzhon-toxtasinovichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932750",
+   "title": "Imomov Elyorjon To‘xtasinovichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 2,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T04:15:47.489770+00:00",
+ "last_run": "2026-11-05T04:20:59.080190+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -18969,6 +18972,12 @@
    "p": 1,
    "f": 6223,
    "d": "2026-11-04"
+  },
+  "u932750": {
+   "m": 6224,
+   "p": 1,
+   "f": 6225,
+   "d": "2026-11-05"
   }
  }
 }
