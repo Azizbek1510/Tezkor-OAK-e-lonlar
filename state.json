@@ -5266,7 +5266,13 @@
   932781,
   932782,
   932783,
-  932784
+  932784,
+  932787,
+  932788,
+  932789,
+  932790,
+  932791,
+  932792
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6752,27 +6758,15 @@
   "alimov navroz|PhD": "2026-11-05",
   "alimov navr|PhD": "2026-11-05",
   "pasilov bahodir|DSc": "2026-11-05",
-  "sulaymonov nazar|PhD": "2026-11-05"
+  "sulaymonov nazar|PhD": "2026-11-05",
+  "bahriev muhiddin|PhD": "2026-11-05",
+  "yoqubjonova hulkarbonu|DSc": "2026-11-05",
+  "yunusova sohiba|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T04:00:46.458327+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T04:31:20.752662+00:00",
-   "url": "https://uza.uz/oz/posts/karamirzayev-yomgir-xudoynazarovichning-qishloq-xojaligi-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932761",
-   "title": "Karamirzayev Yomğir Xudoynazaroviçning qişloq xöjaligi fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-05T04:31:27.276951+00:00",
-   "url": "https://uza.uz/oz/posts/toyirova-nazokat-moxirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932762",
-   "title": "Toyirova Nazokat Moxirovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T04:40:51.077309+00:00",
-   "url": "https://uza.uz/oz/posts/pardaev-saidqosim-narqulovichning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932767",
-   "title": "Pardayev Saidqosim Narqulovichning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-05T04:40:58.039670+00:00",
    "url": "https://uza.uz/oz/posts/umarova-komila-samatovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932769",
@@ -6807,6 +6801,21 @@
    "t": "2026-11-05T04:46:13.669157+00:00",
    "url": "https://uza.uz/oz/posts/sulaymonov-nazar-normurod-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932783",
    "title": "Sulaymonov Nazar Normurod o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T04:50:51.301740+00:00",
+   "url": "https://uza.uz/oz/posts/baxriev-muxiddin-sheralievichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932787",
+   "title": "Baxriyev Muxiddin Sheraliyevichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T04:50:58.053942+00:00",
+   "url": "https://uza.uz/oz/posts/yoqubzhonova-hulkarbonu-yoqubovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932789",
+   "title": "Yoqubjonova Hulkarbonu Yoqubovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T04:51:05.004202+00:00",
+   "url": "https://uza.uz/oz/posts/yunusova-sohiba-abdulmamidovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932791",
+   "title": "Yunusova Sohiba Abdulmamidovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -6814,13 +6823,13 @@
  "counts": {
   "found": 6,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 2,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T04:46:17.685124+00:00",
+ "last_run": "2026-11-05T04:51:09.029380+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19104,6 +19113,24 @@
    "m": 6254,
    "p": 1,
    "f": 6255,
+   "d": "2026-11-05"
+  },
+  "u932787": {
+   "m": 6256,
+   "p": 1,
+   "f": 6257,
+   "d": "2026-11-05"
+  },
+  "u932789": {
+   "m": 6258,
+   "p": 1,
+   "f": 6259,
+   "d": "2026-11-05"
+  },
+  "u932791": {
+   "m": 6260,
+   "p": 1,
+   "f": 6261,
    "d": "2026-11-05"
   }
  }
