@@ -5324,7 +5324,10 @@
   932882,
   932883,
   932919,
-  932920
+  932920,
+  932926,
+  932927,
+  932928
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6849,27 +6852,15 @@
   "amonova yulduz|PhD": "2026-11-05",
   "kadirova mashhura|PhD": "2026-11-05",
   "kadirova ma|PhD": "2026-11-05",
-  "saidova iroda|PhD": "2026-11-05"
+  "saidova iroda|PhD": "2026-11-05",
+  "irgasheva mahbubahon|PhD": "2026-11-05",
+  "irga eva|PhD": "2026-11-05",
+  "rasulova iroda|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T06:00:42.486829+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T05:35:57.580514+00:00",
-   "url": "https://uza.uz/oz/posts/dostmuhammedova-gulhayo-dostmuxamedovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932855",
-   "title": "Döstmuhammedova Gulhayo Döstmuxamedovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-05T05:36:05.223458+00:00",
-   "url": "https://uza.uz/oz/posts/abdulxaeva-maxiraxon-boriyxonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932856",
-   "title": "Abdulxayeva Maxiraxon Boriyxonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T05:36:12.674018+00:00",
-   "url": "https://uza.uz/oz/posts/kdyrbaev-amir-marat-ulyning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932860",
-   "title": "Kdirbayev Amir Marat ulining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-05T05:40:55.882408+00:00",
    "url": "https://uza.uz/oz/posts/urazbaeva-sabohat-ortiqboevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_932862",
@@ -6904,20 +6895,35 @@
    "t": "2026-11-05T06:35:47.687072+00:00",
    "url": "https://uza.uz/oz/posts/saidova-iroda-anvar-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932919",
    "title": "Saidova Iroda Anvar qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T06:40:54.539032+00:00",
+   "url": "https://uza.uz/oz/posts/irgasheva-maxbubaxon-davlatzhon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932926",
+   "title": "Irgasheva Maxbubaxon Davlatjon qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T06:41:02.474905+00:00",
+   "url": "https://uza.uz/oz/posts/irgasheva-maxbubaxon-davlatjon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932927",
+   "title": "Irgaşeva Maxbubaxon Davlatjon qizining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-05T06:41:09.721915+00:00",
+   "url": "https://uza.uz/oz/posts/rasulova-iroda-abduxoliqovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932928",
+   "title": "Rasulova Iroda Abduxoliqovnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 3,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 3,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T06:35:51.716354+00:00",
+ "last_run": "2026-11-05T06:41:13.733219+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19435,6 +19441,24 @@
    "m": 6332,
    "p": 1,
    "f": 6333,
+   "d": "2026-11-05"
+  },
+  "u932926": {
+   "m": 6334,
+   "p": 1,
+   "f": 6335,
+   "d": "2026-11-05"
+  },
+  "u932927": {
+   "m": 6336,
+   "p": 1,
+   "f": 6337,
+   "d": "2026-11-05"
+  },
+  "u932928": {
+   "m": 6338,
+   "p": 1,
+   "f": 6339,
    "d": "2026-11-05"
   }
  }
