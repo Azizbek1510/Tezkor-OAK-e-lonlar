@@ -5454,7 +5454,9 @@
   933273,
   933274,
   933278,
-  933279
+  933279,
+  933320,
+  933321
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7028,17 +7030,13 @@
   "begmatova dilnoza|DSc": "2026-11-05",
   "usanov rashid|PhD": "2026-11-05",
   "usanov ra|PhD": "2026-11-05",
-  "hursandov hamidillo|PhD": "2026-11-05"
+  "hursandov hamidillo|PhD": "2026-11-05",
+  "gozieva matluba|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-05T15:00:50.385656+00:00",
+ "last_deep": "2026-11-05T16:00:52.579167+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T13:52:38.938941+00:00",
-   "url": "https://uza.uz/oz/posts/hodzhiev-farxod-batirovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933254",
-   "title": "Xodjiyev Farxod Batirovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-05T13:52:46.801691+00:00",
    "url": "https://uza.uz/oz/posts/rahimqulov-shokir-rizoevichning-texnika-fanlari-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933257",
@@ -7083,20 +7081,25 @@
    "t": "2026-11-05T14:05:54.446710+00:00",
    "url": "https://uza.uz/oz/posts/hursandov-hamidillo-fayzillo-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933278",
    "title": "Xursandov Xamidillo Fayzillo o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T16:04:16.487987+00:00",
+   "url": "https://uza.uz/oz/posts/gozieva-matluba-turgunovnaning-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933320",
+   "title": "Goziyeva Matluba Turg‘unovnaning Geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 2,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T15:03:59.695278+00:00",
+ "last_run": "2026-11-05T16:04:20.507516+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -20232,6 +20235,12 @@
    "m": 6538,
    "p": 1,
    "f": 6539,
+   "d": "2026-11-05"
+  },
+  "u933320": {
+   "m": 6540,
+   "p": 1,
+   "f": 6541,
    "d": "2026-11-05"
   }
  }
