@@ -5360,7 +5360,9 @@
   933141,
   933142,
   933149,
-  933150
+  933150,
+  933191,
+  933192
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6899,17 +6901,13 @@
   "bekchanov davron|DSc": "2026-11-05",
   "bek anov|DSc": "2026-11-05",
   "hazratqulova ezoza|PhD": "2026-11-05",
-  "adilova munisa|PhD": "2026-11-05"
+  "adilova munisa|PhD": "2026-11-05",
+  "rizaev azizjon|DSc": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-05T12:00:48.678602+00:00",
+ "last_deep": "2026-11-05T13:00:45.345636+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T10:51:15.354567+00:00",
-   "url": "https://oak.uz/pages/34524",
-   "title": "Raxmatullaev Fozilbek Abduraxim o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-05T11:15:55.307903+00:00",
    "url": "https://uza.uz/oz/posts/azimov-tolmas-nematullaevichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933125",
@@ -6954,20 +6952,25 @@
    "t": "2026-11-05T11:35:50.258032+00:00",
    "url": "https://uza.uz/oz/posts/adilova-munisa-furkatovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933149",
    "title": "Adilova Munisa Furkatovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T13:03:50.074215+00:00",
+   "url": "https://uza.uz/oz/posts/rizaev-azizzhon-raximdzhanovichning-siyosiy-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933191",
+   "title": "Rizayev Azizjon Raximdjanovichning siyosiy fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 2,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T12:55:53.443701+00:00",
+ "last_run": "2026-11-05T13:03:54.095082+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19665,6 +19668,12 @@
    "m": 6392,
    "p": 1,
    "f": 6393,
+   "d": "2026-11-05"
+  },
+  "u933191": {
+   "m": 6394,
+   "p": 1,
+   "f": 6395,
    "d": "2026-11-05"
   }
  }
