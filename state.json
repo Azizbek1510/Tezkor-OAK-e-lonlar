@@ -5318,7 +5318,11 @@
   932862,
   932863,
   932866,
-  932867
+  932867,
+  932872,
+  932873,
+  932882,
+  932883
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6839,27 +6843,15 @@
   "kdirbaev amir|PhD": "2026-11-05",
   "urazbaeva sabohat|PhD": "2026-11-05",
   "shakirov sardor|DSc": "2026-11-05",
-  "akirov sardor|DSc": "2026-11-05"
+  "akirov sardor|DSc": "2026-11-05",
+  "amonova yulduz|PhD": "2026-11-05",
+  "kadirova mashhura|PhD": "2026-11-05",
+  "kadirova ma|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T05:00:46.259151+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T05:31:07.288541+00:00",
-   "url": "https://uza.uz/oz/posts/axmedova-kumush-shaxobiddin-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932846",
-   "title": "Axmedova Kumuş Şaxobiddin qizining texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-05T05:31:14.576756+00:00",
-   "url": "https://uza.uz/oz/posts/ubbiev-alisher-taiirovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932847",
-   "title": "Ubbiyev Alisher Taiirovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T05:31:21.604417+00:00",
-   "url": "https://uza.uz/oz/posts/ubbiyev-alisher-taiirovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932848",
-   "title": "Ubbiyev Alişer Taiiroviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-05T05:35:49.768766+00:00",
    "url": "https://uza.uz/oz/posts/dostmuhammedova-gulhayo-dostmuxamedovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932854",
@@ -6894,6 +6886,21 @@
    "t": "2026-11-05T05:41:13.755195+00:00",
    "url": "https://uza.uz/oz/posts/shakirov-sardor-abdusaminovichning-tibbiyot-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_932867",
    "title": "Şakirov Sardor Abdusaminoviçning tibbiyot fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-05T05:45:52.523800+00:00",
+   "url": "https://uza.uz/oz/posts/amonova-yulduz-hurramovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932872",
+   "title": "Amonova Yulduz Xurramovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T05:46:00.132238+00:00",
+   "url": "https://uza.uz/oz/posts/kadirova-mashxura-mirzaakbarovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932882",
+   "title": "Kadirova Mashxura Mirzaakbarovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T05:46:07.999451+00:00",
+   "url": "https://uza.uz/oz/posts/kadirova-mashxura-mirzaakbarovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932883",
+   "title": "Kadirova Maşxura Mirzaakbarovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
@@ -6907,7 +6914,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T05:41:17.768033+00:00",
+ "last_run": "2026-11-05T05:46:12.007099+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19401,6 +19408,24 @@
    "m": 6324,
    "p": 1,
    "f": 6325,
+   "d": "2026-11-05"
+  },
+  "u932872": {
+   "m": 6326,
+   "p": 1,
+   "f": 6327,
+   "d": "2026-11-05"
+  },
+  "u932882": {
+   "m": 6328,
+   "p": 1,
+   "f": 6329,
+   "d": "2026-11-05"
+  },
+  "u932883": {
+   "m": 6330,
+   "p": 1,
+   "f": 6331,
    "d": "2026-11-05"
   }
  }
