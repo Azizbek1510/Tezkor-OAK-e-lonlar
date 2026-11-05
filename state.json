@@ -2437,7 +2437,17 @@
   34539,
   34540,
   34541,
-  34542
+  34542,
+  34543,
+  34544,
+  34545,
+  34546,
+  34547,
+  34548,
+  34549,
+  34550,
+  34551,
+  34552
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5412,7 +5422,13 @@
   933239,
   933240,
   933241,
-  933242
+  933242,
+  933245,
+  933246,
+  933247,
+  933248,
+  933249,
+  933250
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6972,75 +6988,78 @@
   "yara ev|DSc": "2026-11-05",
   "umurov zarif|DSc": "2026-11-05",
   "yuldashev elyor|PhD": "2026-11-05",
-  "nurmatov nurbek|PhD": "2026-11-05"
+  "nurmatov nurbek|PhD": "2026-11-05",
+  "turdiev sardor|DSc": "2026-11-05",
+  "abdullaev akmal|PhD": "2026-11-05",
+  "javliev asamiddin|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T13:00:45.345636+00:00",
  "recent": [
   {
-   "t": "2026-11-05T13:32:30.200061+00:00",
-   "url": "https://uza.uz/oz/posts/komolova-iqbol-adham-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933227",
-   "title": "Komolova Iqbol Adham qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:46:20.608706+00:00",
+   "url": "https://oak.uz/pages/34546",
+   "title": "Norbekova Gulrux Xusan qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:32:38.001143+00:00",
-   "url": "https://uza.uz/oz/posts/tohirov-sheroz-mardonkulovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933229",
-   "title": "Tohirov Sheroz Mardonkulovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:46:28.566864+00:00",
+   "url": "https://oak.uz/pages/34547",
+   "title": "Qodirova Dilfuza G‘opirjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:32:45.484661+00:00",
-   "url": "https://uza.uz/oz/posts/tohirov-sheroz-mardonkulovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933230",
-   "title": "Tohirov Şeroz Mardonkuloviçning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+   "t": "2026-11-05T13:46:36.549419+00:00",
+   "url": "https://oak.uz/pages/34548",
+   "title": "Xaydarova Dilnoza Baxromjonovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:32:52.937669+00:00",
-   "url": "https://uza.uz/oz/posts/choriev-hayitmurod-qultora-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933231",
-   "title": "Choriyev Hayitmurod Qulto‘ra o‘g‘lining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:46:55.000576+00:00",
+   "url": "https://oak.uz/pages/34549",
+   "title": "Raxmatova Dinora Isomovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:33:06.777364+00:00",
-   "url": "https://uza.uz/oz/posts/choriyev-hayitmurod-qultora-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933232",
-   "title": "Çoriyev Hayitmurod Qultöra öğlining tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+   "t": "2026-11-05T13:47:03.200593+00:00",
+   "url": "https://oak.uz/pages/34550",
+   "title": "Boymuratov Farrux Xamzaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:35:54.043511+00:00",
-   "url": "https://uza.uz/oz/posts/yarashev-jorabek-toraevichning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933235",
-   "title": "Yarashev Jo‘rabek To‘rayevichning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:47:11.118503+00:00",
+   "url": "https://oak.uz/pages/34551",
+   "title": "Dexkonova Guljaxon Axmadjanovnaning falsafa doktori (Phd) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:36:02.714054+00:00",
-   "url": "https://uza.uz/oz/posts/yarashev-jorabek-torayevichning-pedagogika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_933236",
-   "title": "Yaraşev Jörabek Törayeviçning pedagogika fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+   "t": "2026-11-05T13:47:18.899714+00:00",
+   "url": "https://oak.uz/pages/34552",
+   "title": "Jumaniyozova Muxayyo Saparboevna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:40:51.664034+00:00",
-   "url": "https://uza.uz/oz/posts/umurov-zarif-latifboevichning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933237",
-   "title": "Umurov Zarif Latifboyevichning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:47:26.973018+00:00",
+   "url": "https://uza.uz/oz/posts/turdiev-sardor-otkir-oglining-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-haqida-elon_933245",
+   "title": "Turdiyev Sardor O‘tkir o‘g‘lining texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:40:58.777352+00:00",
-   "url": "https://uza.uz/oz/posts/yuldashev-elyor-muxammedovichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933239",
-   "title": "Yuldashev Elyor Muxammedovichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:47:34.625822+00:00",
+   "url": "https://uza.uz/oz/posts/abdullaev-akmal-nematullaevichning-texnika-fanlari-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933247",
+   "title": "Abdullayev Akmal Nematullayevichning texnika fanlari doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-05T13:41:07.002648+00:00",
-   "url": "https://uza.uz/oz/posts/nurmatov-nurbek-ermat-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933241",
-   "title": "Nurmatov Nurbek Ermat o‘g‘lining geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:47:42.571343+00:00",
+   "url": "https://uza.uz/oz/posts/javliev-asamiddin-elmirzaevichning-yuridik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933249",
+   "title": "Javliyev Asamiddin Elmirzayevichning yuridik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
-  "found_oak": 0,
-  "posted": 3,
+  "found": 16,
+  "found_oak": 10,
+  "posted": 13,
   "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T13:41:11.027571+00:00",
+ "last_run": "2026-11-05T13:47:46.595265+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19972,6 +19991,84 @@
    "m": 6470,
    "p": 1,
    "f": 6471,
+   "d": "2026-11-05"
+  },
+  "34543": {
+   "m": 6472,
+   "p": 1,
+   "f": 6473,
+   "d": "2026-11-05"
+  },
+  "34544": {
+   "m": 6474,
+   "p": 1,
+   "f": 6475,
+   "d": "2026-11-05"
+  },
+  "34545": {
+   "m": 6476,
+   "p": 1,
+   "f": 6477,
+   "d": "2026-11-05"
+  },
+  "34546": {
+   "m": 6478,
+   "p": 1,
+   "f": 6479,
+   "d": "2026-11-05"
+  },
+  "34547": {
+   "m": 6480,
+   "p": 1,
+   "f": 6481,
+   "d": "2026-11-05"
+  },
+  "34548": {
+   "m": 6482,
+   "p": 1,
+   "f": 6483,
+   "d": "2026-11-05"
+  },
+  "34549": {
+   "m": 6484,
+   "p": 1,
+   "f": 6485,
+   "d": "2026-11-05"
+  },
+  "34550": {
+   "m": 6486,
+   "p": 1,
+   "f": 6487,
+   "d": "2026-11-05"
+  },
+  "34551": {
+   "m": 6488,
+   "p": 1,
+   "f": 6489,
+   "d": "2026-11-05"
+  },
+  "34552": {
+   "m": 6490,
+   "p": 1,
+   "f": 6491,
+   "d": "2026-11-05"
+  },
+  "u933245": {
+   "m": 6492,
+   "p": 1,
+   "f": 6493,
+   "d": "2026-11-05"
+  },
+  "u933247": {
+   "m": 6494,
+   "p": 1,
+   "f": 6495,
+   "d": "2026-11-05"
+  },
+  "u933249": {
+   "m": 6496,
+   "p": 1,
+   "f": 6497,
    "d": "2026-11-05"
   }
  }
