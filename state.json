@@ -5328,7 +5328,9 @@
   932926,
   932927,
   932928,
-  932929
+  932929,
+  933065,
+  933066
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6856,22 +6858,14 @@
   "saidova iroda|PhD": "2026-11-05",
   "irgasheva mahbubahon|PhD": "2026-11-05",
   "irga eva|PhD": "2026-11-05",
-  "rasulova iroda|PhD": "2026-11-05"
+  "rasulova iroda|PhD": "2026-11-05",
+  "shirinova nargiza|PhD": "2026-11-05",
+  "irinova nargiza|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T09:00:49.646958+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T05:40:55.882408+00:00",
-   "url": "https://uza.uz/oz/posts/urazbaeva-sabohat-ortiqboevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_932862",
-   "title": "Urazbayeva Sabohat Ortiqboyevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T05:41:05.342606+00:00",
-   "url": "https://uza.uz/oz/posts/shakirov-sardor-abdusaminovichning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932866",
-   "title": "Shakirov Sardor Abdusaminovichning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-05T05:41:13.755195+00:00",
    "url": "https://uza.uz/oz/posts/shakirov-sardor-abdusaminovichning-tibbiyot-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_932867",
@@ -6911,20 +6905,30 @@
    "t": "2026-11-05T06:41:09.721915+00:00",
    "url": "https://uza.uz/oz/posts/rasulova-iroda-abduxoliqovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932928",
    "title": "Rasulova Iroda Abduxoliqovnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T09:50:54.257027+00:00",
+   "url": "https://uza.uz/oz/posts/shirinova-nargiza-nuritdin-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasining-himoyasi-togrisida_933065",
+   "title": "Shirinova Nargiza Nuritdin qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasining himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T09:51:01.686187+00:00",
+   "url": "https://uza.uz/oz/posts/shirinova-nargiza-nuritdin-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiyasining-himoyasi-togrisida_933066",
+   "title": "Şirinova Nargiza Nuritdin qizining filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiyasining himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 2,
   "found_oak": 0,
-  "posted": 0,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T09:45:53.236112+00:00",
+ "last_run": "2026-11-05T09:51:05.698450+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19460,6 +19464,18 @@
    "m": 6338,
    "p": 1,
    "f": 6339,
+   "d": "2026-11-05"
+  },
+  "u933065": {
+   "m": 6340,
+   "p": 1,
+   "f": 6341,
+   "d": "2026-11-05"
+  },
+  "u933066": {
+   "m": 6342,
+   "p": 1,
+   "f": 6343,
    "d": "2026-11-05"
   }
  }
