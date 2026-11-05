@@ -5294,7 +5294,13 @@
   932826,
   932827,
   932828,
-  932829
+  932829,
+  932830,
+  932831,
+  932832,
+  932833,
+  932836,
+  932837
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6797,27 +6803,15 @@
   "hojayorov fazliddin|PhD": "2026-11-05",
   "h jayorov|PhD": "2026-11-05",
   "turdibekov ilhomjon|PhD": "2026-11-05",
-  "hudaybergenov mirsayd|PhD": "2026-11-05"
+  "hudaybergenov mirsayd|PhD": "2026-11-05",
+  "qodirova mohinur|PhD": "2026-11-05",
+  "otahonova dinora|PhD": "2026-11-05",
+  "toirov muhammadhon|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T05:00:46.259151+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T05:04:06.374928+00:00",
-   "url": "https://uza.uz/oz/posts/tashov-mizrob-maxmudovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932808",
-   "title": "Tashov Mizrob Maxmudovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T05:04:15.836825+00:00",
-   "url": "https://uza.uz/oz/posts/tashov-mizrob-maxmudovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932809",
-   "title": "Taşov Mizrob Maxmudoviçning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-05T05:04:23.463579+00:00",
-   "url": "https://uza.uz/oz/posts/normurodova-farogat-tozhimurod-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932812",
-   "title": "Normurodova Farogat Tojimurod qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-05T05:04:33.113718+00:00",
    "url": "https://uza.uz/oz/posts/madumarova-ziyoda-latibovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932815",
@@ -6852,20 +6846,35 @@
    "t": "2026-11-05T05:15:59.479341+00:00",
    "url": "https://uza.uz/oz/posts/hudaybergenov-mirsayd-karimbergenovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932828",
    "title": "Xudaybergenov Mirsayd Karimbergenovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T05:20:50.237956+00:00",
+   "url": "https://uza.uz/oz/posts/qodirova-mohinur-saydullo-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932830",
+   "title": "Qodirova Mohinur Saydullo qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T05:20:57.885348+00:00",
+   "url": "https://uza.uz/oz/posts/otaxonova-dinora-musaboy-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932832",
+   "title": "Otaxonova Dinora Musaboy qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T05:21:05.146397+00:00",
+   "url": "https://uza.uz/oz/posts/toirov-muhammadxon-toir-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932836",
+   "title": "Toirov Muhammadxon Toir o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T05:16:03.493752+00:00",
+ "last_run": "2026-11-05T05:21:09.161297+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19251,6 +19260,24 @@
    "m": 6288,
    "p": 1,
    "f": 6289,
+   "d": "2026-11-05"
+  },
+  "u932830": {
+   "m": 6290,
+   "p": 1,
+   "f": 6291,
+   "d": "2026-11-05"
+  },
+  "u932832": {
+   "m": 6292,
+   "p": 1,
+   "f": 6293,
+   "d": "2026-11-05"
+  },
+  "u932836": {
+   "m": 6294,
+   "p": 1,
+   "f": 6295,
    "d": "2026-11-05"
   }
  }
