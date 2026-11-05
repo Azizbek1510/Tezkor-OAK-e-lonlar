@@ -5300,7 +5300,11 @@
   932832,
   932833,
   932836,
-  932837
+  932837,
+  932840,
+  932841,
+  932842,
+  932843
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6806,32 +6810,16 @@
   "hudaybergenov mirsayd|PhD": "2026-11-05",
   "qodirova mohinur|PhD": "2026-11-05",
   "otahonova dinora|PhD": "2026-11-05",
-  "toirov muhammadhon|PhD": "2026-11-05"
+  "toirov muhammadhon|PhD": "2026-11-05",
+  "eshmuratova roza|PhD": "2026-11-05",
+  "e muratova|PhD": "2026-11-05",
+  "qurbonov oral|PhD": "2026-11-05",
+  "qurbonov ral|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T05:00:46.259151+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T05:04:33.113718+00:00",
-   "url": "https://uza.uz/oz/posts/madumarova-ziyoda-latibovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932815",
-   "title": "Madumarova Ziyoda Latibovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T05:04:40.833879+00:00",
-   "url": "https://uza.uz/oz/posts/mehmonova-yulduz-choriqulovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932817",
-   "title": "Mehmonova Yulduz Choriqulovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T05:04:56.006322+00:00",
-   "url": "https://uza.uz/oz/posts/aknazarova-zebinso-bagdadovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932821",
-   "title": "Aknazarova Zebinso Bagdadovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T05:10:54.858355+00:00",
-   "url": "https://uza.uz/oz/posts/hozhayorov-fazliddin-eshdavlatovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932823",
-   "title": "Xo‘jayorov Fazliddin Eshdavlatovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-05T05:11:01.760315+00:00",
    "url": "https://uza.uz/oz/posts/xojayorov-fazliddin-eshdavlatovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932824",
@@ -6861,20 +6849,40 @@
    "t": "2026-11-05T05:21:05.146397+00:00",
    "url": "https://uza.uz/oz/posts/toirov-muhammadxon-toir-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932836",
    "title": "Toirov Muhammadxon Toir o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T05:25:45.900725+00:00",
+   "url": "https://uza.uz/oz/posts/eshmuratova-roza-reymberdievnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_932840",
+   "title": "Eshmuratova Ro‘za Reymberdiyevnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
+  },
+  {
+   "t": "2026-11-05T05:25:52.881171+00:00",
+   "url": "https://uza.uz/oz/posts/eshmuratova-roza-reymberdiyevnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-tog-risida_932841",
+   "title": "Eşmuratova Röza Reymberdiyevnaning texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğ risida"
+  },
+  {
+   "t": "2026-11-05T05:26:00.582304+00:00",
+   "url": "https://uza.uz/oz/posts/qurbonov-oral-meliqulovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_932842",
+   "title": "Qurbonov O‘ral Meliqulovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
+  },
+  {
+   "t": "2026-11-05T05:26:07.698082+00:00",
+   "url": "https://uza.uz/oz/posts/qurbonov-oral-meliqulovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-tog-risida_932843",
+   "title": "Qurbonov Öral Meliquloviçning texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğ risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 4,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T05:21:09.161297+00:00",
+ "last_run": "2026-11-05T05:26:11.705035+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19278,6 +19286,30 @@
    "m": 6294,
    "p": 1,
    "f": 6295,
+   "d": "2026-11-05"
+  },
+  "u932840": {
+   "m": 6296,
+   "p": 1,
+   "f": 6297,
+   "d": "2026-11-05"
+  },
+  "u932841": {
+   "m": 6298,
+   "p": 1,
+   "f": 6299,
+   "d": "2026-11-05"
+  },
+  "u932842": {
+   "m": 6300,
+   "p": 1,
+   "f": 6301,
+   "d": "2026-11-05"
+  },
+  "u932843": {
+   "m": 6302,
+   "p": 1,
+   "f": 6303,
    "d": "2026-11-05"
   }
  }
