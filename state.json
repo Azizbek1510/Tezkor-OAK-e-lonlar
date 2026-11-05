@@ -5272,7 +5272,11 @@
   932789,
   932790,
   932791,
-  932792
+  932792,
+  932795,
+  932796,
+  932799,
+  932800
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6761,27 +6765,15 @@
   "sulaymonov nazar|PhD": "2026-11-05",
   "bahriev muhiddin|PhD": "2026-11-05",
   "yoqubjonova hulkarbonu|DSc": "2026-11-05",
-  "yunusova sohiba|PhD": "2026-11-05"
+  "yunusova sohiba|PhD": "2026-11-05",
+  "chulieva nilufar|DSc": "2026-11-05",
+  "ulieva nilufar|DSc": "2026-11-05",
+  "muqumov asqar|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T04:00:46.458327+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T04:40:58.039670+00:00",
-   "url": "https://uza.uz/oz/posts/umarova-komila-samatovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932769",
-   "title": "Umarova Komila Samatovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T04:41:04.632177+00:00",
-   "url": "https://uza.uz/oz/posts/oralov-gayrat-anvar-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932773",
-   "title": "O‘ralov G‘ayrat Anvar o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T04:41:11.977176+00:00",
-   "url": "https://uza.uz/oz/posts/oralov-gayrat-anvar-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_932774",
-   "title": "Öralov Ğayrat Anvar öğlining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-05T04:45:51.413879+00:00",
    "url": "https://uza.uz/oz/posts/alimov-navroz-ganisher-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932778",
@@ -6816,20 +6808,35 @@
    "t": "2026-11-05T04:51:05.004202+00:00",
    "url": "https://uza.uz/oz/posts/yunusova-sohiba-abdulmamidovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932791",
    "title": "Yunusova Sohiba Abdulmamidovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T04:55:47.080169+00:00",
+   "url": "https://uza.uz/oz/posts/chulieva-nilufar-azam-qizining-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_932795",
+   "title": "Chuliyeva Nilufar A’zam qizining filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T04:55:54.624477+00:00",
+   "url": "https://uza.uz/oz/posts/chuliyeva-nilufar-azam-qizining-filologiya-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_932796",
+   "title": "Çuliyeva Nilufar Aʼzam qizining filologiya fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-05T04:56:02.370932+00:00",
+   "url": "https://uza.uz/oz/posts/muqumov-asqar-hamza-oglining-fizika-matematka-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_932799",
+   "title": "Muqumov Asqar Hamza o‘g‘lining fizika-matematka fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
   "posted": 3,
-  "dups": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T04:51:09.029380+00:00",
+ "last_run": "2026-11-05T04:56:06.394854+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19131,6 +19138,24 @@
    "m": 6260,
    "p": 1,
    "f": 6261,
+   "d": "2026-11-05"
+  },
+  "u932795": {
+   "m": 6262,
+   "p": 1,
+   "f": 6263,
+   "d": "2026-11-05"
+  },
+  "u932796": {
+   "m": 6264,
+   "p": 1,
+   "f": 6265,
+   "d": "2026-11-05"
+  },
+  "u932799": {
+   "m": 6266,
+   "p": 1,
+   "f": 6267,
    "d": "2026-11-05"
   }
  }
