@@ -2428,7 +2428,16 @@
   34530,
   34531,
   34532,
-  34533
+  34533,
+  34534,
+  34535,
+  34536,
+  34537,
+  34538,
+  34539,
+  34540,
+  34541,
+  34542
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -5389,7 +5398,13 @@
   933219,
   933220,
   933224,
-  933225
+  933225,
+  933227,
+  933228,
+  933229,
+  933230,
+  933231,
+  933232
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6939,75 +6954,80 @@
   "ahrorova sayohat|PhD": "2026-11-05",
   "soatov behzod|PhD": "2026-11-05",
   "toshpulatova saida|PhD": "2026-11-05",
-  "to pulatova|PhD": "2026-11-05"
+  "to pulatova|PhD": "2026-11-05",
+  "komolova iqbol|PhD": "2026-11-05",
+  "tohirov sheroz|PhD": "2026-11-05",
+  "tohirov eroz|PhD": "2026-11-05",
+  "choriev hayitmurod|PhD": "2026-11-05",
+  "oriev hayitmurod|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T13:00:45.345636+00:00",
  "recent": [
   {
-   "t": "2026-11-05T13:26:18.719909+00:00",
-   "url": "https://oak.uz/pages/34529",
-   "title": "Jo‘raeva Nigora Baxtiyor qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-05T13:31:38.469538+00:00",
+   "url": "https://oak.uz/pages/34538",
+   "title": "Smetova Jumabike Hamidullaevna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:26:26.401943+00:00",
-   "url": "https://oak.uz/pages/34530",
-   "title": "Masharipova Nasiba Ro‘zmatovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-05T13:31:46.266757+00:00",
+   "url": "https://oak.uz/pages/34539",
+   "title": "Sayfiddinova Jamila Ziyodulla qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:26:48.216945+00:00",
-   "url": "https://oak.uz/pages/34531",
-   "title": "Mirzaeva Lobar Elmurotovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-05T13:32:05.714898+00:00",
+   "url": "https://oak.uz/pages/34540",
+   "title": "Juraeva Zulayxo Islomovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:26:55.631030+00:00",
-   "url": "https://oak.uz/pages/34532",
-   "title": "Ochilov Nodirbek Sayfulloevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-05T13:32:13.908184+00:00",
+   "url": "https://oak.uz/pages/34541",
+   "title": "Ulugova Shoxida Shoxruxovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:27:03.080276+00:00",
-   "url": "https://oak.uz/pages/34533",
-   "title": "Xalmatova Dilobad Alimjanovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-05T13:32:21.798368+00:00",
+   "url": "https://oak.uz/pages/34542",
+   "title": "Yandasheva Gulchexra Sabirjanovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-05T13:27:11.167383+00:00",
-   "url": "https://uza.uz/oz/posts/kattaxodzhaev-dzhavlon-yuldashxodzhaevichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_933215",
-   "title": "Kattaxodjayev Djavlon Yuldashxodjayevichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
+   "t": "2026-11-05T13:32:30.200061+00:00",
+   "url": "https://uza.uz/oz/posts/komolova-iqbol-adham-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933227",
+   "title": "Komolova Iqbol Adham qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-05T13:27:19.073349+00:00",
-   "url": "https://uza.uz/oz/posts/ahrorova-sayohat-akram-qizining-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933217",
-   "title": "Ahrorova Sayohat Akram qizining yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:32:38.001143+00:00",
+   "url": "https://uza.uz/oz/posts/tohirov-sheroz-mardonkulovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933229",
+   "title": "Tohirov Sheroz Mardonkulovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-05T13:27:26.319664+00:00",
-   "url": "https://uza.uz/oz/posts/soatov-behzod-shokir-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933219",
-   "title": "Soatov Behzod Shokir o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:32:45.484661+00:00",
+   "url": "https://uza.uz/oz/posts/tohirov-sheroz-mardonkulovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933230",
+   "title": "Tohirov Şeroz Mardonkuloviçning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   },
   {
-   "t": "2026-11-05T13:27:34.611252+00:00",
-   "url": "https://uza.uz/oz/posts/toshpulatova-saida-kuzibaevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933224",
-   "title": "Toshpulatova Saida Kuzibayevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-05T13:32:52.937669+00:00",
+   "url": "https://uza.uz/oz/posts/choriev-hayitmurod-qultora-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933231",
+   "title": "Choriyev Hayitmurod Qulto‘ra o‘g‘lining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-05T13:27:49.171397+00:00",
-   "url": "https://uza.uz/oz/posts/toshpulatova-saida-kuzibayevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933225",
-   "title": "Toşpulatova Saida Kuzibayevnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+   "t": "2026-11-05T13:33:06.777364+00:00",
+   "url": "https://uza.uz/oz/posts/choriyev-hayitmurod-qultora-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933232",
+   "title": "Çoriyev Hayitmurod Qultöra öğlining tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 17,
+  "found": 15,
   "found_oak": 9,
   "posted": 14,
-  "dups": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T13:27:53.183476+00:00",
+ "last_run": "2026-11-05T13:33:10.787574+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19825,6 +19845,90 @@
    "m": 6432,
    "p": 1,
    "f": 6433,
+   "d": "2026-11-05"
+  },
+  "34534": {
+   "m": 6434,
+   "p": 1,
+   "f": 6435,
+   "d": "2026-11-05"
+  },
+  "34535": {
+   "m": 6436,
+   "p": 1,
+   "f": 6437,
+   "d": "2026-11-05"
+  },
+  "34536": {
+   "m": 6438,
+   "p": 1,
+   "f": 6439,
+   "d": "2026-11-05"
+  },
+  "34537": {
+   "m": 6440,
+   "p": 1,
+   "f": 6441,
+   "d": "2026-11-05"
+  },
+  "34538": {
+   "m": 6442,
+   "p": 1,
+   "f": 6443,
+   "d": "2026-11-05"
+  },
+  "34539": {
+   "m": 6444,
+   "p": 1,
+   "f": 6445,
+   "d": "2026-11-05"
+  },
+  "34540": {
+   "m": 6446,
+   "p": 1,
+   "f": 6447,
+   "d": "2026-11-05"
+  },
+  "34541": {
+   "m": 6448,
+   "p": 1,
+   "f": 6449,
+   "d": "2026-11-05"
+  },
+  "34542": {
+   "m": 6450,
+   "p": 1,
+   "f": 6451,
+   "d": "2026-11-05"
+  },
+  "u933227": {
+   "m": 6452,
+   "p": 1,
+   "f": 6453,
+   "d": "2026-11-05"
+  },
+  "u933229": {
+   "m": 6454,
+   "p": 1,
+   "f": 6455,
+   "d": "2026-11-05"
+  },
+  "u933230": {
+   "m": 6456,
+   "p": 1,
+   "f": 6457,
+   "d": "2026-11-05"
+  },
+  "u933231": {
+   "m": 6458,
+   "p": 1,
+   "f": 6459,
+   "d": "2026-11-05"
+  },
+  "u933232": {
+   "m": 6460,
+   "p": 1,
+   "f": 6461,
    "d": "2026-11-05"
   }
  }
