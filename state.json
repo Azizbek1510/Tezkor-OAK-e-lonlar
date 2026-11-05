@@ -5366,7 +5366,13 @@
   933200,
   933201,
   933202,
-  933203
+  933203,
+  933205,
+  933206,
+  933209,
+  933210,
+  933211,
+  933212
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -6908,27 +6914,15 @@
   "adilova munisa|PhD": "2026-11-05",
   "rizaev azizjon|DSc": "2026-11-05",
   "hasanov abduhakim|PhD": "2026-11-05",
-  "bauetdinov berdaq|PhD": "2026-11-05"
+  "bauetdinov berdaq|PhD": "2026-11-05",
+  "omonov mahmud|PhD": "2026-11-05",
+  "kandaharov mirjalol|PhD": "2026-11-05",
+  "pulatova muattar|PhD": "2026-11-05"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-05T13:00:45.345636+00:00",
  "recent": [
-  {
-   "t": "2026-11-05T11:21:03.062643+00:00",
-   "url": "https://uza.uz/oz/posts/toxtasheva-maloxat-nafasovnaning-texnika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_933130",
-   "title": "Töxtaşeva Maloxat Nafasovnaning texnika fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-05T11:26:01.832384+00:00",
-   "url": "https://uza.uz/oz/posts/qoyliev-ravshon-maxmanazarovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933134",
-   "title": "Qo‘yliyev Ravshon Maxmanazarovichning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-05T11:26:09.384340+00:00",
-   "url": "https://uza.uz/oz/posts/qoyliyev-ravshon-maxmanazarovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933135",
-   "title": "Qöyliyev Ravşon Maxmanazaroviçning tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-05T11:26:17.078052+00:00",
    "url": "https://uza.uz/oz/posts/bekchanov-davron-masharipovichning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933137",
@@ -6963,20 +6957,35 @@
    "t": "2026-11-05T13:16:06.742324+00:00",
    "url": "https://uza.uz/oz/posts/bauetdinov-berdaq-zinatdin-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933202",
    "title": "Bauyetdinov Berdaq Zinatdin o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T13:20:56.545494+00:00",
+   "url": "https://uza.uz/oz/posts/omonov-mahmud-baxtiyorovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_933205",
+   "title": "Omonov Mahmud Baxtiyorovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
+  },
+  {
+   "t": "2026-11-05T13:21:04.119259+00:00",
+   "url": "https://uza.uz/oz/posts/kandaxarov-mirzhalol-abdimurot-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933209",
+   "title": "Kandaxarov Mirjalol Abdimurot o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-05T13:21:12.781602+00:00",
+   "url": "https://uza.uz/oz/posts/pulatova-muattar-kurakboevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933211",
+   "title": "Pulatova Muattar Kurakboyevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-05T13:16:10.768594+00:00",
+ "last_run": "2026-11-05T13:21:16.797759+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -19692,6 +19701,24 @@
    "m": 6398,
    "p": 1,
    "f": 6399,
+   "d": "2026-11-05"
+  },
+  "u933205": {
+   "m": 6400,
+   "p": 1,
+   "f": 6401,
+   "d": "2026-11-05"
+  },
+  "u933209": {
+   "m": 6402,
+   "p": 1,
+   "f": 6403,
+   "d": "2026-11-05"
+  },
+  "u933211": {
+   "m": 6404,
+   "p": 1,
+   "f": 6405,
    "d": "2026-11-05"
   }
  }
