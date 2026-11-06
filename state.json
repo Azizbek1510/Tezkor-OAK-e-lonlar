@@ -2566,7 +2566,10 @@
   34668,
   34669,
   34670,
-  34671
+  34671,
+  34672,
+  34673,
+  34674
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2581,12 +2584,6 @@
   }
  },
  "seen_uza": [
-  917475,
-  917481,
-  917482,
-  917486,
-  917487,
-  917488,
   917489,
   917492,
   917493,
@@ -5580,7 +5577,13 @@
   933995,
   933996,
   933998,
-  933999
+  933999,
+  934000,
+  934001,
+  934002,
+  934003,
+  934004,
+  934005
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7258,42 +7261,15 @@
   "tursunova yulduz|PhD": "2026-11-06",
   "otahonova sevarahon|PhD": "2026-11-06",
   "evatov borivoy|PhD": "2026-11-06",
-  "evatov b|PhD": "2026-11-06"
+  "evatov b|PhD": "2026-11-06",
+  "kamolov ihtiyor|DSc": "2026-11-06",
+  "abdurahmanov olim|PhD": "2026-11-06",
+  "toychiev shuhrat|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T13:40:32.010773+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T14:21:09.829519+00:00",
-   "url": "https://uza.uz/oz/posts/nurmanova-dilfuza-jamilovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933982",
-   "title": "Nurmanova Dilfuza Jamilovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T14:21:17.087472+00:00",
-   "url": "https://uza.uz/oz/posts/valieva-shaxlo-akmalovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933985",
-   "title": "Valiyeva Shaxlo Akmalovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T14:21:24.353342+00:00",
-   "url": "https://uza.uz/oz/posts/valiyeva-shaxlo-akmalovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933986",
-   "title": "Valiyeva Şaxlo Akmalovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-06T14:21:32.056415+00:00",
-   "url": "https://uza.uz/oz/posts/tursunaliev-ismoil-esonalievichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933990",
-   "title": "Tursunaliyev Ismoil Esonaliyevichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T14:25:56.491650+00:00",
-   "url": "https://oak.uz/pages/34670",
-   "title": "Eshboev Ulug‘bek Farxodovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T14:26:03.986892+00:00",
-   "url": "https://oak.uz/pages/34671",
-   "title": "Parpiev Jaxongir Ilxomjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-06T14:26:11.213192+00:00",
    "url": "https://uza.uz/oz/posts/tursunova-yulduz-jabborovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933993",
@@ -7313,20 +7289,50 @@
    "t": "2026-11-06T14:26:34.194311+00:00",
    "url": "https://uza.uz/oz/posts/evatov-borivoy-sobirjonovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933999",
    "title": "Evatov Börivoy Sobirjonoviçning falsafa fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-06T14:31:01.190471+00:00",
+   "url": "https://oak.uz/pages/34672",
+   "title": "Kozimjonov Abrorbekning Fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T14:31:08.696535+00:00",
+   "url": "https://oak.uz/pages/34673",
+   "title": "Jalolova Gavhar Sirojiddin qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T14:31:15.997711+00:00",
+   "url": "https://oak.uz/pages/34674",
+   "title": "Haydarova Nargizaxon Ahtamjon qizining  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T14:31:23.616549+00:00",
+   "url": "https://uza.uz/oz/posts/kamolov-ixtiyor-ramazonovichning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_934000",
+   "title": "Kamolov Ixtiyor Ramazonovichning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T14:31:33.294044+00:00",
+   "url": "https://uza.uz/oz/posts/abduraxmanov-olim-nematullaevichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934002",
+   "title": "Abduraxmanov Olim Ne’matullayevichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T14:31:40.545877+00:00",
+   "url": "https://uza.uz/oz/posts/toychiev-shuxrat-shavkatovichning-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-himoyasi-togrisida_934004",
+   "title": "To‘ychiyev Shuxrat Shavkatovichning qishloq xo‘jaligi fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
-  "found_oak": 2,
+  "found": 9,
+  "found_oak": 3,
   "posted": 6,
-  "dups": 2,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T14:26:38.203364+00:00",
+ "last_run": "2026-11-06T14:31:44.571529+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21740,6 +21746,42 @@
    "m": 6979,
    "p": 1,
    "f": 6980,
+   "d": "2026-11-06"
+  },
+  "34672": {
+   "m": 6981,
+   "p": 1,
+   "f": 6982,
+   "d": "2026-11-06"
+  },
+  "34673": {
+   "m": 6983,
+   "p": 1,
+   "f": 6984,
+   "d": "2026-11-06"
+  },
+  "34674": {
+   "m": 6985,
+   "p": 1,
+   "f": 6986,
+   "d": "2026-11-06"
+  },
+  "u934000": {
+   "m": 6987,
+   "p": 1,
+   "f": 6988,
+   "d": "2026-11-06"
+  },
+  "u934002": {
+   "m": 6989,
+   "p": 1,
+   "f": 6990,
+   "d": "2026-11-06"
+  },
+  "u934004": {
+   "m": 6991,
+   "p": 1,
+   "f": 6992,
    "d": "2026-11-06"
   }
  }
