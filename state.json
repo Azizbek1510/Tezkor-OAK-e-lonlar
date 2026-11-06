@@ -2472,10 +2472,6 @@
   }
  },
  "seen_uza": [
-  916631,
-  916638,
-  916639,
-  916642,
   916643,
   916644,
   916645,
@@ -5471,7 +5467,11 @@
   933483,
   933484,
   933487,
-  933488
+  933488,
+  933494,
+  933495,
+  933496,
+  933497
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7085,22 +7085,14 @@
   "roziboev dilshod|PhD": "2026-11-06",
   "r ziboev|PhD": "2026-11-06",
   "ochilov samariddin|PhD": "2026-11-06",
-  "o ilov|PhD": "2026-11-06"
+  "o ilov|PhD": "2026-11-06",
+  "kudratov sanjar|PhD": "2026-11-06",
+  "fayzieva dilsuz|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T06:00:48.717152+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T05:26:08.587068+00:00",
-   "url": "https://uza.uz/oz/posts/kamilova-gulchexra-muratdjanovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-tog-risida_933456",
-   "title": "Kamilova Gulçexra Muratdjanovnaning texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğ risida"
-  },
-  {
-   "t": "2026-11-06T05:40:55.988156+00:00",
-   "url": "https://uza.uz/oz/posts/mamadov-baxodir-alisherovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_933463",
-   "title": "Mamadov Baxodir Alisherovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
-  },
   {
    "t": "2026-11-06T05:45:52.566271+00:00",
    "url": "https://uza.uz/oz/posts/nurxonov-davronbek-hursand-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_933465",
@@ -7140,20 +7132,30 @@
    "t": "2026-11-06T06:06:23.167422+00:00",
    "url": "https://uza.uz/oz/posts/ochilov-samariddin-kamoliddinovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933488",
    "title": "Oçilov Samariddin Kamoliddinoviçning yuridik fanlar böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-06T06:15:52.894755+00:00",
+   "url": "https://uza.uz/oz/posts/kudratov-sanzhar-marupovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933494",
+   "title": "Kudratov Sanjar Marupovichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:15:59.893786+00:00",
+   "url": "https://uza.uz/oz/posts/fayzieva-dilsuz-baxodirovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933496",
+   "title": "Fayziyeva Dilsuz Baxodirovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T06:10:53.916877+00:00",
+ "last_run": "2026-11-06T06:16:03.919089+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -20529,6 +20531,18 @@
    "m": 6620,
    "p": 1,
    "f": 6621,
+   "d": "2026-11-06"
+  },
+  "u933494": {
+   "m": 6622,
+   "p": 1,
+   "f": 6623,
+   "d": "2026-11-06"
+  },
+  "u933496": {
+   "m": 6624,
+   "p": 1,
+   "f": 6625,
    "d": "2026-11-06"
   }
  }
