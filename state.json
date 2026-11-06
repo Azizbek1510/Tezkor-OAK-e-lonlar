@@ -2550,7 +2550,12 @@
   34652,
   34653,
   34654,
-  34655
+  34655,
+  34656,
+  34657,
+  34658,
+  34659,
+  34660
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7234,31 +7239,6 @@
  "last_deep": "2026-11-06T12:45:29.185145+00:00",
  "recent": [
   {
-   "t": "2026-11-06T13:15:49.961491+00:00",
-   "url": "https://oak.uz/pages/34646",
-   "title": "Abdusalomov Ulug‘bek Sattarovichning falsafa doktori (PhD) dissertatsiya himoyasi haqidagi e’lon"
-  },
-  {
-   "t": "2026-11-06T13:15:57.457854+00:00",
-   "url": "https://oak.uz/pages/34647",
-   "title": "Amonova Sanobar Xamidjonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
-  {
-   "t": "2026-11-06T13:16:04.806163+00:00",
-   "url": "https://oak.uz/pages/34648",
-   "title": "Axmedova Maxira Sultanbaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T13:16:12.276921+00:00",
-   "url": "https://oak.uz/pages/34649",
-   "title": "Baxronova Shoira Yadgarovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T13:16:19.553720+00:00",
-   "url": "https://oak.uz/pages/34650",
-   "title": "Boltaboev Abdug‘ani Mamirovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
-  {
    "t": "2026-11-06T13:16:26.977959+00:00",
    "url": "https://oak.uz/pages/34651",
    "title": "Nasimova Zarina Isomiddin qizining fan doktori (DSc) dissertatsiyasi himoyasi haqidagi e’lon"
@@ -7282,20 +7262,45 @@
    "t": "2026-11-06T13:20:53.692387+00:00",
    "url": "https://oak.uz/pages/34655",
    "title": "Ernazarov Ortikboy G‘oyibnazarovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T13:31:05.911079+00:00",
+   "url": "https://oak.uz/pages/34656",
+   "title": "Kirgizova Gulnaz Mamadalievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T13:31:13.754119+00:00",
+   "url": "https://oak.uz/pages/34657",
+   "title": "Mangitbaeva Zayfun Uzakbaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T13:31:21.807571+00:00",
+   "url": "https://oak.uz/pages/34658",
+   "title": "Yakubov Umid Bobaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T13:31:29.695992+00:00",
+   "url": "https://oak.uz/pages/34659",
+   "title": "Abdusalomov Ulug‘bek Sattarovichning falsafa doktori (PhD) dissertatsiya himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-11-06T13:31:37.526080+00:00",
+   "url": "https://oak.uz/pages/34660",
+   "title": "Amonova Sanobar Xamidjonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 5,
+  "found_oak": 5,
+  "posted": 5,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T13:25:47.288089+00:00",
+ "last_run": "2026-11-06T13:31:41.536917+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21523,6 +21528,36 @@
    "m": 6917,
    "p": 1,
    "f": 6918,
+   "d": "2026-11-06"
+  },
+  "34656": {
+   "m": 6919,
+   "p": 1,
+   "f": 6920,
+   "d": "2026-11-06"
+  },
+  "34657": {
+   "m": 6921,
+   "p": 1,
+   "f": 6922,
+   "d": "2026-11-06"
+  },
+  "34658": {
+   "m": 6923,
+   "p": 1,
+   "f": 6924,
+   "d": "2026-11-06"
+  },
+  "34659": {
+   "m": 6925,
+   "p": 1,
+   "f": 6926,
+   "d": "2026-11-06"
+  },
+  "34660": {
+   "m": 6927,
+   "p": 1,
+   "f": 6928,
    "d": "2026-11-06"
   }
  }
