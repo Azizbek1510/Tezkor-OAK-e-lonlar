@@ -2501,7 +2501,14 @@
   34603,
   34604,
   34605,
-  34606
+  34606,
+  34607,
+  34608,
+  34609,
+  34610,
+  34611,
+  34612,
+  34613
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7154,41 +7161,6 @@
  "last_deep": "2026-11-06T07:00:40.735895+00:00",
  "recent": [
   {
-   "t": "2026-11-06T07:36:34.164426+00:00",
-   "url": "https://oak.uz/pages/34597",
-   "title": "Abdulxakimov Bobur Baxtiyor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:36:53.853304+00:00",
-   "url": "https://oak.uz/pages/34598",
-   "title": "Akramov Kozimjon Ibragimjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:37:01.816840+00:00",
-   "url": "https://oak.uz/pages/34599",
-   "title": "Mannopov Sultonbekning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:37:09.714840+00:00",
-   "url": "https://oak.uz/pages/34600",
-   "title": "Sabirova Nargiza Yusupboevnaning falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:40:58.146707+00:00",
-   "url": "https://oak.uz/pages/34601",
-   "title": "Tashxodjaev Murodjon Valijonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:41:07.111228+00:00",
-   "url": "https://oak.uz/pages/34602",
-   "title": "Abdiganieva Sarbinaz Reypnazarovna fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:41:15.788902+00:00",
-   "url": "https://oak.uz/pages/34603",
-   "title": "Jabborova Munisxon Abdubanon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-06T07:41:25.689688+00:00",
    "url": "https://oak.uz/pages/34604",
    "title": "Palvanova Sevara Atabekovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -7202,20 +7174,55 @@
    "t": "2026-11-06T07:41:43.275020+00:00",
    "url": "https://oak.uz/pages/34606",
    "title": "Xodjamova Gulbaxor Adxamjon kizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:50:57.059837+00:00",
+   "url": "https://oak.uz/pages/34607",
+   "title": "Abdurazakov Aziz Abdukaxarovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:51:05.729759+00:00",
+   "url": "https://oak.uz/pages/34608",
+   "title": "Makulov Jasurbek Taxirjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:51:13.419742+00:00",
+   "url": "https://oak.uz/pages/34609",
+   "title": "Muxtorova Shaxzoda Ilhom qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:51:20.959249+00:00",
+   "url": "https://oak.uz/pages/34610",
+   "title": "Saydalieva Lazokatxon Mahammad qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:51:28.320142+00:00",
+   "url": "https://oak.uz/pages/34611",
+   "title": "Sindorov Abdumo‘min O‘rolbek o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:51:36.687096+00:00",
+   "url": "https://oak.uz/pages/34612",
+   "title": "Xasanov Alixon Olimxon O‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:51:56.631543+00:00",
+   "url": "https://oak.uz/pages/34613",
+   "title": "Xomidchonova ShahzodaXasanzodaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 7,
+  "found_oak": 7,
+  "posted": 7,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T07:45:48.722770+00:00",
+ "last_run": "2026-11-06T07:52:00.643997+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -20963,6 +20970,48 @@
    "m": 6745,
    "p": 1,
    "f": 6746,
+   "d": "2026-11-06"
+  },
+  "34607": {
+   "m": 6747,
+   "p": 1,
+   "f": 6748,
+   "d": "2026-11-06"
+  },
+  "34608": {
+   "m": 6749,
+   "p": 1,
+   "f": 6750,
+   "d": "2026-11-06"
+  },
+  "34609": {
+   "m": 6751,
+   "p": 1,
+   "f": 6752,
+   "d": "2026-11-06"
+  },
+  "34610": {
+   "m": 6753,
+   "p": 1,
+   "f": 6754,
+   "d": "2026-11-06"
+  },
+  "34611": {
+   "m": 6755,
+   "p": 1,
+   "f": 6756,
+   "d": "2026-11-06"
+  },
+  "34612": {
+   "m": 6757,
+   "p": 1,
+   "f": 6758,
+   "d": "2026-11-06"
+  },
+  "34613": {
+   "m": 6759,
+   "p": 1,
+   "f": 6760,
    "d": "2026-11-06"
   }
  }
