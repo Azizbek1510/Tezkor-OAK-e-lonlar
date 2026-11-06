@@ -2564,7 +2564,9 @@
   34666,
   34667,
   34668,
-  34669
+  34669,
+  34670,
+  34671
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2579,12 +2581,6 @@
   }
  },
  "seen_uza": [
-  917342,
-  917461,
-  917462,
-  917470,
-  917471,
-  917474,
   917475,
   917481,
   917482,
@@ -5578,7 +5574,13 @@
   933985,
   933986,
   933990,
-  933991
+  933991,
+  933993,
+  933994,
+  933995,
+  933996,
+  933998,
+  933999
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7252,42 +7254,16 @@
   "nurmanova dilfuza|PhD": "2026-11-06",
   "valieva shahlo|PhD": "2026-11-06",
   "valieva ahlo|PhD": "2026-11-06",
-  "tursunaliev ismoil|PhD": "2026-11-06"
+  "tursunaliev ismoil|PhD": "2026-11-06",
+  "tursunova yulduz|PhD": "2026-11-06",
+  "otahonova sevarahon|PhD": "2026-11-06",
+  "evatov borivoy|PhD": "2026-11-06",
+  "evatov b|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T13:40:32.010773+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T14:06:03.226871+00:00",
-   "url": "https://uza.uz/oz/posts/shukurova-sevara-ilhomovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933966",
-   "title": "Şukurova Sevara Ilhomovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-06T14:06:10.865888+00:00",
-   "url": "https://uza.uz/oz/posts/muxammedova-sumbul-ikrombek-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933967",
-   "title": "Muxammedova Sumbul Ikrombek qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T14:11:00.101078+00:00",
-   "url": "https://uza.uz/oz/posts/muxtorova-umida-tolib-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933971",
-   "title": "Muxtorova Umida Tolib qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T14:15:56.081785+00:00",
-   "url": "https://uza.uz/oz/posts/nazhmiddinov-murat-kamolovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933980",
-   "title": "Najmiddinov Murat Kamolovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T14:20:53.713407+00:00",
-   "url": "https://oak.uz/pages/34668",
-   "title": "Umarov Umidjon Akram o‘g‘lining   falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T14:21:01.401620+00:00",
-   "url": "https://oak.uz/pages/34669",
-   "title": "Tuychiev Shavkatjon Shokirali o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-06T14:21:09.829519+00:00",
    "url": "https://uza.uz/oz/posts/nurmanova-dilfuza-jamilovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933982",
@@ -7307,6 +7283,36 @@
    "t": "2026-11-06T14:21:32.056415+00:00",
    "url": "https://uza.uz/oz/posts/tursunaliev-ismoil-esonalievichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933990",
    "title": "Tursunaliyev Ismoil Esonaliyevichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T14:25:56.491650+00:00",
+   "url": "https://oak.uz/pages/34670",
+   "title": "Eshboev Ulug‘bek Farxodovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T14:26:03.986892+00:00",
+   "url": "https://oak.uz/pages/34671",
+   "title": "Parpiev Jaxongir Ilxomjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T14:26:11.213192+00:00",
+   "url": "https://uza.uz/oz/posts/tursunova-yulduz-jabborovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933993",
+   "title": "Tursunova Yulduz Jabborovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T14:26:18.620899+00:00",
+   "url": "https://uza.uz/oz/posts/otaxonova-sevaraxon-tolkinovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933995",
+   "title": "Otaxonova Sevaraxon To‘lkinovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T14:26:26.605107+00:00",
+   "url": "https://uza.uz/oz/posts/evatov-borivoy-sobirzhonovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933998",
+   "title": "Evatov Bo‘rivoy Sobirjonovichning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T14:26:34.194311+00:00",
+   "url": "https://uza.uz/oz/posts/evatov-borivoy-sobirjonovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933999",
+   "title": "Evatov Börivoy Sobirjonoviçning falsafa fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
@@ -7320,7 +7326,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T14:21:36.078676+00:00",
+ "last_run": "2026-11-06T14:26:38.203364+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21698,6 +21704,42 @@
    "m": 6967,
    "p": 1,
    "f": 6968,
+   "d": "2026-11-06"
+  },
+  "34670": {
+   "m": 6969,
+   "p": 1,
+   "f": 6970,
+   "d": "2026-11-06"
+  },
+  "34671": {
+   "m": 6971,
+   "p": 1,
+   "f": 6972,
+   "d": "2026-11-06"
+  },
+  "u933993": {
+   "m": 6973,
+   "p": 1,
+   "f": 6974,
+   "d": "2026-11-06"
+  },
+  "u933995": {
+   "m": 6975,
+   "p": 1,
+   "f": 6976,
+   "d": "2026-11-06"
+  },
+  "u933998": {
+   "m": 6977,
+   "p": 1,
+   "f": 6978,
+   "d": "2026-11-06"
+  },
+  "u933999": {
+   "m": 6979,
+   "p": 1,
+   "f": 6980,
    "d": "2026-11-06"
   }
  }
