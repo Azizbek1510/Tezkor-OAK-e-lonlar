@@ -2519,7 +2519,16 @@
   34621,
   34622,
   34623,
-  34624
+  34624,
+  34625,
+  34626,
+  34627,
+  34628,
+  34629,
+  34630,
+  34631,
+  34632,
+  34633
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2534,12 +2543,6 @@
   }
  },
  "seen_uza": [
-  916982,
-  916983,
-  916984,
-  916988,
-  916989,
-  916990,
   916991,
   916992,
   916993,
@@ -5533,7 +5536,13 @@
   933765,
   933766,
   933769,
-  933770
+  933770,
+  933773,
+  933774,
+  933780,
+  933781,
+  933782,
+  933783
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7173,75 +7182,79 @@
   "kiryigitova sevara|PhD": "2026-11-06",
   "bahodirov bahrom|PhD": "2026-11-06",
   "babaeva gulnoza|PhD": "2026-11-06",
-  "baratova malika|PhD": "2026-11-06"
+  "baratova malika|PhD": "2026-11-06",
+  "paluaniyazov halmuhammed|DSc": "2026-11-06",
+  "suleymanov farruh|DSc": "2026-11-06",
+  "burhanova mashhurahon|DSc": "2026-11-06",
+  "burhanova ma|DSc": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-06T09:57:07.479611+00:00",
+ "last_deep": "2026-11-06T10:55:23.546697+00:00",
  "recent": [
   {
-   "t": "2026-11-06T10:45:56.943586+00:00",
-   "url": "https://uza.uz/oz/posts/baxodirov-baxrom-baxodir-oglining-siyosiy-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933750",
-   "title": "Baxodirov Baxrom Baxodir o‘g‘lining siyosiy fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-06T10:59:18.921155+00:00",
+   "url": "https://oak.uz/pages/34628",
+   "title": "Zarpullaev Javohir Salimjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-06T10:50:54.289860+00:00",
-   "url": "https://oak.uz/pages/34618",
-   "title": "Axmadalieva Maftuna Abdumanon qizining falsafa doktori (PhD) dissertatsiyasi haqida e’lon"
+   "t": "2026-11-06T10:59:26.612537+00:00",
+   "url": "https://oak.uz/pages/34629",
+   "title": "Mavlonov Ulug‘bek Olimjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-06T10:51:01.849269+00:00",
-   "url": "https://oak.uz/pages/34619",
-   "title": "Safarov Shoxrux Sattor o‘g‘li falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida e’lon"
+   "t": "2026-11-06T10:59:34.196572+00:00",
+   "url": "https://oak.uz/pages/34630",
+   "title": "Nuraliev Abror Anvarovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-06T10:51:09.431334+00:00",
-   "url": "https://oak.uz/pages/34620",
-   "title": "Musulmonova Shahlo Nasriddinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-06T10:59:55.182742+00:00",
+   "url": "https://oak.uz/pages/34631",
+   "title": "Nurmuxamedov Doniyorbek Baxtiyorovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-06T10:51:16.931758+00:00",
-   "url": "https://oak.uz/pages/34621",
-   "title": "Jumaev Nizomiddin Kenjaboy o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-06T11:00:03.136232+00:00",
+   "url": "https://oak.uz/pages/34632",
+   "title": "Xodjaeva Nafosat Xabibulla qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-06T10:51:24.654133+00:00",
-   "url": "https://oak.uz/pages/34622",
-   "title": "Xudayberdiev Mirqosim Rashidjon o‘g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-06T11:00:10.700174+00:00",
+   "url": "https://oak.uz/pages/34633",
+   "title": "Mamutov Ravshan Aminaddinovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-06T10:51:32.302613+00:00",
-   "url": "https://oak.uz/pages/34623",
-   "title": "Masaidova Marğuba Muratovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-06T11:00:19.205736+00:00",
+   "url": "https://uza.uz/oz/posts/paluaniyazov-halmuxammed-aitzhanovichning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933773",
+   "title": "Paluaniyazov Xalmuxammed Aitjanovichning yuridik fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-06T10:51:54.135906+00:00",
-   "url": "https://oak.uz/pages/34624",
-   "title": "Anvarova Shaxnoza Abdukayum kizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-06T11:00:27.263549+00:00",
+   "url": "https://uza.uz/oz/posts/suleymanov-farrux-raximzhon-oglining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933780",
+   "title": "Suleymanov Farrux Raximjon o‘g‘lining iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-06T10:52:00.848315+00:00",
-   "url": "https://uza.uz/oz/posts/babaeva-gulnoza-oybek-qizining-kimyo-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933765",
-   "title": "Babayeva Gulnoza Oybek qizining kimyo fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-06T11:00:34.410275+00:00",
+   "url": "https://uza.uz/oz/posts/burxanova-mashxuraxon-muhammad-qizining-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933782",
+   "title": "Burxanova Mashxuraxon Muhammad qizining filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-06T10:52:08.622690+00:00",
-   "url": "https://uza.uz/oz/posts/baratova-malika-baxtiyor-qizining-farmacevtika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933769",
-   "title": "Baratova Malika Baxtiyor qizining farmatsevtika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-06T11:00:41.953955+00:00",
+   "url": "https://uza.uz/oz/posts/burxanova-mashxuraxon-muhammad-qizining-filologiya-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_933783",
+   "title": "Burxanova Maşxuraxon Muhammad qizining filologiya fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 11,
-  "found_oak": 7,
-  "posted": 9,
+  "found": 15,
+  "found_oak": 9,
+  "posted": 13,
   "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T10:52:12.637363+00:00",
+ "last_run": "2026-11-06T11:00:45.962892+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21145,6 +21158,84 @@
    "m": 6797,
    "p": 1,
    "f": 6798,
+   "d": "2026-11-06"
+  },
+  "34625": {
+   "m": 6799,
+   "p": 1,
+   "f": 6800,
+   "d": "2026-11-06"
+  },
+  "34626": {
+   "m": 6801,
+   "p": 1,
+   "f": 6802,
+   "d": "2026-11-06"
+  },
+  "34627": {
+   "m": 6803,
+   "p": 1,
+   "f": 6804,
+   "d": "2026-11-06"
+  },
+  "34628": {
+   "m": 6805,
+   "p": 1,
+   "f": 6806,
+   "d": "2026-11-06"
+  },
+  "34629": {
+   "m": 6807,
+   "p": 1,
+   "f": 6808,
+   "d": "2026-11-06"
+  },
+  "34630": {
+   "m": 6809,
+   "p": 1,
+   "f": 6810,
+   "d": "2026-11-06"
+  },
+  "34631": {
+   "m": 6811,
+   "p": 1,
+   "f": 6812,
+   "d": "2026-11-06"
+  },
+  "34632": {
+   "m": 6813,
+   "p": 1,
+   "f": 6814,
+   "d": "2026-11-06"
+  },
+  "34633": {
+   "m": 6815,
+   "p": 1,
+   "f": 6816,
+   "d": "2026-11-06"
+  },
+  "u933773": {
+   "m": 6817,
+   "p": 1,
+   "f": 6818,
+   "d": "2026-11-06"
+  },
+  "u933780": {
+   "m": 6819,
+   "p": 1,
+   "f": 6820,
+   "d": "2026-11-06"
+  },
+  "u933782": {
+   "m": 6821,
+   "p": 1,
+   "f": 6822,
+   "d": "2026-11-06"
+  },
+  "u933783": {
+   "m": 6823,
+   "p": 1,
+   "f": 6824,
    "d": "2026-11-06"
   }
  }
