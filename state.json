@@ -2550,8 +2550,6 @@
   }
  },
  "seen_uza": [
-  917305,
-  917306,
   917307,
   917310,
   917311,
@@ -5549,7 +5547,9 @@
   933879,
   933880,
   933883,
-  933884
+  933884,
+  933887,
+  933888
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7210,17 +7210,13 @@
   "mahamadaminov arofiddin|PhD": "2026-11-06",
   "hudoyberdieva rano|PhD": "2026-11-06",
   "hudoyberdieva ra|PhD": "2026-11-06",
-  "ahmedova kunduz|PhD": "2026-11-06"
+  "ahmedova kunduz|PhD": "2026-11-06",
+  "hayitova feruza|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-06T11:50:28.422566+00:00",
+ "last_deep": "2026-11-06T12:45:29.185145+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T12:15:52.837472+00:00",
-   "url": "https://oak.uz/pages/34636",
-   "title": "Hayitov Javohir Maxtumqul o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-06T12:16:00.942959+00:00",
    "url": "https://oak.uz/pages/34637",
@@ -7265,20 +7261,25 @@
    "t": "2026-11-06T12:41:15.111269+00:00",
    "url": "https://uza.uz/oz/posts/axmedova-kunduz-abdullaevnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933883",
    "title": "Axmedova Kunduz Abdullayevnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T12:48:48.121211+00:00",
+   "url": "https://uza.uz/oz/posts/hayitova-feruza-baxrom-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933887",
+   "title": "Xayitova Feruza Baxrom qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 2,
   "found_oak": 0,
-  "posted": 3,
+  "posted": 1,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T12:41:19.138398+00:00",
+ "last_run": "2026-11-06T12:48:52.147542+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21404,6 +21405,12 @@
    "m": 6883,
    "p": 1,
    "f": 6884,
+   "d": "2026-11-06"
+  },
+  "u933887": {
+   "m": 6885,
+   "p": 1,
+   "f": 6886,
    "d": "2026-11-06"
   }
  }
