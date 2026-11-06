@@ -2577,8 +2577,6 @@
   }
  },
  "seen_uza": [
-  917330,
-  917331,
   917332,
   917335,
   917336,
@@ -5576,7 +5574,9 @@
   933965,
   933966,
   933967,
-  933968
+  933968,
+  933971,
+  933972
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7244,17 +7244,13 @@
   "arzikulov otabek|DSc": "2026-11-06",
   "shukurova sevara|PhD": "2026-11-06",
   "ukurova sevara|PhD": "2026-11-06",
-  "muhammedova sumbul|PhD": "2026-11-06"
+  "muhammedova sumbul|PhD": "2026-11-06",
+  "muhtorova umida|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T13:40:32.010773+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T13:44:10.470367+00:00",
-   "url": "https://oak.uz/pages/34663",
-   "title": "Abduraxmonova Mashxura Javdatovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-06T13:44:18.949017+00:00",
    "url": "https://oak.uz/pages/34664",
@@ -7299,20 +7295,25 @@
    "t": "2026-11-06T14:06:10.865888+00:00",
    "url": "https://uza.uz/oz/posts/muxammedova-sumbul-ikrombek-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933967",
    "title": "Muxammedova Sumbul Ikrombek qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T14:11:00.101078+00:00",
+   "url": "https://uza.uz/oz/posts/muxtorova-umida-tolib-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933971",
+   "title": "Muxtorova Umida Tolib qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 2,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 2,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T14:06:14.890913+00:00",
+ "last_run": "2026-11-06T14:11:04.129127+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21642,6 +21643,12 @@
    "m": 6951,
    "p": 1,
    "f": 6952,
+   "d": "2026-11-06"
+  },
+  "u933971": {
+   "m": 6953,
+   "p": 1,
+   "f": 6954,
    "d": "2026-11-06"
   }
  }
