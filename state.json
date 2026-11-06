@@ -2472,10 +2472,6 @@
   }
  },
  "seen_uza": [
-  916627,
-  916628,
-  916629,
-  916630,
   916631,
   916638,
   916639,
@@ -5471,7 +5467,11 @@
   933471,
   933472,
   933475,
-  933476
+  933476,
+  933483,
+  933484,
+  933487,
+  933488
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7081,32 +7081,16 @@
   "nurhonov davronbek|PhD": "2026-11-06",
   "avlaeva saida|PhD": "2026-11-06",
   "aytimbetova zuhra|PhD": "2026-11-06",
-  "madaminova sanabar|PhD": "2026-11-06"
+  "madaminova sanabar|PhD": "2026-11-06",
+  "roziboev dilshod|PhD": "2026-11-06",
+  "r ziboev|PhD": "2026-11-06",
+  "ochilov samariddin|PhD": "2026-11-06",
+  "o ilov|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T06:00:48.717152+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T05:21:22.211054+00:00",
-   "url": "https://uza.uz/oz/posts/meyliev-farrux-ikrom-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933447",
-   "title": "Meyliyev Farrux Ikrom o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T05:25:46.291806+00:00",
-   "url": "https://uza.uz/oz/posts/usmonov-maksud-tulkin-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933449",
-   "title": "Usmonov Maksud Tulkin o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T05:25:53.465873+00:00",
-   "url": "https://uza.uz/oz/posts/polatov-bahodir-baxtiyorovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_933453",
-   "title": "Polatov Bahodir Baxtiyorovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
-  },
-  {
-   "t": "2026-11-06T05:26:01.010741+00:00",
-   "url": "https://uza.uz/oz/posts/kamilova-gulchexra-muratdzhanovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_933455",
-   "title": "Kamilova Gulchexra Muratdjanovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
-  },
   {
    "t": "2026-11-06T05:26:08.587068+00:00",
    "url": "https://uza.uz/oz/posts/kamilova-gulchexra-muratdjanovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-tog-risida_933456",
@@ -7136,20 +7120,40 @@
    "t": "2026-11-06T05:50:51.965599+00:00",
    "url": "https://uza.uz/oz/posts/madaminova-sanabar-askarovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933475",
    "title": "Madaminova Sanabar Askarovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:05:58.650192+00:00",
+   "url": "https://uza.uz/oz/posts/roziboev-dilshod-azam-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933483",
+   "title": "Ro‘ziboyev Dilshod A’zam o‘g‘lining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:06:07.097333+00:00",
+   "url": "https://uza.uz/oz/posts/roziboyev-dilshod-azam-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933484",
+   "title": "Röziboyev Dilşod Aʼzam öğlining tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-06T06:06:15.004093+00:00",
+   "url": "https://uza.uz/oz/posts/ochilov-samariddin-kamoliddinovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933487",
+   "title": "Ochilov Samariddin Kamoliddinovichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:06:23.167422+00:00",
+   "url": "https://uza.uz/oz/posts/ochilov-samariddin-kamoliddinovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933488",
+   "title": "Oçilov Samariddin Kamoliddinoviçning yuridik fanlar böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
+  "posted": 4,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T06:03:56.247153+00:00",
+ "last_run": "2026-11-06T06:06:27.178046+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -20501,6 +20505,30 @@
    "m": 6612,
    "p": 1,
    "f": 6613,
+   "d": "2026-11-06"
+  },
+  "u933483": {
+   "m": 6614,
+   "p": 1,
+   "f": 6615,
+   "d": "2026-11-06"
+  },
+  "u933484": {
+   "m": 6616,
+   "p": 1,
+   "f": 6617,
+   "d": "2026-11-06"
+  },
+  "u933487": {
+   "m": 6618,
+   "p": 1,
+   "f": 6619,
+   "d": "2026-11-06"
+  },
+  "u933488": {
+   "m": 6620,
+   "p": 1,
+   "f": 6621,
    "d": "2026-11-06"
   }
  }
