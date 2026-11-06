@@ -2530,7 +2530,12 @@
   34632,
   34633,
   34634,
-  34635
+  34635,
+  34636,
+  34637,
+  34638,
+  34639,
+  34640
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7207,31 +7212,6 @@
  "last_deep": "2026-11-06T11:50:28.422566+00:00",
  "recent": [
   {
-   "t": "2026-11-06T11:11:00.004531+00:00",
-   "url": "https://uza.uz/oz/posts/tagaev-behzod-anvarovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933795",
-   "title": "Tagayev Behzod Anvarovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T11:15:52.180040+00:00",
-   "url": "https://uza.uz/oz/posts/olimov-shaxriyor-kaxorovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933802",
-   "title": "Olimov Shaxriyor Kaxorovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T11:15:59.915208+00:00",
-   "url": "https://uza.uz/oz/posts/olimov-shaxriyor-kaxorovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933803",
-   "title": "Olimov Şaxriyor Kaxoroviçning texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-06T11:16:07.712622+00:00",
-   "url": "https://uza.uz/oz/posts/zokirova-dilnoza-fazlitdin-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933804",
-   "title": "Zokirova Dilnoza Fazlitdin qizining biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T11:20:52.056570+00:00",
-   "url": "https://uza.uz/oz/posts/norboeva-sarvinoz-mengalievnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933809",
-   "title": "Norboyeva Sarvinoz Mengaliyevnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-11-06T11:20:59.267184+00:00",
    "url": "https://uza.uz/oz/posts/umaralieva-nilufar-ravshan-qizining-farmacevtika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933811",
    "title": "Umaraliyeva Nilufar Ravshan qizining farmatsevtika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -7255,20 +7235,45 @@
    "t": "2026-11-06T12:10:50.415596+00:00",
    "url": "https://oak.uz/pages/34635",
    "title": "Yuldasheva Gulnora Saparbaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T12:15:52.837472+00:00",
+   "url": "https://oak.uz/pages/34636",
+   "title": "Hayitov Javohir Maxtumqul o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T12:16:00.942959+00:00",
+   "url": "https://oak.uz/pages/34637",
+   "title": "Irxanova Dilnoza Mahmud qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T12:16:10.174371+00:00",
+   "url": "https://oak.uz/pages/34638",
+   "title": "Nazarov Obid Abdusamatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T12:16:17.975536+00:00",
+   "url": "https://oak.uz/pages/34639",
+   "title": "Nazirova Sadoqat Olimjonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T12:16:25.835517+00:00",
+   "url": "https://oak.uz/pages/34640",
+   "title": "Radjabova Fotima Rustamovnaning falsafa doktori (Phd) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 5,
+  "found_oak": 5,
+  "posted": 5,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T12:10:54.424322+00:00",
+ "last_run": "2026-11-06T12:16:29.844135+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21334,6 +21339,36 @@
    "m": 6863,
    "p": 1,
    "f": 6864,
+   "d": "2026-11-06"
+  },
+  "34636": {
+   "m": 6865,
+   "p": 1,
+   "f": 6866,
+   "d": "2026-11-06"
+  },
+  "34637": {
+   "m": 6867,
+   "p": 1,
+   "f": 6868,
+   "d": "2026-11-06"
+  },
+  "34638": {
+   "m": 6869,
+   "p": 1,
+   "f": 6870,
+   "d": "2026-11-06"
+  },
+  "34639": {
+   "m": 6871,
+   "p": 1,
+   "f": 6872,
+   "d": "2026-11-06"
+  },
+  "34640": {
+   "m": 6873,
+   "p": 1,
+   "f": 6874,
    "d": "2026-11-06"
   }
  }
