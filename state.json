@@ -2472,8 +2472,6 @@
   }
  },
  "seen_uza": [
-  916625,
-  916626,
   916627,
   916628,
   916629,
@@ -5471,7 +5469,9 @@
   933469,
   933470,
   933471,
-  933472
+  933472,
+  933475,
+  933476
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7080,17 +7080,13 @@
   "mamadov bahodir|PhD": "2026-11-06",
   "nurhonov davronbek|PhD": "2026-11-06",
   "avlaeva saida|PhD": "2026-11-06",
-  "aytimbetova zuhra|PhD": "2026-11-06"
+  "aytimbetova zuhra|PhD": "2026-11-06",
+  "madaminova sanabar|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T05:00:50.291178+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T05:21:15.124730+00:00",
-   "url": "https://uza.uz/oz/posts/xaydarova-shaxnoza-abdunazarovnaning-qishloq-xojaligi-fanlari-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933446",
-   "title": "Xaydarova Şaxnoza Abdunazarovnaning qişloq xöjaligi fanlari falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-06T05:21:22.211054+00:00",
    "url": "https://uza.uz/oz/posts/meyliev-farrux-ikrom-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933447",
@@ -7135,20 +7131,25 @@
    "t": "2026-11-06T05:46:08.812176+00:00",
    "url": "https://uza.uz/oz/posts/aytymbetova-zuxra-maxambetalievnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933471",
    "title": "Aytimbetova Zuxra Maxambetaliyevnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T05:50:51.965599+00:00",
+   "url": "https://uza.uz/oz/posts/madaminova-sanabar-askarovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933475",
+   "title": "Madaminova Sanabar Askarovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 2,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T05:46:12.828893+00:00",
+ "last_run": "2026-11-06T05:50:55.990525+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -20494,6 +20495,12 @@
    "m": 6610,
    "p": 1,
    "f": 6611,
+   "d": "2026-11-06"
+  },
+  "u933475": {
+   "m": 6612,
+   "p": 1,
+   "f": 6613,
    "d": "2026-11-06"
   }
  }
