@@ -2472,12 +2472,6 @@
   }
  },
  "seen_uza": [
-  916366,
-  916608,
-  916609,
-  916610,
-  916611,
-  916612,
   916613,
   916614,
   916615,
@@ -5471,7 +5465,13 @@
   933445,
   933446,
   933447,
-  933448
+  933448,
+  933449,
+  933450,
+  933453,
+  933454,
+  933455,
+  933456
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7072,32 +7072,16 @@
   "irinova muborak|PhD": "2026-11-06",
   "haydarova shahnoza|PhD": "2026-11-06",
   "haydarova ahnoza|PhD": "2026-11-06",
-  "meyliev farruh|PhD": "2026-11-06"
+  "meyliev farruh|PhD": "2026-11-06",
+  "usmonov maksud|PhD": "2026-11-06",
+  "polatov bahodir|PhD": "2026-11-06",
+  "kamilova gulchehra|PhD": "2026-11-06",
+  "kamilova gul|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T05:00:50.291178+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T05:10:58.762600+00:00",
-   "url": "https://uza.uz/oz/posts/jorabekov-timur-keshnimzhaevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933424",
-   "title": "Jorabekov Timur Keshnimjayevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T05:11:06.833626+00:00",
-   "url": "https://uza.uz/oz/posts/orinbaeva-alima-otebaevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933427",
-   "title": "Orinbayeva Alima Otebayevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T05:11:14.830566+00:00",
-   "url": "https://uza.uz/oz/posts/abduraxmonov-sherali-sharifzhonovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933431",
-   "title": "Abduraxmonov Sherali Sharifjonovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T05:11:23.492306+00:00",
-   "url": "https://uza.uz/oz/posts/abduraxmonov-sherali-sharifjonovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933432",
-   "title": "Abduraxmonov Şerali Şarifjonoviçning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-06T05:15:59.553924+00:00",
    "url": "https://uza.uz/oz/posts/tilavov-muxtor-hasan-oglining-psixologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_933437",
@@ -7127,6 +7111,26 @@
    "t": "2026-11-06T05:21:22.211054+00:00",
    "url": "https://uza.uz/oz/posts/meyliev-farrux-ikrom-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933447",
    "title": "Meyliyev Farrux Ikrom o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T05:25:46.291806+00:00",
+   "url": "https://uza.uz/oz/posts/usmonov-maksud-tulkin-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933449",
+   "title": "Usmonov Maksud Tulkin o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T05:25:53.465873+00:00",
+   "url": "https://uza.uz/oz/posts/polatov-bahodir-baxtiyorovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_933453",
+   "title": "Polatov Bahodir Baxtiyorovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
+  },
+  {
+   "t": "2026-11-06T05:26:01.010741+00:00",
+   "url": "https://uza.uz/oz/posts/kamilova-gulchexra-muratdzhanovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_933455",
+   "title": "Kamilova Gulchexra Muratdjanovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
+  },
+  {
+   "t": "2026-11-06T05:26:08.587068+00:00",
+   "url": "https://uza.uz/oz/posts/kamilova-gulchexra-muratdjanovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-tog-risida_933456",
+   "title": "Kamilova Gulçexra Muratdjanovnaning texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğ risida"
   }
  ],
  "queue": 0,
@@ -7134,13 +7138,13 @@
  "counts": {
   "found": 6,
   "found_oak": 0,
-  "posted": 5,
-  "dups": 1,
+  "posted": 4,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T05:21:26.225272+00:00",
+ "last_run": "2026-11-06T05:26:12.594787+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -20438,6 +20442,30 @@
    "m": 6594,
    "p": 1,
    "f": 6595,
+   "d": "2026-11-06"
+  },
+  "u933449": {
+   "m": 6596,
+   "p": 1,
+   "f": 6597,
+   "d": "2026-11-06"
+  },
+  "u933453": {
+   "m": 6598,
+   "p": 1,
+   "f": 6599,
+   "d": "2026-11-06"
+  },
+  "u933455": {
+   "m": 6600,
+   "p": 1,
+   "f": 6601,
+   "d": "2026-11-06"
+  },
+  "u933456": {
+   "m": 6602,
+   "p": 1,
+   "f": 6603,
    "d": "2026-11-06"
   }
  }
