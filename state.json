@@ -2577,8 +2577,6 @@
   }
  },
  "seen_uza": [
-  917332,
-  917335,
   917336,
   917337,
   917338,
@@ -5576,7 +5574,9 @@
   933967,
   933968,
   933971,
-  933972
+  933972,
+  933980,
+  933981
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7245,17 +7245,13 @@
   "shukurova sevara|PhD": "2026-11-06",
   "ukurova sevara|PhD": "2026-11-06",
   "muhammedova sumbul|PhD": "2026-11-06",
-  "muhtorova umida|PhD": "2026-11-06"
+  "muhtorova umida|PhD": "2026-11-06",
+  "najmiddinov murat|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T13:40:32.010773+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T13:44:18.949017+00:00",
-   "url": "https://oak.uz/pages/34664",
-   "title": "Asemenova Dilfuza Yakupbaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-06T13:44:27.599069+00:00",
    "url": "https://oak.uz/pages/34665",
@@ -7300,6 +7296,11 @@
    "t": "2026-11-06T14:11:00.101078+00:00",
    "url": "https://uza.uz/oz/posts/muxtorova-umida-tolib-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933971",
    "title": "Muxtorova Umida Tolib qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T14:15:56.081785+00:00",
+   "url": "https://uza.uz/oz/posts/nazhmiddinov-murat-kamolovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933980",
+   "title": "Najmiddinov Murat Kamolovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -7313,7 +7314,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T14:11:04.129127+00:00",
+ "last_run": "2026-11-06T14:16:00.104457+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21649,6 +21650,12 @@
    "m": 6953,
    "p": 1,
    "f": 6954,
+   "d": "2026-11-06"
+  },
+  "u933980": {
+   "m": 6955,
+   "p": 1,
+   "f": 6956,
    "d": "2026-11-06"
   }
  }
