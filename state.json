@@ -2508,7 +2508,11 @@
   34610,
   34611,
   34612,
-  34613
+  34613,
+  34614,
+  34615,
+  34616,
+  34617
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7161,26 +7165,6 @@
  "last_deep": "2026-11-06T07:00:40.735895+00:00",
  "recent": [
   {
-   "t": "2026-11-06T07:41:25.689688+00:00",
-   "url": "https://oak.uz/pages/34604",
-   "title": "Palvanova Sevara Atabekovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:41:34.487346+00:00",
-   "url": "https://oak.uz/pages/34605",
-   "title": "Rahmanova Muhayyo Davronbek qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:41:43.275020+00:00",
-   "url": "https://oak.uz/pages/34606",
-   "title": "Xodjamova Gulbaxor Adxamjon kizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-06T07:50:57.059837+00:00",
-   "url": "https://oak.uz/pages/34607",
-   "title": "Abdurazakov Aziz Abdukaxarovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-06T07:51:05.729759+00:00",
    "url": "https://oak.uz/pages/34608",
    "title": "Makulov Jasurbek Taxirjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -7209,20 +7193,40 @@
    "t": "2026-11-06T07:51:56.631543+00:00",
    "url": "https://oak.uz/pages/34613",
    "title": "Xomidchonova ShahzodaXasanzodaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:55:46.668424+00:00",
+   "url": "https://oak.uz/pages/34614",
+   "title": "Sharipov Ilyosbek Qodirali o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:55:54.437308+00:00",
+   "url": "https://oak.uz/pages/34615",
+   "title": "Alimova Durdona Dilmuratovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:56:02.729562+00:00",
+   "url": "https://oak.uz/pages/34616",
+   "title": "Raxmanova Nozima Qaxramon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-06T07:56:12.103673+00:00",
+   "url": "https://oak.uz/pages/34617",
+   "title": "Zaynutdinova Dilorom Rustam qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 7,
-  "found_oak": 7,
-  "posted": 7,
+  "found": 4,
+  "found_oak": 4,
+  "posted": 4,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T07:52:00.643997+00:00",
+ "last_run": "2026-11-06T07:56:16.114243+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21012,6 +21016,30 @@
    "m": 6759,
    "p": 1,
    "f": 6760,
+   "d": "2026-11-06"
+  },
+  "34614": {
+   "m": 6761,
+   "p": 1,
+   "f": 6762,
+   "d": "2026-11-06"
+  },
+  "34615": {
+   "m": 6763,
+   "p": 1,
+   "f": 6764,
+   "d": "2026-11-06"
+  },
+  "34616": {
+   "m": 6765,
+   "p": 1,
+   "f": 6766,
+   "d": "2026-11-06"
+  },
+  "34617": {
+   "m": 6767,
+   "p": 1,
+   "f": 6768,
    "d": "2026-11-06"
   }
  }
