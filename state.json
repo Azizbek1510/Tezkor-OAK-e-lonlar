@@ -2472,10 +2472,6 @@
   }
  },
  "seen_uza": [
-  916683,
-  916684,
-  916685,
-  916686,
   916687,
   916688,
   916689,
@@ -5471,7 +5467,11 @@
   933535,
   933536,
   933540,
-  933541
+  933541,
+  933544,
+  933545,
+  933546,
+  933547
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7100,27 +7100,15 @@
   "musurmanov ulugbek|PhD": "2026-11-06",
   "hudayberdiev abdumadjid|PhD": "2026-11-06",
   "kamalova mahzuna|PhD": "2026-11-06",
-  "mardonova yulduz|PhD": "2026-11-06"
+  "mardonova yulduz|PhD": "2026-11-06",
+  "qoziboev sherali|PhD": "2026-11-06",
+  "q ziboev|PhD": "2026-11-06",
+  "majidova hulkar|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T06:00:48.717152+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T06:21:15.792160+00:00",
-   "url": "https://uza.uz/oz/posts/nasimova-muattar-hasanovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933506",
-   "title": "Nasimova Muattar Xasanovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T06:25:52.953356+00:00",
-   "url": "https://uza.uz/oz/posts/abdimominov-togoynazar-abdinaxat-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933508",
-   "title": "Abdimo‘minov Tog‘oynazar Abdinaxat o‘g‘lining geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T06:26:01.168117+00:00",
-   "url": "https://uza.uz/oz/posts/abdimominov-togoynazar-abdinaxat-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933509",
-   "title": "Abdimöminov Toğoynazar Abdinaxat öğlining geografiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-06T06:26:12.356632+00:00",
    "url": "https://uza.uz/oz/posts/nurmatova-dilnoza-mustafakulovnaning-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933510",
@@ -7155,6 +7143,21 @@
    "t": "2026-11-06T06:46:01.677174+00:00",
    "url": "https://uza.uz/oz/posts/mardonova-yulduz-oktam-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933540",
    "title": "Mardonova Yulduz O‘ktam qizining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:50:54.627564+00:00",
+   "url": "https://uza.uz/oz/posts/qoziboev-sherali-tursunalievichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933544",
+   "title": "Qo‘ziboyev Sherali Tursunaliyevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:51:01.606123+00:00",
+   "url": "https://uza.uz/oz/posts/qoziboyev-sherali-tursunaliyevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933545",
+   "title": "Qöziboyev Şerali Tursunaliyeviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-06T06:51:10.371057+00:00",
+   "url": "https://uza.uz/oz/posts/mazhidova-hulkar-ibrohimovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933546",
+   "title": "Majidova Hulkar Ibrohimovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -7162,13 +7165,13 @@
  "counts": {
   "found": 4,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T06:46:05.693417+00:00",
+ "last_run": "2026-11-06T06:51:14.396710+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -20634,6 +20637,24 @@
    "m": 6650,
    "p": 1,
    "f": 6651,
+   "d": "2026-11-06"
+  },
+  "u933544": {
+   "m": 6652,
+   "p": 1,
+   "f": 6653,
+   "d": "2026-11-06"
+  },
+  "u933545": {
+   "m": 6654,
+   "p": 1,
+   "f": 6655,
+   "d": "2026-11-06"
+  },
+  "u933546": {
+   "m": 6656,
+   "p": 1,
+   "f": 6657,
    "d": "2026-11-06"
   }
  }
