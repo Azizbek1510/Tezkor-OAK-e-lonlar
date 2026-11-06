@@ -2472,12 +2472,6 @@
   }
  },
  "seen_uza": [
-  916649,
-  916654,
-  916655,
-  916662,
-  916663,
-  916664,
   916665,
   916670,
   916671,
@@ -5471,7 +5465,13 @@
   933502,
   933503,
   933506,
-  933507
+  933507,
+  933508,
+  933509,
+  933510,
+  933511,
+  933512,
+  933513
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7091,32 +7091,16 @@
   "sabohiddinova shahnoza|PhD": "2026-11-06",
   "sabohiddinova ahnoza|PhD": "2026-11-06",
   "nuriddinov rasuljon|PhD": "2026-11-06",
-  "nasimova muattar|PhD": "2026-11-06"
+  "nasimova muattar|PhD": "2026-11-06",
+  "abdimominov togoynazar|PhD": "2026-11-06",
+  "abdim minov|PhD": "2026-11-06",
+  "nurmatova dilnoza|PhD": "2026-11-06",
+  "ostonova nafisa|PhD": "2026-11-06"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-06T06:00:48.717152+00:00",
  "recent": [
-  {
-   "t": "2026-11-06T06:05:58.650192+00:00",
-   "url": "https://uza.uz/oz/posts/roziboev-dilshod-azam-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933483",
-   "title": "Ro‘ziboyev Dilshod A’zam o‘g‘lining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T06:06:07.097333+00:00",
-   "url": "https://uza.uz/oz/posts/roziboyev-dilshod-azam-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933484",
-   "title": "Röziboyev Dilşod Aʼzam öğlining tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-06T06:06:15.004093+00:00",
-   "url": "https://uza.uz/oz/posts/ochilov-samariddin-kamoliddinovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933487",
-   "title": "Ochilov Samariddin Kamoliddinovichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-06T06:06:23.167422+00:00",
-   "url": "https://uza.uz/oz/posts/ochilov-samariddin-kamoliddinovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933488",
-   "title": "Oçilov Samariddin Kamoliddinoviçning yuridik fanlar böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-06T06:15:52.894755+00:00",
    "url": "https://uza.uz/oz/posts/kudratov-sanzhar-marupovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933494",
@@ -7146,6 +7130,26 @@
    "t": "2026-11-06T06:21:15.792160+00:00",
    "url": "https://uza.uz/oz/posts/nasimova-muattar-hasanovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933506",
    "title": "Nasimova Muattar Xasanovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:25:52.953356+00:00",
+   "url": "https://uza.uz/oz/posts/abdimominov-togoynazar-abdinaxat-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933508",
+   "title": "Abdimo‘minov Tog‘oynazar Abdinaxat o‘g‘lining geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:26:01.168117+00:00",
+   "url": "https://uza.uz/oz/posts/abdimominov-togoynazar-abdinaxat-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_933509",
+   "title": "Abdimöminov Toğoynazar Abdinaxat öğlining geografiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-06T06:26:12.356632+00:00",
+   "url": "https://uza.uz/oz/posts/nurmatova-dilnoza-mustafakulovnaning-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933510",
+   "title": "Nurmatova Dilnoza Mustafakulovnaning biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-06T06:26:25.022361+00:00",
+   "url": "https://uza.uz/oz/posts/ostonova-nafisa-hikmatovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_933512",
+   "title": "Ostonova Nafisa Xikmatovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -7159,7 +7163,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-06T06:21:19.818479+00:00",
+ "last_run": "2026-11-06T06:26:29.044477+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -20571,6 +20575,30 @@
    "m": 6632,
    "p": 1,
    "f": 6633,
+   "d": "2026-11-06"
+  },
+  "u933508": {
+   "m": 6634,
+   "p": 1,
+   "f": 6635,
+   "d": "2026-11-06"
+  },
+  "u933509": {
+   "m": 6636,
+   "p": 1,
+   "f": 6637,
+   "d": "2026-11-06"
+  },
+  "u933510": {
+   "m": 6638,
+   "p": 1,
+   "f": 6639,
+   "d": "2026-11-06"
+  },
+  "u933512": {
+   "m": 6640,
+   "p": 1,
+   "f": 6641,
    "d": "2026-11-06"
   }
  }
