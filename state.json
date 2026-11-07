@@ -2579,7 +2579,10 @@
   34683,
   34684,
   34685,
-  34686
+  34686,
+  34687,
+  34688,
+  34689
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7297,21 +7300,6 @@
  "last_deep": "2026-11-07T12:30:36.773991+00:00",
  "recent": [
   {
-   "t": "2026-11-07T12:33:39.378589+00:00",
-   "url": "https://oak.uz/pages/34677",
-   "title": "Baboxo‘jaev Abduqayum Srojiddin o‘glining falsafa doktori (Phd) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-07T12:33:47.432540+00:00",
-   "url": "https://oak.uz/pages/34678",
-   "title": "Yuldashev Qaxramonjon Shukurjon o‘g‘lining falsafa doktori (PhD) dissertatsiya himoyasi haqida elon"
-  },
-  {
-   "t": "2026-11-07T12:35:51.188280+00:00",
-   "url": "https://oak.uz/pages/34679",
-   "title": "Nurjanov Bahadir Berdievichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-07T12:35:59.759312+00:00",
    "url": "https://oak.uz/pages/34680",
    "title": "Ellamonov Suxrobjon Nu’mon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -7345,20 +7333,35 @@
    "t": "2026-11-07T12:56:08.808702+00:00",
    "url": "https://oak.uz/pages/34686",
    "title": "Matnazarova Saida Satimbay qizi Falsafa doktori (PhD) dissertatsiyasining himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-07T13:05:45.963190+00:00",
+   "url": "https://oak.uz/pages/34687",
+   "title": "Egamberdieva To‘tiyo Ismoil qizining falsafa doktori (PhD) dissertasiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-07T13:05:53.510192+00:00",
+   "url": "https://oak.uz/pages/34688",
+   "title": "Xo‘jamov Utkir Komiljon o‘g‘li falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-07T13:06:00.939396+00:00",
+   "url": "https://oak.uz/pages/34689",
+   "title": "Xasanov Xusniddin Baxodirovich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 3,
+  "found_oak": 3,
+  "posted": 3,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-07T13:01:00.774652+00:00",
+ "last_run": "2026-11-07T13:06:04.947624+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21964,6 +21967,24 @@
    "m": 7043,
    "p": 1,
    "f": 7044,
+   "d": "2026-11-07"
+  },
+  "34687": {
+   "m": 7045,
+   "p": 1,
+   "f": 7046,
+   "d": "2026-11-07"
+  },
+  "34688": {
+   "m": 7047,
+   "p": 1,
+   "f": 7048,
+   "d": "2026-11-07"
+  },
+  "34689": {
+   "m": 7049,
+   "p": 1,
+   "f": 7050,
    "d": "2026-11-07"
   }
  }
