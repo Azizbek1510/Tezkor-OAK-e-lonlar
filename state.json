@@ -2569,7 +2569,9 @@
   34671,
   34672,
   34673,
-  34674
+  34674,
+  34677,
+  34678
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7284,18 +7286,8 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-07T11:30:34.591384+00:00",
+ "last_deep": "2026-11-07T12:30:36.773991+00:00",
  "recent": [
-  {
-   "t": "2026-11-07T03:05:53.193799+00:00",
-   "url": "https://uza.uz/oz/posts/mamarasulov-bekzod-sunnat-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934038",
-   "title": "Mamarasulov Bekzod Sunnat o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-07T03:15:52.751740+00:00",
-   "url": "https://uza.uz/oz/posts/mansurova-shabnam-mirzohid-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934040",
-   "title": "Mansurova Shabnam Mirzohid qizining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-07T03:16:01.208769+00:00",
    "url": "https://uza.uz/oz/posts/mansurova-shabnam-mirzohid-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934041",
@@ -7335,20 +7327,30 @@
    "t": "2026-11-07T06:35:54.970635+00:00",
    "url": "https://uza.uz/oz/posts/sharipov-ilyosbek-qodirali-oglining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934093",
    "title": "Şaripov Ilyosbek Qodirali öğlining biologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-07T12:33:39.378589+00:00",
+   "url": "https://oak.uz/pages/34677",
+   "title": "Baboxo‘jaev Abduqayum Srojiddin o‘glining falsafa doktori (Phd) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-07T12:33:47.432540+00:00",
+   "url": "https://oak.uz/pages/34678",
+   "title": "Yuldashev Qaxramonjon Shukurjon o‘g‘lining falsafa doktori (PhD) dissertatsiya himoyasi haqida elon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-07T12:25:44.485238+00:00",
+ "last_run": "2026-11-07T12:33:51.443702+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21894,6 +21896,18 @@
    "m": 7023,
    "p": 1,
    "f": 7024,
+   "d": "2026-11-07"
+  },
+  "34677": {
+   "m": 7025,
+   "p": 1,
+   "f": 7026,
+   "d": "2026-11-07"
+  },
+  "34678": {
+   "m": 7027,
+   "p": 1,
+   "f": 7028,
    "d": "2026-11-07"
   }
  }
