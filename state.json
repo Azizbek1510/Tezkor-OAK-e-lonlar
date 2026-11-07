@@ -2574,7 +2574,9 @@
   34678,
   34679,
   34680,
-  34681
+  34681,
+  34682,
+  34683
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7292,16 +7294,6 @@
  "last_deep": "2026-11-07T12:30:36.773991+00:00",
  "recent": [
   {
-   "t": "2026-11-07T04:55:52.479610+00:00",
-   "url": "https://uza.uz/oz/posts/jalilov-alisher-xudoyberdiyevichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934048",
-   "title": "Jalilov Alişer Xudoyberdiyeviçning tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-07T05:10:50.404183+00:00",
-   "url": "https://uza.uz/oz/posts/tillabaeva-gulzhahon-ilhomzhon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934052",
-   "title": "Tillabayeva Guljahon Ilhomjon qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
    "t": "2026-11-07T06:30:57.768201+00:00",
    "url": "https://uza.uz/oz/posts/hodzhibolaeva-nozimaxon-mamurovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934089",
    "title": "Xodjibolayeva Nozimaxon Ma’murovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -7340,20 +7332,30 @@
    "t": "2026-11-07T12:45:55.682233+00:00",
    "url": "https://oak.uz/pages/34681",
    "title": "Sayfullaev Muzafar Alisherovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-07T12:50:51.234547+00:00",
+   "url": "https://oak.uz/pages/34682",
+   "title": "Yo‘ldosheva Sevara Alisher qizining  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-07T12:50:58.707436+00:00",
+   "url": "https://oak.uz/pages/34683",
+   "title": "Yakubjanova Muxayyo Qodirjanovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-07T12:45:59.693704+00:00",
+ "last_run": "2026-11-07T12:51:02.718135+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21929,6 +21931,18 @@
    "m": 7033,
    "p": 1,
    "f": 7034,
+   "d": "2026-11-07"
+  },
+  "34682": {
+   "m": 7035,
+   "p": 1,
+   "f": 7036,
+   "d": "2026-11-07"
+  },
+  "34683": {
+   "m": 7037,
+   "p": 1,
+   "f": 7038,
    "d": "2026-11-07"
   }
  }
