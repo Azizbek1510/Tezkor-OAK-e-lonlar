@@ -2584,7 +2584,9 @@
   34688,
   34689,
   34690,
-  34691
+  34691,
+  34692,
+  34693
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7302,16 +7304,6 @@
  "last_deep": "2026-11-07T12:30:36.773991+00:00",
  "recent": [
   {
-   "t": "2026-11-07T12:50:51.234547+00:00",
-   "url": "https://oak.uz/pages/34682",
-   "title": "Yo‘ldosheva Sevara Alisher qizining  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-07T12:50:58.707436+00:00",
-   "url": "https://oak.uz/pages/34683",
-   "title": "Yakubjanova Muxayyo Qodirjanovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-07T12:55:52.824281+00:00",
    "url": "https://oak.uz/pages/34684",
    "title": "Urinova Sabina Shuxrat qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -7350,6 +7342,16 @@
    "t": "2026-11-07T13:11:03.230138+00:00",
    "url": "https://oak.uz/pages/34691",
    "title": "Husanova Dildora Begimqul qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-07T13:15:57.736738+00:00",
+   "url": "https://oak.uz/pages/34692",
+   "title": "Ikramova Dilnoza Djurakulovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-07T13:16:06.237646+00:00",
+   "url": "https://oak.uz/pages/34693",
+   "title": "Sharipov Sherzod Maqsud o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -7363,7 +7365,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-07T13:11:07.241466+00:00",
+ "last_run": "2026-11-07T13:16:10.251341+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -21999,6 +22001,18 @@
    "m": 7053,
    "p": 1,
    "f": 7054,
+   "d": "2026-11-07"
+  },
+  "34692": {
+   "m": 7055,
+   "p": 1,
+   "f": 7056,
+   "d": "2026-11-07"
+  },
+  "34693": {
+   "m": 7057,
+   "p": 1,
+   "f": 7058,
    "d": "2026-11-07"
   }
  }
