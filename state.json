@@ -2629,10 +2629,6 @@
   }
  },
  "seen_uza": [
-  918069,
-  918072,
-  918073,
-  918074,
   918075,
   918080,
   918081,
@@ -5628,7 +5624,11 @@
   934427,
   934428,
   934431,
-  934432
+  934432,
+  934433,
+  934434,
+  934435,
+  934436
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7367,27 +7367,15 @@
   "toraeva oygul|PhD": "2026-11-09",
   "t raeva|PhD": "2026-11-09",
   "chorieva zebiniso|PhD": "2026-11-09",
-  "orieva zebiniso|PhD": "2026-11-09"
+  "orieva zebiniso|PhD": "2026-11-09",
+  "gulamova gulshan|PhD": "2026-11-09",
+  "gulamova gul|PhD": "2026-11-09",
+  "kudratov bahtiyor|PhD": "2026-11-09"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-09T04:30:41.535579+00:00",
  "recent": [
-  {
-   "t": "2026-11-09T04:56:09.381443+00:00",
-   "url": "https://uza.uz/oz/posts/usmonova-dilafruz-umirzoqovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934413",
-   "title": "Usmonova Dilafruz Umirzoqovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T05:01:16.655005+00:00",
-   "url": "https://uza.uz/oz/posts/kamolova-umida-muzaffarovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934415",
-   "title": "Kamolova Umida Muzaffarovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T05:01:24.124510+00:00",
-   "url": "https://uza.uz/oz/posts/ahmadova-mahbuba-shavkat-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934419",
-   "title": "Ahmadova Mahbuba Shavkat qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-09T05:01:31.652378+00:00",
    "url": "https://uza.uz/oz/posts/mattiev-murod-shamsievichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934421",
@@ -7422,20 +7410,35 @@
    "t": "2026-11-09T05:06:33.473150+00:00",
    "url": "https://uza.uz/oz/posts/choriyeva-zebiniso-odilovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934432",
    "title": "Çoriyeva Zebiniso Odilovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-09T05:10:58.796275+00:00",
+   "url": "https://uza.uz/oz/posts/gulamova-gulshan-almamadovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934433",
+   "title": "Gulamova Gulshan Almamadovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T05:11:07.345639+00:00",
+   "url": "https://uza.uz/oz/posts/gulamova-gulshan-almamadovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934434",
+   "title": "Gulamova Gulşan Almamadovnaning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-09T05:11:15.652467+00:00",
+   "url": "https://uza.uz/oz/posts/kudratov-baxtiyor-aripzhanovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934435",
+   "title": "Kudratov Baxtiyor Aripjanovichning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 6,
-  "dups": 0,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T05:06:37.487887+00:00",
+ "last_run": "2026-11-09T05:11:19.681734+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -22503,6 +22506,24 @@
    "m": 7197,
    "p": 1,
    "f": 7198,
+   "d": "2026-11-09"
+  },
+  "u934433": {
+   "m": 7199,
+   "p": 1,
+   "f": 7200,
+   "d": "2026-11-09"
+  },
+  "u934434": {
+   "m": 7201,
+   "p": 1,
+   "f": 7202,
+   "d": "2026-11-09"
+  },
+  "u934435": {
+   "m": 7203,
+   "p": 1,
+   "f": 7204,
    "d": "2026-11-09"
   }
  }
