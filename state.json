@@ -2629,12 +2629,6 @@
   }
  },
  "seen_uza": [
-  918036,
-  918041,
-  918042,
-  918043,
-  918044,
-  918049,
   918050,
   918052,
   918053,
@@ -5628,7 +5622,13 @@
   934402,
   934403,
   934404,
-  934405
+  934405,
+  934407,
+  934408,
+  934411,
+  934412,
+  934413,
+  934414
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7354,32 +7354,16 @@
   "isroilova navbahor|PhD": "2026-11-09",
   "jalolov bahrom|DSc": "2026-11-09",
   "ahmedova dildora|DSc": "2026-11-09",
-  "musaev gayrat|PhD": "2026-11-09"
+  "musaev gayrat|PhD": "2026-11-09",
+  "tursunov sardor|DSc": "2026-11-09",
+  "charieva sarvinoz|PhD": "2026-11-09",
+  "arieva sarvinoz|PhD": "2026-11-09",
+  "usmonova dilafruz|PhD": "2026-11-09"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-09T04:30:41.535579+00:00",
  "recent": [
-  {
-   "t": "2026-11-09T04:36:00.676884+00:00",
-   "url": "https://uza.uz/oz/posts/jabbarova-moxichexra-tulkinjonovnaning-sanatshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934389",
-   "title": "Jabbarova Moxiçexra Tulkinjonovnaning sanʼatşunoslik fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-09T04:40:52.288795+00:00",
-   "url": "https://uza.uz/oz/posts/amanxodzhaeva-gulnora-nigmatdzhanovnaning-sanatshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934390",
-   "title": "Amanxodjayeva Gulnora Nigmatdjanovnaning san’atshunoslik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T04:40:59.184132+00:00",
-   "url": "https://uza.uz/oz/posts/ishanova-muzaffara-muzaffarovnaning-sanatshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934392",
-   "title": "Ishanova Muzaffara Muzaffarovnaning san’atshunoslik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T04:41:06.449090+00:00",
-   "url": "https://uza.uz/oz/posts/ishanova-muzaffara-muzaffarovnaning-sanatshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934393",
-   "title": "Işanova Muzaffara Muzaffarovnaning sanʼatşunoslik fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-09T04:45:54.352862+00:00",
    "url": "https://uza.uz/oz/posts/qanaatov-esimqan-elsuer-ulining-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_934394",
@@ -7409,20 +7393,40 @@
    "t": "2026-11-09T04:51:01.321565+00:00",
    "url": "https://uza.uz/oz/posts/musaev-gayrat-farxadovichning-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934404",
    "title": "Musayev Gayrat Farxadovichning yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T04:55:47.408269+00:00",
+   "url": "https://uza.uz/oz/posts/tursunov-sardor-baxtinurovichning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_934407",
+   "title": "Tursunov Sardor Baxtinurovichning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T04:55:54.513804+00:00",
+   "url": "https://uza.uz/oz/posts/charieva-sarvinoz-tuygunovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934411",
+   "title": "Chariyeva Sarvinoz Tuyg‘unovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T04:56:02.073669+00:00",
+   "url": "https://uza.uz/oz/posts/chariyeva-sarvinoz-tuygunovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934412",
+   "title": "Çariyeva Sarvinoz Tuyğunovnaning filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-09T04:56:09.381443+00:00",
+   "url": "https://uza.uz/oz/posts/usmonova-dilafruz-umirzoqovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934413",
+   "title": "Usmonova Dilafruz Umirzoqovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 5,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 3,
+  "posted": 4,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T04:51:05.348586+00:00",
+ "last_run": "2026-11-09T04:56:13.410189+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -22412,6 +22416,30 @@
    "m": 7171,
    "p": 1,
    "f": 7172,
+   "d": "2026-11-09"
+  },
+  "u934407": {
+   "m": 7173,
+   "p": 1,
+   "f": 7174,
+   "d": "2026-11-09"
+  },
+  "u934411": {
+   "m": 7175,
+   "p": 1,
+   "f": 7176,
+   "d": "2026-11-09"
+  },
+  "u934412": {
+   "m": 7177,
+   "p": 1,
+   "f": 7178,
+   "d": "2026-11-09"
+  },
+  "u934413": {
+   "m": 7179,
+   "p": 1,
+   "f": 7180,
    "d": "2026-11-09"
   }
  }
