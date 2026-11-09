@@ -2707,10 +2707,6 @@
   }
  },
  "seen_uza": [
-  918513,
-  918514,
-  918518,
-  918519,
   918524,
   918525,
   918528,
@@ -5706,7 +5702,11 @@
   934821,
   934822,
   934823,
-  934824
+  934824,
+  934826,
+  934827,
+  934831,
+  934832
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7479,22 +7479,14 @@
   "hodjaev anvar|DSc": "2026-11-09",
   "melikova elnora|PhD": "2026-11-09",
   "najmiddinov abdulbosithon|PhD": "2026-11-09",
-  "mamatov tuhtamurod|PhD": "2026-11-09"
+  "mamatov tuhtamurod|PhD": "2026-11-09",
+  "baratova madina|PhD": "2026-11-09",
+  "nasriddinzoda isroiljoni|PhD": "2026-11-09"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-09T11:30:39.753272+00:00",
  "recent": [
-  {
-   "t": "2026-11-09T11:46:09.942497+00:00",
-   "url": "https://uza.uz/oz/posts/raxmonova-vasila-qayumzhonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934795",
-   "title": "Raxmonova Vasila Qayumjonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T11:55:52.355285+00:00",
-   "url": "https://uza.uz/oz/posts/dusmuratov-qahromon-mamadievichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934799",
-   "title": "Dusmuratov Qahromon Mamadiyevichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-09T12:01:11.497708+00:00",
    "url": "https://uza.uz/oz/posts/sindorov-razhapboy-ulugbek-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934801",
@@ -7534,6 +7526,16 @@
    "t": "2026-11-09T12:16:00.224206+00:00",
    "url": "https://uza.uz/oz/posts/mamatov-tuxtamurod-otamurodovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934823",
    "title": "Mamatov Tuxtamurod Otamurodovichning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T12:20:52.050749+00:00",
+   "url": "https://uza.uz/oz/posts/baratova-madina-hasanovnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934826",
+   "title": "Baratova Madina Xasanovnaning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T12:20:59.133025+00:00",
+   "url": "https://uza.uz/oz/posts/nasriddinzoda-isroilzhoni-dostmuhammadning-islomshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934831",
+   "title": "Nasriddinzoda Isroiljoni Do‘stmuhammadning islomshunoslik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -7547,7 +7549,7 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T12:16:04.247584+00:00",
+ "last_run": "2026-11-09T12:21:03.165071+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -23287,6 +23289,18 @@
    "m": 7480,
    "p": 1,
    "f": 7481,
+   "d": "2026-11-09"
+  },
+  "u934826": {
+   "m": 7482,
+   "p": 1,
+   "f": 7483,
+   "d": "2026-11-09"
+  },
+  "u934831": {
+   "m": 7484,
+   "p": 1,
+   "f": 7485,
    "d": "2026-11-09"
   }
  }
