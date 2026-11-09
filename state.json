@@ -2684,7 +2684,15 @@
   34788,
   34789,
   34790,
-  34791
+  34791,
+  34792,
+  34793,
+  34794,
+  34795,
+  34796,
+  34797,
+  34798,
+  34799
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7459,48 +7467,8 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-09T10:30:39.953454+00:00",
+ "last_deep": "2026-11-09T11:30:39.753272+00:00",
  "recent": [
-  {
-   "t": "2026-11-09T11:17:22.055307+00:00",
-   "url": "https://oak.uz/pages/34782",
-   "title": "Djuraxolova Bahora Kurbonboevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-09T11:17:29.944991+00:00",
-   "url": "https://oak.uz/pages/34783",
-   "title": "Sharapov Saidusmon Saidaxmadovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-09T11:17:37.613140+00:00",
-   "url": "https://oak.uz/pages/34784",
-   "title": "Raxmatullaev Jamshid Murodillaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-09T11:17:57.115927+00:00",
-   "url": "https://oak.uz/pages/34785",
-   "title": "Naimov Shoxrux Sharofiddinovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-09T11:18:06.404430+00:00",
-   "url": "https://oak.uz/pages/34786",
-   "title": "Qamariddinova Gulrux Akmal qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
-  },
-  {
-   "t": "2026-11-09T11:18:14.239731+00:00",
-   "url": "https://oak.uz/pages/34787",
-   "title": "Rasulova Sevara Charierovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-09T11:25:53.662392+00:00",
-   "url": "https://oak.uz/pages/34788",
-   "title": "Alimova Shaxnoza Shukurovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
-  {
-   "t": "2026-11-09T11:26:02.357835+00:00",
-   "url": "https://oak.uz/pages/34789",
-   "title": "Axmedov Rufat Pirmatovich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
-  },
   {
    "t": "2026-11-09T11:26:10.954650+00:00",
    "url": "https://oak.uz/pages/34790",
@@ -7510,20 +7478,60 @@
    "t": "2026-11-09T11:26:19.823712+00:00",
    "url": "https://oak.uz/pages/34791",
    "title": "Yuldashev Saidanvarbek Baxromjon o‘g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:34:19.455039+00:00",
+   "url": "https://oak.uz/pages/34792",
+   "title": "Baxriddinov Baxromjon Abduboqievich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:34:27.790135+00:00",
+   "url": "https://oak.uz/pages/34793",
+   "title": "Abdullaev Mirshod Shuxratovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:34:35.947802+00:00",
+   "url": "https://oak.uz/pages/34794",
+   "title": "Jalelov Kuanish Moyatdinovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:34:43.989778+00:00",
+   "url": "https://oak.uz/pages/34795",
+   "title": "Pulatov G‘iyos Gofurjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:34:51.956554+00:00",
+   "url": "https://oak.uz/pages/34796",
+   "title": "Qurbonov Navruzbek Muzaffar o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:35:00.062262+00:00",
+   "url": "https://oak.uz/pages/34797",
+   "title": "Redjepov Shovkat Baxtiyarovichning Fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:35:18.849316+00:00",
+   "url": "https://oak.uz/pages/34798",
+   "title": "Irgashev Shavkatbek Turdievichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:35:27.180779+00:00",
+   "url": "https://oak.uz/pages/34799",
+   "title": "Maxkamov Kodirjon Odiljonovich fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
-  "found_oak": 4,
-  "posted": 4,
+  "found": 8,
+  "found_oak": 8,
+  "posted": 8,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T11:26:23.838788+00:00",
+ "last_run": "2026-11-09T11:35:31.194736+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -23119,6 +23127,54 @@
    "m": 7412,
    "p": 1,
    "f": 7413,
+   "d": "2026-11-09"
+  },
+  "34792": {
+   "m": 7414,
+   "p": 1,
+   "f": 7415,
+   "d": "2026-11-09"
+  },
+  "34793": {
+   "m": 7416,
+   "p": 1,
+   "f": 7417,
+   "d": "2026-11-09"
+  },
+  "34794": {
+   "m": 7418,
+   "p": 1,
+   "f": 7419,
+   "d": "2026-11-09"
+  },
+  "34795": {
+   "m": 7420,
+   "p": 1,
+   "f": 7421,
+   "d": "2026-11-09"
+  },
+  "34796": {
+   "m": 7422,
+   "p": 1,
+   "f": 7423,
+   "d": "2026-11-09"
+  },
+  "34797": {
+   "m": 7424,
+   "p": 1,
+   "f": 7425,
+   "d": "2026-11-09"
+  },
+  "34798": {
+   "m": 7426,
+   "p": 1,
+   "f": 7427,
+   "d": "2026-11-09"
+  },
+  "34799": {
+   "m": 7428,
+   "p": 1,
+   "f": 7429,
    "d": "2026-11-09"
   }
  }
