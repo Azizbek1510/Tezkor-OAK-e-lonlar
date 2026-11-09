@@ -2663,7 +2663,8 @@
   34767,
   34768,
   34769,
-  34770
+  34770,
+  34771
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7441,11 +7442,6 @@
  "last_deep": "2026-11-09T10:30:39.953454+00:00",
  "recent": [
   {
-   "t": "2026-11-09T10:51:17.364105+00:00",
-   "url": "https://oak.uz/pages/34761",
-   "title": "Sabirov Mirza Qilichbaevichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-09T10:51:25.846816+00:00",
    "url": "https://oak.uz/pages/34762",
    "title": "Salmonov Ahadjon Abdullajonovich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -7489,6 +7485,11 @@
    "t": "2026-11-09T11:06:05.814658+00:00",
    "url": "https://oak.uz/pages/34770",
    "title": "Tursunova Sevarxon Umarovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T11:14:08.809207+00:00",
+   "url": "https://oak.uz/pages/34771",
+   "title": "Xamdamova Dilnoza Dilshodovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
@@ -22972,6 +22973,12 @@
    "m": 7369,
    "p": 1,
    "f": 7370,
+   "d": "2026-11-09"
+  },
+  "34771": {
+   "m": 7371,
+   "p": 1,
+   "f": 7372,
    "d": "2026-11-09"
   }
  }
