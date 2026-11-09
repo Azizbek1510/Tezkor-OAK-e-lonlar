@@ -2629,10 +2629,6 @@
   }
  },
  "seen_uza": [
-  918112,
-  918116,
-  918117,
-  918119,
   918120,
   918127,
   918128,
@@ -5628,7 +5624,11 @@
   934479,
   934480,
   934487,
-  934488
+  934488,
+  934512,
+  934513,
+  934516,
+  934517
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7378,22 +7378,14 @@
   "ahtamova laziza|PhD": "2026-11-09",
   "joraeva nargiza|PhD": "2026-11-09",
   "j raeva|PhD": "2026-11-09",
-  "nazarova vazira|PhD": "2026-11-09"
+  "nazarova vazira|PhD": "2026-11-09",
+  "matyakubov nurbek|DSc": "2026-11-09",
+  "mamarajabov bobir|PhD": "2026-11-09"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-09T05:30:36.373669+00:00",
  "recent": [
-  {
-   "t": "2026-11-09T05:11:07.345639+00:00",
-   "url": "https://uza.uz/oz/posts/gulamova-gulshan-almamadovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934434",
-   "title": "Gulamova Gulşan Almamadovnaning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-09T05:11:15.652467+00:00",
-   "url": "https://uza.uz/oz/posts/kudratov-baxtiyor-aripzhanovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934435",
-   "title": "Kudratov Baxtiyor Aripjanovichning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-09T05:15:56.484206+00:00",
    "url": "https://uza.uz/oz/posts/nabiev-farux-abduraximovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934439",
@@ -7433,20 +7425,30 @@
    "t": "2026-11-09T05:51:01.688013+00:00",
    "url": "https://uza.uz/oz/posts/nazarova-vazira-hamidovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934487",
    "title": "Nazarova Vazira Xamidovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T06:15:54.842844+00:00",
+   "url": "https://uza.uz/oz/posts/matyakubov-nurbek-rayimberganovichning-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_934512",
+   "title": "Matyakubov Nurbek Rayimberganovichning tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T06:16:02.970048+00:00",
+   "url": "https://uza.uz/oz/posts/mamarazhabov-bobir-normomin-oglining-tarix-fanlari-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934516",
+   "title": "Mamarajabov Bobir Normo‘min o‘g‘lining tarix fanlari doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T06:10:55.192917+00:00",
+ "last_run": "2026-11-09T06:16:06.999504+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -22580,6 +22582,18 @@
    "m": 7219,
    "p": 1,
    "f": 7220,
+   "d": "2026-11-09"
+  },
+  "u934512": {
+   "m": 7221,
+   "p": 1,
+   "f": 7222,
+   "d": "2026-11-09"
+  },
+  "u934516": {
+   "m": 7223,
+   "p": 1,
+   "f": 7224,
    "d": "2026-11-09"
   }
  }
