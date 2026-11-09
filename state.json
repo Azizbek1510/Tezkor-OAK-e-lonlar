@@ -2614,7 +2614,9 @@
   34718,
   34719,
   34720,
-  34721
+  34721,
+  34722,
+  34723
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7392,16 +7394,6 @@
  "last_deep": "2026-11-09T08:30:42.038961+00:00",
  "recent": [
   {
-   "t": "2026-11-09T05:45:53.087164+00:00",
-   "url": "https://uza.uz/oz/posts/joraeva-nargiza-baxshullaevnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934479",
-   "title": "Jo‘rayeva Nargiza Baxshullayevnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T05:46:00.390253+00:00",
-   "url": "https://uza.uz/oz/posts/jorayeva-nargiza-baxshullayevnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934480",
-   "title": "Jörayeva Nargiza Baxşullayevnaning tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
    "t": "2026-11-09T05:51:01.688013+00:00",
    "url": "https://uza.uz/oz/posts/nazarova-vazira-hamidovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934487",
    "title": "Nazarova Vazira Xamidovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -7440,20 +7432,30 @@
    "t": "2026-11-09T08:34:15.027009+00:00",
    "url": "https://uza.uz/oz/posts/isaqov-burxon-shuhratjon-oglining-dissertatsiya-himoyasisiz-ixtiro-patentlari-asosida-texnika-fanlari-boyicha-falsafa-doktori-phd-ilmiy-darajasini-olish-himoyasi-togrisida_934605",
    "title": "Isaqov Burxon Şuhratjon öğlining dissertatsiya himoyasisiz ixtiro patentlari asosida texnika fanlari böyiça falsafa doktori (PhD) ilmiy darajasini oliş himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-09T09:26:01.085592+00:00",
+   "url": "https://oak.uz/pages/34722",
+   "title": "Rustamova Tamila Andreevna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T09:26:08.537751+00:00",
+   "url": "https://oak.uz/pages/34723",
+   "title": "Uzoqboeva Ra’no Anvarjon qizi falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 2,
+  "found_oak": 2,
+  "posted": 2,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T09:20:51.376376+00:00",
+ "last_run": "2026-11-09T09:26:12.546306+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -22629,6 +22631,18 @@
    "m": 7233,
    "p": 1,
    "f": 7234,
+   "d": "2026-11-09"
+  },
+  "34722": {
+   "m": 7235,
+   "p": 1,
+   "f": 7236,
+   "d": "2026-11-09"
+  },
+  "34723": {
+   "m": 7237,
+   "p": 1,
+   "f": 7238,
    "d": "2026-11-09"
   }
  }
