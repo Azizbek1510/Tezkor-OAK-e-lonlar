@@ -2629,10 +2629,6 @@
   }
  },
  "seen_uza": [
-  918081,
-  918086,
-  918087,
-  918097,
   918098,
   918101,
   918102,
@@ -5628,7 +5624,11 @@
   934435,
   934436,
   934439,
-  934440
+  934440,
+  934456,
+  934457,
+  934461,
+  934462
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7371,22 +7371,14 @@
   "gulamova gulshan|PhD": "2026-11-09",
   "gulamova gul|PhD": "2026-11-09",
   "kudratov bahtiyor|PhD": "2026-11-09",
-  "nabiev faruh|PhD": "2026-11-09"
+  "nabiev faruh|PhD": "2026-11-09",
+  "karimova nargiza|PhD": "2026-11-09",
+  "gulyamova nigina|PhD": "2026-11-09"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-09T04:30:41.535579+00:00",
+ "last_deep": "2026-11-09T05:30:36.373669+00:00",
  "recent": [
-  {
-   "t": "2026-11-09T05:05:52.195186+00:00",
-   "url": "https://uza.uz/oz/posts/toyev-baxtiyor-zarifovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934425",
-   "title": "To‘yev Baxtiyor Zarifovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T05:05:59.810921+00:00",
-   "url": "https://uza.uz/oz/posts/toyev-baxtiyor-zarifovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934426",
-   "title": "Töyev Baxtiyor Zarifoviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-09T05:06:08.064568+00:00",
    "url": "https://uza.uz/oz/posts/toraeva-oygul-sirozh-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934427",
@@ -7426,20 +7418,30 @@
    "t": "2026-11-09T05:15:56.484206+00:00",
    "url": "https://uza.uz/oz/posts/nabiev-farux-abduraximovichning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934439",
    "title": "Nabiyev Farux Abduraximovichning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T05:33:54.256665+00:00",
+   "url": "https://uza.uz/oz/posts/karimova-nargiza-mamatkadirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934456",
+   "title": "Karimova Nargiza Mamatkadirovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T05:34:01.779886+00:00",
+   "url": "https://uza.uz/oz/posts/gulyamova-nigina-azimovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934461",
+   "title": "Gulyamova Nigina Azimovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T05:25:47.914146+00:00",
+ "last_run": "2026-11-09T05:34:05.796017+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -22531,6 +22533,18 @@
    "m": 7205,
    "p": 1,
    "f": 7206,
+   "d": "2026-11-09"
+  },
+  "u934456": {
+   "m": 7207,
+   "p": 1,
+   "f": 7208,
+   "d": "2026-11-09"
+  },
+  "u934461": {
+   "m": 7209,
+   "p": 1,
+   "f": 7210,
    "d": "2026-11-09"
   }
  }
