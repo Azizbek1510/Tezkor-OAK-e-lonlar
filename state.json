@@ -2629,14 +2629,6 @@
   }
  },
  "seen_uza": [
-  917576,
-  917581,
-  917582,
-  917583,
-  917584,
-  917587,
-  917588,
-  917815,
   917816,
   917825,
   917826,
@@ -5628,7 +5620,15 @@
   934089,
   934090,
   934092,
-  934093
+  934093,
+  934360,
+  934361,
+  934362,
+  934363,
+  934364,
+  934365,
+  934366,
+  934367
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7325,42 +7325,18 @@
   "tillabaeva guljahon|PhD": "2026-11-07",
   "hodjibolaeva nozimahon|PhD": "2026-11-07",
   "sharipov ilyosbek|PhD": "2026-11-07",
-  "aripov ilyosbek|PhD": "2026-11-07"
+  "aripov ilyosbek|PhD": "2026-11-07",
+  "nekboeva rano|PhD": "2026-11-09",
+  "nekboeva ra|PhD": "2026-11-09",
+  "azamhonov bahodir|PhD": "2026-11-09",
+  "hadjibaev jamshid|DSc": "2026-11-09",
+  "hadjibaev jam|DSc": "2026-11-09",
+  "jumaniyozov nodirbek|PhD": "2026-11-09"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-09T03:30:39.833023+00:00",
  "recent": [
-  {
-   "t": "2026-11-07T14:01:05.891700+00:00",
-   "url": "https://oak.uz/pages/34712",
-   "title": "Manoev Said Baxronovichning  fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-07T14:01:13.773220+00:00",
-   "url": "https://oak.uz/pages/34713",
-   "title": "Xalilova Ruxsora Raupovnaning  fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-07T14:01:21.217522+00:00",
-   "url": "https://oak.uz/pages/34714",
-   "title": "Qurbonova Gulmera Akbar qizining  falsafa doktori (PhD) dissertatsiyasi himoyasi haqida"
-  },
-  {
-   "t": "2026-11-07T14:05:48.917371+00:00",
-   "url": "https://oak.uz/pages/34715",
-   "title": "Boboyarova Nilufar Saydullaevna Pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-07T14:05:56.578075+00:00",
-   "url": "https://oak.uz/pages/34716",
-   "title": "Gulboev Doston Toir o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-07T14:06:04.132339+00:00",
-   "url": "https://oak.uz/pages/34717",
-   "title": "Hayitov Abdirasul Eshdavlatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-07T14:06:11.753109+00:00",
    "url": "https://oak.uz/pages/34718",
@@ -7380,20 +7356,50 @@
    "t": "2026-11-07T14:06:48.893451+00:00",
    "url": "https://oak.uz/pages/34721",
    "title": "Sodiqova Umidaxon Baxtiyor qizi Pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-09T04:15:53.380636+00:00",
+   "url": "https://uza.uz/oz/posts/nekboeva-rano-zokirovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934360",
+   "title": "Nekboyeva Ra’no Zokirovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T04:16:00.764559+00:00",
+   "url": "https://uza.uz/oz/posts/nekboyeva-rano-zokirovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934361",
+   "title": "Nekboyeva Raʼno Zokirovnaning filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-09T04:16:08.137287+00:00",
+   "url": "https://uza.uz/oz/posts/azamxonov-baxodir-sayitkamolxonovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934362",
+   "title": "Azamxonov Baxodir Sayitkamolxonovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T04:16:15.210197+00:00",
+   "url": "https://uza.uz/oz/posts/hadzhibaev-jamshid-abduazimovichning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_934364",
+   "title": "Xadjibayev Jamshid Abduazimovichning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T04:16:22.196935+00:00",
+   "url": "https://uza.uz/oz/posts/xadjibayev-jamshid-abduazimovichning-tibbiyot-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_934365",
+   "title": "Xadjibayev Jamşid Abduazimoviçning tibbiyot fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-09T04:16:29.220789+00:00",
+   "url": "https://uza.uz/oz/posts/jumaniyozov-nodirbek-giyos-oglining-yuridik-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934366",
+   "title": "Jumaniyozov Nodirbek G‘iyos o‘g‘lining yuridik fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 8,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 6,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T04:10:49.716199+00:00",
+ "last_run": "2026-11-09T04:16:33.249928+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -22210,6 +22216,42 @@
    "p": 1,
    "f": 7114,
    "d": "2026-11-07"
+  },
+  "u934360": {
+   "m": 7115,
+   "p": 1,
+   "f": 7116,
+   "d": "2026-11-09"
+  },
+  "u934361": {
+   "m": 7117,
+   "p": 1,
+   "f": 7118,
+   "d": "2026-11-09"
+  },
+  "u934362": {
+   "m": 7119,
+   "p": 1,
+   "f": 7120,
+   "d": "2026-11-09"
+  },
+  "u934364": {
+   "m": 7121,
+   "p": 1,
+   "f": 7122,
+   "d": "2026-11-09"
+  },
+  "u934365": {
+   "m": 7123,
+   "p": 1,
+   "f": 7124,
+   "d": "2026-11-09"
+  },
+  "u934366": {
+   "m": 7125,
+   "p": 1,
+   "f": 7126,
+   "d": "2026-11-09"
   }
  }
 }
