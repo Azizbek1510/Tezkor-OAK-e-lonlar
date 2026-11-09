@@ -2804,8 +2804,6 @@
   }
  },
  "seen_uza": [
-  918702,
-  918712,
   918713,
   918714,
   918715,
@@ -5803,7 +5801,9 @@
   934924,
   934925,
   934939,
-  934940
+  934940,
+  934941,
+  934942
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7600,17 +7600,13 @@
   "abdurahmanova malika|PhD": "2026-11-09",
   "yuldashev umedjon|PhD": "2026-11-09",
   "turahujaev orif|PhD": "2026-11-09",
-  "kamalov timur|PhD": "2026-11-09"
+  "kamalov timur|PhD": "2026-11-09",
+  "abdurazakov aziz|PhD": "2026-11-09"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-09T13:30:38.455418+00:00",
  "recent": [
-  {
-   "t": "2026-11-09T14:13:02.096769+00:00",
-   "url": "https://oak.uz/pages/34888",
-   "title": "Kazoqov Ruxilla Turobovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-09T14:13:09.672589+00:00",
    "url": "https://oak.uz/pages/34889",
@@ -7655,20 +7651,25 @@
    "t": "2026-11-09T14:16:29.305590+00:00",
    "url": "https://uza.uz/oz/posts/kamalov-timur-maxmudovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934939",
    "title": "Kamalov Timur Maxmudovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-09T14:20:59.384384+00:00",
+   "url": "https://uza.uz/oz/posts/abdurazakov-aziz-abdukaxarovichning-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934941",
+   "title": "Abdurazakov Aziz Abdukaxarovichning biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 7,
-  "found_oak": 5,
-  "posted": 6,
+  "found": 2,
+  "found_oak": 0,
+  "posted": 1,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T14:16:33.336222+00:00",
+ "last_run": "2026-11-09T14:21:03.442988+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24134,6 +24135,12 @@
    "m": 7869,
    "p": 1,
    "f": 7870,
+   "d": "2026-11-09"
+  },
+  "u934941": {
+   "m": 7871,
+   "p": 1,
+   "f": 7872,
    "d": "2026-11-09"
   }
  }
