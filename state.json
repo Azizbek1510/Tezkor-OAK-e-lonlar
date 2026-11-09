@@ -7545,15 +7545,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 0,
   "found_oak": 0,
-  "posted": 2,
+  "posted": 0,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-09T12:41:11.594613+00:00",
+ "last_run": "2026-11-09T12:45:53.026818+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
