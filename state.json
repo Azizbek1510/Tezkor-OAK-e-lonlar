@@ -2872,7 +2872,13 @@
   34976,
   34977,
   34978,
-  34979
+  34979,
+  34980,
+  34981,
+  34982,
+  34983,
+  34984,
+  34985
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2887,8 +2893,6 @@
   }
  },
  "seen_uza": [
-  919959,
-  919960,
   919961,
   919962,
   919963,
@@ -5886,7 +5890,9 @@
   935535,
   935536,
   935538,
-  935539
+  935539,
+  935544,
+  935545
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7774,47 +7780,13 @@
   "tergemes qajibek|DSc": "2026-11-10",
   "qurbanov abdulaziz|PhD": "2026-11-10",
   "ochilov ulugbek|PhD": "2026-11-10",
-  "buriev uralbek|PhD": "2026-11-10"
+  "buriev uralbek|PhD": "2026-11-10",
+  "abdurasulov javlon|PhD": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-10T13:10:31.858922+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T13:26:41.498048+00:00",
-   "url": "https://oak.uz/pages/34978",
-   "title": "Kurambaeva Nargiza Yaxshimuratovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T13:26:50.388945+00:00",
-   "url": "https://oak.uz/pages/34979",
-   "title": "Mamaradjapova Dilorom Abdullaevnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T13:27:01.468791+00:00",
-   "url": "https://uza.uz/oz/posts/kalandarova-malikaxon-pirnazarovnaning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935524",
-   "title": "Kalandarova Malikaxon Pirnazarovnaning yuridik fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T13:27:09.447001+00:00",
-   "url": "https://uza.uz/oz/posts/butunov-shaymardan-btrdiyorovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935526",
-   "title": "Butunov Shaymardan Btrdiyorovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T13:27:16.880265+00:00",
-   "url": "https://uza.uz/oz/posts/butunov-shaymardan-btrdiyorovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935527",
-   "title": "Butunov Şaymardan Btrdiyoroviçning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-10T13:27:25.219291+00:00",
-   "url": "https://uza.uz/oz/posts/azatova-guliston-norimonovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935528",
-   "title": "Azatova Guliston Norimonovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T13:27:32.952685+00:00",
-   "url": "https://uza.uz/oz/posts/tergemes-qazhibek-tileugaliulining-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935530",
-   "title": "Tergemes Qajibek Tileug‘aliulining texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-10T13:27:40.613112+00:00",
    "url": "https://uza.uz/oz/posts/qurbanov-abdulaziz-muzafarovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935533",
@@ -7829,20 +7801,55 @@
    "t": "2026-11-10T13:28:02.515891+00:00",
    "url": "https://uza.uz/oz/posts/buriev-uralbek-hurram-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935538",
    "title": "Buriyev Uralbek Xurram o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T13:33:20.024545+00:00",
+   "url": "https://oak.uz/pages/34980",
+   "title": "Maxsudov Maqsud To‘ymurodovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T13:33:28.469277+00:00",
+   "url": "https://oak.uz/pages/34981",
+   "title": "Meyliev Farrux Botirovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T13:33:37.189299+00:00",
+   "url": "https://oak.uz/pages/34982",
+   "title": "Ten Vladimir Igorevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T13:33:45.891938+00:00",
+   "url": "https://oak.uz/pages/34983",
+   "title": "Xaydarov Muzaffar Olimovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T13:33:54.470683+00:00",
+   "url": "https://oak.uz/pages/34984",
+   "title": "Ergashev Nuriddin Xamzaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T13:34:02.717155+00:00",
+   "url": "https://oak.uz/pages/34985",
+   "title": "Eshpulatov Elbek Yarashevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T13:34:22.782733+00:00",
+   "url": "https://uza.uz/oz/posts/abdurasulov-javlon-abdurayim-oglining-siyosiy-fanlar-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935544",
+   "title": "Abdurasulov Javlon Abdurayim o‘g‘lining siyosiy fanlar bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 27,
-  "found_oak": 13,
-  "posted": 21,
-  "dups": 6,
+  "found": 8,
+  "found_oak": 6,
+  "posted": 7,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T13:28:06.546951+00:00",
+ "last_run": "2026-11-10T13:34:26.813932+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -25352,6 +25359,48 @@
    "m": 8255,
    "p": 1,
    "f": 8256,
+   "d": "2026-11-10"
+  },
+  "34980": {
+   "m": 8305,
+   "p": 1,
+   "f": 8306,
+   "d": "2026-11-10"
+  },
+  "34981": {
+   "m": 8307,
+   "p": 1,
+   "f": 8308,
+   "d": "2026-11-10"
+  },
+  "34982": {
+   "m": 8309,
+   "p": 1,
+   "f": 8310,
+   "d": "2026-11-10"
+  },
+  "34983": {
+   "m": 8311,
+   "p": 1,
+   "f": 8312,
+   "d": "2026-11-10"
+  },
+  "34984": {
+   "m": 8313,
+   "p": 1,
+   "f": 8314,
+   "d": "2026-11-10"
+  },
+  "34985": {
+   "m": 8315,
+   "p": 1,
+   "f": 8316,
+   "d": "2026-11-10"
+  },
+  "u935544": {
+   "m": 8317,
+   "p": 1,
+   "f": 8318,
    "d": "2026-11-10"
   }
  }
