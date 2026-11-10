@@ -2804,8 +2804,6 @@
   }
  },
  "seen_uza": [
-  919088,
-  919091,
   919092,
   919098,
   919099,
@@ -5803,7 +5801,9 @@
   935051,
   935052,
   935053,
-  935054
+  935054,
+  935068,
+  935069
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7616,17 +7616,13 @@
   "sharofiddinov kamoliddin|PhD": "2026-11-10",
   "arofiddinov kamoliddin|PhD": "2026-11-10",
   "umarova marjona|PhD": "2026-11-10",
-  "qayumova mohinur|PhD": "2026-11-10"
+  "qayumova mohinur|PhD": "2026-11-10",
+  "allakuliev akmal|DSc": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-10T04:20:30.435885+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T04:40:56.421152+00:00",
-   "url": "https://uza.uz/oz/posts/temirbaev-begisbay-jumabaevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935031",
-   "title": "Temirbayev Begisbay Jumabayevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-10T04:41:03.553026+00:00",
    "url": "https://uza.uz/oz/posts/meylieva-hilola-shuxratovnaning-qishloq-xozhaligi-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935033",
@@ -7671,20 +7667,25 @@
    "t": "2026-11-10T04:51:05.221428+00:00",
    "url": "https://uza.uz/oz/posts/qayumova-mohinur-baxtiyor-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935053",
    "title": "Qayumova Mohinur Baxtiyor qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T05:01:08.376561+00:00",
+   "url": "https://uza.uz/oz/posts/allakuliev-akmal-baltaevichning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935068",
+   "title": "Allakuliyev Akmal Baltayevichning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 2,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T04:55:43.207254+00:00",
+ "last_run": "2026-11-10T05:01:12.408072+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24246,6 +24247,12 @@
    "m": 7901,
    "p": 1,
    "f": 7902,
+   "d": "2026-11-10"
+  },
+  "u935068": {
+   "m": 7903,
+   "p": 1,
+   "f": 7904,
    "d": "2026-11-10"
   }
  }
