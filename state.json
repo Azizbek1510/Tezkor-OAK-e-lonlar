@@ -2804,10 +2804,6 @@
   }
  },
  "seen_uza": [
-  919230,
-  919293,
-  919294,
-  919355,
   919356,
   919430,
   919431,
@@ -5803,7 +5799,11 @@
   935245,
   935246,
   935247,
-  935248
+  935248,
+  935253,
+  935254,
+  935257,
+  935258
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7655,27 +7655,15 @@
   "abdulloev jam|PhD": "2026-11-10",
   "yunusova navbahor|PhD": "2026-11-10",
   "ishanhodjaeva dildora|DSc": "2026-11-10",
-  "i anhodjaeva|DSc": "2026-11-10"
+  "i anhodjaeva|DSc": "2026-11-10",
+  "klebleeva guzal|DSc": "2026-11-10",
+  "yunushojaev mustafo|PhD": "2026-11-10",
+  "yunush jaev|PhD": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-10T07:10:32.777625+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T07:14:44.316954+00:00",
-   "url": "https://uza.uz/oz/posts/sohibov-dilshod-beknazarovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935227",
-   "title": "Sohibov Dilshod Beknazarovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T07:14:51.684112+00:00",
-   "url": "https://uza.uz/oz/posts/sohibov-dilshod-beknazarovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935228",
-   "title": "Sohibov Dilşod Beknazaroviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-10T07:14:59.302471+00:00",
-   "url": "https://uza.uz/oz/posts/solizhonov-muxammadzhon-zokirzhon-oglining-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935229",
-   "title": "Solijonov Muxammadjon Zokirjon o‘g‘lining filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-10T07:15:54.202678+00:00",
    "url": "https://uza.uz/oz/posts/hasanov-elyorzhon-odilzhonovichning-filologiya-fanlari-doktori-dsc-dissertaciyasi-himoyasi-togrisida_935231",
@@ -7710,20 +7698,35 @@
    "t": "2026-11-10T07:21:18.393439+00:00",
    "url": "https://uza.uz/oz/posts/ishanxodjayeva-dildora-aleksandrovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_935248",
    "title": "Işanxodjayeva Dildora Aleksandrovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-10T07:25:53.344739+00:00",
+   "url": "https://uza.uz/oz/posts/klebleeva-guzal-davlyatovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935253",
+   "title": "Klebleyeva Guzal Davlyatovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:26:00.704309+00:00",
+   "url": "https://uza.uz/oz/posts/yunusxozhaev-mustafo-zafarxozha-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935257",
+   "title": "Yunusxo‘jayev Mustafo Zafarxo‘ja o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:26:08.234067+00:00",
+   "url": "https://uza.uz/oz/posts/yunusxojayev-mustafo-zafarxoja-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935258",
+   "title": "Yunusxöjayev Mustafo Zafarxöja öğlining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 5,
+  "posted": 3,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T07:21:22.409517+00:00",
+ "last_run": "2026-11-10T07:26:12.250126+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24519,6 +24522,24 @@
    "m": 7979,
    "p": 1,
    "f": 7980,
+   "d": "2026-11-10"
+  },
+  "u935253": {
+   "m": 7981,
+   "p": 1,
+   "f": 7982,
+   "d": "2026-11-10"
+  },
+  "u935257": {
+   "m": 7983,
+   "p": 1,
+   "f": 7984,
+   "d": "2026-11-10"
+  },
+  "u935258": {
+   "m": 7985,
+   "p": 1,
+   "f": 7986,
    "d": "2026-11-10"
   }
  }
