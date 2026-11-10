@@ -2804,14 +2804,6 @@
   }
  },
  "seen_uza": [
-  919189,
-  919199,
-  919200,
-  919202,
-  919203,
-  919204,
-  919205,
-  919206,
   919207,
   919210,
   919211,
@@ -5803,7 +5795,15 @@
   935211,
   935212,
   935216,
-  935217
+  935217,
+  935221,
+  935222,
+  935223,
+  935224,
+  935227,
+  935228,
+  935229,
+  935230
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7642,42 +7642,18 @@
   "sharipova nodira|PhD": "2026-11-10",
   "aripova nodira|PhD": "2026-11-10",
   "adasheva matluba|PhD": "2026-11-10",
-  "ada eva|PhD": "2026-11-10"
+  "ada eva|PhD": "2026-11-10",
+  "oktamov davronjon|PhD": "2026-11-10",
+  "ktamov davronjon|PhD": "2026-11-10",
+  "nazarova nigina|DSc": "2026-11-10",
+  "sohibov dilshod|PhD": "2026-11-10",
+  "sohibov dil|PhD": "2026-11-10",
+  "solijonov muhammadjon|DSc": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-10T06:10:31.797913+00:00",
+ "last_deep": "2026-11-10T07:10:32.777625+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T05:45:50.967707+00:00",
-   "url": "https://uza.uz/oz/posts/saydalieva-nodira-maxamatovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935126",
-   "title": "Saydaliyeva Nodira Maxamatovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T06:55:45.590781+00:00",
-   "url": "https://uza.uz/oz/posts/dadadzhanova-feruza-maxamadyusupovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_935195",
-   "title": "Dadadjanova Feruza Maxamadyusupovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T07:01:07.536851+00:00",
-   "url": "https://uza.uz/oz/posts/jonqobilov-jaxongirbek-normumin-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935202",
-   "title": "Jonqobilov Jaxongirbek Normumin o‘g‘lining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T07:01:15.091479+00:00",
-   "url": "https://uza.uz/oz/posts/nazarova-shahnoza-shokirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935204",
-   "title": "Nazarova Shahnoza Shokirovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T07:01:22.745801+00:00",
-   "url": "https://uza.uz/oz/posts/nazarova-shahnoza-shokirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935205",
-   "title": "Nazarova Şahnoza Şokirovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-10T07:05:48.846028+00:00",
-   "url": "https://uza.uz/oz/posts/mirzaeva-barno-mirkamol-qizining-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935208",
-   "title": "Mirzayeva Barno Mirkamol qizining tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-10T07:05:57.352675+00:00",
    "url": "https://uza.uz/oz/posts/sharipova-nodira-ilhom-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935211",
@@ -7697,20 +7673,50 @@
    "t": "2026-11-10T07:06:19.115490+00:00",
    "url": "https://uza.uz/oz/posts/adasheva-matluba-fazliddin-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935217",
    "title": "Adaşeva Matluba Fazliddin qizining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-10T07:14:20.138631+00:00",
+   "url": "https://uza.uz/oz/posts/oktamov-davronzhon-odilzhon-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935221",
+   "title": "O‘ktamov Davronjon Odiljon o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:14:27.952358+00:00",
+   "url": "https://uza.uz/oz/posts/oktamov-davronjon-odiljon-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935222",
+   "title": "Öktamov Davronjon Odiljon öğlining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-10T07:14:36.306249+00:00",
+   "url": "https://uza.uz/oz/posts/nazarova-nigina-otabek-qizining-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935223",
+   "title": "Nazarova Nigina Otabek qizining tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:14:44.316954+00:00",
+   "url": "https://uza.uz/oz/posts/sohibov-dilshod-beknazarovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935227",
+   "title": "Sohibov Dilshod Beknazarovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:14:51.684112+00:00",
+   "url": "https://uza.uz/oz/posts/sohibov-dilshod-beknazarovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935228",
+   "title": "Sohibov Dilşod Beknazaroviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-10T07:14:59.302471+00:00",
+   "url": "https://uza.uz/oz/posts/solizhonov-muxammadzhon-zokirzhon-oglining-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935229",
+   "title": "Solijonov Muxammadjon Zokirjon o‘g‘lining filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 8,
   "found_oak": 0,
-  "posted": 5,
-  "dups": 1,
+  "posted": 6,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T07:06:23.131232+00:00",
+ "last_run": "2026-11-10T07:15:03.333196+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24428,6 +24434,42 @@
    "m": 7953,
    "p": 1,
    "f": 7954,
+   "d": "2026-11-10"
+  },
+  "u935221": {
+   "m": 7955,
+   "p": 1,
+   "f": 7956,
+   "d": "2026-11-10"
+  },
+  "u935222": {
+   "m": 7957,
+   "p": 1,
+   "f": 7958,
+   "d": "2026-11-10"
+  },
+  "u935223": {
+   "m": 7959,
+   "p": 1,
+   "f": 7960,
+   "d": "2026-11-10"
+  },
+  "u935227": {
+   "m": 7961,
+   "p": 1,
+   "f": 7962,
+   "d": "2026-11-10"
+  },
+  "u935228": {
+   "m": 7963,
+   "p": 1,
+   "f": 7964,
+   "d": "2026-11-10"
+  },
+  "u935229": {
+   "m": 7965,
+   "p": 1,
+   "f": 7966,
    "d": "2026-11-10"
   }
  }
