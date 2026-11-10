@@ -2804,10 +2804,6 @@
   }
  },
  "seen_uza": [
-  919148,
-  919150,
-  919151,
-  919152,
   919153,
   919157,
   919158,
@@ -5803,7 +5799,11 @@
   935195,
   935196,
   935197,
-  935198
+  935198,
+  935202,
+  935203,
+  935204,
+  935205
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7634,27 +7634,15 @@
   "janibekov janabay|DSc": "2026-11-10",
   "diniqulov davlat|PhD": "2026-11-10",
   "saydalieva nodira|DSc": "2026-11-10",
-  "dadadjanova feruza|PhD": "2026-11-10"
+  "dadadjanova feruza|PhD": "2026-11-10",
+  "jonqobilov jahongirbek|PhD": "2026-11-10",
+  "nazarova shahnoza|PhD": "2026-11-10",
+  "nazarova ahnoza|PhD": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-10T06:10:31.797913+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T05:11:27.185857+00:00",
-   "url": "https://uza.uz/oz/posts/tursunboeva-shohzoda-kenzhaboy-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935090",
-   "title": "Tursunboyeva Shohzoda Kenjaboy qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T05:11:35.789567+00:00",
-   "url": "https://uza.uz/oz/posts/tursunboyeva-shohzoda-kenjaboy-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935091",
-   "title": "Tursunboyeva Şohzoda Kenjaboy qizining filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-10T05:18:56.902615+00:00",
-   "url": "https://uza.uz/oz/posts/namazova-nilufar-kambarkulovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935094",
-   "title": "Namazova Nilufar Kambarkulovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-10T05:19:04.387759+00:00",
    "url": "https://uza.uz/oz/posts/yuldashov-ilxomzhon-shavkat-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935099",
@@ -7689,6 +7677,21 @@
    "t": "2026-11-10T06:55:45.590781+00:00",
    "url": "https://uza.uz/oz/posts/dadadzhanova-feruza-maxamadyusupovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_935195",
    "title": "Dadadjanova Feruza Maxamadyusupovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:01:07.536851+00:00",
+   "url": "https://uza.uz/oz/posts/jonqobilov-jaxongirbek-normumin-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935202",
+   "title": "Jonqobilov Jaxongirbek Normumin o‘g‘lining tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:01:15.091479+00:00",
+   "url": "https://uza.uz/oz/posts/nazarova-shahnoza-shokirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935204",
+   "title": "Nazarova Shahnoza Shokirovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:01:22.745801+00:00",
+   "url": "https://uza.uz/oz/posts/nazarova-shahnoza-shokirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935205",
+   "title": "Nazarova Şahnoza Şokirovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
@@ -7696,13 +7699,13 @@
  "counts": {
   "found": 4,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 3,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T06:55:49.628503+00:00",
+ "last_run": "2026-11-10T07:01:26.754452+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24372,6 +24375,24 @@
    "m": 7937,
    "p": 1,
    "f": 7938,
+   "d": "2026-11-10"
+  },
+  "u935202": {
+   "m": 7939,
+   "p": 1,
+   "f": 7940,
+   "d": "2026-11-10"
+  },
+  "u935204": {
+   "m": 7941,
+   "p": 1,
+   "f": 7942,
+   "d": "2026-11-10"
+  },
+  "u935205": {
+   "m": 7943,
+   "p": 1,
+   "f": 7944,
    "d": "2026-11-10"
   }
  }
