@@ -1564,13 +1564,37 @@ def today_uz() -> date:
 
 
 STATE: dict = {}
+# Shaxsiy ma'lumotlar (mijozlar ismi, kontakti, chat raqami) — state.json da faqat SHIFRLANGAN holda turadi.
+# Kalit: GitHub → Settings → Secrets → DATA_KEY (istalgan uzun maxfiy so'z)
+DATA_KEY = os.environ.get("DATA_KEY", "")
+PRIV: dict = {"watch": [], "users": {}}
+_priv_locked = False                    # shifrni ochib bo'lmasa — eski ma'lumotni buzmaslik uchun
+
+
+def _fernet():
+    import base64
+    import hashlib
+    from cryptography.fernet import Fernet
+    return Fernet(base64.urlsafe_b64encode(hashlib.sha256(DATA_KEY.encode()).digest()))
 
 
 def load_state() -> bool:
     """state.json ni o'qiydi. Fayl bo'lmasa False qaytaradi."""
-    global STATE
+    global STATE, PRIV, _priv_locked
     if STATE_FILE.exists():
         STATE = json.loads(STATE_FILE.read_text(encoding="utf-8"))
+        if STATE.get("vault"):
+            if not DATA_KEY:
+                _priv_locked = True
+                log.warning("DATA_KEY yo'q — mijozlar ro'yxati ochilmadi")
+            else:
+                try:
+                    PRIV = json.loads(_fernet().decrypt(STATE["vault"].encode()).decode())
+                except Exception as e:  # noqa: BLE001
+                    _priv_locked = True
+                    log.error("Mijozlar ro'yxatini ochib bo'lmadi (DATA_KEY o'zgarganmi?): %s", e)
+        PRIV.setdefault("watch", [])
+        PRIV.setdefault("users", {})
         return True
     STATE = {"seen": []}
     return False
@@ -1585,6 +1609,11 @@ def save_state(seen) -> None:
     limit = (today_uz() - timedelta(days=PEOPLE_KEEP_DAYS)).isoformat()
     STATE["people"] = {k: v for k, v in STATE.get("people", {}).items() if v.get("d", "9999") >= limit}
     STATE["uza_keys"] = {k: d for k, d in STATE.get("uza_keys", {}).items() if d >= limit}
+    if DATA_KEY and not _priv_locked:
+        users = PRIV.get("users", {})
+        if len(users) > 5000:
+            PRIV["users"] = dict(list(users.items())[-5000:])
+        STATE["vault"] = _fernet().encrypt(json.dumps(PRIV, ensure_ascii=False).encode()).decode()
     STATE_FILE.write_text(json.dumps(STATE, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
@@ -1717,14 +1746,19 @@ ADMIN_HELP = (
     "/yubor 32715,u920572 — bir nechtasini birga\n"
     "/tekshir (🔄 Tekshir) — ikkala saytni to‘liq tekshirib, kanalda chiqmagan barcha e’lonlarni chiqarish\n"
     "/holat — bot holati va oxirgi postlar\n\n"
+    "👥 <b>Mijozlarni kuzatish:</b>\n"
+    "/kuzat Familiya Ism Otasining_ismi @username — e’loni chiqqanda mijozga xabar beriladi\n"
+    "/ruyxat — kuzatuvdagi mijozlar\n"
+    "/ochir 3 — №3 ni ro‘yxatdan o‘chirish\n\n"
     "⏱ Buyruqlar botning navbatdagi ishga tushishida bajariladi (odatda 15 daqiqa ichida). "
     "Shoshilinch bo‘lsa — GitHub’da <b>Run workflow</b> ni bosing."
 )
 
 
-ADMIN_KEYBOARD = json.dumps({"keyboard": [[{"text": "🔄 Tekshir"}, {"text": "📊 Holat"}]],
+ADMIN_KEYBOARD = json.dumps({"keyboard": [[{"text": "🔄 Tekshir"}, {"text": "📊 Holat"}],
+                                          [{"text": "👥 Ro‘yxat"}]],
                              "resize_keyboard": True, "is_persistent": True})
-BUTTONS = {"🔄 tekshir": "/tekshir", "📊 holat": "/holat"}
+BUTTONS = {"🔄 tekshir": "/tekshir", "📊 holat": "/holat", "👥 ro‘yxat": "/ruyxat"}
 
 
 def tg_reply(chat_id, text: str) -> None:
@@ -1736,7 +1770,8 @@ def tg_reply(chat_id, text: str) -> None:
 
 
 def read_admin_commands() -> list[dict]:
-    """Botga yozilgan yangi xabarlarni o'qiydi. Natija: [{"chat": id, "cmd": "/yubor", "arg": "..."}]."""
+    """Botga yozilgan yangi xabarlarni o'qiydi. Adminlarning buyruqlarini qaytaradi; mijozlar havolasini
+    (Start) va adminning kuzatuvga qo'shish suhbatini shu yerning o'zida bajaradi."""
     if not BOT_TOKEN:
         return []
     try:
@@ -1750,33 +1785,211 @@ def read_admin_commands() -> list[dict]:
             log.warning("Buyruqlarni o'qib bo'lmadi: %s", e)
         return []
     cmds, told = [], set()
+    pending = PRIV.setdefault("pending", {})                 # admin → "Familiya Ism" (kontakt kutilmoqda) — shifrlangan
     for upd in updates or []:
         STATE["tg_offset"] = upd["update_id"] + 1
         msg = upd.get("message") or {}
-        text = (msg.get("text") or "").strip()
         chat = msg.get("chat") or {}
         if chat.get("type") != "private":
             continue
-        text = BUTTONS.get(text.lower(), text)          # tugma bosilgan bo'lsa — buyruqqa aylantiramiz
+        user = msg.get("from") or {}
+        uid = str(user.get("id", ""))
+        if user.get("username"):                              # @username → chat (mijozni topish uchun)
+            PRIV["users"][user["username"].lower()] = chat["id"]
+        text = BUTTONS.get((msg.get("text") or "").strip().lower(), (msg.get("text") or "").strip())
+
+        # Mijoz shaxsiy havolani bosdi
+        if text.startswith("/start ") and handle_start_payload(chat["id"], text.split(maxsplit=1)[1]):
+            continue
+
+        if uid not in ADMIN_IDS:
+            if text.startswith("/start"):
+                tg_reply(chat["id"], "👋 Assalomu alaykum! Bu — <b>Tezkor OAK e’lonlar</b> kanalining boti.\n"
+                                     f"Himoya e’lonlari: {html.escape(CHANNEL_SIGNATURE or '')}")
+            elif uid not in told and text.startswith("/"):
+                tg_reply(chat["id"], "⛔️ Bu buyruqlar faqat kanal admini uchun.")
+            told.add(uid)
+            continue
+
+        # Admin: kuzatuvga qo'shishning 2-qadami — kontakt (kartochka, @username yoki telefon)
+        if uid in pending and not text.startswith("/"):
+            contact = ""
+            if msg.get("contact"):
+                c = msg["contact"]
+                contact = "+" + c.get("phone_number", "").lstrip("+")
+                if c.get("user_id"):
+                    contact += f" (id {c['user_id']})"
+            elif re.match(r"^@\w{4,}$|^\+?\d[\d\s-]{7,}$", text):
+                contact = text
+            if contact:
+                watch_add(chat["id"], pending.pop(uid), contact)
+            else:
+                tg_reply(chat["id"], "Kontaktni yuboring: <code>@username</code>, telefon raqam yoki kontakt kartochkasi.")
+            continue
         if not text.startswith("/"):
             continue
-        uid = str((msg.get("from") or {}).get("id", ""))
-        if uid not in ADMIN_IDS:
-            if uid not in told:
-                tg_reply(chat["id"], "⛔️ Bu bot faqat kanal admini uchun.\n\nSizning Telegram ID: <code>"
-                         + uid + "</code>\nAdmin bo‘lsangiz, shu raqamni GitHub’dagi <b>ADMIN_IDS</b> "
-                         "o‘zgaruvchisiga yozing.")
-                told.add(uid)
-            continue
         parts = text.split(maxsplit=1)
-        cmds.append({"chat": chat["id"], "cmd": parts[0].lower().split("@")[0],
-                     "arg": parts[1] if len(parts) > 1 else ""})
+        cmd, arg = parts[0].lower().split("@")[0], (parts[1] if len(parts) > 1 else "")
+        if cmd == "/kuzat":
+            m = re.search(r"(@\w{4,}|\+?\d[\d\s-]{7,})\s*$", arg)
+            if m:
+                watch_add(chat["id"], arg[:m.start()].strip(), m.group(1).strip())
+            elif arg.strip():
+                pending[uid] = arg.strip()
+                tg_reply(chat["id"], f"👤 <b>{html.escape(arg.strip())}</b>\n\nEndi uning Telegram kontaktini yuboring: "
+                                     "<code>@username</code>, telefon raqam yoki kontakt kartochkasi.")
+            else:
+                tg_reply(chat["id"], "Familiya, ism va otasining ismini yozing:\n"
+                                     "<code>/kuzat Rasulova Ra’no Abdullayevna @username</code>")
+            continue
+        if cmd in ("/ruyxat", "/royxat"):
+            tg_reply(chat["id"], watch_list_text())
+            continue
+        if cmd == "/ochir":
+            n = re.findall(r"\d+", arg)
+            before = len(PRIV["watch"])
+            PRIV["watch"] = [w for w in PRIV["watch"] if str(w["id"]) not in n]
+            tg_reply(chat["id"], f"🗑 O‘chirildi: {before - len(PRIV['watch'])} ta.\n\n" + watch_list_text())
+            continue
+        cmds.append({"chat": chat["id"], "cmd": cmd, "arg": arg})
     if updates:                                   # o'qilganini Telegram'ga tasdiqlaymiz
         try:
             _tg("getUpdates", {"offset": STATE["tg_offset"], "timeout": 0, "limit": 1})
         except RuntimeError:
             pass
     return cmds
+
+
+# ======================= Mijozlarni kuzatish (familiya → kontakt) =======================
+# Admin: /kuzat Familiya Ism Otasining_ismi @username   → bot mijoz uchun shaxsiy havola beradi.
+# Mijoz havolani bosib Start qiladi → e'loni saytga joylanganda bot unga e'lon va ma'lumotnomani yuboradi.
+
+BOT_USERNAME = ""
+
+
+def name_tokens(name: str) -> list[str]:
+    t = to_latin(name or "").lower()
+    t = re.sub(r"[‘’'ʻ`ʼ]", "", t)
+    t = re.sub(r"\b(qizi|qizining|ogli|oglining|ning|uli|kizi)\b", " ", t)
+    t = t.replace("x", "h").replace("ye", "e").replace("ts", "s").replace("yo", "e").replace("yu", "u")
+    toks = re.findall(r"[a-z]+", t)
+    return [re.sub(r"ning$", "", w) for w in toks]
+
+
+def names_match(watch_name: str, item_name: str) -> bool:
+    a, b = name_tokens(watch_name), name_tokens(item_name)
+    if len(a) < 2 or len(b) < 2 or a[0] != b[0] or a[1] != b[1]:
+        return False
+    if len(a) >= 3 and len(b) >= 3:            # otasining ismi ikkalasida bo'lsa — u ham mos kelsin
+        return a[2][:5] == b[2][:5]
+    return True
+
+
+def watch_link(w: dict) -> str:
+    return f"https://t.me/{BOT_USERNAME}?start=w{w['code']}" if BOT_USERNAME else f"/start w{w['code']}"
+
+
+def resolve_contact(w: dict) -> None:
+    """@username orqali kontaktni chat raqamiga bog'lash (agar u botni oldin ishga tushirgan bo'lsa)."""
+    if not w.get("chat") and w.get("contact", "").startswith("@"):
+        cid = PRIV["users"].get(w["contact"][1:].lower())
+        if cid:
+            w["chat"] = cid
+
+
+def deliver(w: dict, ev: dict) -> bool:
+    """Mijozga xabar: tabrik + kanaldagi e'lon + ma'lumotnoma (forward)."""
+    if not w.get("chat"):
+        return False
+    try:
+        tg_reply(w["chat"], f"🎉 <b>E’loningiz chop etildi!</b>\n\n"
+                            f"👤 {html.escape(w['name'])}\n🌐 Manba: <b>{ev['src']}</b>\n"
+                            f"📅 Sana: {ev.get('date', '')}\n🔗 {ev['url']}\n\n"
+                            f"Kanal: {html.escape(CHANNEL_SIGNATURE or '')}")
+        for mid in (ev.get("msg"), ev.get("pdf")):
+            if mid:
+                _tg("forwardMessage", {"chat_id": w["chat"], "from_chat_id": CHANNEL_ID, "message_id": mid})
+        return True
+    except RuntimeError as e:
+        log.warning("Mijozga yuborilmadi (%s): %s", w["name"], e)
+        return False
+
+
+def notify_watchers(item: dict, res: dict) -> None:
+    """Yangi e'lon kuzatuvdagi familiyaga mos kelsa — mijozga va adminga xabar beramiz."""
+    if not PRIV.get("watch"):
+        return
+    item_name = get_info(item).get("name", "")
+    if not item_name:
+        return
+    src = "UzA" if item.get("source") == "uza" else "OAK"
+    for w in PRIV["watch"]:
+        if src in w.get("done", []) or not names_match(w["name"], item_name):
+            continue
+        ev = {"src": src, "url": item["url"], "date": item.get("date", ""),
+              "msg": res.get("msg"), "pdf": res.get("pdf")}
+        resolve_contact(w)
+        w.setdefault("done", []).append(src)
+        if deliver(w, ev):
+            alert_admins(f"✅ <b>{html.escape(w['name'])}</b> — {src} e’loni chiqdi va "
+                         f"{html.escape(w.get('contact') or 'mijoz')}ga yuborildi.")
+        else:
+            w.setdefault("missed", []).append(ev)
+            alert_admins(f"📢 <b>{html.escape(w['name'])}</b> — {src} e’loni chiqdi, lekin mijoz botga hali "
+                         f"ulanmagan.\nUnga shu havolani yuboring — Start bosishi bilan e’lonni oladi:\n"
+                         f"{watch_link(w)}")
+
+
+def watch_add(chat_id, name: str, contact: str) -> None:
+    import secrets
+    if not DATA_KEY:
+        tg_reply(chat_id, "⚠️ Avval GitHub’da <b>DATA_KEY</b> secret’ini qo‘shing — mijozlar ma’lumoti "
+                          "shifrlangan holda saqlanishi uchun kerak.")
+        return
+    if len(name_tokens(name)) < 2:
+        tg_reply(chat_id, "Familiya va ismni to‘liq yozing, masalan:\n<code>Rasulova Ra’no Abdullayevna</code>")
+        return
+    w = {"id": max([x["id"] for x in PRIV["watch"]] + [0]) + 1, "name": name.strip(), "contact": contact.strip(),
+         "chat": 0, "code": secrets.token_hex(4), "done": [], "missed": [], "added": today_uz().isoformat()}
+    resolve_contact(w)
+    PRIV["watch"].append(w)
+    status = ("✅ Mijoz botga allaqachon ulangan — e’lon chiqishi bilan xabar oladi."
+              if w["chat"] else
+              "📨 Mijozga shu havolani yuboring. U <b>Start</b> ni bosishi bilan ulanadi:\n" + watch_link(w))
+    tg_reply(chat_id, f"👤 Kuzatuvga qo‘shildi (№{w['id']}):\n<b>{html.escape(w['name'])}</b>\n"
+                      f"📞 Kontakt: {html.escape(w['contact'] or '—')}\n\n{status}")
+
+
+def watch_list_text() -> str:
+    if not PRIV["watch"]:
+        return "👥 Kuzatuv ro‘yxati bo‘sh.\n\nQo‘shish: <code>/kuzat Familiya Ism Otasining_ismi @username</code>"
+    lines = ["👥 <b>Kuzatuvdagi mijozlar</b>", ""]
+    for w in PRIV["watch"]:
+        st = "✅ ulangan" if w.get("chat") else "⏳ Start bosmagan"
+        done = ", ".join(w.get("done", [])) or "—"
+        lines.append(f"№{w['id']}. <b>{html.escape(w['name'])}</b> — {html.escape(w.get('contact') or '—')}\n"
+                     f"     {st} | chiqqan e’lonlar: {done}")
+    lines += ["", "O‘chirish: <code>/ochir 3</code>"]
+    return "\n".join(lines)
+
+
+def handle_start_payload(chat_id, payload: str) -> bool:
+    """Mijoz shaxsiy havolani bosdi: /start w<kod> → kuzatuvga ulaymiz va kutib turgan e'lonlarni yuboramiz."""
+    if not payload.startswith("w"):
+        return False
+    w = next((x for x in PRIV["watch"] if x["code"] == payload[1:]), None)
+    if not w:
+        tg_reply(chat_id, "Havola eskirgan yoki noto‘g‘ri. Kanal admini bilan bog‘laning.")
+        return True
+    w["chat"] = chat_id
+    tg_reply(chat_id, f"✅ <b>{html.escape(w['name'])}</b>, siz ro‘yxatga olindingiz!\n\n"
+                      f"Dissertatsiya himoyangiz haqidagi e’lon OAK yoki UzA saytida chop etilishi bilan "
+                      f"shu yerga xabar yuboraman. 🎓")
+    for ev in w.get("missed", []):
+        deliver(w, ev)
+    w["missed"] = []
+    alert_admins(f"🔗 <b>{html.escape(w['name'])}</b> botga ulandi.")
+    return True
 
 
 def admin_status() -> str:
@@ -1866,7 +2079,9 @@ def run_once() -> None:
     # 0) Token tekshiruvi — ishlamasa, ishga tushirish QIZIL bo'lib tugaydi (yashirin qolmaydi)
     try:
         me = _tg("getMe", {})
-        log.info("Bot: @%s", me.get("username", "?"))
+        global BOT_USERNAME
+        BOT_USERNAME = me.get("username", "")
+        log.info("Bot: @%s", BOT_USERNAME or "?")
     except RuntimeError as e:
         log.error("❌ BOT_TOKEN ishlamayapti: %s", e)
         raise SystemExit("BOT_TOKEN noto'g'ri yoki bekor qilingan — GitHub Secrets'da yangilang")
@@ -1906,7 +2121,7 @@ def run_once() -> None:
             try:
                 it = find_uza(int(raw[1:]))
                 if it:
-                    publish(it, "UzA", silent=is_silent(it))
+                    notify_watchers(it, publish(it, "UzA", silent=is_silent(it)))
                     results[raw] = "✅ yuborildi"
                     note_post(it)
                     STATE.setdefault("seen_uza", []).append(it["id"])
@@ -1923,6 +2138,7 @@ def run_once() -> None:
             got = item_from_page(pid)
             if got:
                 res = publish(*got, silent=is_silent(got[0]))
+                notify_watchers(got[0], res)
                 results[raw] = "✅ yuborildi"
                 note_post(got[0])
                 key = person_key(get_info(got[0]))
@@ -2001,6 +2217,7 @@ def run_once() -> None:
                 res = publish(item, section, silent=is_silent(item))
                 note_post(item)
                 remember_post(item, res)
+                notify_watchers(item, res)
                 posted += 1
                 if ukey:
                     STATE.setdefault("uza_keys", {})[ukey] = today_uz().isoformat()
