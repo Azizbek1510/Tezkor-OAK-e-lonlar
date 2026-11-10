@@ -2911,7 +2911,14 @@
   35015,
   35016,
   35017,
-  35018
+  35018,
+  35019,
+  35020,
+  35021,
+  35022,
+  35023,
+  35024,
+  35025
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2926,8 +2933,6 @@
   }
  },
  "seen_uza": [
-  920022,
-  920045,
   920046,
   920139,
   920140,
@@ -5925,7 +5930,9 @@
   935576,
   935577,
   935578,
-  935579
+  935579,
+  935587,
+  935588
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7835,75 +7842,77 @@
   "otahonov ali|PhD": "2026-11-10",
   "hushvaqtov nodirbek|PhD": "2026-11-10",
   "hu vaqtov|PhD": "2026-11-10",
-  "ahmadjonova gulmira|PhD": "2026-11-10"
+  "ahmadjonova gulmira|PhD": "2026-11-10",
+  "ergasheva umrinisso|PhD": "2026-11-10",
+  "erga eva|PhD": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-10T13:10:31.858922+00:00",
+ "last_deep": "2026-11-10T14:10:32.387690+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T14:01:51.466446+00:00",
-   "url": "https://oak.uz/pages/35010",
-   "title": "Begmatova Lola Baxrom qizi falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T14:02:14.362930+00:00",
-   "url": "https://oak.uz/pages/35011",
-   "title": "Jumanova Guzal Alisherovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T14:02:22.095991+00:00",
-   "url": "https://oak.uz/pages/35012",
-   "title": "Kurbanova Nafosat Sadullaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T14:02:30.985451+00:00",
-   "url": "https://uza.uz/oz/posts/axmadzhonova-gulmira-habibulla-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935578",
-   "title": "Axmadjonova Gulmira Xabibulla qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T14:05:49.747298+00:00",
-   "url": "https://oak.uz/pages/35013",
-   "title": "Serimbetov Qarlibay Orazimbetovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T14:05:57.893894+00:00",
-   "url": "https://oak.uz/pages/35014",
-   "title": "Norqulov Zafar Chorshanbievichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T14:06:05.954296+00:00",
-   "url": "https://oak.uz/pages/35015",
-   "title": "Mahmudov Jamshid Farruxjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T14:06:14.227479+00:00",
-   "url": "https://oak.uz/pages/35016",
-   "title": "Tashmuxamedova Feruza Batirdjanovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T14:06:22.220019+00:00",
-   "url": "https://oak.uz/pages/35017",
-   "title": "Xakimova Durdona Alisherovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-10T14:06:30.556219+00:00",
    "url": "https://oak.uz/pages/35018",
    "title": "Kasimov Abdumavlon Nasirovich falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
+  },
+  {
+   "t": "2026-11-10T14:14:28.476589+00:00",
+   "url": "https://oak.uz/pages/35019",
+   "title": "Tursunboev Jahongir Shodiyor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T14:14:36.913323+00:00",
+   "url": "https://oak.uz/pages/35020",
+   "title": "Axmedova Shaxnozaxon Dilshodbek qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T14:14:45.430847+00:00",
+   "url": "https://oak.uz/pages/35021",
+   "title": "Aliev To‘lqin Turgunovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-11-10T14:14:53.644614+00:00",
+   "url": "https://oak.uz/pages/35022",
+   "title": "Shoyimov Sanjarbek Saidmurod o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-11-10T14:15:03.187620+00:00",
+   "url": "https://oak.uz/pages/35023",
+   "title": "Umarov Djamshed Sayitmuratovichning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T14:15:13.278713+00:00",
+   "url": "https://oak.uz/pages/35024",
+   "title": "Rasulov Meronshox Rahimjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T14:15:27.859011+00:00",
+   "url": "https://oak.uz/pages/35025",
+   "title": "Baytanov O‘ralboy Miraqul o‘g‘lining fanlari doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T14:15:36.796864+00:00",
+   "url": "https://uza.uz/oz/posts/ergasheva-umrinisso-komilovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935587",
+   "title": "Ergasheva Umrinisso Komilovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T14:15:46.261175+00:00",
+   "url": "https://uza.uz/oz/posts/ergasheva-umrinisso-komilovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935588",
+   "title": "Ergaşeva Umrinisso Komilovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
-  "found_oak": 6,
-  "posted": 6,
+  "found": 9,
+  "found_oak": 7,
+  "posted": 9,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T14:06:34.565985+00:00",
+ "last_run": "2026-11-10T14:15:50.275676+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -25779,6 +25788,60 @@
    "m": 8425,
    "p": 1,
    "f": 8426,
+   "d": "2026-11-10"
+  },
+  "35019": {
+   "m": 8427,
+   "p": 1,
+   "f": 8428,
+   "d": "2026-11-10"
+  },
+  "35020": {
+   "m": 8429,
+   "p": 1,
+   "f": 8430,
+   "d": "2026-11-10"
+  },
+  "35021": {
+   "m": 8431,
+   "p": 1,
+   "f": 8432,
+   "d": "2026-11-10"
+  },
+  "35022": {
+   "m": 8433,
+   "p": 1,
+   "f": 8434,
+   "d": "2026-11-10"
+  },
+  "35023": {
+   "m": 8435,
+   "p": 1,
+   "f": 8436,
+   "d": "2026-11-10"
+  },
+  "35024": {
+   "m": 8437,
+   "p": 0,
+   "f": 8438,
+   "d": "2026-11-10"
+  },
+  "35025": {
+   "m": 8439,
+   "p": 1,
+   "f": 8440,
+   "d": "2026-11-10"
+  },
+  "u935587": {
+   "m": 8441,
+   "p": 0,
+   "f": 8442,
+   "d": "2026-11-10"
+  },
+  "u935588": {
+   "m": 8443,
+   "p": 1,
+   "f": 8444,
    "d": "2026-11-10"
   }
  }
