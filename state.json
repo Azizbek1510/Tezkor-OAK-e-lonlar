@@ -2804,10 +2804,6 @@
   }
  },
  "seen_uza": [
-  919143,
-  919144,
-  919145,
-  919147,
   919148,
   919150,
   919151,
@@ -5803,7 +5799,11 @@
   935108,
   935109,
   935126,
-  935127
+  935127,
+  935195,
+  935196,
+  935197,
+  935198
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7633,17 +7633,13 @@
   "otamirzaev otabek|PhD": "2026-11-10",
   "janibekov janabay|DSc": "2026-11-10",
   "diniqulov davlat|PhD": "2026-11-10",
-  "saydalieva nodira|DSc": "2026-11-10"
+  "saydalieva nodira|DSc": "2026-11-10",
+  "dadadjanova feruza|PhD": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-10T06:10:31.797913+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T05:11:18.654416+00:00",
-   "url": "https://uza.uz/oz/posts/ellamonov-suxrobzhon-numon-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935085",
-   "title": "Ellamonov Suxrobjon Nu’mon o‘g‘lining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-10T05:11:27.185857+00:00",
    "url": "https://uza.uz/oz/posts/tursunboeva-shohzoda-kenzhaboy-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935090",
@@ -7688,20 +7684,25 @@
    "t": "2026-11-10T05:45:50.967707+00:00",
    "url": "https://uza.uz/oz/posts/saydalieva-nodira-maxamatovnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935126",
    "title": "Saydaliyeva Nodira Maxamatovnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T06:55:45.590781+00:00",
+   "url": "https://uza.uz/oz/posts/dadadzhanova-feruza-maxamadyusupovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-ishi-himoyasi-togrisida_935195",
+   "title": "Dadadjanova Feruza Maxamadyusupovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 1,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T06:50:52.147259+00:00",
+ "last_run": "2026-11-10T06:55:49.628503+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24365,6 +24366,12 @@
    "m": 7935,
    "p": 1,
    "f": 7936,
+   "d": "2026-11-10"
+  },
+  "u935195": {
+   "m": 7937,
+   "p": 1,
+   "f": 7938,
    "d": "2026-11-10"
   }
  }
