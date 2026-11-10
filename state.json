@@ -2804,12 +2804,6 @@
   }
  },
  "seen_uza": [
-  918775,
-  918782,
-  918783,
-  918862,
-  918863,
-  919073,
   919074,
   919079,
   919080,
@@ -5803,7 +5797,13 @@
   935035,
   935036,
   935037,
-  935038
+  935038,
+  935039,
+  935040,
+  935045,
+  935046,
+  935047,
+  935048
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7610,32 +7610,16 @@
   "temirbaev begisbay|PhD": "2026-11-10",
   "meylieva hilola|PhD": "2026-11-10",
   "ahmedov amed|PhD": "2026-11-10",
-  "karimova zuhra|PhD": "2026-11-10"
+  "karimova zuhra|PhD": "2026-11-10",
+  "ahmedova kamola|PhD": "2026-11-10",
+  "sayfullaev muzafar|PhD": "2026-11-10",
+  "sharofiddinov kamoliddin|PhD": "2026-11-10",
+  "arofiddinov kamoliddin|PhD": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-10T04:20:30.435885+00:00",
  "recent": [
-  {
-   "t": "2026-11-09T14:20:59.384384+00:00",
-   "url": "https://uza.uz/oz/posts/abdurazakov-aziz-abdukaxarovichning-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934941",
-   "title": "Abdurazakov Aziz Abdukaxarovichning biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T14:34:35.798574+00:00",
-   "url": "https://uza.uz/oz/posts/raxmatxozhaeva-dilrabo-shuxratxozha-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_934948",
-   "title": "Raxmatxo‘jayeva Dilrabo Shuxratxo‘ja qizining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-09T14:34:43.986006+00:00",
-   "url": "https://uza.uz/oz/posts/raxmatxojayeva-dilrabo-shuxratxoja-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_934949",
-   "title": "Raxmatxöjayeva Dilrabo Şuxratxöja qizining texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-10T04:31:03.781852+00:00",
-   "url": "https://uza.uz/oz/posts/qayumova-nigora-muxtor-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935025",
-   "title": "Qayumova Nigora Muxtor qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-10T04:35:45.556889+00:00",
    "url": "https://uza.uz/oz/posts/atabekova-saodat-baxtiyorovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935027",
@@ -7665,20 +7649,40 @@
    "t": "2026-11-10T04:41:17.188552+00:00",
    "url": "https://uza.uz/oz/posts/karimova-zuxra-ulugbekovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935037",
    "title": "Karimova Zuxra Ulugbekovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T04:45:59.047430+00:00",
+   "url": "https://uza.uz/oz/posts/axmedova-kamola-kudratovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935039",
+   "title": "Axmedova Kamola Kudratovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T04:46:07.178696+00:00",
+   "url": "https://uza.uz/oz/posts/sayfullaev-muzafar-alisherovichning-sanatshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935045",
+   "title": "Sayfullayev Muzafar Alisherovichning san’atshunoslik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T04:46:14.998603+00:00",
+   "url": "https://uza.uz/oz/posts/sharofiddinov-kamoliddinning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935047",
+   "title": "Sharofiddinov Kamoliddinning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T04:46:23.010741+00:00",
+   "url": "https://uza.uz/oz/posts/sharofiddinov-kamoliddinning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935048",
+   "title": "Şarofiddinov Kamoliddinning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 6,
   "found_oak": 0,
   "posted": 4,
-  "dups": 4,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T04:41:21.217552+00:00",
+ "last_run": "2026-11-10T04:46:27.023564+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24204,6 +24208,30 @@
    "m": 7889,
    "p": 1,
    "f": 7890,
+   "d": "2026-11-10"
+  },
+  "u935039": {
+   "m": 7891,
+   "p": 1,
+   "f": 7892,
+   "d": "2026-11-10"
+  },
+  "u935045": {
+   "m": 7893,
+   "p": 1,
+   "f": 7894,
+   "d": "2026-11-10"
+  },
+  "u935047": {
+   "m": 7895,
+   "p": 1,
+   "f": 7896,
+   "d": "2026-11-10"
+  },
+  "u935048": {
+   "m": 7897,
+   "p": 1,
+   "f": 7898,
    "d": "2026-11-10"
   }
  }
