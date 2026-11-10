@@ -2806,7 +2806,11 @@
   34910,
   34911,
   34912,
-  34913
+  34913,
+  34914,
+  34915,
+  34916,
+  34917
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -2821,10 +2825,6 @@
   }
  },
  "seen_uza": [
-  919458,
-  919468,
-  919469,
-  919575,
   919576,
   919577,
   919578,
@@ -5820,7 +5820,11 @@
   935447,
   935448,
   935449,
-  935450
+  935450,
+  935460,
+  935461,
+  935462,
+  935463
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7683,42 +7687,14 @@
   "fozilova ogiloy|PhD": "2026-11-10",
   "fozilova iloy|PhD": "2026-11-10",
   "allamurodova feruza|PhD": "2026-11-10",
-  "botirova adiba|DSc": "2026-11-10"
+  "botirova adiba|DSc": "2026-11-10",
+  "sultonova dilnoza|DSc": "2026-11-10",
+  "nuriddinov jamoliddin|PhD": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
- "last_deep": "2026-11-10T11:10:34.680762+00:00",
+ "last_deep": "2026-11-10T12:10:33.392153+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T12:01:34.470193+00:00",
-   "url": "https://oak.uz/pages/34909",
-   "title": "Fayzullaev Nurulla Baxromovichning fan doktori (DSc) dissertatsiyasi himoyasi haqidagi e’lon"
-  },
-  {
-   "t": "2026-11-10T12:01:41.881778+00:00",
-   "url": "https://oak.uz/pages/34910",
-   "title": "Azamov Baxodirjon Baxromjonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T12:01:49.424965+00:00",
-   "url": "https://oak.uz/pages/34911",
-   "title": "Nafasov Jasurbek Himmat o‘g‘lining fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-10T12:02:11.764869+00:00",
-   "url": "https://uza.uz/oz/posts/boymuratov-farrux-hamzaevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935438",
-   "title": "Boymuratov Farrux Xamzayevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T12:02:19.119238+00:00",
-   "url": "https://uza.uz/oz/posts/fozilova-ogiloy-fayoz-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935442",
-   "title": "Fozilova O‘g‘iloy Fayoz qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T12:02:26.322619+00:00",
-   "url": "https://uza.uz/oz/posts/fozilova-ogiloy-fayoz-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935443",
-   "title": "Fozilova Öğiloy Fayoz qizining filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-10T12:02:34.643324+00:00",
    "url": "https://uza.uz/oz/posts/allamurodova-feruza-yoqubovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935447",
@@ -7738,20 +7714,50 @@
    "t": "2026-11-10T12:05:59.890738+00:00",
    "url": "https://oak.uz/pages/34913",
    "title": "Ligay Elena Valer`evnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
+  },
+  {
+   "t": "2026-11-10T12:14:05.483781+00:00",
+   "url": "https://oak.uz/pages/34914",
+   "title": "Axmadalieva Dildora Raxitdinovnaning falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T12:14:13.236442+00:00",
+   "url": "https://oak.uz/pages/34915",
+   "title": "Baxodirova Nigoraxon Shavkatxon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T12:14:21.369198+00:00",
+   "url": "https://oak.uz/pages/34916",
+   "title": "Abduganieva Djamilya Rustamovnaning fan doktori (DSc) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T12:14:29.251156+00:00",
+   "url": "https://oak.uz/pages/34917",
+   "title": "Satibaldiev Erkinjon Kamilovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-10T12:14:37.589797+00:00",
+   "url": "https://uza.uz/oz/posts/sultonova-dilnoza-sohibzhonovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935460",
+   "title": "Sultonova Dilnoza Sohibjonovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T12:14:45.503074+00:00",
+   "url": "https://uza.uz/oz/posts/nuriddinov-jamoliddin-fazliddin-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935462",
+   "title": "Nuriddinov Jamoliddin Fazliddin o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
-  "found_oak": 2,
-  "posted": 2,
-  "dups": 1,
+  "found": 8,
+  "found_oak": 4,
+  "posted": 6,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T12:06:03.920322+00:00",
+ "last_run": "2026-11-10T12:14:49.526647+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24715,6 +24721,42 @@
    "m": 8035,
    "p": 1,
    "f": 8036,
+   "d": "2026-11-10"
+  },
+  "34914": {
+   "m": 8037,
+   "p": 1,
+   "f": 8038,
+   "d": "2026-11-10"
+  },
+  "34915": {
+   "m": 8039,
+   "p": 1,
+   "f": 8040,
+   "d": "2026-11-10"
+  },
+  "34916": {
+   "m": 8041,
+   "p": 1,
+   "f": 8042,
+   "d": "2026-11-10"
+  },
+  "34917": {
+   "m": 8043,
+   "p": 1,
+   "f": 8044,
+   "d": "2026-11-10"
+  },
+  "u935460": {
+   "m": 8045,
+   "p": 1,
+   "f": 8046,
+   "d": "2026-11-10"
+  },
+  "u935462": {
+   "m": 8047,
+   "p": 1,
+   "f": 8048,
    "d": "2026-11-10"
   }
  }
