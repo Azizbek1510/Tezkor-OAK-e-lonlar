@@ -2804,10 +2804,6 @@
   }
  },
  "seen_uza": [
-  919207,
-  919210,
-  919211,
-  919212,
   919213,
   919220,
   919221,
@@ -5803,7 +5799,11 @@
   935227,
   935228,
   935229,
-  935230
+  935230,
+  935231,
+  935232,
+  935236,
+  935237
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7648,22 +7648,14 @@
   "nazarova nigina|DSc": "2026-11-10",
   "sohibov dilshod|PhD": "2026-11-10",
   "sohibov dil|PhD": "2026-11-10",
-  "solijonov muhammadjon|DSc": "2026-11-10"
+  "solijonov muhammadjon|DSc": "2026-11-10",
+  "hasanov elyorjon|DSc": "2026-11-10",
+  "ismailova barno|PhD": "2026-11-10"
  },
  "uza_keys_built": true,
  "tg_offset": 362609538,
  "last_deep": "2026-11-10T07:10:32.777625+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T07:05:57.352675+00:00",
-   "url": "https://uza.uz/oz/posts/sharipova-nodira-ilhom-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935211",
-   "title": "Sharipova Nodira Ilhom qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-10T07:06:04.362358+00:00",
-   "url": "https://uza.uz/oz/posts/sharipova-nodira-ilhom-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935212",
-   "title": "Şaripova Nodira Ilhom qizining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-10T07:06:12.021349+00:00",
    "url": "https://uza.uz/oz/posts/adasheva-matluba-fazliddin-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935216",
@@ -7703,20 +7695,30 @@
    "t": "2026-11-10T07:14:59.302471+00:00",
    "url": "https://uza.uz/oz/posts/solizhonov-muxammadzhon-zokirzhon-oglining-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_935229",
    "title": "Solijonov Muxammadjon Zokirjon o‘g‘lining filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:15:54.202678+00:00",
+   "url": "https://uza.uz/oz/posts/hasanov-elyorzhon-odilzhonovichning-filologiya-fanlari-doktori-dsc-dissertaciyasi-himoyasi-togrisida_935231",
+   "title": "Xasanov Elyorjon Odiljonovichning filologiya fanlari doktori (DSc) dissertatsiyasi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-10T07:16:01.573425+00:00",
+   "url": "https://uza.uz/oz/posts/ismailova-barno-yuldashbaevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935236",
+   "title": "Ismailova Barno Yuldashbayevnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 4,
   "found_oak": 0,
-  "posted": 6,
+  "posted": 2,
   "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-10T07:15:03.333196+00:00",
+ "last_run": "2026-11-10T07:16:05.596911+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -24470,6 +24472,18 @@
    "m": 7965,
    "p": 1,
    "f": 7966,
+   "d": "2026-11-10"
+  },
+  "u935231": {
+   "m": 7967,
+   "p": 1,
+   "f": 7968,
+   "d": "2026-11-10"
+  },
+  "u935236": {
+   "m": 7969,
+   "p": 1,
+   "f": 7970,
    "d": "2026-11-10"
   }
  }
