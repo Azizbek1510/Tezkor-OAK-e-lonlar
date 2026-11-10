@@ -38,6 +38,7 @@ jobs:
           FORCE_IDS: ${{ github.event.inputs.ids }}
           MAX_POSTS_PER_RUN: "100"
           ADMIN_IDS: ${{ vars.ADMIN_IDS }}
+          DATA_KEY: ${{ secrets.DATA_KEY }}
       - name: Holatni saqlash
         if: always()
         run: |
