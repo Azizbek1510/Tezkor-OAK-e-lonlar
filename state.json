@@ -2946,7 +2946,13 @@
   35050,
   35051,
   35052,
-  35053
+  35053,
+  35054,
+  35055,
+  35056,
+  35057,
+  35058,
+  35059
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -7932,38 +7938,8 @@
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
- "last_deep": "2026-11-11T09:40:33.053773+00:00",
+ "last_deep": "2026-11-11T10:40:29.779114+00:00",
  "recent": [
-  {
-   "t": "2026-11-11T07:01:43.809995+00:00",
-   "url": "https://oak.uz/pages/35044",
-   "title": "Musaeva Nargiza Baxtiyorovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-11T07:01:52.100634+00:00",
-   "url": "https://oak.uz/pages/35045",
-   "title": "Raxmatullaev Alisher Muxiddinovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-11T07:02:11.809345+00:00",
-   "url": "https://oak.uz/pages/35046",
-   "title": "Ten Yakov Volichevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-11T07:02:20.165456+00:00",
-   "url": "https://oak.uz/pages/35047",
-   "title": "Turkmanov Ma’mur Matmusaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-11T07:05:49.844851+00:00",
-   "url": "https://oak.uz/pages/35048",
-   "title": "Umurov Bobirjon Fayzillaevichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-11T07:05:58.250795+00:00",
-   "url": "https://oak.uz/pages/35049",
-   "title": "Hamroev Shavkat Maqsudovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-11T07:06:06.261611+00:00",
    "url": "https://oak.uz/pages/35050",
@@ -7983,59 +7959,53 @@
    "t": "2026-11-11T10:35:59.513218+00:00",
    "url": "https://oak.uz/pages/35053",
    "title": "Mardonaeva Dilsora Norxonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-11T10:44:09.883941+00:00",
+   "url": "https://oak.uz/pages/35054",
+   "title": "Narzullaeva Gulchehra Qudratovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-11T10:44:18.479099+00:00",
+   "url": "https://oak.uz/pages/35055",
+   "title": "Raxmatullina Nigina Shamilevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-11T10:44:25.860488+00:00",
+   "url": "https://oak.uz/pages/35056",
+   "title": "To‘eva Oydin Botiralievnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-11T10:44:33.252449+00:00",
+   "url": "https://oak.uz/pages/35057",
+   "title": "Yavkachev Davronbek Azatovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-11T10:44:40.653701+00:00",
+   "url": "https://oak.uz/pages/35058",
+   "title": "Jo‘raeva Muhabbat Amonovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon:"
+  },
+  {
+   "t": "2026-11-11T10:44:49.105883+00:00",
+   "url": "https://oak.uz/pages/35059",
+   "title": "Mirova Nargiza Sayfullaevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
-  "found_oak": 2,
-  "posted": 2,
+  "found": 6,
+  "found_oak": 6,
+  "posted": 6,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-11T10:36:03.523261+00:00",
+ "last_run": "2026-11-11T10:44:53.123836+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33393": {
-   "m": 2250,
-   "p": 1,
-   "f": 2251,
-   "d": "2026-10-19"
-  },
-  "33394": {
-   "m": 2252,
-   "p": 1,
-   "f": 2253,
-   "d": "2026-10-19"
-  },
-  "33395": {
-   "m": 2254,
-   "p": 1,
-   "f": 2255,
-   "d": "2026-10-19"
-  },
-  "33396": {
-   "m": 2256,
-   "p": 1,
-   "f": 2257,
-   "d": "2026-10-19"
-  },
-  "33397": {
-   "m": 2258,
-   "p": 1,
-   "f": 2259,
-   "d": "2026-10-19"
-  },
-  "33398": {
-   "m": 2260,
-   "p": 1,
-   "f": 2261,
-   "d": "2026-10-19"
-  },
   "33399": {
    "m": 2262,
    "p": 1,
@@ -25999,7 +25969,43 @@
    "p": 1,
    "f": 8647,
    "d": "2026-11-11"
+  },
+  "35054": {
+   "m": 8648,
+   "p": 1,
+   "f": 8649,
+   "d": "2026-11-11"
+  },
+  "35055": {
+   "m": 8650,
+   "p": 1,
+   "f": 8651,
+   "d": "2026-11-11"
+  },
+  "35056": {
+   "m": 8652,
+   "p": 1,
+   "f": 8653,
+   "d": "2026-11-11"
+  },
+  "35057": {
+   "m": 8654,
+   "p": 1,
+   "f": 8655,
+   "d": "2026-11-11"
+  },
+  "35058": {
+   "m": 8656,
+   "p": 1,
+   "f": 8657,
+   "d": "2026-11-11"
+  },
+  "35059": {
+   "m": 8658,
+   "p": 1,
+   "f": 8659,
+   "d": "2026-11-11"
   }
  },
- "vault": "gAAAAABq9EUT65zh8u0xaBRh8I-oMqcE2t63irAi0f8qcxwPitxxRwJFAUWs5vrLuYAjx13ZKBYh6JjsUB67_stRZHAzLS9u3ViiAjn9HsbUNd0p8GAWXGfVMn9TWdRJyH69GSFCAt4HLLndBlobHYe63MCuD7io1D96UOn9dATjEBEzlrhLcTMQ1VM_byxqb_Ve5YDZyY4A8QX2QKs8nV4C9_n1vOrYpJEegGVcPk1apC_RTYHPBQj8AaZKeCN5Whdcq3244SBzqRwrstZv0w5RrATUulFN4XF1d6IqlmwNQilt5f-_4Pt2UuLhx1a_rLPhvzdK71TwbTtTRW3QwdHK_lSkmr2xZLmEuQAsszZqCNXpiSjCzpZMzi2J8HhmFh_b5JFXObVLdQhqPM2mkKukogKFX42j5JAmEm2PIUBRIRmKvoQzoEoPmwBAH49kfGMEm7CTcugE-RsQyVTemTRaFqVGCW1QMcp09SUIO5ZrB7pimOSPukeCr8rPEp6F7Y37sll1GJ-DDuf3VvoP_YkB1mrQnfo-BK2AQ21PnKjmdfmge7pYbG7RaOUuDQmOFsoLy4OkJQMu_hpTGchkJHsd1yUD9_mMiK2LIxBbMLIG-qxUnIrQd2JvY3gia5hH8o9oh3qbUXKxT900JmwRKcrW1zK-oNUBzhCIhgfSdjB86DjCCqopNPo="
+ "vault": "gAAAAABq9EclS1XDgHc6-MdbrCmnsl4kMwQ_D0haycZq8pqvNmrgklZZDcv3VRf3uQ8TGklZF32UzGD0IJ2dS4oDfmS_dtvh2R38Rz3-I7pqxCBWFFHWcaVO-BrMl1nHUFRr4SPl8-ttgN5FkI8fg7WNP5I5IMpD7iUi-C_29j14cL5qCkYKJ3t3F7Zjx_6kVqX71_N5CbTpmjXHLhvM1TVu3TVlTi1u73YEsPgs94RUzmaDgv7MaSOQ_Ryf2vT4sBJ5xu5PUyy4iyeeN3waR71Kr_yKpgr8SX9WYbb_A7m4qa_xI0jX4nzdBvHnTlHK9SkZXWg8o_8kGQq_-IU7lzc3v-9J0uHE8mQyy4gfQmUvPaQp3kelUckGHqY9dQaOQoRNEvXsXYAJr03PsX0CfTxd8aRVJy_eScBJsXs8_5ddcWKghLOV3V8ewMsRYxA1M3MFchA174g6dpXSqIS4E3o89U8682xcI8J3GhAsMplK1tyPAI5iqpgHRsgjv22in9IviEVsyFVDuUZFu1bsnOtbA-3PLw4e7RvVRQtA4W_l3g_71jJD_hVBnKL3-RFq4vH4XUHsZBHuoJV2ZolAEfHHVw3Ek1y6esQjXa8nn_VO7B6mpuMNWjnDVlp5BtfsLvoE6abPiaO3QEyxVtE1vgLoax41DmujLwkUIKOf2INGBqihjZWz7zM="
 }
