@@ -3001,10 +3001,6 @@
   }
  },
  "seen_uza": [
-  921180,
-  921181,
-  921182,
-  921280,
   921281,
   921284,
   921285,
@@ -6000,7 +5996,11 @@
   936123,
   936124,
   936126,
-  936127
+  936127,
+  936131,
+  936132,
+  936137,
+  936138
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7988,27 +7988,15 @@
   "oev mardonjon|PhD": "2026-11-11",
   "boyqobilova mahliyo|PhD": "2026-11-11",
   "tillabaeva feruzahon|PhD": "2026-11-11",
-  "holiqova dilnoza|PhD": "2026-11-11"
+  "holiqova dilnoza|PhD": "2026-11-11",
+  "ayupova hilola|PhD": "2026-11-11",
+  "toraev javohir|PhD": "2026-11-11",
+  "t raev|PhD": "2026-11-11"
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
  "last_deep": "2026-11-11T11:40:32.463851+00:00",
  "recent": [
-  {
-   "t": "2026-11-11T11:53:04.664711+00:00",
-   "url": "https://uza.uz/oz/posts/karaketova-dilnoza-yuldashevnaning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_936095",
-   "title": "Karaketova Dilnoza Yuldashevnaning yuridik fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-11T11:55:50.798969+00:00",
-   "url": "https://oak.uz/pages/35082",
-   "title": "Muladjanova Gulchexraxon Abidjanovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-11T11:55:58.661747+00:00",
-   "url": "https://oak.uz/pages/35083",
-   "title": "Yuldasheva Feruza Erkinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-11T11:56:06.657501+00:00",
    "url": "https://oak.uz/pages/35084",
@@ -8043,6 +8031,21 @@
    "t": "2026-11-11T12:11:01.381492+00:00",
    "url": "https://uza.uz/oz/posts/holiqova-dilnoza-musurmon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936126",
    "title": "Xoliqova Dilnoza Musurmon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-11T12:16:02.620146+00:00",
+   "url": "https://uza.uz/oz/posts/ayupova-hilola-azamatovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936131",
+   "title": "Ayupova Xilola Azamatovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-11T12:16:12.492316+00:00",
+   "url": "https://uza.uz/oz/posts/toraev-javohir-usmon-oglining-yuridik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936137",
+   "title": "To‘rayev Javohir Usmon o‘g‘lining yuridik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-11T12:16:20.575196+00:00",
+   "url": "https://uza.uz/oz/posts/torayev-javohir-usmon-oglining-yuridik-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_936138",
+   "title": "Törayev Javohir Usmon öğlining yuridik fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
@@ -8050,34 +8053,16 @@
  "counts": {
   "found": 4,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-11T12:11:05.408841+00:00",
+ "last_run": "2026-11-11T12:16:24.593286+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u924947": {
-   "m": 2378,
-   "p": 1,
-   "f": 2379,
-   "d": "2026-10-20"
-  },
-  "33414": {
-   "m": 2380,
-   "p": 1,
-   "f": 2381,
-   "d": "2026-10-20"
-  },
-  "33415": {
-   "m": 2382,
-   "p": 1,
-   "f": 2383,
-   "d": "2026-10-20"
-  },
   "33416": {
    "m": 2384,
    "p": 1,
@@ -26059,7 +26044,25 @@
    "p": 1,
    "f": 8791,
    "d": "2026-11-11"
+  },
+  "u936131": {
+   "m": 8792,
+   "p": 1,
+   "f": 8793,
+   "d": "2026-11-11"
+  },
+  "u936137": {
+   "m": 8794,
+   "p": 1,
+   "f": 8795,
+   "d": "2026-11-11"
+  },
+  "u936138": {
+   "m": 8796,
+   "p": 1,
+   "f": 8797,
+   "d": "2026-11-11"
   }
  },
- "vault": "gAAAAABq9FtZYz1D1KCq4ZqrYcI4YF_wlFHQCYe-8TDxIMHjWJYipZEiG0fH9e77-wUmuIAAjgBB6_5IiopOCO05192xeEpO1BvSTgskj8qK_XGYyd65VCO0kq1WY7iQalSj5ENG4A9Vtvpc9BEEbx_-z3uIobtZHkA3VGmD8LFk4HmJlKLBFLwleYDAylPSI7wfyV4AleD1gy6tu8-caHdEMwB0KSaI9R8V3JLR3lkJhyalooC14jKTkHsuoGS6AHItj4gTHsxWQd-d3-STCZYUz1UwmLLNUzTxWYOSCTgtyg4mEyw0XWjNLNE0IDcQPtS4w4uK_hgW2CPeFmyDhvy1LJrYTNb8UqDje5MBDEFymQi4MLqw5rUwWaFdbAIqAWCJJpglDTYI0-ORloUiyF0Ou4iE9x0zC2FGsvfcvFdAAHm-R74f2Ux07DDushx1H97Yo9x2JIH2NGMAQ29XONGBq8kBREPUZMIivVzxNdQidW3cWN7immYSjsMPL2POXcYHL1RZVae32SC8_BxYKca4_3vST14aMUdTre8y-M_BVJCV91mXJov73IAuULTVMkBYyAp2YISJFFbcQi4s2O4rdlRyqoYCtN19X6dTDdws3wEFeVxUcETAOGHZXpAdfsQ4DyC7qgraJGex9vNwtkU6lt12Cw4Cp4OJsQ1EsxmnVHMD0yvT1XA="
+ "vault": "gAAAAABq9FyYsRAOSrWcr-UAQ2TU8M8D6w-NXyaz8ezNyIMTLEshL_SIG2cHDQTB_ULOOjger0YoOaw3H6MJsDUvAIy_h-hrDNwQsFwkshDIQUnhzoqnNSkfOO_ZRn_GZCaYDSXu8cokzyJsgPSSLdN7v3GhByArxEZesY28sDlK5i-NkGCQStDn1GtxME5pQ4pFhCOPJLqcvtUT675z9ZvVrrStYNbnrb9_zdW8DPU5spcHAuZYEiubsmg9zvFTUKiM8eYgCNq1dyqURUGcEdC1rzEeCwMtEmmltCM5CEOfC0nRq8LwpZAIwtXzWHNc_5SM4Atl1_0KpIkPmGVrwiMtiQrpEU8Y7Iztry3fR5XojzRCT-zYew54txkNezB3IxAzQ1L0D2z9TQT55R00UUKP1C6Gnir3Op1tjSwB3bl0z7IiRJ0oiK7XcBwNXln9eqDoEg8wV7CraZ-4PB0X5ilEQ9pGNAHdYONoSOrsKtLlcv3cM8C1MvBEmQ6_kFatX_0EHh6hiPg6-UaSnfcYKlZ60AKJpGM0r3YwhTUBuR1FQl4LDVrWMUw0NIPnNWLldBoW8FFXr9Mu-SozKp6jawwNayykWYlWx5HH1tD358nf-yHM7_MmXt2KOJP7mD5LF0BhBGcnpGIAI89UZH7hlz4rqzR3bbAjOxxBPea18w_gFrzfE6h28Wg="
 }
