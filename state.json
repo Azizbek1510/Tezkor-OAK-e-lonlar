@@ -2949,8 +2949,6 @@
   }
  },
  "seen_uza": [
-  920046,
-  920139,
   920140,
   920145,
   920146,
@@ -5948,7 +5946,9 @@
   935578,
   935579,
   935587,
-  935588
+  935588,
+  935692,
+  935693
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7860,17 +7860,13 @@
   "hu vaqtov|PhD": "2026-11-10",
   "ahmadjonova gulmira|PhD": "2026-11-10",
   "ergasheva umrinisso|PhD": "2026-11-10",
-  "erga eva|PhD": "2026-11-10"
+  "erga eva|PhD": "2026-11-10",
+  "sadikova muslima|PhD": "2026-11-11"
  },
  "uza_keys_built": true,
  "tg_offset": 362609553,
  "last_deep": "2026-11-11T01:50:37.030318+00:00",
  "recent": [
-  {
-   "t": "2026-11-10T14:15:46.261175+00:00",
-   "url": "https://uza.uz/oz/posts/ergasheva-umrinisso-komilovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_935588",
-   "title": "Ergaşeva Umrinisso Komilovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-10T14:21:13.441446+00:00",
    "url": "https://oak.uz/pages/35026",
@@ -7915,20 +7911,25 @@
    "t": "2026-11-10T15:32:11.819051+00:00",
    "url": "https://oak.uz/pages/34585",
    "title": "Abduvaxobov Shohruhbek Ikromjon o‘g‘lining falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida"
+  },
+  {
+   "t": "2026-11-11T02:45:53.858352+00:00",
+   "url": "https://uza.uz/oz/posts/sadikova-muslima-alisher-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_935692",
+   "title": "Sadikova Muslima Alisher qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 2,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-11T02:40:55.664512+00:00",
+ "last_run": "2026-11-11T02:45:57.958220+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -25907,7 +25908,13 @@
    "p": 1,
    "f": 8469,
    "d": "2026-11-10"
+  },
+  "u935692": {
+   "m": 8472,
+   "p": 1,
+   "f": 8473,
+   "d": "2026-11-11"
   }
  },
- "vault": "gAAAAABq89W3hUhZAn4jhbMHcpebpBom8OZqjvmLZQA9EfHbndbY9Tria671IJZOcWtn9QU5HGtgno2uh_3Y33ROuEz_-d_IIVkD1IQf-rVVO26AmZvjJzl-2mdx4RP9FNxh7IxbFSHtbz4RseaoWVjehXCatUiDpfdXGR7kajzJSGKeE3V7iF6i9nfEEMgDVgBjLqe_o3Jo_zOdj5O5W5zDazBsErKJ2bNRKrJ9G2quaaSxAUq6Gwt2gc3e6TojW76GvjwUTXqDi5lS9U4Tppt2ohvxyxCv37oRo0qVhr6BauNtGjsWWzNfLGGPsxzOSUExhvINmPV7I8eN7quVtvkhTauB1XR7r3utXqCbdpX0cyGvxoSUpej49CLSXWecYt6nYAKWalu93hZ79mfHAOrTsCIcqJR_Q6Qngo25cmPlxf5v8o6rwaFgxTWh7UOtWdxgGhGl1H5O71xCx90KpIQzGvt0yDgWsvcmJ9cOHej0nKfFXsK3V9eEos4XsG96YaOJT6oI_d8wFWQozhuD1A1LTlmTCBA1iXQdkeY5AeNCWYmaYLCbR1NSQMseyRq-qLaiHX8k8GwwFCz-BVao4QluH1HQHgM12YurEv58CSJykD5audacZMgNPtKYtiV-832JX9gubBeoqf1BkQp39NbpXxOQpfxiAQT6RU0yrrUuTE9EW5mFbSY="
+ "vault": "gAAAAABq89blIXjYk_6Wy5H9npHLI0ZI-Nkp6JgJETjZBeBdRW2vmMzOk6pHvOP0JhKP4gcL68dkH2LyL_NEZZTEdMRrGQ3rRPR70bRHlb9O2tj31yJRG_sdg1BYZLOXLA31NvNkyHfthNlqDaa5borqFTYhvDeqMjtriIGJCQhtUJH_7ffa3oCPS74oB9b_6GxXGelbgZlJvaS63ll_XnS-F4bLoNNp6uP84TdTFxy-KQaTzHOaShmBNMEHqiRwoI0_Gfhf6DHCBix7Izbn-ExV-TXttkLdZxUcAFXeVKMnDOfz1gWgztNQm6GvSFrYwKlSFp5zVLZzVyW2_SykXQF-lojZkOyH0fdmqG8JWTpVxUWhHcXClneQlknlHyyBYQc-FMkXkW7e7ObXu9V4IOVeciQZ-H5MjgAp_Lg-SFgOO3ZYm_wPuPhZssl0nVJxOq_DzyJlw2AGtJB0kvtXL7K8akCvQCWGlDM25sWNhC2e-EFrNH0R71xguiYXQrMm8Uk7LZOlqAnlNG4mrjKRYq2xqrz0loO84tEARL15E4F3f-7tjMBO47HCI7nfOvPfXkxx_60d4WpFCOmuDPmpgZDLFl0r1W2y9Vk9GaKawbCo5b0NICssGgDxZ5xs33T-KOuwv_6UTKaxzW-tt2VFZVKO5gJUE-TAX2n1xGtHFUcjU1L0FSCgMek="
 }
