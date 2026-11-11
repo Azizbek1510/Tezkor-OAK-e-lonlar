@@ -3001,10 +3001,6 @@
   }
  },
  "seen_uza": [
-  921176,
-  921177,
-  921178,
-  921179,
   921180,
   921181,
   921182,
@@ -6000,7 +5996,11 @@
   936112,
   936113,
   936117,
-  936118
+  936118,
+  936123,
+  936124,
+  936126,
+  936127
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -7986,22 +7986,14 @@
   "karaketova dilnoza|DSc": "2026-11-11",
   "shoev mardonjon|PhD": "2026-11-11",
   "oev mardonjon|PhD": "2026-11-11",
-  "boyqobilova mahliyo|PhD": "2026-11-11"
+  "boyqobilova mahliyo|PhD": "2026-11-11",
+  "tillabaeva feruzahon|PhD": "2026-11-11",
+  "holiqova dilnoza|PhD": "2026-11-11"
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
  "last_deep": "2026-11-11T11:40:32.463851+00:00",
  "recent": [
-  {
-   "t": "2026-11-11T11:52:49.773073+00:00",
-   "url": "https://uza.uz/oz/posts/mirzaeva-lobar-elmurotovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936090",
-   "title": "Mirzayeva Lobar Elmurotovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-11T11:52:57.263764+00:00",
-   "url": "https://uza.uz/oz/posts/huzhakulov-axtam-pardaboevichning-kimyo-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_936093",
-   "title": "Xujakulov Axtam Pardaboyevichning kimyo fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-11T11:53:04.664711+00:00",
    "url": "https://uza.uz/oz/posts/karaketova-dilnoza-yuldashevnaning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_936095",
@@ -8041,35 +8033,33 @@
    "t": "2026-11-11T12:05:58.790882+00:00",
    "url": "https://uza.uz/oz/posts/boyqobilova-maxliyo-maxmudovnaning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936117",
    "title": "Boyqobilova Maxliyo Maxmudovnaning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-11T12:10:52.872850+00:00",
+   "url": "https://uza.uz/oz/posts/tillabaeva-feruzaxon-abdulazizovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936123",
+   "title": "Tillabayeva Feruzaxon Abdulazizovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-11T12:11:01.381492+00:00",
+   "url": "https://uza.uz/oz/posts/holiqova-dilnoza-musurmon-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936126",
+   "title": "Xoliqova Dilnoza Musurmon qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
+  "found": 4,
   "found_oak": 0,
   "posted": 2,
-  "dups": 1,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-11T12:06:02.823629+00:00",
+ "last_run": "2026-11-11T12:11:05.408841+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u924939": {
-   "m": 2374,
-   "p": 1,
-   "f": 2375,
-   "d": "2026-10-20"
-  },
-  "u924943": {
-   "m": 2376,
-   "p": 1,
-   "f": 2377,
-   "d": "2026-10-20"
-  },
   "u924947": {
    "m": 2378,
    "p": 1,
@@ -26057,7 +26047,19 @@
    "p": 1,
    "f": 8787,
    "d": "2026-11-11"
+  },
+  "u936123": {
+   "m": 8788,
+   "p": 1,
+   "f": 8789,
+   "d": "2026-11-11"
+  },
+  "u936126": {
+   "m": 8790,
+   "p": 1,
+   "f": 8791,
+   "d": "2026-11-11"
   }
  },
- "vault": "gAAAAABq9FoqftrnDlWulOuV11bE99gauAyt65p-OEv3xbDxGBmp_x8MJo2nKhYwZYxvJqhYTo73lV9eXOPndo92qCLZhtjzjJnAg_YN8fDNpw8CQsUERQh7GtHEzPZpxqJzZ5PjaYAy7Bu38MpdDLtVRoSDe0rvIGKjSSmZZSt8v6pgQ5787zck_m4xov9l77EoWJ_Kkn4B5vXHUTxj6369vT2RyVL8FeWXUty43eTl98FITjoYGIOszf5gQHxjmr2k3Hf0gCYwi85zFdHDOcka0IWa2qTV_-nJnvswFhEES5_2dDxkJAU0_YQWCZM_N_qVyX82XzFZUF5um2w4rLP1d9_XqiJiz3J9g9ocqTT93JoFzCj-u-tvZ21D8aO3g1-UQG6nU-FBRkBrkAZujl8_cS-OQhDzHPVdUYDWKQzFP1MCst5TuyXdMx3KbVvJUumw2UeO29LjSGJSKWeMvzhtdDnXGLT7h95ys4A_FJsHsFBUrZ6Wkyceo3GDJkoBECtCnfhmwLAnAo_24Usp9Mn16B2W5FAegkfKNuHW_Dd8wy4qc3HFP5k2oO01oqdRKDtV9A58jyMa9fiBUwDLhGK-tB1Ui3qRnT4US4jP76C2wrOMXQ_qGeBn8bb6-78cmTIGMQZZU5xYpEX9-JsWVqh871z6iwZd-NcN8Rh_55RYo4ZmYIQN1F0="
+ "vault": "gAAAAABq9FtZYz1D1KCq4ZqrYcI4YF_wlFHQCYe-8TDxIMHjWJYipZEiG0fH9e77-wUmuIAAjgBB6_5IiopOCO05192xeEpO1BvSTgskj8qK_XGYyd65VCO0kq1WY7iQalSj5ENG4A9Vtvpc9BEEbx_-z3uIobtZHkA3VGmD8LFk4HmJlKLBFLwleYDAylPSI7wfyV4AleD1gy6tu8-caHdEMwB0KSaI9R8V3JLR3lkJhyalooC14jKTkHsuoGS6AHItj4gTHsxWQd-d3-STCZYUz1UwmLLNUzTxWYOSCTgtyg4mEyw0XWjNLNE0IDcQPtS4w4uK_hgW2CPeFmyDhvy1LJrYTNb8UqDje5MBDEFymQi4MLqw5rUwWaFdbAIqAWCJJpglDTYI0-ORloUiyF0Ou4iE9x0zC2FGsvfcvFdAAHm-R74f2Ux07DDushx1H97Yo9x2JIH2NGMAQ29XONGBq8kBREPUZMIivVzxNdQidW3cWN7immYSjsMPL2POXcYHL1RZVae32SC8_BxYKca4_3vST14aMUdTre8y-M_BVJCV91mXJov73IAuULTVMkBYyAp2YISJFFbcQi4s2O4rdlRyqoYCtN19X6dTDdws3wEFeVxUcETAOGHZXpAdfsQ4DyC7qgraJGex9vNwtkU6lt12Cw4Cp4OJsQ1EsxmnVHMD0yvT1XA="
 }
