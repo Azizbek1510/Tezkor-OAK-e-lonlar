@@ -1,26 +1,5 @@
 {
  "seen": [
-  32117,
-  32118,
-  32119,
-  32120,
-  32121,
-  32122,
-  32123,
-  32124,
-  32125,
-  32126,
-  32127,
-  32129,
-  32130,
-  32131,
-  32132,
-  32133,
-  32134,
-  32135,
-  32136,
-  32137,
-  32138,
   32139,
   32140,
   32141,
@@ -2999,7 +2978,28 @@
   35150,
   35151,
   35152,
-  35153
+  35153,
+  35154,
+  35155,
+  35156,
+  35157,
+  35158,
+  35159,
+  35160,
+  35161,
+  35162,
+  35163,
+  35164,
+  35165,
+  35166,
+  35167,
+  35168,
+  35169,
+  35170,
+  35171,
+  35172,
+  35173,
+  35174
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3022,16 +3022,6 @@
   }
  },
  "seen_uza": [
-  921635,
-  921636,
-  921637,
-  921638,
-  921639,
-  921642,
-  921643,
-  921646,
-  921647,
-  921649,
   921650,
   921651,
   921652,
@@ -6021,7 +6011,17 @@
   936215,
   936216,
   936217,
-  936218
+  936218,
+  936219,
+  936220,
+  936221,
+  936222,
+  936223,
+  936224,
+  936225,
+  936226,
+  936229,
+  936230
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8032,234 +8032,83 @@
   "begmatova dilfuza|DSc": "2026-11-11",
   "qodirqulov nodirbek|PhD": "2026-11-11",
   "ismoilov jahongir|PhD": "2026-11-11",
-  "vaydulla madinabonu|PhD": "2026-11-11"
+  "vaydulla madinabonu|PhD": "2026-11-11",
+  "zaripov kamol|PhD": "2026-11-11",
+  "saidov akmal|PhD": "2026-11-11",
+  "muhamedov nodir|PhD": "2026-11-11",
+  "masharipova nasiba|DSc": "2026-11-11",
+  "ma aripova|DSc": "2026-11-11"
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
  "last_deep": "2026-11-11T13:40:31.777905+00:00",
  "recent": [
   {
-   "t": "2026-11-11T13:46:42.891377+00:00",
-   "url": "https://oak.uz/pages/35150",
-   "title": "Muxammadjonov Mirjalol Muzaffarjon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-11T14:00:44.538782+00:00",
+   "url": "https://oak.uz/pages/35170",
+   "title": "Qo‘zieva Feruza Ismoilovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
   },
   {
-   "t": "2026-11-11T13:46:50.840496+00:00",
-   "url": "https://oak.uz/pages/35151",
-   "title": "Norboboev Ural Omon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-11T14:00:52.538583+00:00",
+   "url": "https://oak.uz/pages/35171",
+   "title": "Sherdjanova Sevara Qahramanovnaning Falsafa doktori (PhD) dissertatsiyasining himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-11T13:46:58.670214+00:00",
-   "url": "https://oak.uz/pages/35152",
-   "title": "Ro‘ziev Sunnatillo Komiljon o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+   "t": "2026-11-11T14:01:00.336345+00:00",
+   "url": "https://oak.uz/pages/35172",
+   "title": "Sultanova Venera Kalmuratovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-11T13:47:07.408362+00:00",
-   "url": "https://oak.uz/pages/35153",
-   "title": "Saydalieva Rohatoy Zaylobidinovnaning falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida e’lon"
+   "t": "2026-11-11T14:01:08.253949+00:00",
+   "url": "https://oak.uz/pages/35173",
+   "title": "Utamuradov Umarjon Muxammadkulovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon."
   },
   {
-   "t": "2026-11-11T13:47:16.517317+00:00",
-   "url": "https://uza.uz/oz/posts/davrukov-faxriddin-umarovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936207",
-   "title": "Davrukov Faxriddin Umarovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-11T14:01:16.225586+00:00",
+   "url": "https://oak.uz/pages/35174",
+   "title": "Xalmuratov Imamatdin Tajetdinovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   },
   {
-   "t": "2026-11-11T13:47:27.943407+00:00",
-   "url": "https://uza.uz/oz/posts/parmonov-akmal-abdupattoevichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936209",
-   "title": "Parmonov Akmal Abdupattoyevichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-11T14:01:31.903986+00:00",
+   "url": "https://uza.uz/oz/posts/zaripov-kamol-yashinovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936219",
+   "title": "Zaripov Kamol Yashinovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-11T13:47:35.300164+00:00",
-   "url": "https://uza.uz/oz/posts/begmatova-dilfuza-abdullazhonovna-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_936211",
-   "title": "Begmatova Dilfuza Abdullajonovna pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-11T14:01:42.095900+00:00",
+   "url": "https://uza.uz/oz/posts/saidov-akmal-azimovichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936221",
+   "title": "Saidov Akmal Azimovichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-11T13:47:43.129907+00:00",
-   "url": "https://uza.uz/oz/posts/qodirqulov-nodirbek-hamroqul-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936213",
-   "title": "Qodirqulov Nodirbek Hamroqul o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-11T14:01:50.227347+00:00",
+   "url": "https://uza.uz/oz/posts/muxamedov-nodir-abduganievichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936223",
+   "title": "Muxamedov Nodir Abdug‘aniyevichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-11T13:47:51.047696+00:00",
-   "url": "https://uza.uz/oz/posts/ismoilov-jahongir-abduvohid-oglining-falsafa-fanlarifalsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936215",
-   "title": "Ismoilov Jahongir Abduvohid o‘g‘lining falsafa fanlarifalsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-11T14:01:58.594113+00:00",
+   "url": "https://uza.uz/oz/posts/masharipova-nasiba-rozmatovnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_936225",
+   "title": "Masharipova Nasiba Ro‘zmatovnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   },
   {
-   "t": "2026-11-11T13:47:58.882411+00:00",
-   "url": "https://uza.uz/oz/posts/vaydulla-madinabonu-muxtasam-qizining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936217",
-   "title": "Vaydulla Madinabonu Muxtasam qizining psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+   "t": "2026-11-11T14:02:07.384225+00:00",
+   "url": "https://uza.uz/oz/posts/masharipova-nasiba-rozmatovnaning-pedagogika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_936226",
+   "title": "Maşaripova Nasiba Rözmatovnaning pedagogika fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
   "found": 31,
-  "found_oak": 19,
-  "posted": 25,
-  "dups": 6,
+  "found_oak": 21,
+  "posted": 26,
+  "dups": 5,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-11T13:48:02.909347+00:00",
+ "last_run": "2026-11-11T14:02:11.433800+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33478": {
-   "m": 2564,
-   "p": 1,
-   "f": 2565,
-   "d": "2026-10-20"
-  },
-  "33479": {
-   "m": 2566,
-   "p": 1,
-   "f": 2567,
-   "d": "2026-10-20"
-  },
-  "33480": {
-   "m": 2568,
-   "p": 1,
-   "f": 2569,
-   "d": "2026-10-20"
-  },
-  "33481": {
-   "m": 2570,
-   "p": 1,
-   "f": 2571,
-   "d": "2026-10-20"
-  },
-  "33482": {
-   "m": 2572,
-   "p": 1,
-   "f": 2573,
-   "d": "2026-10-20"
-  },
-  "33483": {
-   "m": 2574,
-   "p": 1,
-   "f": 2575,
-   "d": "2026-10-20"
-  },
-  "33484": {
-   "m": 2576,
-   "p": 1,
-   "f": 2577,
-   "d": "2026-10-20"
-  },
-  "33485": {
-   "m": 2578,
-   "p": 1,
-   "f": 2579,
-   "d": "2026-10-20"
-  },
-  "u925391": {
-   "m": 2580,
-   "p": 1,
-   "f": 2581,
-   "d": "2026-10-21"
-  },
-  "u925395": {
-   "m": 2582,
-   "p": 1,
-   "f": 2583,
-   "d": "2026-10-21"
-  },
-  "u925397": {
-   "m": 2584,
-   "p": 1,
-   "f": 2585,
-   "d": "2026-10-21"
-  },
-  "u925400": {
-   "m": 2586,
-   "p": 1,
-   "f": 2587,
-   "d": "2026-10-21"
-  },
-  "u925404": {
-   "m": 2588,
-   "p": 1,
-   "f": 2589,
-   "d": "2026-10-21"
-  },
-  "u925406": {
-   "m": 2590,
-   "p": 1,
-   "f": 2591,
-   "d": "2026-10-21"
-  },
-  "u925410": {
-   "m": 2592,
-   "p": 1,
-   "f": 2593,
-   "d": "2026-10-21"
-  },
-  "u925413": {
-   "m": 2594,
-   "p": 1,
-   "f": 2595,
-   "d": "2026-10-21"
-  },
-  "u925417": {
-   "m": 2596,
-   "p": 1,
-   "f": 2597,
-   "d": "2026-10-21"
-  },
-  "u925419": {
-   "m": 2598,
-   "p": 1,
-   "f": 2599,
-   "d": "2026-10-21"
-  },
-  "u925422": {
-   "m": 2600,
-   "p": 1,
-   "f": 2601,
-   "d": "2026-10-21"
-  },
-  "u925425": {
-   "m": 2602,
-   "p": 1,
-   "f": 2603,
-   "d": "2026-10-21"
-  },
-  "u925427": {
-   "m": 2604,
-   "p": 1,
-   "f": 2605,
-   "d": "2026-10-21"
-  },
-  "u925429": {
-   "m": 2606,
-   "p": 1,
-   "f": 2607,
-   "d": "2026-10-21"
-  },
-  "u925432": {
-   "m": 2608,
-   "p": 1,
-   "f": 2609,
-   "d": "2026-10-21"
-  },
-  "u925436": {
-   "m": 2610,
-   "p": 1,
-   "f": 2611,
-   "d": "2026-10-21"
-  },
-  "u925438": {
-   "m": 2612,
-   "p": 1,
-   "f": 2613,
-   "d": "2026-10-21"
-  },
-  "u925453": {
-   "m": 2614,
-   "p": 1,
-   "f": 2615,
-   "d": "2026-10-21"
-  },
   "u925455": {
    "m": 2616,
    "p": 1,
@@ -26103,7 +25952,163 @@
    "p": 1,
    "f": 8973,
    "d": "2026-11-11"
+  },
+  "35154": {
+   "m": 9042,
+   "p": 1,
+   "f": 9043,
+   "d": "2026-11-11"
+  },
+  "35155": {
+   "m": 9044,
+   "p": 1,
+   "f": 9045,
+   "d": "2026-11-11"
+  },
+  "35156": {
+   "m": 9046,
+   "p": 1,
+   "f": 9047,
+   "d": "2026-11-11"
+  },
+  "35157": {
+   "m": 9048,
+   "p": 1,
+   "f": 9049,
+   "d": "2026-11-11"
+  },
+  "35158": {
+   "m": 9050,
+   "p": 1,
+   "f": 9051,
+   "d": "2026-11-11"
+  },
+  "35159": {
+   "m": 9052,
+   "p": 1,
+   "f": 9053,
+   "d": "2026-11-11"
+  },
+  "35160": {
+   "m": 9054,
+   "p": 1,
+   "f": 9055,
+   "d": "2026-11-11"
+  },
+  "35161": {
+   "m": 9056,
+   "p": 1,
+   "f": 9057,
+   "d": "2026-11-11"
+  },
+  "35162": {
+   "m": 9058,
+   "p": 1,
+   "f": 9059,
+   "d": "2026-11-11"
+  },
+  "35163": {
+   "m": 9060,
+   "p": 1,
+   "f": 9061,
+   "d": "2026-11-11"
+  },
+  "35164": {
+   "m": 9062,
+   "p": 1,
+   "f": 9063,
+   "d": "2026-11-11"
+  },
+  "35165": {
+   "m": 9064,
+   "p": 1,
+   "f": 9065,
+   "d": "2026-11-11"
+  },
+  "35166": {
+   "m": 9066,
+   "p": 1,
+   "f": 9067,
+   "d": "2026-11-11"
+  },
+  "35167": {
+   "m": 9068,
+   "p": 1,
+   "f": 9069,
+   "d": "2026-11-11"
+  },
+  "35168": {
+   "m": 9070,
+   "p": 1,
+   "f": 9071,
+   "d": "2026-11-11"
+  },
+  "35169": {
+   "m": 9072,
+   "p": 1,
+   "f": 9073,
+   "d": "2026-11-11"
+  },
+  "35170": {
+   "m": 9074,
+   "p": 1,
+   "f": 9075,
+   "d": "2026-11-11"
+  },
+  "35171": {
+   "m": 9076,
+   "p": 1,
+   "f": 9077,
+   "d": "2026-11-11"
+  },
+  "35172": {
+   "m": 9078,
+   "p": 1,
+   "f": 9079,
+   "d": "2026-11-11"
+  },
+  "35173": {
+   "m": 9080,
+   "p": 1,
+   "f": 9081,
+   "d": "2026-11-11"
+  },
+  "35174": {
+   "m": 9082,
+   "p": 1,
+   "f": 9083,
+   "d": "2026-11-11"
+  },
+  "u936219": {
+   "m": 9084,
+   "p": 1,
+   "f": 9085,
+   "d": "2026-11-11"
+  },
+  "u936221": {
+   "m": 9086,
+   "p": 1,
+   "f": 9087,
+   "d": "2026-11-11"
+  },
+  "u936223": {
+   "m": 9088,
+   "p": 1,
+   "f": 9089,
+   "d": "2026-11-11"
+  },
+  "u936225": {
+   "m": 9090,
+   "p": 1,
+   "f": 9091,
+   "d": "2026-11-11"
+  },
+  "u936226": {
+   "m": 9092,
+   "p": 1,
+   "f": 9093,
+   "d": "2026-11-11"
   }
  },
- "vault": "gAAAAABq9HISOOF7_oB_HuvZjUvIkgCL18cpmhAlrcXrr_G2rT2PTo6jIB5NI4XbVNoe42uadsSl0gMZXEe41b4Q1ivrKF8akCf3Pn3Rja6cx8fPk0EFvmD0RaU5pkdyTv0NU14xpA1MSx1PhxRE0sDEpxpjrut-WHojFZLpgiI0j_uRxF3a9TyE9xBZw9cgcVwql4Kha7fhzBr9VJeDt0hCH3UZ9mmK3U70J-MGVqlPOc5dkls95ShmtQrFGcU0oMrbt7NS3piAzSyAdg1YSmL4mjzF5ZhAA-qNaSsUsfFgWLL3awbToF3iYz_QgtQPkOkeUaQ5V53j69F_sqzUx4C1z5nZyEAUFP7nBZOxZCj2eXM3GeEuub1P_M94j-oU3fndUSUtgq-aocz9-x-9PJVpvsgCSpKsc3Musq_xp1FJiOZOoWlcEfChwcXzXSZSTuYSbWH2t-IanOgMTAVVH5hwzzVL8_X629iCWfcfp0xHncFUrR1VkuXkq67Aol54U19P6gERjpXcL1hPsJfnSb-a9Jrq0i-PZLbIOLGQsJXbt3RquJaS7UKxTpcwhh1pmk7IyURui45bo0MFiLlH0J8TkTvrJ9ivgu8Lm4uBVWACFVuAWHrN528LzQhKpTqLIhA7hQxgednDdKQZq-3zyAXACdKzbbYIMzGWwdfpha1ysbfWNoiM8Po="
+ "vault": "gAAAAABq9HVjIS5J90M9GsCsHQ81Wh3D1kh_dp9TbVvU9pzESiMn1csNYFnsP3JYP6U7PzhW_UI3KKQs_I9GhfxrFyqvHPuF0JUa2dGceh2hBDx-c7XC8Id57A4u0uNFRO6nzyUwA6EhYv75JQ4d4R7vRCjzshPRUuZtYY_jZxVFgVNLrA_CaAKKiXAL_Lnwhz5yZkkHfojfhCZ8HOcfMvVlVu7b--2mtfpr1-flkfc3KkyD8t-mzhO3uW65_sxWx5rQun2dBGgS3YT0uFzo0WQ7MmRKBjtYedOAkpHoE4-9AMnuyhy6HpnolxykF5vutiNbQeO1uMbpjRRCEwWRA4I9IYNkct_4hbMErKshvOSu9pZHhvicBjbu7PpKKkHx5r5Dwhbgh5-MNlLS7SL1zFYOHDn01M9-gq2qPaYzvrIqPY0-4VDBXLz27wsoEVUaaVPd8qkxwTGEwzHtNsrDll3ZenAI0RhN288l2XJ4BbzHs0iaGziG46k66AaF1-4Y7wsyXAiCZspMCMmGv9zXw6jf_2NY4fnnODy5uZpnjl33EGMUNEDeDSfxTHmweJakCNbc_KEWdxZpKQRZODbLyk6HK4keMvrexF4TN8ZOtBF24nk0dQ1QiOLyKjCy6DmzgTVkK0B0lJcFeNa1NQ1KtWeH0iqdylwiNLmtcOcVWh-RNIfgvpOeMSA="
 }
