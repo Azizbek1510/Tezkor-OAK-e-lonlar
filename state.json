@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  921670,
-  921673,
   921674,
   921677,
   921678,
@@ -6021,7 +6019,9 @@
   936379,
   936380,
   936381,
-  936382
+  936382,
+  936383,
+  936384
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8043,17 +8043,13 @@
   "ahmatova zilola|PhD": "2026-11-12",
   "rahimov fazliddin|PhD": "2026-11-12",
   "safarov shohruh|PhD": "2026-11-12",
-  "safarov ohruh|PhD": "2026-11-12"
+  "safarov ohruh|PhD": "2026-11-12",
+  "abdullaeva dildora|PhD": "2026-11-12"
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
  "last_deep": "2026-11-12T04:40:34.604726+00:00",
  "recent": [
-  {
-   "t": "2026-11-11T14:16:15.504650+00:00",
-   "url": "https://oak.uz/pages/35178",
-   "title": "Sultanov Sardor Allayar o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-11T14:16:23.821370+00:00",
    "url": "https://oak.uz/pages/35179",
@@ -8098,29 +8094,28 @@
    "t": "2026-11-12T04:46:04.867987+00:00",
    "url": "https://uza.uz/oz/posts/safarov-shoxrux-sattor-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_936382",
    "title": "Safarov Şoxrux Sattor öğlining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-12T04:50:45.824785+00:00",
+   "url": "https://uza.uz/oz/posts/abdullaeva-dildora-anvarovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936383",
+   "title": "Abdullayeva Dildora Anvarovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 2,
   "found_oak": 0,
-  "posted": 3,
+  "posted": 1,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-12T04:46:08.886066+00:00",
+ "last_run": "2026-11-12T04:50:49.859665+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33490": {
-   "m": 2642,
-   "p": 1,
-   "f": 2643,
-   "d": "2026-10-21"
-  },
   "33491": {
    "m": 2644,
    "p": 1,
@@ -26114,7 +26109,13 @@
    "p": 1,
    "f": 9143,
    "d": "2026-11-12"
+  },
+  "u936383": {
+   "m": 9144,
+   "p": 1,
+   "f": 9145,
+   "d": "2026-11-12"
   }
  },
- "vault": "gAAAAABq9USQ66FoJTQ2ogBJYbFj2Ot7jVZirbyCsaAuIicn2yXWDOk3RdwpwjsL-qGs8l9UQRjll6vQbTyLGk3eT8WOBy2ulplUbauKHO3aTXsE23No62VhoUt5bbMQIlSLc1LJL7sqmm9rF9pYxTlKmxpQArDBvnlomU5QsJl4wA89rPRoPaOhb-A5WWEp42Qe7BrB6bYKbbny4O0vgXpWSp8WqeDFDCl3FrnjL3obLPwts98jQGqBvh3rRUhtwLq63SO9Yk8I5HGJyqQNvzuOwH0WD9dQw9wMl0RQQWpQeHAxt5UI_a2HalweNNNHh-gBGpT5nfYjJZD82vMylXsj3tOzq5NPakbvwalMprNDo_dC2bQFsjAHDXDPe3LdYlsmnJxcxw1S5NlHAJtjbDpPstqQDDMpI7XaIPrrfpPB85PlQFbG_LUjJQ924mHd0VKwNT2g8hQJY7KLoaDIx_iSfPZVIolELn-QalorZI2n9BZSsLAGHLb_aKw5ib-ciPS8MP6n9xK7j0uMYNPw3CRHHczEGr_LzMQ1_PhX2ph8H3MLjbKTYDDUywZkNbF_AZ1AisEy9fmWmil8QbD33FJ-Hd1QFIBLCrbTGfrKwDvNGXHVTaexaTpoxXOZbyYHxOfUj5hnhd_u1QHPHMzcTHhz2tleEu4YS5T60V8hFy3kpUoyc6SMreY="
+ "vault": "gAAAAABq9UWpnyxwYxE_YRd3sZAeh0ZfsH1mIiIjplIdJKp3odJjp4ZGD62Ii6UVPEPLM-HMjR1pARYjRmtnBOCUj5FBmnZXxty6_Ox97q3tZzS1iN60CsVD_7oYqKwazPkDp-mmkTTWkGsQHPe1WO8F3V2TcxCQfwD9DUwPDE7V0ncVM60hYqqyRpPCvFiJoaHHNR7d4vmZhfOAqeJiDF5iEXWgM3p0dgZWtDwheOnqzw46oJeElzXNBLHxKN64WK8HGzPZjpz4Gh_m5PQS5GY59vIJM4nplm72GYCx9Ha_vG9d7HfXmtUp_bMgnT2C2PSIuz0R5sR48P8YXri5GDhizBSVgmSUYs8uyklzNkrZrekd0dpvgiYqV03bpzueff-WMZ4KG0BiLS-CsuF_dJAMVwCGFGD20gK8LRgSRDbLBb_RxaNjZQrWXJSarkHE8SzvUEZcehXYWQ0H2eiP78WVesctRgd7AKhigcpffGWdupVuzIlF665wyl7YI44jFLyWNgsVR30zFH48whbtO9nxIo-auLf1kYGFpYEhyNbvGCQPux_gKyJeB0h--70ME6Nktb3ta1xZ-Baw6jYFpe8IXbU-4nsNYP34kGdkKvrixjuLPtMdnhOmEZt05BaU6CsSwIMLrmCABDip1TviQY4rUr23ftvrHpbcEQhBtS9jqgFcx6FSnvQ="
 }
