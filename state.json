@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  921707,
-  921708,
   921709,
   921750,
   921751,
@@ -6021,7 +6019,9 @@
   936409,
   936410,
   936423,
-  936424
+  936424,
+  936425,
+  936426
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8051,22 +8051,14 @@
   "akaboev ismatulla|PhD": "2026-11-12",
   "saydalieva lazokathon|PhD": "2026-11-12",
   "salmonov ahadjon|PhD": "2026-11-12",
-  "murtazoev azamat|PhD": "2026-11-12"
+  "murtazoev azamat|PhD": "2026-11-12",
+  "alimova shahnoza|DSc": "2026-11-12",
+  "alimova ahnoza|DSc": "2026-11-12"
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
  "last_deep": "2026-11-12T04:40:34.604726+00:00",
  "recent": [
-  {
-   "t": "2026-11-12T04:50:45.824785+00:00",
-   "url": "https://uza.uz/oz/posts/abdullaeva-dildora-anvarovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936383",
-   "title": "Abdullayeva Dildora Anvarovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-12T04:55:42.016923+00:00",
-   "url": "https://uza.uz/oz/posts/eshankulova-irodaxon-avazxanovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936387",
-   "title": "Eshankulova Irodaxon Avazxanovnaning psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-12T04:55:50.414529+00:00",
    "url": "https://uza.uz/oz/posts/eshankulova-irodaxon-avazxanovnaning-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_936388",
@@ -8106,6 +8098,16 @@
    "t": "2026-11-12T05:15:48.780750+00:00",
    "url": "https://uza.uz/oz/posts/murtazoev-azamat-sunatulla-oglining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936409",
    "title": "Murtazoyev Azamat Sunatulla o‘g‘lining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-12T05:25:40.357684+00:00",
+   "url": "https://uza.uz/oz/posts/alimova-shaxnoza-shukurovnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_936425",
+   "title": "Alimova Shaxnoza Shukurovnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-12T05:25:47.753963+00:00",
+   "url": "https://uza.uz/oz/posts/alimova-shaxnoza-shukurovnaning-pedagogika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_936426",
+   "title": "Alimova Şaxnoza Şukurovnaning pedagogika fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
@@ -8113,28 +8115,16 @@
  "counts": {
   "found": 2,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 2,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-12T05:20:42.818216+00:00",
+ "last_run": "2026-11-12T05:25:51.781268+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33500": {
-   "m": 2662,
-   "p": 1,
-   "f": 2663,
-   "d": "2026-10-21"
-  },
-  "33501": {
-   "m": 2664,
-   "p": 1,
-   "f": 2665,
-   "d": "2026-10-21"
-  },
   "33502": {
    "m": 2666,
    "p": 1,
@@ -26122,7 +26112,19 @@
    "p": 1,
    "f": 9163,
    "d": "2026-11-12"
+  },
+  "u936425": {
+   "m": 9164,
+   "p": 1,
+   "f": 9165,
+   "d": "2026-11-12"
+  },
+  "u936426": {
+   "m": 9166,
+   "p": 1,
+   "f": 9167,
+   "d": "2026-11-12"
   }
  },
- "vault": "gAAAAABq9UyqcaTaBctOplDPQ_yzg-35rsIo5hS8i5ed2YxjQ8XFNs_IPXE6z_hme7ssHgGgQEQnjgqE3pOb0Wi-YePjxDoCBz56mHdgGaob-l1OOHuX5z1Zr_jCFmGsn3edyaurWSkJN8K3cZ9TozSDrU31eyW6wan-bpWb6SMubVAVtB_2ojY_IKMbybsfAS4G2jbcThuzd_C6K-MdMgUXegou9vt7MmDRGiZSMyNq2s1HTsclHHUux0bqqEXqYM4J95M1Icvj3odrh9sDIYhJFyn9qXOlSt0NsVu1AGUpKLeb5gBfmRhr0e3hnwRf6JrZlBOk7tf7-PGy4B46HEFdpQQ_hnuIaAEe-X9oSDGzIc4xYf4RKfD8yWfmK9hSvsmDFb1pBOUBLz4KiNEu-qB0BMAY7gHYXekvjoYzWPODm1Apf02XBZyo-YWMMAgvf6dG9PjsBfy80D1stWek43Yp3nbuEBxAnaROuSHHq5_jzDu8QWfuzMuffEBXA7dPbc7An4CfhXwQ0ade1bmSjfhgvc467X3LUzLau0j1ZHtfAZbcUzIYfo84cjucnqk2M7EmTNYQY6A6tbVvfktd5Snq4u6nRvGCxHvkVlKxNKXZ7c-XCo2_If3nGoM02H_fub4exLYUkEMSEB7GP83Hh7576ulx_yrKaEUc0zwj8adm6fNPLpzELEE="
+ "vault": "gAAAAABq9U3fLu7_maI55_c1y5LxgVoi37m-7oQTNgx8j5najNROdH5IfFwLIrRAQeIf32qav8roz4Etw2bMD_pup69pgqjOlQ3bHaZNukzSioPFeME7dTfnsQbGMdAtunp7He227p5jXu4R82vJIaufwz6UuoNc8l4CLSkw2f2r0MAwB1e29C6USBfetiLMVm2_EFLMh0sgRmi_VCjNck9Ig0jclMGFceXUfcrL_6d85otxIcZ8cmMWNF8Bj5R0I9chV9m1k2zZvSMegcvxHaerQhlmxk0cKR7R_W_Ki0D9g3BdXxxMvD41aZMmgHwtYodVv5OfjUxqi-4Tqgqf0JLm8AKQZSJD6idBPoWNbC8a0DBw40DMGHV7lS8Wux2vjlWfHedvZejPJKk7kkYu3HSWzcDzHrqqjOwRjG88sW1NaBfmsBv5sGdwYk_Pn6z4qJnhAle1oDB21tjqsXPktLQYRnFXv2wXo9cFYVETHanbEjVXhvNMplba_bEXSzc2tgmXms29MHwQ7uQ5Hhgk-a0Y9RbBjhqvAFYt6BdZFdvnwd7EMwpOidm-7CgG584-p6jwEjyo2b_8bgGrOLrcU1Hm-Zbd8oUT4H7hVNe-ySNzcvHikx3bNED6ZzhF2Rdnw445TzyBmEl8E7ExQz1FLPY4mmVIykud1zG551kaH4nzrWMZgw7sxWk="
 }
