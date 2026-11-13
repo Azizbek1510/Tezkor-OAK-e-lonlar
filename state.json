@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  922346,
-  922347,
   922348,
   922351,
   922352,
@@ -6020,6 +6018,8 @@
   936996,
   937000,
   937001,
+  937016,
+  937017,
   937026,
   937027
  ],
@@ -8127,17 +8127,13 @@
   "rasulova gulmira|PhD": "2026-11-13",
   "karaboeva mahliyo|PhD": "2026-11-13",
   "shukurova malika|PhD": "2026-11-13",
-  "ukurova malika|PhD": "2026-11-13"
+  "ukurova malika|PhD": "2026-11-13",
+  "rahimqulova lola|DSc": "2026-11-13"
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
  "last_deep": "2026-11-13T05:30:39.075188+00:00",
  "recent": [
-  {
-   "t": "2026-11-13T05:51:46.148388+00:00",
-   "url": "https://uza.uz/oz/posts/sultonov-mansurbek-farxod-oglining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936973",
-   "title": "Sultonov Mansurbek Farxod o‘g‘lining biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-13T05:51:53.257465+00:00",
    "url": "https://uza.uz/oz/posts/atazhanov-temur-samandarovichning-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_936979",
@@ -8182,6 +8178,11 @@
    "t": "2026-11-13T06:10:52.838137+00:00",
    "url": "https://uza.uz/oz/posts/shukurova-malika-shaxobidinovnaning-yuridik-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_937027",
    "title": "Şukurova Malika Şaxobidinovnaning yuridik fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-13T06:15:48.332481+00:00",
+   "url": "https://uza.uz/oz/posts/rahimqulova-lola-ulugmurodovnaning-yuridik-fanlar-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_937016",
+   "title": "Rahimqulova Lola Ulug‘murodovnaning yuridik fanlar doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -8189,22 +8190,16 @@
  "counts": {
   "found": 2,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 0,
+  "posted": 1,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-13T06:10:56.856603+00:00",
+ "last_run": "2026-11-13T06:15:52.367339+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33557": {
-   "m": 2814,
-   "p": 1,
-   "f": 2815,
-   "d": "2026-10-21"
-  },
   "33558": {
    "m": 2816,
    "p": 1,
@@ -26198,7 +26193,13 @@
    "p": 1,
    "f": 9315,
    "d": "2026-11-13"
+  },
+  "u937016": {
+   "m": 9316,
+   "p": 1,
+   "f": 9317,
+   "d": "2026-11-13"
   }
  },
- "vault": "gAAAAABq9qnwTibXnFA5inRRD2MJiakEJR-C__WbSlBkUXa85UoIj8Mjk1PikPagycRSpdysOn_k6_Q1_DiEK-EsDOAC8LDdP0F4trqWCupcMKjVfspZrOofSZGbINci73MjCU29rvjqNe6H7fzLgCuGef-uwfbyFiT31AcCQEUDtxM9JgQWs4ZdBUyZ9BX0Fexd9o7DGDOyYc50wQR6pw3C3jf2nVKSVGXv9m5J4tq86reLIvGIryF3TdVaGoLmr9OkZvPVIKXWN8ttOQY_pd80eHkAqYNiAqwKr9RHJPqSPg8yHeSfJTrCLjxRvKw8ySlkT7sQVBbZMoCfyEaviSx4VcFh_VQklQtwLVYOtz5KXYLJ-VkSxeBkiQkQ4ddv9VqeAoZW2Rw8eOXzhWP7W4qhGOaXvkpSit-ainzEUhw24GVSSabfQ7o6siGo612MtlDI9W7CHdSF-vAXdqlH25uaRHSyxGpOXNNseeJnH43enbQrKKWzp9CdQ4fnN3d2dcMHxiUXXTpTL0f49W8xESVn-q4uYqf9lD9ssjRrpeS6TwhxHQlMZg7T2YnyPHWMW-r6bZCCewayW2WSSWqvU7TFn9_EqDMJ82DvEVNy33v_s4__N_HLuYPvXQUfwUerj-KCvXjzvBUaolCCNqUZb7qJgj8zq_Sg2fmJrWFaJu1hZRrknmp6kDU="
+ "vault": "gAAAAABq9qsYcrty8KdEvpb09wFBivPUdfZicE47lzyfdQYezi-wilD_PcqB0UhUHz3ud-lpDGlILruT-qICvomBGCBrDXqyo4uvKif3ldX3b-IYjOZwGGAvu8lwHKRlFrtQKER5qdJ2p-8zajVsfqXldoTfFYzB0jG9Fv9T9b6Hl7vZnThh_QHcyw7u65SYpMYIoLycPXGRzdlOyZx80ng0r6DoFLE-UK5f__qwMjye8xYhwZ8rEqEekO0ce5a8gHygScv3pFutG_qaMf37c52gBJ1PJxnOALIVjVgnUFMCPYGQW0trlFf3kI-Y-jiugr0lw6yQUJZ7jKeXRUHIP5XrYVwOKnsUinrCDrygm9Ilp5vZHAEfZKKZBih2SenNPSr0_pPE8WT188B9qgloJDI0U18P7mQYqFoIt04U6YuRi7TS38-Y-xuYiFhkL8BzZeCUxeOIf8sn_34sLz2qP4-pXw1-G3qXE66RSZzptS_SNia9Sqvnvwd51DxgZ7jxlfr3dBo56QNMdBkJKpdCEe5eDO6vbPby4WkJTK0iDo_hYf4kO-bVhgACS0uMLrDQCK6ygtj_2tQSzfPbPAreBZRiM036kKxfqeZCxoH3I4eAFaptjKEuH3EBsQJfQazQ5vkilvsguPIG-lZWCzrVB1qbMbMH3o0p45JlfGCd0CgR8HQ_sheK0CY="
 }
