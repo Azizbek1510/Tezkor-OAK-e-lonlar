@@ -3022,10 +3022,6 @@
   }
  },
  "seen_uza": [
-  922917,
-  922999,
-  923000,
-  923001,
   923002,
   923058,
   923059,
@@ -6021,7 +6017,11 @@
   937528,
   937529,
   937530,
-  937531
+  937531,
+  937534,
+  937535,
+  937536,
+  937537
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8208,27 +8208,15 @@
   "rajabboev asror|PhD": "2026-11-13",
   "qobilova mahfuza|PhD": "2026-11-13",
   "joraeva muhabbat|PhD": "2026-11-13",
-  "gulmuratov sirojiddin|PhD": "2026-11-13"
+  "gulmuratov sirojiddin|PhD": "2026-11-13",
+  "yormamatov shohboz|PhD": "2026-11-13",
+  "yormamatov ohboz|PhD": "2026-11-13",
+  "imomova ruhsora|PhD": "2026-11-13"
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
  "last_deep": "2026-11-13T17:35:27.489643+00:00",
  "recent": [
-  {
-   "t": "2026-11-13T17:55:47.252441+00:00",
-   "url": "https://uza.uz/oz/posts/jalilova-umida-abdusalimovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937511",
-   "title": "Jalilova Umida Abdusalimovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-13T17:55:55.736572+00:00",
-   "url": "https://uza.uz/oz/posts/malikov-bobur-baxodirovichning-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937513",
-   "title": "Malikov Bobur Baxodirovichning geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-13T18:01:02.084977+00:00",
-   "url": "https://uza.uz/oz/posts/babaxan-shoxrux-abdilkasimulining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937515",
-   "title": "Babaxan Shoxrux Abdilkasimulining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-13T18:01:09.806328+00:00",
    "url": "https://uza.uz/oz/posts/babaxan-shoxrux-abdilkasimulining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_937516",
@@ -8263,41 +8251,38 @@
    "t": "2026-11-13T18:05:49.951165+00:00",
    "url": "https://uza.uz/oz/posts/gulmuratov-sirozhiddin-nuritdin-oglining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937530",
    "title": "Gulmuratov Sirojiddin Nuritdin o‘g‘lining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-13T18:11:08.476036+00:00",
+   "url": "https://uza.uz/oz/posts/yormamatov-shohboz-zafar-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937534",
+   "title": "Yormamatov Shohboz Zafar o‘g‘lining geografiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-13T18:11:17.026105+00:00",
+   "url": "https://uza.uz/oz/posts/yormamatov-shohboz-zafar-oglining-geografiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_937535",
+   "title": "Yormamatov Şohboz Zafar öğlining geografiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-13T18:11:24.636076+00:00",
+   "url": "https://uza.uz/oz/posts/imomova-ruxsora-axmedovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937536",
+   "title": "Imomova Ruxsora Axmedovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 4,
+  "posted": 3,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-13T18:05:53.986143+00:00",
+ "last_run": "2026-11-13T18:11:28.658847+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33593": {
-   "m": 2976,
-   "p": 1,
-   "f": 2977,
-   "d": "2026-10-22"
-  },
-  "33594": {
-   "m": 2978,
-   "p": 1,
-   "f": 2979,
-   "d": "2026-10-22"
-  },
-  "33595": {
-   "m": 2980,
-   "p": 1,
-   "f": 2981,
-   "d": "2026-10-22"
-  },
   "33596": {
    "m": 2982,
    "p": 1,
@@ -26279,7 +26264,25 @@
    "p": 1,
    "f": 9477,
    "d": "2026-11-13"
+  },
+  "u937534": {
+   "m": 9478,
+   "p": 1,
+   "f": 9479,
+   "d": "2026-11-13"
+  },
+  "u937535": {
+   "m": 9480,
+   "p": 1,
+   "f": 9481,
+   "d": "2026-11-13"
+  },
+  "u937536": {
+   "m": 9482,
+   "p": 1,
+   "f": 9483,
+   "d": "2026-11-13"
   }
  },
- "vault": "gAAAAABq91GBhsLoh6NvjI8m0vp4HOBeBnzvLXqd4oVyUZzqyl9LhvpigYFh5ZNeYJ2zYYvXB79rRMbkDTqnsV9pbPcoUOb9YZ_dJjySIxy1bV4Pw71zhTylDMT491Rh2YZhGXv-prW96I_GDq_AapTgwuNb-U60s5IjmGbNPI2ZE8gfLo7kdpzmR27Rf8U8ySnW2zfSqqlZtYNhGYvdnrW_K7bUTIjMprx1WunuLS_ZKH8Qh3pon0sPZiA4hBt0OjtZood8RttX3__-CiwWsY1_J-vV3oziXskFLM2eAiuYqxb-0-vFBcZnk1u5dz5QODuYMa_qiui2w_JEjDBEgV6_EeUgImKSXmXPJfM0VnM7y8fuctisxnjJfN9_cavLNHh1DLV1FqHJ1z-Pb51lYo8gE1Iam1KPTyH2kWvk3XBDrY4sG77Qyl68n5PfBqufaa2L7PjQXwwl2DWgYVSMlyQsXVIIN1V2ga4QfvXtpM7PifHKXcl-sWqTt3Rqm4wy2IxiNWQHKzgm3PRGSwQxphtBxT7F4oKfjEUe5NjXS-p75VYNR3Zg8BhazSaACGwyqLiTGfTz5yoNMQlnVlm9uiqHI6qHLFN_uVWamGDcS64541BOhlRbeS5rlx24nXQUyCNJ5GopdrNmfzEvI-lqdrwSM-R7pmmBOAmZAZOgkmTHvxVnI-k-lwc="
+ "vault": "gAAAAABq91LQL1z91Nn0ZreQeI-q7s9kFMVRsudVQALJea9WJl6A-h9jpP5Mc2-KFxY1s4lQuXg1yCzZqttjFDqgfneM_4zufxxMZ5icfbbhi_VOaNzejVV4UVGu_93FFKEA3qQ67NybH3HmTjOJ4qE43ZUCrkhWRHnpz7vRrrculL9JQfxiDn2EbTWr_hcTfbSBCgeJbDcipPxFzcqFuZfnJirncQM3wFrMtp4cfxPebQ1SEhyiIXCoQysj9CjmBr-4GOdBCpoLwqyIHVxZZWNAXCYxImBgfCuDRSETAIdWyLuocrFQICS9b8hQYBMdyGFYAWrBESwSqd3c5U2pp1GKI1ishxs2OJYFI0V-S1fhukJSKF5MNTgn_7KuRtLbRZzwC6B890VprJ1UIBaccUCMhLVqJ_ekyduLKiXjYH9KJ18IAJUYAL_mPC4FvDM8epPt2LNYpTeEi2Gg1joLA4f5YMlOa5B3kmkP4fBWY9QRg6ZkTpIpvlR0QE2NPHNgMPDfdnDFwEuWBnRJYLdyLMof36_cC4bjgDmsGZep-Y0pmP3nSBBuymWWDiHGLNBNn7U5qhvqUVddlk9pqxpPJo9YSuYKEuFHBjrx2CrxJ-Zu8u1nXcvtHfZdp_nqg3yMgs_i3ns1i-tOlM4WBw7OQSCKe2VDsVxHM2DCGUFrJ12_0IqxO5PtvVU="
 }
