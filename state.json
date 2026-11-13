@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  922454,
-  922455,
   922456,
   922459,
   922460,
@@ -6021,7 +6019,9 @@
   937187,
   937188,
   937207,
-  937208
+  937208,
+  937212,
+  937213
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8145,17 +8145,13 @@
   "musahonov zayniddinhon|PhD": "2026-11-13",
   "sottorov shohruh|PhD": "2026-11-13",
   "sottorov ohruh|PhD": "2026-11-13",
-  "toraeva guli|PhD": "2026-11-13"
+  "toraeva guli|PhD": "2026-11-13",
+  "abdurahmonova munisa|PhD": "2026-11-13"
  },
  "uza_keys_built": true,
  "tg_offset": 362609556,
- "last_deep": "2026-11-13T08:30:41.491051+00:00",
+ "last_deep": "2026-11-13T09:30:40.876361+00:00",
  "recent": [
-  {
-   "t": "2026-11-13T06:31:52.579335+00:00",
-   "url": "https://uza.uz/oz/posts/turgunaliyev-elbek-toxtanazar-oglining-texnika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_937067",
-   "title": "Turğunaliyev Elbek Töxtanazar öğlining texnika fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-13T06:40:54.773789+00:00",
    "url": "https://uza.uz/oz/posts/okilov-zafarzhon-omon-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937070",
@@ -8200,6 +8196,11 @@
    "t": "2026-11-13T09:25:44.936201+00:00",
    "url": "https://uza.uz/oz/posts/toraeva-guli-baxriddinovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937207",
    "title": "To‘rayeva Guli Baxriddinovnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-13T09:31:39.854892+00:00",
+   "url": "https://uza.uz/oz/posts/abduraxmonova-munisa-axat-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_937212",
+   "title": "Abduraxmonova Munisa Axat qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -8213,16 +8214,10 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-13T09:25:48.957252+00:00",
+ "last_run": "2026-11-13T09:31:43.875745+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u926047": {
-   "m": 2850,
-   "p": 1,
-   "f": 2851,
-   "d": "2026-10-21"
-  },
   "u926052": {
    "m": 2852,
    "p": 1,
@@ -26216,7 +26211,13 @@
    "p": 1,
    "f": 9351,
    "d": "2026-11-13"
+  },
+  "u937212": {
+   "m": 9352,
+   "p": 1,
+   "f": 9353,
+   "d": "2026-11-13"
   }
  },
- "vault": "gAAAAABq9tecEk85gn0rL-j7Duw5yCGGy7sHKZFVxeuPskeI54IgTV5bhvxqROEczqXpLZLPg-nrikCIXdoLNi6ADapG5hgD97Iq8TmH8rUXXrFoy2DyMvnAyrV_d5k6TWfQIUD4jwxFtBJTM53wqnEMIuQhRmvE3-PiReyD1RDUk5J0K7F6D7XHfcsO9J6kO1o1ecpL80I-_31u1NfVFpZ4lCLq4r80R66ADWyZ7PfXq-NZb8riiPGGQ_IlttTDpzeBIxLZYZhzSo2XowuqE0pV9PyZ26HcDaLeThEIn-WaViNE9GjWdlo7hsHn5ZFIbkjUP9sTgBt0bKHHvlywThjlSOw0n9vLp4eabaAmwtVENgKvmq3S6_MTmIcxrXYLDfGEtd0zhg93EazaWiZYOetHfnGl0oesDQ1tBBNGXCKUeUM3oS0ZBu6T46pBIOca_OETsRr17_lCZcRtPFUW_-9zxkLmj_PJZa2-GrHjDTS_yo57rAv3tsp4D_QcERFv5H1SS8Si3XZ84aczMZFD8n0A1k1nKlAbeoW0D9G3H3Vhmtw8iU7YXAr_mQY5_W3tYllqgHuQuMqBtuRJK7D-s3pMpwyxyNTiq8wnihoPzUVfymwFvqz-eIOd0Aod_kI9McjnAM0UkklsXrnteFapXbhAnuQ0jblU92VZVQS1wY_jPjGLZWcQnyk="
+ "vault": "gAAAAABq9tj__8DBhnAxUmpLkAO_WfeiKxXp_MvNCJvHIoluF6bnatTpVuVCJbgAZffZvYLqYTaMCRRjdSc_uWjZcRr9PAHlM9vW3Krl7c5pC-4IgzeKSSfiQDqsPovtUT27Vrr6q4gDT3sjbaRzMLNunTEfFdmplSekudkFk4cLkk48cq9-dmHI0DANeVOnhRpplAxSnaxX8bZSAifAM6e0ItT1T9Y4qw1fawPR2T-GpM6gmxrVYakirkCLRXXK0Dy1X5J6g-mp2bGzhYsyble0q1Go3VLWSj6EXQytxdTXkadi88mQhbHKxe-9jFZlTAWKDm2aeKhglT6bUxEnuGRQp6mTL_HYBlDdAah1ljr3DtWvieOlGfOlHsDabznuHfkapvqj3ZG9sL_YWKEm737pS8Jkn5hMQAzkKdK_fSYJVHJcDTR9VIQbeECMpnh4CD4TUZGUvme05DGmUeDeE8j2KCsDhPaZc4gHVyZze8tdM-QNu7EIyVJ4put3mvZCmKmNyn6MpU_SUmKU-l3OkWJ1Sehtv35Lt3Tjh_hIHBXGd-b5ULVTFm06BHB9bmkiA0Lzr3pXfPwjykmS-noatL-Km1JW6zxp1Kpcya5CY6aHaxAx_v963KFMmv2R1zgG69sY_BdgFrvFMeHOzmmBmMX9bxtdxVkYd7yMoIh7IdHgf3zjKwcOGGg="
 }
