@@ -8204,15 +8204,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 0,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 1,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-13T09:16:05.795083+00:00",
+ "last_run": "2026-11-13T09:20:58.790246+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -26217,5 +26217,5 @@
    "d": "2026-11-13"
   }
  },
- "vault": "gAAAAABq9tVVVqxbtLAZPMsvCWj6gkEKV4qUm7cZUKT06rsYbc735n2fSBvyJHudRhKLa-eH6eQd4r6-tBAeoOY-X85Tk4o1Oz7pBXLg_SBRFjufBGNv_KgTFyIJ1th_QjNkGNPDHUzvzpQIDTxEN0zaOH1Gd5J8OKhjlAR8eJR6YNezJxyGE6VTaYDlKyUECp_sL1m9F_cuIBNYAxVSY2OaipoQbNS6mkbYlXzsf6p4up7JCE388w2xq5S2zFV7tud3uqcAurUG1Q_TA8e1H9n0uOigyOdyWYOkWWJtkbkNwkDzb3tfN7ke205f5YlwTGEVqiFWTrB5uLfAJ72ppAOtUxoirM2EaKKj_CLlms6Z3gydidDUWwk_YEU0gk2lP8m8tJvyR3Hn5liP20FrzUrVdF4KKA5Faw94_BvQAHAiPadlmGFngXfhGFG6961BFFDbxIuCfdlb9mIW7MXVYfUA8imQ6HooJjhRdGjJHS-7wJECCpE7Rj9VeLG1CuPqYlLHIAaARybbY8L1xZKrpWQ3ZHNIW70AUiG4tZqa2B1kuYeshlRn2XlVroolLQLwvoHVU9xd0t260BFYO2IkuIlAHw--rMFDeXFLS0413vVOBhI1cGuraTHpUKNvalDX_QprFqZc9U-IrG3IQiEGB_sBFLBSlqAmGuA84CoWGWO5pkMjEj7xKI4="
+ "vault": "gAAAAABq9tZ6ga6lAC2HhN4WpLhmsQHN6AitLo3wgcsoHmpm6lXAQmY2sepayPK7ZI07qoT14SOp9lS3MPNiCFqlz_2jbIi5nZTB5fQdjZrm_hCs4ZeY7TlaqumLfuPGqQxhjfqPrukxF5LEcLJ_joOXM_QZFTr4G-swHrWQxVD_jDhbXYL6KZIo1mNk3FH07G6k8WdyDdWkDn_iqLNe0lIQvM2OzIjN6sJ3QoQ8WuNO9x_wiS4ZAPnT2lASIwmy5FTrLfUr_MZWH48dQf5f1LrMABqZb71rkfktWx1krnOw19OkS7duUqMi4wJg4-XbMokvw1bz27IXz55pcJ-TXcmCbxltnni1fcT9Ovm8tJvFl0RYwSnrSM-4gr9AHfjBK_Bm6vsqpR9Blg5la5OOawNNd44NS0_8J0OyRgN1K2sJqb2SKxu9tLJS-WXsiuH-1W2r2FWoCjZtZGKZFzl7O1QNHmi7UjCxSH_dJvPfFxJFxJbrpM7leBAW_IEkDlPMNBm4rl2Lrfr21UcLMTf6rAjSHvQq8EipQPPfxftjKfw0Cf2t7iF8yJrJ25EB4f0PV_pMN_HGU3gWnpGs1EieI0ZweBnFZgj6tsX9wo1hV5x_A4RBG-qOeb4rVB0XlnOZc_wXngvHrCpFUEu_F3KfV_7DERJjMs_HMZzjXOB4Xy2zHohz7nP0rtY="
 }
