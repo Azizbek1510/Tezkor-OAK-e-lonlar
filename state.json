@@ -3022,7 +3022,6 @@
   }
  },
  "seen_uza": [
-  923537,
   923538,
   923539,
   923540,
@@ -6021,7 +6020,8 @@
   937732,
   937733,
   937734,
-  937735
+  937735,
+  937736
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8309,15 +8309,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 3,
+  "found": 1,
   "found_oak": 0,
-  "posted": 2,
+  "posted": 0,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-14T14:01:11.092944+00:00",
+ "last_run": "2026-11-14T14:10:41.298345+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -26322,5 +26322,5 @@
    "d": "2026-11-14"
   }
  },
- "vault": "gAAAAABq-GmnY19kr-4a_lt3vhCmxQ5_FFRVy1e80Krc6cJFtPmewuVjf0Wc9iUoreYVjNx-7YyUMj3DV48vi790F0Z54kb4UJ11eTKL6o20rzp1RQuzEvziyDZxDSBsjgKsMB5X_AjBszUADoZFhKpk8cfVQ6HUiheZY3dNLH3Sc1aOiErfoUzgRSGROasauLlbnhxADN3HeJIl24WZJm04gRrak6xEjqMBA7zp8i5CqVuQnFVLkwsyhVaVfHG3Jsyvuug-5jah3-y2z8WLSyJZODuk_Syj4S0lRJFE6Rre7wwckLV7O9ucoavSmma7hFjZyFdEy5BezF-m5JxTz6jp0WSaoLHoO9fjnwjEer9zKap0c44RtpnvggMHhiE0vx_dyb1jN_8L-5dtEgZktxGnawwhbsqCwsKuTDNfMvsq3Y8w9Ao_3PLMslHzi38Vy3cpjx_8JEqkvfPWYN-arp3PUKCpWCi6JUFYy0z2bqP0AH9ak4KKuQl7tiDVpr6HvqhoYDrcLAgvTvyKrrTr4y8gkUEx2j6al1BmlrZwhO-Rl2WjymkDFWdDL9OvyriMlzGT7xa0PD0FsdEA51fLMaMnF_JlwgrtEeD1IDhlixoY1-glH9gt4WE4nepYqiwg1Oa0OYFOPrtfIHa8Ew_7N5Cf0mJGNpuh7XLC3qSpUMVwlZrCiDp6pEEeKuGVgb_kprtQjVjp25cDO5Xzhkmb5voXGJSd5Sw15ZUAnpGEaLO5tIH1TsesfnY23af9PuAerXxw2cFUKanEAyRx14DfZqP9CkBWBOUoFWFuKSEMMd1ntjh7qu1N2XfCmyAdgIajD1DrBkp9_MwsVnH4gsL-k964sGsDqLwpgE8lK1tZ-7Il_STEhZ3os5zdQKjPmQkwMa_XNFqBuUAhZqcIY6hwjYyAWu7kdm6bWSD_QUM1T7pGPjK1iHMbuN8="
+ "vault": "gAAAAABq-Gvh_85h3DMaqhfAy4EbeWiLE-L-ch9aQGfx2PLdyYWUYC_8aJ0GtctceytIGjc9CT0M2BNf7eMb7LSQBqPGBgfR_wuaAMcTmT6JAIQD2w7tWAE-nTusie56zIPdZvsQzA-xFyvOMKpfx5h_g69A87yZyk4MpoAOEXNss4UF86NMz89jmM6BSa2-vQcpJ4dlGHZaukiEv2zQha2wqYrcLCrj9TT-GAfAP2I2LZr06zo2GhyTFwPs9pSStFhxZlRFwgaxvw2xzu3jFMhBobN0Dlsskso9CNmL23ofmuv-7myorVZR44iBnRa8-541U182djweX2B_CCCVEq0WbuxWoat_92Fb0zLvnGGME7DAjjOQ4AYma0C31C37Q61fpvO6ou3wBm7aiUPOsP8xQ9Z3TCRJ84VmGOkdtaehd_dPNhoBoE8CCCkepeVemRnrF6CsCQbiKMM4rx-AYzryYd5MD6y7bc0btCBOYmgyxq-QhIRguUg1G83DzBsHk-76xyhXHkGVLMRfaYqsr0DzEfUvAiGGquWItaxvs6yY4c45cOmrPA9AsRKRlJgx6wlR7vZEVy_xuvB9RrRNDZoZ4VwxWzzTkOSeypTkeXrAd9-2QRn6iPccQuGf9Q19bO86U-cPLmiEUdHosgmI_RNSvZLrMDasru8oLaMbOI7MkMzw5URjn1mO_IssI2QCQH-l-_pRSMBbSVLU0paNmuNFqOZB2eher2eJvDKIDCARMnbHp3YcZLHpTH7kAwUoAbvmJvvN7YY2azRZj1FDnfgQYuN_GyFmnA_fyRPYHwTjz1v1j4CUUJFelL8FRlAAfwwiE09y_-hwRnp3xcVMmQSCr_QtryLwsePAyNJH0ndMFmhQeiuS2Dn6ec1uGqJbIDdRhj38il4Kd4_KKKNRh5fZKZ5smUpIy7axzM5-k2PLKC7CMXN0WkU="
 }
