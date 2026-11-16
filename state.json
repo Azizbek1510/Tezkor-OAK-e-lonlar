@@ -3022,12 +3022,6 @@
   }
  },
  "seen_uza": [
-  923991,
-  923992,
-  923998,
-  923999,
-  924000,
-  924001,
   924002,
   924003,
   924004,
@@ -6021,7 +6015,13 @@
   938186,
   938187,
   938188,
-  938189
+  938189,
+  938192,
+  938193,
+  938194,
+  938195,
+  938196,
+  938197
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8308,37 +8308,17 @@
   "joraeva mamura|PhD": "2026-11-16",
   "bektursunova mardona|PhD": "2026-11-16",
   "yuldosheva jamila|PhD": "2026-11-16",
-  "yuldo eva|PhD": "2026-11-16"
+  "yuldo eva|PhD": "2026-11-16",
+  "joraeva mahliyo|PhD": "2026-11-16",
+  "toshpulatov sirojiddin|PhD": "2026-11-16",
+  "to pulatov|PhD": "2026-11-16",
+  "bobohodjaev sadulla|PhD": "2026-11-16",
+  "bobohodjaev sa|PhD": "2026-11-16"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-16T03:30:40.233598+00:00",
  "recent": [
-  {
-   "t": "2026-11-16T04:11:00.385077+00:00",
-   "url": "https://uza.uz/oz/posts/shoyimov-sanjarbek-saidmurod-oglining-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-haqida-elon_938175",
-   "title": "Şoyimov Sanjarbek Saidmurod öğlining tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi haqida eʼlon"
-  },
-  {
-   "t": "2026-11-16T04:11:08.267406+00:00",
-   "url": "https://uza.uz/oz/posts/aliev-tolqin-turgunovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-haqida-elon_938176",
-   "title": "Aliyev To‘lqin Turgunovichning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-16T04:11:15.594887+00:00",
-   "url": "https://uza.uz/oz/posts/aliyev-tolqin-turgunovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-haqida-elon_938177",
-   "title": "Aliyev Tölqin Turgunoviçning tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi haqida eʼlon"
-  },
-  {
-   "t": "2026-11-16T04:15:50.823422+00:00",
-   "url": "https://uza.uz/oz/posts/bekmurodova-pokizaxon-qutlug-qizining-sanatshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938178",
-   "title": "Bekmurodova Pokizaxon Qutlug‘ qizining san’atshunoslik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-16T04:15:58.892520+00:00",
-   "url": "https://uza.uz/oz/posts/nazarov-fozil-rahimiddin-oglining-sanatshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938180",
-   "title": "Nazarov Fozil Rahimiddin o‘g‘lining san’atshunoslik fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-16T04:16:06.871085+00:00",
    "url": "https://uza.uz/oz/posts/bekimbetov-qudrat-nazarovichning-tibbiyot-fanlari-boyicha-falsafa-fanlari-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938182",
@@ -8363,6 +8343,31 @@
    "t": "2026-11-16T04:21:07.726785+00:00",
    "url": "https://uza.uz/oz/posts/yuldosheva-jamila-xayrulla-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938189",
    "title": "Yuldoşeva Jamila Xayrulla qizining biologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-16T04:25:38.701569+00:00",
+   "url": "https://uza.uz/oz/posts/joraeva-mahliyo-rashidovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938192",
+   "title": "Jo‘rayeva Mahliyo Rashidovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-16T04:25:45.636736+00:00",
+   "url": "https://uza.uz/oz/posts/toshpulatov-sirozhiddin-furqat-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938194",
+   "title": "Toshpulatov Sirojiddin Furqat o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-16T04:25:52.681651+00:00",
+   "url": "https://uza.uz/oz/posts/toshpulatov-sirojiddin-furqat-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938195",
+   "title": "Toşpulatov Sirojiddin Furqat öğlining texnika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-16T04:25:59.681074+00:00",
+   "url": "https://uza.uz/oz/posts/boboxodzhaev-sadulla-abdullaevichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938196",
+   "title": "Boboxodjayev Sa’dulla Abdullayevichning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-16T04:26:06.299544+00:00",
+   "url": "https://uza.uz/oz/posts/boboxodjayev-sadulla-abdullayevichning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938197",
+   "title": "Boboxodjayev Saʼdulla Abdullayeviçning filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
@@ -8370,46 +8375,16 @@
  "counts": {
   "found": 6,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 2,
+  "posted": 5,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-16T04:21:11.737137+00:00",
+ "last_run": "2026-11-16T04:26:10.314860+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33665": {
-   "m": 3176,
-   "p": 1,
-   "f": 3177,
-   "d": "2026-10-23"
-  },
-  "33666": {
-   "m": 3178,
-   "p": 1,
-   "f": 3179,
-   "d": "2026-10-23"
-  },
-  "33667": {
-   "m": 3180,
-   "p": 1,
-   "f": 3181,
-   "d": "2026-10-23"
-  },
-  "33668": {
-   "m": 3182,
-   "p": 1,
-   "f": 3183,
-   "d": "2026-10-23"
-  },
-  "33669": {
-   "m": 3184,
-   "p": 1,
-   "f": 3185,
-   "d": "2026-10-23"
-  },
   "33670": {
    "m": 3186,
    "p": 1,
@@ -26379,7 +26354,37 @@
    "p": 1,
    "f": 9680,
    "d": "2026-11-16"
+  },
+  "u938192": {
+   "m": 9681,
+   "p": 1,
+   "f": 9682,
+   "d": "2026-11-16"
+  },
+  "u938194": {
+   "m": 9683,
+   "p": 1,
+   "f": 9684,
+   "d": "2026-11-16"
+  },
+  "u938195": {
+   "m": 9685,
+   "p": 1,
+   "f": 9686,
+   "d": "2026-11-16"
+  },
+  "u938196": {
+   "m": 9687,
+   "p": 1,
+   "f": 9688,
+   "d": "2026-11-16"
+  },
+  "u938197": {
+   "m": 9689,
+   "p": 1,
+   "f": 9690,
+   "d": "2026-11-16"
   }
  },
- "vault": "gAAAAABq-oS3hO12Ez2EDtoUPwJmanvnZQ_SjikEF1TpCI0pWprLdDVFOPbZ5rrnd2ZDlV0S9KaMYpOr7ZIMPieFCHyq-ATV5TTKr1VkZgPT42SthUAzLy7ADHV-BXGi3k0DfVxIhuhB5Pv7ALrnUVdOy4UtmI_xoKTaWNRvxRcwG0LF2AeNw8onobjAHnRQQF8DhzIm2kCuaRhXSpvzJXo8PipclVLtS6O_7VV4XKdohyzDycL4gJM7sVxUOa1HBQUFAti_JXDtAfv8fAVgAkuRVb2AnVI37W-NsocNeRujYuk28_SkJjADphsegG7pariy4dELNJEht0h72WNiWKdsir1Y_H77TMN-qnTxJntZqamHYlbyA-XLRJnXostYrMCsysWfK_ua4sVFGcmyyGPTML0Azqg8CUxCiEdpYch_N76W_Z5kGMPGzWN_jtDmAdU0cp8-SIr9Ohdz_ghoWH-3X3tlcci6lAhyuls9ecQ6OFxVMVhfj_DjV8-dCCemRGYn3zwGl_BihXNBuTPYFouFfkAnaL5gwMiepLJLjqMTWeQGVY4o2B3SPMT29YphhDGeEIC_2kv5iZoz97ux6Cut-6vDIP7oz-VOsLgWWNONTP04gSqkksOIe1y9vRU7ElagSuZck0ek2y3eopeV1IaofPmxTqT0Wng_Br3lTxpSfmRHn11FuKFBgrb7zBFaf-DY1dy1QATEH2rENM11I_Ri4zKF147TrOQpIgnHCVhEnU1H3VTx5BeTFB5JxvNu4dXPlTwghSYkFNX9vipE0cX8MCRVzjxAvXO_UWQ-uUh01Zbqpih86pDD7C2ovmOKVgbzCbu2je2X8l6Oi8_VJUTf18-Zc2WMc_7waGzzROisr71XFgk3vFNWts3wyHOljTj2dspi3gG203YJPi21189F-zBUqU0lepoaPw66WGwia4CtAzas_LA="
+ "vault": "gAAAAABq-oXiFb69AeUJ8zw_G3lgdL2IwiYdl8GxIP3Ab-JnNRUMni9hXCPDkFgZ7XHwIXZfa6HipsQDERNBhX8buF2MxodGhCO9cHEDZH6PQMZcF6cyfTKIleiFxiR2xY2bUeeeSXJrSH4uaTK1aVQNTijKMSHR7GjT1xva8sQmeMSeU_0dWzu8oM4gmOKFxpI6bbsz3gt9kwHQPVkkVmX5cEE2gbLgn_J87EwtST6uE0oah98GQ3OCfz9F6-VI7dzcxy8qdFU5BLpidSEx-IaGhHvndA7gxt9_y9hEm0HyB66DIUdneIA0oGfke-n7IV7MPweeeVyvowMRALhCJIeabl8saXNmsdRPBdaet3mk3hYPLTdr7mcR0SZ00F4unHhJAZMesAvmd6JpU6p0WIsTWeUFbzao9guD1toFXoSTHOQj-vqwcWcDF6dW1U7yjN4CXE_nFvfsWwaXPpQYKwYW-WrX7WADInO09F2ZcvKGWCNTmY5sesQhCdryDEjeaIDPx5B9om6eg9BeyO4QWKzpUk0xp4R0-qFj3X03hscvhiagZU229YoybuRye26gA5zuRsnTuiHFaE96RD0nKoRecQaAfxJJy2_1lZNRPtUKQpRLTSQvpq2VdJsdRHEdWoPntFRbuRRLBn7_nFuN3sSdXsnCRf-Wyf8tsPWmDLXbk9wUdNKApSzC51dv1MDxjKdEmRKFBKOpvsJqQktwLCtaYrGJEkjQGntxq0ml2BhcxXtWpd1H7YgKW8uIKdlUkGsgGZYWF9Dxkjqpn2GsEVwmpFLcmEHeYbhJx--wJhpGo559kr2iSoN8Jw7NZSHtbTJr-SFw8oROU6W7RAKuCb5FAfY0wAzTUvGFXBiRYvqwQCOof2GW3p6h2LpbNlmRkcyBwYz-bhYk4005-KaJ7V-r70i7fj8DRvPcv5sL3mPEiAxKXmOxkOo="
 }
