@@ -8469,15 +8469,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 0,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 1,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-16T13:41:14.545955+00:00",
+ "last_run": "2026-11-16T13:45:49.842646+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -26482,5 +26482,5 @@
    "d": "2026-11-16"
   }
  },
- "vault": "gAAAAABq-wf6oM5dQ2jxtIUjfYBiPgOnYPH_Wl37XZF3cX5aVFfmU0ZJnb4XqzuVXAYRmXwdk5w7eZrgs15sRBq9-1vjIPbyOYKoT-4DjlujOLAlKwmvLI36A4hip6bSsQi-ejGMgU17L122WL-p4_EAJ4dtBRptr1HkUNHp4ZMduyBbe9jD3xfYwF-VwdaDmEKwKP6WdvVPOWCnWpPaKjLbcmph16KGpMSXPUCGrTJ9wTJVP_HUtONaBC7VoKRaYaRTf8AcFnvbk6cLSEzXuNnMQXb3b67ddFQkt1xj_hbTjOEQCYT9tRm8BSIT9BLY59mZJfkVGHHX8sKn1_rEzvNnsuXfItBRkwFQQDWU1rP_ncav8BhgDToT-xT4EUUt5MC8e4GP3T1ANl6qrVa0StJpE-99LUFJaYXP5Fbc3ErjMNiAO_mhLnZlHl9uoYQ50jgF5FBe1OP3Ocw8d_8X-siyabHByQsVoDQrkLH3lJ_Zbo_Xm68NXGLFXxWZgu7bPdKHwtQJPKoUQmmLtZFbki1TRYloWMbzcFQcGITBZC4Wxk4TrnMWCOawajNRb4Nki9WeP6S-JmeK7n6o6ubAjFNSSW0xNFhi15HiofWAWncFpW3GU9kpQeD_A1OtCVUaEXUuUU7GzmOr5LpKQSLPtB8a6Ns1HLT519IL9wDPw1EEtVNVyB7rrS8BBHDJ4Ek1fmpak8wCtz2X3-JggbBIRIMzq19hAlM4epcnkMh3QDfMUo35b5RPrZEu-YHrG6o7R7F4vsCtdnspZp_OL9m8jxOpybjmNovQs3G9LNkE6qXCvx8PiH8pSUqd9Vca1dIY4cGaw2w0YAOge1pwA_aixxgnVDATSh99BdJZo7ZHeJFPwZPx6xxA35CN9CZSgBUx0Ztq-xmYFn5gSszM7QBceH5ZLC5Opb8ZF_d3kkkLt4KBEt8JFCGM9Sk="
+ "vault": "gAAAAABq-wkN4SIQdkb-SXXk-083ZfYTH9IIi0L0xYBtp3qyZ-sumoLoVDr_FTeC7Q_e6cDTu-VrbIwWN5AmJPLdS7j71T688faFxJ26uoiyEBYsDiW8Q7IUOd_5jUuPtCVH7awMkAzL3AdKeh-vfwho5SbE3XyUiq2VHvu3wAfIoe4RTo9DYbtnDmpQPN2_rB3DYfzqvfJkqDrhbqaBojUs4G4v-gNSPVsOvIaiyNQUkUCQ3bq0eHAZz6t3DkBzGhgHVuxp1tR_k3sY2wZ-kdJKbzWEbAN6gXGIKWmLmc6UC9sXjwxlC-WK-UHfoTdwPbiSg3a0fklU71X35N_ZvUjZH6hHfSoV33pQ5txWYVQ70Gyj2VxRtdC7c-UUI_8dUOCnZKMJeR6mlrMWtNd2TLY0m-xWXXq-im3v_0CTWHHOx_d6s0KmUkPErOAVk-2HMCYAbpauGMNArTMmiLgOV0SY7LO44H--tSnQXK6XzfSjVObI7y02FgPMV-HcSSsIKc0wVdpTPmOoCGiC041pcxMoVd7tbo0YG-QejUJfQ5IlnhgnF-g4VSzdv3bJxJmuuRMvL4KvC8sbUYZpk4UhnXlUdnsLrpExotjZTqrufcutFBvWDYDKxBjOKLMVF6vTH0GCLrF0mzbjb1FUY8bBhagIYDFiw5OTBZkoPP2WfA5XmVXzKcpkKIbsMxoW9aKJRvY74IkYgimmw7TwkiEbHpWO8-fhGijdxAQQsE0aPmMn3xVhn_H3Vj2Kp_GFVlZdtJEDH71YXmkKJtzBpH7L_Cxqygw87-Nviy0XATrTw75y4LyVPCYMJkhZgRsoREcGc01JIy0MfFYdRK8LT1YsJGoTUjWLQdkmhJFBaJkJHAdngQCuBlSyyTMz7flVuAuqcRnlrALFGSScBoQfvC7snnAmysLC129eKL2gFm1vGk3zsldcheb8g8s="
 }
