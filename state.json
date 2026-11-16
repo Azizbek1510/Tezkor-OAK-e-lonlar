@@ -3022,10 +3022,6 @@
   }
  },
  "seen_uza": [
-  924008,
-  924009,
-  924010,
-  924011,
   924012,
   924013,
   924014,
@@ -6021,7 +6017,11 @@
   938202,
   938203,
   938204,
-  938205
+  938205,
+  938208,
+  938209,
+  938210,
+  938211
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8316,32 +8316,16 @@
   "bobohodjaev sa|PhD": "2026-11-16",
   "azamov bahodirjon|PhD": "2026-11-16",
   "arslonov zarifjon|PhD": "2026-11-16",
-  "joraeva maftunahon|PhD": "2026-11-16"
+  "joraeva maftunahon|PhD": "2026-11-16",
+  "salaeva bakpashsha|PhD": "2026-11-16",
+  "salaeva bakpa|PhD": "2026-11-16",
+  "aitimbetov koyshibek|PhD": "2026-11-16",
+  "aitimbetov koy|PhD": "2026-11-16"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-16T04:30:37.848028+00:00",
  "recent": [
-  {
-   "t": "2026-11-16T04:20:59.678583+00:00",
-   "url": "https://uza.uz/oz/posts/yuldosheva-jamila-hayrulla-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938188",
-   "title": "Yuldosheva Jamila Xayrulla qizining biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-16T04:21:07.726785+00:00",
-   "url": "https://uza.uz/oz/posts/yuldosheva-jamila-xayrulla-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938189",
-   "title": "Yuldoşeva Jamila Xayrulla qizining biologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-16T04:25:38.701569+00:00",
-   "url": "https://uza.uz/oz/posts/joraeva-mahliyo-rashidovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938192",
-   "title": "Jo‘rayeva Mahliyo Rashidovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-16T04:25:45.636736+00:00",
-   "url": "https://uza.uz/oz/posts/toshpulatov-sirozhiddin-furqat-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938194",
-   "title": "Toshpulatov Sirojiddin Furqat o‘g‘lining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-16T04:25:52.681651+00:00",
    "url": "https://uza.uz/oz/posts/toshpulatov-sirojiddin-furqat-oglining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938195",
@@ -8371,47 +8355,43 @@
    "t": "2026-11-16T04:31:49.773319+00:00",
    "url": "https://uza.uz/oz/posts/joraeva-maftunaxon-dilshodbek-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938204",
    "title": "Jo‘rayeva Maftunaxon Dilshodbek qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-16T04:35:48.043601+00:00",
+   "url": "https://uza.uz/oz/posts/salaeva-bakpashsha-kamilovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938208",
+   "title": "Salayeva Bakpashsha Kamilovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-16T04:35:56.936162+00:00",
+   "url": "https://uza.uz/oz/posts/salayeva-bakpashsha-kamilovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938209",
+   "title": "Salayeva Bakpaşşa Kamilovnaning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-16T04:36:05.985812+00:00",
+   "url": "https://uza.uz/oz/posts/aitimbetov-koyshibek-orazbekovichning-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938210",
+   "title": "Aitimbetov Koyshibek Orazbekovichning falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-16T04:36:14.736317+00:00",
+   "url": "https://uza.uz/oz/posts/aitimbetov-koyshibek-orazbekovichning-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938211",
+   "title": "Aitimbetov Koyşibek Orazbekoviçning falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 6,
+  "found": 4,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 3,
+  "posted": 4,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-16T04:31:53.795132+00:00",
+ "last_run": "2026-11-16T04:36:18.753474+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33673": {
-   "m": 3192,
-   "p": 1,
-   "f": 3193,
-   "d": "2026-10-23"
-  },
-  "33674": {
-   "m": 3194,
-   "p": 1,
-   "f": 3195,
-   "d": "2026-10-23"
-  },
-  "33675": {
-   "m": 3196,
-   "p": 1,
-   "f": 3197,
-   "d": "2026-10-23"
-  },
-  "33676": {
-   "m": 3198,
-   "p": 1,
-   "f": 3199,
-   "d": "2026-10-23"
-  },
   "33677": {
    "m": 3200,
    "p": 1,
@@ -26387,7 +26367,31 @@
    "p": 1,
    "f": 9696,
    "d": "2026-11-16"
+  },
+  "u938208": {
+   "m": 9697,
+   "p": 1,
+   "f": 9698,
+   "d": "2026-11-16"
+  },
+  "u938209": {
+   "m": 9699,
+   "p": 1,
+   "f": 9700,
+   "d": "2026-11-16"
+  },
+  "u938210": {
+   "m": 9701,
+   "p": 1,
+   "f": 9702,
+   "d": "2026-11-16"
+  },
+  "u938211": {
+   "m": 9703,
+   "p": 1,
+   "f": 9704,
+   "d": "2026-11-16"
   }
  },
- "vault": "gAAAAABq-oc5w_XjhCeKo-lcK3XW57fTSCIzMjM1OL_q0RePN_T05Z3gHjYxkBGnkxbCAtPCQkHOSJzPwfS5h7bJe4mw3nK3NxSGsWZtuPgDCorNHGyDTG82c8duBo4jGna6-tIH5O_JNSklrYvw09uue6_m7x3AbrHPKvTIkduamuNFog4SYBa--ki32eplC3lhj0LRgkI3BZaC84GF5l2cjAngvTDz7pHt2awfYLZi8W1WHZhCudKwlksi5y9fhH-Fs0AUTzkdEpYJXrE7tOE_vcpZQTsLDW18LXP6TIT2gmahudMm6QHqOuBhlc6MLHUAi6JbWY2kxE67iWvWi8ohyeWUYjUI7GVqB5utbXiwqoRWUioe7zC0ZkINQqYTPWIChICKJO-f2RbeHBtghViR-GtPl5A-MF5-EcmE8Ax0_wwQFBzTcPuZYoYBeWbLl5vnKHtCBY4Z4jJjGO3S_AEAPVxeOdFNCm-4V1FBhVsA309Q6gals-K3VS3sHaoezI5HHghRbmWN_lALMFBfvWEZU32KLqMJ7fEC-5VTw0rt0OTmjFJoHmtMqS_7tYzQvDxLI3Rj-iyPmPYGVi3txOb8I4TNvMry1MPKRu79utITCDr58aFb3WaSz5XJYLWhMmFFVtBbqAe5gBnZEzw_odi4Y-Pqa_8D6ALkaw9uruIcXIE2fzcm7quY7TM-RiQeg4LvAoInhenvP6pYp1jMkY0uQKwzGxuGaLNvlp8XKXQQWj_AdY-8l_pVlQprsjzP0eJP3PZaDSniwhjYEgP2dL1YWzdPPqR92czWP37ylpOKsyTDm4i60VxThEr74RYwnV6-0JkDyZGoeVAsMDj_-sOVeL6ICWzFXg8dSWVWNQaf7FVSg1HykwBMiNhV7GVYJzQbX_aDSAA2pYFUP-rlgoN31IpwGnImrefI_EBETqKbT57EmNX4u5Y="
+ "vault": "gAAAAABq-ohCovXh6qI02FYRs7AwQ50UCnSWS8_GyVr2VEDWvv_tpRTecQcQ_It2O4HfMTUCuyvAbDNS8M4WWPkXhQu2Qskh0rlv5dH3LbvLnOG5ZBaPMn7pnNkURQCacUMfFlme3bFMJ_VwbTbNkPrnjWPJVDIlaFo00l_wHd-zWWdMTAGxVeAE_uI4uZ4rrKm8C2LZ8gkF0UIrenwbjEL3zl3HM8OQzfTr90xcfn2AeyKUjbgh8P-GJiEmSh-XJoLjtaRfO3tL8ltvDUHFTpkHRzQemz1XOVMB2_PUbQVC30e5j6Y_tyc1Jnrs2naZta5rWZ_S3Nc4fP9ijYongTInwu_ifWthreFWzbo5fqGiX5iE5KjWigpagr8i69eaTnwG6J8hlFcj68mh5ON_nqbHFjRePXPNvF48_No__D1s7MEWxhYsW6ETYJygD8ie93lpH3gHZOLfzPIOy0tjqlgfKXlpsdi3Y5nMjiLAm3JgX0j6w1JsKpqm48mwKQFqYXR9AETMVhSCfqip7YPEkaEN51LEGJR2XHsO-Je71wLOOF3H5MP3tNdTyJjFTHsoAvNqdQuAI999I0vpYulnIgJU4J_EnWrGxvV1d4HoXCeolivgej7lKa_He4GIA7mCYG0WDR3BWfdImGdif_tFnHPPinBoBtt78ezW6iw2cJ0eJHnMGcE-dXLA0qYjT7XpMWDsN06pW_ncWfQzE7kBkdPYe5ci1YFifeu1ch_oz8rVVYmxCE0MIhvSeFmhJ7LcCbLXe-fT9f5kIVlj6tGuLKljdzaDNPVRwLgJ-cPfgEkT5Mw569dDG7l6O2V7i1HCA7I0ORvdBh8hh-erQ_JsQV8uo5Rw8FOLiYTcbB-SMcV928NqFx2rV8XX-Wu8GJr7JGWfz1xRQBNvlHzQkOlIq03yovk5OkoYYaDWuurHNmGLQiNu7C58HIo="
 }
