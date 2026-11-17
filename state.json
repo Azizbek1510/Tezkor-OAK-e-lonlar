@@ -3022,10 +3022,6 @@
   }
  },
  "seen_uza": [
-  926254,
-  926255,
-  926258,
-  926259,
   926261,
   926262,
   926263,
@@ -6021,7 +6017,11 @@
   939461,
   939462,
   939467,
-  939468
+  939468,
+  939496,
+  939497,
+  939502,
+  939503
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8538,22 +8538,14 @@
   "halmatova dilobad|PhD": "2026-11-17",
   "tangatarova sohibjamol|PhD": "2026-11-17",
   "elmirzaeva muslima|PhD": "2026-11-17",
-  "hudoyorova feruza|DSc": "2026-11-17"
+  "hudoyorova feruza|DSc": "2026-11-17",
+  "primbetov azamat|PhD": "2026-11-17",
+  "hojabaev nurmahambet|PhD": "2026-11-17"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-17T12:00:45.978003+00:00",
  "recent": [
-  {
-   "t": "2026-11-17T11:55:53.335995+00:00",
-   "url": "https://uza.uz/oz/posts/joraeva-nodiraxon-qurbonovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_939429",
-   "title": "Jo‘rayeva Nodiraxon Qurbonovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-17T11:56:00.387632+00:00",
-   "url": "https://uza.uz/oz/posts/jorayeva-nodiraxon-qurbonovnaning-iqtisodiyot-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_939430",
-   "title": "Jörayeva Nodiraxon Qurbonovnaning iqtisodiyot fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-17T12:11:00.611714+00:00",
    "url": "https://uza.uz/oz/posts/honkeldieva-komilaxon-ravshanzhon-qizining-iqtisodiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_939444",
@@ -8593,35 +8585,33 @@
    "t": "2026-11-17T12:16:05.369320+00:00",
    "url": "https://uza.uz/oz/posts/hudoyorova-feruza-abdusattorovnaning-veterinariya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_939467",
    "title": "Xudoyorova Feruza Abdusattorovnaning veterinariya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T12:55:41.514060+00:00",
+   "url": "https://uza.uz/oz/posts/primbetov-azamat-yusupovichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishini-himoyasi-togrisida_939496",
+   "title": "Primbetov Azamat Yusupovichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishini himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T12:55:49.284053+00:00",
+   "url": "https://uza.uz/oz/posts/hozhabaev-nurmaxambet-muratbaevichning-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishini-himoyasi-togrisida_939502",
+   "title": "Xojabayev Nurmaxambet Muratbayevichning texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishini himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
+  "found": 4,
   "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "posted": 2,
+  "dups": 2,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-17T12:50:47.597234+00:00",
+ "last_run": "2026-11-17T12:55:53.313295+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u928025": {
-   "m": 3636,
-   "p": 1,
-   "f": 3637,
-   "d": "2026-10-26"
-  },
-  "33798": {
-   "m": 3638,
-   "p": 1,
-   "f": 3639,
-   "d": "2026-10-26"
-  },
   "33799": {
    "m": 3640,
    "p": 1,
@@ -26609,7 +26599,19 @@
    "p": 1,
    "f": 10259,
    "d": "2026-11-17"
+  },
+  "u939496": {
+   "m": 10260,
+   "p": 1,
+   "f": 10261,
+   "d": "2026-11-17"
+  },
+  "u939502": {
+   "m": 10262,
+   "p": 1,
+   "f": 10263,
+   "d": "2026-11-17"
   }
  },
- "vault": "gAAAAABq_E2nvSYEpodvCqokOLd2EhCz6rWG6gJWtanMLOiKWUEUG2Z60Y5DT0BOZ_OtMDiKv5X2Kefu9thJSwl3X2OjUx7El75BexDvtkuphAyee_dTeXjI8GBHCvQvVeHJ00Nl6kNDtVMZgfznDczuDfB16nC9hiq7Ai6pwOXcLMMZ7iXjHON1atdHGElep4dtKEtICHR-9Nb8RD91Fa6FZcgoatm0ApI7WDAcI3L1Rf4I-DEFmWrEBU8YDuhDo7GKVPpOTM306qEgLbmCqM-bPxmSo7ie1CoE612On8d6AicLDFy8GT3lMv7VnQXyN6BcDSF7ROyRLW3eZQlhCge-XvYbX8XHpgPds0t3byXPrj27FOKzVnowOOPb4BOQyyhXh2Wdec0YdKRkS1bKRJmhU6yosQJc5L7btXOY6BwsePCuo9LEU1NBSGID8-Deu1QAPqDH6-MYVkJDN4JAW0xhTQYLFrVPmxYj5-3CkUj9ww7pI_r3CxRXYTdpfr616sX41B7M2g6glN-kCo4Em1SdTwL7TrbW0Qm8KS1SEmpFLecRH8ityBLH5Il0LSM6LT9MAag6C8ZlJJnAMbuYzQG2bVSnWVzeoD-hHL9FSLpbPs4KjhGvHSQL5NzoyL2rSqwmzpig2m1EJ99-30S_MjsSk1h0oZ92IUcof6K0TgI4j5uVPlwZF9iz3RHT3Eaw5Wi73UaZdNZPga34P2UJHbKASAA57IC6-0UmH1kjHoGU8_9bKgHb47CU6PZS07o055inQLai15PPRvgt_9hoe7vAg4kg--P8bhfh3wExT2T-1cUxDDupn1pjMK1RyfktKJYOI_zVuSGdYIq2o07DJ2pKaUouiz1KIFMcQHA9VWG0eH37c5HfLtTjahhwOcLwa_PLnfGr0qrdaLnCO46lu_1CZ7akSI17vJF_VGP4G9M-dA9jrJq3sFE="
+ "vault": "gAAAAABq_E7ZbQ1CqhWpdggfusayPWKm7Ks40FZi5j4WEXDRC3L9wdsPJcmThHCEW-IWKfyoS-HRHx81lwxFOuX4sq0AN-wqC1Oc0a2ZajV7ViVUyWjthzH2R1AHod_UP8JxhsQTkKQJYiLpExohDVCSf1auSaWcQwyzLjJcNdNOJn-Bss6DFMCzBVzHaj9a_KIhVNHUjLytHY36dXis-h2DrCF-I_JwP0nvFsuq9EvbvEHf7CnIhFdmPYf_TLAuH2srajKWjtsw65p3eAAINv9Wn_fNVfmLrZgfEErgCEj027UDAbFOQXeCoKhSP-LAL1cJVWKH96nQ5fh-EDJK4QbkoUKDgcGM038dUvV45hQ05wAJ6DvYcEnZrbjZMI3Z8NmOj3irrhCC_sgZ23dbtVKVhE5IbcfxNbedYBboOF0ePZ-569wJ6KE0QymJKvyYLu0Cs6tOuzR7UJj8OJ0eCe5LSCyaHw2Iyqb57GnlnQK7HxiCdLriHrPdLb97KmpxF71eHEizarbpUcAAdg1R32oNVKWPJ8Y-qkf0tc4rC6yYDGGqtDTJ3Rw_bSrZAolDeYvtJ-LFOCZilC7n37RdmNrXelTF_Cr7SmjVc2t0pRCvZIT-Tus38Juox7JAcuPxZRfiKKt-67-xPLTDHGpzYUH_EvwjGzi4PbIn2Tz-_u7txmBtRAJIOauQWfIg-J0P8okBUKCD3s8GZH40mTfUB0iC59X68TYoDfSsGF4FYvN8JgoZdf2JNwQoAVRRrvo1iQ4ynsd5obqv51hEH2NTd93T4h1ao7Dmdv_1EP-RdSCkyFhi5tYClxPSOGA-2RjYhso12Ccgu_BsBNYdqfG_1iPziaAJwF0t0OxtNkqca4FVdQmgZ8F_0O27W3a521DtJEn83w6EHnjgmA2js_87qdbbq0XeaPAL2fJkibkqLmlaCWcLGYVIn4o="
 }
