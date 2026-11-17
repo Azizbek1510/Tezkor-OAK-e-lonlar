@@ -3022,10 +3022,6 @@
   }
  },
  "seen_uza": [
-  924929,
-  924933,
-  924934,
-  924935,
   924936,
   924937,
   924938,
@@ -6021,7 +6017,11 @@
   938935,
   938936,
   938940,
-  938941
+  938941,
+  938945,
+  938946,
+  938951,
+  938952
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8413,32 +8413,16 @@
   "eralieva zamira|PhD": "2026-11-17",
   "nabijonova nodirabonu|PhD": "2026-11-17",
   "haydarova hilola|DSc": "2026-11-17",
-  "kasimov abdumavlon|PhD": "2026-11-17"
+  "kasimov abdumavlon|PhD": "2026-11-17",
+  "shodmonova zilola|PhD": "2026-11-17",
+  "odmonova zilola|PhD": "2026-11-17",
+  "hoshbaqova nasiba|PhD": "2026-11-17",
+  "h baqova|PhD": "2026-11-17"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-17T05:00:52.155532+00:00",
  "recent": [
-  {
-   "t": "2026-11-16T13:25:45.012712+00:00",
-   "url": "https://uza.uz/oz/posts/sharapov-saidusmon-saidahmadovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938745",
-   "title": "Sharapov Saidusmon Saidahmadovichning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-16T13:25:52.463805+00:00",
-   "url": "https://uza.uz/oz/posts/sharapov-saidusmon-saidahmadovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938746",
-   "title": "Şarapov Saidusmon Saidahmadoviçning tarix fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-16T13:26:02.382444+00:00",
-   "url": "https://uza.uz/oz/posts/rasulova-sevara-charierovnaning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938757",
-   "title": "Rasulova Sevara Chariyerovnaning tarix fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-16T13:40:54.555638+00:00",
-   "url": "https://uza.uz/oz/posts/mirzaeva-zulxumor-abdukaxor-qizining-filologiya-fanlari-doktori-dsc-dissertaciyasi-himoyasi-togrisida_938778",
-   "title": "Mirzayeva Zulxumor Abdukaxor qizining filologiya fanlari doktori (DSc) dissertatsiyasi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-16T13:41:02.611315+00:00",
    "url": "https://uza.uz/oz/posts/hayotova-dilafroz-zoyirovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938784",
@@ -8468,47 +8452,43 @@
    "t": "2026-11-17T05:30:57.294583+00:00",
    "url": "https://uza.uz/oz/posts/kasimov-abdumavlon-nasirovichning-sociologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938940",
    "title": "Kasimov Abdumavlon Nasirovichning sotsiologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T05:35:40.809210+00:00",
+   "url": "https://uza.uz/oz/posts/shodmonova-zilola-bozorovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938945",
+   "title": "Shodmonova Zilola Bozorovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T05:35:48.396895+00:00",
+   "url": "https://uza.uz/oz/posts/shodmonova-zilola-bozorovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938946",
+   "title": "Şodmonova Zilola Bozorovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-17T05:35:56.158000+00:00",
+   "url": "https://uza.uz/oz/posts/hoshbaqova-nasiba-nurqobil-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_938951",
+   "title": "Xo‘shbaqova Nasiba Nurqobil qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T05:36:03.921526+00:00",
+   "url": "https://uza.uz/oz/posts/xoshbaqova-nasiba-nurqobil-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_938952",
+   "title": "Xöşbaqova Nasiba Nurqobil qizining filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
+  "found": 4,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 4,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-17T05:31:01.332238+00:00",
+ "last_run": "2026-11-17T05:36:07.932102+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u927352": {
-   "m": 3386,
-   "p": 1,
-   "f": 3387,
-   "d": "2026-10-24"
-  },
-  "u927354": {
-   "m": 3388,
-   "p": 1,
-   "f": 3389,
-   "d": "2026-10-24"
-  },
-  "u927356": {
-   "m": 3390,
-   "p": 1,
-   "f": 3391,
-   "d": "2026-10-24"
-  },
-  "u927358": {
-   "m": 3392,
-   "p": 1,
-   "f": 3393,
-   "d": "2026-10-24"
-  },
   "u927360": {
    "m": 3394,
    "p": 1,
@@ -26484,7 +26464,31 @@
    "p": 1,
    "f": 10004,
    "d": "2026-11-17"
+  },
+  "u938945": {
+   "m": 10005,
+   "p": 1,
+   "f": 10006,
+   "d": "2026-11-17"
+  },
+  "u938946": {
+   "m": 10007,
+   "p": 1,
+   "f": 10008,
+   "d": "2026-11-17"
+  },
+  "u938951": {
+   "m": 10009,
+   "p": 1,
+   "f": 10010,
+   "d": "2026-11-17"
+  },
+  "u938952": {
+   "m": 10011,
+   "p": 1,
+   "f": 10012,
+   "d": "2026-11-17"
   }
  },
- "vault": "gAAAAABq--aVbd9SMNY3886QuXNIK7VUUAU7kdatZctdFD-rznfM_93ZM2zLO-xBXYPwVKzEL0qfrt_4h0K-JfjxO2VikPruE3B0XqtH3CcCFRpn73DDaiAIXG3dmHQecrt5kcn8QBWCwRS-_7Jpptl-5NYDQsVnSsykhMOc3LRttIlfoFC8n2_AFzDBNRuPRQBr5szTpVUCDxuYrinAkqCIGILC4DTMbVFpzt3pHHms13gRnAHQ02PksbB-4ShcL7h8DhQU9UW6yJq6Pt05dMrXwHOcg1t941xpXzsHA6CLt6iV7wN7_-LqPgtEH0nuitCnonB2_kBcnYV32LYg8uKPTwdQkH40YvaCcUTh3rmkVZYQ8fuQdU4ToUQx6Blj6Xk0RTANGCzzxXiSw3RRGVnDyXb_cWR4srz0-GbhqZKKrFJUaHcJPyKbyVAwU15kx19U0KfqsJP7VFl2vf-z-8BNtFE3RoUJFIWGoKELwXQsxh9HsMzEeNqnlabzwrPUmyL24sZKa0g3d0xMzLFRB8M1Mtdrq6saa3mgmbjLhOXJTLy3K1BVc4NXCJAEHTy2tokeIi4_QFgNcMW1HYXeo4-1roBLLSMrHmW5PaPQhgPL8W1erZPuawiez_bw9WO_6DiHqYH88hy66OTE0ZxAgCQNRcmWplZPtDVJJ59wNRfc-LkRCPjujD6fna-UrkrCXukG4yhGDqGRlCRn1cWyfE8VLhy5yLJtDhF0nv79FApsSukVM-okCEAyCJYTiLa4se-vWD9nUso3RKvtv_p5Xf6cl247-zEmERwWngrpp4RH4xRK7FixUM-as-hR79nXFrQIFMpLH2pQxVLalu9_cu7W17QaJwqGRiDJzRWjDs6j3QXdwl1E8D7HQvt1WIYAwBiz5opHx-Tb-mN_ZdsVB1ogF-jYLtKgn9BNCAj1pcqgYpGwFrFYyDM="
+ "vault": "gAAAAABq--fH3B_K-7jTF2iq8vGx0XY2swV3OWYMIhRC8IgpLx0mL35H6z-QGu9QXlYR1n81CyEo1d5nB8Atl6JtCpFxbZURRIMxbqSYHbUH8FmCjiJ5XYtqDeNwiHDiwlgw6whCm2RKUTrscg-LANz-QjTkKlJKx2J6jitCzGFuV_eLQjA2X4xdyo8xf8zWd-VarqU4dCqXB1idSdEnCX0cRM1o0D-OeumRnM355hJb-aYs0B3RRVFZH5MUiz78rBma_3S-w3YA13qGNUY5j050VTM0QUtV4BTBRJg5x8CYNNxQqa9Ul1WCNnmgWEpBGw5w7-tIaUXMbtTI1OODi_QEqNirw-hnmDXqLm5CPfi6ybLkLeISujyO1EhsDrwscoqo0JGPu9fXyeYx5Z_IfLA7v9yd2nlgHZ5z7kJb8XSNvfuRFmudRsrLbXqPjBjVkcpsM1dTXYa8WtpvJRcA0FFiEEgGDAj-B4mCRlD6roQG4NR-PhWCr-1LU1ki_0AUxuMjecfxPE5caOwaztbMQC58wZREGCPs8mrV2NlGGAq5xnDGNmx7Kgo4w5R-t9VzfgJwnKxqUbSesaP6ViyBDz2DsSKy26a6Y71SiW1vaD5yyE_AMURp6o6vUI5u6haSpvFrd4D7vp3T00qyVXFTc0dtYIno_WF4vaxtVMNcFHcsMwHxJ42MjFcoyntBIRNLF-jRbuoobOyd1CVLUvSr1jZ8hzFhIey3xTPm2rag6f4JTXbxxpvAG8sBJIFRaaTLVGV1p2_wd3WahvNdJpJlHaeQuqK8Amx5IGJzeyXXWxgZ_jvHXKElCpUXqKwqDRaujWxivRVK74HPVzJW0xI6JVICwHSB9Ulku8-IFCw1_5o2Sfjmm3Hbzy4pn17UwsOUZe03-1uti_EJ3M6w7jshc70vhaNs93xra9DxbOq4oRc0dHpE3Hd3B8A="
 }
