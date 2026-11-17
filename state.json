@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  925951,
-  925952,
   925953,
   925954,
   925958,
@@ -6021,7 +6019,9 @@
   939260,
   939261,
   939262,
-  939263
+  939263,
+  939267,
+  939268
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8497,22 +8497,14 @@
   "jarilkasinova gulnaz|PhD": "2026-11-17",
   "palvanova sevara|PhD": "2026-11-17",
   "yoldosheva zubayda|PhD": "2026-11-17",
-  "zokirova gulruh|PhD": "2026-11-17"
+  "zokirova gulruh|PhD": "2026-11-17",
+  "toraqulova marjona|DSc": "2026-11-17",
+  "t raqulova|DSc": "2026-11-17"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-17T09:00:54.030662+00:00",
  "recent": [
-  {
-   "t": "2026-11-17T09:35:54.109592+00:00",
-   "url": "https://uza.uz/oz/posts/norbekova-gulrux-husan-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939239",
-   "title": "Norbekova Gulrux Xusan qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-17T09:36:04.396552+00:00",
-   "url": "https://uza.uz/oz/posts/nurgalieva-janar-sarsengalievnaning-veterinariya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939241",
-   "title": "Nurgaliyeva Janar Sarsengaliyevnaning veterinariya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-17T09:41:00.543781+00:00",
    "url": "https://uza.uz/oz/posts/alikulov-zoxid-inadulla-oglining-veterinariya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939243",
@@ -8552,35 +8544,33 @@
    "t": "2026-11-17T09:46:16.922362+00:00",
    "url": "https://uza.uz/oz/posts/zokirova-gulrux-raxmatillaevnaning-farmacevtika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939262",
    "title": "Zokirova Gulrux Raxmatillayevnaning farmatsevtika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T09:50:52.247784+00:00",
+   "url": "https://uza.uz/oz/posts/toraqulova-marzhona-qiyom-qizining-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_939267",
+   "title": "To‘raqulova Marjona Qiyom qizining pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T09:50:59.898020+00:00",
+   "url": "https://uza.uz/oz/posts/toraqulova-marjona-qiyom-qizining-pedagogika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_939268",
+   "title": "Töraqulova Marjona Qiyom qizining pedagogika fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 2,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 4,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-17T09:46:20.956643+00:00",
+ "last_run": "2026-11-17T09:51:03.912916+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u927967": {
-   "m": 3554,
-   "p": 1,
-   "f": 3555,
-   "d": "2026-10-26"
-  },
-  "u927976": {
-   "m": 3556,
-   "p": 1,
-   "f": 3557,
-   "d": "2026-10-26"
-  },
   "33773": {
    "m": 3558,
    "p": 1,
@@ -26568,7 +26558,19 @@
    "p": 1,
    "f": 10173,
    "d": "2026-11-17"
+  },
+  "u939267": {
+   "m": 10174,
+   "p": 1,
+   "f": 10175,
+   "d": "2026-11-17"
+  },
+  "u939268": {
+   "m": 10176,
+   "p": 1,
+   "f": 10177,
+   "d": "2026-11-17"
   }
  },
- "vault": "gAAAAABq_CJsYkj__gqr9FdNs0cilnRoFl0ao_hgrnlQwJg3UIU_kZYNvqClXF-E5CVg6q0GImLHP1DYvdgpTVcfzO8oK2nHxhyYgtdLzFP1bc2OfpHKiDrB2qr_gN2rxmuHQ8JeNqJ9OcO8dP3QHbORlOdmIRm36K9o6mf3HMwvh9HuH-jGvPgpYuMczkFSy0aIuR7Bbq4ulhpYpcXGh7TCRla376qDlxt1ODV6mbaAHDYxyITAmTLlsryHrOWmJU1tg2sgDnXHnM_gGXUOy_QZHkJycTxxyUKbAJRGstinvQRFuYepGeGNXYAwVD0XJFc_Yk8zhoTMxpFPSNRFp1OLrp-uqhbNHwnI_1GW0ZIHaxxl8SRwIkHKVmb2E_s0ak3LmzhbQ_t_ZZnkaCEqYpZwP34TF50QZ2KnjvzVIRsPkQfMd0HDh3gUK577pD5ANYt06fe05_kJt_3XfpkvdffGNl1JeV9HWKcruceUw92enrdK408DfjBHH-velaHWoIEVTA0Y1t5rPC3e698aiCNTnc-XERp4cNWMkvphrAqt7UIExScm7349iqLpYcXqEoh-eOiPqqpoFTpeoXhoXyrQUdWr3TKuNQKuAiVKnx8VCUYYiHMt1y_SN4tx3Aq9CaIwAtRt-g90spjOac1B3STIJYG6fUt_tjp7XwlKS2ZopYQGWXM87SxtLf3mXtVTC1Fz3J1Xelp9tS0uviNQZXBeO4KPAHQatf6a6pTwTkM9S2p8KvjPp_CgQx0ccB2AOSgYImHVlZpbkZ4rpZvFdJfvNS63m8pOip0gSOMH6ME16-xsG5IK0fCzXbPH7vRGCyq3hwm4t8JWoIV9pJ-mn-Ad0W0uTkxsufYvmRFjLgXfR9crJekeVykZWniNZha7KyLJLvn6uX8xfxJZ6ZY9EfQWQ8xRKWhrb-zWigS1S9oHXE8mVY-SHwE="
+ "vault": "gAAAAABq_COHH_3xQ3MJNk-GQHQ8WKuufGeONMXlrWsFlAjnHJU4EvgAinbFP3O6GB41jKCFGoew2DO8O01zBNEFcJupmFeMHMmbCrstZ3QslLA6Z40ATUYau1ee5XD3g04zJVG5qOi5jWPPRhoX1Stco42QdZpXwut1u_xg5rhq4ba08hvA-Lr8GkULnIcY_eSPntRSGpTRDB1A22xEiKaPQA_brt-IOdnuI54xbuCIwyIA9OMWsIFRGmWz9WxIpsW5CpF-tsF7XK52NZgy0JIZsAsCTum_9w87jqHE1tLVRpaqhXpJIb4Y1vs4TeM1V7tXG0Vc5ZvPQ5yUTHUuSP4RwQS2-iC1bEmF2WoBpITKnkoLkP9BrigWbCOcxFZPjSmB-I54Cr1ABC1EPvKBzMw-QK8csoo70vZmI0RicTKffQ3xK7Zhb-KWegrm3ZwVLYNgf4uNBfwsPYc8LFCXoPFy87dlojgXXhYqGBUg0oAlnndTbhJz9Ex-of3I1wyRs1CQGygpeSeugCnMxiSd6hA8CmbS1k8cJBwYI4QMu8ZRFWQi0iqWCs04Nc_nMXsM2xlWbvN3imseyaETUoWhSqQWGO7Nuf05c3PpWRj4f8i6qV6CDz2noMA1YS4Ulu4UlAAHTEjinhDqKlQ50Wm0XBuzefyaJ6qfHS1AzyEtfsFDAJtmi84M0WIEDd7iLdY_E4lOys5_4twbawN2P0ml-VwW_re8hN_docafoMNXfPbcrAYa5exjKlPnlOqtOGIHYmoRbGFP0P0U_NZmsPhX_1Kexb4tYtD12A9OYWTw8cFEp1hKVO0LXMnMyj6p8f9ydMBW0_OHbnwNs02wDpIrvOs49H8-faWCHG6sjshhg_z2tFcw1-s8ldPBM2LgswUvfRVlBElMeEcw2qsyTly6M16KBQZuoGvOEN67s-8FydwhgfUBAlyXVs8="
 }
