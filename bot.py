@@ -353,6 +353,9 @@ def council_name(value: str) -> str:
     """'TDIU, DSc.03/2025.27.12.I.16.01' -> 'TDIU';
     'DSc.03/... raqamli ilmiy kengash qoshidagi ... (TDIU)' -> nomi saqlanadi, raqam olib tashlanadi"""
     before = COUNCIL_CODE_RE.split(value, 1)[0].strip(" ,.;:")
+    # "... huzuridagi (fan doktori) ilmiy darajalar beruvchi" qo'shimchasini olib tashlaymiz
+    before = re.sub(r"(?:,\s*[A-ZА-Я]\w*)?\s+huzuridagi\s+(?:fan doktori\s+|falsafa doktori\s+)?ilmiy\s+"
+                    r"daraja\w*\s+beruvchi.*$", "", before, flags=re.IGNORECASE).strip(" ,.;:")
     if len(before) >= 5:
         return before
     cleaned = COUNCIL_CODE_RE.sub("", value)
@@ -374,6 +377,8 @@ def extract(item: dict) -> dict:
 
     m = NAME_RE.search(title)
     info["name"] = m.group(1).strip() if m else ""
+    if item.get("person"):                        # yangi OAK API'si ismni alohida beradi
+        info["name"] = to_latin(item["person"]).strip()
 
     fm = FIELD_LAT_RE.search(summary)
     if fm:
@@ -1169,7 +1174,7 @@ def make_pdf(item: dict) -> bytes | None:
     paragraphs = []
     container = None
     try:
-        if item.get("content_html"):              # UzA: matn API'dan keladi
+        if item.get("content_html"):              # UzA va yangi OAK sayti: matn API'dan keladi
             container = BeautifulSoup(INVISIBLE_RE.sub("", item["content_html"]), "html.parser")
             _drop_comments(container)
         else:
@@ -1441,9 +1446,14 @@ def repair_pdfs(max_uploads: int = 150) -> None:
 
 def enrich(item: dict) -> None:
     """Ma'lumotlarni ro'yxatdagi qisqa matndan emas, e'lonning to'liq sahifasidan olamiz."""
-    if item.get("full") or item.get("source") == "uza":
+    if item.get("content_html") or item.get("source") == "uza":
         return
     try:
+        if item.get("api"):                       # yangi OAK sayti: tafsilot API'dan
+            got = oak_detail(item["id"])
+            if got:
+                item.update({k: v for k, v in got[0].items() if k in ("full", "content_html", "summary")})
+            return
         el = fetch_detail(item)
         if el is not None:
             item["full"] = clean_text(copy.copy(el))
@@ -1638,48 +1648,139 @@ def migrate_skipped(seen: set[int]) -> None:
         log.warning("Git tarixidan o'qib bo'lmadi (%s) — eski o'tkazib yuborilganlar qo'lda yuboriladi", e)
 
 
+# ======================= OAK (oak.uz) — yangi sayt API'si =======================
+# 12.11.2026 dan OAK yangi saytga o'tdi: e'lonlar JSON ko'rinishida /api/elonlar orqali beriladi.
+# Eski e'lonlar raqami (32xxx) saqlangan, yangilari 1000000 dan boshlanadi.
+OAK_API = BASE + "/api/elonlar"
+OAK_LISTS = {8: "/page/8", 31: "/page/31"}        # API ro'yxat raqami → bo'lim (SOURCES kaliti)
+OAK_DEEP_DAYS = int(os.environ.get("OAK_DEEP_DAYS", "3"))   # soatlik chuqur tekshiruv (OAK kuniga ~130 e'lon)
+# Yangi o'zbek lotin alifbosidagi harflar → kanaldagi odatiy yozuv
+NEW_ALPHA = {"Ş": "Sh", "ş": "sh", "Ç": "Ch", "ç": "ch", "Ö": "O‘", "ö": "o‘", "Ğ": "G‘", "ğ": "g‘"}
+
+
+def oak_norm(text: str) -> str:
+    text = INVISIBLE_RE.sub("", text or "").replace("\xa0", " ")
+    for a, b in NEW_ALPHA.items():
+        text = text.replace(a, b)
+    return re.sub(r"[ \t]{2,}", " ", text).strip()
+
+
+def oak_get(path: str, params: dict | None = None) -> dict:
+    """OAK API'dan JSON oladi (3 marta urinadi)."""
+    last = ""
+    for i in range(3):
+        try:
+            r = _session.get(BASE + path, params=params, timeout=40,
+                             headers={"Accept": "application/json"})
+            if r.status_code == 404:
+                return {}
+            r.raise_for_status()
+            return r.json()
+        except (requests.RequestException, ValueError) as e:
+            last = str(e)
+            log.warning("OAK API (%s/3) %s: %s", i + 1, path, e)
+            time.sleep(4 * (i + 1))
+    raise RuntimeError(f"OAK API ochilmadi: {path} — {last}")
+
+
+def oak_item(raw: dict) -> tuple[dict, str]:
+    """API'dagi e'lonni bot tushunadigan ko'rinishga keltiradi."""
+    fields = raw.get("fields") or []
+    summary = "\n".join(f"{oak_norm(f.get('label', '')).rstrip(':')}: {oak_norm(f.get('value', ''))}"
+                        for f in fields if f.get("value"))
+    pid = int(raw["id"])
+    href = raw.get("href") or f"/himoya-elonlari/{pid}"
+    item = {"id": pid, "title": oak_norm(raw.get("title", "")).rstrip(" ."), "date": raw.get("date", ""),
+            "summary": summary, "person": oak_norm(raw.get("person", "")), "url": BASE + href, "api": True}
+    if raw.get("sections") is not None:          # to'liq tafsilot (ma'lumotnoma uchun)
+        item["full"] = summary
+        item["content_html"] = oak_detail_html(raw)
+    section = SOURCES.get(OAK_LISTS.get(int(raw.get("list") or 8), "/page/8"), SOURCES["/page/8"])
+    return item, section
+
+
+def oak_detail_html(d: dict) -> str:
+    """Ma'lumotnoma (PDF) uchun e'lon matni: umumiy ma'lumotlar va bo'limlar."""
+    e = lambda t: html.escape(oak_norm(t), quote=False)  # noqa: E731
+    parts = []
+    if d.get("generalTitle"):
+        parts.append(f"<p><strong>I. {e(d['generalTitle'])}.</strong></p>")
+    for f in d.get("fields") or []:
+        if f.get("value"):
+            parts.append(f"<p><strong>{e(f.get('label', '')).rstrip(':')}:</strong> {e(f['value'])}</p>")
+    roman = ["II", "III", "IV", "V", "VI", "VII", "VIII"]
+    n = 0
+    for sec in d.get("sections") or []:
+        title = sec.get("title") or ""
+        if title:
+            parts.append(f"<p><strong>{roman[n] if n < len(roman) else ''}. {e(title)}:</strong></p>")
+            n += 1
+        for para in sec.get("paragraphs") or []:
+            if isinstance(para, str) and para.strip():
+                parts.append(f"<p>{e(para)}</p>")
+    return "\n".join(parts)
+
+
+def oak_detail(pid: int) -> tuple[dict, str] | None:
+    d = oak_get(f"/api/elonlar/{pid}")
+    return oak_item(d) if d.get("id") else None
+
+
+def oak_alert_failure(err: str) -> None:
+    """OAK sayti o'zgarib, bot e'lon topa olmasa — adminga kuniga bir marta xabar."""
+    last = STATE.get("oak_fail_alert", "")
+    if last < (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat():
+        STATE["oak_fail_alert"] = datetime.now(timezone.utc).isoformat()
+        alert_admins("⚠️ <b>OAK saytidan e’lonlarni o‘qib bo‘lmayapti.</b>\n\nSayt yana o‘zgargan bo‘lishi mumkin. "
+                     "UzA e’lonlari chiqishda davom etadi.\n\nXato: <code>" + html.escape(err[:250]) + "</code>")
+
+
 def collect(seen: set[int], deep: bool, full: bool = False) -> list[tuple[dict, str]]:
-    """Kanalda hali chiqmagan, START_DATE dan keyingi e'lonlarni yig'adi.
-    Oddiy tekshiruv: har bo'limning 1-3 sahifasi.
-    Chuqur tekshiruv: START_DATE gacha (ko'pi bilan DEEP_DAYS kun) barcha sahifalar —
-    kech joylangan, eski sanali e'lonlarni ham topish uchun."""
+    """OAK'dagi kanalda hali chiqmagan, START_DATE dan keyingi e'lonlarni yig'adi (yangi sayt API'si).
+    Oddiy tekshiruv: har ro'yxatning 1-3 sahifasi (ko'p yangi e'lon bo'lsa — tanish e'longacha).
+    Chuqur tekshiruv: oxirgi OAK_DEEP_DAYS kun (navbat bo'lsa — DEEP_DAYS). To'liq: START_DATE gacha."""
     start = parse_date(START_DATE) or date(2000, 1, 1)
-    # To'liq tekshiruv — boshlanish sanasigacha; chuqur — ko'pi bilan DEEP_DAYS kun orqaga
-    bound = start if full or not deep else max(start, today_uz() - timedelta(days=DEEP_DAYS))
-    limit = FULL_MAX_PAGES if full else DEEP_MAX_PAGES
+    days = DEEP_DAYS if STATE.get("backlog") else OAK_DEEP_DAYS
+    bound = start if full or not deep else max(start, today_uz() - timedelta(days=days))
+    limit = FULL_MAX_PAGES if full else DEEP_MAX_PAGES * 2
     found = {}
-    for path, section in SOURCES.items():
+    for lst in OAK_LISTS:
         for page in range(1, limit + 1):
-            url = f"{BASE}{path}" + (f"?page={page}" if page > 1 else "")
             try:
-                items = parse_list(fetch(url))
+                rows = (oak_get("/api/elonlar", {"list": lst, "page": page}) or {}).get("items") or []
             except RuntimeError as e:
                 log.error(e)
+                if page == 1 and lst == 8:
+                    oak_alert_failure(str(e))
                 break
-            if not items:
-                if page == 1:
-                    log.warning("%s sahifasida e'lon topilmadi — sayt tuzilishi o'zgargan bo'lishi mumkin", url)
+            if not rows:
+                if page == 1 and lst == 8:
+                    oak_alert_failure("e’lonlar ro‘yxati bo‘sh keldi")
                 break
-            known = 0
-            for i in items:
-                d = parse_date(i["date"])
-                if i["id"] in seen:
+            if lst == 8 and page == 1:
+                STATE.pop("oak_fail_alert", None)            # ishlayapti
+            known, dates = 0, []
+            for raw in rows:
+                try:
+                    it, section = oak_item(raw)
+                except Exception as ex:  # noqa: BLE001
+                    log.warning("OAK e'loni o'qilmadi (%s): %s", raw.get("id"), ex)
+                    continue
+                d = parse_date(it["date"])
+                if d:
+                    dates.append(d)
+                if it["id"] in seen:
                     known += 1
                     continue
-                if (d is not None and d < start) or (d is None and page > 1):
+                if d is not None and d < start:
                     continue
-                found.setdefault(i["id"], (i, section))
-            dates = [parse_date(i["date"]) for i in items if parse_date(i["date"])]
+                found.setdefault(it["id"], (it, section))
             if dates and min(dates) < bound:      # chegaradan o'tdik
                 break
-            # Oddiy tekshiruvda 3-sahifadan keyin ham davom etamiz, agar sahifadagi e'lonlarning
-            # birortasi ham tanish bo'lmasa — demak qisqa vaqtda juda ko'p e'lon joylangan
+            # Oddiy tekshiruvda 3-sahifadan keyin faqat sahifadagi hamma e'lon yangi bo'lsa davom etamiz
             if not deep and page >= MAX_PAGES and known > 0:
                 break
-            if not deep and page >= MAX_PAGES:
-                log.info("%s: %d-sahifada ham hammasi yangi — keyingi sahifani tekshiramiz", path, page)
-            if deep:
-                time.sleep(0.4)                   # saytga ortiqcha yuk bermaslik uchun
+            time.sleep(0.25)                      # saytga ortiqcha yuk bermaslik uchun
     # Eskidan yangiga: avval sana, keyin raqam bo'yicha
     return sorted(found.values(),
                   key=lambda x: (parse_date(x[0]["date"]) or date.max, x[0]["id"]))
@@ -1694,38 +1795,8 @@ MANUAL_RUN = os.environ.get("GITHUB_EVENT_NAME", "") == "workflow_dispatch"
 
 
 def item_from_page(pid: int) -> tuple[dict, str] | None:
-    """E'lonni to'g'ridan-to'g'ri o'z sahifasidan o'qiydi (qo'lda yuborish uchun)."""
-    url = f"{BASE}/pages/{pid}"
-    soup = BeautifulSoup(fetch(url), "html.parser")
-    _drop_comments(soup)
-
-    section = SOURCES["/page/8"]
-    title, date_s = "", ""
-    bc = soup.select_one("[class*=breadcrumb]")
-    if bc:
-        if bc.find("a", href=re.compile(r"/page/31\b")):
-            section = SOURCES["/page/31"]
-        lis = bc.find_all("li") or [bc]
-        last = lis[-1].get_text(" ", strip=True)
-        dm = DATE_RE.search(last)
-        date_s = dm.group(1) if dm else ""
-        title = DATE_RE.sub("", last).replace("()", "").strip()
-
-    best = None
-    for el in soup.find_all(["div", "article", "section", "td", "main"]):
-        low = el.get_text(" ", strip=True).lower()
-        if ("мавзуси" in low or "mavzusi" in low) and (best is None or len(low) < best[0]):
-            best = (len(low), el)
-    if not best:
-        log.error("%s sahifasida e'lon matni topilmadi", url)
-        return None
-    lines = clean_text(copy.copy(best[1])).split("\n")
-    start = next((n for n, l in enumerate(lines) if "мавзуси" in l.lower() or "mavzusi" in l.lower()), 0)
-    summary = "\n".join(lines[start:start + 12])
-    if not title:
-        title = " ".join(lines[:start]).strip() or f"E’lon №{pid}"
-    title = re.sub(r"\s+", " ", scrub(title))
-    return {"id": pid, "title": title, "date": date_s, "summary": summary, "url": url}, section
+    """OAK e'lonini raqami bo'yicha (yangi sayt API'sidan) oladi — qo'lda yuborish uchun."""
+    return oak_detail(pid)
 
 
 def is_silent(item: dict) -> bool:
@@ -2214,7 +2285,8 @@ def run_once() -> None:
                 log.info("Shu saytda takror e'lon — o'tkazib yuborildi: %s", item["url"])
                 dups += 1
             else:
-                res = publish(item, section, silent=is_silent(item))
+                # Navbat katta bo'lsa (masalan, sayt o'zgargandan keyin to'planib qolgan e'lonlar) — ovozsiz
+                res = publish(item, section, silent=is_silent(item) or len(items) > 20)
                 note_post(item)
                 remember_post(item, res)
                 notify_watchers(item, res)
