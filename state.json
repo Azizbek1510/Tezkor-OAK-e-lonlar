@@ -3022,11 +3022,6 @@
   }
  },
  "seen_uza": [
-  926268,
-  926270,
-  926271,
-  926273,
-  926274,
   926275,
   926276,
   926281,
@@ -6021,7 +6016,12 @@
   939506,
   939508,
   939509,
-  939511
+  939511,
+  939512,
+  939514,
+  939515,
+  939516,
+  939517
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8543,22 +8543,14 @@
   "hojabaev nurmahambet|PhD": "2026-11-17",
   "tohirova nigora|PhD": "2026-11-17",
   "abdunazarova nodira|PhD": "2026-11-17",
-  "joraeva surayyo|PhD": "2026-11-17"
+  "joraeva surayyo|PhD": "2026-11-17",
+  "muhiddinova nilufar|": "2026-11-17",
+  "sadriddinova nigora|PhD": "2026-11-17"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-17T13:00:45.816711+00:00",
  "recent": [
-  {
-   "t": "2026-11-17T12:11:27.166474+00:00",
-   "url": "https://uza.uz/oz/posts/mirzayeva-shaxnoza-mamat-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_939455",
-   "title": "Mirzayeva Şaxnoza Mamat qizining iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-17T12:11:35.489975+00:00",
-   "url": "https://uza.uz/oz/posts/halmatova-dilobad-alimzhanovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939457",
-   "title": "Xalmatova Dilobad Alimjanovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-17T12:15:49.290839+00:00",
    "url": "https://uza.uz/oz/posts/tangatarova-soxibzhamol-abdullaevnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939459",
@@ -8598,6 +8590,16 @@
    "t": "2026-11-17T13:02:02.140848+00:00",
    "url": "https://uza.uz/oz/posts/joraeva-surayyo-ibragimzhonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939511",
    "title": "Jo‘rayeva Surayyo Ibragimjonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T13:05:46.806014+00:00",
+   "url": "https://uza.uz/oz/posts/muxiddinova-nilufar-baxodirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-himoyasi-togrisida_939514",
+   "title": "Muxiddinova Nilufar Baxodirovnaning pedagogika fanlari bo‘yicha falsafa doktori (phd) dissertatsiyasi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T13:05:55.363180+00:00",
+   "url": "https://uza.uz/oz/posts/sadriddinova-nigora-junaydulla-qizining-texnika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939516",
+   "title": "Sadriddinova Nigora Junaydulla qizining texnika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -8605,28 +8607,16 @@
  "counts": {
   "found": 5,
   "found_oak": 0,
-  "posted": 3,
-  "dups": 2,
+  "posted": 2,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-17T13:02:06.155219+00:00",
+ "last_run": "2026-11-17T13:05:59.400082+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33802": {
-   "m": 3646,
-   "p": 1,
-   "f": 3647,
-   "d": "2026-10-26"
-  },
-  "u928032": {
-   "m": 3648,
-   "p": 1,
-   "f": 3649,
-   "d": "2026-10-26"
-  },
   "u928034": {
    "m": 3650,
    "p": 1,
@@ -26614,7 +26604,19 @@
    "p": 1,
    "f": 10269,
    "d": "2026-11-17"
+  },
+  "u939514": {
+   "m": 10270,
+   "p": 1,
+   "f": 10271,
+   "d": "2026-11-17"
+  },
+  "u939516": {
+   "m": 10272,
+   "p": 1,
+   "f": 10273,
+   "d": "2026-11-17"
   }
  },
- "vault": "gAAAAABq_FBO-HAV8q8YO6fmxDxta1t1tLidKvCIbhs2N0ScX76ex_kQujzsKCI6pXsRsc0Y5EJDkGaYLK53HHH3rgp6FjMxUOtJFSRsfbRpwhau8KQDHlkWJuDoA-2x7GEWiZOmQbyjgUITO2P0ikJUtr9js56rfBZZzeGK2VOXBxfi2q9v9cMhERf7nlI0_i0fGCyN6Ah4kYkOPFaDdsdHbsgm3_aN6A22g6HAb6J2RcwXPA46dOZJDX5VYumQskR97N0m6MrmLFy6Egi9f5w1VBkACYpBi-VHf-vW_n9ynywlHEJVs9Xn8VkmlTgmgFJ45UlbD0lhEzx8fKajzUulBwaKwGtrjlpHOg7qmxA5aZYrX_MnxGjFe9wKB3cKP_TVsplFhrRZ1wgbBohJdf9PIhS0KWH1Gm4pEtE6XH0JSTnagqb04CJXSKglym-9FACo90XKLkwYEBgtU1yfKN3VBMchi3S3D-piM3vdp4eKBnEEB2s_5SlLcSfSMjkVXy6bhnxwwLgFDRn7GRm9ltTeuv9-qn2auw7beaGLaUmvPID9JyRVhB88YTZG11LAsaFI_FBgZbKZruUJZfherQmMLOgh7Em52zJw_7zBZNWudMG7whhd2iks4XH2wfBVcWxv6Wuw9QO86TGS85XuvXA5j0O-iW95j9dEJkgZZW15SVj3BpO7f1CAbegR6R3BU5PpOH6a-Lv2ZlhxASssrmyuc1SnT2HO4wZjbyKesFeT4OxDZGZtrr2ONbkzO5JGOIF4Q3GQmDaEbrzhvBNxMPpKzd_ZX6C4TLu1HCBjYeXOcEiUQTeuRxjdK3VWu1O_YMqjpYbzeVR8GIJE4ts_J8BMbGMLtr3BHqeif-ThfFlW5DuXMCAtzccwjAmmUvSA_VY-Z-FEvHfKi0g2g9FJEiSE3c6RtOgGZ3yFKFXFekwMRaPRBfwWdW4="
+ "vault": "gAAAAABq_FE3fbQl9pD9xZE6nG-v0D01IOwH2CNU6F6nXWO5sc8kIBZdzAzQIixAujVsFRYerh9SLAuLcuCoDxzUbbAX-V7QSidPvbtp7jUvv4Uq-Y5u56ypOzloIt6KTxkw5bcHA4jq8f93xh7hHQxFFWOB6cTgMhvrfydgcQIQMf86Mfvs1A7A3LPsGKai5lnmbk90-v3APL2hd2yELuAHV9-sqhss2X7slxCBniz_FWW8kzCz9NKs4Ityeo4ng20MPDvr9cpowTgRvDdfeg0tYh_YiU1EVycW41MuD3_nWuYQQt-svglPvHaLhuC-VaFm8IqJiVayFUfLz738ExlfmgJ-mu1VLLxWoeGnDbZwiVJHXjpegSA2WqgSdzUGr6kucCnZ1NctStdUBCalhCq1WyVg1srljN8RWTaBXQgw69VMbKXOFBllFW--ob8TYMAeKa2pLMjnh8QqkTQy_tjWxTj_FT1yurSzlCezjzQw5bWhgR1Y56mgFoY9wkooDYzKtCCb85fvagDokmiQ3m5lB6hmxugtdm0h3d5t9OL3hDiY39XzVmTRmaPNYzKqCw1AQAuO_jchw9PO7G9BXmX8yIOALS04HBblPmKeU5rCzys5OhmJgR1hvZj0dHToKKPa5rxxoMUuzEv8_atao05ygW0PB18M-FyboG_8E2xruzNDFAIJBrtvJSOXvBpOzkTOwr8dVjbB2YJu9rYTrZShcBPrTNR-lruSg2O-6IO92BDNVLhlZBPARjJErNJPaQY-6LoN_zccmDgpTScvTiY4bSyhqnNTIhUGOX_pCQx1OLdqxslDC395wWvwtfq-CDVGQLliJ9QLVUmkQnAmV6-RYoocu1xUG-G_e2IL-R0qMis-fk-gX_FxEabLGMnAbipYdtlfZ_F3WIMt2qQKOxLbscm9kAqHg5j3SPkHpUTv6sR9Yx82gbA="
 }
