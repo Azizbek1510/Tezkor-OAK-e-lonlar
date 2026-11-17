@@ -3022,10 +3022,6 @@
   }
  },
  "seen_uza": [
-  926559,
-  926565,
-  926566,
-  926567,
   926568,
   926569,
   926570,
@@ -6021,7 +6017,11 @@
   939563,
   939564,
   939565,
-  939566
+  939566,
+  939567,
+  939568,
+  939569,
+  939570
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8563,27 +8563,15 @@
   "temirov ali|PhD": "2026-11-17",
   "kazakov shavkat|PhD": "2026-11-17",
   "kazakov avkat|PhD": "2026-11-17",
-  "ataullaev azizjon|DSc": "2026-11-17"
+  "ataullaev azizjon|DSc": "2026-11-17",
+  "holmatov shohjahon|PhD": "2026-11-17",
+  "holmatov ohjahon|PhD": "2026-11-17",
+  "mamaradjapova dilorom|DSc": "2026-11-17"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-17T14:00:51.280252+00:00",
  "recent": [
-  {
-   "t": "2026-11-17T13:45:47.679829+00:00",
-   "url": "https://uza.uz/oz/posts/tursunboeva-kamola-ilhomzhon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciyasi-himoyasi-togrisida_939545",
-   "title": "Tursunboyeva Kamola Ilhomjon qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiyasi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-17T13:50:52.825907+00:00",
-   "url": "https://uza.uz/oz/posts/jumadullaeva-durdona-shuxrat-qizining-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939547",
-   "title": "Jumadullayeva Durdona Shuxrat qizining iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-17T13:55:45.803835+00:00",
-   "url": "https://uza.uz/oz/posts/gafurova-nigora-sadullaevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939552",
-   "title": "G‘afurova Nigora Sa’dullayevnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-17T13:55:54.122275+00:00",
    "url": "https://uza.uz/oz/posts/gafurova-nigora-sadullayevnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_939553",
@@ -8618,6 +8606,21 @@
    "t": "2026-11-17T14:06:16.267970+00:00",
    "url": "https://uza.uz/oz/posts/ataullaev-azizzhon-odilovichning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_939565",
    "title": "Ataullayev Azizjon Odilovichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T14:10:50.783264+00:00",
+   "url": "https://uza.uz/oz/posts/holmatov-shoxzhaxon-alisher-uglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-ximoyasi-togrisida_939567",
+   "title": "Xolmatov Shoxjaxon Alisher uglining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi ximoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-17T14:10:58.844343+00:00",
+   "url": "https://uza.uz/oz/posts/xolmatov-shoxjaxon-alisher-uglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-ximoyasi-togrisida_939568",
+   "title": "Xolmatov Şoxjaxon Alişer uglining tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi ximoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-17T14:11:07.040723+00:00",
+   "url": "https://uza.uz/oz/posts/mamaradzhapova-dilorom-abdullaevnaning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-ximoyasi-togrisida_939569",
+   "title": "Mamaradjapova Dilorom Abdullayevnaning tibbiyot fanlari doktori (DSc) dissertatsiya ishi ximoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -8631,28 +8634,10 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-17T14:06:20.292411+00:00",
+ "last_run": "2026-11-17T14:11:11.068257+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "33817": {
-   "m": 3686,
-   "p": 1,
-   "f": 3687,
-   "d": "2026-10-26"
-  },
-  "33818": {
-   "m": 3688,
-   "p": 1,
-   "f": 3689,
-   "d": "2026-10-26"
-  },
-  "33819": {
-   "m": 3690,
-   "p": 1,
-   "f": 3691,
-   "d": "2026-10-26"
-  },
   "33820": {
    "m": 3692,
    "p": 1,
@@ -26634,7 +26619,25 @@
    "p": 1,
    "f": 10309,
    "d": "2026-11-17"
+  },
+  "u939567": {
+   "m": 10310,
+   "p": 1,
+   "f": 10311,
+   "d": "2026-11-17"
+  },
+  "u939568": {
+   "m": 10312,
+   "p": 1,
+   "f": 10313,
+   "d": "2026-11-17"
+  },
+  "u939569": {
+   "m": 10314,
+   "p": 1,
+   "f": 10315,
+   "d": "2026-11-17"
   }
  },
- "vault": "gAAAAABq_F9csG8YIQ7Nm9XHnRfR1beqdU7azWpEmi6q6KbwM8RT_cPuIdBv5UbW-T_Ar-Fjse5ruIlhPxo_e1Bn-yFbOPRmcLYdywWK5MeBrl1yJ15MVj3LcR6vTp3Zqvt2uA22KJ3hQYA5HOCSmFrkaI_FiioPZTQDilYf36R0X4ROITKfUGDxHvPYEHjHCIIeGyrtBNvPeORKTWOgpUKKHOnQKzzOh0konQxre_cCVYvJJk-jEqbCPJV5Oxrns5gmgtyxZbD_L5H-_ZvbPZBBYXZLAq6G32qXWoE8mIC0kuNJ1muDzdZnGMZgYIbgvs_FXB0gODNnt8MVmxG_ItJb0sJszfmKzYvqVT9tgOHUJ2ZbxT9gKVQaxjbpL3LR6TQ8C8A3iNyj-B7Kvj3bFIuDxXmX9h3-GzVDm2kY_OO08Drlli1htLB8IURpq4M-pLaKo--lUIwJsev7Q74ARctnpBvCQjRK7aumhDf1wLXOtDMjxr_Ss73waM_pv2Th4aM7vZ_NeLoSMGny_X8EuQR4RoIIUvTnB0Q2C4YKM9U7wsUTHSfxh6o5mcT-R5WSNz4PHgJ3eX_PCl6j8dG2sUhAW-rCO22vwjspAi2ieTzGpxAl72lu4FnwZocg6q2kkalswleXWofvcaTC4iff2RFepWZKz3PUzHREfg0-WHLZSZ78GL6suy7qmQ2ROqrWcNTx-uQZ6j4D7f1sePOZriefXi00-ZzIHFrDHWHcI5_HxHMZR_5-KW1dnFk_bmV8ayXGpkXe0Yr7B29S-mvPUrH7wEh0f-hDzCIypKmnDtPqzJMjzQJIVh1qOZHXTxphK-G63CaTdDRemiIfeIgMdKUEmrGm1elUwAafexe6cFvayN1T_FLlbloismwF_UkUAKleD6N7zakMhjDUjrrXD7mFAe2pvIQ49GU9Sp29SkwfI6_CsVouBQs="
+ "vault": "gAAAAABq_GB_sssfpDedmqdicJft5ByI8TIO7jEyv8cfc6TNVDWlRkEf5IOV6H2KoNwJ3fiDciUEjLvpnwvAvLNi0X47bdtovuivgSxYJNyXPSomsp9yECFmtFOUfCsIAIIASNQXxa_iHMxGz2aDWEfhudwHp9rPTDo5YTha7WKJOdPAs8CSCDfGp_z-X1EPY3D40Jc91Ypri1tTy2BrTzvSmU6Cm268yrOIlsIxM-jGSYnjD0-PB43wXVB8qqRRhpCqAufBUSKllgA81xe4h0KAnmZKhciGcxIrk0UKwAFK3WV8CiF2hvCylwn4LN56HRdoMlVSi1F_je0eds-Ew6SF0BR_tg9Fc-vd4BwffYwHweMGA0_cYf86IENfFlvpxM9pVzRSLOGGZn14lBAZxbLmbVlhPk5411aok_ZZURwumwwKeZ6XY9H2bDxv4kJ_iytfBhXZcUIt2cqIL59hGUOnNWZoLsNGfo3LjK50NAiCMfptO1-LWaoCfQ4PMKsPEJthMahXFKjxrknKyw8qogj3k0gTseaDCNnbRPVg9Au2djVQiC45N3Mmmw_NjtSFpNE9OB_ST5LunE6FOuIndvCo79jT--KmazAdl5-fsVARYaFSOVQaUUHMxAsvPXMOUpe0Poz3EYfw5hYCglcydlK0snUq1_wpqzbjeojxZYVXtma4FRflWerjIaVX6ENrYRqUBvAlYGqfr3UC9Lq1ufbYNEJFhOlAqRBYatEZN3RHTfVYHPPJonSKVM871uKhTcK5aWhsx6H2FCyLwTWxoaacK-X2Lw1ptqD66Yqf5aeLb8xQXnbt5Z9GMlZfipNizU7VMqFqRjdBgN9ZehJmF1OlHr99u6BCGhe3mvYMoJ5MaY1NoBhzSM48Ak0XVOV0M6gUtoU60QIhqzrVrlZsdqR0LgvfD9qZGBX8l5Tzp4Hbjhb_dZTty2M="
 }
