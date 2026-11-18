@@ -3022,12 +3022,6 @@
   }
  },
  "seen_uza": [
-  928038,
-  928039,
-  928040,
-  928041,
-  928042,
-  928043,
   928235,
   928236,
   928237,
@@ -6021,7 +6015,13 @@
   940313,
   940314,
   940315,
-  940316
+  940316,
+  940318,
+  940319,
+  940320,
+  940321,
+  940325,
+  940326
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8733,37 +8733,17 @@
   "amuratova gul|PhD": "2026-11-18",
   "usmanova nilufar|PhD": "2026-11-18",
   "aytbaeva dilfuza|PhD": "2026-11-18",
-  "matyakubova nilufar|PhD": "2026-11-18"
+  "matyakubova nilufar|PhD": "2026-11-18",
+  "hasanova hurshidabonu|PhD": "2026-11-18",
+  "hasanova hur|PhD": "2026-11-18",
+  "masaidova marguba|PhD": "2026-11-18",
+  "masaidova mar|PhD": "2026-11-18",
+  "bahriddinova yulduzhon|PhD": "2026-11-18"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-18T13:00:48.239956+00:00",
  "recent": [
-  {
-   "t": "2026-11-18T13:46:15.263410+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000747",
-   "title": "Xo‘jamqulov Adham Qo‘chqor o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida eʼlon"
-  },
-  {
-   "t": "2026-11-18T13:46:31.840233+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000748",
-   "title": "Kobilov Uchkun Ulmasovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida eʼlon"
-  },
-  {
-   "t": "2026-11-18T13:46:39.142679+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000749",
-   "title": "Butayeva Xurshida Yuldashovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida eʼlon"
-  },
-  {
-   "t": "2026-11-18T13:46:46.616835+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000750",
-   "title": "Kushbakov Kamoliddin Baxromovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-18T13:46:54.508724+00:00",
-   "url": "https://uza.uz/oz/posts/sultonova-dilfuza-faxriddin-qizining-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940307",
-   "title": "Sultonova Dilfuza Faxriddin qizining biologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-18T13:47:02.383959+00:00",
    "url": "https://uza.uz/oz/posts/shamuratova-gulchehra-konysbaevnaning-biologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940309",
@@ -8788,53 +8768,48 @@
    "t": "2026-11-18T13:50:57.165182+00:00",
    "url": "https://uza.uz/oz/posts/matyakubova-nilufar-karimberganovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940315",
    "title": "Matyakubova Nilufar Karimberganovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T13:55:44.833960+00:00",
+   "url": "https://uza.uz/oz/posts/hasanova-hurshidabonu-baxtiyarovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940318",
+   "title": "Hasanova Xurshidabonu Baxtiyarovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T13:55:54.890454+00:00",
+   "url": "https://uza.uz/oz/posts/hasanova-xurshidabonu-baxtiyarovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940319",
+   "title": "Hasanova Xurşidabonu Baxtiyarovnaning filologiya fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-18T13:56:01.821251+00:00",
+   "url": "https://uza.uz/oz/posts/masaidova-marguba-muratovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940320",
+   "title": "Masaidova Marg‘uba Muratovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T13:56:10.081331+00:00",
+   "url": "https://uza.uz/oz/posts/masaidova-marguba-muratovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940321",
+   "title": "Masaidova Marğuba Muratovnaning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-18T13:56:17.382469+00:00",
+   "url": "https://uza.uz/oz/posts/bahriddinova-yulduzxon-bahriddin-qizining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940325",
+   "title": "Bahriddinova Yulduzxon Bahriddin qizining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 4,
+  "found": 6,
   "found_oak": 0,
-  "posted": 2,
-  "dups": 2,
+  "posted": 5,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T13:51:01.196020+00:00",
+ "last_run": "2026-11-18T13:56:21.419316+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "34180": {
-   "m": 4908,
-   "p": 1,
-   "f": 4909,
-   "d": "2026-10-30"
-  },
-  "u930611": {
-   "m": 4910,
-   "p": 1,
-   "f": 4911,
-   "d": "2026-10-30"
-  },
-  "34181": {
-   "m": 4912,
-   "p": 1,
-   "f": 4913,
-   "d": "2026-10-30"
-  },
-  "34182": {
-   "m": 4914,
-   "p": 1,
-   "f": 4915,
-   "d": "2026-10-30"
-  },
-  "34183": {
-   "m": 4916,
-   "p": 1,
-   "f": 4917,
-   "d": "2026-10-30"
-  },
   "34184": {
    "m": 4918,
    "p": 1,
@@ -26804,7 +26779,37 @@
    "p": 1,
    "f": 12534,
    "d": "2026-11-18"
+  },
+  "u940318": {
+   "m": 12535,
+   "p": 1,
+   "f": 12536,
+   "d": "2026-11-18"
+  },
+  "u940319": {
+   "m": 12537,
+   "p": 1,
+   "f": 12538,
+   "d": "2026-11-18"
+  },
+  "u940320": {
+   "m": 12539,
+   "p": 1,
+   "f": 12540,
+   "d": "2026-11-18"
+  },
+  "u940321": {
+   "m": 12541,
+   "p": 1,
+   "f": 12542,
+   "d": "2026-11-18"
+  },
+  "u940325": {
+   "m": 12543,
+   "p": 1,
+   "f": 12544,
+   "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_a1FawQcvz27gu_S2miZ7Fh71kyNFyo4T0UL68lCDNnPJjpDwIqB0iBzrCfQ15e3ju_nJK8w9_Mxd4a1IgmZUoVyFZPPhHiDU-5IOD3NzLFN7iNWV38-eUNYUsFR4USkTQMaMpoVRlN2ruuzkX0nwmYmcpCxKKsKa2MkqRTn63Fonl9XsIDcqfiprkNg-qY8r75I2otCxdpzqs7bKKZFjm5sjDl-qpSWyA8e42_lKzCGQOD1PRAzNaMt5HqO_I8pPY_mBTaojCaDLlw15viZezklfUYYik5jZrPH2NF-eN74Pl_K_GIcvbGE0o-WefbYtU0iL5oZ1rjEy9FBuBj5Ube-FI9M2Dgh83ngZMkawApSsyh-doDjn3G8YGCt3i7JzpewDv36Y-4WUdUwgCN3YGS90_rb_7LqBBeordJO_ssmQaN-pDTkGr7Gyt9ZFTTcB_COriNHl5fiP5zPLjVH51Hwa-75DsdusXRJwvRumOPM4_nc31uTLzcbihNfi9eWgq4jkQD4M_4u6UcbYlhwpc5I7DK8EPcl1PxR82YHGV0FP-jtJSuoDUXQYqQLeVYjCZ6YBIr1PGT9A82tI6wByti-_w5rS8w9o3_KDX5KOq94bM7VW7zPO3tO4uuVejQHTSoUJg8J7HFAJT5k5ZyBDhztdROUyjS0ZpRiWQC3hTGXTxOYnjp-kFWaFAnd8l3XGpPvTE-SMToUEo3Zfhku-uv1LZEN3a5g_zz-XTZ6LU9BQw_Z4FAtn22x_GwUVnN1cA6RHWhqwPmQ7QBFhBMNeUL8jm-p2rCpE_Xmwb6AS-UqQ_M8A60bso8frpHjSWAkjWOnQdrcYh6P0XxtNBmN4sCRkznAXKXOhcTyfgqdBR3hntgtRp6uLzRUZxw_3pn73cha9lVqzudU6c_Gb9vbPNRClQai3wdBsD1pxROIlMxcevQ="
+ "vault": "gAAAAABq_a6Fonk-2t5tn-B16FwXHafXEpe6ajw4DBcChiRp-oMv95-Z7MtjtrT4uvMuX9ySgc8O_EVOO2biCFMds6niG78JpVlVnKck1npMggkTCxMq7U128u_STmyQwQBF9nqEwI3y9mSlkR4ba9HbMtYRlMJd_WCTJbDEfOm69KlwX_de60zxjh-7tiYGPRH02eFQgG3XlQVVAF3vyutephbfLPa0plGMDN4YeFUwxsqZeZ9NvOhEN2iSD6XvNnkZCtQ1Xqohug3pbbPJhcgPO-5U-HgrP_OwVLWrC2zfCNMAWV-e2vCq1VOHxfOU1im1h7vM9SiJnnbXq50nY2f_fTwNHrFuoyXAdr7Eei2RReeEb0pZNwT4FPhR01XllELSdO6kOGbo1O8Dat_zB4J4_j4Ymaj288SuPRatG0h0fpuCpfJcvcGEq4rGcNY6Wy2c8FFY97r6zdkl3VEnPCJ8DzaGqdm5Y2vpjNQ2Tz-Y7gAy1gqJ16-Sp1wuTtZ-UPI7RqOvZf9gXj4L5TZ_L1708F5nE6JnGCUbJpLFC_wQpxAxgfmgrRepob0EF4yL65Jq1uQRAYLR0MIWE3i_ATvJsyRLR-fedINU7SKAd0HbJokjGldZf765PDEFvGd2E_EMtz0-wcXzwhTXSsS2bgA9WbqyoncaB9FGLySw2Fwxv-84WcuLNKHHtqUymw8W4ltoVYNexzNwGmQH7o8p_qc6b8vO2whI3loxPhgVwq1gCsEtmZqWRtiF9V3-hwRc2b7zQGCCHFMP3Cr62cIX32tu_g9JRaQZjXH4jbGmjIvIjDaXSG2E8Vi5zUrRifj0uwJ8E-k_LOjl_BrTDCezFuC_IzaDDnmryRoN3NvYAq3JZigPnvYSSXfEQ4hzwvIP5mgQPUd2qCGkLtXSIH-tkkFCD3tGW4FFYD3W02E0gSXZy0uBmPjrPjY="
 }
