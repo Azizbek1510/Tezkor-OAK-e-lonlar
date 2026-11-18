@@ -1,9 +1,5 @@
 {
  "seen": [
-  32477,
-  32478,
-  32479,
-  32480,
   32481,
   32482,
   32483,
@@ -2999,7 +2995,11 @@
   1000645,
   1000646,
   1000647,
-  1000648
+  1000648,
+  1000649,
+  1000650,
+  1000651,
+  1000652
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -8665,26 +8665,6 @@
  "last_deep": "2026-11-18T09:00:59.656378+00:00",
  "recent": [
   {
-   "t": "2026-11-18T08:41:17.766093+00:00",
-   "url": "https://uza.uz/oz/posts/xusanova-shohsanam-nematovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_939967",
-   "title": "Xusanova Şohsanam Nematovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-18T08:45:48.150653+00:00",
-   "url": "https://uza.uz/oz/posts/hamraeva-gulmira-tilavnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939968",
-   "title": "Xamrayeva Gulmira Tilavnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-18T08:45:55.557300+00:00",
-   "url": "https://uza.uz/oz/posts/eshdavlatova-sevara-eshmamatovnaning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939970",
-   "title": "Eshdavlatova Sevara Eshmamatovnaning fizika-matematika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-18T08:46:02.945658+00:00",
-   "url": "https://uza.uz/oz/posts/eshdavlatova-sevara-eshmamatovnaning-fizika-matematika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_939971",
-   "title": "Eşdavlatova Sevara Eşmamatovnaning fizika-matematika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
    "t": "2026-11-18T08:46:10.309748+00:00",
    "url": "https://uza.uz/oz/posts/habibullaev-shavkat-azamatovichning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_939972",
    "title": "Habibullayev Shavkat Azamatovichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
@@ -8713,47 +8693,43 @@
    "t": "2026-11-18T09:02:20.393289+00:00",
    "url": "https://uza.uz/oz/posts/yangiboeva-dilnoza-abdurasul-qizining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939987",
    "title": "Yangiboeva Dilnoza Abdurasul qizining psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T09:31:03.938493+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000649",
+   "title": "Joʻrayeva Dilnoz Raxmidinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-11-18T09:31:10.183763+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000650",
+   "title": "Xuddiyeva Umida Aminjon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqidagi e’lon"
+  },
+  {
+   "t": "2026-11-18T09:31:16.965772+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000651",
+   "title": "Amirqulov Zuhriddin Nuriddin o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-18T09:31:23.574482+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000652",
+   "title": "Jurayev Akbar Rayxonovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 4,
+  "found_oak": 4,
+  "posted": 4,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T09:25:36.467960+00:00",
+ "last_run": "2026-11-18T09:31:27.587449+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "34082": {
-   "m": 4544,
-   "p": 1,
-   "f": 4545,
-   "d": "2026-10-29"
-  },
-  "34083": {
-   "m": 4546,
-   "p": 1,
-   "f": 4547,
-   "d": "2026-10-29"
-  },
-  "34084": {
-   "m": 4548,
-   "p": 1,
-   "f": 4549,
-   "d": "2026-10-29"
-  },
-  "34085": {
-   "m": 4550,
-   "p": 1,
-   "f": 4551,
-   "d": "2026-10-29"
-  },
   "34086": {
    "m": 4552,
    "p": 1,
@@ -26729,7 +26705,31 @@
    "p": 1,
    "f": 12126,
    "d": "2026-11-18"
+  },
+  "1000649": {
+   "m": 12127,
+   "p": 1,
+   "f": 12128,
+   "d": "2026-11-18"
+  },
+  "1000650": {
+   "m": 12129,
+   "p": 1,
+   "f": 12130,
+   "d": "2026-11-18"
+  },
+  "1000651": {
+   "m": 12131,
+   "p": 1,
+   "f": 12132,
+   "d": "2026-11-18"
+  },
+  "1000652": {
+   "m": 12133,
+   "p": 1,
+   "f": 12134,
+   "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_W8QtebvPCCXvs4ykmL04XGQAPpuvifxQhLF-qtRazVuvJXbdfX8LsJmlBhy9Th2GPn9Zwz-L10L28Civv0I0BP54B9Ey1BaL1O4R509glVMu3TpWCHuwHS09OrAKIxOgeodfDHsijkFj7f0gvWjMoVd0t4VMpIFD-78LYU2xkGU0tgJ3_AiXoMkbO-0osBNfd6HzaVqGC_k_vCtFhc3NviHv9XxY8LYF7r3TL_xhPIccrbZd_ipwVXSRTFBF-DRGFout2dhyVCClOW9RWPkde2We43XtF1VIL3XHPYWw3nAH7mInvhe6twuSUzbfTAXJ6JEWBzykSv4fWlgZSRnZI6dw-0UOJwA9HvIDFaylrmnIcDVFNSRDzj51dipyU-oRN_eJJWj-u56wD86fyB_2n2trN-UocqATiExYZBbIXlo3xJSIEGpgYFmqL3pIJp-1h7jny23WPGc4rOahpvZ5RfOhXPzGs9zqji1lDCtsLWsz6gNWC1mBEdg5IQNvG86mfeNxVKFm2KAwKBAhAGYUkMiZwR9RiD8lJIfQwhFVIPvxtiIlqySolxD7y1oC0bRMsdDfIuEB_b3jiWrVsBx0oj66bzJ634rvYpcMPiYv1e_J4pZhy5z2d5fCJ_qjoY3-IegJYAEjshYPBIKJjCUVTQuvqeecXVRq5IJJDFGqk2vVyOVNsmuEVZhYZVqjFpoUcTyuWJpxs0nOSz9s9pSTTKvdAqvTvJLhx1Vp5hIyd9ZKxdUOosonCmE3L3t_0pvlCoudbVwxtofx7MOgvy4Cr6w4TgI2JK7bl94O_3snhs-7z3fnVAc4d-b98hserzYl6luNPT6_MZoyecCc6GNuGT31G0F95TI6q0xHm-FN65T2z2XOUrpqEU6t6ePPm7QuZUfSBPmQYr7Ed_4Eja7UMQfsSrW1E3Xlk4AbtGlXsTtI-4="
+ "vault": "gAAAAABq_XBvKTrkttVYKjoWXuldpnh3FU04xCmik99u04dtfCJidUo74v3-98mGjiTSyaY6V0F7RwUSXgsLmdqqx7joSgM5okuxEqNLzvqfh1SXvjftVPrQkbLXG9jjfJL5kAgaUvWPqg7O8CJM_i6ZhFj9_ay8495SDa5Q3Sc4fRU1fO7SmFTTz5gbTRvTs8tvttgzmMijHMHUiG28tY1wM957vNGvqYQW_LBpBm5LKXjONbonAApLDtq1EsyaRRmV167L3GZg5UQvbM6KFbbpIYWZT4WoAjRh9CRwlu7f_AxkARwq4Qfg6owycxDHkmYhY8U2rQR2xAk7T_AegUGWfAIYBjoJdWLXetLG1NYP4NLdse-ZsNchUHiSYzN_L2S1KFCzy4rqaqRQHtF5UWXpMRBw-lfUd9e9G2Kml58sH2f2m2RawPTOQnbpY5Y7F61JgKvbqIPgHwQVk0KvDcpXF5KmlAw8gOU4JPwZQkLyK8MyWtQy8IMiI4MJiQm2PjCeXTckMAbBItaWL981ouWUwZ2gNpbPX_axzIJTXxgCBWrY26MBE4O_ftcPZsA3y5yDLsRrIds-LF7mAN1mSzNKOsIkYWRseXdciN_tYUXPbQxftB07IlGuZ2pmUTLj3zaYttStUVGe_0aMIG9k8YVdyKzr6qMQ-Rqe2qZ24wsPnsqVUqlwhhWbcgnk68zwEgAG0NEbdeILxr4z7h6j3oyzXT2Lw0zNStoWqvhjOoygYSKdKAQNTiD5xp64shZuO8V3go7WiWhu01HdORV-VZj3SIWXKvSFETEH3eI1GbjChQTmyk0FqgpHA75R4BqrWh-jJx34NDmo53Rn9TIdEr9qA6DACI1WGZtPLcbBzt-SiC4aGbh_wyI7Rt5ANkubdNciQYepLfMNmOqmjtSXoFzzYyyqs-ex_WeATozdx0ifMiszxNcks_0="
 }
