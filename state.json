@@ -3022,12 +3022,6 @@
   }
  },
  "seen_uza": [
-  928245,
-  928246,
-  928249,
-  928250,
-  928251,
-  928252,
   928253,
   928254,
   928255,
@@ -6021,7 +6015,13 @@
   940341,
   940342,
   940343,
-  940344
+  940344,
+  940345,
+  940346,
+  940347,
+  940348,
+  940349,
+  940350
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8742,27 +8742,15 @@
   "ziyaeva umida|PhD": "2026-11-18",
   "tashpulatova madina|PhD": "2026-11-18",
   "ta pulatova|PhD": "2026-11-18",
-  "abduhakimova kamola|PhD": "2026-11-18"
+  "abduhakimova kamola|PhD": "2026-11-18",
+  "mamadiyarova matluba|PhD": "2026-11-18",
+  "nasimova dilbar|PhD": "2026-11-18",
+  "turakulova sitora|PhD": "2026-11-18"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-18T14:00:44.261716+00:00",
  "recent": [
-  {
-   "t": "2026-11-18T14:04:17.582911+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000762",
-   "title": "Uzakov Utkir Abdusattarovichning falsafa doktori (PhD) dissertatsiya himoyasi haqida e’lon matni"
-  },
-  {
-   "t": "2026-11-18T14:05:45.658593+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000763",
-   "title": "Ismatullayev Nizom Adashaliyevichning falsafa doktori (PhD) dissertasiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-18T14:05:56.175085+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000764",
-   "title": "Umarova Masuda Yuldashevnaning falsafa doktori (Phd) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-18T14:06:03.741191+00:00",
    "url": "https://oak.uz/himoya-elonlari/1000765",
@@ -8797,41 +8785,38 @@
    "t": "2026-11-18T14:07:04.486423+00:00",
    "url": "https://uza.uz/oz/posts/abduxakimova-kamola-akmalovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940343",
    "title": "Abduxakimova Kamola Akmalovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T14:10:53.017224+00:00",
+   "url": "https://uza.uz/oz/posts/mamadiyarova-matluba-mamayusubovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940345",
+   "title": "Mamadiyarova Matluba Mamayusubovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T14:11:01.492178+00:00",
+   "url": "https://uza.uz/oz/posts/nasimova-dilbar-baxodurovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940347",
+   "title": "Nasimova Dilbar Baxodurovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T14:11:13.078589+00:00",
+   "url": "https://uza.uz/oz/posts/turakulova-sitora-fazlidinovnaning-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940349",
+   "title": "Turakulova Sitora Fazlidinovnaning filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 11,
-  "found_oak": 5,
-  "posted": 9,
-  "dups": 2,
+  "found": 6,
+  "found_oak": 0,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T14:07:08.522324+00:00",
+ "last_run": "2026-11-18T14:11:17.108186+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u930645": {
-   "m": 4966,
-   "p": 1,
-   "f": 4967,
-   "d": "2026-10-30"
-  },
-  "u930647": {
-   "m": 4968,
-   "p": 1,
-   "f": 4969,
-   "d": "2026-10-30"
-  },
-  "34204": {
-   "m": 4970,
-   "p": 1,
-   "f": 4971,
-   "d": "2026-10-30"
-  },
   "34205": {
    "m": 4972,
    "p": 1,
@@ -26813,7 +26798,25 @@
    "p": 1,
    "f": 12592,
    "d": "2026-11-18"
+  },
+  "u940345": {
+   "m": 12593,
+   "p": 1,
+   "f": 12594,
+   "d": "2026-11-18"
+  },
+  "u940347": {
+   "m": 12595,
+   "p": 1,
+   "f": 12596,
+   "d": "2026-11-18"
+  },
+  "u940349": {
+   "m": 12597,
+   "p": 1,
+   "f": 12598,
+   "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_bEM8ABVKuP5h9RuZHg3hqpJjzq416ZmmPLN5Qp5TQGnSc7DCXrUWaZ4VdvpRNlQqKQFiqSTJFMKu7vPLHlxMv1xbTcqasLGo7GzomOsCWE3LxMygzf5hF8ulkrE2_UJV6yLUelzCw-6hifeq8YlKRyNCkft4NoKn2ZokKVrVw0xEX_5Nj5xo-L97J-9gyaFgt85sYXblV7N2MCj0vEaC3wglS_UAGI1Y1sNdbG3y-hzDS7c6gzaO5Gq-p_lQtJ_bNbArdWTIJL3efUHyMjCxd69TUu_cxIVdiHz_zCKdZsa-mHxuT1lv18YXB3og0tULVxqIJsEJdxbjjqjGEmJW5Yan0pr2ZXnvQOYKw2Mbt4I1nsUel6Z_Z7SrVdLQlgZNhu9dsefufw-bBC5zUJVOfX_7kkHu1OHKH8MxEZjfEzfsG4xkeqHkwGAzT0sp3j4ENEmM_y7Zr9LPkUfoof8H8ur8dmlucL4w9dTtriHYedME60GfYeQGPc1TUhSo_Rf-Y9i09A5kMzpv1wyBUhBpppm4sFj2TdbG73Q49wT1mBUIO68GrPaBIrjS1nn5jMaiT1XUWfz415rnb1HMzht18wWc1jVSdkOyjDX3H5bgInHtPwiVu3RxhDo1SuQ1GEIoI9qzNqirPgzsI2weZOarJeTPlUoOqEMt7-bNr4mHD8QRkyckqF3qZAB_nVw9yFujGxgXOILj8UEgG2l0GuoSwOS5vA3JSp1bjMO_PRKUO-VbBDnUYg-dW4CXgB4YKW25v0w3-tw4sUTeIM3wU6smApynY39hY_l2TRTn3PJaqk_EAGcfSINFMSNdO9LNYfZ6F6M7u4JEkDK8AYu7wQ_slC3S5CgOE6Wvk6qmUc6r78fYSv0xKArDVuzEtzCRG9tLiDujXtmeYLFFJBgAHbfbq9qsKVILmrY5Lec4vM0UyDk6nQ="
+ "vault": "gAAAAABq_bIFYPYG7fxpP4mnvQStZqnBGDGBsAmG38cxgj08HX-fwmgd_Zu84kiHMo_Rt-m8IXtVAPyj1BLmPD7TGIRCTfWDRlYLAivpqe0SEBgOCbTJjVPhMELxDq4aOTbsaFodLEcfabT0bWa4FVAPs8Aq10RyaByRt-utJBLeJ8CFmR-lsRffyEWI1_UvSoJqidrDM0UTVfSxK89BjrsTDo47mQOb_eErQ4K3elX45YwGV43Pge6PYKteRtNGcjXKSJx_bdj6c3CPrnvHNjG3VN4sdS6oDj-Xni3sxkIgSMSTK_7slBhYc1YHWAvBntyNA45tHP3zqW53kRNxDScaCNSyMXCAW35F08lfPol7BzDXlZ9jz5JjvRQrQZWu7B6iUy-FEwgt2DX-6-x1VIR70OmyVRqKmwMdLEg_hmxzcRSXP999w4EPihr-pguuxE77rKK4ZqLGrizbdA2IoZJIKFT5xo_ifcbDnec-pUD43lrKl3mZv5H8SgEdPJ0sOHl186qFvVx4_V-CjpH7Juaxv5UV9OV0ulJh6QYv9t0HrgMS8DC5OxEfRN-tGgcl8TNMt7CYFh6eQUEIR-UKU1kWAaJ2p_1dzfwjnmg2clj9i-NrPrR7SNfXlWkKS4hY12XoX26p3EuB2-8RNbpjQaaZPoTG6OJeuumoFSUKbaFYspHTlEBiqOmZuE6qvAs2fn6tW03RH-F3OVBZescYzZZYP-SoZTvLVsr9tKi53cm4cShcIJudKYe61T4clWTrA0qMTa2lm9KG1zUTqqrfkmDl8bUTzU26kBKjmTZ4ti1mH4PHE9asxGbjQTVY4j2BzaTv_Q-lddu18uy48ReyF2Wbs1no-dLp8ui0NcqrnNYDV8KqDb_z4DhBFU6khNQ-iKd3cZL-bL-HCukCcs2vRAKdRHjOvNoImV3Jmxomd4sC8KrPG9PpTiE="
 }
