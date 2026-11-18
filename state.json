@@ -3022,12 +3022,6 @@
   }
  },
  "seen_uza": [
-  928312,
-  928313,
-  928315,
-  928316,
-  928317,
-  928318,
   928321,
   928322,
   928325,
@@ -6021,7 +6015,13 @@
   940383,
   940384,
   940385,
-  940386
+  940386,
+  940387,
+  940388,
+  940389,
+  940390,
+  940392,
+  940393
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8766,37 +8766,17 @@
   "otajonov shuhratjon|PhD": "2026-11-18",
   "otajonov uhratjon|PhD": "2026-11-18",
   "musulmonova shahlo|PhD": "2026-11-18",
-  "musulmonova ahlo|PhD": "2026-11-18"
+  "musulmonova ahlo|PhD": "2026-11-18",
+  "tashhodjaev murodjon|PhD": "2026-11-18",
+  "ta hodjaev|PhD": "2026-11-18",
+  "rahimbaev jorabek|PhD": "2026-11-18",
+  "rahimbaev j|PhD": "2026-11-18",
+  "sayfiddinova jamila|PhD": "2026-11-18"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-18T14:00:44.261716+00:00",
  "recent": [
-  {
-   "t": "2026-11-18T14:40:58.831489+00:00",
-   "url": "https://uza.uz/oz/posts/sultanov-sardor-oglining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940372",
-   "title": "Sultanov Sardor o‘g‘lining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-18T14:45:52.313879+00:00",
-   "url": "https://uza.uz/oz/posts/axmedova-odinazhon-abdullazhon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940374",
-   "title": "Axmedova Odinajon Abdullajon qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-18T14:46:02.638453+00:00",
-   "url": "https://uza.uz/oz/posts/kamalov-azamat-jamalovichning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940376",
-   "title": "Kamalov Azamat Jamalovichning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-18T14:50:57.364056+00:00",
-   "url": "https://uza.uz/oz/posts/yunusov-ravshan-alimzhanovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940379",
-   "title": "Yunusov Ravshan Alimjanovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-18T14:51:05.169681+00:00",
-   "url": "https://uza.uz/oz/posts/yunusov-ravshan-alimjanovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940380",
-   "title": "Yunusov Ravşan Alimjanoviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
   {
    "t": "2026-11-18T14:51:13.461866+00:00",
    "url": "https://uza.uz/oz/posts/maxmadaminova-maftuna-maxmadnazar-qizining-sanatshunoslik-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940381",
@@ -8821,53 +8801,48 @@
    "t": "2026-11-18T14:51:56.971330+00:00",
    "url": "https://uza.uz/oz/posts/musulmonova-shahlo-nasriddinovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940386",
    "title": "Musulmonova Şahlo Nasriddinovnaning iqtisodiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-18T14:55:41.236108+00:00",
+   "url": "https://uza.uz/oz/posts/tashxodzhaev-murodzhon-valizhonovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940387",
+   "title": "Tashxodjayev Murodjon Valijonovichning tarix fanlari bo‘yicha falsafa doktori (PhD dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T14:55:48.247052+00:00",
+   "url": "https://uza.uz/oz/posts/tashxodjayev-murodjon-valijonovichning-tarix-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940388",
+   "title": "Taşxodjayev Murodjon Valijonoviçning tarix fanlari böyiça falsafa doktori (PhD dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-18T14:55:55.124641+00:00",
+   "url": "https://uza.uz/oz/posts/raximbaev-jorabek-sobirovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940389",
+   "title": "Raximbayev Jo‘rabek Sobirovichning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T14:56:02.104770+00:00",
+   "url": "https://uza.uz/oz/posts/raximbayev-jorabek-sobirovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940390",
+   "title": "Raximbayev Jörabek Sobiroviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-18T14:56:09.446018+00:00",
+   "url": "https://uza.uz/oz/posts/sayfiddinova-jamila-ziyodulla-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940392",
+   "title": "Sayfiddinova Jamila Ziyodulla qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 6,
   "found_oak": 0,
-  "posted": 7,
+  "posted": 5,
   "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T14:52:00.989405+00:00",
+ "last_run": "2026-11-18T14:56:13.481017+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "34223": {
-   "m": 5016,
-   "p": 1,
-   "f": 5017,
-   "d": "2026-10-30"
-  },
-  "34224": {
-   "m": 5018,
-   "p": 1,
-   "f": 5019,
-   "d": "2026-10-30"
-  },
-  "34225": {
-   "m": 5020,
-   "p": 1,
-   "f": 5021,
-   "d": "2026-10-30"
-  },
-  "34226": {
-   "m": 5024,
-   "p": 1,
-   "f": 5025,
-   "d": "2026-10-30"
-  },
-  "34227": {
-   "m": 5026,
-   "p": 1,
-   "f": 5027,
-   "d": "2026-10-30"
-  },
   "34228": {
    "m": 5028,
    "p": 1,
@@ -26837,7 +26812,37 @@
    "p": 1,
    "f": 12642,
    "d": "2026-11-18"
+  },
+  "u940387": {
+   "m": 12643,
+   "p": 1,
+   "f": 12644,
+   "d": "2026-11-18"
+  },
+  "u940388": {
+   "m": 12645,
+   "p": 1,
+   "f": 12646,
+   "d": "2026-11-18"
+  },
+  "u940389": {
+   "m": 12647,
+   "p": 1,
+   "f": 12648,
+   "d": "2026-11-18"
+  },
+  "u940390": {
+   "m": 12649,
+   "p": 1,
+   "f": 12650,
+   "d": "2026-11-18"
+  },
+  "u940392": {
+   "m": 12651,
+   "p": 1,
+   "f": 12652,
+   "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_buQ9wLMNgHHYIQmwOfwvD3rJEweCBKp3Df01_4UiM0JuhQsl-ORDAdNQjITsrnT9Ls1JOKduDX52qQkhnhShlnzovI7eW6wzv047xkEuw_q9Kspma7isoMKkasD3V2oMQYETQxdLRhpSL2i4PUpdUaRkE61VlYeKEA4bYP70yF5pW8gg15S_xz-yIYrzVHeA1W9Rbj6CxmPZfMC_OiXVoF7bu7O6889bmBSeJrqjgHsCU9_xr54mAGG92IaByBc-3eK1pLVH0lkWG63awjmExX8Gyse_pTkK2RU97rF4ZSbTeTDe_4hoPE6u0rSJTkw4VRC4r64epmRbWh6SGwABWqmFkPcXYlUeohijzkh-7zUAtDcGF4pVTrQoOqg3loIeVe8I7mjCgQMYNMg5MqhzHVlkaionaije2lZwLpVzQIgua3D2QPeYwizlgG6MpNqMS4qgI2OWaE7I1yBhSVs-olLyRlGiMcQAaJFw0v-7v5HVtEzrp06YSAxUN_4Y_1ZGxpa-8th2HbiiyWbaLHB-3cImNF-RwU1ZZiHTOoNEid9f1SsahlVaV_-2FYgZC9WF7wTK6JUWHIncTbE8IXAcPBBiaJBDDxfW4Sf5LM6_o-GnHe4w_N9y69ux-zliALBVyI16lE4Dem5XXHWfOWMhzO81vrJgrvZdBMGFTzjAP3DPb0a5WEy4i8a274R_JKCPk7Kx0OJpT0yrOCiU9VD9JWSEa9ZuOgGcZouJOMWfbKGl8hogEoqUadUXQ088AmGiUjuez6SoCs3dWaI404CO4HBC0wL4klIX2NKQwpxrCvvlOPWDNj74RbXsEexHcqCihBgRCdFrok9sQpc5tgWKOSqaCX71KVWSNDiTtplDTCj3VmzsiW7rXZljcp96TN7DphzxsvhH0709RVA_QtnZgxTeW5wsXvRecrO-hFxdro6Zwg="
+ "vault": "gAAAAABq_byNGhkn7PuJtM-UKeMw04lw7udvXwwoiX235LeAcfN0h5WdYV-oRdgdtKFzv7lMTfs3fUSLk45hi2xpIOtlCmkwvMPoSP-10SVjTmmd8LWHDsrCpd8rCwG8duAqL6KWRdo2UsKsjALPUdAkDT3kMxJV0cHvVAROag_6SJud5tJ2ZNz2zphMhD2nH2_XFI8sH6MROk683Kb39JlF0Tb3Lkzgg_M63h50JpsOGWi_dnOG9liPg-_VdUUOve92GW99veZ8MmbxyIprfO8YykiyocFAmwec3pQR5fjPFT31epEPw7txnmmft5UewAJy9HR4SoeV73Lly1BGmaRjNkjAMgvqLRu0_IYscfrjmTkm0Trwx8BfUfyW0y0O90D1D1FvQObf54NXtqIJ22cUzvEGHeDabGcGI5l5nkSGVnt5E4aGCr7XI0oD7PC7NZ7YKmduKvncxcYZoz4KYsUMdi3Pof8eGYRz42nytL5gx8hjF-cnXLvQBxTStXqS7BnLr8CPVJk7xPTZvlc7bz0zL0jT_6YTbjNOt6t43zfO5wtX-3KYbx0Y0zIb0pqIAH34akuMNXYU7RC3jFdXOzHNEGM2um7nW9jWe9x2eK2AZHyH9TuL5kKunOIfV7P4M28TNv1SE4if0TnOe1GXFocOw3By0MFTWXSW0R7384U7LGBK_A8Kkmj6v6Cv9vRf61ijkrZf2Dy3NXHQFk3UM-qJWOzaPzS_31Wk20kC42MnZRjPoEeuqCktKSGIHqVH4XJrHtbkWRuhHPw-mcFDWduwAYTyVNmwhuFjkYSjdnT4mABh7iCQwlmAuYjatJimY_OeFWO3mPa9iTc895OXBAcO0Gr5-9dIchgrwqZes12iQiGJI4qHzsJjakno-0Hd3718U1CEJqnxKV1XRGma_6lKYGVcOiFRuXio2lUuXOMumqsPerSoiAI="
 }
