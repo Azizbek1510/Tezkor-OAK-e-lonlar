@@ -1,6 +1,5 @@
 {
  "seen": [
-  32578,
   32579,
   32580,
   32581,
@@ -2999,7 +2998,8 @@
   1000741,
   1000742,
   1000743,
-  1000744
+  1000744,
+  1000745
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  928019,
-  928020,
   928021,
   928022,
   928023,
@@ -6021,7 +6019,9 @@
   940288,
   940289,
   940290,
-  940291
+  940291,
+  940302,
+  940303
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8726,22 +8726,13 @@
   "qodirov ahrorjon|PhD": "2026-11-18",
   "nasirdinov mavlonjon|DSc": "2026-11-18",
   "abdullaeva umida|DSc": "2026-11-18",
-  "kenjaev sardor|DSc": "2026-11-18"
+  "kenjaev sardor|DSc": "2026-11-18",
+  "kurbanova madina|DSc": "2026-11-18"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-18T13:00:48.239956+00:00",
  "recent": [
-  {
-   "t": "2026-11-18T13:03:23.528495+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000740",
-   "title": "Mamadaliyeva Shohista Raviljon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-18T13:03:30.881523+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000741",
-   "title": "Abdikarimov Bobur Qurombayevichning falsafa doktori dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-18T13:03:38.301444+00:00",
    "url": "https://oak.uz/himoya-elonlari/1000742",
@@ -8781,35 +8772,33 @@
    "t": "2026-11-18T13:26:09.230145+00:00",
    "url": "https://uza.uz/oz/posts/kenzhaev-sardor-nurmurod-oglining-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940290",
    "title": "Kenjayev Sardor Nurmurod o‘g‘lining tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T13:40:51.414870+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000745",
+   "title": "Sodiqova Maxbubaxon Raxmonaliyevna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-18T13:40:58.807499+00:00",
+   "url": "https://uza.uz/oz/posts/kurbanova-madina-jamshedovnaning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940302",
+   "title": "Kurbanova Madina Jamshedovnaning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
-  "dups": 0,
+  "found": 3,
+  "found_oak": 1,
+  "posted": 2,
+  "dups": 1,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T13:35:41.052590+00:00",
+ "last_run": "2026-11-18T13:41:02.828959+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u930592": {
-   "m": 4882,
-   "p": 1,
-   "f": 4883,
-   "d": "2026-10-30"
-  },
-  "u930597": {
-   "m": 4884,
-   "p": 1,
-   "f": 4885,
-   "d": "2026-10-30"
-  },
   "34170": {
    "m": 4886,
    "p": 1,
@@ -26797,7 +26786,19 @@
    "p": 1,
    "f": 12508,
    "d": "2026-11-18"
+  },
+  "1000745": {
+   "m": 12509,
+   "p": 1,
+   "f": 12510,
+   "d": "2026-11-18"
+  },
+  "u940302": {
+   "m": 12511,
+   "p": 1,
+   "f": 12512,
+   "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_amtx678gg-DwpZzsu4CPQ9mSFJ9aGJxGo7ql_XFvyvGOC0nb5BbJS1K5yztSlbJAjYaMUCyow9B0ACzgUknytRLbNLUzyPCKq_3cyF-w-8mmw6hx-_4LpEtEqFCpB43vM7CA1r1eoF5KBhtL0lNaZImDlUnwxuNWSrJmn6QRSWKg1SAppJ44igWpZZ976ScTG_Gx83wXbJsbh6m37eoWsAswHGsovBI0gMcAISMqeHgwX3lKfDWhUWJWm6V2TT2NNj3alnQsqKdT6cOzP1ZB1Yco-pS1Z1-Zq8s1G-Ar3Z--lSYJh-xG7mpBjvp3Pm3XJfOMkTV69stNeXmnnSsYfnGxxiisFgaCQnW77_tOutrHWpihVQbSy43aIbezQ_Xe2GFcFktrOHDcqnXTCIHDGMs3PVuDp-Kwe1ZEMgFujzJqrZuJgpSg3BWBEmiODiPX044IY68CtWamqUqMq3VVKc1vb_u3JyOcf335D02aWmu8V-0VZe3AH7FaCisFhhFXxR75uJL2lN9vvF7Xun6f8G1OTp-Ul1nGczi3fRbaAumrRnXq2biIFydTCxJiFayh8wMgB6QnKN_BMRbVLlLite8y3FiDDaSv2pgLj25YB8otZ4SjySAchpektN1F7nGAMkF0Mi77H2GOcADZSfXIlGRI6C3PLtra75vy0pUyQSCV0UVPgFkLaZO7C11tFuHAlI-7LwGKJDhyC4ZLoQbhk3kjHpXc503CIVNgngdstZ9wBPwJ0bg0mzoKjmh-SP185T4BWfhN2vzSMu2txoRDhJ6WuLUHiLzrw2njGPdoi_ibfR4WzcTNOF6REAgAmoi5NwFa9mcBc8TJEuByqSUg3J3nlf_0RG1hsq6IgIYt8c_UFnYQl-jJxygiGD5qk-NDQ_9lR6R_YFQeoyTJU9_9b-gor9OZXNHhe0uzdl51pYiAD8="
+ "vault": "gAAAAABq_aruyyTU7G89RukxM1_l-4_MYnkacNt1h8UwQ-efTumnu6lRQGYuPqYgI6kHo1Vc-V8-WUwN9qh3Zg6YTpPMHyyAq6jh2rFcdi2EX55PoS1aC_gpK03kT85HYEaDhdMPdMVlCSEEL6rPldstP0OgoA0aVtZ2YDKi_bVSpkzLnAj37ayqs9g8AfHNOoWait-Pg7ix6l07hD1zpxB3tXE8-rvUtKgRJWMh35DHE92ygQYA1Sgg9X1mBkXGM36aoqhFbE-TqRW5UTFSSnGigioh9A29XzWCeKwfh752yGdSuy40FuCPi84I5PXjZ3TLQKQCq4_2Hh80S4a-xGn8kMAwBHnWg97sGV-ObY5wcX3As7SXj3s_9w8sLFwpdsIOly1mjnPXzzG-bvjdrsQa0lyhHDs-CdNc_eh_xt3XSM3aeBF1m_98Rj_9p3s8WfuYWgD3fO1TOX_RJgqMTvn1wfAHI1kvhTO0fB_NCdYL0Btt22RfYcmUjqSBvtMKgPsFdI30XXLYmaBD3cuBMTZQWUlBUj-ZyPAbjYPNCBr_pLuotsnksCC3Cex_TAI46PUJ6vA9pDhBASTpjFITAE01Zupn5jVFYVJKneOQr0H0eIMTcnfmVJrGbjfTPlMRc-RSx17I_7GCldsNtnN-LygEmr1K8Px6FMF5qVnUy31scjJ1gDADgZxkzdFdsXnS0lYuoMV7M22ArejPn2n6P1LSHLeWB0plM5RwXE2VTdyO5NujxoRik35e9AN-EujrU3F9WwhyHX4atpgvai_m1f4aU5_6LqjOnFguSXQAy8DSjVZ0C1GXg-2-ab2Y8P7geGI2JOVifLJgRcMfDaSFu_mbpdoxt0Q55v9mCrqei9hmEQ79IZAZtZ54R1wJ2NkKxORLIt_aAXBWaBkDuTTr2HFNjVsfXbrrfO8VluOv3QKSq-qkQCQQCuc="
 }
