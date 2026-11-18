@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  927358,
-  927359,
   927360,
   927361,
   927362,
@@ -6021,7 +6019,9 @@
   939978,
   939979,
   939984,
-  939985
+  939985,
+  939987,
+  939988
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8657,17 +8657,13 @@
   "habibullaev avkat|DSc": "2026-11-18",
   "zohidov muhriddin|PhD": "2026-11-18",
   "hudayqulova munira|PhD": "2026-11-18",
-  "akbarova feruza|PhD": "2026-11-18"
+  "akbarova feruza|PhD": "2026-11-18",
+  "yangiboeva dilnoza|PhD": "2026-11-18"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
- "last_deep": "2026-11-18T08:00:43.013793+00:00",
+ "last_deep": "2026-11-18T09:00:59.656378+00:00",
  "recent": [
-  {
-   "t": "2026-11-18T08:41:09.882348+00:00",
-   "url": "https://uza.uz/oz/posts/husanova-shohsanam-nematovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939966",
-   "title": "Xusanova Shohsanam Nematovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-18T08:41:17.766093+00:00",
    "url": "https://uza.uz/oz/posts/xusanova-shohsanam-nematovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_939967",
@@ -8712,6 +8708,11 @@
    "t": "2026-11-18T08:56:03.266395+00:00",
    "url": "https://uza.uz/oz/posts/akbarova-feruza-uktamzhonovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939984",
    "title": "Akbarova Feruza Uktamjonovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T09:02:20.393289+00:00",
+   "url": "https://uza.uz/oz/posts/yangiboeva-dilnoza-abdurasul-qizining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_939987",
+   "title": "Yangiboeva Dilnoza Abdurasul qizining psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -8725,16 +8726,10 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T08:56:07.301777+00:00",
+ "last_run": "2026-11-18T09:02:24.419175+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "34081": {
-   "m": 4542,
-   "p": 1,
-   "f": 4543,
-   "d": "2026-10-29"
-  },
   "34082": {
    "m": 4544,
    "p": 1,
@@ -26728,7 +26723,13 @@
    "p": 1,
    "f": 12124,
    "d": "2026-11-18"
+  },
+  "u939987": {
+   "m": 12125,
+   "p": 1,
+   "f": 12126,
+   "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_WgndelxMBuuVIVeMayI2Cc04hRxli73DBgcy3C8vDPjeX2pJI_UrTmZCFuBcjOjG0nDpTGimJ9KUUcowmC5PuR9u9XYe98uoXcPnLEFm788YBd2X52CgL5J9H3KssprfuJQnFikxup2x2BtZynJfWG1iJzdDekzEkouiPBMIegecrLX6UOSD-HYDAD5xO1YQ1fUoKfqL171TMYVXa3Sl3_cmJ3PYHizTORJRpQiS5BOoS8X5ioMvTCzS6bWKBWFQyClgFGwRJBlaN9l68aouNkR3pRwBy6QiCC5k-W8jUYMZmEscGkShhOjguBsEdE6Rq2qyuNUzKqrgcJwQz5lWNohfaPGyPqK0l6a-L9RX60SbiJAsgTp-fasWWotvTHE1uuRPFxsVgpOalsuHhySnvL1b_Ig18O-0vVcBn6ttwzQ4XVE0rhfKeurmZkXs9T2BEt59AW2Wy_ueG-BFeF05pGY6Wcag9a36LwNcNs3no1O4h5dh7NYNohbeV3q22yLyVvVzJ43T6eb2hQfN0L6cI8PrJViY1tnd-8hHRfd6jMV_EgefgzzshfgB2DcsMJQJ7hfEJ_8r3YEzNWmeLkRhzEh_-alRBwVaFZNyJzvSsElhuZnGsbs8cKjiumxWa376XxnbKhiq9WBAlKg3ApeODwkFtkbxvYHBhJcqT413hfDvTOf1Lc-Gw-ekBcuUmF62yAf32e_a0tqONpQKZruolq8I3D8BqVyUrRyqw_aZu0uVm9a_ZvpZPyivt7CBzHM48mCODM6acUQ8UIvMgV9Ui1ndXi6S2WAEg5gpzkZQIxUBqZx3rU5BFploTHEAwCSPiTA_uhRHMByEIPiK47uSpLZLS5172ZEDFyVpp_FENdRfQGMrq8aOKVziy7u1tcqsVNK6_qEoWdbLEPSMwQZ9qInydZZVITjM491WdeYy7ZFWgQ="
+ "vault": "gAAAAABq_WmgzWXe94vld_Vi9BkdBDocU7usm0vCnRF7kvlA6Zdi7EqLJBYpP4qTkYjvSBDutBnhq0UqftwrZZ_sYgEY58xATVaXWvvxJWCbbinqnHZxiMFAzwXRSCNqF3QLUw9eE-2g1NC9qGaRDm8dbYPJXwVev7S_YvhC3EUewZd4OToV7Xuyijismqa6CruvyZrPgAi_o3ZVMIpz0k8ys4hAjhQoeCrzcn_LVV9G5scbxkIe1XT9Y_xrn6AbUmVIsREHYbCW4tFxJMqg-tpg-73gaQfJfEGPAOV9zp7im57_S9ZUD-CHoLiATJfrzc-DGo92lxuPSsjfDbOV2QfKJmpYai1Dp4FplqGVOtdJnes9iwbi75QxvVKtIGILp7qIlcbrXf0ejyPxUYK1HyeCYbGW9nUKL8q3hOMBVVseu-4lea9C0bYeLra2IG7iFm1mRVorKtwIMHzHMrSYyh46mv0Bm38FmekzHFfqsUbLexs_q0NLsCcr_Tgr0-1OEwKn9yhz-3Dd4cLuY5lKxAMrvklBHfC_O70S0Xl7qExiz9HlnbNln3lG30hi7-DLCbk9BJxeN3aWLsKCDpL4FonBV-chsfU3oPukZ8VyS9jSxJfgfU8qsElGpzBUXQQP3YI6s9pGwzxQND1mGW1YY_6j_J0nlEh78PIgWlo3uDb_1fzeO41JmZy2DO3TxPjLR6VJzMQKBts2VMWmhUnzzzEOg9U2zf97lHAiAHF7pr3awUHzKUDX7dugcJk7Naszo3hdCGfxvbGvYiJK2MuvW8BWHsIZDn3rKrTN89Jzb4NF5PbaZPY39Os-pyoHcrBKCjhd7ys6PpP5eZ9KlvqT0ZZBigUgfNRnGJd47MKVtV-D3YqTk6xYkbabqxLl1On4-F_Br1tVqoVJdPnjQMptGC0yGExMF6kRJwRjB49pplYhTlhZdvbk9WM="
 }
