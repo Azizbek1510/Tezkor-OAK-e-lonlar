@@ -8781,15 +8781,15 @@
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 8,
+  "found": 0,
   "found_oak": 0,
-  "posted": 4,
-  "dups": 4,
+  "posted": 0,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T12:51:12.996337+00:00",
+ "last_run": "2026-11-18T12:55:38.662815+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
@@ -26794,5 +26794,5 @@
    "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_Z9AJuF1B25CvNAzFqkWh_lDonky8jGpcZ5WzibhdnNf12UbtXU4Z-4wJaU743TpqpD2dDC7otA314eRLFsDjDAMWxRdRLGzD9klvfJ1cBDMxOPGTZqPmpnUPRibpidGOKBeadTu6ou9SBGIMHg_YQaEa_HLzJFh_rLg8LBmjwNW5jmBC-a9XpsZyZYMynIl0eDgnm8kg9CCNoWnfveQqk6ls9jhwCPygX5xDcO_giQaR-n81EIdSAeFgJiumBHo5bd9mmeYSBjLcL8u88biixdHYtd2D29zBvFM-0U8_58l0CJicAzcK0KbBEMNR140O3QTQkzSU6ahcJNEAp0zBKUu3lye2LjBBc1ZdOAD2IfZBh0YV_tZX6TBEsfMSjZFG3iKvsdzb2q5NoCibDhzRHRqdtsovd_fc7kviehmHXBhyd5Vc6asHRae0DDsAPsmROY2mDZBd8x32bZJo-_-rPxFPT-cq1ChzAuQlhamWM5GZkaeQgQb_vgVPwht7qUzrMIKY21n0sg5iHF1oTxP2lPoIa4h1_XjkX9YCbfDWBHdFu3E198NB0lPddzotbwJtD5R1ubEHex1dkIMqn5jEBwofoGNQcliFoxBsXVVqR9OsmK3w6PTb9lUJ9PN4-bNLfp4_s6s8WkRE9qv8rM1QsDafvRDIGb31rqFaEX_tHfwUvuvyPIn38UBV_gmlk5OgkSHBB53tLEdRok0L3S8_RleoKlzaC1oEx52PFCuviENsasTH51UZ4l9Wlg0_yRSH0fBQsTLwBPfJXX0Xbt2Z4nLfcMQyMMzNQ7hMi4Y4LHawLs8zbobYoBY_s03-kVAiePp6YjJFqs-nVJG1xA611Q04Gcxf5fWcjT2RnajgMdXJz3Eicey9efT0Qyp8ymFo5d6_RMjUxmLz3utPAdsSt_bl3MczSEeOa0YoHKl2ZCGEfY="
+ "vault": "gAAAAABq_aBK6eXgR7FKh41Wr2swypBChNv_J22B-yrjBm_r0EyXC4XhQE1fEdjGK-KgyYaYSPVJv9-NPezQDlaDC3S0ZxqAyrUi8TqGuug8d6nKUO6jUrz2nf5trhQ2A9nOs6jr6lXp0b7Kkvpkwtm3CHLIgQxSgP9pkMlquX7P4HrxbSvUVKyh5emFJQogQehvt0Nktttz6IKfXIx5DX8k0hWYZpqk3RuLW7PAD3eVJSSfSoxuqU39RVOzGQUOS1BHx2i5h8638p32Xl19kT2yedVi1gu0GUJMPc4uMji0KLUWxrD1YBuZFVuHw8sKqX3klPDfkoEh8KI0Ohyfnfhe00DoxWFr_cqqFOo0gl4GwaClVHu1bQwGcgtcj8UqoVcR7jE6pFbjVfjvhczFQ4dLrecrAe1ukbR0eP6GWTsPufrx13E9fxU1pxISY0odj5BVzgrnctSAx_6BIFaliXPFHJoEt_rxJ1sxSc26ov_6Ey8EHArvlO4b7QRM11v0anqnZlQX1nbgX03mOhA6Xh4L4WfS_ud3MhqSsgy6edVe96LwicbgZIiHg5FX4xjrQ3RpXzPBUioBY6XgmslHoExHcXMCRl578jbnp_aB-5A179YjHAdqaDVEjkAK6oh2subRAJ1SU9ZLyDH1GeXEkkEg7ee3dO6LG2Yx451sQjhABdtmIt-4oOlsoy_i31gBK_U8yKxVO_zj0gmBeZCTb43UvvoUAbRobe6eO6UzXLx7MV9sE4CioqRoA5mCD2HaphjYewtp0rQFauoElTuijnyiIsMENkamlf7Sv_tQ_JzoKpN0imTfsdtFywB2n00Pihfz0pc8iXZHsZknoWPrp-KqKTnAnJT4lTsanl5GTM6lSOxGcUGAOSGiv3rtAWIAO-nwzBNvtwqlxldaFfjEoF8lX2u82qTgJqrY9yJioRVlpjhtlq-GoMY="
 }
