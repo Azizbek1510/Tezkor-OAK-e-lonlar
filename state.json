@@ -1,6 +1,5 @@
 {
  "seen": [
-  32577,
   32578,
   32579,
   32580,
@@ -2999,7 +2998,8 @@
   1000740,
   1000741,
   1000742,
-  1000743
+  1000743,
+  1000744
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -8730,11 +8730,6 @@
  "last_deep": "2026-11-18T13:00:48.239956+00:00",
  "recent": [
   {
-   "t": "2026-11-18T13:02:40.124625+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000287",
-   "title": "Umarova Fatima Tadjibayevnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-18T13:02:49.608535+00:00",
    "url": "https://oak.uz/himoya-elonlari/1000381",
    "title": "A’zamxonov Saidabzalxon Xasanxon o‘gʻlining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida eʼlon"
@@ -8778,29 +8773,28 @@
    "t": "2026-11-18T13:15:54.198830+00:00",
    "url": "https://uza.uz/oz/posts/qodirov-axrorzhon-baxodir-oglining-filologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940282",
    "title": "Qodirov Axrorjon Baxodir o‘g‘lining filologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T13:20:53.046086+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000744",
+   "title": "Elmirov Kamol Ortikovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 2,
-  "found_oak": 0,
+  "found": 1,
+  "found_oak": 1,
   "posted": 1,
-  "dups": 1,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T13:15:58.230317+00:00",
+ "last_run": "2026-11-18T13:20:57.061176+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "34166": {
-   "m": 4874,
-   "p": 1,
-   "f": 4875,
-   "d": "2026-10-30"
-  },
   "34167": {
    "m": 4876,
    "p": 1,
@@ -26794,7 +26788,13 @@
    "p": 1,
    "f": 12500,
    "d": "2026-11-18"
+  },
+  "1000744": {
+   "m": 12501,
+   "p": 1,
+   "f": 12502,
+   "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_aUOpcGEUgbWcXRLf23VMA3RCBi1Y5VlferIS2E-LGmdIVAM5nLiyl3haYYIqHm_2k78sAnmww3A8XypQ5YYHC1Gkmb87zzcUnijya9j79MvLQxN5OlXW1u3Fa32QKVxuFb8RjHmi1Zbme8_-XEyqTb01X3pQrsuaum3Icuvds7kZf3RLWB1-5SOnneyev2S0CrU87k2UBZwr_KfdNhdxBxawLtnlmU1V26hOQZiY4qr4KYyB-sIf7064hwFj9vlqlzcxXywBxYYx5W9EDuljEy4_AYXL4-lXd0slbfiqjpDmH27zUc6lVMkpeHRkVaxSIW0ouZhWT-Ao1y-BtvMQcbZZvWKSZVJS0nu_j6svYU5tbxfsRws-My4hVVisG96Djm6mkFQ381OVxwPBoQbTjE4QVBXZm1G-nZVp6ju8JKYDr29D5TUrzK-_XY48P-hnX2qBSMjvX6FPe3n5qH0qn2_8Y7cmsVLQkJxHI4xrYbVHj4L6b8VcmaWKdws8gxpHCssSiKbX0ddWSBaZlpPS1HWJQ9Tx1hsNzbGpG1c_jAyHWZ-OZnD_PGkCf0vPuUxkHfbbo5v1gkjaTmP8B0P-AWuFi21r_QpNt9mi9c_5572YbVqN7Fwn65BgPpanJxHMRFyuiDDFjWqxxfvxd_n4P3xOaAD4cbFCnbkSMs0W63ZFk_er-6hzKLyaCMS5Ae3mrXp5SCTm02YMpP3aedKHgtIgweIG9GVh51oM918TnDsDt5Ss9j6u0tyjOmn0EZ5-vroY4fToUPOiO9SNfJOinzhio_3iz21Oo9D8k1OLN4q88uEDlbedHm-TNc7i4vZw0A05hVPGDm_YHGMK9ovAZIJCGA-Ih2MQ4rt2-yZt9DiaUfO4mE3i1aRH2VSSgMOr-FqwL252UhJEKwNPij1uqycQZhNJyGbxM6sWIaEcRaLT6A="
+ "vault": "gAAAAABq_aY5Namto1oRAIPCq6Mr5YEuaUVG4rE5K4TCJumjs4ZZlnf3IaygSPyE84tW0-MAhA1p9EswihxifS6e_brl7oXyzCTWhbV6XKnGW6Y1uzlSW9YRz3qn97a8O875z5SOsOsbKUYHjyOUaG6GgnqXMJPz8OtfR94UAWyPO9JsTKH5f0YvMlZpnJq0fd3VXIYQu1Tw44Irnhi-eW_B6RhX7tt0UxFDMLYEyupyJA8tMZ5f77S_yWrR45YMvBhMWeZBtabfumqwKQsjjAYDehdVGaMH0rGZpGZXe3xW_9r53NpHLoi0vaNLIdgmyBrmggh3r6mQ0cQ1Gi3RPwGSEElfk831OSjza4ai6CjqwjcYsEyodE-9Lt4wVxgRXrgzVy1UlBdDJZpdvzgpzKPUd7E1C99ph3ZhEbhMEsZqpGqIq0aE_cAS2yzh6cD-iWstHSxbqDb4TXW2PAWZ90pJ9_lo1XBBBrf_DLCEdK7wNBlyKPJUuyN5WrlYaZ7wjIV9M-JoKZFPBDQT28OKOqoIhAh9K7VxThX5z2wpclGUK2VCgdvZYqQ1T43CMAio69aVtBr-HS67ZZOPKAbFghOCosNl8NPqTEodN9MYxRLjN0evWuQFEsyQXaGrlroIqHgsZ7u1BC8jgrqdoCiWuR3WbFkwLwWjZOwHzRcGrBLbZhTZjZJI3YTBUJyGSOWEH83U9YnlCo19-LKm-ggGeQfxAlRU-BGfuVbBmmqG_4cDaudcMU8qlqpZR0rKGzjdHKchvB9ToEUL1KUl8VBod-lenIxuAxS77r746G5ynvtAPKFNlOMlPRkTg2_TSHnXeODUjAkKVaHM4pWxRa9yPBd5wkmoH9Ekx9_wUGmbszYek7afMSahnxlsg4k1PNq5wIhP5rbX5Gy_KFdspJ8k3z2vpQ5R_MNOBSw_1-0OnSedRVevbr_nScQ="
 }
