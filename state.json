@@ -3022,12 +3022,6 @@
   }
  },
  "seen_uza": [
-  927999,
-  928002,
-  928003,
-  928007,
-  928012,
-  928013,
   928019,
   928020,
   928021,
@@ -6021,7 +6015,13 @@
   940272,
   940273,
   940282,
-  940283
+  940283,
+  940286,
+  940287,
+  940288,
+  940289,
+  940290,
+  940291
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8723,27 +8723,15 @@
   "abdusalomova mahliyo|PhD": "2026-11-18",
   "gaybulloeva vazirabonu|PhD": "2026-11-18",
   "zayirov muhiddin|PhD": "2026-11-18",
-  "qodirov ahrorjon|PhD": "2026-11-18"
+  "qodirov ahrorjon|PhD": "2026-11-18",
+  "nasirdinov mavlonjon|DSc": "2026-11-18",
+  "abdullaeva umida|DSc": "2026-11-18",
+  "kenjaev sardor|DSc": "2026-11-18"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-18T13:00:48.239956+00:00",
  "recent": [
-  {
-   "t": "2026-11-18T13:02:49.608535+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000381",
-   "title": "A’zamxonov Saidabzalxon Xasanxon o‘gʻlining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida eʼlon"
-  },
-  {
-   "t": "2026-11-18T13:02:56.889740+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000738",
-   "title": "Karimova Momojon Egamberganovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-18T13:03:16.095754+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000739",
-   "title": "Ikromov Sirojiddin Abdulvoxid o‘g‘lining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-18T13:03:23.528495+00:00",
    "url": "https://oak.uz/himoya-elonlari/1000740",
@@ -8778,41 +8766,38 @@
    "t": "2026-11-18T13:20:53.046086+00:00",
    "url": "https://oak.uz/himoya-elonlari/1000744",
    "title": "Elmirov Kamol Ortikovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-18T13:25:52.796632+00:00",
+   "url": "https://uza.uz/oz/posts/nasirdinov-mavlonzhon-ziyomiddinovichning-tibbiyot-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940286",
+   "title": "Nasirdinov Mavlonjon Ziyomiddinovichning tibbiyot fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T13:26:01.202630+00:00",
+   "url": "https://uza.uz/oz/posts/abdullaeva-umida-abdukadirovnaning-filologiya-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940288",
+   "title": "Abdullayeva Umida Abdukadirovnaning filologiya fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-18T13:26:09.230145+00:00",
+   "url": "https://uza.uz/oz/posts/kenzhaev-sardor-nurmurod-oglining-tarix-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940290",
+   "title": "Kenjayev Sardor Nurmurod o‘g‘lining tarix fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 1,
-  "found_oak": 1,
-  "posted": 1,
-  "dups": 0,
+  "found": 6,
+  "found_oak": 0,
+  "posted": 3,
+  "dups": 3,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-18T13:20:57.061176+00:00",
+ "last_run": "2026-11-18T13:26:13.267156+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "34167": {
-   "m": 4876,
-   "p": 1,
-   "f": 4877,
-   "d": "2026-10-30"
-  },
-  "34168": {
-   "m": 4878,
-   "p": 1,
-   "f": 4879,
-   "d": "2026-10-30"
-  },
-  "34169": {
-   "m": 4880,
-   "p": 1,
-   "f": 4881,
-   "d": "2026-10-30"
-  },
   "u930592": {
    "m": 4882,
    "p": 1,
@@ -26794,7 +26779,25 @@
    "p": 1,
    "f": 12502,
    "d": "2026-11-18"
+  },
+  "u940286": {
+   "m": 12503,
+   "p": 1,
+   "f": 12504,
+   "d": "2026-11-18"
+  },
+  "u940288": {
+   "m": 12505,
+   "p": 1,
+   "f": 12506,
+   "d": "2026-11-18"
+  },
+  "u940290": {
+   "m": 12507,
+   "p": 1,
+   "f": 12508,
+   "d": "2026-11-18"
   }
  },
- "vault": "gAAAAABq_aY5Namto1oRAIPCq6Mr5YEuaUVG4rE5K4TCJumjs4ZZlnf3IaygSPyE84tW0-MAhA1p9EswihxifS6e_brl7oXyzCTWhbV6XKnGW6Y1uzlSW9YRz3qn97a8O875z5SOsOsbKUYHjyOUaG6GgnqXMJPz8OtfR94UAWyPO9JsTKH5f0YvMlZpnJq0fd3VXIYQu1Tw44Irnhi-eW_B6RhX7tt0UxFDMLYEyupyJA8tMZ5f77S_yWrR45YMvBhMWeZBtabfumqwKQsjjAYDehdVGaMH0rGZpGZXe3xW_9r53NpHLoi0vaNLIdgmyBrmggh3r6mQ0cQ1Gi3RPwGSEElfk831OSjza4ai6CjqwjcYsEyodE-9Lt4wVxgRXrgzVy1UlBdDJZpdvzgpzKPUd7E1C99ph3ZhEbhMEsZqpGqIq0aE_cAS2yzh6cD-iWstHSxbqDb4TXW2PAWZ90pJ9_lo1XBBBrf_DLCEdK7wNBlyKPJUuyN5WrlYaZ7wjIV9M-JoKZFPBDQT28OKOqoIhAh9K7VxThX5z2wpclGUK2VCgdvZYqQ1T43CMAio69aVtBr-HS67ZZOPKAbFghOCosNl8NPqTEodN9MYxRLjN0evWuQFEsyQXaGrlroIqHgsZ7u1BC8jgrqdoCiWuR3WbFkwLwWjZOwHzRcGrBLbZhTZjZJI3YTBUJyGSOWEH83U9YnlCo19-LKm-ggGeQfxAlRU-BGfuVbBmmqG_4cDaudcMU8qlqpZR0rKGzjdHKchvB9ToEUL1KUl8VBod-lenIxuAxS77r746G5ynvtAPKFNlOMlPRkTg2_TSHnXeODUjAkKVaHM4pWxRa9yPBd5wkmoH9Ekx9_wUGmbszYek7afMSahnxlsg4k1PNq5wIhP5rbX5Gy_KFdspJ8k3z2vpQ5R_MNOBSw_1-0OnSedRVevbr_nScQ="
+ "vault": "gAAAAABq_ad1ozuMrqi5-FpGHUFtL0PYlczM6r_SpFl7z4slfMuJl2nLkBr_djigibVAQeDxTmFrn294pUvO_BmtGcKyndeGSNqSouvhpsuCZ-kDMyyxTSMGEMtXp_AZYzsWjMZWP5ZaFocz_X_Da6hgNJ0ZjZ5I-LAiOKH2_i8H8-b2QZKY9RIJGJmCNmoaHIkwuoVct77g0WXsvO-XNmjxDOAit6e7cERGHhduyepbEBujjRncwemlTZ9B9P4h8OKo2-YljK9DcS8WKBVou_t4YsnH3H5C7S9UM3O7l4dVHMAMug7xvFNKxA99O_CRShdZ4fOh4ZMZ1bnS8elB3IOQj74xmRrL9juX2P9K5D1BUDvt_iy_6xdPaz32eXoMzLX12AAQ3EYZPPjSZ16cYknkVXQEr56WylXzFkXz21uMdNtik-XmWs6QCvCNUtIyiziFRwZKAuTvj6ozGpZXvCV4myQiKIsUNTwh6Fdob7iOD7XGtQ8wBDrZbeSfD_3B2sxhPerkH5iJCyWIGxknirJjG-anwXjUx8TxZ6mjlokIyFzO6-Ia5zB9vcFYf6ikYsVpj5GwiPRwrxpf9JWPhGrreQZLM4RnQpHA2phJdu46W1INLct1uMWvQueicKgoU_iIKBrdART5XdiS0c2IYYWR_RjbgMS0DWL_XOp78IU-cEc3UJ2InyEBMXillG1TlETeMA18EM-_ZLw3xbaK2HkNN7Vg109cEUIf9_-GUfLjCPiJwoMQ2aIstIM0wh-8RWtrE4h4ZBrYjKiJGUJtI_cBPtFddxQyQhl_AIdP1G8XgM4q-2dZeqE38PLybXPKHBppbtfMFg-gkczORvSZB7OZ_gXWiLcH5wZFcGTgeJuyTgZD3F0GSChvHiK9JP12_uLVkNGIcmH12Zrk54gk4NZeYVCKIfXK_xosz-qLPjN1ZujsTNJcfmU="
 }
