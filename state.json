@@ -3022,12 +3022,6 @@
   }
  },
  "seen_uza": [
-  928724,
-  928725,
-  928726,
-  928727,
-  928728,
-  928729,
   928732,
   928733,
   928736,
@@ -6021,7 +6015,13 @@
   940628,
   940629,
   940630,
-  940631
+  940631,
+  940632,
+  940633,
+  940634,
+  940635,
+  940636,
+  940637
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8824,37 +8824,17 @@
   "ma kurov|DSc": "2026-11-19",
   "mussaeva muhlisa|PhD": "2026-11-19",
   "isaboev sharofitdin|PhD": "2026-11-19",
-  "isaboev arofitdin|PhD": "2026-11-19"
+  "isaboev arofitdin|PhD": "2026-11-19",
+  "fayzullaeva charoshon|PhD": "2026-11-19",
+  "fayzullaeva aroshon|PhD": "2026-11-19",
+  "shomurotova shirin|DSc": "2026-11-19",
+  "omurotova irin|DSc": "2026-11-19",
+  "jalolova gavhar|PhD": "2026-11-19"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-19T07:00:45.573259+00:00",
  "recent": [
-  {
-   "t": "2026-11-19T06:55:47.977324+00:00",
-   "url": "https://uza.uz/oz/posts/ernazarova-shoira-narzullayevnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940609",
-   "title": "Ernazarova Şoira Narzullayevnaning falsafa fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-19T07:02:13.515103+00:00",
-   "url": "https://uza.uz/oz/posts/eshchanova-nargiza-zakirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-tog-risida_940610",
-   "title": "Eshchanova Nargiza Zakirovnaning pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘ risida"
-  },
-  {
-   "t": "2026-11-19T07:02:20.964396+00:00",
-   "url": "https://uza.uz/oz/posts/eshchanova-nargiza-zakirovnaning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-tog-risida_940611",
-   "title": "Eşçanova Nargiza Zakirovnaning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğ risida"
-  },
-  {
-   "t": "2026-11-19T07:02:27.866897+00:00",
-   "url": "https://uza.uz/oz/posts/musaeva-nargiza-baxtiyorovnaning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940616",
-   "title": "Musayeva Nargiza Baxtiyorovnaning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
-  {
-   "t": "2026-11-19T07:06:58.135258+00:00",
-   "url": "https://uza.uz/oz/posts/baxtiyorova-umida-ulugbek-qizining-psixologiya-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940619",
-   "title": "Baxtiyorova Umida Ulug‘bek qizining psixologiya fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-19T07:10:50.342710+00:00",
    "url": "https://uza.uz/oz/posts/mashkurov-gayrat-abduzhalilovichning-yuridik-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940624",
@@ -8879,6 +8859,31 @@
    "t": "2026-11-19T07:11:21.582099+00:00",
    "url": "https://uza.uz/oz/posts/dotsent-isaboyev-sharofitdin-musomiddinovichning-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940631",
    "title": "Dotsent, Isaboyev Şarofitdin Musomiddinoviçning pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-19T07:15:53.245753+00:00",
+   "url": "https://uza.uz/oz/posts/fayzullaeva-charosxon-obidzhon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940632",
+   "title": "Fayzullayeva Charosxon Obidjon qizining pedagogika fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-19T07:16:01.674310+00:00",
+   "url": "https://uza.uz/oz/posts/fayzullayeva-charosxon-obidjon-qizining-pedagogika-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940633",
+   "title": "Fayzullayeva Çarosxon Obidjon qizining pedagogika fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-19T07:16:09.895994+00:00",
+   "url": "https://uza.uz/oz/posts/shomurotova-shirin-hazhievnaning-pedagogika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940634",
+   "title": "Shomurotova Shirin Xajiyevnaning pedagogika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-19T07:16:18.162465+00:00",
+   "url": "https://uza.uz/oz/posts/shomurotova-shirin-xajiyevnaning-pedagogika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_940635",
+   "title": "Şomurotova Şirin Xajiyevnaning pedagogika fanlari doktori (DSc) dissertatsiya işi himoyasi töğrisida"
+  },
+  {
+   "t": "2026-11-19T07:16:26.681446+00:00",
+   "url": "https://uza.uz/oz/posts/jalolova-gavhar-sirozhiddin-qizining-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940636",
+   "title": "Jalolova Gavhar Sirojiddin qizining tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
   }
  ],
  "queue": 0,
@@ -8892,40 +8897,10 @@
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-19T07:11:25.600207+00:00",
+ "last_run": "2026-11-19T07:16:30.717225+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u931005": {
-   "m": 5134,
-   "p": 1,
-   "f": 5135,
-   "d": "2026-11-01"
-  },
-  "u931007": {
-   "m": 5136,
-   "p": 1,
-   "f": 5137,
-   "d": "2026-11-01"
-  },
-  "u931009": {
-   "m": 5138,
-   "p": 1,
-   "f": 5139,
-   "d": "2026-11-01"
-  },
-  "u931011": {
-   "m": 5140,
-   "p": 1,
-   "f": 5141,
-   "d": "2026-11-01"
-  },
-  "u931013": {
-   "m": 5142,
-   "p": 1,
-   "f": 5143,
-   "d": "2026-11-01"
-  },
   "u931015": {
    "m": 5144,
    "p": 1,
@@ -26895,7 +26870,37 @@
    "p": 1,
    "f": 12758,
    "d": "2026-11-19"
+  },
+  "u940632": {
+   "m": 12759,
+   "p": 1,
+   "f": 12760,
+   "d": "2026-11-19"
+  },
+  "u940633": {
+   "m": 12761,
+   "p": 1,
+   "f": 12762,
+   "d": "2026-11-19"
+  },
+  "u940634": {
+   "m": 12763,
+   "p": 1,
+   "f": 12764,
+   "d": "2026-11-19"
+  },
+  "u940635": {
+   "m": 12765,
+   "p": 1,
+   "f": 12766,
+   "d": "2026-11-19"
+  },
+  "u940636": {
+   "m": 12767,
+   "p": 1,
+   "f": 12768,
+   "d": "2026-11-19"
   }
  },
- "vault": "gAAAAABq_qEdHC7sYvPBppTHgLg41GZiLyzVCCe6MSJNw7cKDtmF4m_7XH-lB9DFywqTLmoW9WV173aFt03qew-BLXOYBE8FSC0bGv79Iarpb0ADaV2CG_vY2w9bFa4akTjvvzuXf4yWasD2ttPbGpl7UhDrdwPbwmrRdC2djoMCPQ-O3dhrzt8ZjwSlgTmXevCBwk0RG6TDV3M-AqSPAbwIxStgFZCUtPt7DKw3mPtDUfK7z2fPslaqH1MwFOAQj2qBRCH4lLs36aWiAmH0zrf0oUShpDIMnZ3Io9CzMGBI-uaf0dXwWx4fYP2jPJDAQw1LcfS4Jj0unSS7ZKF6bSDgxAzCrDl_G0D-kDa_2oBDWazYIjBlJgfp9dNg-F7eXSqYxBPqGgkiRNq3dxpEWoOc5CejTGb7UHlygEpUNOpJj0iUDKxEovtn4qaI5tZc6LRb7jSoTN6UQQN6fA81I0jjPCPeQK5jvFhg5d6Y55iYIBAYmoW2_NQLA0w2Plrcp4bO1QkQx03Wpmd-qmCRb0qihnHI6tKAxzdxZmrF143OIPe4Hwhtx1HtXKkyXEg1KaLy8GJDudC_M4jymSv-zZ-p1-a3A45fjGHsReHGu3UvBDAIQh3lYKYFKli8YOhQNrFSsoWezBBPSom-1W7OSrSMYP2repv_Gbw0ZC_zam4Zj8XgDzRrCF5OZis2wFel_jqZXALsTPeznqnhgoJJiiOdAJbhtk2HOJyHWqYadp2WBWHN6RcW7eTkFclufDHORinFumDLqZEophp0SQgaf4Inze1RZ6LzeO4gUHIeuuppWPucNmnMMuoUSyaA8PTtfGmNT8o08wHcQTkDOsOStPHohqq4shcgbc3OWYxZazKfuOqDu_bgQvPbugky9_UY0eCERTI_8kkvMfB4Tdw8YSaR65duTVS4rDZwlI5aI_X2-R3HV9rx94g="
+ "vault": "gAAAAABq_qJOqcYTWYE7ELho72q4_1NeTGcyQlASltfkAyfKkcqJ8zAaedmV7OPVFZfG7USM3C-zfzFEGU-3Bb8z1uyQLQJg9svW0vwJj10RPXVgtSJiD7oZmYB-B9xPsZ_DmV9cqogAfftEGw9W2mVMt4WaABBlc8iZJWNirLDVyBnpYJgTJ_852Mg7njihLtcdgo3jKdyHEWwmyq9ITu2kds1nogIRJCxLqeOqmuIIjRsML9QjsV-oFZQUDwSEWOB5dJGifKFGpVZXChTlBl9WZFO7pYoi5sLSkwaqMeEaeL46u4vU1ejweXMeZgaszKccBASexR9JU4bdJ5qa8Nbw8oy00GgRSlUmzxnPemXXF0VkkKv0p56O0tcBRiRhPlDPjdKGTqxWDYw4XAwqZ5jVIpA7iZdV0X2uuRIBNl5u5Zb9d4BDlZ5jjfmdkYDxAZpaQQwT2ebGY06nq_6VqMekI9oAuwortwH-ugswT4LhQ6NWpHdzQylXV7J_elOryBXt4rK0OvgHYduzpoa_cNb7a9xlALm3lLV7JXMvUEUkanKEPrzscqWkJADi9sHh_2k13NVcsnSB2trlaOhKtZorgeteAWDl0tOFx-M72yUZ5R2VR4Gr_1r_wE0gVUuoV0_mIlmRk8bHrLlR93QUrugkSaVwufQLXOEHIbKpeoEDpI6EWi39yZth5FGZPuHmSWOPAQ1O7KsE2C1cIRd67wE_hqb0p5S4ZBOuM7yR-zSjmgTB3TjWM_zIcqrxS3yb5AKqsC16hJh5Q7uUT-JWf6KCsup69bvRLwWSqnGRD2Pr4kdoqyXx8CERTwBIifS6a98rMt6OGKcfsr0oHOb_eOXEtb2ImSxbd3T309Eitx6SDl8DAY-x71pH0G684XgFqNH6MBUEMoQh2as-ONXqa32Xubid7VURBdWJQcPFDutuHtli7_6Z4So="
 }
