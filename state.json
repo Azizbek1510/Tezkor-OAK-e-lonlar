@@ -1,8 +1,5 @@
 {
  "seen": [
-  32716,
-  32717,
-  32718,
   32719,
   32720,
   32721,
@@ -2999,7 +2996,10 @@
   1000873,
   1000874,
   1000875,
-  1000876
+  1000876,
+  1000877,
+  1000878,
+  1000879
  ],
  "migrated_v2": true,
  "backlog": false,
@@ -8945,21 +8945,6 @@
  "last_deep": "2026-11-19T14:00:48.512115+00:00",
  "recent": [
   {
-   "t": "2026-11-19T14:25:45.045351+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000867",
-   "title": "Kojalepesova Periyzat Azatovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-19T14:25:51.899898+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000868",
-   "title": "Abdirov Amirbek Mamanovichning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-19T14:25:58.743471+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1000869",
-   "title": "Muratbaeva Umida Taumuratovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
    "t": "2026-11-19T14:26:06.532242+00:00",
    "url": "https://oak.uz/himoya-elonlari/1000870",
    "title": "Shamshetova Biybiayim Janibek qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
@@ -8993,41 +8978,38 @@
    "t": "2026-11-19T14:31:00.349626+00:00",
    "url": "https://oak.uz/himoya-elonlari/1000876",
    "title": "Raximova Gulchexra Zarifboy qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-19T14:40:45.909615+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000877",
+   "title": "Qodirova Shohsanam Boboxon qizining falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-19T14:40:52.925821+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000878",
+   "title": "Xusanova Salomat Xushbakovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
+  },
+  {
+   "t": "2026-11-19T14:41:01.196370+00:00",
+   "url": "https://oak.uz/himoya-elonlari/1000879",
+   "title": "Ishanxodjaev Sadidaxmad Akramovich fan doktori (DSc) dissertatsiya himoyasi haqida eʼlon"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 0,
-  "found_oak": 0,
-  "posted": 0,
+  "found": 3,
+  "found_oak": 3,
+  "posted": 3,
   "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-19T14:35:38.893724+00:00",
+ "last_run": "2026-11-19T14:41:05.214626+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "34316": {
-   "m": 5578,
-   "p": 1,
-   "f": 5579,
-   "d": "2026-11-03"
-  },
-  "34317": {
-   "m": 5580,
-   "p": 1,
-   "f": 5581,
-   "d": "2026-11-03"
-  },
-  "34318": {
-   "m": 5582,
-   "p": 1,
-   "f": 5583,
-   "d": "2026-11-03"
-  },
   "34319": {
    "m": 5584,
    "p": 1,
@@ -27009,7 +26991,25 @@
    "p": 1,
    "f": 13206,
    "d": "2026-11-19"
+  },
+  "1000877": {
+   "m": 13207,
+   "p": 1,
+   "f": 13208,
+   "d": "2026-11-19"
+  },
+  "1000878": {
+   "m": 13209,
+   "p": 1,
+   "f": 13210,
+   "d": "2026-11-19"
+  },
+  "1000879": {
+   "m": 13211,
+   "p": 1,
+   "f": 13212,
+   "d": "2026-11-19"
   }
  },
- "vault": "gAAAAABq_wk6pazkRVaCmE-Zbwm4iWr975pYeD8qTlmWcgPLgH47jecRII5kOeLvvYL-CV4TowSbkhS6k9WAfRrx5tzOKEqHQdUjZPnhsVV_oUulwnZ4RAmdQr3v7w-9eRPeB1iRe5NXTObaY0kY8aJRBG93U1SHk5EjxqxgXyFDwvc1RyfJguh2E5ilt3m-s5Te5frv3nt6NJa7CDJqvIEnKQaKFesT7fVevByYsWs_HRwEeT9vFsLDPH21MHhrA36Vr6OQsLvYAoiPBoh-PXOzEFYgGnQ3YWIwD8EwmcJ7eUpSPT1avuBsgbNCkq-XfQGreRNVa1EMf3pCcemelM2k3etPjU-qsmc1bGSmrYRWKzKlpfQsF5WEgiW0igDdMIEc_lo5UL-0td9izZupVy0PrTYuz6_F46z_yyGXbUKTgTQF5TWDlySXkTQm5bYNIFloNi9zJn5eSkgnRnJQ3PHpTNoixD66x0Q63CZQ0z8Ikegj2j-uOkG6Iw7sEDPV8lvDg6Ypyye_O4dgSMX52htkU6a-vyCa1OxQBGOCUXacCwH6dqSkNNwVPw9HeBWnja0J9O26M1FgUA3K-H-z4Ipf9q2vOfXPoRI6ZsIeVjTlBaNrSJKfRdcxdxBYh25Al_Yk2HOfSpIUXRcUfRSaDnm1MgIXGBKoaRcB7X1x5KSZje9x3Zi8gqI-5bUPoCTuCw3OE1FZr1HeLZRmYdmVpE7crVtw3UucWQz-tM8MflsGrc6Ua5fFE-bDWbZd259FXNqb2MhzvaQnzn_7b7OMX4LHwiSTu61m82qUq6n8E29XMZ5BD6XzHv9ceVbGi5EsJBUZeKGmDcPMk0DzYbHaTNP__Lv1NzkKZUZCbzmQhXGAxSb3wpVjJ1dX9INXSqC1ORgY5whati8p93QMOs-Vk_qTXIoiF3uN4Jgk3Uy7uKiapsSCxPAE64Q="
+ "vault": "gAAAAABq_wqB-9iD5SwhdRJk4k048YvBFEOr2TUV36PP3bxkAYPb9a67gcE97fTq3yRQxqjsfrhkHNCU7TAPYxqmZVhkqwTu2Af6tk5UP1f1cxVcVXi6rPnMjS6HOpNY8UQjTBV20CFqxF3WUks_L88KWLcc-_okhm25MRfFbtawfPytDe0wDhie7il0TkQr3Ex_WTRym7grNK2QkufhGBKwhVueeWcqXuVgai5SbSb3BRgyi4VTVq69i76II94uDFATRwk_Q5KYJHmr23CB8SJjLF9Xs9aSXQ_QxATebc9RoKiNGSMUOmL1KcuQFqgFd-8EGJzN0p_wqnYY_sX8NdvwUCrP1QnddzqQlfcj__m5jShs1Udy1m7oM3rAR7UeQKl_0BcO9qx9IdiH2C1n6oajOIy6JEtbEMwIhRbmrvLpiNbN6_SgG_6xIZsyOmmDgol7PWMkHL61eQBouC-epq3IR9ikAGSdc6WQR5Pcnw-DQBorCHv950w2wMC8yuLqBY5smcpNS2Mj8W8pEBwIB08KSV3vaiC67hji-92-0dJ_LzKI-fT1Mlu-ElhQ2kZDxAZpZex4XQqvKEuTOY9eDX7wMXTiACuDc4RmF2zmsImG-VqXNTCwKnZWE11iSIijHsmekp57SjAPaLarTj8jUl78RXJbo1wys7ryV77hM4tNX30g5u8ju7dxG8TDWO5S6S1jr2r8bVU2qMdF4j_TGUNhaiW6M27mK_o4JpV-GvWd3wcMBUjFw2XdDp97xWIYz0aaBYomt6rzuZxUzGQ2NNqF-KWuLudZE_BttGPXPt6nOpIwAN-sUm9o5_O1D8WUYxR7hMLiGR0AKRKnTIljZtjQOCYZ1iQN-xFWG1mDl2oNpYWpaQSnbCM7X3V230CfdlC994UYW9EPPq-tJadEhD0i83LGvzoU8O_71MqUSETxNmFYUD7mfrU="
 }
