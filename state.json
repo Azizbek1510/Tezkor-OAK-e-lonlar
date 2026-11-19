@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  928595,
-  928596,
   928601,
   928602,
   928605,
@@ -6021,7 +6019,9 @@
   940595,
   940596,
   940601,
-  940602
+  940602,
+  940608,
+  940609
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -8813,22 +8813,14 @@
   "abdullaeva feruza|PhD": "2026-11-19",
   "otahonova hilola|PhD": "2026-11-19",
   "abdullaeva nigora|PhD": "2026-11-19",
-  "madrahimov umirbek|PhD": "2026-11-19"
+  "madrahimov umirbek|PhD": "2026-11-19",
+  "ernazarova shoira|PhD": "2026-11-19",
+  "ernazarova oira|PhD": "2026-11-19"
  },
  "uza_keys_built": true,
  "tg_offset": 362609560,
  "last_deep": "2026-11-19T06:00:41.957451+00:00",
  "recent": [
-  {
-   "t": "2026-11-19T06:25:59.349257+00:00",
-   "url": "https://uza.uz/oz/posts/shamshiyev-jamoliddin-erkinovichning-kimyo-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940570",
-   "title": "Şamşiyev Jamoliddin Erkinoviçning kimyo fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
-  },
-  {
-   "t": "2026-11-19T06:26:06.893548+00:00",
-   "url": "https://uza.uz/oz/posts/joraev-nodirbek-normuradovichning-texnika-fanlari-doktori-dsc-dissertaciya-ishi-himoyasi-togrisida_940574",
-   "title": "Jo‘rayev Nodirbek Normuradovichning texnika fanlari doktori (DSc) dissertatsiya ishi himoyasi to‘g‘risida"
-  },
   {
    "t": "2026-11-19T06:26:14.022308+00:00",
    "url": "https://uza.uz/oz/posts/jorayev-nodirbek-normuradovichning-texnika-fanlari-doktori-dsc-dissertatsiya-ishi-himoyasi-togrisida_940575",
@@ -8868,6 +8860,16 @@
    "t": "2026-11-19T06:50:50.223436+00:00",
    "url": "https://uza.uz/oz/posts/madraximov-umirbek-muxammadovichning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940601",
    "title": "Madraximov Umirbek Muxammadovichning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-19T06:55:40.725940+00:00",
+   "url": "https://uza.uz/oz/posts/ernazarova-shoira-narzullaevnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_940608",
+   "title": "Ernazarova Shoira Narzullayevnaning falsafa fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-19T06:55:47.977324+00:00",
+   "url": "https://uza.uz/oz/posts/ernazarova-shoira-narzullayevnaning-falsafa-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_940609",
+   "title": "Ernazarova Şoira Narzullayevnaning falsafa fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
@@ -8875,28 +8877,16 @@
  "counts": {
   "found": 2,
   "found_oak": 0,
-  "posted": 1,
-  "dups": 1,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-19T06:50:54.248428+00:00",
+ "last_run": "2026-11-19T06:55:51.994040+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u930980": {
-   "m": 5112,
-   "p": 1,
-   "f": 5113,
-   "d": "2026-11-01"
-  },
-  "u930982": {
-   "m": 5114,
-   "p": 1,
-   "f": 5115,
-   "d": "2026-11-01"
-  },
   "u930984": {
    "m": 5116,
    "p": 1,
@@ -26884,7 +26874,19 @@
    "p": 1,
    "f": 12736,
    "d": "2026-11-19"
+  },
+  "u940608": {
+   "m": 12737,
+   "p": 1,
+   "f": 12738,
+   "d": "2026-11-19"
+  },
+  "u940609": {
+   "m": 12739,
+   "p": 1,
+   "f": 12740,
+   "d": "2026-11-19"
   }
  },
- "vault": "gAAAAABq_pxOPEFNzedPMnpknfxJaedFzxkHC8w_1RxlwK6d0Tt1ib-EParUp9FI1FiJ1b-y-qEdfsB9geMaP85UTrt3S6hKqtG33MlQ6ard72u9F1COIqzu78TshYUfKSfB_VxpnvUAo0TykEhH_8Y0mN6llJCDNU9ckEpYyPomIDd-LX-kemOt_axAkRQkXp09JzPcVwkmOjNyBP45CvoW8uwICpqqdt8TOQGz_oxe4y1zLNezOVK6R2ghVs_kCtVdeG25FfAOs0saLIjpV1Q4yt1iNDRkQ5189JbfF98qrROJFK8yc6gdBq4-paOGD46ehQUEYqFAO75dbgb3V59R2iaowfp3-diJTrwW7o5EWeWcVTTsYlRuZwtYJemXUoQe9OessAtvxIcLdbfPe5a3u8P41UMPs4i63nswJqWnaIN3zgJhvrSNTVGCZ3_oD9yGzWltgEw5dkpgD2PA7J_KJK6IlpTv0wXXvvQPimaSGiLbSzzaLjNFWgflxHeu8QD-MCQ5KrIiIwYUKxCqRuT6Fiycu4lKUgVDxJkcgEg5K8iBVr9_tu0L5F5SJStox7Jy9_fTDfvg1f2Vh35t9fip80Oinlv-ry_rc8pWTfmwggiLjEnWb3nO_yh8ieDIt7SmZUyPK-_qWzPS976ha_kVZxMlT23xYr2_n6iCRnZtOt8Sj3yecZ9FK40sNYLQ3hlETXKyPdd-By2TiN1E7SjqEUOwTnjKei31KVaJY3Ryyke_1qIFgBGP5Xm2nFLA-AB7DnsEDykRJl8uZaJce98NiD2KagY9zbi2VU6AG7wkzP5T7QFr4m8LoJb3okgmocQ7bJH76saoKa7ipVXiuU9ZHUrJxqaZWRm95GS7nsLU7KblCZ5bi49anFuyOeBKQLc00EJgNGxMwCENeAZ2-5pWZiGZ5iYrgFWbl450g15e0LWRZyj2B9A="
+ "vault": "gAAAAABq_p13-l-KsG6sRDsaXrdgenp92Y6YsNRtgn_STXsiYzCGdg8s4PeQsht7yvIBJKH-f8_Y8lOYeTCtu46iYxcgiyGOM_YBkf1YGgJHaP5XExDLrRYt8neTfE6veKK01t_yZaSO2GxFOQWm8jQQqssSdbiHef82gGXWHHHhcLDuMgMbY3Moa2bQxN8Kyv0mw0S4S7HZd-fkPp0E95Q4dQXfOqr7jeLpeQJPeRM210LwWy1o0uWGRWnCrcObzH6bYGXQW2Ngiu3Pw1DCGxuQVAT9Ze1Uq6WiEMocnUfSqh1FKLs0yasJFp_AxspCWF_ln926kJpi6JKzJ9k307-zTSw1IXrTm3pDdOYEVcnxRLS7xEjWMVwnHqChd3B9PF6IWBbGq12ggIbsa8DZwtKca_GOIi3nFuHgD4FgWOkJebCG_7i_3r5VBpieO1W2hAFK_eABhf78BrLeU5ZVTiqz9BqJwOLBZrwytXlm2A6ujJaKO_DPkNaVlVr-F-3k6UpMXpT16gA8FnRpHSeM8hb-zD2w7GJUPytMincHbxRzwgrNn3XhHFoBsb-TPAHX79C_OE_jcELVshNnVQBlRjiC3qqpMNo9pO-NOkDplDddfPMkGp-ZqyMacV-t8mNtHdOeuPnGMjya3tRhDM4ijIQIyU87RfgTHodTNHBRvnYOq83KwDRGrKoA9geBkiH3yP1EJ_PWpSr04DxGevZq2bgNbsCbX7WQsvUCxf5LFkLwr5-3OG1nMNYCXVo88PGasJWvgEBez9fcPsfeF6FkF66DZBmiYKUh8d6foKv0KravOHooPug5t3Z2caNzkwouUjivCxDImxOPE7iXjVgaGkXoy_HYxMqTFWEzG_JPvPNCuGO1m1jgjds2eB-C7E45-6pVePdZSxRNLy8rFjag-lgtMEeNcb2q1o6jG_hfJml5g94aol046yk="
 }
