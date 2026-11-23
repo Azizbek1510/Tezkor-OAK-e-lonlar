@@ -3022,8 +3022,6 @@
   }
  },
  "seen_uza": [
-  932223,
-  932224,
   932230,
   932231,
   932232,
@@ -6021,7 +6019,9 @@
   943014,
   943015,
   943016,
-  943017
+  943017,
+  943034,
+  943035
  ],
  "uza_keys": {
   "tursunova feruza|PhD": "2026-10-12",
@@ -9317,22 +9317,14 @@
   "atahanova lobarhon|PhD": "2026-11-23",
   "mirzaev komiljon|PhD": "2026-11-23",
   "alijonov bahtiyorhon|PhD": "2026-11-23",
-  "ahmetova salima|PhD": "2026-11-23"
+  "ahmetova salima|PhD": "2026-11-23",
+  "ahmedov shamshod|PhD": "2026-11-23",
+  "ahmedov am|PhD": "2026-11-23"
  },
  "uza_keys_built": true,
  "tg_offset": 362609577,
  "last_deep": "2026-11-23T13:04:21.054547+00:00",
  "recent": [
-  {
-   "t": "2026-11-23T13:31:38.280409+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1001164",
-   "title": "Narkulova Ma’mura Nizomiddinovnaning falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
-  {
-   "t": "2026-11-23T13:31:45.284838+00:00",
-   "url": "https://oak.uz/himoya-elonlari/1001165",
-   "title": "Ikramova Billura Muxamadovna falsafa doktori (PhD) dissertatsiyasi himoyasi haqida e’lon"
-  },
   {
    "t": "2026-11-23T13:31:52.077275+00:00",
    "url": "https://oak.uz/himoya-elonlari/1001166",
@@ -9372,35 +9364,33 @@
    "t": "2026-11-23T13:33:12.697834+00:00",
    "url": "https://uza.uz/oz/posts/axmetova-salima-seytovnaning-iqtisodiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_943016",
    "title": "Axmetova Salima Seytovnaning iqtisodiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-23T13:38:24.633872+00:00",
+   "url": "https://uza.uz/oz/posts/axmedov-shamshod-jamshidovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertaciya-ishi-himoyasi-togrisida_943034",
+   "title": "Axmedov Shamshod Jamshidovichning tibbiyot fanlari bo‘yicha falsafa doktori (PhD) dissertatsiya ishi himoyasi to‘g‘risida"
+  },
+  {
+   "t": "2026-11-23T13:38:32.002059+00:00",
+   "url": "https://uza.uz/oz/posts/axmedov-shamshod-jamshidovichning-tibbiyot-fanlari-boyicha-falsafa-doktori-phd-dissertatsiya-ishi-himoyasi-togrisida_943035",
+   "title": "Axmedov Şamşod Jamşidoviçning tibbiyot fanlari böyiça falsafa doktori (PhD) dissertatsiya işi himoyasi töğrisida"
   }
  ],
  "queue": 0,
  "full_pending": false,
  "counts": {
-  "found": 30,
-  "found_oak": 24,
-  "posted": 27,
-  "dups": 3,
+  "found": 2,
+  "found_oak": 0,
+  "posted": 2,
+  "dups": 0,
   "left": 0,
   "left_oak": 0,
   "full": false
  },
- "last_run": "2026-11-23T13:33:16.726742+00:00",
+ "last_run": "2026-11-23T13:38:36.021653+00:00",
  "last_error": "",
  "pdf_repair_done": true,
  "posts": {
-  "u933960": {
-   "m": 6943,
-   "p": 1,
-   "f": 6944,
-   "d": "2026-11-06"
-  },
-  "u933963": {
-   "m": 6945,
-   "p": 1,
-   "f": 6946,
-   "d": "2026-11-06"
-  },
   "u933965": {
    "m": 6947,
    "p": 1,
@@ -27388,7 +27378,19 @@
    "p": 1,
    "f": 14953,
    "d": "2026-11-23"
+  },
+  "u943034": {
+   "m": 15008,
+   "p": 1,
+   "f": 15009,
+   "d": "2026-11-23"
+  },
+  "u943035": {
+   "m": 15010,
+   "p": 1,
+   "f": 15011,
+   "d": "2026-11-23"
   }
  },
- "vault": "gAAAAABrBECcuN3EBVHzOBIZtHFu_ZVsUneIvnm3VP2d6iKPjd2G5gP9ZQxssK3oRMNepT2BL_1Dkx6_a1HtyMl5evBYPjbiB4stBri_Ia1dB5KoNearMaPhLQhFCkSyq6fH-fEVdbnoc4uFj2jh5C3rUtbfzcdsZ38sjsOOA7eN9LXzgRkYmO92G3hPYQtzDAy0w70k8jI1VlgZ3Bh7PvoshDcGQKAw_UalydUQjW93IdUWtByLe_P-1t8s_KQuJqCoC4KaacfCZWqMO7cZbOC0n-NS2GBuXkWLv3vA5h9kfFA-SAirevYmyE9ICqudLByKnjECWygFAqmQcIvve1dDpkeOo1aEtGoygoX8zqiXX_-xllTOBFvF-hpRayOxeA9kI8LVJQODkNu9byLVHS0eyurhzaUMoMG13RWL6oSof5FkFr7Cxvdu-VAQJ-2Isuovm3wCPVh69821OfWaqO1vN9x_R0ZcuUTX6bkhvHSH5D_J_2eokRzIETVJSweacp3AzJIpp955Xeftmj9AtXc-qrc5OY8KfdEIftfSzI74XXktTKewIdhFNtegcBBxe_hH0H52LTzQYCGWlkhZJ4xfri3wLS_UD2e5uaBOjwACiKmvdPDk320YQtBgHP4h2bPa2Y_kVjoItnLvwUK0OEXJimZsp_30xHqy4l4QqedUtZFlQebq6g78XF0e7nAMn3WLClHwQPJKFfas152KgxHjWCWmB-M1oyhoT35h1nmocsXV4V07T2qon00IUs7PgB9hugy63Gw4DT4_Kn47JUPcwGv4EvD2sRaXiaogOWdeuHmwhC6Z9sX0vQ6Uo9Nqi93wbk0Eojk3f7icuysuqjOXl9_-XOKxXs2RL8qU58LNKK3UqcwarV79D7hIywZRXl3zChujSsLyvenrBQv-Fr-DgzbtEYsJ2-_XqAQ98rOr4rqltkGstAayt7AZPV_OpcRk2W-NXMYRAo6zFEuJVbBRBR9ZmLfxwSJ008qrlht8gPUmFCX_oarWpBOKJZ_i77YkugNX39lsmRhG62cpBm1MLoFeRcaB_yTEkVP3Wj6BgZ1NMlnFa0XKii359rAw9tFqjPoKmJHdyXLpo2vRdUZobcaOIeXI-kQUMsmrNh98TbhYRCAHd0AVWVzhD33Pi-pYXwpvRGagRxtK_pUERmDcDNNdFbK1BvW-V4dlH6XrT6Qniz23DkASX_EAUA16KxMvgEuN4CkHxcwALfTK6bbH7jtLr2SVShRa_FPN4N_-_as_uOqug8-FN0QQu6ieKohM0hMUeivYMBt7o2R4fv4Qhk2A0dqGDWQKWae34k6zzgTCxL6eB4SpVvc9vqJnF6P7fxmrH7C8N-AHrx0nUcRs4RRw3hm4Jq7b2jgPv5kG39e0oQdK-xa6zD3xtsCsNOsxOuf3Wo4754Y9yNTBDGTBBVWhloTIyvQHkaH4JfvMRBnUXBRdExEBdn7wUCv6iUigsHtmpNk9DLSQx8YgPaMh3Y3UAxpkH4KuEYbueb6hKvns2cRKD3DlYZldsi4-AiQHWtMuCWYhGF_3iiSno4pj-RmOkus6os51667PV3sCWAOMv3s6lkIaEwChGYit78Pb9XXX1AACxprTIpydh0_vCAXvjyeIKv672V9Zo3bRa8BFcA5r3VuA4c0LkpeC-e-ZKnugVjnSfhIoFpb2Z03OsVQrF1bdpTmF_TZCuFBm4rETyt8b7bf5gHHgLb4q23FwztEWaQlMvFbznCeuxC0kt0XGBPyQ9C5ahAOPG0avGoTGT97WvDQJR1Fw7NspGe0Df8uYhh2cnmlEHNupzkkaYD7woGlwgc4HX9ttDRpH-vnk_dNmUjWAq_d_0QihfOKDjwBzS1qtKsILQvCjFbzxocwPe9bwk6-16CaGy0WyDCCp8Pqrb1xuYBLb50tl6SPp9JVsQ764K0Xw3z9P0WQnAB_oejmXRfCioc80mZBN1Zb8zSKJBIP6NyL6-WyHEOE6X_gQPrC6"
+ "vault": "gAAAAABrBEHcL8YCpXDDJk4EufXqCN56gQTidVRK4_z2sAaN_w6ulh-mx-yqeY_AFJbZkrisG6SM69UcOTrhpG55roFjDm5mWL442AZpo4d5JEg0evu1twV0iVBAy6PoSIRgw7wRaDWu-nUBqeYwnhRBFKxBwz1_UZ9iqOPPh50-Gfm0tA4mmASvG-M4XUNqDEg2nOWSq4u5WmPrDgAdAi77eGIurjKd56_R6SudMgM79m1JT_0zJKeByTI6nB1o7FZfjRIja9lMrJeKEpTBJ-tLUQSxhtePbleiDziS7EsmD6mN41ZnPME2G-SUwn4z9nxE0qjD8o5Us-mzWh_dLsBKmtjjOmxsPhjQi7Kqzp2ekeBtp0JMD_9ZElZluDnI3_CZxYIxcEWHttJy9Df0bK7sKPZFOSRIe68Voe3Xbgwi5UcXZ09xiv9eEB9W9-eEedxYnz-dyYAVTZIJ40-w8NTuhO72qwd-EbF9_lr0pscYCPUcFqvge9opGxP-wb4p2jgejfG-7OYGYQ6ohTnNo72aSuAiwMPSQs-PhOtMx9vZ7nttRz0Tp-gAZKKICYfmIaGswMZ2_xksksmax-5P6jbT9gkt-kZd5HkqPK3qTd7iKj5X8Vez-WH4DMj_25bviTXpZBkJ0iS14WpRZ7lWqA7f8CC6ZMj7vjvlYEde88zzCmJBUFeEU9jY3A-TtagZj0uHsNHk6ZHbpdxrmfAN6Kt4M7N4LUeVKSakuwmvP_83Aldm1wLvvRZSqTXQGeORepyilrC3VZEkmbomHRkKWZNgkJ246zoZNyeJ1phuySF3RSLivryIO43Ib7fIkU0kzUwWKHXg_ga62ucu8l9C0qjH7I9u732KmW3Q5E-tImt6Nqh-fB0ZRShVFm0dmDJCrrkcPCtH7Mz5iSqn8LwR7W2ZnTDo6GN9cLjlhieNFv7rrFxfJWgjxLHLMjdIL5H33d3ovOxlIHowyHhw2g21VcrwKdjP1uyXop4pcqke4PKs-KGSm6mZCy7YpAlbZUz5F0dbobWUpjgA66aGUSEerOEuAE0QyiuRg8WBpPQrzfCkqSE4dBMPAkHJWzzrlfQGfjRqAn6laJHEt6lL7VtfM2bsBJSJ0rFbvrubdTm6YXCqCLFBItjlJKt17hlyX_p0xhXKrar601qJ7JryvmokLya87mHjHvv4KAfNbAdrIzXHJp-WwoJbkoO1iipj-ljro3cpuV653aTLsZ7WK3--l2MJaXWX2K9xkODYqu1SPnKZqF5t_ARsLdWUDbP3w3Y-oQ9BweYaAzL8AadWM00baPLqzWHnmp9FMUwbcG9LQ6xFSa6rUltgIV8iWOgt3bsjH_zG8-6zuITP-_tHkYAeacJtVXUHtwQq9Yweo5UrYUSAcr8kpDyxelsPTcdAzsEKGm1v9VCfo2mKCy_NfpkxbWXsK9h7fNpwF6STWiwNX9W6LYVUsmx6cisAz4DcKsanntDTXhiOdeyDVWORan_h-NpHy2pmIE1Ob6lVMeAJc-_dWQ1TnozK8OZO5hEoFJpA7zcLop4-YQPSWprssA69NLGXW1vFWfJ-2JnZbto_8aYy3kLU4AWf_LgHdUP2BZOZ-wNnPTKFm-bTNPLyAua8iDNlA_3xl5yRWpiZ6qXfGwV2HY5d5ubeFkyaNduXgwjfh_BlgIvZupg5drl57yt0E3oIAuNADv0ZSiuEbw-R_UvkNsREy0UoI2ds57e-olH4TJ3iJt_AxXkV9T0k8Bj4OdriAC4Hi-1g0n3YUS91X1f8y9SOL18gquzQW0SCt2zRN-Pn20sjWX7XIGYtzQR1W8rlchfRstJwl8mgRtTWWZ2QIDVjVgOnyYhPW_PNkiIZXCCqUT_JLqNukT4Ej04x_W9h60NaDslWka1sJT4q62noJMpv_hCUOE6rVPzqrYo88TEEAaEh1w-z-JPF6o2gtlcIvC1x1Wsp2e-R10s6PKgHBNTCDRcylt5W6LeQZjbEOP_hi-Xgtx2b"
 }
