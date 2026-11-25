@@ -47,7 +47,7 @@ DEEP_MAX_PAGES = 200                                       # chuqur tekshiruvda 
 FULL_MAX_PAGES = 600                                       # to'liq tekshiruvda (/tekshir) sahifalar chegarasi
 MAX_POSTS_PER_RUN = int(os.environ.get("MAX_POSTS_PER_RUN", "40"))
 SILENT_AFTER_DAYS = 3  # shundan eski e'lonlar ovozsiz (bildirishnomasiz) yuboriladi
-MAX_SEEN = 200000      # state faylda saqlanadigan ID lar soni (OAK kuniga ~130, UzA ~100 e'lon)
+MAX_SEEN = 30000       # har bir sayt bo'yicha eslab qolinadigan oxirgi e'lonlar soni (oshganda chegara ko'tariladi)
 OLD_MAX_SEEN = 3000    # eski versiyadagi cheklov — undan qolgan "unutilgan" e'lonlarni tiklash uchun
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; TezkorOAKBot/1.0)"}
@@ -1628,9 +1628,20 @@ def load_state() -> bool:
 PEOPLE_KEEP_DAYS = 120   # takrorni aniqlash uchun odamlar ro'yxati shuncha kun saqlanadi
 
 
+def _trim(ids, floor_key: str) -> list[int]:
+    """Ro'yxat chegaradan oshsa — eng eski raqamlarni o'chirib, "chegara"ni ko'taramiz: chegaradan kichik raqam
+    chiqarilgan hisoblanadi (raqamlar doim o'sib boradi). Shu sabab ro'yxat to'lganda ham eski e'lonlar qayta chiqmaydi."""
+    ids = sorted(set(ids))
+    if len(ids) > MAX_SEEN:
+        dropped, ids = ids[:-MAX_SEEN], ids[-MAX_SEEN:]
+        STATE[floor_key] = max(STATE.get(floor_key, 0), dropped[-1] + 1)
+    floor = STATE.get(floor_key, 0)
+    return [i for i in ids if i >= floor]
+
+
 def save_state(seen) -> None:
-    STATE["seen"] = sorted(set(seen))[-MAX_SEEN:]
-    STATE["seen_uza"] = sorted(set(STATE.get("seen_uza", [])))[-MAX_SEEN:]
+    STATE["seen"] = _trim(seen, "oak_floor")
+    STATE["seen_uza"] = _trim(STATE.get("seen_uza", []), "uza_floor")
     limit = (today_uz() - timedelta(days=PEOPLE_KEEP_DAYS)).isoformat()
     STATE["people"] = {k: v for k, v in STATE.get("people", {}).items() if v.get("d", "9999") >= limit}
     STATE["uza_keys"] = {k: d for k, d in STATE.get("uza_keys", {}).items() if d >= limit}
