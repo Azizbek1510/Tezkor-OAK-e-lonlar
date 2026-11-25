@@ -47,7 +47,8 @@ DEEP_MAX_PAGES = 200                                       # chuqur tekshiruvda 
 FULL_MAX_PAGES = 600                                       # to'liq tekshiruvda (/tekshir) sahifalar chegarasi
 MAX_POSTS_PER_RUN = int(os.environ.get("MAX_POSTS_PER_RUN", "40"))
 SILENT_AFTER_DAYS = 3  # shundan eski e'lonlar ovozsiz (bildirishnomasiz) yuboriladi
-MAX_SEEN = 3000        # state faylda saqlanadigan ID lar soni
+MAX_SEEN = 200000      # state faylda saqlanadigan ID lar soni (OAK kuniga ~130, UzA ~100 e'lon)
+OLD_MAX_SEEN = 3000    # eski versiyadagi cheklov — undan qolgan "unutilgan" e'lonlarni tiklash uchun
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; TezkorOAKBot/1.0)"}
 DATE_RE = re.compile(r"\b(\d{2}\.\d{2}\.\d{4})\b")
@@ -714,7 +715,7 @@ def collect_uza(seen_uza: set[int], deep: bool, full: bool = False) -> list[tupl
                     if d and d < start:
                         continue
                     found.setdefault(it["id"], (it, "UzA"))
-                if dates and min(dates) < bound:
+                if dates and min(dates) < bound and (known > 0 or relevant == 0 or full or min(dates) < start):
                     break
                 # "Ilm-fan" — asosan oddiy yangiliklar: oddiy tekshiruvda 1 sahifa, chuqurda 3 kun yetarli
                 if category == "science" and not full:
@@ -1789,7 +1790,9 @@ def collect(seen: set[int], deep: bool, full: bool = False) -> list[tuple[dict, 
                 if d is not None and d < start:
                     continue
                 found.setdefault(it["id"], (it, section))
-            if dates and min(dates) < bound:      # chegaradan o'tdik
+            # Kun chegarasidan o'tdik — lekin sahifadagi hamma e'lon chiqmagan bo'lsa, tanish e'longacha davom etamiz
+            # (aks holda chiqmagan e'lonlar ketma-ketligi o'rtada uzilib, eskiroqlari hech qachon topilmay qoladi)
+            if dates and min(dates) < bound and (known > 0 or full or min(dates) < start):
                 break
             # Oddiy tekshiruvda 3-sahifadan keyin faqat sahifadagi hamma e'lon yangi bo'lsa davom etamiz
             if not deep and page >= MAX_PAGES and known > 0:
@@ -2334,9 +2337,69 @@ def explain_error(err: str) -> str:
     return "Xato matni: <code>" + html.escape(err[:300]) + "</code>"
 
 
+class FloorSet(set):
+    """Chiqarilgan e'lonlar to'plami: 'floor' dan kichik raqamlar ham chiqarilgan hisoblanadi
+    (eski versiya 3000 tadan ortig'ini unutib yuborgan — ular aslida kanalda bor)."""
+    def __init__(self, items, floor: int = 0):
+        super().__init__(items)
+        self.floor = floor
+
+    def __contains__(self, x):
+        return (isinstance(x, int) and x < self.floor) or set.__contains__(self, x)
+
+
+def recover_forgotten() -> None:
+    """Bir martalik: eski 3000 talik cheklov sabab unutilgan e'lonlar qayta chiqmasligi uchun chegara qo'yamiz
+    va xato tufayli qayta chiqqan postlarni o'chirish uchun ro'yxatga olamiz."""
+    if STATE.get("floor_v1"):
+        return
+    STATE["floor_v1"] = True
+    seen, seen_u = STATE.get("seen", []), STATE.get("seen_uza", [])
+    if len(seen) >= OLD_MAX_SEEN:
+        STATE["oak_floor"] = min(seen)
+    if len(seen_u) >= OLD_MAX_SEEN:
+        STATE["uza_floor"] = min(seen_u)
+    of, uf = STATE.get("oak_floor", 0), STATE.get("uza_floor", 0)
+    recent = (today_uz() - timedelta(days=2)).isoformat()
+    dups = []
+    for k, v in STATE.get("posts", {}).items():
+        num = int(k[1:]) if k.startswith("u") else int(k)
+        floor = uf if k.startswith("u") else of
+        if num < floor and v.get("d", "") >= recent:       # eski e'lon, lekin shu kunlarda qayta chiqqan
+            dups += [m for m in (v.get("m"), v.get("f")) if m]
+    STATE["dup_msgs"] = dups
+    log.info("Tiklandi: OAK chegarasi %s, UzA chegarasi %s, takror xabarlar: %d", of, uf, len(dups))
+    if of or uf:
+        alert_admins("🛠 <b>Xato tuzatildi.</b> Bot kanalda chiqqan eski e’lonlarni unutib, ularni qayta yubora boshlagan edi. "
+                     "Endi bunday bo‘lmaydi."
+                     + (f"\n\n🗑 Xato tufayli qayta chiqqan <b>{len(dups) // 2} ta</b> takror post topildi. "
+                        "Ularni kanaldan o‘chirish uchun <code>/takror_ochir</code> deb yozing "
+                        "(48 soat ichida, botda «Delete messages» ruxsati bo‘lishi kerak)." if dups else ""))
+
+
+def delete_dups(chat_id) -> None:
+    msgs = STATE.get("dup_msgs", [])
+    if not msgs:
+        tg_reply(chat_id, "O‘chiriladigan takror post yo‘q.")
+        return
+    ok = bad = 0
+    for i in range(0, len(msgs), 100):                  # deleteMessages — 100 tadan
+        try:
+            _tg("deleteMessages", {"chat_id": CHANNEL_ID, "message_ids": json.dumps(msgs[i:i + 100])})
+            ok += len(msgs[i:i + 100])
+        except RuntimeError as e:
+            bad += len(msgs[i:i + 100])
+            log.warning("Takror postlar o'chirilmadi: %s", e)
+    STATE["dup_msgs"] = msgs if bad and not ok else []
+    tg_reply(chat_id, f"🗑 Takror postlar o‘chirildi: {ok // 2} ta." if ok else
+             "❌ O‘chirib bo‘lmadi. Kanal → Administrators → botga <b>Delete messages</b> ruxsatini bering va qayta yozing "
+             "(postlar chiqqanidan 48 soat o‘tmagan bo‘lishi kerak).")
+
+
 def run_once() -> None:
     existed = load_state()
-    seen = set(STATE.get("seen", []))
+    recover_forgotten()
+    seen = FloorSet(STATE.get("seen", []), STATE.get("oak_floor", 0))
     # 0) Token tekshiruvi — ishlamasa, ishga tushirish QIZIL bo'lib tugaydi (yashirin qolmaydi)
     try:
         me = _tg("getMe", {})
@@ -2372,6 +2435,8 @@ def run_once() -> None:
                 tg_reply(c["chat"], "📨 Qabul qilindi: <code>" + ", ".join(found_ids) + "</code> — hozir yuboriladi.")
             else:
                 tg_reply(c["chat"], "Raqamni yozing, masalan:\n<code>/yubor 32715</code>\n<code>/yubor u920572</code>")
+        elif c["cmd"] == "/takror_ochir":
+            delete_dups(c["chat"])
         elif c["cmd"] not in ("/tekshir", "/holat", "/status", "/run"):
             tg_reply(c["chat"], "Buyruq tushunilmadi.\n\n" + ADMIN_HELP)
     results = {}
@@ -2434,7 +2499,7 @@ def run_once() -> None:
             or os.environ.get("DEEP_SCAN", "") == "1")
     if deep:
         STATE["last_deep"] = datetime.now(timezone.utc).isoformat()
-    seen_uza = set(STATE.get("seen_uza", []))
+    seen_uza = FloorSet(STATE.get("seen_uza", []), STATE.get("uza_floor", 0))
     t0 = time.time()
     items = collect(seen, deep, full)
     t1 = time.time()
@@ -2443,7 +2508,10 @@ def run_once() -> None:
         items += collect_uza(seen_uza, deep, full)
     log.info("⏱ OAK tekshiruvi: %.0f s, UzA tekshiruvi: %.0f s", t1 - t0, time.time() - t1)
     # Ikkala saytdagi e'lonlar birgalikda, eskidan yangiga
-    items.sort(key=lambda x: (parse_date(x[0]["date"]) or date.max, x[0].get("source", "oak"), x[0]["id"]))
+    # Avval so'nggi 3 kundagi e'lonlar (sana tartibida), keyin eskiroq qolib ketganlar — yangi e'lon navbatda qolmasin
+    fresh_from = today_uz() - timedelta(days=3)
+    items.sort(key=lambda x: ((parse_date(x[0]["date"]) or date.max) < fresh_from,
+                              parse_date(x[0]["date"]) or date.max, x[0].get("source", "oak"), x[0]["id"]))
     batch = items[:MAX_POSTS_PER_RUN]
     log.info("%s tekshiruv: %d ta yangi e'lon (UzA: %d), shundan hozir %d tasi ko'riladi",
              "Chuqur" if deep else "Oddiy", len(items),
