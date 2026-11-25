@@ -18,7 +18,9 @@ import logging
 import os
 import re
 import subprocess
+import hashlib
 import time
+import unicodedata
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
@@ -42,13 +44,24 @@ SOURCES = {
 MAX_PAGES = 3          # oddiy tekshiruvda har bir bo'limdan nechta sahifa ko'riladi
 START_DATE = os.environ.get("START_DATE", "01.09.2026")   # OAK: shu sanadan boshlab barcha e'lonlar chiqadi
 UZA_START_DATE = os.environ.get("UZA_START_DATE", "01.10.2026")   # UzA: shu sanadan boshlab
+# QAT'IY QOIDA: e'lon sanasi bugundan MAX_AGE_DAYS kundan eski bo'lsa, kanalga hech qachon chiqmaydi
+MAX_AGE_DAYS = int(os.environ.get("MAX_AGE_DAYS", "2"))
+
+
+def age_start(base: date | None) -> date:
+    """E'lon chiqishi mumkin bo'lgan eng eski sana: boshlanish sanasi va "MAX_AGE_DAYS kun" qoidasidan kechrog'i."""
+    return max(base or date(2000, 1, 1), today_uz() - timedelta(days=MAX_AGE_DAYS))
 DEEP_DAYS = int(os.environ.get("DEEP_DAYS", "14"))        # soatlik chuqur tekshiruv necha kun orqaga qaraydi
 DEEP_MAX_PAGES = 200                                       # chuqur tekshiruvda sahifalar chegarasi
 FULL_MAX_PAGES = 600                                       # to'liq tekshiruvda (/tekshir) sahifalar chegarasi
 MAX_POSTS_PER_RUN = int(os.environ.get("MAX_POSTS_PER_RUN", "40"))
 SILENT_AFTER_DAYS = 3  # shundan eski e'lonlar ovozsiz (bildirishnomasiz) yuboriladi
-MAX_SEEN = 30000       # har bir sayt bo'yicha eslab qolinadigan oxirgi e'lonlar soni (oshganda chegara ko'tariladi)
-OLD_MAX_SEEN = 3000    # eski versiyadagi cheklov — undan qolgan "unutilgan" e'lonlarni tiklash uchun
+# Xotira: chiqarilgan e'lonlar "raqam → sana" ko'rinishida saqlanadi. Sanasi chegaradan (bugun − KEEP_DAYS) eski
+# yozuvlar har safar avtomatik o'chiriladi — chegara har kuni o'zi suriladi va xotira hech qachon to'lib qolmaydi.
+# KEEP_DAYS = MAX_AGE_DAYS: xotiradan o'chgan e'lon e'lon qilinish muddatidan ham o'tgan bo'ladi — qayta chiqa olmaydi
+# (xotiradagi sana e'lon sanasidan hech qachon kichik emas, shu sabab muddati tugamagan e'lon xotiradan o'chmaydi).
+KEEP_DAYS = MAX_AGE_DAYS
+MEM_CAP = 20000        # favqulodda himoya: bir saytga shundan ortiq yozuv bo'lmaydi (odatda ~600 ta bo'ladi)
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; TezkorOAKBot/1.0)"}
 DATE_RE = re.compile(r"\b(\d{2}\.\d{2}\.\d{4})\b")
@@ -214,11 +227,14 @@ _VOWELS = set("аеёиоуэюяўaeiou")
 
 
 # Yangi o'zbek lotin alifbosi (ş, ç, ö, ğ, ñ) → kanaldagi odatiy yozuv (sh, ch, o‘, g‘, ng)
-_NEW_LAT = {"ş": "sh", "ç": "ch", "ö": "o‘", "ğ": "g‘", "ñ": "ng", "ı": "i"}
+# (2018 va 2021 loyihalaridagi barcha shakllar: ş/ș, ç, ö/ō/ŏ, ğ/ḡ/ǵ, ñ/ŋ; rus ilmiy transliteratsiyasi: š, č, ž)
+_NEW_LAT = {"ş": "sh", "ș": "sh", "š": "sh", "ç": "ch", "č": "ch", "ö": "o‘", "ō": "o‘", "ŏ": "o‘",
+            "ğ": "g‘", "ḡ": "g‘", "ǵ": "g‘", "ñ": "ng", "ŋ": "ng", "ı": "i", "ž": "j"}
 
 
 def to_latin(text: str) -> str:
     """Kirill va yangi lotin alifbosidagi matnni odatiy o'zbek lotin yozuviga o'giradi."""
+    text = unicodedata.normalize("NFC", text or "")      # "s + ̧" kabi ikki belgili yozuv → "ş"
     out = []
     for i, ch in enumerate(text):
         low = ch.lower()
@@ -680,7 +696,7 @@ def build_uza_keys(seen_uza: set[int]) -> None:
 
 
 def collect_uza(seen_uza: set[int], deep: bool, full: bool = False) -> list[tuple[dict, str]]:
-    start = parse_date(UZA_START_DATE) or date(2000, 1, 1)
+    start = age_start(parse_date(UZA_START_DATE))
     bound = start if full or not deep else max(start, today_uz() - timedelta(days=DEEP_DAYS))
     found = {}
     for category in UZA_CATEGORIES:
@@ -711,8 +727,9 @@ def collect_uza(seen_uza: set[int], deep: bool, full: bool = False) -> list[tupl
                     d = parse_date(it["date"])
                     if it["id"] in seen_uza:
                         known += 1
+                        note_person(it, content_print(it))
                         continue
-                    if d and d < start:
+                    if d is None or d < start:      # sanasiz yoki muddati o‘tgan (2 kundan eski) — chiqmaydi
                         continue
                     found.setdefault(it["id"], (it, "UzA"))
                 if dates and min(dates) < bound and (known > 0 or relevant == 0 or full or min(dates) < start):
@@ -1413,7 +1430,7 @@ def repair_pdfs(max_uploads: int = 150) -> None:
         STATE["pdf_repair_done"] = True
         return
     log.info("Ma'lumotnoma havolalari tekshirilmoqda...")
-    seen_oak, seen_uza = set(STATE.get("seen", [])), set(STATE.get("seen_uza", []))
+    seen_oak, seen_uza = Memory("oak"), Memory("uza")
     items = collect(set(), deep=True) + (collect_uza(set(), deep=True) if UZA_ENABLED else [])
     posted = [it for it, _ in items if it["id"] in (seen_uza if it.get("source") == "uza" else seen_oak)]
     by_month: dict = {}
@@ -1627,30 +1644,40 @@ def load_state() -> bool:
         for w in PRIV["watch"]:                   # avval saqlangan ismlarni ham tartibga keltiramiz
             w["name"] = tidy_name(w["name"])
         return True
-    STATE = {"seen": []}
+    STATE = {"mem": {"oak": {}, "uza": {}}, "mem_v1": True}
     return False
 
 
-PEOPLE_KEEP_DAYS = 120   # takrorni aniqlash uchun odamlar ro'yxati shuncha kun saqlanadi
+PEOPLE_KEEP_DAYS = 120   # (faqat MERGE_SOURCES=1 bo'lganda) odamlar ro'yxati shuncha kun saqlanadi
 
 
-def _trim(ids, floor_key: str) -> list[int]:
-    """Ro'yxat chegaradan oshsa — eng eski raqamlarni o'chirib, "chegara"ni ko'taramiz: chegaradan kichik raqam
-    chiqarilgan hisoblanadi (raqamlar doim o'sib boradi). Shu sabab ro'yxat to'lganda ham eski e'lonlar qayta chiqmaydi."""
-    ids = sorted(set(ids))
-    if len(ids) > MAX_SEEN:
-        dropped, ids = ids[:-MAX_SEEN], ids[-MAX_SEEN:]
-        STATE[floor_key] = max(STATE.get(floor_key, 0), dropped[-1] + 1)
-    floor = STATE.get(floor_key, 0)
-    return [i for i in ids if i >= floor]
+def mem_cutoff() -> str:
+    """Xotira chegarasi: shu sanadan eski yozuvlar o'chiriladi (har kuni o'zi suriladi)."""
+    return (today_uz() - timedelta(days=KEEP_DAYS)).isoformat()
 
 
-def save_state(seen) -> None:
-    STATE["seen"] = _trim(seen, "oak_floor")
-    STATE["seen_uza"] = _trim(STATE.get("seen_uza", []), "uza_floor")
+def _prune(d: dict, cutoff: str, cap: int = MEM_CAP) -> None:
+    """Lug'atdan chegaradan eski yozuvlarni joyida o'chiradi (qiymat — sana yoki {"d": sana})."""
+    day = lambda v: v.get("d", "9999") if isinstance(v, dict) else str(v)
+    for k in [k for k, v in d.items() if day(v) < cutoff]:
+        del d[k]
+    if len(d) > cap:                                    # favqulodda: eng eskilarini o'chiramiz
+        for k in sorted(d, key=lambda k: day(d[k]))[:len(d) - cap]:
+            del d[k]
+
+
+def save_state(seen=None) -> None:
+    cut = mem_cutoff()
+    STATE["chegara"] = cut
+    for src in ("oak", "uza"):
+        _prune(STATE.setdefault("mem", {}).setdefault(src, {}), cut)
+    for old in ("names", "uza_keys"):               # eski versiyalardagi ism ro'yxatlari — endi kerak emas
+        STATE.pop(old, None)
+    _prune(STATE.setdefault("persons", {}), cut)
+    _prune(STATE.setdefault("prints", {}), cut)
+    _prune(STATE.setdefault("posts", {}), cut)
     limit = (today_uz() - timedelta(days=PEOPLE_KEEP_DAYS)).isoformat()
     STATE["people"] = {k: v for k, v in STATE.get("people", {}).items() if v.get("d", "9999") >= limit}
-    STATE["uza_keys"] = {k: d for k, d in STATE.get("uza_keys", {}).items() if d >= limit}
     if DATA_KEY and not _priv_locked:
         users = PRIV.get("users", {})
         if len(users) > 5000:
@@ -1691,9 +1718,11 @@ NEW_ALPHA = {"Ş": "Sh", "ş": "sh", "Ç": "Ch", "ç": "ch", "Ö": "O‘", "ö":
 
 
 def oak_norm(text: str) -> str:
-    text = INVISIBLE_RE.sub("", text or "").replace("\xa0", " ")
+    text = unicodedata.normalize("NFC", INVISIBLE_RE.sub("", text or "").replace("\xa0", " "))
     for a, b in NEW_ALPHA.items():
         text = text.replace(a, b)
+    if any(ch.lower() in _NEW_LAT for ch in text):     # qolgan yangi alifbo harflari (ō, ḡ, ñ ...)
+        text = to_latin(text)
     return re.sub(r"[ \t]{2,}", " ", text).strip()
 
 
@@ -1770,8 +1799,9 @@ def oak_alert_failure(err: str) -> None:
 def collect(seen: set[int], deep: bool, full: bool = False) -> list[tuple[dict, str]]:
     """OAK'dagi kanalda hali chiqmagan, START_DATE dan keyingi e'lonlarni yig'adi (yangi sayt API'si).
     Oddiy tekshiruv: har ro'yxatning 1-3 sahifasi (ko'p yangi e'lon bo'lsa — tanish e'longacha).
-    Chuqur tekshiruv: oxirgi OAK_DEEP_DAYS kun (navbat bo'lsa — DEEP_DAYS). To'liq: START_DATE gacha."""
-    start = parse_date(START_DATE) or date(2000, 1, 1)
+    Chuqur tekshiruv: oxirgi OAK_DEEP_DAYS kun (navbat bo'lsa — DEEP_DAYS). To'liq: START_DATE gacha.
+    Har qanday holatda MAX_AGE_DAYS kundan eski e'lon olinmaydi."""
+    start = age_start(parse_date(START_DATE))
     days = DEEP_DAYS if STATE.get("backlog") else OAK_DEEP_DAYS
     bound = start if full or not deep else max(start, today_uz() - timedelta(days=days))
     limit = FULL_MAX_PAGES if full else DEEP_MAX_PAGES * 2
@@ -1803,8 +1833,9 @@ def collect(seen: set[int], deep: bool, full: bool = False) -> list[tuple[dict, 
                     dates.append(d)
                 if it["id"] in seen:
                     known += 1
+                    note_person(it)
                     continue
-                if d is not None and d < start:
+                if d is None or d < start:          # sanasiz yoki muddati o‘tgan (2 kundan eski) — chiqmaydi
                     continue
                 found.setdefault(it["id"], (it, section))
             # Kun chegarasidan o'tdik — lekin sahifadagi hamma e'lon chiqmagan bo'lsa, tanish e'longacha davom etamiz
@@ -1988,14 +2019,23 @@ BOT_USERNAME = ""
 def name_tokens(name: str) -> list[str]:
     """Ismni solishtirish uchun yagona ko'rinishga keltiradi: lotin/kirill/yangi alifbo va rus uslubidagi
     yozuv (Xo‘jayev / Xujayev / Khodjaev / Ходжаев / Hojayev) bir xil bo'ladi."""
+    return [re.sub(r"ning$", "", w) for w in re.findall(r"[a-z]+", _norm_text(name))]
+
+
+def text_tokens(text: str) -> list[str]:
+    """Butun matnni solishtirish uchun (raqamlar ham hisobga olinadi — himoya sanasi/vaqti o'zgarsa, matn boshqa)."""
+    return re.findall(r"[a-z0-9]+", _norm_text(text))
+
+
+def _norm_text(name: str) -> str:
     t = to_latin(name or "").lower()
-    t = re.sub(r"[‘’'ʻ`ʼ]", "", t)                       # o‘, g‘ dagi tutuq belgisi
+    t = unicodedata.normalize("NFKD", t)                 # qolgan urg'uli harflar (ü, á, İ ...) → oddiy harf
+    t = "".join(c for c in t if not unicodedata.combining(c))
+    t = re.sub(r"[‘’'ʻ`ʼ´‛ʹ′]", "", t)                   # o‘, g‘ dagi tutuq belgisi (har xil shakli)
     t = re.sub(r"\b(qizi|qizining|kizi|ogli|oglining|ugli|uli|ning)\b", " ", t)
     t = t.replace("kh", "h").replace("x", "h").replace("dzh", "j").replace("dj", "j").replace("zh", "j")
     t = t.replace("q", "k").replace("ye", "e").replace("yo", "o").replace("yu", "u").replace("ya", "a").replace("ts", "s")
-    t = re.sub(r"[aou]", "o", t)                         # rus/o‘zbek yozuvida o, u, a almashadi
-    toks = re.findall(r"[a-z]+", t)
-    return [re.sub(r"ning$", "", w) for w in toks]
+    return re.sub(r"[aou]", "o", t)                      # rus/o‘zbek yozuvida o, u, a almashadi
 
 
 def names_match(watch_name: str, item_name: str) -> bool:
@@ -2298,7 +2338,8 @@ def admin_status() -> str:
     else:
         lines.append("   ✅ Qoldi: <b>0</b> — barcha e’lonlar kanalda")
     lines += ["",
-              f"🗂 Jami chiqarilgan: OAK {len(STATE.get('seen', []))} ta, UzA {len(STATE.get('seen_uza', []))} ta",
+              f"🧠 Xotirada: OAK {len(STATE.get('mem', {}).get('oak', {}))} ta, UzA {len(STATE.get('mem', {}).get('uza', {}))} ta "
+              f"({MAX_AGE_DAYS} kundan eskisi o‘zi o‘chadi)",
               f"📅 Kuzatuv: OAK — {START_DATE} dan, UzA — {UZA_START_DATE} dan"]
     recent = STATE.get("recent", [])
     if recent:
@@ -2314,9 +2355,6 @@ def remember_post(item: dict, res: dict) -> None:
     posts = STATE.setdefault("posts", {})
     posts[key] = {"m": res.get("msg"), "p": int(bool(res.get("photo"))), "f": res.get("pdf", 0),
                   "d": today_uz().isoformat()}
-    if len(posts) > 3000:
-        for k in sorted(posts, key=lambda k: posts[k]["d"])[:len(posts) - 3000]:
-            del posts[k]
 
 
 def note_post(item: dict) -> None:
@@ -2354,44 +2392,146 @@ def explain_error(err: str) -> str:
     return "Xato matni: <code>" + html.escape(err[:300]) + "</code>"
 
 
-class FloorSet(set):
-    """Chiqarilgan e'lonlar to'plami: 'floor' dan kichik raqamlar ham chiqarilgan hisoblanadi
-    (eski versiya 3000 tadan ortig'ini unutib yuborgan — ular aslida kanalda bor)."""
-    def __init__(self, items, floor: int = 0):
-        super().__init__(items)
-        self.floor = floor
+class Memory:
+    """Bir saytdan chiqarilgan e'lonlar xotirasi: {raqam: sana}. Sana — e'lon kanalga chiqqan kun
+    (e'lon sanasi undan keyin bo'lsa — e'lon sanasi). Eski yozuvlarni save_state() o'chiradi."""
+    def __init__(self, src: str):
+        self.d = STATE.setdefault("mem", {}).setdefault(src, {})
 
-    def __contains__(self, x):
-        return (isinstance(x, int) and x < self.floor) or set.__contains__(self, x)
+    def __contains__(self, x) -> bool:
+        return str(x) in self.d
+
+    def __len__(self) -> int:
+        return len(self.d)
+
+    def __isub__(self, other):
+        for x in other:
+            self.d.pop(str(x), None)
+        return self
+
+    def add(self, x, ann_date: str = "") -> None:
+        d = max(today_uz(), parse_date(ann_date or "") or date.min).isoformat()
+        self.d[str(x)] = max(self.d.get(str(x), ""), d)
 
 
-def recover_forgotten() -> None:
-    """Bir martalik: eski 3000 talik cheklov sabab unutilgan e'lonlar qayta chiqmasligi uchun chegara qo'yamiz
-    va xato tufayli qayta chiqqan postlarni o'chirish uchun ro'yxatga olamiz."""
-    if STATE.get("floor_v1"):
+def migrate_memory() -> None:
+    """Eski xotira (raqamlar ro'yxati + chegara raqami) → yangi "raqam → sana" xotirasi.
+    Eski raqamlarga bugungi sana beriladi: KEEP_DAYS kun saqlanadi, keyin o'zi o'chadi —
+    o'sha paytda ularning e'lonlari baribir muddati o‘tgan bo'ladi va qayta chiqmaydi."""
+    t = today_uz().isoformat()
+    mem = STATE.setdefault("mem", {})
+    moved = 0
+    for src, key in (("oak", "seen"), ("uza", "seen_uza")):
+        m = mem.setdefault(src, {})
+        for i in STATE.pop(key, None) or []:
+            m.setdefault(str(i), t)
+            moved += 1
+    for k in ("oak_floor", "uza_floor", "floor_v1"):
+        STATE.pop(k, None)
+    if not STATE.get("mem_v1"):
+        STATE["mem_v1"] = True
+        log.info("Xotira yangi ko'rinishga o'tkazildi: %d ta yozuv (%s dan eskilari avtomatik o'chadi)",
+                 moved, KEEP_DAYS)
+
+
+# ---------- Takror ma'lumotni aniqlash (oxirgi KEEP_DAYS kun ichida) ----------
+# Qoida: aynan bir xil ma'lumot ikkinchi marta chiqmaydi; tuzatilib qayta joylangan e'lon esa chiqadi.
+#  • bir odamning e'loni boshqa yozuvda (lotin ↔ kirill) yana joylansa — bu nusxa, chiqmaydi;
+#  • shu yozuvda yangi raqam bilan joylansa — matni solishtiriladi: bir xil bo'lsa chiqmaydi,
+#    biror narsa o'zgargan bo'lsa (himoya sanasi, vaqti, opponent ...) — tuzatilgan e'lon sifatida chiqadi.
+
+def id_key(item: dict) -> str:
+    return f"{'u' if item.get('source') == 'uza' else ''}{item['id']}"
+
+
+def person_slot(item: dict) -> str:
+    """Sayt + familiya + ism + daraja (lotin/kirill/yangi alifbo/rus yozuvi farqisiz)."""
+    info = get_info(item)
+    toks = name_tokens(info.get("name", ""))
+    if len(toks) < 2:
+        return ""
+    return f"{'uza' if item.get('source') == 'uza' else 'oak'}|{toks[0]} {toks[1]}|{info.get('degree', '')}"
+
+
+def script_of(item: dict) -> str:
+    t = " ".join([item.get("person", ""), item.get("title", ""), item.get("description", "") or "",
+                  re.sub(r"<[^>]+>", " ", item.get("content_html", "") or "")[:4000]])
+    return "cyr" if len(re.findall(r"[\u0400-\u04FF]", t)) > len(re.findall(r"[A-Za-z]", t)) else "lat"
+
+
+def content_print(item: dict) -> str:
+    """E'lonning to'liq matnidan qisqa "barmoq izi". Yozuv farqlari hisobga olinmaydi, raqamlar hisobga olinadi."""
+    if item.get("api") and not item.get("content_html"):
+        enrich(item)
+    body = re.sub(r"<[^>]+>", " ", item.get("content_html", "") or "") or item.get("full") or item.get("summary") or ""
+    info = get_info(item)
+    toks = text_tokens(" ".join([info.get("name", ""), info.get("degree", ""), html.unescape(body)]))
+    return hashlib.sha1(" ".join(toks).encode()).hexdigest()[:16] if len(toks) >= 8 else ""
+
+
+def print_of(ik: str) -> str:
+    """Avval chiqqan e'lonning barmoq izi (saqlanmagan bo'lsa — saytdan o'qib hisoblaymiz)."""
+    rec = STATE.setdefault("prints", {}).get(ik)
+    if rec:
+        return rec.get("f", "")
+    try:
+        if ik.startswith("u"):
+            it = find_uza(int(ik[1:]))
+        else:
+            got = oak_detail(int(ik))
+            it = got[0] if got else None
+    except Exception as ex:  # noqa: BLE001
+        log.warning("Solishtirish uchun avvalgi e'lon (%s) o'qilmadi: %s", ik, ex)
+        raise RuntimeError("avvalgi e'lon o'qilmadi — keyingi tekshiruvda qayta urinamiz") from None
+    fp = content_print(it) if it else ""
+    STATE["prints"][ik] = {"d": today_uz().isoformat(), "f": fp}
+    return fp
+
+
+def patronym(item: dict) -> str:
+    toks = name_tokens(get_info(item).get("name", ""))
+    return toks[2][:4] if len(toks) >= 3 else ""
+
+
+def note_person(item: dict, fp: str = "") -> None:
+    """Kanalda bor e'lonni eslab qolamiz: kimniki, qaysi yozuvda, matnining barmoq izi."""
+    try:
+        slot = person_slot(item)
+    except Exception:  # noqa: BLE001
         return
-    STATE["floor_v1"] = True
-    seen, seen_u = STATE.get("seen", []), STATE.get("seen_uza", [])
-    if len(seen) >= OLD_MAX_SEEN:
-        STATE["oak_floor"] = min(seen)
-    if len(seen_u) >= OLD_MAX_SEEN:
-        STATE["uza_floor"] = min(seen_u)
-    of, uf = STATE.get("oak_floor", 0), STATE.get("uza_floor", 0)
-    recent = (today_uz() - timedelta(days=2)).isoformat()
-    dups = []
-    for k, v in STATE.get("posts", {}).items():
-        num = int(k[1:]) if k.startswith("u") else int(k)
-        floor = uf if k.startswith("u") else of
-        if num < floor and v.get("d", "") >= recent:       # eski e'lon, lekin shu kunlarda qayta chiqqan
-            dups += [m for m in (v.get("m"), v.get("f")) if m]
-    STATE["dup_msgs"] = dups
-    log.info("Tiklandi: OAK chegarasi %s, UzA chegarasi %s, takror xabarlar: %d", of, uf, len(dups))
-    if of or uf:
-        alert_admins("🛠 <b>Xato tuzatildi.</b> Bot kanalda chiqqan eski e’lonlarni unutib, ularni qayta yubora boshlagan edi. "
-                     "Endi bunday bo‘lmaydi."
-                     + (f"\n\n🗑 Xato tufayli qayta chiqqan <b>{len(dups) // 2} ta</b> takror post topildi. "
-                        "Ularni kanaldan o‘chirish uchun <code>/takror_ochir</code> deb yozing "
-                        "(48 soat ichida, botda «Delete messages» ruxsati bo‘lishi kerak)." if dups else ""))
+    t = today_uz().isoformat()
+    if fp:
+        STATE.setdefault("prints", {})[id_key(item)] = {"d": t, "f": fp}
+    if not slot:
+        return
+    e = STATE.setdefault("persons", {}).setdefault(slot, {"d": t, "ids": {}})
+    if not isinstance(e.get("ids"), dict):
+        e["ids"] = {}
+    e["d"] = t
+    e["ids"][id_key(item)] = {"s": script_of(item), "p": patronym(item)}
+    if len(e["ids"]) > 10:
+        e["ids"] = dict(list(e["ids"].items())[-10:])
+
+
+def repeat_reason(item: dict) -> str:
+    """Bu e'lon kanalda bor ma'lumotning takrori bo'lsa — sababini qaytaradi, aks holda ""."""
+    slot = person_slot(item)
+    e = STATE.get("persons", {}).get(slot) if slot else None
+    if not e or not isinstance(e.get("ids"), dict):
+        return ""
+    me, pat = id_key(item), patronym(item)
+    # Shu odam: familiya + ism + daraja bir xil va otasining ismi mos (biror yozuvda yo'q bo'lsa ham mos)
+    others = {i: v for i, v in e["ids"].items() if i != me and (not pat or not v.get("p") or v["p"] == pat)}
+    if not others:
+        return ""
+    sc = script_of(item)
+    same = [i for i, v in others.items() if v.get("s") == sc]
+    if not same:
+        return "shu e’lonning boshqa yozuvdagi (lotin/kirill) nusxasi kanalda bor"
+    fp = content_print(item)
+    if fp and any(print_of(i) == fp for i in same):
+        return "aynan shu ma’lumot kanalda bor"
+    return ""
 
 
 def delete_dups(chat_id) -> None:
@@ -2415,8 +2555,11 @@ def delete_dups(chat_id) -> None:
 
 def run_once() -> None:
     existed = load_state()
-    recover_forgotten()
-    seen = FloorSet(STATE.get("seen", []), STATE.get("oak_floor", 0))
+    migrate_memory()
+    save_state()                       # eski yozuvlarni darhol tozalaymiz, chegarani yangilaymiz
+    seen, seen_uza = Memory("oak"), Memory("uza")
+    log.info("Xotira: OAK %d ta, UzA %d ta (chegara: %s dan eskilari o'chadi)",
+             len(seen), len(seen_uza), STATE["chegara"])
     # 0) Token tekshiruvi — ishlamasa, ishga tushirish QIZIL bo'lib tugaydi (yashirin qolmaydi)
     try:
         me = _tg("getMe", {})
@@ -2468,7 +2611,8 @@ def run_once() -> None:
                     notify_watchers(it, publish(it, "UzA", silent=is_silent(it)))
                     results[raw] = "✅ yuborildi"
                     note_post(it)
-                    STATE.setdefault("seen_uza", []).append(it["id"])
+                    seen_uza.add(it["id"], it.get("date", ""))
+                    note_person(it, content_print(it))
                     save_state(seen)
                     log.info("Qo'lda yuborildi (UzA): %s", it["url"])
                     time.sleep(3)
@@ -2489,7 +2633,8 @@ def run_once() -> None:
                 if key:
                     STATE.setdefault("people", {})[key] = {**res, "src": "oak", "d": today_uz().isoformat()}
                 log.info("Qo'lda yuborildi: %s", got[0]["url"])
-                seen.add(pid)
+                seen.add(pid, got[0].get("date", ""))
+                note_person(got[0], content_print(got[0]))
                 save_state(seen)
                 time.sleep(3)
         except Exception as e:  # noqa: BLE001
@@ -2516,12 +2661,10 @@ def run_once() -> None:
             or os.environ.get("DEEP_SCAN", "") == "1")
     if deep:
         STATE["last_deep"] = datetime.now(timezone.utc).isoformat()
-    seen_uza = FloorSet(STATE.get("seen_uza", []), STATE.get("uza_floor", 0))
     t0 = time.time()
     items = collect(seen, deep, full)
     t1 = time.time()
     if UZA_ENABLED:
-        build_uza_keys(seen_uza)
         items += collect_uza(seen_uza, deep, full)
     log.info("⏱ OAK tekshiruvi: %.0f s, UzA tekshiruvi: %.0f s", t1 - t0, time.time() - t1)
     # Ikkala saytdagi e'lonlar birgalikda, eskidan yangiga
@@ -2541,14 +2684,13 @@ def run_once() -> None:
     for item, section in batch:
         is_uza = item.get("source") == "uza"
         try:
-            # UzA'da bitta e'lon lotin va kirill yozuvida ikki marta joylanishi mumkin — bittasini chiqaramiz
-            ukey = person_key(get_info(item)) if is_uza else ""
-            ukey2 = person_key2(get_info(item)) if is_uza else ""
-            ukeys = STATE.setdefault("uza_keys", {})
-            if (ukey and ukey in ukeys) or (ukey2 and ukey2 in ukeys):
-                log.info("UzA: shu e'lonning boshqa yozuvdagi nusxasi allaqachon chiqqan — %s", item["url"])
+            # Takror ma'lumot (lotin/kirill nusxasi yoki aynan bir xil matn) — chiqmaydi; tuzatilgan e'lon — chiqadi
+            why = repeat_reason(item)
+            if why:
+                log.info("Takror — %s: %s", why, item["url"])
+                note_person(item)
                 dups += 1
-                STATE["seen_uza"].append(item["id"])
+                (seen_uza if is_uza else seen).add(item["id"], item.get("date", ""))
                 done += 1
                 save_state(seen)
                 continue
@@ -2569,9 +2711,7 @@ def run_once() -> None:
                 remember_post(item, res)
                 notify_watchers(item, res)
                 posted += 1
-                for k in (ukey, ukey2):
-                    if k:
-                        STATE.setdefault("uza_keys", {})[k] = today_uz().isoformat()
+                note_person(item, content_print(item))
                 if key:
                     people[key] = {**res, "src": "uza" if is_uza else "oak", "d": today_uz().isoformat()}
                 log.info("Yuborildi: %s (%s)", item["url"], item["date"])
@@ -2594,7 +2734,7 @@ def run_once() -> None:
             del STATE["skipped"][:-20]
             alert_admins("⚠️ E’lon 3 marta yuborilmadi va o‘tkazib yuborildi:\n" + item["url"]
                          + "\n\n" + explain_error(err))
-        (STATE.setdefault("seen_uza", []).append(item["id"]) if is_uza else seen.add(item["id"]))
+        (seen_uza if is_uza else seen).add(item["id"], item.get("date", ""))
         done += 1
         save_state(seen)   # har e'londan keyin saqlaymiz — takror bo'lmasligi uchun
 
