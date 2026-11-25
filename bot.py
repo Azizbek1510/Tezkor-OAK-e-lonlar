@@ -744,6 +744,12 @@ def person_key(info: dict) -> str:
     return f"{tokens[0]} {tokens[1]}|{info.get('degree', '')}"
 
 
+def person_key2(info: dict) -> str:
+    """Kuchaytirilgan kalit: lotin/kirill/yangi alifbo va rus uslubidagi farqlar (Xo‘jayev/Xujayev/Ходжаев) bir xil."""
+    toks = name_tokens(info.get("name", ""))
+    return f"v2|{toks[0]} {toks[1]}|{info.get('degree', '')}" if len(toks) >= 2 else ""
+
+
 def merge_into_post(rec: dict, item: dict) -> None:
     """Shu odam haqidagi post allaqachon bor — yangi saytdagi qo'shimcha ma'lumotni unga qo'shamiz."""
     info = get_info(item)
@@ -2537,7 +2543,9 @@ def run_once() -> None:
         try:
             # UzA'da bitta e'lon lotin va kirill yozuvida ikki marta joylanishi mumkin — bittasini chiqaramiz
             ukey = person_key(get_info(item)) if is_uza else ""
-            if ukey and ukey in STATE.setdefault("uza_keys", {}):
+            ukey2 = person_key2(get_info(item)) if is_uza else ""
+            ukeys = STATE.setdefault("uza_keys", {})
+            if (ukey and ukey in ukeys) or (ukey2 and ukey2 in ukeys):
                 log.info("UzA: shu e'lonning boshqa yozuvdagi nusxasi allaqachon chiqqan — %s", item["url"])
                 dups += 1
                 STATE["seen_uza"].append(item["id"])
@@ -2561,8 +2569,9 @@ def run_once() -> None:
                 remember_post(item, res)
                 notify_watchers(item, res)
                 posted += 1
-                if ukey:
-                    STATE.setdefault("uza_keys", {})[ukey] = today_uz().isoformat()
+                for k in (ukey, ukey2):
+                    if k:
+                        STATE.setdefault("uza_keys", {})[k] = today_uz().isoformat()
                 if key:
                     people[key] = {**res, "src": "uza" if is_uza else "oak", "d": today_uz().isoformat()}
                 log.info("Yuborildi: %s (%s)", item["url"], item["date"])
