@@ -1979,12 +1979,24 @@ def name_tokens(name: str) -> list[str]:
 
 
 def names_match(watch_name: str, item_name: str) -> bool:
+    """Kuzatuvdagi ism e'londagi ismga mosmi. Quyidagi yozilishlar hisobga olinadi:
+      Familiya Ism Otasining_ismi | Familiya Ism | Ism Otasining_ismi (familiyasiz) | Ism Familiya (teskari)."""
     a, b = name_tokens(watch_name), name_tokens(item_name)
-    if len(a) < 2 or len(b) < 2 or a[0] != b[0] or a[1] != b[1]:
+    if len(a) < 2 or len(b) < 2:
         return False
-    if len(a) >= 3 and len(b) >= 3:            # otasining ismi ikkalasida bo'lsa — u ham mos kelsin
-        return a[2][:5] == b[2][:5]
-    return True
+
+    def pat(x: str, y: str) -> bool:           # otasining ismi: "Zafarali" = "Zafaraliyevich" = "Zafarali o‘g‘li"
+        return x[:5] == y[:5]
+
+    if a[0] == b[0] and a[1] == b[1]:          # familiya + ism
+        return pat(a[2], b[2]) if len(a) >= 3 and len(b) >= 3 else True
+    if len(a) == 2 and len(b) >= 3 and a[0] == b[1] and pat(a[1], b[2]):
+        return True                            # "Nuriddin Zafarali o‘g‘li" ↔ "Qo‘ysinaliyev Nuriddin Zafarali o‘g‘li"
+    if len(b) == 2 and len(a) >= 3 and a[1] == b[0] and pat(a[2], b[1]):
+        return True                            # kuzatuvda familiya bor, e'londa yo'q
+    if len(a) == 2 and a[0] == b[1] and a[1] == b[0]:
+        return True                            # "Nuriddin Qo‘ysinaliyev" (teskari tartib)
+    return False
 
 
 def watch_link(w: dict) -> str:
@@ -2025,6 +2037,7 @@ def notify_watchers(item: dict, res: dict) -> None:
     if not item_name:
         return
     src = "UzA" if item.get("source") == "uza" else "OAK"
+    sent_to = set()                               # bitta e'lon bitta odamga bir marta boradi
     for w in PRIV["watch"]:
         if src in w.get("done", []) or not names_match(w["name"], item_name):
             continue
@@ -2032,7 +2045,10 @@ def notify_watchers(item: dict, res: dict) -> None:
               "msg": res.get("msg"), "pdf": res.get("pdf")}
         resolve_contact(w)
         w.setdefault("done", []).append(src)
+        if w.get("chat") and w["chat"] in sent_to:
+            continue                              # shu foydalanuvchining boshqa yozuvi bilan allaqachon yuborildi
         if deliver(w, ev):
+            sent_to.add(w["chat"])
             alert_admins(f"✅ <b>{html.escape(w['name'])}</b> — {src} e’loni chiqdi va "
                          f"{html.escape(w.get('contact') or 'mijoz')}ga yuborildi.")
         else:
