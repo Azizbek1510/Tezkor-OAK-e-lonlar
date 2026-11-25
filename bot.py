@@ -1617,6 +1617,8 @@ def load_state() -> bool:
                     log.error("Mijozlar ro'yxatini ochib bo'lmadi (DATA_KEY o'zgarganmi?): %s", e)
         PRIV.setdefault("watch", [])
         PRIV.setdefault("users", {})
+        for w in PRIV["watch"]:                   # avval saqlangan ismlarni ham tartibga keltiramiz
+            w["name"] = tidy_name(w["name"])
         return True
     STATE = {"seen": []}
     return False
@@ -1970,7 +1972,7 @@ def name_tokens(name: str) -> list[str]:
     t = re.sub(r"[‘’'ʻ`ʼ]", "", t)                       # o‘, g‘ dagi tutuq belgisi
     t = re.sub(r"\b(qizi|qizining|kizi|ogli|oglining|ugli|uli|ning)\b", " ", t)
     t = t.replace("kh", "h").replace("x", "h").replace("dzh", "j").replace("dj", "j").replace("zh", "j")
-    t = t.replace("q", "k").replace("ye", "e").replace("yo", "e").replace("yu", "u").replace("ts", "s")
+    t = t.replace("q", "k").replace("ye", "e").replace("yo", "o").replace("yu", "u").replace("ya", "a").replace("ts", "s")
     t = re.sub(r"[aou]", "o", t)                         # rus/o‘zbek yozuvida o, u, a almashadi
     toks = re.findall(r"[a-z]+", t)
     return [re.sub(r"ning$", "", w) for w in toks]
@@ -2056,6 +2058,8 @@ def tidy_name(raw: str) -> str:
         if w.isupper() or w.islower():
             w = w[:1].upper() + w[1:].lower()
         words.append(w)
+    if len(words) >= 2 and len(words[-1]) > 7 and words[-1].lower().endswith("ning"):
+        words[-1] = words[-1][:-4]                # "...Xayrullayevnaning" → "...Xayrullayevna", "qizining" → "qizi"
     name = " ".join(words)
     return re.sub(r"\b(Qizi|O‘g‘li)\b", lambda m: m.group(1).lower(), name)
 
