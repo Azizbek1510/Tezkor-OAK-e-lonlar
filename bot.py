@@ -212,11 +212,23 @@ _CYR = {
 _VOWELS = set("аеёиоуэюяўaeiou")
 
 
+# Yangi o'zbek lotin alifbosi (ş, ç, ö, ğ, ñ) → kanaldagi odatiy yozuv (sh, ch, o‘, g‘, ng)
+_NEW_LAT = {"ş": "sh", "ç": "ch", "ö": "o‘", "ğ": "g‘", "ñ": "ng", "ı": "i"}
+
+
 def to_latin(text: str) -> str:
+    """Kirill va yangi lotin alifbosidagi matnni odatiy o'zbek lotin yozuviga o'giradi."""
     out = []
     for i, ch in enumerate(text):
         low = ch.lower()
         prev = text[i - 1].lower() if i > 0 else " "
+        if low in _NEW_LAT:
+            lat = _NEW_LAT[low]
+            if ch.isupper():
+                nxt = text[i + 1] if i + 1 < len(text) else ""
+                lat = lat.upper() if (nxt.isupper() and len(lat) > 1 and lat[1].isalpha()) else lat[0].upper() + lat[1:]
+            out.append(lat)
+            continue
         if low == "е":
             lat = "ye" if (not prev.isalpha() or prev in _VOWELS or prev in "ъь") else "e"
         elif low in _CYR:
@@ -1832,10 +1844,28 @@ ADMIN_KEYBOARD = json.dumps({"keyboard": [[{"text": "🔄 Tekshir"}, {"text": "�
 BUTTONS = {"🔄 tekshir": "/tekshir", "📊 holat": "/holat", "👥 ro‘yxat": "/ruyxat"}
 
 
+USER_KEYBOARD = json.dumps({"keyboard": [[{"text": "📋 Mening ro‘yxatim"}]], "resize_keyboard": True,
+                            "is_persistent": True, "input_field_placeholder": "Familiya Ism Otasining ismi"})
+USER_BUTTONS = {"📋 mening ro‘yxatim": "/mening", "📋 mening ro'yxatim": "/mening"}
+USER_HELP = (
+    "👋 Assalomu alaykum! Bu — <b>Tezkor OAK e’lonlar</b> boti.\n\n"
+    "🔔 <b>E’loningizni kuzatib boramiz.</b> Familiya, ism va otangizning ismini yozib yuboring:\n"
+    "<code>Rasulova Ra’no Abdullayevna</code>\n\n"
+    "Bir nechta odamni kuzatish uchun har birini yangi qatordan yozing. Istalgan vaqtda yana qo‘shishingiz mumkin.\n\n"
+    "Dissertatsiya himoyasi haqidagi e’lon OAK yoki UzA saytida chop etilishi bilan shu yerga e’lon va "
+    "ma’lumotnomani yuboramiz. 🎓\n\n"
+    "📋 /mening — kuzatuvdagi ismlaringiz\n"
+    "🗑 /ochir 2 — №2 ni ro‘yxatdan o‘chirish\n\n"
+    "⏱ Bot javobi 10 daqiqa ichida keladi.\n"
+    "📢 Barcha himoya e’lonlari: {channel}"
+)
+
+
 def tg_reply(chat_id, text: str) -> None:
+    kb = ADMIN_KEYBOARD if str(chat_id) in ADMIN_IDS else USER_KEYBOARD
     try:
         _tg("sendMessage", {"chat_id": chat_id, "text": text, "parse_mode": "HTML",
-                            "disable_web_page_preview": True, "reply_markup": ADMIN_KEYBOARD})
+                            "disable_web_page_preview": True, "reply_markup": kb})
     except RuntimeError as e:
         log.warning("Adminga javob yuborilmadi: %s", e)
 
@@ -1874,12 +1904,7 @@ def read_admin_commands() -> list[dict]:
             continue
 
         if uid not in ADMIN_IDS:
-            if text.startswith("/start"):
-                tg_reply(chat["id"], "👋 Assalomu alaykum! Bu — <b>Tezkor OAK e’lonlar</b> kanalining boti.\n"
-                                     f"Himoya e’lonlari: {html.escape(CHANNEL_SIGNATURE or '')}")
-            elif uid not in told and text.startswith("/"):
-                tg_reply(chat["id"], "⛔️ Bu buyruqlar faqat kanal admini uchun.")
-            told.add(uid)
+            user_message(chat["id"], uid, user.get("username", ""), text)
             continue
 
         # Admin: kuzatuvga qo'shishning 2-qadami — kontakt (kartochka, @username yoki telefon)
@@ -1939,10 +1964,14 @@ BOT_USERNAME = ""
 
 
 def name_tokens(name: str) -> list[str]:
+    """Ismni solishtirish uchun yagona ko'rinishga keltiradi: lotin/kirill/yangi alifbo va rus uslubidagi
+    yozuv (Xo‘jayev / Xujayev / Khodjaev / Ходжаев / Hojayev) bir xil bo'ladi."""
     t = to_latin(name or "").lower()
-    t = re.sub(r"[‘’'ʻ`ʼ]", "", t)
-    t = re.sub(r"\b(qizi|qizining|ogli|oglining|ning|uli|kizi)\b", " ", t)
-    t = t.replace("x", "h").replace("ye", "e").replace("ts", "s").replace("yo", "e").replace("yu", "u")
+    t = re.sub(r"[‘’'ʻ`ʼ]", "", t)                       # o‘, g‘ dagi tutuq belgisi
+    t = re.sub(r"\b(qizi|qizining|kizi|ogli|oglining|ugli|uli|ning)\b", " ", t)
+    t = t.replace("kh", "h").replace("x", "h").replace("dzh", "j").replace("dj", "j").replace("zh", "j")
+    t = t.replace("q", "k").replace("ye", "e").replace("yo", "e").replace("yu", "u").replace("ts", "s")
+    t = re.sub(r"[aou]", "o", t)                         # rus/o‘zbek yozuvida o, u, a almashadi
     toks = re.findall(r"[a-z]+", t)
     return [re.sub(r"ning$", "", w) for w in toks]
 
@@ -2011,6 +2040,147 @@ def notify_watchers(item: dict, res: dict) -> None:
                          f"{watch_link(w)}")
 
 
+NAME_LINE_RE = re.compile(r"^[A-Za-zА-Яа-яЁёЎўҚқҒғҲҳŞşÇçÖöĞğÑñıʻʼ‘’'`\- ]{4,100}$")
+
+
+def looks_like_name(line: str) -> bool:
+    return bool(NAME_LINE_RE.match(line)) and 2 <= len(line.split()) <= 6 and len(name_tokens(line)) >= 2
+
+
+def tidy_name(raw: str) -> str:
+    """Ismni odatiy ko'rinishga keltiradi: kirill/yangi alifbo → lotin, BOSH HARF → Bosh harf."""
+    name = to_latin(re.sub(r"\s+", " ", raw).strip(" .,;"))
+    name = re.sub(r"['`ʼʻ]", "’", name).replace("o’", "o‘").replace("O’", "O‘").replace("g’", "g‘").replace("G’", "G‘")
+    words = []
+    for w in name.split():
+        if w.isupper() or w.islower():
+            w = w[:1].upper() + w[1:].lower()
+        words.append(w)
+    name = " ".join(words)
+    return re.sub(r"\b(Qizi|O‘g‘li)\b", lambda m: m.group(1).lower(), name)
+
+
+def user_watches(uid: str) -> list[dict]:
+    return [w for w in PRIV["watch"] if w.get("owner") == uid]
+
+
+def same_person(a: str, b: str) -> bool:
+    return names_match(a, b) and names_match(b, a)
+
+
+def user_list_text(uid: str) -> str:
+    ws = user_watches(uid)
+    if not ws:
+        return ("📋 Sizda kuzatuvdagi ism yo‘q.\n\nFamiliya, ism va otasining ismini yozib yuboring:\n"
+                "<code>Rasulova Ra’no Abdullayevna</code>")
+    lines = [f"📋 <b>Kuzatuvdagi ismlaringiz ({len(ws)} ta)</b>", ""]
+    for n, w in enumerate(ws, 1):
+        done = ", ".join(w.get("done", []))
+        lines.append(f"{n}. <b>{html.escape(w['name'])}</b> — " + (f"✅ chiqdi: {done}" if done else "⏳ kutilmoqda"))
+    lines += ["", "O‘chirish: <code>/ochir 1</code> (bir nechtasi: <code>/ochir 1 3</code>)"]
+    return "\n".join(lines)
+
+
+def user_add(chat_id, uid: str, username: str, names: list[str]) -> None:
+    """Foydalanuvchi o'zi kiritgan ismlarni kuzatuvga oladi (soni cheklanmaydi, takrorlar qo'shilmaydi)."""
+    import secrets
+    if not DATA_KEY:
+        tg_reply(chat_id, "⚠️ Kuzatuv xizmati vaqtincha ishlamayapti. Keyinroq urinib ko‘ring.")
+        return
+    added, dup = [], []
+    for raw in names:
+        name = tidy_name(raw)
+        if any(same_person(w["name"], name) for w in user_watches(uid)):
+            dup.append(name)
+            continue
+        w = {"id": max([x["id"] for x in PRIV["watch"]] + [0]) + 1, "name": name,
+             "contact": f"@{username}" if username else f"id {uid}", "chat": chat_id, "owner": uid,
+             "code": secrets.token_hex(4), "done": [], "missed": [], "added": today_uz().isoformat()}
+        PRIV["watch"].append(w)
+        added.append(w)
+    msg = []
+    if added:
+        msg.append(f"✅ <b>Kuzatuvga olindi: {len(added)} ta</b>")
+        msg += [f"{n}. {html.escape(w['name'])}" for n, w in enumerate(added, 1)]
+        msg += ["", "E’lon OAK yoki UzA saytida chop etilishi bilan shu yerga e’lon va ma’lumotnomani yuboramiz. 🎓",
+                f"📋 Jami kuzatuvda: {len(user_watches(uid))} ta"]
+    if dup:
+        msg += (["", ""] if msg else []) + ["👍 Allaqachon kuzatuvda: " + ", ".join(html.escape(d) for d in dup)]
+    if added:
+        msg += ["", "ℹ️ Kuzatuv bundan keyin chiqadigan e’lonlar uchun ishlaydi. Avval chiqqan e’lonni kanaldan "
+            f"qidiring: {html.escape(CHANNEL_SIGNATURE or '')}"]
+    tg_reply(chat_id, "\n".join(msg).strip())
+    if added:
+        who = f"@{username}" if username else f"id {uid}"
+        alert_admins(f"🆕 Foydalanuvchi {html.escape(who)} kuzatuvga qo‘shdi ({len(added)} ta):\n"
+                     + "\n".join(f"№{w['id']}. {html.escape(w['name'])}" for w in added))
+
+
+def user_message(chat_id, uid: str, username: str, text: str) -> None:
+    """Oddiy foydalanuvchi xabari: ism(lar) — buyruqsiz, har biri yangi qatorda; /mening, /ochir, /start."""
+    text = USER_BUTTONS.get(text.strip().lower(), text)
+    channel = html.escape(CHANNEL_SIGNATURE or "")
+    if not text.startswith("/"):
+        lines = [l.strip(" .,;-•") for l in text.splitlines() if l.strip()]
+        names = [l for l in lines if looks_like_name(l)]
+        if names:
+            user_add(chat_id, uid, username, names)
+            bad = [l for l in lines if l not in names]
+            if bad:
+                tg_reply(chat_id, "⚠️ Bu qatorlar ism sifatida tanilmadi:\n" + "\n".join(html.escape(b[:80]) for b in bad)
+                         + "\n\nFamiliya, ism va otasining ismini harflar bilan yozing.")
+        elif text.strip():
+            tg_reply(chat_id, USER_HELP.format(channel=channel))
+        return
+    parts = text.split(maxsplit=1)
+    cmd, arg = parts[0].lower().split("@")[0], (parts[1] if len(parts) > 1 else "")
+    if cmd == "/kuzat" and arg.strip():
+        user_message(chat_id, uid, username, arg)
+    elif cmd in ("/mening", "/ruyxat", "/royxat"):
+        tg_reply(chat_id, user_list_text(uid))
+    elif cmd == "/ochir":
+        ws = user_watches(uid)
+        nums = {int(x) for x in re.findall(r"\d+", arg)}
+        drop = {ws[n - 1]["id"] for n in nums if 1 <= n <= len(ws)}
+        PRIV["watch"] = [w for w in PRIV["watch"] if w["id"] not in drop]
+        tg_reply(chat_id, (f"🗑 O‘chirildi: {len(drop)} ta.\n\n" if drop else "Raqamni yozing: <code>/ochir 1</code>\n\n")
+                 + user_list_text(uid))
+    else:                                         # /start, /yordam va boshqalar
+        tg_reply(chat_id, USER_HELP.format(channel=channel))
+
+
+BOT_PROFILE_VERSION = 1
+
+
+def setup_bot_profile() -> None:
+    """Bot tavsifi va buyruqlar menyusi — Telegram ularni bot uxlab turganda ham darhol ko'rsatadi."""
+    if STATE.get("bot_profile") == BOT_PROFILE_VERSION:
+        return
+    try:
+        _tg("setMyDescription", {"description": (
+            "🔔 Dissertatsiya himoyangiz haqidagi e’lon OAK yoki UzA saytida chop etilishi bilan xabar beramiz.\n\n"
+            "Start bosing va familiya, ism, otangizning ismini yozib yuboring. Bir nechta odamni kuzatish uchun "
+            "har birini yangi qatordan yozing.\n\n⏱ Javob 10 daqiqa ichida keladi.")})
+        _tg("setMyShortDescription", {"short_description":
+            "OAK va UzA’dagi dissertatsiya himoyasi e’lonlari. Ismingizni yozing — e’loningiz chiqqanda xabar beramiz."})
+        _tg("setMyCommands", {"commands": json.dumps([
+            {"command": "mening", "description": "Kuzatuvdagi ismlarim"},
+            {"command": "ochir", "description": "Ismni ro‘yxatdan o‘chirish (masalan: /ochir 1)"},
+            {"command": "start", "description": "Yordam"}])})
+        for aid in ADMIN_IDS:
+            _tg("setMyCommands", {"scope": json.dumps({"type": "chat", "chat_id": int(aid)}), "commands": json.dumps([
+                {"command": "tekshir", "description": "To‘liq tekshiruv"},
+                {"command": "holat", "description": "Bot holati"},
+                {"command": "yubor", "description": "E’lonni raqami bo‘yicha yuborish"},
+                {"command": "kuzat", "description": "Mijozni kuzatuvga qo‘shish"},
+                {"command": "ruyxat", "description": "Kuzatuvdagi barcha ismlar"},
+                {"command": "ochir", "description": "Kuzatuvdan o‘chirish"}])})
+        STATE["bot_profile"] = BOT_PROFILE_VERSION
+        log.info("Bot tavsifi va buyruqlar menyusi o'rnatildi")
+    except RuntimeError as e:
+        log.warning("Bot tavsifini o'rnatib bo'lmadi: %s", e)
+
+
 def watch_add(chat_id, name: str, contact: str) -> None:
     import secrets
     if not DATA_KEY:
@@ -2020,7 +2190,7 @@ def watch_add(chat_id, name: str, contact: str) -> None:
     if len(name_tokens(name)) < 2:
         tg_reply(chat_id, "Familiya va ismni to‘liq yozing, masalan:\n<code>Rasulova Ra’no Abdullayevna</code>")
         return
-    w = {"id": max([x["id"] for x in PRIV["watch"]] + [0]) + 1, "name": name.strip(), "contact": contact.strip(),
+    w = {"id": max([x["id"] for x in PRIV["watch"]] + [0]) + 1, "name": tidy_name(name), "contact": contact.strip(),
          "chat": 0, "code": secrets.token_hex(4), "done": [], "missed": [], "added": today_uz().isoformat()}
     resolve_contact(w)
     PRIV["watch"].append(w)
@@ -2036,7 +2206,7 @@ def watch_list_text() -> str:
         return "👥 Kuzatuv ro‘yxati bo‘sh.\n\nQo‘shish: <code>/kuzat Familiya Ism Otasining_ismi @username</code>"
     lines = ["👥 <b>Kuzatuvdagi mijozlar</b>", ""]
     for w in PRIV["watch"]:
-        st = "✅ ulangan" if w.get("chat") else "⏳ Start bosmagan"
+        st = ("👤 o‘zi qo‘shgan" if w.get("owner") else "✅ ulangan") if w.get("chat") else "⏳ Start bosmagan"
         done = ", ".join(w.get("done", [])) or "—"
         lines.append(f"№{w['id']}. <b>{html.escape(w['name'])}</b> — {html.escape(w.get('contact') or '—')}\n"
                      f"     {st} | chiqqan e’lonlar: {done}")
@@ -2153,6 +2323,7 @@ def run_once() -> None:
         global BOT_USERNAME
         BOT_USERNAME = me.get("username", "")
         log.info("Bot: @%s", BOT_USERNAME or "?")
+        setup_bot_profile()
     except RuntimeError as e:
         log.error("❌ BOT_TOKEN ishlamayapti: %s", e)
         raise SystemExit("BOT_TOKEN noto'g'ri yoki bekor qilingan — GitHub Secrets'da yangilang")
